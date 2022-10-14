@@ -3,6 +3,7 @@ import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem }
 import Checkbox from '@/components/Checkbox/Checkbox';
 import Button from '@/components/Button/Button';
 import { ButtonInit } from "@/components/fixture";
+import { CheckboxConfig } from "@/types/Checkbox.types";
 
 const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, options }, onSelectedOptions, clear }: FilterDropdownComponentData) => {
 
@@ -10,14 +11,14 @@ const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, optio
   const [ optionsList, setOptionsList ] = useState<any[]>([])
   const [ buttonConfig, setButtonConfig ] = useState({ ...ButtonInit, title: 'Aplicar', type: 'outlined', disabled: true });
 
-  const [ optionsCollection, setOptionsCollection ] = useState<OptionDropdownItem[]>([]);
+  const [ optionsCollection, setOptionsCollection ] = useState<CheckboxConfig[]>([]);
   const [ configComponent, setConfigComponent ] = useState<FilterDropdownConfig>({ label: "" });
 
   const onOpenClose = () => setOpen(!open)
 
   const getOptionSelected = (evt: CustomEvent, position: number) => {
     const { data: { selected } } = (evt.target as any);
-    const option = optionsCollection[position].value;
+    const option = optionsCollection[position].label;
     setOptionsList((state: string[]) => selected ? [...state, option] : state.filter((item: string) => item !== option))
   }
   
@@ -29,16 +30,13 @@ const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, optio
   }
   
   useEffect(() => {
-    setOptionsCollection(() => options);
+    setOptionsCollection(() => options.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
     setConfigComponent(() => config);
   }, [config, options])
   
   useEffect(() => {
     setButtonConfig({ ...buttonConfig, disabled: !optionsList.length })
-  }, [optionsList])
-
-  useEffect(() => {
-  }, [optionsCollection])
+  }, [optionsList])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
     <section className="dropdown" onClick={onOpenClose}>
@@ -48,7 +46,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, optio
     </section>
     <section className="dropdown-list" style={{ display: open ? 'flex' : 'none' }}>
       {
-        optionsCollection.map((option: OptionDropdownItem, i: number) => 
+        optionsCollection.map((option: CheckboxConfig, i: number) => 
           <div key={`optionDropdown-${i}`}>
             <Checkbox data={option} onCheck={(evt: CustomEvent) => getOptionSelected(evt, i)} />
           </div>
