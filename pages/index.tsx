@@ -1,26 +1,56 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import { useEffect } from 'react';
 
 const Home: NextPage = () => {
+  useEffect( () => {
+    // we need import elements with commonJS
+    if (typeof window !== 'undefined') {
+      require("lottus-elements-uane/elements")
+    }
+  }, [])
+
+  const components = [
+    "youtube",
+    "spotify",
+    "lottie",
+    "richtext",
+    "filter",
+    "filter-dropdown"
+  ];
+  const programs = [
+    "design",
+    "code",
+  ];
+
   return (
-    <>Diseño
+    <>
       <Head>
         <title>Portalverse</title>
       </Head>
       <h1 className='text-center'>Welcome to Portalverse</h1>
       <h2>Programas Disponibles</h2>
       <ul>
-        <li>
-          <Link href="/educative-offer/design">
-            <a>Diseño</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/educative-offer/code">
-            <a>Código</a>
-          </Link>
-        </li>
+        {
+          programs.map((item: string, i: number) => <li key={`program-${i}`}>
+            <Link href={`/educative-offer/${item}`}>
+              <a>{item}</a>
+            </Link>
+          </li>
+          )
+        }
+      </ul>
+      <h2>Componentes disponibles</h2>
+      <ul>
+        {
+          components.map((item: string, i: number) => <li key={`component-${i}`}>
+            <Link href={`/components/${item}`}>
+              <a>{item}</a>
+            </Link>
+          </li>
+          )
+        }
       </ul>
     </>
   )

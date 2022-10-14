@@ -1,12 +1,13 @@
+import { useEffect } from "react"
 import Head from "next/head"
 import Link from "next/link"
-import { useEffect } from "react"
+import Routes from "@/routes/Routes"
 
 const EducativeOfferProgram = ({ data }: any) => {
 
   useEffect(() => {
     console.log("post", data)
-  }, [])
+  }, [])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
     <Head>
@@ -22,16 +23,17 @@ const EducativeOfferProgram = ({ data }: any) => {
 
 export async function getStaticPaths() {
   return {
-    paths: [{ params: { program: "design" } }, { params: { program: "code" } }],
-    fallback: false, // can also be true or 'blocking'
+    paths: Routes["educative-offer"],
+    fallback: false,
   }
 }
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
+  const path = "program";
   const programs = [
-    { program: "design", description: "soy algo", title: "Diseño" },
-    { program: "code", description: "soy algo nuevo", title: "Código" }
+    { [path]: "design", description: "soy algo", title: "Diseño" },
+    { [path]: "code", description: "soy algo nuevo", title: "Código" }
   ];
   const { params: { program } } = context;
   const preFilter = programs.filter((item: any) => item.program === program)
