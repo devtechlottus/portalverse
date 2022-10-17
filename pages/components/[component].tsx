@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Routes from "routes/Routes";
 import Filter from "@/components/Filter/Filter";
 import Lottie from "@/components/Lottie";
@@ -58,9 +57,6 @@ const ComponentPage = ({ data }: any) => {
     <Head>
       <title>{ componentState.title }</title>
     </Head>
-    <Link href="/">
-      <a>Home</a>
-    </Link>
     {
       renderComponent(componentState.component)
     }
