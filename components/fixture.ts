@@ -1,4 +1,5 @@
 import { ButtonInterface } from "@/types/Button.types";
+import { InputConfig } from "@/types/Input.types";
 import { LinkIconsConfig } from "@/types/LinkLottus.types";
 
 export const ButtonInit: ButtonInterface = {
@@ -22,3 +23,21 @@ export const LinkIconsInit: LinkIconsConfig = {
   iconFirst: '',
   iconSecond: '',
 };
+
+export const InputInit: InputConfig = {
+  label: '',
+  name: '',
+  type: 'text',
+  typeButton: 'classic',
+  maxlength: '',
+  onPaste: true,
+  placeholder: '',
+  autocomplete: 'off',
+  disabled: false,
+  alphanumeric: false,
+  alphabetical: true,
+  onlyNumbers: false,
+  upperCase: false,
+  pattern: '',
+};
+

@@ -1,6 +1,5 @@
 import { useEffect } from "react"
 import Head from "next/head"
-import Link from "next/link"
 import Routes from "@/routes/Routes"
 
 const EducativeOfferProgram = ({ data }: any) => {
@@ -13,9 +12,6 @@ const EducativeOfferProgram = ({ data }: any) => {
     <Head>
       <title>{data.title}</title>
     </Head>
-    <Link href="/">
-      <a>Home</a>
-    </Link>
     <h1>Carrera: {data.program}</h1>
     <p>{data.description}</p>
   </>
