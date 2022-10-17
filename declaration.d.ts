@@ -12,5 +12,7 @@ declare namespace JSX {
     ['lottus-checkbox']: CustomElement,
     ['lottus-filter-portalverse-container']: CustomElementContainer,
     ['lottus-filter-dropdown']: CustomElement,
+    ['lottus-input']: CustomElement,
+    ['lottus-filter-footer-portalverse']: CustomElement,
   }
 }
