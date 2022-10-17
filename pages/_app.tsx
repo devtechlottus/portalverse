@@ -1,8 +1,11 @@
-import '@/styles/globals.scss'
 import type { AppProps } from 'next/app'
+import HeaderFooterLayout from '@/layouts/HeaderFooter.layout'
+import '@/styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <HeaderFooterLayout>
+    <Component {...pageProps} />
+  </HeaderFooterLayout>
 }
 
 export default MyApp
