@@ -113,7 +113,7 @@ const Footer = (props: any) => {
 
   useEffect(() => {
     (footerPortalverseRef.current as any).data = {...datafooterportalverse};
-  })
+  }, [datafooterportalverse]) // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-filter-footer-portalverse ref={footerPortalverseRef}></lottus-filter-footer-portalverse>
 }

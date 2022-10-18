@@ -1,13 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import IconComponent from "@/components/Icon";
+import Button from "@/components/Button/Button";
+import { ButtonInit } from "@/components/fixture";
 
 const Header = () => {
+
+  const buttonInfo = { ...ButtonInit, title: "Pedir información"};
+
   return <section className="w-full flex border-b-2 border-solid border-black font-Nunito">
     <div className="py-6 px-7">
       <Link href={"/"}>
         <a>
-          <Image src="https://www.fimpes.org.mx/images/universidades/uane.PNG" width={143} height={38} />
+          <Image src="https://www.fimpes.org.mx/images/universidades/uane.PNG" width={143} height={38}  alt="logo" />
         </a>
       </Link>
     </div>
@@ -35,7 +40,7 @@ const Header = () => {
           <IconComponent name="search" className="w-6" />
         </div>
         <div className="px-8">
-          <button>Pedir informes</button>
+          <Button data={buttonInfo} />
         </div>
       </div>
     </div>

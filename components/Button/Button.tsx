@@ -22,11 +22,7 @@ const Button = ({data, onClick}: any) => {
     (buttonRef.current as any).addEventListener('onClick', onClick);
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
-  return (
-    <>
-      <lottus-button ref={buttonRef}></lottus-button>
-    </>
-  )
+  return <lottus-button ref={buttonRef}></lottus-button>
 }
 
 export default Button;
