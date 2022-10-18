@@ -29,6 +29,11 @@ const Home: NextPage = () => {
       <title>Portalverse</title>
     </Head>
     <h1 className='text-center'>Welcome to Portalverse</h1>
+    <Link href="/directorio">
+      <a>
+        Directorio
+      </a>
+    </Link>
     <h2>Programas Disponibles</h2>
     <ul>
       {
