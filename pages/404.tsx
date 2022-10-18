@@ -1,9 +1,9 @@
-import { FC } from "react";
+import { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-const NotFound: FC = _ => {
+const NotFound: NextPage = _ => {
   return <>
     <Head>
       <title>Not Found</title>
