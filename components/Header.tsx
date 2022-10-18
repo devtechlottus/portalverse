@@ -12,7 +12,7 @@ const Header = () => {
     <div className="py-6 px-7">
       <Link href={"/"}>
         <a>
-          <Image src="https://www.fimpes.org.mx/images/universidades/uane.PNG" width={143} height={38} />
+          <Image src="https://www.fimpes.org.mx/images/universidades/uane.PNG" width={143} height={38}  alt="logo" />
         </a>
       </Link>
     </div>
