@@ -12,14 +12,14 @@ const Directory: FC<DirectoryComponentData> = ({ directory }: DirectoryComponent
       <h1 className="font-Poppins font-bold text-13 leading-16.25 text-dark">Directorio Universitario</h1>
       <p className="font-Nunito font-normal text-base leading-5 mb-8.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
       {
-        directory.map(({ title, contacts }: SectionData) => <section className="mb-18">
+        directory.map(({ title, contacts }: SectionData, i: number) => <section key={`section-directory-${i}`} className="mb-18">
             <h2 className="font-Poppins font-bold text-10 leading-12.5">{title}</h2>
             <div className="mt-6 flex flex-wrap gap-6">
               {
-                contacts.map(({ name, email, phone, image = '' }: ContactData) => <div className="bg-SC/Backgrounds/BG-GRAY flex">
+                contacts.map(({ name, email, phone, image = '' }: ContactData, j: number) => <div key={`card-item-${j}`} className="bg-SC/Backgrounds/BG-GRAY flex">
                     {
                       !!image
-                        ? <Image src={image} />
+                        ? <Image alt="contact-image" src={image} />
                         : <div className="bg-[gray] rounded w-22 h-22" />
                     }
                     <div className="flex flex-col justify-center p-3">
