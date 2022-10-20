@@ -29,6 +29,7 @@ module.exports = {
         "SC-Actions-AC-200": "#F2F2F2",
         "SC/Blackandgrey/B-60": "#686868",
         "SC/Backgrounds/BG-GRAY": "#F2F2F2",
+        "Brands/UANE/Primary/UANE-P-00": "#B0003C",
         "UNI-066": "#555555",
         "dark": "#282828",
       },

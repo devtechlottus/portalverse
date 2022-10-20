@@ -11,6 +11,12 @@ const Routes = {
     { params: { "program": "design" } },
     { params: { "program": "code" } }
   ],
+  "faq": [
+    { params: { "section": "new-incomming" } },
+    { params: { "section": "community" } },
+    { params: { "section": "virtual-classroom" } },
+    { params: { "section": "internationalization" } },
+  ],
 }
 
 export default Routes;

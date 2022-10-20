@@ -21,7 +21,8 @@
       "@/components/*": ["./components/*"],
       "@/types/*": ["./types/*"],
       "@/routes/*": ["./routes/*"],
-      "@/layouts/*": ["./layouts/*"]
+      "@/layouts/*": ["./layouts/*"],
+      "@/dummy/*": ["./dummy/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
