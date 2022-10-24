@@ -6,12 +6,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    screens:{      
+      "w-p": {"max": '599px'},
+      "w-t": {"min": '600px', "max": "1023px"},
+      "w-d": {"min":'1024px'},
+    },
     extend: {
       spacing: {
         "12.5": "3.125rem",
         "8.5": "2.125rem",
         18: "4.5rem",
         22: "5.5rem",
+        "grid-gap": "1.5rem"
       },
       fontSize: {
         "5.5": "1.375rem",
@@ -36,6 +42,14 @@ module.exports = {
       fontFamily: {
         "Nunito": ["Nunito"],
         "Poppins": ["Poppins"],
+      },
+      gridTemplateColumns:{
+        "12-gap": 'repeat(12, minmax(0, 1fr))',
+        "12-nogap": 'repeat(12, minmax(0, 1fr))',
+        "8-gap": 'repeat(8, minmax(0, 1fr))',
+        "8-nogap": 'repeat(8, minmax(0, 1fr))',
+        "4-gap": 'repeat(4, minmax(0, 1fr))',
+        "4-nogap": 'repeat(4, minmax(0, 1fr))',
       }
     },
   },
