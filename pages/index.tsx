@@ -28,8 +28,7 @@ const Home: NextPage = () => {
     <Head>
       <title>Portalverse</title>
     </Head>
-    <section className='grid grid-cols-12-gap w-t:grid-cols-8-gap w-p:grid-cols-4-gap gap-grid-gap'>
-<h1 className='text-center bg-red-400 w-t:bg-black w-p:bg-green-600 '>Welcome to Portalverse</h1>
+      <h1 className='text-center bg-red-400 w-t:bg-black w-p:bg-green-600 '>Welcome to Portalverse</h1>
     <Link href="/directorio">
       <a>
         Directorio
@@ -56,9 +55,7 @@ const Home: NextPage = () => {
         </li>
         )
       }
-    </ul>
-    </section>
-    
+    </ul>  
   </>
 }
 

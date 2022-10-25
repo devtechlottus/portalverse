@@ -9,7 +9,11 @@ module.exports = {
     screens:{      
       "w-p": {"max": '599px'},
       "w-t": {"min": '600px', "max": "1023px"},
-      "w-d": {"min":'1024px'},
+      "w-d": {"min": '1024px'},
+      "w-d-base": {"max": '1300px'}
+    },
+    maxWidth: {
+      "d-base": "1200px",
     },
     extend: {
       spacing: {
