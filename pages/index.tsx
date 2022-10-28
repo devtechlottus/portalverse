@@ -1,7 +1,8 @@
+import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useEffect } from 'react';
+import ContentInsideLayout from '@/layouts/ContentInside.layout';
 
 const Home: NextPage = () => {
   useEffect( () => {
@@ -23,39 +24,68 @@ const Home: NextPage = () => {
     "design",
     "code",
   ];
+  const faqs = [
+    { title:"Nuevo Ingreso", url: "new-incomming" },
+    { title:"Comunidad UANE", url: "community" },
+    { title:"Aula Virtual", url: "virtual-classroom" },
+    { title:"Internacionalización", url: "internationalization" },
+  ];
 
   return <>
     <Head>
       <title>Portalverse</title>
     </Head>
-      <h1 className='text-center bg-red-400 w-t:bg-black w-p:bg-green-600 '>Welcome to Portalverse</h1>
-    <Link href="/directorio">
-      <a>
-        Directorio
-      </a>
-    </Link>
-    <h2>Programas Disponibles</h2>
-    <ul>
-      {
-        programs.map((item: string, i: number) => <li key={`program-${i}`}>
-          <Link href={`/educative-offer/${item}`}>
-            <a>{item}</a>
+    <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+      <h1>Welcome to Portalverse</h1>
+      <ContentInsideLayout>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+          <Link href="/directorio">
+            <a>
+              Directorio
+            </a>
           </Link>
-        </li>
-        )
-      }
-    </ul>
-    <h2>Componentes disponibles</h2>
-    <ul>
-      {
-        components.map((item: string, i: number) => <li key={`component-${i}`}>
-          <Link href={`/components/${item}`}>
-            <a>{item}</a>
-          </Link>
-        </li>
-        )
-      }
-    </ul>  
+        </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+          <h1>Preguntas Frecuentes</h1>
+          <ul>
+            {
+              faqs.map(({ title, url }: any, i: number) => <li key={`faqs-${i}`}>
+                  <Link href={`/faq/${ url }`}>
+                    <a>{ title }</a>
+                  </Link>
+                </li>
+              )
+            }
+          </ul>
+        </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+          <h2>Programas Disponibles</h2>
+          <ul>
+            {
+              programs.map((item: string, i: number) => <li key={`program-${i}`}>
+                  <Link href={`/educative-offer/${item}`}>
+                    <a>{item}</a>
+                  </Link>
+                </li>
+              )
+            }
+          </ul>
+        </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+          <h2>Componentes disponibles</h2>
+          <ul>
+            {
+              components.map((item: string, i: number) => <li key={`component-${i}`}>
+                  <Link href={`/components/${item}`}>
+                    <a>{item}</a>
+                  </Link>
+                </li>
+              )
+            }
+          </ul>  
+        </div>
+      </ContentInsideLayout>
+    </section>
   </>
 }
 
