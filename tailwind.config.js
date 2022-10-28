@@ -25,6 +25,7 @@ module.exports = {
       },
       fontSize: {
         "5.5": "1.375rem",
+        6: "1.5rem",
         "8.5": "2.125rem",
         10: "2.5rem",
         13: "3.25rem",
@@ -54,6 +55,9 @@ module.exports = {
         "8-nogap": 'repeat(8, minmax(0, 1fr))',
         "4-gap": 'repeat(4, minmax(0, 1fr))',
         "4-nogap": 'repeat(4, minmax(0, 1fr))',
+        12: 'repeat(12, 1fr)',
+        8: 'repeat(8, 1fr)',
+        4: 'repeat(4, 1fr)',
       }
     },
   },
