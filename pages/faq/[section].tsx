@@ -5,7 +5,7 @@ import dummy from "@/dummy/dummy";
 import ContentInsideLayout from "@/layouts/ContentInside.layout";
 
 const FAQ = ({ data }: any) => {
-  return <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+  return <>
     <h1>Preguntas frecuentes</h1>
     <ContentInsideLayout classNames="gap-6">
       <div className="col-span-3 w-t:col-span-8 w-p:col-span-4 flex-grow-0">
@@ -38,7 +38,7 @@ const FAQ = ({ data }: any) => {
         }
       </div>
     </ContentInsideLayout>
-  </section>
+  </>
 };
 
 export function getStaticPaths() {
