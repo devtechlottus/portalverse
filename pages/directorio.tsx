@@ -9,7 +9,7 @@ const Directory: FC<DirectoryComponentData> = ({ directory }: DirectoryComponent
     <Head>
       <title>Directorio</title>
     </Head>
-    <section className="mx-auto mt-6 col-span-12 w-t:col-span-8 w-p:col-span-4 w-full">
+    <section className="mx-auto mt-6 w-full">
       <h1 className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-16.25 text-dark">Directorio Universitario</h1>
       <p className="font-Nunito font-normal text-base leading-5 mb-8.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
       {
