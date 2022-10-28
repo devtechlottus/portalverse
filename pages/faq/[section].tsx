@@ -2,14 +2,13 @@ import Link from "next/link";
 import Routes from "@/routes/Routes";
 import cn from "classnames";
 import dummy from "@/dummy/dummy";
-import Accordion from "@/components/Accordion/Accordion";
+import ContentInsideLayout from "@/layouts/ContentInside.layout";
 
 const FAQ = ({ data }: any) => {
-  console.log("data", data)
-  return <section>
+  return <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
     <h1>Preguntas frecuentes</h1>
-    <section className="w-full flex">
-      <div className="w-[30%] flex-grow-0">
+    <ContentInsideLayout classNames="gap-6">
+      <div className="col-span-3 w-t:col-span-8 w-p:col-span-4 flex-grow-0">
         <ul>
           {
             data.map((section: any, i:number) => <Link key={`section-item${i}`} href={`/faq/${section.route}`}>
@@ -24,7 +23,7 @@ const FAQ = ({ data }: any) => {
           }
         </ul>
       </div>
-      <div className="w-[70%] flex-grow overflow-y-auto">
+      <div className="col-span-9 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto">
         {
           data.map(({ questions }: any, i: number) => {
             if (!!questions.length) {
@@ -33,13 +32,12 @@ const FAQ = ({ data }: any) => {
                   <p>{question.answer}</p>
                 </div>
               )
-              // return <Accordion key={`question-item-${i}`} data={{items: [...questions]}} />
             }
             return null
           }) 
         }
       </div>
-    </section>
+    </ContentInsideLayout>
   </section>
 };
 
