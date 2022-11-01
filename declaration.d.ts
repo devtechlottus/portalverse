@@ -15,5 +15,6 @@ declare namespace JSX {
     ['lottus-input']: CustomElement,
     ['lottus-filter-footer-portalverse']: CustomElement,
     ['lottus-accordion']: CustomElement,
+    ['lottus-nav-portalverse']: CustomElement,
   }
 }
