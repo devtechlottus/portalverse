@@ -1,8 +1,8 @@
 import { FC } from "react"
 import Head from "next/head"
-import Image from "next/image"
 import DirectoryComponentData, { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import Image from "@/components/Image"
 
 const Directory: FC<DirectoryComponentData> = ({ directory }: DirectoryComponentData) => {
   return <>
