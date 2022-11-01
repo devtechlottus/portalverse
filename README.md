@@ -1,34 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portalverse
 
-## Getting Started
+Portalverse is a project developed as a base for the different brands of lottus, the development is carried out using NextJS.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+# Pre requirements
+For the operation of this project, the installation of the following dependencies is required.
+
+1-  [node](https://nodejs.org/en/): we will need a version of node between version 14.6.0 to the most recent, preferably version 16 or later.
+-- Installation on Windows: we will visit the [node](https://nodejs.org/en/) page and download the lts package, then we will click on the downloaded file and follow the installation steps.
+-- Installation on Linux: We open a terminal and execute the following commands in order:
+- **sudo apt update**
+- **sudo apt install nodejs** 
+- **nodejs -v**
+
+2.-  [yarn](https://yarnpkg.com/getting-started): as the code's package manager. To install it we will execute the command:
+- **npm install --global yarn**
+
+later we will see the version that has been installed to ensure the installation:
+- **yarn --version**
+
+## Getting started
+
+Once the dependencies are installed, we will start by cloning the project from the following link usando git clone:
+-[Portalverse app](https://lottusAdmin@dev.azure.com/lottusAdmin/Portalverse/_git/PORAppPortalNextJs) 
+Then we will move to the develop branch to download the latest changes using the command:
+- **git checkout develop**
+
+Once in the develop branch we will download the latest changes using the command
+- **git pull**
+
+Once we have the changes, we will create a new branch to generate our changes using the command:
+- **git checkout -b [branch name]**
+
+Now we will start the project using the command
+- **yarn dev**
+
+This will start a local server on port 3000, we will open the browser in the link [http://localhost:3000](http://localhost:3000) and we will be able to visualize the project.
+
+## Deployment 
+There are two environments for deployment
+1.- Netlify: deployment environment for development team testing.
+```
+domain: https://portalverse-alpha.netlify.app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.- Vercel: Deployment environment for consultation by the rest of the collaborators in the team.
+```
+domain: https://portalverse-beta.vercel.app
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Deployment in Netlify:
+We will position ourselves in the file env.local.example and we will generate a copy of this file called env.local where we will change the domain either netlify or vercel.
+Now to deploy the project we will start a terminal and position ourselves in the direction of the project and write the comand
+- **yarn export**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Later we will execute the command
+- **netlify deploy --prod**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Deploy in Vercel:
+We will use verecel CLI to deploy the project in a url to visualize the changes.
+The first step is to install [vercel CLI](https://vercel.com/docs/cli)
 
-## Learn More
+#### Install vercel CLI
+To install Vercel CLI via npm, in the terminal we will write the command:
+- **npm i -g vercel**
 
-To learn more about Next.js, take a look at the following resources:
+Or to install it via yarn we will use the command
+- **yarn global add vercel**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Later we will check the version of vercel that has been installed with the command
+- **vercel --version**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We will position ourselves in the file env.local.example and we will generate a copy of this file called env.local where we will change the domain either netlify or vercel.
 
-## Deploy on Vercel
+Now to deploy the project we will start a terminal and position ourselves in the direction of the project and write the comand
+- **yarn export**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ With the export command, which will generate a folder called **out** that contains the compiled version of the project.
+Then we will put the command
+- **vercel**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Once this is done, we will write the command 
+- **vercel --cwd out --prod **
+
+where we will select the out folder created previously.
+This command will ask us if we want to configure and deploy the project, we will say yes.
+Then it will ask us in which area we want to deploy and we will select
+- **portalverse-team-protonme**
+
+It will ask us if we want to link to an existing project.
+Once this process is done, the project will start deploying and it will generate the url where we can view it.
