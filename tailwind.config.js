@@ -6,7 +6,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    screens:{      
+    screens: {      
       "w-p": {"max": '599px'},
       "w-t": {"min": '600px', "max": "1023px"},
       "w-d": {"min": '1024px'},
@@ -48,7 +48,7 @@ module.exports = {
         "Nunito": ["Nunito"],
         "Poppins": ["Poppins"],
       },
-      gridTemplateColumns:{
+      gridTemplateColumns: {
         "12-gap": 'repeat(12, minmax(0, 1fr))',
         "12-nogap": 'repeat(12, minmax(0, 1fr))',
         "8-gap": 'repeat(8, minmax(0, 1fr))',
@@ -58,6 +58,14 @@ module.exports = {
         12: 'repeat(12, 1fr)',
         8: 'repeat(8, 1fr)',
         4: 'repeat(4, 1fr)',
+      },
+      aspectRatio: {
+        "1/1": "1 / 1",
+        "1/2": "1 / 2",
+        "2/1": "2 / 1",
+        "3/4": "3 / 4",
+        "4/3": "4 / 3",
+        "7/2": "7 / 2",
       }
     },
   },
