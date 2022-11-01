@@ -98,6 +98,11 @@ const Images = () => {
           />
         </div>
       </ContentInsideLayout>
+      <ContentInsideLayout>
+        <div className="col-span-12 gap-6 bg-slate-500">
+          <h1 className="aspect-1/1">aspect 1/2</h1>
+        </div>
+      </ContentInsideLayout>
     </section>
   </>
 }
