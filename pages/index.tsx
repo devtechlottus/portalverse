@@ -1,17 +1,9 @@
-import { useEffect } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import ContentInsideLayout from '@/layouts/ContentInside.layout';
 
 const Home: NextPage = () => {
-  useEffect( () => {
-    // we need import elements with commonJS
-    if (typeof window !== 'undefined') {
-      require("lottus-elements-uane/elements")
-    }
-  }, [])
-
   const components = [
     "youtube",
     "spotify",
