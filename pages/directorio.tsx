@@ -26,7 +26,7 @@ const Directory: FC<DirectoryComponentData> = ({ directory }: DirectoryComponent
                     <div className="flex flex-col justify-center p-3">
                       <p className="font-Nunito font-bold text-base leading-5.2">{name}</p>
                       <a className="font-Nunito font-normal text-base leading-5 text-SC/Blackandgrey/B-60" href={`mailto:${email}`}>{email}</a>
-                      <a className="font-Nunito font-normal text-base leading-5 text-SC/Blackandgrey/B-60" href={`tel+${phone.replace(/ /g, '')}`}>{phone}</a>
+                      <a className="font-Nunito font-normal text-base leading-5 text-SC/Blackandgrey/B-60" href={`tel:+${phone.replace(/ /g, '')}`}>{phone}</a>
                     </div>
                   </div>
                 )
