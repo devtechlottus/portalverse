@@ -1,8 +1,8 @@
+import { useEffect } from 'react'
 import type { AppProps } from 'next/app'
 import '@/styles/globals.scss'
 import HeaderFooterLayout from '@/layouts/HeaderFooter.layout'
 import ContentLayout from '@/layouts/Content.layout'
-import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
