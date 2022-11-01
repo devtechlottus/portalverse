@@ -3,6 +3,7 @@ import Routes from "@/routes/Routes";
 import cn from "classnames";
 import dummy from "@/dummy/dummy";
 import ContentInsideLayout from "@/layouts/ContentInside.layout";
+import Accordion from "@/components/Accordion/Accordion";
 
 const FAQ = ({ data }: any) => {
   return <>
@@ -27,11 +28,7 @@ const FAQ = ({ data }: any) => {
         {
           data.map(({ questions }: any, i: number) => {
             if (!!questions.length) {
-              return questions.map((question: any, i: number) => <div key={`question-item-${i}`} className="flex flex-col">
-                  <span>{question.title}</span>
-                  <p>{question.answer}</p>
-                </div>
-              )
+              return <Accordion key={`question-item-${i}`} data={{items: questions}} />
             }
             return null
           }) 
