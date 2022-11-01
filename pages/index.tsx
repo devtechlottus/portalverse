@@ -37,6 +37,13 @@ const Home: NextPage = () => {
         </Link>
       </div>
       <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+        <Link href="/images">
+          <a>
+            Imagenes
+          </a>
+        </Link>
+      </div>
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
         <h1>Preguntas Frecuentes</h1>
         <ul>
           {
