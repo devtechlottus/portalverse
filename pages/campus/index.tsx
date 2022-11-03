@@ -14,8 +14,8 @@ const Campus = ({ data }: any) => {
     <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-18">
       {
         data.map(({ title, coords, description, image }: any, i: number) => <ContentInsideLayout classNames="mb-8" key={`campus-data-${i}`}>
-            <Image classNames="col-span-4" alt={`campus-image-${i}`} src={image} />
-            <div className="col-span-4 border border-gray-300 rounded pl-3">
+            <Image classNames="col-span-4 w-t:col-span-3 w-p:col-span-4" alt={`campus-image-${i}`} src={image} />
+            <div className="col-span-4 border w-t:col-span-2 w-p:col-span-4 border-gray-300 rounded pl-3">
               <p className="font-Nunito font-normal text-base leading-5 my-2">{ title }</p>
               <p className="font-Poppins font-semibold text-4.5 leading-5.625 mb-2">{ description.state }</p>
               <p className="flex mb-2">
@@ -35,7 +35,7 @@ const Campus = ({ data }: any) => {
                 <IconComponent name="eye" className="ml-1 w-4" />
               </div>
             </div>
-            <Map coords={coords} classNames="col-span-4">
+            <Map coords={coords} classNames="col-span-4 w-t:col-span-3 w-p:col-span-4">
               {
                 ({TileLayer, Marker, Popup}: any) => (
                   <>
