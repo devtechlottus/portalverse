@@ -44,6 +44,13 @@ const Home: NextPage = () => {
         </Link>
       </div>
       <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+        <Link href="/campus">
+          <a className='flex text-2xl hover:underline hover:text-red-800'>
+            Campus
+          </a>
+        </Link>
+      </div>
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
         <h1 className='text-2xl'>Preguntas Frecuentes</h1>
         <ul className='flex justify-start'>
           {
