@@ -39,4 +39,4 @@ type LinkLottusComponentData = {
   onClick: () => void;
 }
 
-export default LinkLottusComponentData;
+export default LinkLottusComponentData

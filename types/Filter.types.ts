@@ -18,4 +18,4 @@ type FilterComponentData = {
   [filter: string]: ConfigItemFilterComponent;
 }
 
-export default FilterComponentData;
+export default FilterComponentData
