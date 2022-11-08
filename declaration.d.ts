@@ -1,5 +1,5 @@
-type CustomElement<T, K extends string> = Partial<T & DOMAttributes<T>>;
-type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T>  & { children: any }>;
+type CustomElement<T, K extends string> = Partial<T & DOMAttributes<T>>
+type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T>  & { children: any }>
 
 declare namespace JSX {
   interface IntrinsicElements {

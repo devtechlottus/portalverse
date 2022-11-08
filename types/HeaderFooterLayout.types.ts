@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
+import { ReactNode } from "react"
 
 type HeaderFooterLayoutProps = {
   children: ReactNode;
 };
 
-export default HeaderFooterLayoutProps;
+export default HeaderFooterLayoutProps

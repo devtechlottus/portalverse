@@ -12,13 +12,13 @@ const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
       selected: data.selected,
       name: data.name || "",
     };
-  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     (checkboxRef.current as any).addEventListener("onCheck", onCheck);
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-checkbox ref={checkboxRef}></lottus-checkbox>
 };
 
-export default Checkbox;
+export default Checkbox

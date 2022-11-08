@@ -1,6 +1,6 @@
-import { ButtonInterface } from "@/types/Button.types";
-import { InputConfig } from "@/types/Input.types";
-import { LinkIconsConfig } from "@/types/LinkLottus.types";
+import { ButtonInterface } from "@/types/Button.types"
+import { InputConfig } from "@/types/Input.types"
+import { LinkIconsConfig } from "@/types/LinkLottus.types"
 
 export const ButtonInit: ButtonInterface = {
   type: 'primary',
@@ -11,7 +11,7 @@ export const ButtonInit: ButtonInterface = {
   disabled: false,
   isExpand: true,
   tagOnClick: 'testOnClick',
-};
+}
 
 export const LinkIconsInit: LinkIconsConfig = {
   text: '',
@@ -22,7 +22,7 @@ export const LinkIconsInit: LinkIconsConfig = {
   id: '123',
   iconFirst: '',
   iconSecond: '',
-};
+}
 
 export const InputInit: InputConfig = {
   label: '',
@@ -39,5 +39,4 @@ export const InputInit: InputConfig = {
   onlyNumbers: false,
   upperCase: false,
   pattern: '',
-};
-
+}

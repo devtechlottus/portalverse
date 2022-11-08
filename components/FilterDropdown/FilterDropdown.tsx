@@ -1,9 +1,9 @@
-import { FC, useEffect, useState } from "react";
-import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem } from "@/types/FilterDropdown";
-import Checkbox from '@/components/Checkbox/Checkbox';
-import Button from '@/components/Button/Button';
-import { ButtonInit } from "@/components/fixture";
-import { CheckboxConfig } from "@/types/Checkbox.types";
+import { FC, useEffect, useState } from "react"
+import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem } from "@/types/FilterDropdown"
+import Checkbox from "@/components/Checkbox/Checkbox"
+import Button from "@/components/Button/Button"
+import { ButtonInit } from "@/components/fixture"
+import { CheckboxConfig } from "@/types/Checkbox.types"
 
 const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, options }, onSelectedOptions, clear }: FilterDropdownComponentData) => {
 
@@ -59,4 +59,4 @@ const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, optio
   </>
 }
 
-export default FilterDropdown;
+export default FilterDropdown
