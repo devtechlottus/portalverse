@@ -22,7 +22,8 @@
       "@/types/*": ["./types/*"],
       "@/routes/*": ["./routes/*"],
       "@/layouts/*": ["./layouts/*"],
-      "@/dummy/*": ["./dummy/*"]
+      "@/dummy/*": ["./dummy/*"],
+      "@/icons/*": ["./public/icons/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-sitemap.config.js"],

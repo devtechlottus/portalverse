@@ -87,4 +87,4 @@ type InputComponentData = {
   listenIcon?: () => void;
 };
 
-export default InputComponentData;
+export default InputComponentData

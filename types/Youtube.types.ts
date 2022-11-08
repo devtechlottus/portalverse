@@ -16,4 +16,4 @@ type YoutubeComponentData = {
   }
 }
 
-export default YoutubeComponentData;
+export default YoutubeComponentData

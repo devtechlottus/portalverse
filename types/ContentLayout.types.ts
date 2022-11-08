@@ -1,7 +1,8 @@
 import { ReactNode } from "react"
 
 type ContentLayoutProps = {
-  classNames?: string;
+  classNamesOutside?: string;
+  classNamesInside?: string;
   children: ReactNode;
 };
 

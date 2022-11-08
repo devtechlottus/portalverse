@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react"
 
 const Button = ({data, onClick}: any) => {
 
@@ -16,13 +16,13 @@ const Button = ({data, onClick}: any) => {
       isExpand: data.isExpand,
       test: data.test || ''
     }
-  }, [data]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     (buttonRef.current as any).addEventListener('onClick', onClick);
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-button ref={buttonRef}></lottus-button>
 }
 
-export default Button;
+export default Button

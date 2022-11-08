@@ -4,4 +4,4 @@ type ImageComponentData = {
   classNames?: string;
 };
 
-export default ImageComponentData; 
+export default ImageComponentData

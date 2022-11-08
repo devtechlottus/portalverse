@@ -1,12 +1,15 @@
-import { useEffect, useState } from "react";
-import Link from "next/link";
-import cn from "classnames";
-import Routes from "@/routes/Routes";
-import dummy from "@/dummy/dummy";
-import ContentInsideLayout from "@/layouts/ContentInside.layout";
-import Accordion from "@/components/Accordion/Accordion";
+import { ReactElement, useEffect, useState } from "react"
+import Link from "next/link"
+import cn from "classnames"
+import Routes from "@/routes/Routes"
+import dummy from "@/dummy/dummy"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import Accordion from "@/components/Accordion/Accordion"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 
-const FAQ = ({ data }: any) => {
+const FAQ: NextPageWithLayout<any> = ({ data }: any) => {
 
   const [ sectionTitle, setSectionTitle ] = useState('Questions') 
 
@@ -102,4 +105,12 @@ export function getStaticProps(context: any) {
   }
 }
 
-export default FAQ;
+FAQ.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
+}
+
+export default FAQ

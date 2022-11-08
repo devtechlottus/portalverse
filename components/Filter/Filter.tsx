@@ -1,8 +1,8 @@
-import { FC, useEffect, useState } from "react";
-import FilterComponentData from "@/types/Filter.types";
-import FilterDropdown from "@/components/FilterDropdown/FilterDropdown";
-import { LinkIconsInit } from "@/components/fixture";
-import LinkIcons from "@/components/LinkLottus";
+import { FC, useEffect, useState } from "react"
+import FilterComponentData from "@/types/Filter.types"
+import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
+import { LinkIconsInit } from "@/components/fixture"
+import LinkIcons from "@/components/LinkLottus"
 
 const Filter: FC<FilterComponentData> = ({ data }: FilterComponentData) => {
 
@@ -45,4 +45,4 @@ const Filter: FC<FilterComponentData> = ({ data }: FilterComponentData) => {
   </>
 }
 
-export default Filter;
+export default Filter

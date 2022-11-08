@@ -119,6 +119,6 @@ const data: { [key: string]: any } = {
           }
         ]  
     },
-};
+}
 
-export default data;
+export default data

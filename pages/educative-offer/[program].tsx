@@ -1,8 +1,11 @@
-import { useEffect } from "react"
+import { ReactElement, useEffect } from "react"
 import Head from "next/head"
 import Routes from "@/routes/Routes"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 
-const EducativeOfferProgram = ({ data }: any) => {
+const EducativeOfferProgram: NextPageWithLayout<any> = ({ data }: any) => {
 
   useEffect(() => {
     console.log("post", data)
@@ -43,6 +46,14 @@ export async function getStaticProps(context: any) {
   return {
     props: { data: {...dataProgram} },
   }
+}
+
+EducativeOfferProgram.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default EducativeOfferProgram;

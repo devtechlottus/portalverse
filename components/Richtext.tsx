@@ -7,11 +7,10 @@ const RichtText: FC<RichTextComponentData> = ({ data }: RichTextComponentData) =
 
   useEffect(() => {
     const { content } = data;
-
     (richTextRef.current as any).data = content;
   }, [data, richTextRef])
-
+  
   return <lottus-rich-text ref={richTextRef}></lottus-rich-text>
 }
 
-export default RichtText;
+export default RichtText
