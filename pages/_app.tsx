@@ -1,10 +1,8 @@
-import { useEffect } from 'react'
-import type { AppProps } from 'next/app'
-import '@/styles/globals.scss'
-import HeaderFooterLayout from '@/layouts/HeaderFooter.layout'
-import ContentLayout from '@/layouts/Content.layout'
+import { useEffect } from "react"
+import "@/styles/globals.scss"
+import { AppPropsWithLayout } from "@/types/Layout.types"
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   useEffect( () => {
     // we need import elements with commonJS
@@ -13,11 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     }
   }, [])
 
-  return <HeaderFooterLayout>
-    <ContentLayout>
-      <Component {...pageProps} />
-    </ContentLayout>
-  </HeaderFooterLayout>
+  // Use the layout defined at the page level, if available
+  const getLayout = Component.getLayout ?? ((page) => page)
+
+  return getLayout(<Component {...pageProps} />)
 }
 
 export default MyApp
