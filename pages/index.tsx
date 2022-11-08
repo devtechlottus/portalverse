@@ -2,6 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import ContentInsideLayout from '@/layouts/ContentInside.layout';
+import Tabs from '@/components/Tabs';
+import Button from '@/components/Button/Button';
+import Banner from '@/components/Banner';
+import { ButtonInit } from '@/components/fixture';
+import CardWebsite from '@/components/CardWebsite';
+import data from '@/dummy/dummy';
+import NavDrawer from '@/components/NavDrawer';
 
 const Home: NextPage = () => {
   const components = [
@@ -10,7 +17,13 @@ const Home: NextPage = () => {
     "lottie",
     "richtext",
     "filter",
-    "filter-dropdown"
+    "filter-dropdown",
+    "tabs",
+    "button",
+    "banner",
+    "cardWebsite",
+    "navDrawer",
+    "numbers"
   ];
   const programs = [
     "design",
@@ -88,6 +101,20 @@ const Home: NextPage = () => {
             )
           }
         </ul>  
+      </div>
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <NavDrawer data={{
+          text: 'hola',
+          iconselected: false,
+          linkselected: false,
+          isleft: false,
+          singleaction: false,
+          morecontent: false,
+          activesingle: false
+        }} 
+        onClick={ ()=> {
+          
+        }}/>
       </div>
     </ContentInsideLayout>
   </>

@@ -6,6 +6,12 @@ const Routes = {
     { params: { "component": "richtext" } },
     { params: { "component": "filter" } },
     { params: { "component": "filter-dropdown" } },
+    { params: { "component": "tabs" } },
+    { params: { "component": "button" } },
+    { params: { "component": "banner" } },
+    { params: { "component": "cardWebsite" } },
+    { params: { "component": "navDrawer" } },
+    { params: { "component": "numbers" } },
   ],
   "educative-offer": [
     { params: { "program": "design" } },
