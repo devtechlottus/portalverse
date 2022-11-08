@@ -1,7 +1,10 @@
-import IconComponent from "@/components/Icon";
-import Image from "@/components/Image";
-import Map from "@/components/Map";
-import ContentInsideLayout from "@/layouts/ContentInside.layout";
+import { ReactElement } from "react"
+import IconComponent from "@/components/Icon"
+import Image from "@/components/Image"
+import Map from "@/components/Map"
+import ContentLayout from "@/layouts/Content.layout"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 
 const Campus = ({ data }: any) => {
   return <ContentInsideLayout classNames="gap-6">
@@ -55,7 +58,7 @@ const Campus = ({ data }: any) => {
       }
     </div>
   </ContentInsideLayout>
-};
+}
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
@@ -105,5 +108,12 @@ export async function getStaticProps(context: any) {
   }
 }
 
+Campus.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
+}
 
-export default Campus;
+export default Campus

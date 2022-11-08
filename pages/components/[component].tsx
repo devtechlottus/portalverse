@@ -1,12 +1,14 @@
-import { useEffect, useState } from "react";
-import Head from "next/head";
-import Routes from "routes/Routes";
-import Filter from "@/components/Filter/Filter";
-import Lottie from "@/components/Lottie";
-import RichtText from "@/components/Richtext";
-import Spotify from "@/components/Spotify";
-import Youtube from "@/components/Youtube";
-import FilterDropdown from "@/components/FilterDropdown/FilterDropdown";
+import { ReactElement, useEffect, useState } from "react"
+import Head from "next/head"
+import Routes from "routes/Routes"
+import Filter from "@/components/Filter/Filter"
+import Lottie from "@/components/Lottie"
+import RichtText from "@/components/Richtext"
+import Spotify from "@/components/Spotify"
+import Youtube from "@/components/Youtube"
+import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -171,6 +173,14 @@ export async function getStaticProps(context: any) {
   return {
     props: { data: {...dataComponent} },
   }
+}
+
+ComponentPage.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default ComponentPage;

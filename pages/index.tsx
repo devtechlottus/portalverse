@@ -1,9 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Link from 'next/link'
-import ContentInsideLayout from '@/layouts/ContentInside.layout';
+import { ReactElement } from "react"
+import Head from "next/head"
+import Link from "next/link"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import NextPageWithLayout from "@/types/Layout.types"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
 
-const Home: NextPage = () => {
+const Home: NextPageWithLayout = () => {
   const components = [
     "youtube",
     "spotify",
@@ -91,6 +94,14 @@ const Home: NextPage = () => {
       </div>
     </ContentInsideLayout>
   </>
+}
+
+Home.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default Home
