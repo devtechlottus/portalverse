@@ -1,7 +1,5 @@
-import BannerComponentData from "@/types/Banner.types";
 import { createRef, FC, memo, useEffect } from "react";
-import Button from "./Button/Button";
-import { ButtonInit } from "./fixture";
+import BannerComponentData from "@/types/Banner.types";
 
 const Banner: FC<BannerComponentData> = memo(({data, onBtn}: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
@@ -24,18 +22,19 @@ const Banner: FC<BannerComponentData> = memo(({data, onBtn}: BannerComponentData
       height: data.height || '',
       action: data.action || {}
     };
-  }, [data]);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    if (!!bannerPortalverseRef.current) {
+      (bannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn);
+    }
     (bannerPortalverseRef.current as any).addEventListener('onBtn', onBtn);
-  }, []);
+    () => {
+      (bannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn);
+    }
+  }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return (
-    <>
-    <lottus-banner-portalverse ref={bannerPortalverseRef}>
-    </lottus-banner-portalverse>
-    </>
-  )
+  return <lottus-banner-portalverse ref={bannerPortalverseRef}></lottus-banner-portalverse>
 });
 
 export default Banner;

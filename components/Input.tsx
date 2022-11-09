@@ -21,24 +21,36 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
       upperCase: data.upperCase,
       pattern: data.pattern || '',
       mask: data.mask || ""
-    };
-  },[data])// eslint-disable-line react-hooks/exhaustive-deps
+    }
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     (inputRef.current as any).value = value;
-  },[value])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [value]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     (inputRef.current as any).hasError = hasError;
     (inputRef.current as any).errorMessage = errorMessage;
-  },[hasError, errorMessage])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [hasError, errorMessage]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (inputRef.current as any).addEventListener('eventFocus', eventFocus);
-    (inputRef.current as any).addEventListener('eventKeyPress', eventKeyPress);
-    (inputRef.current as any).addEventListener('eventBlurPress', eventBlurPress);
-    (inputRef.current as any).addEventListener('listenIcon', listenIcon);
-  }, [])// eslint-disable-line react-hooks/exhaustive-deps
+    if (!!inputRef.current) {
+      (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
+      (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
+      (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
+      (inputRef.current as any).removeEventListener('listenIcon', listenIcon, false);  
+    }
+    (inputRef.current as any).addEventListener('eventFocus', eventFocus, false);
+    (inputRef.current as any).addEventListener('eventKeyPress', eventKeyPress, false);
+    (inputRef.current as any).addEventListener('eventBlurPress', eventBlurPress, false);
+    (inputRef.current as any).addEventListener('listenIcon', listenIcon, false);
+    () => {
+      (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
+      (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
+      (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
+      (inputRef.current as any).removeEventListener('listenIcon', listenIcon, false);
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-input ref={inputRef}></lottus-input>
 })

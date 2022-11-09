@@ -11,13 +11,23 @@ const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu,
       search : data.search || '',
       active: data.active || false,
     }
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (headerRef.current as any).addEventListener('onClickSearch', onClickSearch);
-    (headerRef.current as any).addEventListener('onClickMenu', onClickMenu);
-    (headerRef.current as any).addEventListener('onClickLogo', onClickLogo);
-  }, [])
+    if (!!headerRef.current) {
+      (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
+      (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
+      (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);  
+    }
+    (headerRef.current as any).addEventListener('onClickSearch', onClickSearch, false);
+    (headerRef.current as any).addEventListener('onClickMenu', onClickMenu, false);
+    (headerRef.current as any).addEventListener('onClickLogo', onClickLogo, false);
+    () => {
+      (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
+      (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
+      (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-nav-portalverse ref={headerRef}></lottus-nav-portalverse>
 })

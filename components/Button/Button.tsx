@@ -1,5 +1,5 @@
-import React, { createRef, FC, memo, useEffect } from 'react'
-import ButtonComponentData from '@/types/Button.types';
+import { createRef, FC, memo, useEffect } from 'react'
+import ButtonComponentData from '@/types/Button.types'
 
 const Button: FC<ButtonComponentData> = memo(({data, onClick}: ButtonComponentData) => {
   const buttonPortalverseRef = createRef();
@@ -16,11 +16,17 @@ const Button: FC<ButtonComponentData> = memo(({data, onClick}: ButtonComponentDa
       isExpand: data.isExpand,
       test: data.test || ''
     }
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (buttonPortalverseRef.current as any).addEventListener('onClick', onClick)
-  }, [])
+    if (!!buttonPortalverseRef.current) {
+      (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (buttonPortalverseRef.current as any).addEventListener('onClick', onClick, false);
+    () => {
+      (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-button ref={buttonPortalverseRef}></lottus-button>
 })
