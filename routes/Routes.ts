@@ -6,6 +6,17 @@ const Routes = {
     { params: { "component": "richtext" } },
     { params: { "component": "filter" } },
     { params: { "component": "filter-dropdown" } },
+    { params: { "component": "tabs" } },
+    { params: { "component": "button" } },
+    { params: { "component": "banner" } },
+    { params: { "component": "cardWebsite" } },
+    { params: { "component": "navDrawer" } },
+    { params: { "component": "numbers" } },
+    { params: { "component": "promoLink" } },
+    { params: { "component": "oustandingModule" } },
+    { params: { "component": "breadcum" } },
+    { params: { "component": "link" } },
+
   ],
   "educative-offer": [
     { params: { "program": "design" } },

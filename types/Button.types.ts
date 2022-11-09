@@ -1,4 +1,4 @@
-export interface ButtonInterface {
+export type ButtonConfig = {
   /**
    * Button identifier
    */
@@ -41,4 +41,11 @@ export interface ButtonInterface {
   tagOnClick?: string;
   test?: string;
 }
+
+type ButtonComponentData = {
+  data: ButtonConfig;
+  onClick?: () => void;
+}
+
+export default ButtonComponentData;
   
