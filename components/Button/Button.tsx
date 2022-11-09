@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
+import { createRef, FC, memo, useEffect } from "react"
+import ButtonComponentData from "@/types/Button.types"
 
-const Button = ({data, onClick}: any) => {
+const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponentData) => {
+  const buttonPortalverseRef = createRef();
 
-  const buttonRef = React.createRef();
-  
   useEffect(() => {
-    (buttonRef.current as any).data = {
+    (buttonPortalverseRef.current as any).data = {
       id: data.id || null,
       type: data.type  || 'primary',
       title: data.title || '',
@@ -16,13 +16,19 @@ const Button = ({data, onClick}: any) => {
       isExpand: data.isExpand,
       test: data.test || ''
     }
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (buttonRef.current as any).addEventListener('onClick', onClick);
-  }, [])// eslint-disable-line react-hooks/exhaustive-deps
+    if (!!buttonPortalverseRef.current) {
+      (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (buttonPortalverseRef.current as any).addEventListener('onClick', onClick, false);
+    () => {
+      (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-button ref={buttonRef}></lottus-button>
-}
+  return <lottus-button ref={buttonPortalverseRef}></lottus-button>
+});
 
 export default Button

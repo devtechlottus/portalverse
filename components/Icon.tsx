@@ -1,9 +1,9 @@
-import { FC } from "react"
-import SearchIcon from "@/public/icons/search.svg"
-import MarkerIcon from "@/public/icons/marker.svg"
-import PhoneIcon from "@/public/icons/phone.svg"
-import EmailIcon from "@/public/icons/email.svg"
-import EyeIcon from "@/public/icons/eye.svg"
+import { FC, memo } from "react"
+import SearchIcon from "@/icons/search.svg"
+import MarkerIcon from "@/icons/marker.svg"
+import PhoneIcon from "@/icons/phone.svg"
+import EmailIcon from "@/icons/email.svg"
+import EyeIcon from "@/icons/eye.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -13,9 +13,9 @@ const iconTypes: any = {
   eye: EyeIcon,
 }
 
-const IconComponent: FC<any> = ({ name, ...props }: any) => {
+const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
   const Icon = iconTypes[name]
   return <Icon {...props} />
-}
+});
 
 export default IconComponent

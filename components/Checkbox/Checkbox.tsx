@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
-import CheckboxComponentData from "@/types/Checkbox.types";
+import { useEffect, createRef, FC, memo } from "react"
+import CheckboxComponentData from "@/types/Checkbox.types"
 
-const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
-
-  const checkboxRef = React.createRef();
+const Checkbox: FC<CheckboxComponentData> = memo(({ data, onCheck }: CheckboxComponentData) => {
+  const checkboxRef = createRef();
 
   useEffect(() => {
     (checkboxRef.current as any).data = {
@@ -15,10 +14,16 @@ const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    if (!!checkboxRef.current) {
+    (checkboxRef.current as any).removeEventListener("onCheck", onCheck);
+    }
     (checkboxRef.current as any).addEventListener("onCheck", onCheck);
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+    () => {
+      (checkboxRef.current as any).addEventListener("onCheck", onCheck);
+    }
+  }, [onCheck]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-checkbox ref={checkboxRef}></lottus-checkbox>
-};
+});
 
 export default Checkbox

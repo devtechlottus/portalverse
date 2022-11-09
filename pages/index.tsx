@@ -13,7 +13,17 @@ const Home: NextPageWithLayout = () => {
     "lottie",
     "richtext",
     "filter",
-    "filter-dropdown"
+    "filter-dropdown",
+    "tabs",
+    "button",
+    "banner",
+    "cardWebsite",
+    "navDrawer",
+    "numbers",
+    "promoLink",
+    "oustandingModule",
+    "breadcum",
+    "link",
   ];
   const programs = [
     "design",
@@ -81,7 +91,7 @@ const Home: NextPageWithLayout = () => {
       </div>
       <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
         <h2 className='text-2xl'>Componentes disponibles</h2>
-        <ul className='flex justify-start'>
+        <ul className='flex justify-start flex-wrap'>
           {
             components.map((item: string, i: number) => <li key={`component-${i}`}>
                 <Link href={`/components/${item}`}>
