@@ -1,4 +1,4 @@
-import { FC } from "react"
+import { FC, memo } from "react"
 import SearchIcon from "@/icons/search.svg"
 import MarkerIcon from "@/icons/marker.svg"
 import PhoneIcon from "@/icons/phone.svg"
@@ -13,9 +13,9 @@ const iconTypes: any = {
   eye: EyeIcon,
 }
 
-const IconComponent: FC<any> = ({ name, ...props }: any) => {
+const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
   const Icon = iconTypes[name]
   return <Icon {...props} />
-}
+});
 
 export default IconComponent

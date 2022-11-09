@@ -1,10 +1,10 @@
-import { FC, useEffect, useState } from "react"
+import { FC, memo, useEffect, useState } from "react"
 import FilterComponentData from "@/types/Filter.types"
 import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
 import { LinkIconsInit } from "@/components/fixture"
 import LinkIcons from "@/components/LinkLottus"
 
-const Filter: FC<FilterComponentData> = ({ data }: FilterComponentData) => {
+const Filter: FC<FilterComponentData> = memo(({ data }: FilterComponentData) => {
 
   const [ config, setConfig ] = useState<any[]>([])
   const [ selectedOptions, setSelectedOptions ] = useState<string[][]>([]);
@@ -43,6 +43,6 @@ const Filter: FC<FilterComponentData> = ({ data }: FilterComponentData) => {
       </section>
     </section>
   </>
-}
+});
 
 export default Filter

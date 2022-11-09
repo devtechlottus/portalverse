@@ -1,7 +1,7 @@
-import { useEffect, createRef, FC } from "react"
+import { useEffect, createRef, FC, memo } from "react"
 import CheckboxComponentData from "@/types/Checkbox.types"
 
-const Checkbox: FC<CheckboxComponentData> = ({ data, onCheck }: CheckboxComponentData) => {
+const Checkbox: FC<CheckboxComponentData> = memo(({ data, onCheck }: CheckboxComponentData) => {
   const checkboxRef = createRef();
 
   useEffect(() => {
@@ -24,6 +24,6 @@ const Checkbox: FC<CheckboxComponentData> = ({ data, onCheck }: CheckboxComponen
   }, [onCheck]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-checkbox ref={checkboxRef}></lottus-checkbox>
-};
+});
 
 export default Checkbox

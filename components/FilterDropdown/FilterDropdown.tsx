@@ -1,11 +1,11 @@
-import { FC, useEffect, useState } from "react"
+import { FC, memo, useEffect, useState } from "react"
 import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem } from "@/types/FilterDropdown"
 import Checkbox from "@/components/Checkbox/Checkbox"
 import Button from "@/components/Button/Button"
 import { ButtonInit } from "@/components/fixture"
 import { CheckboxConfig } from "@/types/Checkbox.types"
 
-const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, options }, onSelectedOptions, clear }: FilterDropdownComponentData) => {
+const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, options }, onSelectedOptions, clear }: FilterDropdownComponentData) => {
 
   const [ open, setOpen ] = useState(false);
   const [ optionsList, setOptionsList ] = useState<any[]>([])
@@ -57,6 +57,6 @@ const FilterDropdown: FC<FilterDropdownComponentData> = ({ data: { config, optio
       </div>
     </section>
   </>
-}
+});
 
 export default FilterDropdown

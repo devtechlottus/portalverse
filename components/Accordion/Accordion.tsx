@@ -1,7 +1,7 @@
-import { createRef, FC, useEffect } from "react"
+import { createRef, FC, memo, useEffect } from "react"
 import AccordionComponentData from "@/types/Accordion.types"
 
-const Accordion: FC<AccordionComponentData> = ({ data }: AccordionComponentData) => {
+const Accordion: FC<AccordionComponentData> = memo(({ data }: AccordionComponentData) => {
   const accordionRef = createRef();
 
   useEffect( () => {
@@ -10,6 +10,6 @@ const Accordion: FC<AccordionComponentData> = ({ data }: AccordionComponentData)
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-accordion ref={accordionRef}></lottus-accordion>
-}
+});
 
 export default Accordion

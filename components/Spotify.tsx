@@ -1,7 +1,7 @@
-import { createRef, FC, useEffect } from "react"
+import { createRef, FC, memo, useEffect } from "react"
 import SpotifyComponentData from "@/types/Spotify.types"
 
-const Spotify: FC<SpotifyComponentData> = ({ data }: SpotifyComponentData) => {
+const Spotify: FC<SpotifyComponentData> = memo(({ data }: SpotifyComponentData) => {
   const spotifyRef = createRef();
 
   useEffect(() => {
@@ -10,6 +10,6 @@ const Spotify: FC<SpotifyComponentData> = ({ data }: SpotifyComponentData) => {
   }, [data, spotifyRef]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-spotify ref={spotifyRef}></lottus-spotify>
-}
+});
 
 export default Spotify

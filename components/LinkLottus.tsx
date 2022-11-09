@@ -1,7 +1,7 @@
-import { createRef, FC, useEffect } from "react"
+import { createRef, FC, memo, useEffect } from "react"
 import LinkLottusComponentData from "@/types/LinkLottus.types"
 
-const LinkIcons: FC<LinkLottusComponentData> = ({ data, onClick }: LinkLottusComponentData)  => {
+const LinkIcons: FC<LinkLottusComponentData> = memo(({ data, onClick }: LinkLottusComponentData)  => {
   const linkIconsRef = createRef();
 
   useEffect(() => {
@@ -28,6 +28,6 @@ const LinkIcons: FC<LinkLottusComponentData> = ({ data, onClick }: LinkLottusCom
   },[onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-link-icons ref={linkIconsRef}></lottus-link-icons>
-}
+});
 
 export default LinkIcons

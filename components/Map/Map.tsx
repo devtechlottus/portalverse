@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { FC, memo, useEffect } from "react"
 import L from "leaflet"
 import * as ReactLeaflet from "react-leaflet"
 import cn from "classnames"
@@ -10,7 +10,7 @@ import shadowUrl from "leaflet/dist/images/marker-shadow.png"
 
 const { MapContainer } = ReactLeaflet;
 
-const Map = ({ classNames, coords, zoom = 15, scroll = false, children }: any) => {
+const Map: FC = memo(({ classNames, coords, zoom = 15, scroll = false, children }: any) => {
 
   useEffect(() => {
     (async function init() {
@@ -28,6 +28,6 @@ const Map = ({ classNames, coords, zoom = 15, scroll = false, children }: any) =
       { children(ReactLeaflet) }
     </MapContainer>
   </section>
-}
+});
 
 export default Map

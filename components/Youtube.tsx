@@ -1,7 +1,7 @@
-import { createRef, FC, useEffect } from "react"
+import { createRef, FC, memo, useEffect } from "react"
 import YoutubeComponentData from "@/types/Youtube.types"
 
-const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
+const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) => {
   const youtubeRef = createRef();
 
   useEffect(() => {
@@ -20,6 +20,6 @@ const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
   }, [data, youtubeRef]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-youtube ref={youtubeRef}></lottus-youtube>
-}
+});
 
 export default Youtube
