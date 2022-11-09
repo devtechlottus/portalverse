@@ -1,22 +1,24 @@
-import { useEffect, useState } from "react";
-import Head from "next/head";
-import Routes from "routes/Routes";
-import Filter from "@/components/Filter/Filter";
-import Lottie from "@/components/Lottie";
-import RichtText from "@/components/Richtext";
-import Spotify from "@/components/Spotify";
-import Youtube from "@/components/Youtube";
-import FilterDropdown from "@/components/FilterDropdown/FilterDropdown";
-import Tabs from "@/components/Tabs";
-import Banner from "@/components/Banner";
-import Button from "@/components/Button/Button";
-import CardWebsite from "@/components/CardWebsite";
-import NavDrawer from "@/components/NavDrawer";
-import Numbers from "@/components/Numbers";
-import PromoLink from "@/components/PromoLink";
-import OustandingModule from "@/components/OustandingModule";
-import Breadcum from "@/components/Breadcum";
-import Link from "@/components/Link";
+import { ReactElement, useEffect, useState } from "react"
+import Head from "next/head"
+import Routes from "routes/Routes"
+import Filter from "@/components/Filter/Filter"
+import Lottie from "@/components/Lottie"
+import RichtText from "@/components/Richtext"
+import Spotify from "@/components/Spotify"
+import Youtube from "@/components/Youtube"
+import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
+import Tabs from "@/components/Tabs"
+import Banner from "@/components/Banner"
+import Button from "@/components/Button/Button"
+import CardWebsite from "@/components/CardWebsite"
+import NavDrawer from "@/components/NavDrawer"
+import Numbers from "@/components/Numbers"
+import PromoLink from "@/components/PromoLink"
+import OustandingModule from "@/components/OustandingModule"
+import Breadcum from "@/components/Breadcum"
+import Link from "@/components/Link"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -231,6 +233,14 @@ export async function getStaticProps(context: any) {
   return {
     props: { data: {...dataComponent} },
   }
+}
+
+ComponentPage.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default ComponentPage;

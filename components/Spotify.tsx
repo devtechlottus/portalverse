@@ -7,12 +7,10 @@ const Spotify: FC<SpotifyComponentData> = ({ data }: SpotifyComponentData) => {
 
   useEffect(() => {
     const { config } = data;
-
     (spotifyRef.current as any).data = { ...config };
-
   }, [data, spotifyRef])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-spotify ref={spotifyRef}></lottus-spotify>
 }
 
-export default Spotify;
+export default Spotify

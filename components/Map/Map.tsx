@@ -1,12 +1,12 @@
-import { useEffect } from "react";
+import { useEffect } from "react"
 import L from "leaflet"
-import * as ReactLeaflet from 'react-leaflet'
-import cn from "classnames";
-import "leaflet/dist/leaflet.css";
+import * as ReactLeaflet from "react-leaflet"
+import cn from "classnames"
+import "leaflet/dist/leaflet.css"
 
-import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
-import iconUrl from 'leaflet/dist/images/marker-icon.png';
-import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+import iconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png"
+import iconUrl from "leaflet/dist/images/marker-icon.png"
+import shadowUrl from "leaflet/dist/images/marker-shadow.png"
 
 const { MapContainer } = ReactLeaflet;
 
@@ -28,6 +28,6 @@ const Map = ({ classNames, coords, zoom = 15, scroll = false, children }: any) =
       { children(ReactLeaflet) }
     </MapContainer>
   </section>
-};
+}
 
-export default Map;
+export default Map

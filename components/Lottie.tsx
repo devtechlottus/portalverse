@@ -7,9 +7,7 @@ const Lottie: FC<LottieComponentData> = ({ data }: LottieComponentData) => {
 
   useEffect(() => {
     const { data: options } = data;
-
     (lottieRef.current as any).data = { ...options };
-
     if(data.hasOwnProperty('dimensions')) {
       const { dimensions } = data;
       // set dimensions
@@ -20,8 +18,6 @@ const Lottie: FC<LottieComponentData> = ({ data }: LottieComponentData) => {
         (lottieRef.current as HTMLElement).style.width = dimensions.width!;
       }
     }
-
-
   }, [data, lottieRef])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-lottie ref={lottieRef}></lottus-lottie>

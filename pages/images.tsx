@@ -1,8 +1,12 @@
-import Head from "next/head";
-import Image from "@/components/Image";
-import ContentInsideLayout from "@/layouts/ContentInside.layout";
+import { ReactElement } from "react"
+import Head from "next/head"
+import Image from "@/components/Image"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 
-const Images = () => {
+const Images: NextPageWithLayout = () => {
   return <>
     <Head>
       <title>Images - aspect ratio</title>
@@ -103,7 +107,33 @@ const Images = () => {
           <h1 className="aspect-1/1">aspect 1/2</h1>
         </div>
       </ContentInsideLayout>
+      <ContentInsideLayout>
+        <div className="col-span-12 gap-6">
+          <h1>original</h1>
+          <Image
+            alt="original"
+            src="/images/1366x683.jpg"
+            classNames="aspect-2/1"
+          />
+          <h1>doble</h1>
+          <Image
+            alt="double"
+            src="/images/2732x1366.jpg"
+            classNames="aspect-2/1"
+          />
+        </div>
+      </ContentInsideLayout>
     </section>
   </>
 }
-export default Images;
+
+Images.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
+}
+
+
+export default Images

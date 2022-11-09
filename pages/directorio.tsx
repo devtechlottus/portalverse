@@ -1,10 +1,13 @@
-import { FC } from "react"
+import { ReactElement } from "react"
 import Head from "next/head"
 import DirectoryComponentData, { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Image from "@/components/Image"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 
-const Directory: FC<DirectoryComponentData> = ({ directory }: DirectoryComponentData) => {
+const Directory: NextPageWithLayout<DirectoryComponentData> = ({ directory }: DirectoryComponentData) => {
   return <>
     <Head>
       <title>Directorio</title>
@@ -361,6 +364,14 @@ export function getStaticProps(context: any) {
   return {
     props: { directory }
   }
+}
+
+Directory.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default Directory
