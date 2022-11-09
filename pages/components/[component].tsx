@@ -62,7 +62,9 @@ const ComponentPage = ({ data }: any) => {
         break;
       case "button":
         console.log("button", componentState);
-        return <Button data={componentState.data} />
+        return <Button onClick={ ()=> {
+          console.log("aqui")
+        }} data={componentState.data} />
         break;
       case "banner":
         console.log("banner", componentState)
@@ -74,7 +76,9 @@ const ComponentPage = ({ data }: any) => {
         break;
       case "navDrawer":
         console.log("navDrawer", componentState);
-        return <NavDrawer data={componentState.data} />
+        return <NavDrawer onClick={ ()=> {
+          console.log("aqui")
+        }} data={componentState.data} />
         break;
       case "numbers":
         console.log("numbers", componentState);

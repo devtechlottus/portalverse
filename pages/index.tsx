@@ -113,8 +113,12 @@ const Home: NextPage = () => {
           activesingle: false
         }} 
         onClick={ ()=> {
-          
+          console.log("aqui")
         }}/>
+
+        <Button onClick={ () => {
+          console.log("hetre")
+          }} data={{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}} />
       </div>
     </ContentInsideLayout>
   </>
