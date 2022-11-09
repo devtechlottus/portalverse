@@ -14,9 +14,9 @@ const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu,
   }, [data])// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (headerRef.current as any).addEventListener('onClickSearch', onClickSearch)
-    (headerRef.current as any).addEventListener('onClickMenu', onClickMenu)
-    (headerRef.current as any).addEventListener('onClickLogo', onClickLogo)
+    (headerRef.current as any).addEventListener('onClickSearch', onClickSearch);
+    (headerRef.current as any).addEventListener('onClickMenu', onClickMenu);
+    (headerRef.current as any).addEventListener('onClickLogo', onClickLogo);
   }, [])
 
   return <lottus-nav-portalverse ref={headerRef}></lottus-nav-portalverse>

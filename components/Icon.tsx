@@ -1,9 +1,9 @@
 import { FC } from "react"
-import SearchIcon from "@/public/icons/search.svg"
-import MarkerIcon from "@/public/icons/marker.svg"
-import PhoneIcon from "@/public/icons/phone.svg"
-import EmailIcon from "@/public/icons/email.svg"
-import EyeIcon from "@/public/icons/eye.svg"
+import SearchIcon from "@/icons/search.svg"
+import MarkerIcon from "@/icons/marker.svg"
+import PhoneIcon from "@/icons/phone.svg"
+import EmailIcon from "@/icons/email.svg"
+import EyeIcon from "@/icons/eye.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
