@@ -1,7 +1,7 @@
-import { NumbersData } from "@/types/Numbers.types";
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
+import { NumbersData } from "@/types/Numbers.types"
 
-const Numbers: FC<NumbersData> = memo(({data}) => {
+const Numbers: FC<NumbersData> = memo(({ data }: NumbersData) => {
   const numbersPortalverseRef = createRef();
 
   useEffect(() => {
@@ -14,9 +14,9 @@ const Numbers: FC<NumbersData> = memo(({data}) => {
       body: data.body || '',
       container: data.container || false,
     }
-  }, [data]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
   
   return <lottus-numbers-portalverse ref={numbersPortalverseRef}></lottus-numbers-portalverse>
-})
+});
 
-export default Numbers;
+export default Numbers

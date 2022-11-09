@@ -1,7 +1,7 @@
-import { createRef, FC, memo, useEffect } from "react";
-import CardWebsiteComponentData from "@/types/CardWebsite.types";
+import { createRef, FC, memo, useEffect } from "react"
+import CardWebsiteComponentData from "@/types/CardWebsite.types"
 
-const CardWebsite: FC<CardWebsiteComponentData> = memo(({data, onClick,}: CardWebsiteComponentData) => {
+const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardWebsiteComponentData) => {
   const cardWebsitePortalverseRef = createRef();
 
   useEffect(()=> {
@@ -32,6 +32,6 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({data, onClick,}: CardWe
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}></lottus-card-website-portalverse>
-})
+});
 
 export default CardWebsite;

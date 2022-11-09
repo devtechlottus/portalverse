@@ -2,7 +2,6 @@ import { createRef, FC, useEffect } from "react"
 import LottieComponentData from "@/types/Lottie.types"
 
 const Lottie: FC<LottieComponentData> = ({ data }: LottieComponentData) => {
-
   const lottieRef = createRef();
 
   useEffect(() => {
@@ -18,7 +17,7 @@ const Lottie: FC<LottieComponentData> = ({ data }: LottieComponentData) => {
         (lottieRef.current as HTMLElement).style.width = dimensions.width!;
       }
     }
-  }, [data, lottieRef])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data, lottieRef]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-lottie ref={lottieRef}></lottus-lottie>
 }

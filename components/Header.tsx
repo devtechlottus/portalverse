@@ -1,7 +1,7 @@
 import { createRef, FC, memo, useEffect } from "react"
 import HeaderComponentData from "@/types/Header.types"
 
-const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu, onClickLogo}: HeaderComponentData) => {
+const Header: FC<HeaderComponentData> = memo(({ data, onClickSearch, onClickMenu, onClickLogo }: HeaderComponentData) => {
   const headerRef = createRef()
 
   useEffect(() => {
@@ -30,6 +30,6 @@ const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu,
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-nav-portalverse ref={headerRef}></lottus-nav-portalverse>
-})
+});
 
 export default Header

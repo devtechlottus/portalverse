@@ -1,7 +1,7 @@
-import { createRef, FC, memo, useEffect } from 'react'
-import ButtonComponentData from '@/types/Button.types'
+import { createRef, FC, memo, useEffect } from "react"
+import ButtonComponentData from "@/types/Button.types"
 
-const Button: FC<ButtonComponentData> = memo(({data, onClick}: ButtonComponentData) => {
+const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponentData) => {
   const buttonPortalverseRef = createRef();
 
   useEffect(() => {
@@ -29,6 +29,6 @@ const Button: FC<ButtonComponentData> = memo(({data, onClick}: ButtonComponentDa
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-button ref={buttonPortalverseRef}></lottus-button>
-})
+});
 
 export default Button

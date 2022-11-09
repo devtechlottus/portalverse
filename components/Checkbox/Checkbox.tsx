@@ -1,8 +1,7 @@
-import { useEffect, createRef } from "react"
+import { useEffect, createRef, FC } from "react"
 import CheckboxComponentData from "@/types/Checkbox.types"
 
-const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
-
+const Checkbox: FC<CheckboxComponentData> = ({ data, onCheck }: CheckboxComponentData) => {
   const checkboxRef = createRef();
 
   useEffect(() => {

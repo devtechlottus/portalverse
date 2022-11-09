@@ -1,7 +1,7 @@
-import { createRef, FC, memo, useEffect } from "react";
-import BannerComponentData from "@/types/Banner.types";
+import { createRef, FC, memo, useEffect } from "react"
+import BannerComponentData from "@/types/Banner.types"
 
-const Banner: FC<BannerComponentData> = memo(({data, onBtn}: BannerComponentData) => {
+const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
 
   useEffect(() => {
@@ -37,4 +37,4 @@ const Banner: FC<BannerComponentData> = memo(({data, onBtn}: BannerComponentData
   return <lottus-banner-portalverse ref={bannerPortalverseRef}></lottus-banner-portalverse>
 });
 
-export default Banner;
+export default Banner

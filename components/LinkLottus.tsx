@@ -1,7 +1,7 @@
 import { createRef, FC, useEffect } from "react"
 import LinkLottusComponentData from "@/types/LinkLottus.types"
 
-const LinkIcons: FC<LinkLottusComponentData> = ({data, onClick}: LinkLottusComponentData)  => {
+const LinkIcons: FC<LinkLottusComponentData> = ({ data, onClick }: LinkLottusComponentData)  => {
   const linkIconsRef = createRef();
 
   useEffect(() => {

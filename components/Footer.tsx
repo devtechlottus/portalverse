@@ -3,6 +3,7 @@ import FooterComponentData from "@/types/Footer.types"
 
 const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLinkPhone, onLinkIcon, onLinkDirectory, onLinkCopyright, onLinkPrivacy }: FooterComponentData) => {
   const footerPortalverseRef = createRef();
+
   const dataLinkPhone = {
     text: '00000000',
     isBold: true,
@@ -12,8 +13,7 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     isUnderline: false,
     id: '123',
     disabled: false,
-  }
-
+  };
   const dataLink = {
     text: 'Texto link g',
     isBold: true,
@@ -23,7 +23,7 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     isUnderline: false,
     id: '123',
     disabled: false,
-  }
+  };
   const dataLinkText = {
     text: 'Texto link g',
     isBold: true,
@@ -33,7 +33,7 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     isUnderline: false,
     id: '123',
     disabled: false,
-  }
+  };
   const dataLinkLottus = {
     text: '©Lottus Education 2022',
     isBold: false,
@@ -41,7 +41,7 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     icon: '',
     id: '123',
     disabled: false,
-  }
+  };
   const dataLinkPrivacy = {
     text: 'Aviso de privacidad',
     isBold: false,
@@ -49,7 +49,8 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     icon: '',
     id: '123',
     disabled: false,
-  }
+  };
+
   useEffect(() => {
     (footerPortalverseRef.current as any).data = {
       image: data.image || '',
@@ -74,7 +75,7 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
         ...dataLinkPrivacy,
       },
     }
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!!footerPortalverseRef.current) {
@@ -105,5 +106,6 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
   }, [onLinkMenu, onLink, onLinkPhone, onLinkIcon, onLinkDirectory, onLinkCopyright, onLinkPrivacy]);// eslint-disable-line react-hooks/exhaustive-deps
   
   return <lottus-filter-footer-portalverse ref={footerPortalverseRef}></lottus-filter-footer-portalverse>
-})
+});
+
 export default Footer

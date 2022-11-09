@@ -1,9 +1,8 @@
-import { createRef, FC, useEffect } from "react";
-import YoutubeComponentData from "@/types/Youtube.types";
+import { createRef, FC, useEffect } from "react"
+import YoutubeComponentData from "@/types/Youtube.types"
 
 const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
-
-  const youtubeRef = createRef()
+  const youtubeRef = createRef();
 
   useEffect(() => {
     const { options } = data;
@@ -18,7 +17,7 @@ const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
         (youtubeRef.current as HTMLElement).style.width = dimensions.width;
       }
     }
-  }, [data, youtubeRef])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data, youtubeRef]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-youtube ref={youtubeRef}></lottus-youtube>
 }

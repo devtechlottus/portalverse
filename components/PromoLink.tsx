@@ -1,8 +1,7 @@
-import { PromoLinkData } from "@/types/Promolink.types";
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
+import { PromoLinkData } from "@/types/Promolink.types"
 
-
-const PromoLink : FC<PromoLinkData> = memo(({data, onClick} : PromoLinkData) => {
+const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) => {
   const promoLinkPortalverseRef = createRef();
 
   useEffect(() => {
@@ -19,14 +18,19 @@ const PromoLink : FC<PromoLinkData> = memo(({data, onClick} : PromoLinkData) => 
       enable: data.enable || false,
       nobackground: data.nobackground || false,
     }
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (promoLinkPortalverseRef.current as any).addEventListener('onClick', onClick);
-  }, [])
+    if (!!promoLinkPortalverseRef.current) {
+      (promoLinkPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (promoLinkPortalverseRef.current as any).addEventListener('onClick', onClick, false);
+    () => {
+      (promoLinkPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-promo-link-portalverse ref={promoLinkPortalverseRef}></lottus-promo-link-portalverse>
-
 })
 
 export default PromoLink;
