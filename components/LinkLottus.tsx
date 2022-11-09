@@ -1,11 +1,10 @@
-import React, { FC, useEffect } from 'react'
-import LinkLottusComponentData from '@/types/LinkLottus.types';
+import { createRef, FC, useEffect } from "react"
+import LinkLottusComponentData from "@/types/LinkLottus.types"
 
 const LinkIcons: FC<LinkLottusComponentData> = ({data, onClick}: LinkLottusComponentData)  => {
-  const linkIconsRef = React.createRef();
+  const linkIconsRef = createRef();
 
   useEffect(() => {
-
     (linkIconsRef.current as any).data = {
       text: data.text || '',
       size: data.size || '',
@@ -16,13 +15,19 @@ const LinkIcons: FC<LinkLottusComponentData> = ({data, onClick}: LinkLottusCompo
       iconFirst: data.iconFirst || '',
       iconSecond: data.iconSecond || '',
     }
-  },[data]) // eslint-disable-line react-hooks/exhaustive-deps
+  },[data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (linkIconsRef.current as any).addEventListener('onClick', onClick);
-  },[]) // eslint-disable-line react-hooks/exhaustive-deps
+    if (!!linkIconsRef.current) {
+      (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (linkIconsRef.current as any).addEventListener('onClick', onClick, false);
+    () => {
+      (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+  },[onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-link-icons ref={linkIconsRef}></lottus-link-icons>
 }
 
-export default LinkIcons;
+export default LinkIcons
