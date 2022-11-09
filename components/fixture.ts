@@ -1,8 +1,8 @@
-import { ButtonInterface } from "@/types/Button.types"
+import { ButtonConfig } from "@/types/Button.types"
 import { InputConfig } from "@/types/Input.types"
 import { LinkIconsConfig } from "@/types/LinkLottus.types"
 
-export const ButtonInit: ButtonInterface = {
+export const ButtonInit: ButtonConfig = {
   type: 'primary',
   title: 'texto',
   size: 'small',

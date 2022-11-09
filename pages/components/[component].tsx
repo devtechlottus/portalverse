@@ -9,6 +9,16 @@ import Youtube from "@/components/Youtube"
 import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
+import Tabs from "@/components/Tabs"
+import Banner from "@/components/Banner"
+import Button from "@/components/Button/Button"
+import CardWebsite from "@/components/CardWebsite"
+import NavDrawer from "@/components/NavDrawer"
+import Numbers from "@/components/Numbers"
+import PromoLink from "@/components/PromoLink"
+import OustandingModule from "@/components/OustandingModule"
+import Breadcum from "@/components/Breadcum"
+import Link from "@/components/Link"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -33,26 +43,66 @@ const ComponentPage = ({ data }: any) => {
         console.log("youtube", componentState)
         return <Youtube data={componentState.data} />
         break;
-        case "spotify":
+      case "spotify":
         console.log("spotify", componentState)
         return <Spotify data={componentState.data} /> 
         break;
-        case "lottie":
+      case "lottie":
         console.log("lottie", componentState)
         return <Lottie data={componentState.data} /> 
         break;
-        case "richtext":
+      case "richtext":
         console.log("richtext", componentState)
         return <RichtText data={componentState.data} /> 
         break;
-        case "filter":
+      case "filter":
         console.log("filter", componentState)
         return <Filter data={componentState.data} />
-        case "filter-dropdown":
+      case "filter-dropdown":
         // console.log("filter", componentState)
         return <FilterDropdown data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
         break;
-    }
+      case "tabs":
+        console.log("tabs", componentState)
+        return <Tabs data={componentState.data} /> 
+        break;
+      case "button":
+        console.log("button", componentState);
+        return <Button data={componentState.data} />
+        break;
+      case "banner":
+        console.log("banner", componentState)
+        return <Banner data={componentState.data} />
+        break;
+      case "cardWebsite":
+        console.log("cardWebsite", componentState)
+        return <CardWebsite data={componentState.data} />
+        break;
+      case "navDrawer":
+        console.log("navDrawer", componentState);
+        return <NavDrawer data={componentState.data} />
+        break;
+      case "numbers":
+        console.log("numbers", componentState);
+        return <Numbers data={componentState.data} />
+        break;
+      case "promoLink":
+        console.log("promoLink", componentState);
+        return <PromoLink data={componentState.data} />
+        break;
+      case "oustandingModule": 
+        console.log("oustandingModule", componentState)
+        return <OustandingModule data= {componentState.data} />
+        break;
+      case "breadcum":
+        console.log("breadcum", componentState)
+        return <Breadcum data= {componentState.data} />
+        break;
+      case "link":
+        console.log("link", componentState)
+        return <Link data= {componentState.data} />
+        break;
+      }      
   }
 
   return <>
@@ -77,6 +127,16 @@ export async function getStaticPaths() {
 export async function getStaticProps(context: any) {
   const path = "component";
   const components = [
+    { [path]: "link", title: "Link", data:{  text: 'xdxd', size: 'small', isBold: false, disabled: false, id: '123', icon: 'person',}},
+    { [path]: "breadcum", title: "Breadcum", data:{tagOnItem: 'testOnItem', tagOnBack: 'testOnBack', textItems: [{value: 'text1', text: 'Firt text', }, {value: 'text2', text: 'Second text', }, {value: 'text3', text: 'Third text large end', },], icon: 'home', textColor: 'black',}},
+    { [path]: "oustandingModule", title: "OustandingModule", data: {image: {mobile: 'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959', desktop: 'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',}, title: 'Perfil de ingreso',text: 'At vero eos et accusamus et iusto odio dignissi ducimus qui blanditiis praesentium voluptatum\n\n- Atque corrupti quos dolores et quas molestias \n- Excepturi sint occaecati cupiditate non provident\n- Excepturi sint occaecati cupiditate non providentExcepturi sint occaecati cupiditate non provident', backgroundColor: '#8B9BA3',}},
+    { [path]: "promoLink", title: "PromoLink", data: {  urlImage: { mobile: 'https://thumbs.dreamstime.com/z/fondo-del-coraz%C3%B3n-del-amor-del-arco-iris-60045149.jpg', desktop: 'https://media.istockphoto.com/id/1354441996/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?b=1&s=170667a&w=0&k=20&c=O_VZbgONe4WTXPOEvwKYezhqFkzAXpr2g-lCdpdj5FU=',}, text: 'Mab', icon: 'person', color: '', opacity: '', height: '300px', enable: true, nobackground: false,}},
+    { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true,}},
+    { [path]: "navDrawer", title: "NavDrawer", data:{ text: 'Hola', iconselected: false, linkselected: false, isleft: false, singleaction: false, morecontent: false, activesingle: false}},
+    { [path]: "cardWebsite", title:"CardWebsite", data:{ isLinkText: true, id: '', urlImage: 'https://cdn.shopify.com/s/files/1/1754/7787/files/Schermafbeelding_2017-01-28_om_14.33.13_600x600.png?v=1485980770', subtitle: 'wenas', title: 'Hola', text: 'hola card', border: false, allContent: false, height: '500px', isShowCardWebsiteContent: false, background: false, type: 'small', link: true,}},
+    { [path]: "banner", title:"Banner", data:{ title: 'Hola', subtitle: 'jejeje', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'large', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''},}},
+    { [path]: "button", title: "Button", data:{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}},
+    { [path]: "tabs", title: "Tabs", data:{items: [{label: 'Item Tab 1', icons: { primary: 'star', duplicate: true,}, disabled: true,}, {label: 'Item Tab 1', icons: {primary: 'star', duplicate: true, }, disabled: false, }], size: 'medium', }},
     { [path]: "youtube", title: "Youtube", data: { options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} } },
     { [path]: "spotify", title: "Spotify", data: { config: { type: 'episode', format: 'normal', id: '1iMWrWrpocYYtxS2wV6tJt',} } },
     { [path]: "lottie", title: "Lottie", data: { data: { path: 'https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json', }, dimensions: {}  }},
