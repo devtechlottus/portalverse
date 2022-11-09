@@ -1,8 +1,8 @@
-import { createRef, FC, memo, useEffect } from "react";
-import HeaderComponentData from '@/types/Header.types';
+import { createRef, FC, memo, useEffect } from "react"
+import HeaderComponentData from "@/types/Header.types"
 
 const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu, onClickLogo}: HeaderComponentData) => {
-  const headerRef = createRef();
+  const headerRef = createRef()
 
   useEffect(() => {
     (headerRef.current as any).data = {
@@ -32,4 +32,4 @@ const Header: FC<HeaderComponentData> = memo(({data, onClickSearch, onClickMenu,
   return <lottus-nav-portalverse ref={headerRef}></lottus-nav-portalverse>
 })
 
-export default Header;
+export default Header

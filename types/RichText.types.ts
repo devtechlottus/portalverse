@@ -4,4 +4,4 @@ type RichTextComponentData = {
   }
 }
 
-export default RichTextComponentData;
+export default RichTextComponentData

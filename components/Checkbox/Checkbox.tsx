@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
-import CheckboxComponentData from "@/types/Checkbox.types";
+import { useEffect, createRef } from "react"
+import CheckboxComponentData from "@/types/Checkbox.types"
 
 const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
 
-  const checkboxRef = React.createRef();
+  const checkboxRef = createRef();
 
   useEffect(() => {
     (checkboxRef.current as any).data = {
@@ -27,4 +27,4 @@ const Checkbox = ({ data, onCheck }: CheckboxComponentData) => {
   return <lottus-checkbox ref={checkboxRef}></lottus-checkbox>
 };
 
-export default Checkbox;
+export default Checkbox

@@ -20,10 +20,10 @@ export type HeaderConfig = {
 }
 
 type HeaderComponentData = {
-    data: HeaderConfig;
-    onClickSearch?: () => void;
-    onClickMenu?: () => void;
-    onClickLogo?: () => void;
-};
+  data: HeaderConfig;
+  onClickSearch?: () => void;
+  onClickMenu?: () => void;
+  onClickLogo?: () => void;
+}
 
-export default HeaderComponentData;
+export default HeaderComponentData

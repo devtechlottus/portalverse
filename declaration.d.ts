@@ -1,5 +1,5 @@
-type CustomElement<T, K extends string> = Partial<T & DOMAttributes<T>>;
-type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T>  & { children: any }>;
+type CustomElement<T, K extends string> = Partial<T & DOMAttributes<T>>
+type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T>  & { children: any }>
 
 declare namespace JSX {
   interface IntrinsicElements {
@@ -21,5 +21,9 @@ declare namespace JSX {
     ['lottus-card-website-portalverse']: CustomElementContainer,
     ['lottus-navdrawer-portalverse']: CustomElement,
     ['lottus-numbers-portalverse']: CustomElement,
+    ['lottus-promo-link-portalverse']: CustomElement,
+    ['lottus-outstanding-module-portalverse']: CustomElement,
+    ['lottus-breadcrumb']: CustomElement,
+    ['lottus-link']: CustomElement,
   }
 }

@@ -2,7 +2,7 @@ import { createRef, FC, memo, useEffect } from "react"
 import InputComponentData from "@/types/Input.types"
 
 const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessage, eventFocus, eventKeyPress, eventBlurPress, listenIcon }: InputComponentData)  => {
-  const inputRef = createRef();
+  const inputRef = createRef()
 
   useEffect(() => {
     (inputRef.current as any).info = {
@@ -53,6 +53,6 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-input ref={inputRef}></lottus-input>
-});
+})
 
-export default Input;
+export default Input

@@ -2736,9 +2736,10 @@ loose-envify@^1.1.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lottus-elements-uane@../CampusVirtual-Libraries/dist/elements/lottus-elements-uane-4.3.1-beta.tgz:
-  version "4.3.1-beta"
-  resolved "../CampusVirtual-Libraries/dist/elements/lottus-elements-uane-4.3.1-beta.tgz#cd8e51e3895b933ff6ed33e7dc7f7eebc28249fa"
+lottus-elements-uane@4.3.1:
+  version "4.3.1"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/lottus-elements-uane/-/lottus-elements-uane-4.3.1.tgz#1c3aa55bdedabe98ac46c368e8d4ff31c49f9c7f"
+  integrity sha1-HDqlW97avpisRsNo6NT/McSfnH8=
 
 lru-cache@^6.0.0:
   version "6.0.0"

@@ -7,9 +7,7 @@ const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
 
   useEffect(() => {
     const { options } = data;
-
     (youtubeRef.current as any).data = { ...options };
-
     if(data.hasOwnProperty('dimensions')) {
       const { dimensions } = data;
       // set dimensions
@@ -20,10 +18,9 @@ const Youtube: FC<YoutubeComponentData> = ({ data }: YoutubeComponentData) => {
         (youtubeRef.current as HTMLElement).style.width = dimensions.width;
       }
     }
-
   }, [data, youtubeRef])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-youtube ref={youtubeRef}></lottus-youtube>
 }
 
-export default Youtube;
+export default Youtube

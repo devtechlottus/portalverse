@@ -1,4 +1,4 @@
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
 import TabsComponentData from "@/types/Tabs.types"
 
 const Tabs: FC<TabsComponentData> = memo(({data, tabIndex}: TabsComponentData) => {
@@ -9,7 +9,6 @@ const Tabs: FC<TabsComponentData> = memo(({data, tabIndex}: TabsComponentData) =
       items: data.items || [],
       size: data.size || '',
     }
-    
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -25,4 +24,4 @@ const Tabs: FC<TabsComponentData> = memo(({data, tabIndex}: TabsComponentData) =
   return <lottus-tabs-portalverse ref={tabsPortalverseRef}></lottus-tabs-portalverse>
 });
 
-export default Tabs;
+export default Tabs

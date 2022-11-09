@@ -12,6 +12,11 @@ const Routes = {
     { params: { "component": "cardWebsite" } },
     { params: { "component": "navDrawer" } },
     { params: { "component": "numbers" } },
+    { params: { "component": "promoLink" } },
+    { params: { "component": "oustandingModule" } },
+    { params: { "component": "breadcum" } },
+    { params: { "component": "link" } },
+
   ],
   "educative-offer": [
     { params: { "program": "design" } },
@@ -25,4 +30,4 @@ const Routes = {
   ],
 }
 
-export default Routes;
+export default Routes

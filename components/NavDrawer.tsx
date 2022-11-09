@@ -1,7 +1,6 @@
 import NavDrawerData from "@/types/NavDrawer.types";
 import { createRef, FC, memo, useEffect } from "react";
 
-
 const NavDrawer: FC<NavDrawerData> = memo(({data, onClick, onText, onTextSingle}: NavDrawerData) => {
   const navDrawerPortalverseRef = createRef();
   

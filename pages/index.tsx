@@ -1,16 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Link from 'next/link'
-import ContentInsideLayout from '@/layouts/ContentInside.layout';
-import Tabs from '@/components/Tabs';
-import Button from '@/components/Button/Button';
-import Banner from '@/components/Banner';
-import { ButtonInit } from '@/components/fixture';
-import CardWebsite from '@/components/CardWebsite';
-import data from '@/dummy/dummy';
-import NavDrawer from '@/components/NavDrawer';
+import { ReactElement } from "react"
+import Head from "next/head"
+import Link from "next/link"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import NextPageWithLayout from "@/types/Layout.types"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentLayout from "@/layouts/Content.layout"
 
-const Home: NextPage = () => {
+const Home: NextPageWithLayout = () => {
   const components = [
     "youtube",
     "spotify",
@@ -23,7 +19,11 @@ const Home: NextPage = () => {
     "banner",
     "cardWebsite",
     "navDrawer",
-    "numbers"
+    "numbers",
+    "promoLink",
+    "oustandingModule",
+    "breadcum",
+    "link",
   ];
   const programs = [
     "design",
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
       </div>
       <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
         <h2 className='text-2xl'>Componentes disponibles</h2>
-        <ul className='flex justify-start'>
+        <ul className='flex justify-start flex-wrap'>
           {
             components.map((item: string, i: number) => <li key={`component-${i}`}>
                 <Link href={`/components/${item}`}>
@@ -102,26 +102,16 @@ const Home: NextPage = () => {
           }
         </ul>  
       </div>
-      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <NavDrawer data={{
-          text: 'hola',
-          iconselected: false,
-          linkselected: false,
-          isleft: false,
-          singleaction: false,
-          morecontent: false,
-          activesingle: false
-        }} 
-        onClick={ ()=> {
-          console.log("aqui")
-        }}/>
-
-        <Button onClick={ () => {
-          console.log("hetre")
-          }} data={{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}} />
-      </div>
     </ContentInsideLayout>
   </>
+}
+
+Home.getLayout = function getLayout(page: ReactElement) {
+  return <HeaderFooterLayout>
+    <ContentLayout>
+      { page }
+    </ContentLayout>
+  </HeaderFooterLayout>
 }
 
 export default Home

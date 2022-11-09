@@ -14,4 +14,4 @@ type LottieComponentData = {
   }
 }
 
-export default LottieComponentData;
+export default LottieComponentData
