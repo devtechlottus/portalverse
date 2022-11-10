@@ -25,5 +25,13 @@ declare namespace JSX {
     ['lottus-outstanding-module-portalverse']: CustomElement,
     ['lottus-breadcrumb']: CustomElement,
     ['lottus-link']: CustomElement,
+    ['lottus-paginator']: CustomElement,
+    ['lottus-modal']: CustomElement,
+    ['lottus-modal-iframe-portalverse']: CustomElement,
+    ['lottus-feedback']: CustomElement,
+    ['lottus-mosaic-portalverse']: CustomElement,
+    ['lottus-newsletter']: CustomElement,
+    ['lottus-new-banner-portalverse']: CustomElement,
+    ['lottus-custom-head-portalverse']: CustomElement,
   }
 }
