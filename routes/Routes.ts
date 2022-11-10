@@ -16,6 +16,14 @@ const Routes = {
     { params: { "component": "oustandingModule" } },
     { params: { "component": "breadcum" } },
     { params: { "component": "link" } },
+    { params: { "component": "paginator" } },
+    { params: { "component": "modal" } },
+    { params: { "component": "modal-iframe" } },
+    { params: { "component": "feedback" } },
+    { params: { "component": "mosaic" } },
+    { params: { "component": "newsletter" } },
+    { params: { "component": "newBanner" } },
+    { params: { "component": "customHead" } },
 
   ],
   "educative-offer": [
