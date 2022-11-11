@@ -1,7 +1,7 @@
 import ButtonComponentData, { ButtonConfig } from "./Button.types";
 
 export type BannerConfig = {
-      /**
+  /**
    * banner title
    */
   title: string;
@@ -49,16 +49,20 @@ export type BannerConfig = {
    * Action button
    */
   action?: ButtonConfig;
+   /**
+   * Mode wrapper
+   */
+  wrapper?: boolean;
 }
 
 export type Image = {
-    mobile: string;
-    desktop: string;
+  mobile: string;
+  desktop: string;
 }
 
 type BannerComponentData = {
-    data: BannerConfig;
-    onBtn?: () => void;
+  data: BannerConfig;
+  onBtn?: () => void;
 }
 
 export default BannerComponentData;

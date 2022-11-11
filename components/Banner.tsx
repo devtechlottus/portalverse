@@ -1,8 +1,12 @@
-import { createRef, FC, memo, useEffect } from "react"
+import { createRef, FC, memo, useEffect, useState } from "react"
 import BannerComponentData from "@/types/Banner.types"
+import Button from "./Button/Button";
+import { config } from "process";
 
 const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
+
+  const [configButton, setConfigButton] = useState({});
 
   useEffect(() => {
     (bannerPortalverseRef.current as any).data = {
@@ -20,8 +24,13 @@ const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentDa
       },
       overlay: data.overlay || '',
       height: data.height || '',
-      action: data.action || {}
+      action: data.action || {},
+      wrapper: data.wrapper || false
     };
+
+    setConfigButton((state) => {
+      return {...state, ...data.action}
+    })
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -34,7 +43,12 @@ const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentDa
     }
   }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-banner-portalverse ref={bannerPortalverseRef}></lottus-banner-portalverse>
+  return <lottus-banner-portalverse ref={bannerPortalverseRef}>
+    <div actionDesktop="">
+        <Button data={configButton} />
+        <p>hola desdde div</p>
+    </div>
+  </lottus-banner-portalverse>
 });
 
 export default Banner
