@@ -1,5 +1,11 @@
 type CustomElement<T, K extends string> = Partial<T & DOMAttributes<T>>
-type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T>  & { children: any }>
+type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T> & { children: any }>
+declare namespace React {
+  interface HTMLAttributes<T> extends DOMAttributes<T> {
+      actionDesktop?: string;
+      actionMobile?: string;
+  }
+}
 
 declare namespace JSX {
   interface IntrinsicElements {
