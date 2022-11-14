@@ -42,7 +42,10 @@ const ComponentPage = ({ data }: any) => {
 
   useEffect(() => {
     setComponentState(data);
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  // Modal functionality begin
+  const [isShow, setIsShow] = useState(false);
+  const handleVisibilityModal = () => setIsShow(!isShow);
+  // Modal functionality end
 
   const handleOnSelectedOptions = (options: string[]) => console.log("handleOnSelectedOptions", options)
  
@@ -120,8 +123,10 @@ const ComponentPage = ({ data }: any) => {
         return <Paginator data={componentState.data} />
         break;
       case "modal":
-        console.log("modal", componentState)
-        return <Modal data={componentState.data}/>
+        return <>
+          <Button data={ButtonInit} onClick={handleVisibilityModal}/>
+          <Modal isShow={isShow} onClose={handleVisibilityModal} data={componentState.data}/>
+        </>
         break;
       case "modal-iframe":
         console.log("modal-iframe", componentState)
