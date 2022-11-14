@@ -23,13 +23,18 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
 
   useEffect(() => {
     if (!!cardWebsitePortalverseRef.current) {
-      (cardWebsitePortalverseRef.current as any).removeEventListener('onClick', onClick);
+      (cardWebsitePortalverseRef.current as any).removeEventListener('onClick', onClick, false);
     }
-    (cardWebsitePortalverseRef.current as any).addEventListener('onClick', onClick);
-    () => {
-      (cardWebsitePortalverseRef.current as any).removeEventListener('onClick', onClick);
-    }
+    (cardWebsitePortalverseRef.current as any).addEventListener('onClick', onClick, false);
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!cardWebsitePortalverseRef.current) {
+        (cardWebsitePortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+      }
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}></lottus-card-website-portalverse>
 });

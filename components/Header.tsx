@@ -22,10 +22,15 @@ const Header: FC<HeaderComponentData> = memo(({ data, onClickSearch, onClickMenu
     (headerRef.current as any).addEventListener('onClickSearch', onClickSearch, false);
     (headerRef.current as any).addEventListener('onClickMenu', onClickMenu, false);
     (headerRef.current as any).addEventListener('onClickLogo', onClickLogo, false);
-    () => {
-      (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
-      (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
-      (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);
+  }, [onClickSearch, onClickMenu, onClickLogo]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!headerRef.current) {
+        (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
+        (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
+        (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);  
+      }
     }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 

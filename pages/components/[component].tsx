@@ -17,8 +17,17 @@ import NavDrawer from "@/components/NavDrawer"
 import Numbers from "@/components/Numbers"
 import PromoLink from "@/components/PromoLink"
 import OustandingModule from "@/components/OustandingModule"
-import Breadcum from "@/components/Breadcum"
+import Breadcum from "@/components/Breadcrumb"
 import Link from "@/components/Link"
+import Paginator from "@/components/Paginator"
+import Modal from "@/components/Modal"
+import ModalIframe from "@/components/ModalIframe"
+import Feedback from "@/components/Feedback"
+import Mosaic from "@/components/Mosaic"
+import Newsletter from "@/components/Newsletter"
+import { ButtonInit } from "@/components/fixture"
+import NewBanner from "@/components/NewBanner"
+import CustomHead from "@/components/CustomHead"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -29,11 +38,16 @@ const ComponentPage = ({ data }: any) => {
     if (typeof window !== 'undefined') {
       require("lottus-elements-uane/elements")
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     setComponentState(data);
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
+
+  // Modal functionality begin
+  const [isShow, setIsShow] = useState(false);
+  const handleVisibilityModal = () => setIsShow(!isShow);
+  // Modal functionality end
 
   const handleOnSelectedOptions = (options: string[]) => console.log("handleOnSelectedOptions", options)
  
@@ -59,7 +73,6 @@ const ComponentPage = ({ data }: any) => {
         console.log("filter", componentState)
         return <Filter data={componentState.data} />
       case "filter-dropdown":
-        // console.log("filter", componentState)
         return <FilterDropdown data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
         break;
       case "tabs":
@@ -106,6 +119,40 @@ const ComponentPage = ({ data }: any) => {
         console.log("link", componentState)
         return <Link data= {componentState.data} />
         break;
+      case "paginator":
+        console.log("paginator", componentState)
+        return <Paginator data={componentState.data} />
+        break;
+      case "modal":
+        return <>
+          <Button data={ButtonInit} onClick={handleVisibilityModal}/>
+          <Modal isShow={isShow} onClose={handleVisibilityModal} data={componentState.data}/>
+        </>
+        break;
+      case "modal-iframe":
+        console.log("modal-iframe", componentState)
+        return <ModalIframe data={componentState.data}/>
+        break;
+      case "feedback":
+        console.log("feedback", componentState)
+        return <Feedback data={componentState.data}/>
+        break;
+      case "mosaic":
+        console.log("mosaic", componentState)
+        return <Mosaic data={componentState.data}/>
+        break;
+      case "newsletter":
+        console.log("newsletter", componentState)
+        return <Newsletter data={componentState.data} />
+        break;
+      case "newBanner":
+        console.log("newBanner", componentState)
+        return <NewBanner data={componentState.data} />
+        break;
+      case "customHead":
+        console.log("customHead", componentState)
+        return <CustomHead data={componentState.data} />
+        break;
       }      
   }
 
@@ -131,6 +178,25 @@ export async function getStaticPaths() {
 export async function getStaticProps(context: any) {
   const path = "component";
   const components = [
+    { [path]: "customHead", title: "CustomHead", data: {  id: '123', text: 'Busca tu nivel educativo', type: '', color: '', bgcolor: '',}},
+    { [path]: "newBanner", title: "NewBanner", data:{image: {
+      desktop: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
+      mobile: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
+    },
+    title: 'hola',
+    text: 'jsanjkankjana',
+    contentCenter: false,
+    contentLeft: false,
+    action: {
+      ...ButtonInit,
+      title: 'Conocer más',
+    },}},
+    { [path]: "newsletter", title: "Newsletter", data:{  type: 'text', typeSearch: 'filed', alphabetical: true, placeholder: 'Buscar', autocomplete: 'off', upperCase: false, icon: 'search', size: 'small',}},
+    { [path]: "mosaic", title: "Mosaic", data:{images: [{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map', }, {id: '2', image: 'https://www.fotocommunity.es/styleguide/img/homepage/ottilia.jpg', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',}, {id: '4', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',},{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map',}, {id: '2', image: 'https://th.bing.com/th/id/R.e2607cf730a72b5ce7024be6003c558c?rik=nsEV30f5tEd4Uw&riu=http%3a%2f%2finformacionimagenes.net%2fwp-content%2fuploads%2f2017%2f05%2fAnimales-salvajes-55.jpg&ehk=BIvlyNek99FY06ulqPA8F8XiK49vWahPniSVCLV4P5Y%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map', }, {id: '4', image: 'https://th.bing.com/th/id/R.b9760e7cd34211c15d5e34d07dd8ba4c?rik=fSZN4Dk2BlNUUw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k5NoJq9ax90%2fTwwRmC0VYmI%2fAAAAAAAAAbY%2fWvIsdkfWI8c%2fs1600%2fBeautiful_Animal_Wallpaper_rp5pe.jpg&ehk=fg%2bG0NrN5rmEaj9A0IsT9JdEbhPmKGvSOtFlzetkSf0%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map',},],}},
+    { [path]: "feedback", title: "Feedback", data:{left: {name: 'info', status: 'normal', }, right: {name: 'info', }, type: 'alert', isTextEvent: false, textEvent: 'Dismiss', tagOnRight: 'testOnRight',}},
+    { [path]: "modal-iframe", title: "ModalIframe", data:{  title: 'Titulo', icon: 'close',}},
+    { [path]: "modal", title: "Modal", data:{icon: 'close', title: 'The standard Lorem', tagOnClose: 'testOnClose',}},
+    { [path]: "paginator", title: "Paginator", data: {  iconPrevious: 'arrow_back_ios', iconNext: 'arrow_forward_ios', size: 'small', maxNumbers: 10,}},
     { [path]: "link", title: "Link", data:{  text: 'xdxd', size: 'small', isBold: false, disabled: false, id: '123', icon: 'person',}},
     { [path]: "breadcum", title: "Breadcum", data:{tagOnItem: 'testOnItem', tagOnBack: 'testOnBack', textItems: [{value: 'text1', text: 'Firt text', }, {value: 'text2', text: 'Second text', }, {value: 'text3', text: 'Third text large end', },], icon: 'home', textColor: 'black',}},
     { [path]: "oustandingModule", title: "OustandingModule", data: {image: {mobile: 'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959', desktop: 'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',}, title: 'Perfil de ingreso',text: 'At vero eos et accusamus et iusto odio dignissi ducimus qui blanditiis praesentium voluptatum\n\n- Atque corrupti quos dolores et quas molestias \n- Excepturi sint occaecati cupiditate non provident\n- Excepturi sint occaecati cupiditate non providentExcepturi sint occaecati cupiditate non provident', backgroundColor: '#8B9BA3',}},
@@ -138,7 +204,7 @@ export async function getStaticProps(context: any) {
     { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true,}},
     { [path]: "navDrawer", title: "NavDrawer", data:{ text: 'Hola', iconselected: false, linkselected: false, isleft: false, singleaction: false, morecontent: false, activesingle: false}},
     { [path]: "cardWebsite", title:"CardWebsite", data:{ isLinkText: true, id: '', urlImage: 'https://cdn.shopify.com/s/files/1/1754/7787/files/Schermafbeelding_2017-01-28_om_14.33.13_600x600.png?v=1485980770', subtitle: 'wenas', title: 'Hola', text: 'hola card', border: false, allContent: false, height: '500px', isShowCardWebsiteContent: false, background: false, type: 'small', link: true,}},
-    { [path]: "banner", title:"Banner", data:{ title: 'Hola', subtitle: 'jejeje', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'large', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''},}},
+    { [path]: "banner", title:"Banner", data:{ title: 'Hola', subtitle: 'jejeje', state: 'black', size: 'small', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}},
     { [path]: "button", title: "Button", data:{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}},
     { [path]: "tabs", title: "Tabs", data:{items: [{label: 'Item Tab 1', icons: { primary: 'star', duplicate: true,}, disabled: true,}, {label: 'Item Tab 1', icons: {primary: 'star', duplicate: true, }, disabled: false, }], size: 'medium', }},
     { [path]: "youtube", title: "Youtube", data: { options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} } },

@@ -44,11 +44,16 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
     (inputRef.current as any).addEventListener('eventKeyPress', eventKeyPress, false);
     (inputRef.current as any).addEventListener('eventBlurPress', eventBlurPress, false);
     (inputRef.current as any).addEventListener('listenIcon', listenIcon, false);
-    () => {
-      (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
-      (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
-      (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
-      (inputRef.current as any).removeEventListener('listenIcon', listenIcon, false);
+  }, [eventFocus, eventKeyPress, eventBlurPress, listenIcon]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!inputRef.current) {
+        (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
+        (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
+        (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
+        (inputRef.current as any).removeEventListener('listenIcon', listenIcon, false);  
+      }
     }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 

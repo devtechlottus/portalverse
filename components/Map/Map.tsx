@@ -10,7 +10,7 @@ import shadowUrl from "leaflet/dist/images/marker-shadow.png"
 
 const { MapContainer } = ReactLeaflet;
 
-const Map: FC = memo(({ classNames, coords, zoom = 15, scroll = false, children }: any) => {
+const Map: FC<any> = memo(({ classNames, coords, zoom = 15, scroll = false, children }: any) => {
 
   useEffect(() => {
     (async function init() {
