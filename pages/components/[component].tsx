@@ -38,10 +38,12 @@ const ComponentPage = ({ data }: any) => {
     if (typeof window !== 'undefined') {
       require("lottus-elements-uane/elements")
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     setComponentState(data);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
+
   // Modal functionality begin
   const [isShow, setIsShow] = useState(false);
   const handleVisibilityModal = () => setIsShow(!isShow);
@@ -71,7 +73,6 @@ const ComponentPage = ({ data }: any) => {
         console.log("filter", componentState)
         return <Filter data={componentState.data} />
       case "filter-dropdown":
-        // console.log("filter", componentState)
         return <FilterDropdown data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
         break;
       case "tabs":
