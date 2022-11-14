@@ -1,7 +1,7 @@
 import { createRef, FC, memo, useEffect } from "react"
 import { FeedbackData } from "@/types/Feedback.types"
 
-const Feedback: FC<FeedbackData> = memo(({data, onRight}: FeedbackData) => {
+const Feedback: FC<FeedbackData> = memo(({ data, onRight }: FeedbackData) => {
   const feedbackPortalverseRef = createRef();
 
   useEffect(() => {
@@ -18,21 +18,24 @@ const Feedback: FC<FeedbackData> = memo(({data, onRight}: FeedbackData) => {
       textEvent: data.textEvent || '',
       tagOnRight: data.tagOnRight || '',
     }
-  }, [data]);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (feedbackPortalverseRef.current as any).addEventListener('onRight', onRight);
-  }, []);
+    if (!!feedbackPortalverseRef.current) {
+      (feedbackPortalverseRef.current as any).removeEventListener('onRight', onRight, false);
+    }
+    (feedbackPortalverseRef.current as any).addEventListener('onRight', onRight, false);
+  }, [onRight]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!feedbackPortalverseRef.current) {
+        (feedbackPortalverseRef.current as any).removeEventListener('onRight', onRight, false);
+      }
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return (
-    <>
-  <lottus-feedback ref={feedbackPortalverseRef}>
-    
-  </lottus-feedback>
-
-    </>
-  )
-    
-})
+  return <lottus-feedback ref={feedbackPortalverseRef}></lottus-feedback>  
+});
 
 export default Feedback

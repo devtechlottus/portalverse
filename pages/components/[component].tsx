@@ -17,7 +17,7 @@ import NavDrawer from "@/components/NavDrawer"
 import Numbers from "@/components/Numbers"
 import PromoLink from "@/components/PromoLink"
 import OustandingModule from "@/components/OustandingModule"
-import Breadcum from "@/components/Breadcum"
+import Breadcum from "@/components/Breadcrumb"
 import Link from "@/components/Link"
 import Paginator from "@/components/Paginator"
 import Modal from "@/components/Modal"
@@ -38,11 +38,16 @@ const ComponentPage = ({ data }: any) => {
     if (typeof window !== 'undefined') {
       require("lottus-elements-uane/elements")
     }
-  }, [])
+  }, []);
 
   useEffect(() => {
     setComponentState(data);
-  }, [data])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
+
+  // Modal functionality begin
+  const [isShow, setIsShow] = useState(false);
+  const handleVisibilityModal = () => setIsShow(!isShow);
+  // Modal functionality end
 
   const handleOnSelectedOptions = (options: string[]) => console.log("handleOnSelectedOptions", options)
  
@@ -68,7 +73,6 @@ const ComponentPage = ({ data }: any) => {
         console.log("filter", componentState)
         return <Filter data={componentState.data} />
       case "filter-dropdown":
-        // console.log("filter", componentState)
         return <FilterDropdown data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
         break;
       case "tabs":
@@ -120,8 +124,10 @@ const ComponentPage = ({ data }: any) => {
         return <Paginator data={componentState.data} />
         break;
       case "modal":
-        console.log("modal", componentState)
-        return <Modal data={componentState.data}/>
+        return <>
+          <Button data={ButtonInit} onClick={handleVisibilityModal}/>
+          <Modal isShow={isShow} onClose={handleVisibilityModal} data={componentState.data}/>
+        </>
         break;
       case "modal-iframe":
         console.log("modal-iframe", componentState)

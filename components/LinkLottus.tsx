@@ -22,10 +22,15 @@ const LinkIcons: FC<LinkLottusComponentData> = memo(({ data, onClick }: LinkLott
       (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (linkIconsRef.current as any).addEventListener('onClick', onClick, false);
-    () => {
-      (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!linkIconsRef.current) {
+        (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
+      }
     }
-  },[onClick]);// eslint-disable-line react-hooks/exhaustive-deps
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-link-icons ref={linkIconsRef}></lottus-link-icons>
 });

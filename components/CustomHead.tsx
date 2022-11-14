@@ -1,5 +1,5 @@
-import { CustomHeadData } from "@/types/CustomHead.types"
 import { createRef, FC, memo, useEffect } from "react"
+import { CustomHeadData } from "@/types/CustomHead.types"
 
 const CustomHead: FC<CustomHeadData> = memo(({data}: CustomHeadData) => {
   const customHeadPortalverseRef = createRef();
@@ -12,7 +12,7 @@ const CustomHead: FC<CustomHeadData> = memo(({data}: CustomHeadData) => {
       color: data.color || 'gray',
       bgcolor: data.bgcolor || '',
     }
-  }, [data]);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-custom-head-portalverse ref={customHeadPortalverseRef}></lottus-custom-head-portalverse>
 })

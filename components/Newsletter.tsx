@@ -1,25 +1,25 @@
-import NewsletterData from "@/types/Newsletter.types";
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
+import NewsletterData from "@/types/Newsletter.types"
 
-const Newsletter: FC<NewsletterData> = memo(({data, onForm, hasErrorEmail, errorMessageEmail}: NewsletterData) => {
+const Newsletter: FC<NewsletterData> = memo(({ data, hasErrorEmail, errorMessageEmail, onForm }: NewsletterData) => {
   const newsletterPortalverseRef = createRef();
 
   useEffect(() => {
-    (newsletterPortalverseRef.current as any).data = {
-      type: data.type || '',
-      typeSearch: data.typeSearch || '',
-      alphabetical: data.alphabetical || false,
-      placeholder: data.placeholder || '',
-      autocomplete: data.autocomplete || '',
-      upperCase: data.upperCase || false,
-      icon: data.icon || '',
-      size: data.size || '',
-    }
+    console.log("data", data);
+    (newsletterPortalverseRef.current as any).email = "";
+    (newsletterPortalverseRef.current as any).valueEmail = "";
+    (newsletterPortalverseRef.current as any).isInputs = false;
+    // (newsletterPortalverseRef.current as any).data = {
+    //   type: data.type || '',
+    //   typeSearch: data.typeSearch || '',
+    //   alphabetical: data.alphabetical || false,
+    //   placeholder: data.placeholder || '',
+    //   autocomplete: data.autocomplete || '',
+    //   upperCase: data.upperCase || false,
+    //   icon: data.icon || '',
+    //   size: data.size || '',
+    // };
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  //useEffect(() => {
-  //  (newsletterPortalverseRef.current as any).email = email;
-  //}, [email]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     (newsletterPortalverseRef.current as any).hasErrorEmail = hasErrorEmail;
@@ -27,11 +27,21 @@ const Newsletter: FC<NewsletterData> = memo(({data, onForm, hasErrorEmail, error
   }, [hasErrorEmail, errorMessageEmail]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (newsletterPortalverseRef.current as any).addEventListener('onForm', onForm);
-  }, [])
+    if (!!newsletterPortalverseRef.current) {
+      (newsletterPortalverseRef.current as any).removeEventListener('onForm', onForm, false);
+    }
+    (newsletterPortalverseRef.current as any).addEventListener('onForm', onForm, false);
+  }, [onForm]); // eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!newsletterPortalverseRef.current) {
+        (newsletterPortalverseRef.current as any).removeEventListener('onForm', onForm, false);
+      }
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-newsletter ref={newsletterPortalverseRef}></lottus-newsletter>
-
-})
+});
 
 export default Newsletter
