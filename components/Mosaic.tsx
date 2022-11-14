@@ -1,5 +1,5 @@
-import { MosaicData } from "@/types/Mosaic.types";
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
+import { MosaicData } from "@/types/Mosaic.types"
 
 const Mosaic: FC<MosaicData> = memo(({data, onClick}: MosaicData) => {
   const mosaicPortalverseRef = createRef();
@@ -17,10 +17,21 @@ const Mosaic: FC<MosaicData> = memo(({data, onClick}: MosaicData) => {
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps 
 
   useEffect(() => {
-    (mosaicPortalverseRef.current as any).addEventListener('onClick', onClick);
-  }, []);
+    if (!!mosaicPortalverseRef.current) {
+      (mosaicPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (mosaicPortalverseRef.current as any).addEventListener('onClick', onClick, false);
+  }, [onClick]); // eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!mosaicPortalverseRef.current) {
+        (mosaicPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+      }
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-mosaic-portalverse ref={mosaicPortalverseRef}></lottus-mosaic-portalverse>
-})
+});
 
 export default Mosaic
