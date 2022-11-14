@@ -2,6 +2,7 @@ import { createRef, FC, memo, useEffect, useState } from "react"
 import BannerComponentData from "@/types/Banner.types"
 import Button from "./Button/Button";
 import { config } from "process";
+import { ButtonInit } from "./fixture";
 
 const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
@@ -26,7 +27,7 @@ const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentDa
       height: data.height || '',
       action: data.action || {},
       wrapper: data.wrapper || false
-    };
+      };
 
     setConfigButton((state) => {
       return {...state, ...data.action}
@@ -44,9 +45,11 @@ const Banner: FC<BannerComponentData> = memo(({ data, onBtn }: BannerComponentDa
   }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-banner-portalverse ref={bannerPortalverseRef}>
-    <div actionDesktop="">
-        <Button data={configButton} />
-        <p>hola desdde div</p>
+    <div slot="areaBannerButtonDesk" >
+      <Button data={{...data.action}}  />
+    </div>
+    <div slot="areaBannerButtonMobile" >
+      <Button data={{...data.action, isExpand: true}}  />
     </div>
   </lottus-banner-portalverse>
 });

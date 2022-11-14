@@ -36,7 +36,7 @@ export type LinkIconsConfig = {
 
 type LinkLottusComponentData = {
   data: LinkIconsConfig;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export default LinkLottusComponentData;

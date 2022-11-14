@@ -1,5 +1,7 @@
 import { createRef, FC, memo, useEffect } from "react"
 import CardWebsiteComponentData from "@/types/CardWebsite.types"
+import Link from "./Link";
+import { LinkIconsInit } from "./fixture";
 
 const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardWebsiteComponentData) => {
   const cardWebsitePortalverseRef = createRef();
@@ -18,6 +20,8 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
       background: data.background || true,
       type: data.type || '',
       link: data.link || true,
+      linkIcon: data.linkIcon || {...LinkIconsInit},
+      wrapper: data.wrapper || false
       }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
@@ -31,7 +35,14 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}></lottus-card-website-portalverse>
+  return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}>
+    <div slot="areaCardWebsiteLink">
+      <Link data={{...data.linkText}} />
+    </div>
+    <div slot="areaCardWebsiteLinkIcon">
+      <Link data={{...data.linkIcon}} />
+    </div>
+  </lottus-card-website-portalverse>
 });
 
 export default CardWebsite;
