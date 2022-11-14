@@ -21,7 +21,7 @@ const Routes = {
     { params: { "component": "modal-iframe" } },
     { params: { "component": "feedback" } },
     { params: { "component": "mosaic" } },
-    { params: { "component": "newsletter" } },
+    // { params: { "component": "newsletter" } },
     { params: { "component": "newBanner" } },
     { params: { "component": "customHead" } },
 

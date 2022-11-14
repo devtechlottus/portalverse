@@ -15,6 +15,7 @@ export type ModalConfig = {
 
 export type ModalData = {
   data: ModalConfig;
+  isShow?: boolean;
   onBtn?: () => void;
   onClose?: () => void; 
 }

@@ -8,8 +8,7 @@ const OustandingModule: FC<OustandingModuleData> = memo(({ data }: OustandingMod
     (oustandingModulePortalverseRef.current as any).data = {
       image: data.image || {
         mobile: '',
-        desktop:
-            '',
+        desktop: '',
       },
       title: data.title || '',
       text: data.text || '',

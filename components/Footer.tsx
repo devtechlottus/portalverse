@@ -94,16 +94,21 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     (footerPortalverseRef.current as any).addEventListener('onLinkDirectory', onLinkDirectory, false);
     (footerPortalverseRef.current as any).addEventListener('onLinkCopyright', onLinkCopyright, false);
     (footerPortalverseRef.current as any).addEventListener('onLinkPrivacy', onLinkPrivacy, false);
-    () => {
-      (footerPortalverseRef.current as any).removeEventListener('onLinkMenu', onLinkMenu, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLink', onLink, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLinkPhone', onLinkPhone, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLinkIcon', onLinkIcon, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLinkDirectory', onLinkDirectory, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLinkCopyright', onLinkCopyright, false);
-      (footerPortalverseRef.current as any).removeEventListener('onLinkPrivacy', onLinkPrivacy, false);
-    }
   }, [onLinkMenu, onLink, onLinkPhone, onLinkIcon, onLinkDirectory, onLinkCopyright, onLinkPrivacy]);// eslint-disable-line react-hooks/exhaustive-deps
+  
+  useEffect(() => {
+    return () => {
+      if (!!footerPortalverseRef.current) {
+        (footerPortalverseRef.current as any).removeEventListener('onLinkMenu', onLinkMenu, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLink', onLink, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLinkPhone', onLinkPhone, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLinkIcon', onLinkIcon, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLinkDirectory', onLinkDirectory, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLinkCopyright', onLinkCopyright, false);
+        (footerPortalverseRef.current as any).removeEventListener('onLinkPrivacy', onLinkPrivacy, false);
+      }
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
   
   return <lottus-filter-footer-portalverse ref={footerPortalverseRef}></lottus-filter-footer-portalverse>
 });

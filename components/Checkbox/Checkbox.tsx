@@ -15,13 +15,18 @@ const Checkbox: FC<CheckboxComponentData> = memo(({ data, onCheck }: CheckboxCom
 
   useEffect(() => {
     if (!!checkboxRef.current) {
-    (checkboxRef.current as any).removeEventListener("onCheck", onCheck);
+    (checkboxRef.current as any).removeEventListener("onCheck", onCheck, false);
     }
-    (checkboxRef.current as any).addEventListener("onCheck", onCheck);
-    () => {
-      (checkboxRef.current as any).addEventListener("onCheck", onCheck);
-    }
+    (checkboxRef.current as any).addEventListener("onCheck", onCheck, false);
   }, [onCheck]);// eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    return () => {
+      if (!!checkboxRef.current) {
+        (checkboxRef.current as any).removeEventListener("onCheck", onCheck, false);
+      }
+    }
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-checkbox ref={checkboxRef}></lottus-checkbox>
 });
