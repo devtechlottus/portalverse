@@ -14,4 +14,4 @@ type DirectoryComponentData = {
   directory: SectionData[];
 }
 
-export default DirectoryComponentData;
+export default DirectoryComponentData

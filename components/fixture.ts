@@ -1,5 +1,6 @@
 import { ButtonConfig } from "@/types/Button.types"
 import { InputConfig } from "@/types/Input.types"
+import { LinkConfig } from "@/types/Link.types"
 import { LinkIconsConfig } from "@/types/LinkLottus.types"
 
 export const ButtonInit: ButtonConfig = {
@@ -40,3 +41,12 @@ export const InputInit: InputConfig = {
   upperCase: false,
   pattern: '',
 }
+
+export const LinkInit: LinkConfig = {
+  text: '',
+  size: 'small',
+  isBold: false,
+  disabled: false,
+  id: '123',
+  icon: '',
+};

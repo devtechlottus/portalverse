@@ -25,6 +25,10 @@ export type NewBannerConfig = {
    * Banner button
    */
   action?: ButtonComponentData;
+  /**
+   * wrapper mode
+   */
+  wrapper?: boolean;
 }
 
 export type Image = {

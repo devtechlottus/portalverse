@@ -1,9 +1,16 @@
-import { createRef, FC, memo, useEffect } from "react"
+import { createRef, FC, memo, useEffect, useState } from "react"
 import NewBannerData from "@/types/NewBanner.types"
 import { ButtonInit } from "@/components/fixture"
+import Button from "@/components/Button";
 
 const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
   const newBannerPortalverseRef = createRef();
+
+  const [actionInfo, setActionInfo] = useState({
+    ...ButtonInit,
+    title: 'Conocer más',
+    id: "soybutton"
+  });
 
   useEffect(() => {
     (newBannerPortalverseRef.current as any).data = {
@@ -19,8 +26,14 @@ const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
         ...ButtonInit,
         title: 'Conocer más',
       },
-    }
-  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps 
+      wrapper: true,
+    };
+
+    setActionInfo({
+      ...actionInfo,
+      ...data.action,
+    });
+  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!!newBannerPortalverseRef.current) {
@@ -37,8 +50,11 @@ const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-new-banner-portalverse ref={newBannerPortalverseRef}></lottus-new-banner-portalverse>
-
+  return <lottus-newbanner-portalverse ref={newBannerPortalverseRef}>
+    <div slot="areaNewBannerButton">
+      <Button data={actionInfo} />
+    </div>
+  </lottus-newbanner-portalverse>
 
 })
 

@@ -11,11 +11,17 @@ export type ModalConfig = {
    * Tag output click close modal
    */
   tagOnClose?: string;
+  /**
+   * Wrapper mode
+   */
+   wrapper?: boolean;
 }
 
 export type ModalData = {
   data: ModalConfig;
   isShow?: boolean;
+  children: any;
+  className?: string;
   onBtn?: () => void;
   onClose?: () => void; 
 }

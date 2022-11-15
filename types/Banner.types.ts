@@ -62,6 +62,7 @@ export type Image = {
 
 type BannerComponentData = {
   data: BannerConfig;
+  noAction?: boolean;
   onBtn?: () => void;
 }
 

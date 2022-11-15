@@ -5,4 +5,4 @@ type ContentFullLayoutProps = {
   children: ReactNode;
 };
 
-export default ContentFullLayoutProps;
+export default ContentFullLayoutProps
