@@ -27,7 +27,6 @@ const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponent
 
   useEffect(() => {
     return () => {
-      console.log("me vvoy");
       if (!!buttonPortalverseRef.current) {
         (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
       }
