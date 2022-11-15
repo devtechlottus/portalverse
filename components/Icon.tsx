@@ -11,7 +11,7 @@ const iconTypes: any = {
   phone: PhoneIcon,
   email: EmailIcon,
   eye: EyeIcon,
-}
+};
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
   const Icon = iconTypes[name]
