@@ -40,5 +40,6 @@ export type SideIconsInterface = {
 
 export type FeedbackData = {
   data: FeedbackConfig;
+  children: any;
   onRight?: () => void;
 }

@@ -1,5 +1,5 @@
 export type LinkConfig = {
-    /**
+/**
    * link text
    */
   text: string;
@@ -22,7 +22,7 @@ export type LinkConfig = {
   /**
    * icon text
    */
-  icon: string;
+  icon?: string;
   test?: string;
 }
 
