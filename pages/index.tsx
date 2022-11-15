@@ -32,7 +32,7 @@ const Home: NextPageWithLayout = () => {
     "mosaic",
     "newsletter",
     "newBanner",
-    "customHead"
+    "customHead","cardsOustanding"
   ];
   const programs = [
     "design",

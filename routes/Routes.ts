@@ -24,7 +24,7 @@ const Routes = {
     // { params: { "component": "newsletter" } },
     { params: { "component": "newBanner" } },
     { params: { "component": "customHead" } },
-
+    { params: { "component": "cardsOustanding" } },
   ],
   "educative-offer": [
     { params: { "program": "design" } },

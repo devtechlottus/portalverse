@@ -28,6 +28,7 @@ import Newsletter from "@/components/Newsletter"
 import { ButtonInit } from "@/components/fixture"
 import NewBanner from "@/components/NewBanner"
 import CustomHead from "@/components/CustomHead"
+import CardsOstanding from "@/components/CardsOustanding"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -153,6 +154,10 @@ const ComponentPage = ({ data }: any) => {
         console.log("customHead", componentState)
         return <CustomHead data={componentState.data} />
         break;
+      case "cardsOustanding":
+        console.log("cardsOustanding", componentState)
+        return <CardsOstanding data={componentState.data} />
+        break;
       }      
   }
 
@@ -178,6 +183,50 @@ export async function getStaticPaths() {
 export async function getStaticProps(context: any) {
   const path = "component";
   const components = [
+    { [path]: "cardsOustanding", title: "CardsOustanding", data: {  title: 'Conoce tu futuro perfil',
+    cards: [
+      {
+        image: {
+          desktop:
+            'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',
+          mobile:
+            'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959',
+        },
+        title: 'Perfil de ingreso 1',
+        text: 'Al estudiar la Licenciatura en Administración de Empresas, serás un profesionista capaz de contribuir en la planeación, organización, dirección y control de los recursos de la empresarial y las tecnologías de la información como herramientas de apoyo para la toma de decisiones, orientando sus acciones hacia el desarrollo del negocio.',
+        backgroundColor: '#8B9BA3',
+      },
+      {
+        image: {
+          desktop:
+            'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',
+          mobile:
+            'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959',
+        },
+        title: 'Perfil de ingreso 2',
+        text: 'Al estudiar la Licenciatura en Administración de Empresas, serás un profesionista capaz de contribuir en la planeación, organización, dirección y control de los recursos de la empresarial y las tecnologías de la información como herramientas de apoyo para la toma de decisiones, orientando sus acciones hacia el desarrollo del negocio.',
+        backgroundColor: '#6F7C82',
+      },
+      {
+        image: {
+          desktop:
+            'https://images.vexels.com/media/users/3/210434/isolated/preview/ad1f02838cc1708abd60437127a486d5-persona-reclinada-con-car-aacute-cter-de-lista-by-vexels.png',
+          mobile:
+            'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959',
+        },
+        backgroundColor: '#535D62',
+      },
+      {
+        image: {
+          desktop:
+            'https://images.vexels.com/media/users/3/210434/isolated/preview/ad1f02838cc1708abd60437127a486d5-persona-reclinada-con-car-aacute-cter-de-lista-by-vexels.png',
+          mobile:
+            'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959',
+        },
+        backgroundColor: '#383E41',
+      },
+    ],
+    wrapper: false,}},
     { [path]: "customHead", title: "CustomHead", data: {  id: '123', text: 'Busca tu nivel educativo', type: '', color: '', bgcolor: '',}},
     { [path]: "newBanner", title: "NewBanner", data:{image: {
       desktop: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',

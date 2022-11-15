@@ -32,5 +32,6 @@ declare namespace JSX {
     ['lottus-newsletter']: CustomElement,
     ['lottus-new-banner-portalverse']: CustomElement,
     ['lottus-custom-head-portalverse']: CustomElement,
+    ['lottus-cards-outstanding-portalverse']: CustomElementContainer
   }
 }
