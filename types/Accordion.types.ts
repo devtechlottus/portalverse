@@ -33,4 +33,4 @@ type AccordionComponentData = {
   data: AccordionComponentConfig
 }
 
-export default AccordionComponentData;
+export default AccordionComponentData

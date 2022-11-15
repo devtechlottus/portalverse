@@ -6,4 +6,4 @@ type ContentLayoutProps = {
   children: ReactNode;
 };
 
-export default ContentLayoutProps;
+export default ContentLayoutProps

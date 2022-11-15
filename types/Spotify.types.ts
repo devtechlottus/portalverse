@@ -10,4 +10,4 @@ type SpotifyComponentData = {
   }
 }
 
-export default SpotifyComponentData;
+export default SpotifyComponentData

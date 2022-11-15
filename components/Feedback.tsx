@@ -1,8 +1,10 @@
-import { createRef, FC, memo, useEffect } from "react"
+import { createRef, FC, memo, useEffect, useState } from "react"
 import { FeedbackData } from "@/types/Feedback.types"
 
-const Feedback: FC<FeedbackData> = memo(({ data, onRight }: FeedbackData) => {
+const Feedback: FC<FeedbackData> = memo(({ data, children, onRight }: FeedbackData) => {
   const feedbackPortalverseRef = createRef();
+
+  const [newContent, setNewContent] = useState(null)
 
   useEffect(() => {
     (feedbackPortalverseRef.current as any).data = {
@@ -17,8 +19,13 @@ const Feedback: FC<FeedbackData> = memo(({ data, onRight }: FeedbackData) => {
       isTextEvent: data.isTextEvent || false,
       textEvent: data.textEvent || '',
       tagOnRight: data.tagOnRight || '',
+      wrapper: true,
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    setNewContent(children);
+  }, [children]);
 
   useEffect(() => {
     if (!!feedbackPortalverseRef.current) {
@@ -35,7 +42,11 @@ const Feedback: FC<FeedbackData> = memo(({ data, onRight }: FeedbackData) => {
     }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-feedback ref={feedbackPortalverseRef}></lottus-feedback>  
+  return <lottus-feedback ref={feedbackPortalverseRef}>
+    <div slot="areaFeedbackContent">
+      { newContent }
+    </div>
+  </lottus-feedback>  
 });
 
 export default Feedback

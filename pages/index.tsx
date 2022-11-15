@@ -5,35 +5,10 @@ import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
-import CustomHead from "@/components/CustomHead"
+import Routes from "@/routes/Routes"
 
 const Home: NextPageWithLayout = () => {
-  const components = [
-    "youtube",
-    "spotify",
-    "lottie",
-    "richtext",
-    "filter",
-    "filter-dropdown",
-    "tabs",
-    "button",
-    "banner",
-    "cardWebsite",
-    "navDrawer",
-    "numbers",
-    "promoLink",
-    "oustandingModule",
-    "breadcum",
-    "link",
-    "paginator",
-    "modal",
-    "modal-iframe",
-    "feedback",
-    "mosaic",
-    "newsletter",
-    "newBanner",
-    "customHead","cardsOustanding"
-  ];
+  const components = Routes["components"].map((route: any) => route["params"]["component"]);
   const programs = [
     "design",
     "code",
@@ -110,15 +85,6 @@ const Home: NextPageWithLayout = () => {
             )
           }
         </ul>  
-      </div>
-      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-        <CustomHead data={{
-          id: 'undefined',
-          text: "jeje",
-          type: "",
-          color: "gray",
-          bgcolor: ""
-        }} />
       </div>
     </ContentInsideLayout>
   </>

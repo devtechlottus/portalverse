@@ -1,7 +1,8 @@
 import { createRef, FC, memo, useEffect } from "react"
+import cn from "classnames"
 import ModalData from "@/types/Modal.types"
 
-const Modal: FC<ModalData> = memo(({data, isShow, onBtn, onClose}: ModalData) => {
+const Modal: FC<ModalData> = memo(({ data, isShow, children, className, onBtn, onClose, }: ModalData) => {
   const modalPortalverseRef = createRef();
   
   useEffect(() => {
@@ -9,6 +10,7 @@ const Modal: FC<ModalData> = memo(({data, isShow, onBtn, onClose}: ModalData) =>
       icon: data.icon || '',
       title: data.title || '',
       tagOnClose: data.tagOnClose || '',
+      wrapper: true,
     };
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
   
@@ -34,7 +36,11 @@ const Modal: FC<ModalData> = memo(({data, isShow, onBtn, onClose}: ModalData) =>
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-modal ref={modalPortalverseRef}></lottus-modal>
+  return <lottus-modal ref={modalPortalverseRef}>
+    <div slot='areaModalContent' className={cn(className)}>
+      { children }
+    </div>
+  </lottus-modal>
 })
 
 export default Modal

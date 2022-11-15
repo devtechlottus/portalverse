@@ -5,4 +5,4 @@ type ContentInsideLayoutProps = {
   children: ReactNode;
 };
 
-export default ContentInsideLayoutProps;
+export default ContentInsideLayoutProps

@@ -18,4 +18,4 @@ type FilterDropdownComponentData = {
   clear?: boolean;
 };
 
-export default FilterDropdownComponentData;
+export default FilterDropdownComponentData

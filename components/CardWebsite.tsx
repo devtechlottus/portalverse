@@ -1,12 +1,16 @@
-import { createRef, FC, memo, useEffect } from "react"
+import { createRef, FC, memo, useEffect, useState } from "react"
 import CardWebsiteComponentData from "@/types/CardWebsite.types"
-import Link from "./Link";
-import { LinkIconsInit } from "./fixture";
+import Link from "@/components/Link";
+import { LinkIconsInit, LinkInit } from "@/components/fixture";
 
 const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardWebsiteComponentData) => {
   const cardWebsitePortalverseRef = createRef();
 
+  const [ linkTextData, setLinkTextData ] = useState({...LinkInit});
+  const [ linkLinkData, setLinkLinkData ] = useState({...LinkInit});
+
   useEffect(()=> {
+    console.log("cardWesibe", data);
     (cardWebsitePortalverseRef.current as any).data ={
       id: data.id || '',
       urlImage: data.urlImage || '',
@@ -20,9 +24,12 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
       background: data.background || true,
       type: data.type || '',
       link: data.link || true,
-      linkIcon: data.linkIcon || {...LinkIconsInit},
+      linkIcon: data.linkText || {...LinkInit},
+      linkText: data.linkIcon || {...LinkInit},
       wrapper: data.wrapper || false
-      }
+    };
+    setLinkLinkData({...linkLinkData, ...data.linkIcon});
+    setLinkTextData({...linkTextData, ...data.linkIcon});
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -42,10 +49,10 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
 
   return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}>
     <div slot="areaCardWebsiteLink">
-      <Link data={{...data.linkText}} />
+      <Link data={linkTextData} />
     </div>
     <div slot="areaCardWebsiteLinkIcon">
-      <Link data={{...data.linkIcon}} />
+      <Link data={linkTextData} />
     </div>
   </lottus-card-website-portalverse>
 });

@@ -1,7 +1,7 @@
 import { FC, memo, useEffect, useState } from "react"
 import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem } from "@/types/FilterDropdown"
-import Checkbox from "@/components/Checkbox/Checkbox"
-import Button from "@/components/Button/Button"
+import Checkbox from "@/components/Checkbox"
+import Button from "@/components/Button"
 import { ButtonInit } from "@/components/fixture"
 import { CheckboxConfig } from "@/types/Checkbox.types"
 

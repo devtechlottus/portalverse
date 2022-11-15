@@ -11,7 +11,7 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import Tabs from "@/components/Tabs"
 import Banner from "@/components/Banner"
-import Button from "@/components/Button/Button"
+import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
 import NavDrawer from "@/components/NavDrawer"
 import Numbers from "@/components/Numbers"
@@ -25,10 +25,12 @@ import ModalIframe from "@/components/ModalIframe"
 import Feedback from "@/components/Feedback"
 import Mosaic from "@/components/Mosaic"
 import Newsletter from "@/components/Newsletter"
-import { ButtonInit } from "@/components/fixture"
+import { ButtonInit, LinkIconsInit } from "@/components/fixture"
 import NewBanner from "@/components/NewBanner"
 import CustomHead from "@/components/CustomHead"
 import CardsOstanding from "@/components/CardsOustanding"
+import Carousel from "@/components/Carousel"
+import Slider from "@/components/Slider"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -50,7 +52,11 @@ const ComponentPage = ({ data }: any) => {
   const handleVisibilityModal = () => setIsShow(!isShow);
   // Modal functionality end
 
-  const handleOnSelectedOptions = (options: string[]) => console.log("handleOnSelectedOptions", options)
+  const handleOnSelectedOptions = (options: string[]) => console.log("handleOnSelectedOptions", options);
+
+  const renderCardsCarousel = (sections: any[]) => !!sections.length
+    ? <>{sections.map((section: any, i: number) => <CardWebsite key={`card-website-${i}`} data={section} />)}</>
+    : <></>
  
   const renderComponent = (component: string) => {
     switch(component) {
@@ -127,7 +133,9 @@ const ComponentPage = ({ data }: any) => {
       case "modal":
         return <>
           <Button data={ButtonInit} onClick={handleVisibilityModal}/>
-          <Modal isShow={isShow} onClose={handleVisibilityModal} data={componentState.data}/>
+          <Modal isShow={isShow} onClose={handleVisibilityModal} data={componentState.data}>
+            <h1>jfk</h1>
+          </Modal>
         </>
         break;
       case "modal-iframe":
@@ -136,7 +144,9 @@ const ComponentPage = ({ data }: any) => {
         break;
       case "feedback":
         console.log("feedback", componentState)
-        return <Feedback data={componentState.data}/>
+        return <Feedback data={componentState.data}>
+          <p>Soy el feedback</p>
+        </Feedback>
         break;
       case "mosaic":
         console.log("mosaic", componentState)
@@ -157,6 +167,14 @@ const ComponentPage = ({ data }: any) => {
       case "cardsOustanding":
         console.log("cardsOustanding", componentState)
         return <CardsOstanding data={componentState.data} />
+        break
+      case "carousel":
+        console.log("carousel", componentState)
+        return <Carousel data={componentState.data} />
+        break;
+      case "slider":
+        console.log("slider", componentState)
+        return <Slider data={componentState.data} />
         break;
       }      
   }
@@ -232,19 +250,20 @@ export async function getStaticProps(context: any) {
       desktop: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
       mobile: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
     },
-    title: 'hola',
+    title: 'soy un newbanner',
     text: 'jsanjkankjana',
     contentCenter: false,
     contentLeft: false,
     action: {
       ...ButtonInit,
       title: 'Conocer más',
-    },}},
+    },
+    wrapper: true}},
     { [path]: "newsletter", title: "Newsletter", data:{  type: 'text', typeSearch: 'filed', alphabetical: true, placeholder: 'Buscar', autocomplete: 'off', upperCase: false, icon: 'search', size: 'small',}},
     { [path]: "mosaic", title: "Mosaic", data:{images: [{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map', }, {id: '2', image: 'https://www.fotocommunity.es/styleguide/img/homepage/ottilia.jpg', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',}, {id: '4', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',},{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map',}, {id: '2', image: 'https://th.bing.com/th/id/R.e2607cf730a72b5ce7024be6003c558c?rik=nsEV30f5tEd4Uw&riu=http%3a%2f%2finformacionimagenes.net%2fwp-content%2fuploads%2f2017%2f05%2fAnimales-salvajes-55.jpg&ehk=BIvlyNek99FY06ulqPA8F8XiK49vWahPniSVCLV4P5Y%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map', }, {id: '4', image: 'https://th.bing.com/th/id/R.b9760e7cd34211c15d5e34d07dd8ba4c?rik=fSZN4Dk2BlNUUw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k5NoJq9ax90%2fTwwRmC0VYmI%2fAAAAAAAAAbY%2fWvIsdkfWI8c%2fs1600%2fBeautiful_Animal_Wallpaper_rp5pe.jpg&ehk=fg%2bG0NrN5rmEaj9A0IsT9JdEbhPmKGvSOtFlzetkSf0%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map',},],}},
     { [path]: "feedback", title: "Feedback", data:{left: {name: 'info', status: 'normal', }, right: {name: 'info', }, type: 'alert', isTextEvent: false, textEvent: 'Dismiss', tagOnRight: 'testOnRight',}},
     { [path]: "modal-iframe", title: "ModalIframe", data:{  title: 'Titulo', icon: 'close',}},
-    { [path]: "modal", title: "Modal", data:{icon: 'close', title: 'The standard Lorem', tagOnClose: 'testOnClose',}},
+    { [path]: "modal", title: "Modal", data:{icon: 'close', title: 'The standard Lorem', tagOnClose: 'testOnClose', wrapper: true,}},
     { [path]: "paginator", title: "Paginator", data: {  iconPrevious: 'arrow_back_ios', iconNext: 'arrow_forward_ios', size: 'small', maxNumbers: 10,}},
     { [path]: "link", title: "Link", data:{  text: 'xdxd', size: 'small', isBold: false, disabled: false, id: '123', icon: 'person',}},
     { [path]: "breadcum", title: "Breadcum", data:{tagOnItem: 'testOnItem', tagOnBack: 'testOnBack', textItems: [{value: 'text1', text: 'Firt text', }, {value: 'text2', text: 'Second text', }, {value: 'text3', text: 'Third text large end', },], icon: 'home', textColor: 'black',}},
@@ -252,34 +271,39 @@ export async function getStaticProps(context: any) {
     { [path]: "promoLink", title: "PromoLink", data: {  urlImage: { mobile: 'https://thumbs.dreamstime.com/z/fondo-del-coraz%C3%B3n-del-amor-del-arco-iris-60045149.jpg', desktop: 'https://media.istockphoto.com/id/1354441996/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?b=1&s=170667a&w=0&k=20&c=O_VZbgONe4WTXPOEvwKYezhqFkzAXpr2g-lCdpdj5FU=',}, text: 'Mab', icon: 'person', color: '', opacity: '', height: '300px', enable: true, nobackground: false,}},
     { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true,}},
     { [path]: "navDrawer", title: "NavDrawer", data:{ text: 'Hola', iconselected: false, linkselected: false, isleft: false, singleaction: false, morecontent: false, activesingle: false}},
-    { [path]: "cardWebsite", title:"CardWebsite", data:{ urlImage:
-      'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-    subtitle: 'SUBTITULO',
-    title: 'Coursera y UANE se unen para ti',
-    text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-    border: true,
-    allContent: true,
-    height: '',
-    isShowCardWebsiteContent: true,
-    id: '',
-    type: 'small',
-    link: true,
-    background: false,
-    linkText: {       text: 'Conocer más',
-    iconSecond: 'arrow_forward_ios',
-    isBold: true,
-    size: 'large',
-    isUnderline: false,
-    disabled: false,
-    iconFirst: '', },
-    linkIcon: {       text: 'vvv',
-    iconSecond: 'person',
-    isBold: true,
-    size: 'large',
-    isUnderline: false,
-    disabled: false,
-    iconFirst: 'person', },
-  wrapper: true}},
+    { [path]: "cardWebsite", title:"CardWebsite", data:{ 
+        urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+        subtitle: 'SUBTITULO',
+        title: 'Coursera y UANE se unen para ti',
+        text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+        border: true,
+        allContent: true,
+        height: '',
+        isShowCardWebsiteContent: true,
+        id: '',
+        type: 'small',
+        link: true,
+        background: false,
+        linkText: {
+          text: 'Conocer más',
+          isBold: true,
+          size: 'large',
+          isUnderline: false,
+          disabled: false,
+          icon: 'star',
+        },
+        linkIcon: {
+          text: 'vvv',
+          iconSecond: 'person',
+          isBold: true,
+          size: 'large',
+          isUnderline: false,
+          disabled: false,
+          icon: 'person',
+        },
+        wrapper: true
+      }
+    },
     { [path]: "banner", title:"Banner", data:{ title: 'Hola', subtitle: 'jejeje', state: 'black', size: 'small', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}},
     { [path]: "button", title: "Button", data:{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}},
     { [path]: "tabs", title: "Tabs", data:{items: [{label: 'Item Tab 1', icons: { primary: 'star', duplicate: true,}, disabled: true,}, {label: 'Item Tab 1', icons: {primary: 'star', duplicate: true, }, disabled: false, }], size: 'medium', }},
@@ -364,6 +388,252 @@ export async function getStaticProps(context: any) {
           { label: 'seis', active: false, value: 'seis' },
           { label: 'siete', active: false, value: 'siete' },
         ]
+      }
+    },
+    {
+      [path]: 'carousel',
+      title: 'Carousel',
+      data: {
+        iconleft: 'arrow_back_ios',
+        iconright: 'arrow_forward_ios',
+        size: '',
+        slides: [
+          {
+            urlImage:
+              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkIcon: {
+              text: '',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+            linkText: {
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+          },
+          {
+            urlImage:
+              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkIcon: {
+              text: '',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+            linkText: {
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+          },
+          {
+            urlImage:
+              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkIcon: {
+              text: '',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+            linkText: {
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+          },
+          {
+            urlImage:
+              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkIcon: {
+              text: '',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+            linkText: {
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+          },
+          {
+            urlImage:
+              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkIcon: {
+              text: '',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+            linkText: {
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              iconFirst: '',
+            },
+          },
+        ],
+        wrapper: true,
+      }
+    },
+    {
+      [path]: "slider",
+      title: "Slider",
+      data: {
+        width: '100%',
+        height: '100%',
+        iconleft: 'arrow_back_ios',
+        iconright: 'arrow_forward_ios',
+        slides: [
+          {
+            urlImage: {
+              mobile:
+                'https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
+
+              desktop:
+                'https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg',
+            },
+            heightmobile: '',
+            title: 'Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!',
+            text: 'Carreras sabatinas con sesiones sabatinas de 4 horas',
+            description: 'probando slide',
+            center: false,
+            left: false,
+            middle: false,
+            bottom: false,
+            action: {
+              ...ButtonInit,
+              title: 'Conocer más',
+            },
+            link: {
+              ...LinkIconsInit,
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+            },
+          },
+          {
+            urlImage: {
+              mobile:
+                'https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg',
+
+              desktop:
+                'https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
+            },
+            heightmobile: '250px',
+            title: 'Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!',
+            text: 'Carreras sabatinas con sesiones sabatinas de 4 horas',
+            description: 'probando slide',
+            center: true,
+            left: false,
+            middle: false,
+            bottom: false,
+            action: {
+              ...ButtonInit,
+              title: 'Aceptar',
+            },
+            link: {
+              ...LinkIconsInit,
+              text: 'Conocer más',
+              iconSecond: 'arrow_forward_ios',
+              isBold: true,
+              size: 'large',
+            },
+          },
+        ],
+        wrapper: true,
       }
     }
   ];
