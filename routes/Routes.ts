@@ -27,6 +27,8 @@ const Routes = {
     { params: { "component": "cardsOustanding" } },
     { params: { "component": "carousel" } },
     { params: { "component": "slider" } },
+    { params: { "component": "table" } },
+
 
   ],
   "educative-offer": [

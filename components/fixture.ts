@@ -2,6 +2,7 @@ import { ButtonConfig } from "@/types/Button.types"
 import { InputConfig } from "@/types/Input.types"
 import { LinkConfig } from "@/types/Link.types"
 import { LinkIconsConfig } from "@/types/LinkLottus.types"
+import { SelectConfig } from "@/types/Select.types"
 
 export const ButtonInit: ButtonConfig = {
   type: 'primary',
@@ -49,4 +50,15 @@ export const LinkInit: LinkConfig = {
   disabled: false,
   id: '123',
   icon: '',
-};
+}
+
+export const SelectInit: SelectConfig = {
+  textDefault: 'Option Default',
+  disabled: false,
+  icon: 'person',
+  reset: false,
+  zindexOptions: 10,
+  isLabel: true,
+  tagOnClickList: 'testOnClickList',
+  tagOnClickOption: 'testOnClickOption',
+}

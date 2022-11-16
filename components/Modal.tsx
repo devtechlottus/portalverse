@@ -19,22 +19,21 @@ const Modal: FC<ModalData> = memo(({ data, isShow, children, className, onBtn, o
   }, [isShow]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!modalPortalverseRef.current) {
+      observerRef = modalPortalverseRef.current;
       (modalPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
       (modalPortalverseRef.current as any).removeEventListener('onClose', onClose, false);    
     }
     (modalPortalverseRef.current as any).addEventListener('onBtn', onBtn, false);
     (modalPortalverseRef.current as any).addEventListener('onClose', onClose, false);
-  },[onBtn, onClose]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  useEffect(() => {
     return () => {
-      if (!!modalPortalverseRef.current) {
-        (modalPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
-        (modalPortalverseRef.current as any).removeEventListener('onClose', onClose, false);    
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onBtn', onBtn, false);
+        (observerRef as any).removeEventListener('onClose', onClose, false);    
       } 
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  },[onBtn, onClose]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-modal ref={modalPortalverseRef}>
     <div slot='areaModalContent' className={cn(className)}>

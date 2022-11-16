@@ -34,7 +34,9 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
   }, [hasError, errorMessage]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!inputRef.current) {
+      observerRef = inputRef.current;
       (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
       (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
       (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
@@ -44,18 +46,15 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
     (inputRef.current as any).addEventListener('eventKeyPress', eventKeyPress, false);
     (inputRef.current as any).addEventListener('eventBlurPress', eventBlurPress, false);
     (inputRef.current as any).addEventListener('listenIcon', listenIcon, false);
-  }, [eventFocus, eventKeyPress, eventBlurPress, listenIcon]);// eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!inputRef.current) {
-        (inputRef.current as any).removeEventListener('eventFocus', eventFocus, false);
-        (inputRef.current as any).removeEventListener('eventKeyPress', eventKeyPress, false);
-        (inputRef.current as any).removeEventListener('eventBlurPress', eventBlurPress, false);
-        (inputRef.current as any).removeEventListener('listenIcon', listenIcon, false);  
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('eventFocus', eventFocus, false);
+        (observerRef as any).removeEventListener('eventKeyPress', eventKeyPress, false);
+        (observerRef as any).removeEventListener('eventBlurPress', eventBlurPress, false);
+        (observerRef as any).removeEventListener('listenIcon', listenIcon, false);  
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [eventFocus, eventKeyPress, eventBlurPress, listenIcon]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-input ref={inputRef}></lottus-input>
 });

@@ -16,19 +16,18 @@ const Link: FC<LinkData> = memo(({ data, onClick }: LinkData) => {
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!linkRef.current) {
+      observerRef = linkRef.current;
       (linkRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (linkRef.current as any).addEventListener('onClick', onClick, false);
-  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!linkRef.current) {
-        (linkRef.current as any).removeEventListener('onClick', onClick, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-link ref={linkRef}></lottus-link>
 });

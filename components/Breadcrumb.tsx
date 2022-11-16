@@ -20,22 +20,21 @@ const Breadcum: FC<BreadcumData> = memo(({ data, onItem, onBack }: BreadcumData)
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!breadcumPortalverseRef.current) {
+      observerRef = breadcumPortalverseRef.current;
       (breadcumPortalverseRef.current as any).removeEventListener('onItem', onItem, false);
       (breadcumPortalverseRef.current as any).removeEventListener('onBack', onBack, false);
     }
     (breadcumPortalverseRef.current as any).addEventListener('onItem', onItem, false);
     (breadcumPortalverseRef.current as any).addEventListener('onBack', onBack, false);
-  }, [onItem, onBack]);// eslint-disable-line react-hooks/exhaustive-deps
-
-  useEffect(() => {
     return () => {
-      if (!!breadcumPortalverseRef.current) {
-        (breadcumPortalverseRef.current as any).removeEventListener('onItem', onItem, false);
-        (breadcumPortalverseRef.current as any).removeEventListener('onBack', onBack, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onItem', onItem, false);
+        (observerRef as any).removeEventListener('onBack', onBack, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onItem, onBack]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-breadcrumb ref={breadcumPortalverseRef}></lottus-breadcrumb>
 });

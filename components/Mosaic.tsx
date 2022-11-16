@@ -17,19 +17,18 @@ const Mosaic: FC<MosaicData> = memo(({data, onClick}: MosaicData) => {
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps 
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!mosaicPortalverseRef.current) {
+      observerRef = mosaicPortalverseRef.current;
       (mosaicPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (mosaicPortalverseRef.current as any).addEventListener('onClick', onClick, false);
-  }, [onClick]); // eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!mosaicPortalverseRef.current) {
-        (mosaicPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
       }
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [onClick]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-mosaic-portalverse ref={mosaicPortalverseRef}></lottus-mosaic-portalverse>
 });

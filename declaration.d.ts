@@ -36,5 +36,6 @@ declare namespace JSX {
     ['lottus-cards-outstanding-portalverse']: CustomElementContainer
     ['lottus-carousel-portalverse']: CustomElementContainer,
     ['lottus-slider-portalverse']: CustomElement,
+    ['lottus-select']: CustomElement,
   }
 }

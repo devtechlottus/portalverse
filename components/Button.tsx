@@ -19,19 +19,18 @@ const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponent
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!buttonPortalverseRef.current) {
+      observerRef = buttonPortalverseRef.current;
       (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (buttonPortalverseRef.current as any).addEventListener('onClick', onClick, false);
-  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
-
-  useEffect(() => {
     return () => {
-      if (!!buttonPortalverseRef.current) {
-        (buttonPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-button ref={buttonPortalverseRef}></lottus-button>
 });

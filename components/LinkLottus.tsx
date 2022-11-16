@@ -18,19 +18,18 @@ const LinkIcons: FC<LinkLottusComponentData> = memo(({ data, onClick }: LinkLott
   },[data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!linkIconsRef.current) {
+      observerRef = linkIconsRef.current;
       (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (linkIconsRef.current as any).addEventListener('onClick', onClick, false);
-  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!linkIconsRef.current) {
-        (linkIconsRef.current as any).removeEventListener('onClick', onClick, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-link-icons ref={linkIconsRef}></lottus-link-icons>
 });

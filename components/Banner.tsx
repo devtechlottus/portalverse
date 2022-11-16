@@ -34,19 +34,18 @@ const Banner: FC<BannerComponentData> = memo(({ data, noAction, onBtn }: BannerC
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!bannerPortalverseRef.current) {
+      observerRef = bannerPortalverseRef.current;
       (bannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
     }
     (bannerPortalverseRef.current as any).addEventListener('onBtn', onBtn, false);
-  }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
-
-  useEffect(() => {
     return () => {
-      if (!!bannerPortalverseRef.current) {
-        (bannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onBtn', onBtn, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-banner-portalverse ref={bannerPortalverseRef}>
     <div slot="areaBannerButtonDesk" className={cn({"hidden": !noAction})}>
