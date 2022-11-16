@@ -19,7 +19,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data }: any) => {
 
   return <>
     <Head>
-      <title>Detail program</title>
+      <title>Detail Bachillerato program</title>
     </Head>
     <ContentInsideLayout classNames="gap-6">
       <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
