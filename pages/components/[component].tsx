@@ -31,6 +31,7 @@ import CustomHead from "@/components/CustomHead"
 import CardsOstanding from "@/components/CardsOustanding"
 import Carousel from "@/components/Carousel"
 import Slider from "@/components/Slider"
+import Table from "@/components/Table"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -176,6 +177,10 @@ const ComponentPage = ({ data }: any) => {
         console.log("slider", componentState)
         return <Slider data={componentState.data} />
         break;
+        case "table":
+          console.log("table", componentState)
+          return <Table data={componentState.data} />
+          break;
       }      
   }
 
@@ -201,6 +206,7 @@ export async function getStaticPaths() {
 export async function getStaticProps(context: any) {
   const path = "component";
   const components = [
+    { [path]: "table", title: "Table", data:{head:"Semestre",icon:'person', rows: ["hola", "hola2", "materia2"]}},
     { [path]: "cardsOustanding", title: "CardsOustanding", data: {  title: 'Conoce tu futuro perfil',
     cards: [
       {

@@ -34,6 +34,13 @@ const Home: NextPageWithLayout = () => {
         </Link>
       </div>
       <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+        <Link href="/directorio">
+          <a className='flex text-2xl hover:underline hover:text-red-800'>
+            Filtro Oferta educativa
+          </a>
+        </Link>
+      </div>
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
         <Link href="/images">
           <a className='text-2xl hover:underline hover:text-red-800'>
             Imagenes
