@@ -1,11 +1,12 @@
 export type TableConfig = {
-    head: string;
-    rows: Array<string>;
-    icon: string;
+  head: string;
+  rows: Array<string>;
+  icon: string;
 }
 
 export type TableData = {
-    data: TableConfig
+  data: TableConfig;
+  classNames?: string;
 }
 
 export default TableData
