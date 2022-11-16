@@ -13,7 +13,7 @@ const Slider: FC<SliderComponentData> = ({ data }: SliderComponentData) => {
       iconright: data.iconright || '',
       wrapper: true
     };
-  }, [data]);
+  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-slider-portalverse ref={sliderRef}></lottus-slider-portalverse>
 };

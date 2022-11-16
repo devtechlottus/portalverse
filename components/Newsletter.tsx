@@ -27,19 +27,18 @@ const Newsletter: FC<NewsletterData> = memo(({ data, hasErrorEmail, errorMessage
   }, [hasErrorEmail, errorMessageEmail]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!newsletterPortalverseRef.current) {
+      observerRef = newsletterPortalverseRef.current;
       (newsletterPortalverseRef.current as any).removeEventListener('onForm', onForm, false);
     }
     (newsletterPortalverseRef.current as any).addEventListener('onForm', onForm, false);
-  }, [onForm]); // eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!newsletterPortalverseRef.current) {
-        (newsletterPortalverseRef.current as any).removeEventListener('onForm', onForm, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onForm', onForm, false);
       }
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [onForm]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-newsletter ref={newsletterPortalverseRef}></lottus-newsletter>
 });

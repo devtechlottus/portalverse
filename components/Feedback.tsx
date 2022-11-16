@@ -28,19 +28,18 @@ const Feedback: FC<FeedbackData> = memo(({ data, children, onRight }: FeedbackDa
   }, [children]);
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!feedbackPortalverseRef.current) {
+      observerRef = feedbackPortalverseRef.current;
       (feedbackPortalverseRef.current as any).removeEventListener('onRight', onRight, false);
     }
     (feedbackPortalverseRef.current as any).addEventListener('onRight', onRight, false);
-  }, [onRight]);// eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!feedbackPortalverseRef.current) {
-        (feedbackPortalverseRef.current as any).removeEventListener('onRight', onRight, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onRight', onRight, false);
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onRight]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-feedback ref={feedbackPortalverseRef}>
     <div slot="areaFeedbackContent">

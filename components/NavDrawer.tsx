@@ -17,7 +17,9 @@ const NavDrawer: FC<NavDrawerData> = memo(({ data, onClick, onText, onTextSingle
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps 
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!navDrawerPortalverseRef.current) {
+      observerRef = navDrawerPortalverseRef.current;
       (navDrawerPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
       (navDrawerPortalverseRef.current as any).removeEventListener('onText', onText, false);
       (navDrawerPortalverseRef.current as any).removeEventListener('onTextSingle', onTextSingle, false);
@@ -26,9 +28,11 @@ const NavDrawer: FC<NavDrawerData> = memo(({ data, onClick, onText, onTextSingle
     (navDrawerPortalverseRef.current as any).addEventListener('onText', onText, false);
     (navDrawerPortalverseRef.current as any).addEventListener('onTextSingle', onTextSingle, false);
     () => {
-      (navDrawerPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
-      (navDrawerPortalverseRef.current as any).removeEventListener('onText', onText, false);
-      (navDrawerPortalverseRef.current as any).removeEventListener('onTextSingle', onTextSingle, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
+        (observerRef as any).removeEventListener('onText', onText, false);
+        (observerRef as any).removeEventListener('onTextSingle', onTextSingle, false);
+      }
     }
   }, [onClick, onText, onTextSingle]);// eslint-disable-line react-hooks/exhaustive-deps 
 

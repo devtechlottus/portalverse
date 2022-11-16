@@ -14,7 +14,9 @@ const Header: FC<HeaderComponentData> = memo(({ data, onClickSearch, onClickMenu
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!headerRef.current) {
+      observerRef = headerRef.current;
       (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
       (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
       (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);  
@@ -22,17 +24,14 @@ const Header: FC<HeaderComponentData> = memo(({ data, onClickSearch, onClickMenu
     (headerRef.current as any).addEventListener('onClickSearch', onClickSearch, false);
     (headerRef.current as any).addEventListener('onClickMenu', onClickMenu, false);
     (headerRef.current as any).addEventListener('onClickLogo', onClickLogo, false);
-  }, [onClickSearch, onClickMenu, onClickLogo]);// eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!headerRef.current) {
-        (headerRef.current as any).removeEventListener('onClickSearch', onClickSearch, false);
-        (headerRef.current as any).removeEventListener('onClickMenu', onClickMenu, false);
-        (headerRef.current as any).removeEventListener('onClickLogo', onClickLogo, false);  
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClickSearch', onClickSearch, false);
+        (observerRef as any).removeEventListener('onClickMenu', onClickMenu, false);
+        (observerRef as any).removeEventListener('onClickLogo', onClickLogo, false);  
       }
     }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [onClickSearch, onClickMenu, onClickLogo]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-nav-portalverse ref={headerRef}></lottus-nav-portalverse>
 });

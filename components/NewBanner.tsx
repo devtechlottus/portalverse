@@ -36,19 +36,18 @@ const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!newBannerPortalverseRef.current) {
+      observerRef = newBannerPortalverseRef.current;
       (newBannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
     }
     (newBannerPortalverseRef.current as any).addEventListener('onBtn', onBtn, false);
-  }, [onBtn]); // eslint-disable-line react-hooks/exhaustive-deps
-  
-  useEffect(() => {
     return () => {
-      if (!!newBannerPortalverseRef.current) {
-        (newBannerPortalverseRef.current as any).removeEventListener('onBtn', onBtn, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onBtn', onBtn, false);
       }
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [onBtn]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-newbanner-portalverse ref={newBannerPortalverseRef}>
     <div slot="areaNewBannerButton">

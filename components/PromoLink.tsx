@@ -21,12 +21,16 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) =>
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
+    let observerRef: any = null;
     if (!!promoLinkPortalverseRef.current) {
+      observerRef = promoLinkPortalverseRef.current;
       (promoLinkPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
     }
     (promoLinkPortalverseRef.current as any).addEventListener('onClick', onClick, false);
     () => {
-      (promoLinkPortalverseRef.current as any).removeEventListener('onClick', onClick, false);
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
+      }
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
