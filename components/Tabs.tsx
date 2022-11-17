@@ -11,16 +11,23 @@ const Tabs: FC<TabsComponentData> = memo(({data, tabIndex}: TabsComponentData) =
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
+  const handleTabIndex = (e: CustomEvent) => {
+    if (!!tabIndex) {
+      const { detail: { tab } } = e;
+      tabIndex(tab);
+    }
+  };
+
   useEffect(() => {
     let observerRef: any = null;
     if (!!tabsPortalverseRef.current) {
       observerRef = tabsPortalverseRef.current;
-      (tabsPortalverseRef.current as any).removeEventListener('tabIndex', tabIndex, false);
+      (tabsPortalverseRef.current as any).removeEventListener('tabIndex', handleTabIndex, false);
     }
-    (tabsPortalverseRef.current as any).addEventListener('tabIndex', tabIndex, false);
+    (tabsPortalverseRef.current as any).addEventListener('tabIndex', handleTabIndex, false);
     return () => {
       if(!!observerRef){
-        (observerRef as any).removeEventListener('onClick', tabIndex, false);
+        (observerRef as any).removeEventListener('onClick', handleTabIndex, false);
       }
     }
   }, [tabIndex]);// eslint-disable-line react-hooks/exhaustive-deps

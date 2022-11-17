@@ -53,7 +53,7 @@ type TabConfigIcons = {
 
 type TabsComponentData = {
     data: TabsConfig;
-    tabIndex?: () => void;
+    tabIndex?: (active: number) => void;
 }
 
 export default TabsComponentData;
