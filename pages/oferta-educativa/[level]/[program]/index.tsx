@@ -66,7 +66,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
             <Tabs data={info.modality.tabs} tabIndex={(active: number) => setTabActive(active)} />
           </div>
-          <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
             level === 'bachillerato'
               ? contentTabs.map( ( { title: contentTitle, description: contentDescription, image  }: any, i: number ) => <Fragment key={`section-${i}`}>
@@ -112,7 +112,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
 
 
       <ContentLayout>
-        <ContentInsideLayout>
+        <ContentInsideLayout classNames="mt-6 gap-6">
           {
             level === 'bachillerato'
               ? <>

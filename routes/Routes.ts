@@ -43,7 +43,7 @@ const Routes: any = {
             icon: "arrow_forward",
             color: "#D5583E",
             opacity: "multiply",
-            height: "200px",
+            height: "282px",
             enable: true,
             nobackground: false
           },
@@ -83,7 +83,7 @@ const Routes: any = {
             icon: "arrow_forward",
             color: "#42C1A6",
             opacity: "multiply",
-            height: "200px",
+            height: "282px",
             enable: true,
             nobackground: false
           },
@@ -147,7 +147,7 @@ const Routes: any = {
             icon: "arrow_forward",
             color: "#9E5ED3",
             opacity: "multiply",
-            height: "200px",
+            height: "282px",
             enable: true,
             nobackground: false
           },
@@ -190,7 +190,7 @@ const Routes: any = {
             icon: "arrow_forward",
             color: "#5ED365",
             opacity: "multiply",
-            height: "200px",
+            height: "282px",
             enable: true,
             nobackground: false
           },
@@ -251,7 +251,7 @@ const Routes: any = {
             icon: "arrow_forward",
             color: "#D35EA3",
             opacity: "multiply",
-            height: "200px",
+            height: "282px",
             enable: true,
             nobackground: false
           },

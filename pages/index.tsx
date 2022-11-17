@@ -1,7 +1,5 @@
-import { ReactElement } from "react"
 import Head from "next/head"
 import Link from "next/link"
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
@@ -11,19 +9,17 @@ import BannerPortalverse from "@/components/BannerPortalverse"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Banner from "@/components/Banner"
 
-const Home: NextPageWithLayout = ({data}: any) => {
+const Home: NextPageWithLayout = ({ data }: any) => {
   const components = Routes["components"].map((route: any) => route["params"]["component"]);
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level,config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
-  const programs = [
-    "design",
-    "code",
-  ];
   const faqs = [
     { title:"Nuevo Ingreso", url: "new-incomming" },
     { title:"Comunidad UANE", url: "community" },
     { title:"Aula Virtual", url: "virtual-classroom" },
     { title:"Internacionalización", url: "internationalization" },
   ];
+
+  console.log(data)
 
   return <>
     <Head>
@@ -45,7 +41,7 @@ const Home: NextPageWithLayout = ({data}: any) => {
         </div>
         <OfertaEducativa data={oferta} level={'oferta-educativa/'} classNames="opacity-80"/>
         <div className="my-6">
-          <Banner data={{title: 'UANE Internacional', subtitle: 'internacionalízate agrega experiencias internacionales a tu eduacioón', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg', desktop: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}} />
+          <Banner data={data.banner2} />
         </div>
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/directorio">
@@ -53,17 +49,7 @@ const Home: NextPageWithLayout = ({data}: any) => {
               Directorio
             </a>
           </Link>
-        </div>
-        {
-          //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          //  <Link href="/images">
-          //   <a className='text-2xl hover:underline hover:text-red-800'>
-          //     Imagenes
-          //   </a>
-          // </Link>
-          //</div>
-        }
-        
+        </div>        
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/campus">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
@@ -84,23 +70,7 @@ const Home: NextPageWithLayout = ({data}: any) => {
             }
           </ul>
         </div>
-        {
-
-        
-        //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-        //  <h2 className='text-2xl'>Programas Disponibles</h2>
-        //  <ul className='flex justify-start'>
-        //    {
-        //      programs.map((item: string, i: number) => <li key={`program-${i}`}>
-        //          <Link href={`/educative-offer/${item}`}>
-        //            <a className='mx-8 text-xl hover:underline hover:text-red-800'>{item}</a>
-        //          </Link>
-        //        </li>
-        //      )
-        //    }
-        //  </ul>
-        //</div>
-        
+        {  
           //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           //  <h2 className='text-2xl'>Componentes disponibles</h2>
           //  <ul className='flex justify-start flex-wrap'>
@@ -115,7 +85,6 @@ const Home: NextPageWithLayout = ({data}: any) => {
           //  </ul>  
           //</div>
         }
-        
         </ContentLayout>
     </HeaderFooterLayout>
     
@@ -124,25 +93,20 @@ const Home: NextPageWithLayout = ({data}: any) => {
 
 export async function getStaticProps(context: any) {
   return {
-    props: { data: {banner:{title: "UANE estrena sitio web", subtitle: "Nos estamos renovando para darte la mejor oferta educativa", image: "https://www.uane.edu.mx/multi/images/programas/becas.jpg"},title: "UANE", titleOffer:"¿Qué me ofrece UANE para estudiar?" },
-  banner2: {
-    title: "hola",
-    subtitle: "",
-    state: "",
-    size: "",
-    middle: false,
-    center: false,
-    bottom: false,
-    left: false,
-    urlImage: {
-      mobile: "",
-      desktop: ""
+    props: { 
+      data: {
+        banner:{
+          title: "UANE estrena sitio web", 
+          subtitle: "Nos estamos renovando para darte la mejor oferta educativa", 
+          image: "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+        },
+        title: "UANE", 
+        titleOffer:"¿Qué me ofrece UANE para estudiar?",
+        banner2: {
+          title: 'UANE Internacional', subtitle: 'internacionalízate agrega experiencias internacionales a tu eduacioón', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg', desktop: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
+        }
+      } 
     },
-    overlay: "",
-    height: "",
-    action: {},
-    wrapper: false
-  }},
   }
 }
 
