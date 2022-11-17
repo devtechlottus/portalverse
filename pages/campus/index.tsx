@@ -8,8 +8,9 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import LinkContactTarget from "@/components/LinkContactTarget"
 import Modal from "@/components/Modal"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
-const Campus = ({ data }: any) => {
+const Campus = ({ data, banner }: any) => {
 
   // Modal functionality begin
   const [isShow, setIsShow] = useState(false);
@@ -31,20 +32,14 @@ const Campus = ({ data }: any) => {
     handleVisibilityModal();
   };
 
+  console.log(banner)
   return <HeaderFooterLayout>
     <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4">
-      <div style={{"backgroundImage":"linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg)"}} className="col-span-12 w-t:col-span-8 w-p:col-span-4 aspect-2/1 bg-cover flex flex-col items-center justify-center p-10">
-        <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-13 w-t:text-6 w-p:text-6">NUESTROS CAMPUS</h1>
-        <h3 className="font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5">Agrega experiencias internacionales a tus estudiso </h3>
-      </div>
+      <BannerPortalverse data={ banner } />
     </ContentFullLayout>
     <ContentLayout>
       <ContentInsideLayout classNames="gap-6">
-        <div style={{"backgroundImage":"linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg)"}} className="col-span-12 w-t:col-span-8 w-p:col-span-4 aspect-2/1 bg-cover flex flex-col items-center justify-center w-t:hidden w-p:hidden p-10">
-          <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-13 w-t:text-6 w-p:text-6">NUESTROS CAMPUS</h1>
-          <h3 className="font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5">Agrega experiencias internacionales a tus estudiso </h3>
-        </div>
-        
+        <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ banner } />        
         <Modal isShow={isShow} onClose={handleVisibilityModal} data={{icon: 'close', title: infoMap, tagOnClose: 'testOnClose', wrapper: true,}}>
           {
             !!coordsMap
@@ -214,7 +209,7 @@ export async function getStaticProps(context: any) {
   ];
 
   return {
-    props: { data: [ ...campusAll ] },
+    props: { data: [ ...campusAll ], banner:{title: "Nuestros Campus", subtitle: "wwww", image: "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"} },
   }
 }
 
