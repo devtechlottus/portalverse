@@ -34,6 +34,19 @@ const Routes: any = {
         "level": "bachillerato",
         "config": {
           title: "Bachillerato",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#D5583E",
+            opacity: "multiply",
+            height: "200px",
+            enable: true,
+            nobackground: false
+          },
           banner: {
             image: {
               src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
@@ -61,6 +74,19 @@ const Routes: any = {
         "level": "licenciatura",
         "config": {
           title: "Licenciaturas",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#42C1A6",
+            opacity: "multiply",
+            height: "200px",
+            enable: true,
+            nobackground: false
+          },
           banner: {
             image: {
               src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
@@ -112,6 +138,19 @@ const Routes: any = {
         "level": "especialidad",
         "config": {
           title: "Especialidades",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#9E5ED3",
+            opacity: "multiply",
+            height: "200px",
+            enable: true,
+            nobackground: false
+          },
           banner: {
             image: {
               src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
@@ -142,6 +181,19 @@ const Routes: any = {
         "level": "maestria",
         "config": {
           title: "Maestrias",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#5ED365",
+            opacity: "multiply",
+            height: "200px",
+            enable: true,
+            nobackground: false
+          },
           banner: {
             image: {
               src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
@@ -190,6 +242,19 @@ const Routes: any = {
         "level": "doctorado",
         "config": {
           title: "Doctorado",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#D35EA3",
+            opacity: "multiply",
+            height: "200px",
+            enable: true,
+            nobackground: false
+          },
           banner: {
             image: {
               src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",

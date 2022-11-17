@@ -1,40 +1,32 @@
 import { ReactElement } from "react"
 import Head from "next/head"
-import Link from "next/link"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Routes from "@/routes/Routes"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import Ofertas from "@/components/OfertaEducativa"
 
-const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta } }: any) => {
-
-  console.log("oferta", oferta);
-
+const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level } }: any) => {
   return <>
     <Head>
       <title>Oferta Educativa</title>
     </Head>
-    <section className="mx-auto mt-6 w-full">
-      <h1 className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-16.25 text-dark">Directorio Universitario</h1>
-      <p className="font-Nunito font-normal text-base leading-5 mb-8.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-      {
-        oferta.map((content: any, i: number) => <section key={`section-oferta-${i}`} className="mb-18">
-            <Link href={`${oferta.level}`}>
-              <a>
-                <h2 className="font-Poppins font-bold text-10 leading-12.5">{ content.title }</h2>
-              </a>
-            </Link>
-          </section>
-        )
-      }
+    <section className="mx-auto mt-6 w-full col-span-7 w-t:colspan-7 w-p:col-span-4">
+      <h1 className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-16.25 text-black">Oferta educativa</h1>
+      <p className="font-Nunito font-normal text-base leading-5 w-d:mb-8.5">Encuentra en UANE la licenciatura, ingeniería o posgrado que estás buscando y estudia con el respaldo y prestigio de una de las mejores universidades del país.</p>
     </section>
+    <section className="col-span-12 text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">
+      <p>Busca tu nivel educativo</p>
+    </section>
+    <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} level={ level } />
   </>
 }
 
 export function getStaticProps(context: any) {
-  const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level, config: { title } } }: any) => [ ...prev, ({ level,title })], []);
+  const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level, config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
   return {
-    props: { data: { oferta } }
+    props: { data: { oferta, level:'oferta-educativa/' } }
   }
 }
 
