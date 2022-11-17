@@ -145,12 +145,5 @@ export async function getStaticProps(context: any) {
   }},
   }
 }
-//Home.getLayout = function getLayout(page: ReactElement) {
-//  return <HeaderFooterLayout>
-//    <ContentLayout>
-//      { page }
-//    </ContentLayout>
-//  </HeaderFooterLayout>
-//}
 
 export default Home
