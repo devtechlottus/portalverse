@@ -64,8 +64,6 @@ const Routes: any = {
         },
         "programs": [
           { params: { "program": "general" } },
-          { params: { "program": "modular-bilingue" } },
-          { params: { "program": "online" } },
         ] 
       }
     },
