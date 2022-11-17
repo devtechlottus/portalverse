@@ -2,7 +2,7 @@ import { ReactElement, useEffect, useState } from "react"
 import Link from "next/link"
 import cn from "classnames"
 import Routes from "@/routes/Routes"
-import dummy from "@/dummy/dummy"
+import faq from "@/dummy/faq"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Accordion from "@/components/Accordion"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -94,7 +94,7 @@ export function getStaticProps(context: any) {
     },
   ];
 
-  const questions: any = dummy[section].questions;
+  const questions: any = faq[section].questions;
 
   const data = preData.reduce((prev: any, curr: any) => curr.route === section ? [ ...prev, { ...curr, questions: [...questions] }] : [ ...prev, { ...curr } ], [])
 
