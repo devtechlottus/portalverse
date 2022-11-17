@@ -74,18 +74,18 @@ const Campus = ({ data, banner }: any) => {
                 <div className="col-span-4 border w-t:col-span-4 w-p:col-span-4 border-gray-300 rounded pl-3">
                   <p className="font-Nunito font-normal text-base leading-5 my-2">{ title }</p>
                   <p className="font-Poppins font-semibold text-4.5 leading-5.625 mb-2">{ description.state }</p>
-                  <p className="flex mb-2">
-                    <IconComponent name="marker" className="mr-3" />
-                    { description.address }
-                  </p>
-                  <p className="flex mb-2">
-                    <IconComponent name="phone" className="mr-3 w-4" />
-                    <LinkContactTarget type="phone" info={description.phone} />
-                  </p>
-                  <p className="flex mb-2">
-                    <IconComponent name="email" className="mr-3 w-4" />
-                    <LinkContactTarget type="email" info={description.email} />
-                  </p>
+                  <ContentInsideLayout>
+                    <IconComponent name="marker" className="col-span-1 w-t:col-span-1 w-p:col-span-1" />
+                    <p className="col-span-11 w-t:col-span-7 w-p:col-span-3">{ description.address }</p>
+                  </ContentInsideLayout>
+                  <ContentInsideLayout>
+                    <IconComponent name="phone" className="col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2" />
+                    <LinkContactTarget type="phone" info={description.phone} classNames="col-span-11 w-t:col-span-7 w-p:col-span-3"/>
+                  </ContentInsideLayout>
+                  <ContentInsideLayout>
+                    <IconComponent name="email" className="col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2" />
+                    <LinkContactTarget type="email" info={description.email} classNames="col-span-11 w-t:col-span-7 w-p:col-span-3" />
+                  </ContentInsideLayout>
                   <div className="flex justify-end pr-3" onClick={() => handleOpenModal(coords, title)}>
                     <p>Ver mapa</p>
                     <IconComponent name="eye" className="ml-1 w-4" />
