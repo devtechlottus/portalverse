@@ -98,7 +98,7 @@ const Home: NextPageWithLayout = () => {
 }
 
 Home.getLayout = function getLayout(page: ReactElement) {
-  return <HeaderFooterLayout>
+  return <HeaderFooterLayout breadcrumbs={false}>
     <ContentLayout>
       { page }
     </ContentLayout>
