@@ -1,4 +1,4 @@
-import { createContext, FC, useState } from "react"
+import { createContext, FC, useContext, useState } from "react"
 
 type BreadcrumbContextRouteData = {
   route: string;
@@ -8,11 +8,7 @@ type BreadcrumbContextRouteData = {
 type BreadcrumbContextData = {
   routes: Array<BreadcrumbContextRouteData>;
   beforeRoute: () => void;
-}
-
-type BreadcrumbProviderValues = {
-  allRoutes: Array<BreadcrumbContextRouteData>;
-  setAll: any;
+  addRoute: () => void;
 }
 
 const BreadcrumbContext = createContext<BreadcrumbContextData>({
@@ -20,21 +16,38 @@ const BreadcrumbContext = createContext<BreadcrumbContextData>({
     { route: "/", label: "/" }
   ],
   beforeRoute: () => {},
+  addRoute: () => {},
 });
 BreadcrumbContext.displayName = "BreadcrumbContext";
 
 const BreadcrumbProvider: FC<any> = ({ children }: any) => {
 
-  const [ allRoutes, setAll ] = useState([]);
+  const [ routes, setRoutes ] = useState<Array<any>>([]);
+
+  const addRoute = (route: any) => {
+    setRoutes([...routes, route])
+  };
 
   const values: any = {
-    allRoutes,
-    setAll
-  }
+    routes,
+    addRoute
+  };
 
   return <BreadcrumbContext.Provider value={values}>
     { children }
   </BreadcrumbContext.Provider>
+}
+
+export const useBreadcrumbs = () => {
+  const {
+    routes,
+    addRoute
+  } = useContext(BreadcrumbContext);
+
+  return {
+    routes,
+    addRoute
+  }
 }
 
 export default BreadcrumbProvider

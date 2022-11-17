@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import HeaderFooterLayoutProps from "@/types/HeaderFooterLayout.types"
 import Breadcrumb from "@/components/Breadcrumb";
+import ContentLayout from "@/layouts/Content.layout"
 
 export default function HeaderFooterLayout({ children, breadcrumbs = true }: HeaderFooterLayoutProps) {
   const router = useRouter();
@@ -22,15 +23,17 @@ export default function HeaderFooterLayout({ children, breadcrumbs = true }: Hea
         console.log('hola')
       }}
     />
-    <div className={cn({ "hidden": !breadcrumbs })}>
-      <Breadcrumb data={{
-          textItems: [],
-          icon: "home",
-          tagOnItem: undefined,
-          tagOnBack: undefined,
-          textColor: undefined
-        }} />
-    </div>
+    <ContentLayout>
+      <div className={cn({ "hidden": !breadcrumbs })}>
+        <Breadcrumb data={{
+            textItems: [],
+            icon: "home",
+            tagOnItem: undefined,
+            tagOnBack: undefined,
+            textColor: undefined
+          }} />
+      </div>
+    </ContentLayout>
     { children }
     <Footer 
       onLinkMenu={() => {
