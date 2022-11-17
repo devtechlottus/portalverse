@@ -209,7 +209,7 @@ export async function getStaticProps(context: any) {
   ];
 
   return {
-    props: { data: [ ...campusAll ], banner:{title: "Nuestros Campus", subtitle: "wwww", image: "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"} },
+    props: { data: [ ...campusAll ], banner:{title: "Nuestros Campus", subtitle: "Agrega experiencias internacionales a tus estudiso ", image: "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"} },
   }
 }
 
