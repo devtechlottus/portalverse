@@ -1,4 +1,4 @@
-const Routes = {
+const Routes: any = {
   components: [
     { params: { "component": "youtube" } },
     { params: { "component": "spotify" } },
@@ -21,19 +21,196 @@ const Routes = {
     { params: { "component": "modal-iframe" } },
     { params: { "component": "feedback" } },
     { params: { "component": "mosaic" } },
-    // { params: { "component": "newsletter" } },
     { params: { "component": "newBanner" } },
     { params: { "component": "customHead" } },
     { params: { "component": "cardsOustanding" } },
     { params: { "component": "carousel" } },
     { params: { "component": "slider" } },
     { params: { "component": "table" } },
-
-
   ],
-  "educative-offer": [
-    { params: { "program": "design" } },
-    { params: { "program": "code" } }
+  "oferta-educativa": [
+    { params:
+      {
+        "level": "bachillerato",
+        "config": {
+          title: "Bachillerato",
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Bachilleratos",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "program": "general" } },
+          { params: { "program": "modular-bilingue" } },
+          { params: { "program": "online" } },
+        ] 
+      }
+    },
+    { params:
+      {
+        "level": "licenciatura",
+        "config": {
+          title: "Licenciaturas",
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Licenciaturas",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "program": "desarrollo-software" } },
+          { params: { "program": "psicologia-laboral" } },
+          { params: { "program": "ingenieria-sistemas" } },
+          { params: { "program": "ingenieria-industrial-produccion" } },
+          { params: { "program": "administracion-liderazgo-empresarial" } },
+          { params: { "program": "contaduria" } },
+          { params: { "program": "gestion-deportiva" } },
+          { params: { "program": "administracion-empresas" } },
+          { params: { "program": "idiomas" } },
+          { params: { "program": "diseno-grafico" } },
+          { params: { "program": "gastronomia" } },
+          { params: { "program": "comercio-internacional" } },
+          { params: { "program": "derecho-acentuacion-negocios-internacionales" } },
+          { params: { "program": "psicologia" } },
+          { params: { "program": "administracion-empresas-turisticas" } },
+          { params: { "program": "mecanica-procesos-inyeccion" } },
+          { params: { "program": "ingenieria-industrial-sistemas" } },
+          { params: { "program": "ciencias-educacion" } },
+          { params: { "program": "nutricion" } },
+          { params: { "program": "derecho" } },
+          { params: { "program": "administracion-recursos-humanos" } },
+          { params: { "program": "arquitectura" } },
+          { params: { "program": "contador-publico" } },
+          { params: { "program": "comunicacion" } },
+          { params: { "program": "sistemas-productividad-industrial" } },
+          { params: { "program": "mercadotecnia" } },
+          { params: { "program": "administracion-estrategia-negocios" } },
+        ]
+      }
+    },
+    { params:
+      {
+        "level": "especialidad",
+        "config": {
+          title: "Especialidades",
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Especialidades",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "program": "administracion-liderazgo" } },
+          { params: { "program": "relaciones-juridico-laborales" } },
+          { params: { "program": "salud-ocupacional" } },
+          { params: { "program": "gestion-desarrollo-recursos-humanos" } },
+          { params: { "program": "manufactura-esbelta" } },
+          { params: { "program": "logistica" } },
+        ] 
+      }
+    },
+    { params:
+      {
+        "level": "maestria",
+        "config": {
+          title: "Maestrias",
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Maestrias",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "program": "derecho-fiscal" } },
+          { params: { "program": "nutricion-obesidad-diabetes" } },
+          { params: { "program": "efectividad-organizacional" } },
+          { params: { "program": "impuestos" } },
+          { params: { "program": "gestion-servicios-salud" } },
+          { params: { "program": "salud-ocupacional" } },
+          { params: { "program": "derecho-laboral" } },
+          { params: { "program": "terapia-laboral" } },
+          { params: { "program": "justicia-administrativa" } },
+          { params: { "program": "derecho-mercantil" } },
+          { params: { "program": "gestion-ambiental" } },
+          { params: { "program": "docencia" } },
+          { params: { "program": "educacion" } },
+          { params: { "program": "gestion-negocios-manufactura" } },
+          { params: { "program": "administracion-liderazgo" } },
+          { params: { "program": "docencia-investigacion-educativa" } },
+          { params: { "program": "sistema-penal-acusatorio" } },
+          { params: { "program": "mercadotecnia-estrategica" } },
+          { params: { "program": "administracion" } },
+          { params: { "program": "comunicacion-empresarial" } },
+          { params: { "program": "derecho" } },
+          { params: { "program": "desarrollo-organizacional-talento-humano" } },
+          { params: { "program": "mercadotecnia-digital" } },
+            
+        ] 
+      }
+    },
+    { params:
+      {
+        "level": "doctorado",
+        "config": {
+          title: "Doctorado",
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Doctorados",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "program": "derecho" } },
+          { params: { "program": "planeacion-liderazgo-ejecutivo" } },
+        ] 
+      }
+    },
   ],
   "faq": [
     { params: { "section": "new-incomming" } },
