@@ -18,7 +18,7 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
             <p className="col-span-12 col-start-3 col-end-11 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1  text-4.5 font-bold font-Poppins w-d:mt-12 w-t:mt-6 w-p:mt-6 w-p:ml-6 leading-[125%]">{ data.text.socialMediaTitle }</p>
             <section className="grid w-d:grid-cols-4 w-t:grid-cols-4 w-p:grid-cols-4 col-start-3 col-end-11 w-t:col-start-2 w-t:col-end-6 w-p:col-start-1 w-p:col-end-4 w-d:mt-[38px] w-t:mt-[38px] w-p:my-[20px] w-p:ml-6">
             {
-              data.text.icons.map((item:any, i:number) => <span className="material-icons">
+              data.text.icons.map((item:any, i:number) => <span key={`span-icons-${i}`} className="material-icons">
                 {item}
               </span>)
             }
