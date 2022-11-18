@@ -8,16 +8,14 @@ import OfertaEducativa from "@/components/OfertaEducativa"
 import BannerPortalverse from "@/components/BannerPortalverse"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Banner from "@/components/Banner"
+import Youtube from "@/components/Youtube"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import Numbers from "@/components/Numbers"
+import CardWebsite from "@/components/CardWebsite"
 
 const Home: NextPageWithLayout = ({ data }: any) => {
   const components = Routes["components"].map((route: any) => route["params"]["component"]);
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level,config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
-  const faqs = [
-    { title:"Nuevo Ingreso", url: "new-incomming" },
-    { title:"Comunidad UANE", url: "community" },
-    { title:"Aula Virtual", url: "virtual-classroom" },
-    { title:"Internacionalización", url: "internationalization" },
-  ];
 
   console.log(data)
 
@@ -39,55 +37,92 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             </a>
           </Link>
         </div>
-        <OfertaEducativa data={oferta} level={'oferta-educativa/'} classNames="opacity-80"/>
-        <div className="my-6">
-          <Banner data={data.banner2} />
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/directorio">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Directorio
-            </a>
-          </Link>
-        </div>        
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/campus">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Campus
-            </a>
-          </Link>
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
-          <h1 className='text-2xl'>Preguntas Frecuentes</h1>
-          <ul className='flex justify-start  flex-wrap'>
+        <OfertaEducativa data={oferta} level={'oferta-educativa/'} classNames="opacity-80 w-d:mb-8"/>
+      </ContentLayout>
+      <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
+        <Banner data={data.banner2} />
+      </ContentFullLayout>
+      <ContentLayout classNamesOutside="w-t:hidden">
+        <Banner data={data.banner2} />
+      </ContentLayout>
+      <ContentFullLayout classNames="w-d:hidden gap-6 my-6">
+        <Banner data={data.bannerPodcast} />
+      </ContentFullLayout>
+      <ContentLayout classNamesOutside="w-t:hidden w-p:hidden my-6">
+        <Banner data={data.bannerPodcast} />
+      </ContentLayout>
+      <ContentLayout>
+        <ContentInsideLayout classNames="gap-6">
+          <section className="col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8">
             {
-              faqs.map(({ title, url }: any, i: number) => <li key={`faqs-${i}`}>
-                  <Link href={`/faq/${ url }`}>
-                    <a className='mx-8 text-xl hover:underline hover:text-red-800'>{ title }</a>
-                  </Link>
-                </li>
-              )
+             data.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
+              <Numbers data={item}/>
+             </section>)
             }
-          </ul>
-        </div>
-        {  
-          //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          //  <h2 className='text-2xl'>Componentes disponibles</h2>
-          //  <ul className='flex justify-start flex-wrap'>
-          //    {
-          //      components.map((item: string, i: number) => <li key={`component-${i}`}>
-          //          <Link href={`/components/${item}`}>
-          //            <a className='mx-8 text-xl hover:underline hover:text-red-800'>{item}</a>
-          //          </Link>
-          //        </li>
-          //      )
-          //    }
-          //  </ul>  
-          //</div>
-        }
-        </ContentLayout>
+          </section>
+          <section className="col-span-12 w-d:mt-8">
+            <p className=" text-10 w-p:text-6 font-Poppins font-bold leading-[125%]">{ data.blogTitle }</p>
+          </section>
+          <section className="col-span-12 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+            {
+             data.blog.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+              <CardWebsite data={item}/>
+             </section>)
+            }
+          </section>
+          <div className="col-span-6 w-t:col-span-12 w-p:col-span-12 w-d:mt-8">
+            Aqui va el formuulario Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, consequuntur sequi perferendis natus delectus magnam sunt consequatur aspernatur placeat corrupti repudiandae modi odit reprehenderit debitis autem! Laborum nemo repudiandae amet.
+          </div>
+          <div className="col-span-6 w-t:col-span-12 w-p:col-span-12 w-d:mt-8">
+            <p className="font-5.5 font-Poppins font-bold mb-6 leading-[125%] w-t:leading-[130%]">{data.video.title}</p>
+            <Youtube data={data.video} />
+          </div>
+        </ContentInsideLayout>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+        <Link href="/directorio">
+          <a className='flex text-2xl hover:underline hover:text-red-800'>
+            Directorio
+          </a>
+        </Link>
+      </div>        
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+        <Link href="/campus">
+          <a className='flex text-2xl hover:underline hover:text-red-800'>
+            Campus
+          </a>
+        </Link>
+      </div>
+      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+        <h1 className='text-2xl'>Preguntas Frecuentes</h1>
+        <ul className='flex justify-start  flex-wrap'>
+          {
+            data.faqs.map(({ title, url }: any, i: number) => <li key={`faqs-${i}`}>
+                <Link href={`/faq/${ url }`}>
+                  <a className='mx-8 text-xl hover:underline hover:text-red-800'>{ title }</a>
+                </Link>
+              </li>
+            )
+          }
+        </ul>
+      </div>
+              
+      {  
+        //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+        //  <h2 className='text-2xl'>Componentes disponibles</h2>
+        //  <ul className='flex justify-start flex-wrap'>
+        //    {
+        //      components.map((item: string, i: number) => <li key={`component-${i}`}>
+        //          <Link href={`/components/${item}`}>
+        //            <a className='mx-8 text-xl hover:underline hover:text-red-800'>{item}</a>
+        //          </Link>
+        //        </li>
+        //      )
+        //    }
+        //  </ul>  
+        //</div>
+      }
+      </ContentLayout>
     </HeaderFooterLayout>
-    
   </>
 }
 
@@ -104,7 +139,125 @@ export async function getStaticProps(context: any) {
         titleOffer:"¿Qué me ofrece UANE para estudiar?",
         banner2: {
           title: 'UANE Internacional', subtitle: 'internacionalízate agrega experiencias internacionales a tu eduacioón', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg', desktop: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
-        }
+        },
+        video:{
+          title: 'Descubre más de la vida UANE',
+          options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} ,
+        },
+        bannerPodcast:{
+          title: 'Podcast Voz UANE', subtitle: 'Un espisodio nuevo cada 2 semanas en Spotify y Youtube', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg', desktop: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Conocer más", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
+        },
+        numbers:[
+          {icon: 'persons', prefix: '+', number: '77%', suffix: '+', title: 'Alumnos', body: 'con experiencias internacionales acceden a puestos directivos.', container: true,},
+          {icon: 'persons', prefix: '+', number: '11', suffix: '+', title: 'Formas', body: 'diferentes de internacionalizar tu título en UANE.', container: true,},
+          {icon: 'persons', prefix: '+', number: '1111', suffix: '+', title: 'Titulación', body: 'Obtén título de UANE y uno más de alguna univesidad extranjera.', container: true,},
+          {icon: 'persons', prefix: '+', number: '9', suffix: '+', title: 'Alianzas', body: 'con universidades en el extranjero.', container: true,},
+        ],
+        blogTitle:'Voz UANE blog',
+        blog:[
+          { 
+            urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkText: {
+              text: 'Conocer más',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'star',
+            },
+            linkIcon: {
+              text: 'vvv',
+              iconSecond: 'person',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'person',
+            },
+            wrapper: true
+          },
+          { 
+            urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkText: {
+              text: 'Conocer más',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'star',
+            },
+            linkIcon: {
+              text: 'vvv',
+              iconSecond: 'person',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'person',
+            },
+            wrapper: true
+          },
+          { 
+            urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
+            subtitle: 'SUBTITULO',
+            title: 'Coursera y UANE se unen para ti',
+            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
+            border: true,
+            allContent: true,
+            height: '',
+            isShowCardWebsiteContent: true,
+            id: '',
+            type: 'vertical',
+            link: true,
+            background: false,
+            linkText: {
+              text: 'Conocer más',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'star',
+            },
+            linkIcon: {
+              text: 'vvv',
+              iconSecond: 'person',
+              isBold: true,
+              size: 'large',
+              isUnderline: false,
+              disabled: false,
+              icon: 'person',
+            },
+            wrapper: true
+          }
+        ],
+        faqs: [
+          { title:"Nuevo Ingreso", url: "new-incomming" },
+          { title:"Comunidad UANE", url: "community" },
+          { title:"Aula Virtual", url: "virtual-classroom" },
+          { title:"Internacionalización", url: "internationalization" },
+        ]
       } 
     },
   }
