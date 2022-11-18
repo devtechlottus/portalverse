@@ -16,9 +16,6 @@ import CardWebsite from "@/components/CardWebsite"
 const Home: NextPageWithLayout = ({ data }: any) => {
   const components = Routes["components"].map((route: any) => route["params"]["component"]);
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level,config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
-
-  console.log(data)
-
   return <>
     <Head>
       <title>{data.title}</title>
@@ -79,32 +76,39 @@ const Home: NextPageWithLayout = ({ data }: any) => {
           </div>
         </ContentInsideLayout>
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-        <Link href="/directorio">
-          <a className='flex text-2xl hover:underline hover:text-red-800'>
-            Directorio
-          </a>
-        </Link>
-      </div>        
-      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-        <Link href="/campus">
-          <a className='flex text-2xl hover:underline hover:text-red-800'>
-            Campus
-          </a>
-        </Link>
-      </div>
-      <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
-        <h1 className='text-2xl'>Preguntas Frecuentes</h1>
-        <ul className='flex justify-start  flex-wrap'>
-          {
-            data.faqs.map(({ title, url }: any, i: number) => <li key={`faqs-${i}`}>
-                <Link href={`/faq/${ url }`}>
-                  <a className='mx-8 text-xl hover:underline hover:text-red-800'>{ title }</a>
-                </Link>
-              </li>
-            )
-          }
-        </ul>
-      </div>
+          <Link href="/directorio">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Directorio
+            </a>
+          </Link>
+        </div>        
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/campus">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Campus
+            </a>
+          </Link>
+        </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4'>
+          <h1 className='text-2xl'>Preguntas Frecuentes</h1>
+          <ul className='flex justify-start  flex-wrap'>
+            {
+              data.faqs.map(({ title, url }: any, i: number) => <li key={`faqs-${i}`}>
+                  <Link href={`/faq/${ url }`}>
+                    <a className='mx-8 text-xl hover:underline hover:text-red-800'>{ title }</a>
+                  </Link>
+                </li>
+              )
+            }
+          </ul>
+        </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/ThankYouPage">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Thank you page
+            </a>
+          </Link>
+        </div>    
               
       {  
         //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
