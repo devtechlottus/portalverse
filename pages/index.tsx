@@ -109,21 +109,28 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             </a>
           </Link>
         </div>    
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/modelo-educativo">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Modelo educativo
+            </a>
+          </Link>
+        </div>    
               
       {  
-        //<div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-        //  <h2 className='text-2xl'>Componentes disponibles</h2>
-        //  <ul className='flex justify-start flex-wrap'>
-        //    {
-        //      components.map((item: string, i: number) => <li key={`component-${i}`}>
-        //          <Link href={`/components/${item}`}>
-        //            <a className='mx-8 text-xl hover:underline hover:text-red-800'>{item}</a>
-        //          </Link>
-        //        </li>
-        //      )
-        //    }
-        //  </ul>  
-        //</div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <h2 className='text-2xl'>Componentes disponibles</h2>
+          <ul className='flex justify-start flex-wrap'>
+            {
+              components.map((item: string, i: number) => <li key={`component-${i}`}>
+                  <Link href={`/components/${item}`}>
+                    <a className='mx-8 text-xl hover:underline hover:text-red-800'>{item}</a>
+                  </Link>
+                </li>
+              )
+            }
+          </ul>  
+        </div>
       }
       </ContentLayout>
     </HeaderFooterLayout>

@@ -1,11 +1,8 @@
-import { useState } from "react"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import RichtText from "@/components/Richtext"
 import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
-import ContentLayout from "@/layouts/Content.layout"
 
 const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
   return <HeaderFooterLayout>

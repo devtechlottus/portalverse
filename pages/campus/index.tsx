@@ -32,7 +32,6 @@ const Campus = ({ data, banner }: any) => {
     handleVisibilityModal();
   };
 
-  console.log(banner)
   return <HeaderFooterLayout>
     <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4">
       <BannerPortalverse data={ banner } />
