@@ -16,10 +16,13 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level } }: a
       <h1 className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-16.25 text-black">Oferta educativa</h1>
       <p className="font-Nunito font-normal text-base leading-5 w-d:mb-8.5">Encuentra en UANE la licenciatura, ingeniería o posgrado que estás buscando y estudia con el respaldo y prestigio de una de las mejores universidades del país.</p>
     </section>
-    <section className="col-span-12 text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">
+    <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">
       <p>Busca tu nivel educativo</p>
     </section>
+    <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4">
     <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} level={ level } />
+    </section>
+    
   </>
 }
 
@@ -39,3 +42,5 @@ OfertaEducativa.getLayout = function getLayout(page: ReactElement) {
 }
 
 export default OfertaEducativa
+
+   
