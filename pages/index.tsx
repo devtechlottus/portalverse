@@ -115,6 +115,13 @@ const Home: NextPageWithLayout = ({ data }: any) => {
               Modelo educativo
             </a>
           </Link>
+        </div> 
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/pedir-informacion">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Pedir información
+            </a>
+          </Link>
         </div>    
               
       {  
