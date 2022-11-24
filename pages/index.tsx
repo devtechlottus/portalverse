@@ -22,11 +22,13 @@ const Home: NextPageWithLayout = ({ data }: any) => {
     </Head>
     <HeaderFooterLayout>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
-        <BannerPortalverse data={ data.banner } />
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <BannerPortalverse data={ data.banner } />
+        </div>
       </ContentFullLayout>
-      <ContentLayout classNamesOutside="gap-6">
+      <ContentLayout>
         <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ {...data.banner, title:"BIENVENIDOS OSOS", subtitle:"¡Nos renovamos para darte la mejor oferta educativa!"} }/>
-        <div className="w-d:mt-12 w-t:mt-6 w-p:mt-6 mb-6 ">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="text-10 w-t:text-6 w-p:text-6 font-Poppins font-bold">{ data.titleOffer }</p>
           <Link href="/oferta-educativa">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
@@ -34,47 +36,62 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             </a>
           </Link>
         </div>
-        <OfertaEducativa data={oferta} level={'oferta-educativa/'} classNames="opacity-80 w-d:mb-8"/>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <OfertaEducativa data={oferta} level={'oferta-educativa/'} classNames="opacity-80 w-d:mb-8"/>
+        </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
-        <Banner data={data.banner2} />
+        <ContentInsideLayout classNames="gap-6">
+        <div className="col-span-8">
+          <Banner data={data.banner2} />
+        </div>
+        </ContentInsideLayout>
       </ContentFullLayout>
-      <ContentLayout classNamesOutside="w-t:hidden">
-        <Banner data={data.banner2} />
+      <ContentLayout classNames="w-t:hidden">
+        <div className="col-span-12">
+          <Banner data={data.banner2} />
+        </div>
       </ContentLayout>
-      <ContentFullLayout classNames="w-d:hidden gap-6 my-6">
-        <Banner data={data.bannerPodcast} />
+      <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
+        <ContentInsideLayout classNames="gap-6">
+        <div className="w-t:col-span-8 w-p:col-span-4">
+          <Banner data={data.bannerPodcast} />
+        </div>
+        </ContentInsideLayout>
       </ContentFullLayout>
-      <ContentLayout classNamesOutside="w-t:hidden w-p:hidden my-6">
-        <Banner data={data.bannerPodcast} />
+      <ContentLayout classNames="w-t:hidden my-6">
+        <div className="col-span-12 w-p:col-span-4">
+          <Banner data={data.bannerPodcast} />
+        </div>
       </ContentLayout>
       <ContentLayout>
-        <ContentInsideLayout classNames="gap-6">
-          <section className="col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8">
-            {
-             data.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
+          {
+            data.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
               <Numbers data={item}/>
-             </section>)
-            }
-          </section>
-          <section className="col-span-12 w-d:mt-8">
+            </section>)
+          }
+        </div>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <p className=" text-10 w-p:text-6 font-Poppins font-bold leading-[125%]">{ data.blogTitle }</p>
           </section>
-          <section className="col-span-12 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+          <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
             {
              data.blog.map((item:any, i:number) => <section key={`section-blog-${i}`}>
               <CardWebsite data={item}/>
              </section>)
             }
           </section>
-          <div className="col-span-6 w-t:col-span-12 w-p:col-span-12 w-d:mt-8">
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             Aqui va el formuulario Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, consequuntur sequi perferendis natus delectus magnam sunt consequatur aspernatur placeat corrupti repudiandae modi odit reprehenderit debitis autem! Laborum nemo repudiandae amet.
           </div>
-          <div className="col-span-6 w-t:col-span-12 w-p:col-span-12 w-d:mt-8">
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <p className="font-5.5 font-Poppins font-bold mb-6 leading-[125%] w-t:leading-[130%]">{data.video.title}</p>
             <Youtube data={data.video} />
           </div>
-        </ContentInsideLayout>
+      </ContentLayout>
+      <ContentLayout>
+          
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/directorio">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
