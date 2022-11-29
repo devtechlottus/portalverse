@@ -206,7 +206,7 @@ export async function getStaticProps(context: any) {
             urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
             subtitle: '',
             title: 'Oficinas de servicios estudiantiles y Centros de admisión',
-            text: 'Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.55 10 50 27 07Correo: serviciosestudiantiles@uane.edu.mx',
+            text: `Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.\n55 10 50 27 07\nCorreo: serviciosestudiantiles@uane.edu.mx`,
             border: true,
             allContent: true,
             height: '',

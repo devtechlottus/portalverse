@@ -2,12 +2,15 @@ import { createRef, FC, memo, useEffect, useState } from "react"
 import CardWebsiteComponentData from "@/types/CardWebsite.types"
 import Link from "@/components/Link";
 import { LinkIconsInit, LinkInit } from "@/components/fixture";
+import RichtText from "./Richtext";
 
 const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardWebsiteComponentData) => {
   const cardWebsitePortalverseRef = createRef();
 
   const [ linkTextData, setLinkTextData ] = useState({...LinkInit});
   const [ linkLinkData, setLinkLinkData ] = useState({...LinkInit});
+
+  const [content, setContent] = useState('')
 
   useEffect(()=> {
     console.log("cardWesibe", data);
@@ -30,6 +33,7 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
     };
     setLinkLinkData({...linkLinkData, ...data.linkIcon});
     setLinkTextData({...linkTextData, ...data.linkIcon});
+    setContent(`${data.subtitle || ''}\n${data.title || ''}\n${data.text || ''}`)
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -52,6 +56,9 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
     </div>
     <div slot="areaCardWebsiteLinkIcon">
       <Link data={linkTextData} />
+    </div>
+    <div slot="areaContentCardWebsite">
+      <RichtText data={{content}}/>
     </div>
   </lottus-card-website-portalverse>
 });
