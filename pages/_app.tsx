@@ -1,7 +1,6 @@
 import { useEffect } from "react"
 import "@/styles/globals.scss"
 import { AppPropsWithLayout } from "@/types/Layout.types"
-import BreadcrumbProvider from "@/context/Breadcrumb.context"
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
@@ -15,11 +14,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout ?? ((page) => page)
 
-  return <BreadcrumbProvider>
-    {
-      getLayout(<Component {...pageProps} />)
-    }
-  </BreadcrumbProvider> 
+  return getLayout(<Component {...pageProps} />)
 }
 
 export default MyApp
