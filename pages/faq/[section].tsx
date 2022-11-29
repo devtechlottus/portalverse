@@ -20,9 +20,8 @@ const FAQ: NextPageWithLayout<any> = ({ data }: any) => {
     } 
   }, [data])
   return <>
-    <h1 className="font-Poppins w-d:text-13 w-t:text-8.5 w-p:text-8.5 w-t:leading-9.435 font-bold leading-16.25 my-6">Preguntas frecuentes</h1>
-    <h2 className="mt-4 font-semibold font-Poppins leading-7.5 text-6 w-t:text-4.5 w-p:leading-5.625">Elige una sección</h2>
-    <ContentInsideLayout classNames="gap-6">
+    <h1 className="col-span-12 font-Poppins w-d:text-13 w-t:text-8.5 w-p:text-8.5 w-t:leading-9.435 font-bold leading-16.25 my-6">Preguntas frecuentes</h1>
+    <h2 className="col-span-12 mt-4 font-semibold font-Poppins leading-7.5 text-6 w-t:text-4.5 w-p:leading-5.625">Elige una sección</h2>
       <div className="col-span-3 w-t:col-span-8 w-p:col-span-4 flex-grow-0">
         <ul>
           {
@@ -49,7 +48,6 @@ const FAQ: NextPageWithLayout<any> = ({ data }: any) => {
           }) 
         }
       </div>
-    </ContentInsideLayout>
   </>
 };
 

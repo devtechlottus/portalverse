@@ -39,41 +39,48 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
     </Head>
     <HeaderFooterLayout>
       <ContentLayout>
-        <ContentInsideLayout classNames="gap-6">
-          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
-            <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{info.head.titleGral}</h1>
-            <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{info.head.description}</p>
-          </div>
-          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
-            <Image
-              alt={info.head.image.alt}
-              src={info.head.image.src}
-              classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
-            />
-          </div>
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-            <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{info.modality.title}</p>
-          </div>
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-            <Tabs data={info.modality.tabs} tabIndex={(active: number) => setTabActive(active)} />
-          </div>
-          <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          {
-            level === 'bachillerato'
-              ? contentTabs.map( ( { title: contentTitle, description: contentDescription, image  }: any, i: number ) => <Fragment key={`section-${i}`}>
-                  <div className={cn("col-span-7 w-t:col-span-8 w-p:col-span-4 py-[40px] px-[94px] w-t:py-[94px] w-p:p-6 text-white bg-black", { "hidden": tabActive !== i })}>
-                    <h1 className="text-6 font-bold font-Nunito leading-[125%]">{ contentTitle }</h1>
-                    <p className="text-base font-Nunito leading-[125%] w-t:text-sm w-p:text-sm">{ contentDescription }</p>
-                  </div>
-                  <Image
-                    alt={ image.alt }
-                    src={ image.src }
-                    classNames={cn("aspect-4/3 w-t:aspect-4/3 w-p:aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-d:mb-14 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i })}
-                  />
-                </Fragment>)
-              : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className="col-span-12 w-t:col-span-8 w-p:col-span-4"><CardsOstanding data={content}/></div>)
-          }
-          </ContentInsideLayout>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
+          <Breadcum data={{
+              textItems: [],
+              icon: "home",
+              tagOnItem: undefined,
+              tagOnBack: undefined,
+              textColor: undefined
+            }} />
+        </div>
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
+          <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{info.head.titleGral}</h1>
+          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{info.head.description}</p>
+        </div>
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
+          <Image
+            alt={info.head.image.alt}
+            src={info.head.image.src}
+            classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
+          />
+        </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{info.modality.title}</p>
+        </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+          <Tabs data={info.modality.tabs} tabIndex={(active: number) => setTabActive(active)} />
+        </div>
+        <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
+        {
+          level === 'bachillerato'
+            ? contentTabs.map( ( { title: contentTitle, description: contentDescription, image  }: any, i: number ) => <Fragment key={`section-${i}`}>
+                <div className={cn("col-span-7 w-t:col-span-8 w-p:col-span-4 py-[40px] px-[94px] w-t:py-[94px] w-p:p-6 text-white bg-black", { "hidden": tabActive !== i })}>
+                  <h1 className="text-6 font-bold font-Nunito leading-[125%]">{ contentTitle }</h1>
+                  <p className="text-base font-Nunito leading-[125%] w-t:text-sm w-p:text-sm">{ contentDescription }</p>
+                </div>
+                <Image
+                  alt={ image.alt }
+                  src={ image.src }
+                  classNames={cn("aspect-4/3 w-t:aspect-4/3 w-p:aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-d:mb-14 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i })}
+                />
+              </Fragment>)
+            : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className="col-span-12 w-t:col-span-8 w-p:col-span-4"><CardsOstanding data={content}/></div>)
+        }
         </ContentInsideLayout>
       </ContentLayout>
 
@@ -103,7 +110,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
 
 
       <ContentLayout>
-        <ContentInsideLayout>
+        <ContentInsideLayout classNames="mt-6 gap-6">
           {
             level === 'bachillerato'
               ? <>

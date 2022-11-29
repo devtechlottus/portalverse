@@ -188,9 +188,11 @@ const ComponentPage = ({ data }: any) => {
     <Head>
       <title>{ componentState.title }</title>
     </Head>
+    <div className="border-solid border-2 col-span-12 w-t:col-span-8 w-p:col-span-4">
     {
       renderComponent(componentState.component)
     }
+    </div>
   </>
 }
 

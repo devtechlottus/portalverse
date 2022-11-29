@@ -45,6 +45,7 @@ module.exports = {
         "8.5": "2.125rem",
         10: "2.5rem",
         13: "3.25rem",
+        "13.5": "4.063rem"
       },
       lineHeight: {
         "5.2": "1.3rem",
@@ -65,6 +66,7 @@ module.exports = {
         "Brands/UANE/Primary/UANE-P-00": "#B0003C",
         "UNI-066": "#555555",
         "dark": "#282828",
+        "darkBlue": "#2B2C34;"
       },
       fontFamily: {
         "Nunito": ["Nunito"],
