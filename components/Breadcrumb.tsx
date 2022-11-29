@@ -1,5 +1,5 @@
 import { createRef, FC, memo, useEffect } from "react"
-import { BreadcumData } from "@/types/Breadcum.types"
+import { BreadcumData } from "@/types/Breadcrumb.types"
 
 const Breadcrumb: FC<BreadcumData> = memo(({ data, onItem, onBack }: BreadcumData) => {
   const breadcumPortalverseRef = createRef();
