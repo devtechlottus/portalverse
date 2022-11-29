@@ -19,6 +19,7 @@ import maestria from "@/dummy/maestria"
 import bachillerato from "@/dummy/bachillerato"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext"
+import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info } }: any) => {
 
@@ -70,20 +71,20 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
           level === 'bachillerato'
             ? contentTabs.map( ( items: any, i: number ) => {
                 return items.map(({ image, title: contentTitle, description: contentDescription }: any, j: number) => <Fragment key={`section-${j}`}>
-                <div className={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6 text-white bg-black", { "hidden w-p:hidden": tabActive !== i, "w-d:order-2 w-t:order-1 w-p:order-1": j === 1 })}>
-                  <h1 className="text-6 font-bold font-Poppins leading-[30px] col-start-2 col-end-7 w-t:col-end-8">{ contentTitle }</h1>
-                  <p className={cn("text-base font-Nunito leading-[20px] w-t:text-sm w-p:text-sm col-start-2 col-end-7 w-t:col-end-8", { "hidden": j === 1 })}>{ contentDescription }</p>
-                  <div className={cn("col-start-2 col-end-7 w-t:col-end-8", { "hidden": j === 0 })}>
-                    <RichtText data={{ content: contentDescription }} />
-                  </div>
-                </div>
-                <Image
-                  alt={ image.alt }
-                  src={ image.src }
-                  classNames={cn("aspect-4/3 w-t:aspect-4/3 w-p:aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i, "w-d:order-1 w-t:order-2 w-p:order-2": j === 1 })}
-                />
-              </Fragment>)
-            })
+                  <DescriptionSection
+                    title={contentTitle}
+                    description={contentDescription}
+                    classNames={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i, "w-d:order-2 w-t:order-1 w-p:order-1": j === 1 })}
+                    titleStyles="col-start-2 col-end-7 w-t:col-end-8"
+                    descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
+                  />
+                  <Image
+                    alt={ image.alt }
+                    src={ image.src }
+                    classNames={cn("aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i, "w-d:order-1 w-t:order-2 w-p:order-2": j === 1 })}
+                  />
+                </Fragment>)
+              })
             : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className="col-span-12 w-t:col-span-8 w-p:col-span-4"><CardsOstanding data={content}/></div>)
         }
         </ContentInsideLayout>
