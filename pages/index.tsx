@@ -20,7 +20,7 @@ const Home: NextPageWithLayout = ({ data }: any) => {
     <Head>
       <title>{data.title}</title>
     </Head>
-    <HeaderFooterLayout>
+    <HeaderFooterLayout breadcrumbs={false}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <BannerPortalverse data={ data.banner } />
