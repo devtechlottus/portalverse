@@ -5,7 +5,6 @@ import Routes from "@/routes/Routes"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Breadcum from "@/components/Breadcrumb"
 import Image from "@/components/Image"
 import Tabs from "@/components/Tabs"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
@@ -40,15 +39,6 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
     </Head>
     <HeaderFooterLayout>
       <ContentLayout>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
-          <Breadcum data={{
-              textItems: [],
-              icon: "home",
-              tagOnItem: undefined,
-              tagOnBack: undefined,
-              textColor: undefined
-            }} />
-        </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{info.head.titleGral}</h1>
           <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{info.head.description}</p>

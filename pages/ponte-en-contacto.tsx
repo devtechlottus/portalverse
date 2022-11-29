@@ -1,7 +1,6 @@
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import Button from "@/components/Button"
 import NewBanner from "@/components/NewBanner"

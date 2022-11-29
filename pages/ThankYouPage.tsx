@@ -5,8 +5,8 @@ import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 
 const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
-  return <HeaderFooterLayout>
-    <ContentFullLayout classNames="">
+  return <HeaderFooterLayout breadcrumbs={false}>
+    <ContentFullLayout>
       <ContentInsideLayout>
         <div className="col-span-5 w-t:col-span-8 w-p:col-span-4 bg-darkBlue text-white w-t:pb-6">
           <ContentInsideLayout>

@@ -2,8 +2,10 @@ import { useRouter } from "next/router"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import HeaderFooterLayoutProps from "@/types/HeaderFooterLayout.types"
+import Breadcrumbs from "@/components/Breadcrumbs/BreadcrumbPortalverse"
+import ContentLayout from "@/layouts/Content.layout"
 
-export default function HeaderFooterLayout({ children }: HeaderFooterLayoutProps) {
+export default function HeaderFooterLayout({ children, breadcrumbs = true }: HeaderFooterLayoutProps) {
   const router = useRouter();
   return <>
     <Header 
@@ -20,6 +22,9 @@ export default function HeaderFooterLayout({ children }: HeaderFooterLayoutProps
         console.log('hola')
       }}
     />
+    <ContentLayout>
+      <Breadcrumbs classNames="col-span-12 w-t:col-span-8 w-p:col-span-4" visible={breadcrumbs} />
+    </ContentLayout>
     { children }
     <Footer 
       onLinkMenu={() => {

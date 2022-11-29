@@ -1,7 +1,7 @@
 import { createRef, FC, memo, useEffect } from "react"
-import { BreadcumData } from "@/types/Breadcum.types"
+import { BreadcumData } from "@/types/Breadcrumb.types"
 
-const Breadcum: FC<BreadcumData> = memo(({ data, onItem, onBack }: BreadcumData) => {
+const Breadcrumb: FC<BreadcumData> = memo(({ data, onItem, onBack }: BreadcumData) => {
   const breadcumPortalverseRef = createRef();
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const Breadcum: FC<BreadcumData> = memo(({ data, onItem, onBack }: BreadcumData)
   return <lottus-breadcrumb ref={breadcumPortalverseRef}></lottus-breadcrumb>
 });
 
-export default Breadcum;
+export default Breadcrumb;

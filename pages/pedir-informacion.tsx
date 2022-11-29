@@ -1,4 +1,3 @@
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
