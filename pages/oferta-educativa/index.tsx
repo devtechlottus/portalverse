@@ -4,7 +4,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Routes from "@/routes/Routes"
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Ofertas from "@/components/OfertaEducativa"
 
 const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level } }: any) => {
@@ -20,7 +19,7 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level } }: a
       <p>Busca tu nivel educativo</p>
     </section>
     <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4">
-    <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} level={ level } />
+      <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} level={ level } />
     </section>
     
   </>
