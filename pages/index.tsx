@@ -147,6 +147,20 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             </a>
           </Link>
         </div>    
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/ponte-en-contacto">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Ponte en contacto
+            </a>
+          </Link>
+        </div>   
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/becas">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              Becas
+            </a>
+          </Link>
+        </div>   
               
       {  
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
