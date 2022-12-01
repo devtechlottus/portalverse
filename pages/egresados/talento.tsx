@@ -1,11 +1,6 @@
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
-import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
-import NextPageWithLayout from "@/types/Layout.types"
-import { useEffect, useState } from "react"
-import { useRouter } from "next/router"
 import Head from "next/head"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 
 const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
