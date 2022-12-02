@@ -3,7 +3,8 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./layouts/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./forms/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     screens: {      
@@ -71,6 +72,7 @@ module.exports = {
       },
       fontFamily: {
         "Nunito": ["Nunito"],
+        "Nunito-Sans": ["Nunito", 'Sans Serif'],
         "Poppins": ["Poppins"],
       },
       gridTemplateColumns: {
@@ -92,6 +94,9 @@ module.exports = {
         "4/3": "4 / 3",
         "7/2": "7 / 2",
       },
+      boxShadow: {
+        15: '0px 5px 15px rgba(0, 0, 0, 0.15)',
+      }
     },
   },
   plugins: [],
