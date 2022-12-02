@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Link from "next/link"
 import ContentLayout from "@/layouts/Content.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
@@ -10,7 +11,6 @@ import doctorado from "@/dummy/doctorado"
 import maestria from "@/dummy/maestria"
 import bachillerato from "@/dummy/bachillerato"
 import Image from "@/components/Image"
-import Link from "next/link"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 
 const Level: NextPageWithLayout<any> = ({ data: { level, config: { title, banner: { image, description: descriptionBanner }, head: { title: titleHead, description: descriptionHead } }, programs } }: any) => {

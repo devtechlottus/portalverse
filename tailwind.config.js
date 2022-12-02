@@ -66,7 +66,8 @@ module.exports = {
         "Brands/UANE/Primary/UANE-P-00": "#B0003C",
         "UNI-066": "#555555",
         "dark": "#282828",
-        "darkBlue": "#2B2C34;"
+        "darkBlue": "#2B2C34;",
+        "SC/Actions/AC-300": "#E6E6E6"
       },
       fontFamily: {
         "Nunito": ["Nunito"],
