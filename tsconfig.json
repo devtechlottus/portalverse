@@ -25,6 +25,7 @@
       "@/dummy/*": ["./dummy/*"],
       "@/icons/*": ["./public/icons/*"],
       "@/context/*": ["./context/*"],
+      "@/forms/*": ["./forms/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next-sitemap.config.js"],

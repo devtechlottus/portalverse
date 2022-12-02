@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Head from "next/head"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
@@ -5,8 +6,32 @@ import ContentLayout from "@/layouts/Content.layout"
 import CardWebsite from "@/components/CardWebsite"
 import NewBanner from "@/components/NewBanner"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import Modal from "@/components/Modal"
+import Youtube from "@/components/Youtube"
+import { YoutubeOptions } from "@/types/Youtube.types"
 
 const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
+
+  const [ youtubeConfig, setYoutubeConfig ] = useState<YoutubeOptions>({
+    id: '',
+    type: 'single',
+    controls: true,
+  });
+
+  // Modal functionality begin
+  const [isShow, setIsShow] = useState(false);
+  const handleVisibilityModal = (action = 'open') => {
+    setIsShow(!isShow);
+    if (action === 'close') {
+      setYoutubeConfig({ ...youtubeConfig, id: '' });
+    }
+  };
+  // Modal functionality end
+
+  const handleClickTalent = (id: string) => {
+    setYoutubeConfig({ ...youtubeConfig, id });
+    handleVisibilityModal()
+  }
 
   return <>
     <Head>
@@ -14,6 +39,9 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
+        <Modal isShow={isShow} onClose={() => handleVisibilityModal('close')} data={{icon: 'close', title: 'Video de egresado', tagOnClose: 'testOnClose', wrapper: true,}}>
+          <Youtube data={{options: {...youtubeConfig}, dimensions: { height: "383px" }}} />
+        </Modal>
         <div className="w-d:col-span-8 w-t:col-span-7 w-p:col-span-4 w-d:mb-12 w-t:mb-6 w-p:mb-6">
           <h1 className="text-13 w-t:text-8.25 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%] mb-5">{ data.head.title }</h1>
           <p className="text-base w-t:text-sm w-p:text-sm font-Nunito leading-[125%] ">{ data.head.description }</p>
@@ -21,7 +49,7 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
            data.experiences.cards.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-            <CardWebsite data={item}/>
+            <CardWebsite data={item} onClick={() => handleClickTalent(item.video)} />
            </section>)
           }
         </section>
@@ -70,15 +98,16 @@ export async function getStaticProps(context: any) {
               icon: 'visibility',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "Rf7Seoj9ZPk"
           },
           { 
             urlImage: 'https://img.freepik.com/foto-gratis/feliz-joven-alegre-telefono-movil-celebrando-victoria_171337-18119.jpg?w=2000',
@@ -102,15 +131,16 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "8LDTk1DLg4M"
           },
           { 
             urlImage: 'https://img.freepik.com/foto-gratis/chica-atractiva-satisfecha-sosteniendo-algo-mano-mostrando-pulgar-arriba-senal-aprobacion_1258-19083.jpg?w=2000',
@@ -134,15 +164,16 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "pXIPMGle0_w"
           },
           { 
             urlImage: 'https://i.pinimg.com/736x/9f/c2/95/9fc29549f0e798046353bb399590c362.jpg',
@@ -166,15 +197,16 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "JSlK3lrUYY8"
           },
           { 
             urlImage: 'https://cdn.pixabay.com/photo/2017/06/09/05/17/woman-2385785_960_720.jpg',
@@ -198,15 +230,16 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "M-BWkJsgEBc"
           },
           { 
             urlImage: 'https://i.pinimg.com/736x/24/bc/5f/24bc5fbf7db9eba9b740480a3a474221.jpg',
@@ -230,15 +263,16 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
-              iconSecond: 'person',
+              text: 'Ver video',
+              iconSecond: 'play_circle',
               isBold: true,
               size: 'large',
               isUnderline: false,
               disabled: false,
-              icon: 'person',
+              icon: 'play_circle',
             },
-            wrapper: true
+            wrapper: true,
+            video: "0bq-GyBddBo"
           }]
         },
         sectionApply:{

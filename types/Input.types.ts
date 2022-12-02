@@ -82,7 +82,7 @@ type InputComponentData = {
   hasError?: boolean;
   errorMessage?: string;
   eventFocus?: () => void;
-  eventKeyPress?: () => void;
+  eventKeyPress?: (e: any) => void;
   eventBlurPress?: () => void;
   listenIcon?: () => void;
 };

@@ -1,4 +1,3 @@
-import { ReactElement } from "react"
 import { useRouter } from "next/router"
 import Head from "next/head"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -11,6 +10,7 @@ import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
 import NewBanner from "@/components/NewBanner"
 import BannerPortalverse from "@/components/BannerPortalverse"
+import BeWantedForm from "@/forms/container/BeWanted"
 
 const Egresados: NextPageWithLayout = ({ data }: any) => {
   const router = useRouter();
@@ -28,8 +28,8 @@ const Egresados: NextPageWithLayout = ({ data }: any) => {
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { data.sectionForm.titleIntroduction}</p>
           <p className="font-Nunito leading-[125%] text-base w-t:text-3.5 w-p:text-3.5">{ data.sectionForm.textIntroduction }</p>
         </div>
-        <div className="col-span-6 w-t:col-span-4 w-p:col-span-4 w-p:order-1">
-          aqui va el formulario
+        <div className="col-span-6 w-t:col-span-4 w-p:col-span-4 w-p:order-1 relative">
+          <BeWantedForm pathThankyou={`/ThankYouPage?type=egresados`} classNames="absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <Youtube data={ data.sectionVideo.video }/>
@@ -39,7 +39,6 @@ const Egresados: NextPageWithLayout = ({ data }: any) => {
           <p className="font-Nunito leading-[125%] text-base w-t:text-3.5 w-p:text-3.5 mb-6">{ data.sectionVideo.textSection }</p>
           <Button data={ data.sectionVideo.button } onClick={()=>{
             router.push(`${router.pathname}/talento`)
-            console.log('voy a talento')
           }}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
