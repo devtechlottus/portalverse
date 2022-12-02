@@ -5,6 +5,7 @@ import { LinkIconsConfig } from "@/types/LinkLottus.types"
 import { SelectConfig } from "@/types/Select.types"
 
 export const ButtonInit: ButtonConfig = {
+  id: "",
   type: 'primary',
   title: 'texto',
   size: 'small',
