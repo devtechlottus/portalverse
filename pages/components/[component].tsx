@@ -32,6 +32,7 @@ import CardsOstanding from "@/components/CardsOustanding"
 import Carousel from "@/components/Carousel"
 import Slider from "@/components/Slider"
 import Table from "@/components/Table"
+import CarouselPortalverse from "@/components/CarouselPortalverse"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -177,10 +178,14 @@ const ComponentPage = ({ data }: any) => {
         console.log("slider", componentState)
         return <Slider data={componentState.data} />
         break;
-        case "table":
-          console.log("table", componentState)
-          return <Table data={componentState.data} />
-          break;
+      case "table":
+        console.log("table", componentState)
+        return <Table data={componentState.data} />
+        break;
+      case "carouselPortalverse":
+        console.log("carouselPortalverse", componentState)
+        return <CarouselPortalverse classNamesContainer="h-100" items={componentState.data.items} />
+        break;
       }      
   }
 
@@ -188,7 +193,7 @@ const ComponentPage = ({ data }: any) => {
     <Head>
       <title>{ componentState.title }</title>
     </Head>
-    <div className="border-solid border-2 col-span-12 w-t:col-span-8 w-p:col-span-4">
+    <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
     {
       renderComponent(componentState.component)
     }
@@ -317,7 +322,7 @@ export async function getStaticProps(context: any) {
     { [path]: "tabs", title: "Tabs", data:{items: [{label: 'Item Tab 1', icons: { primary: 'star', duplicate: true,}, disabled: true,}, {label: 'Item Tab 1', icons: {primary: 'star', duplicate: true, }, disabled: false, }], size: 'medium', }},
     { [path]: "youtube", title: "Youtube", data: { options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} } },
     { [path]: "spotify", title: "Spotify", data: { config: { type: 'episode', format: 'normal', id: '1iMWrWrpocYYtxS2wV6tJt',} } },
-    { [path]: "lottie", title: "Lottie", data: { data: { path: 'https://assets3.lottiefiles.com/packages/lf20_UJNc2t.json', }, dimensions: {}  }},
+    { [path]: "lottie", title: "Lottie", data: { data: { path: '/lottie/loader.json', }, dimensions: {}  }},
     { [path]: "richtext", title: "Richtext", data: { content: `
     ## At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit;
   
@@ -642,8 +647,40 @@ export async function getStaticProps(context: any) {
           },
         ],
         wrapper: true,
+      },
+    },
+    { [path]: "carouselPortalverse", title:"Carousel Portalverse", data:{ items: [{
+      image: {
+        alt: "aaa",
+        src: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+      },
+      title: "titulo1",
+      subtitle: "subtitle1",
+    },
+    {
+      image: {
+        alt: "aaa",
+        src: "https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg"
+      },
+      title: "titulo2",
+      subtitle: "subtitle2",
+      action: {
+        ...ButtonInit,
+        title: "Conoce más"
       }
-    }
+    },
+    {
+      image: {
+        alt: "aaa",
+        src: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+      },
+      title: "titulo3",
+      subtitle: "subtitle3",
+      action: {
+        ...ButtonInit,
+        title: "Conoce más"
+      }
+    }] }},
   ];
   const { params: { component } } = context;
   const preFilter = components.filter((item: any) => item.component === component)
