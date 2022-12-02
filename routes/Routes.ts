@@ -27,6 +27,7 @@ const Routes: any = {
     { params: { "component": "carousel" } },
     { params: { "component": "slider" } },
     { params: { "component": "table" } },
+    { params: { "component": "carouselPortalverse" } },
   ],
   "oferta-educativa": [
     { params:
