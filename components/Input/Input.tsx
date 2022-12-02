@@ -20,12 +20,15 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
       onlyNumbers: data.onlyNumbers,
       upperCase: data.upperCase,
       pattern: data.pattern || '',
-      mask: data.mask || ""
+      mask: data.mask || "",
+      iconLeft: data.iconLeft || ""
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    (inputRef.current as any).value = value;
+    if (!!value) {
+      (inputRef.current as any).value = value;
+    }
   }, [value]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {

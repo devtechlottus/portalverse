@@ -1,0 +1,9 @@
+lottus-input {
+  & input::placeholder {
+    color: #282828 !important;
+  }
+
+  & input:focus {
+    height: 2.625rem;
+  }
+}
