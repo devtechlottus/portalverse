@@ -1,8 +1,9 @@
 import { createRef, FC, memo, useEffect, useState } from "react"
+import cn from "classnames"
 import BannerComponentData from "@/types/Banner.types"
 import Button from "@/components/Button"
 
-const Banner: FC<BannerComponentData> = memo(({ data, noAction, onBtn }: BannerComponentData) => {
+const Banner: FC<BannerComponentData> = memo(({ data, noAction = false, onBtn }: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
 
   const [configButton, setConfigButton] = useState({});
@@ -47,10 +48,10 @@ const Banner: FC<BannerComponentData> = memo(({ data, noAction, onBtn }: BannerC
   }, [onBtn]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-banner-portalverse ref={bannerPortalverseRef}>
-    <div slot="areaBannerButtonDesk">
+    <div slot="areaBannerButtonDesk" className={cn({"hidden": noAction})}>
       <Button data={{...data.action}}  />
     </div>
-    <div slot="areaBannerButtonMobile">
+    <div slot="areaBannerButtonMobile" className={cn({"hidden": noAction})}>
       <Button data={{...data.action, isExpand: true}}  />
     </div>
   </lottus-banner-portalverse>
