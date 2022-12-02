@@ -52,10 +52,10 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
 
   return <lottus-card-website-portalverse ref={cardWebsitePortalverseRef}>
     <div slot="areaCardWebsiteLink">
-      <Link data={linkTextData} />
+      <Link data={linkTextData} onClick={onClick} />
     </div>
     <div slot="areaCardWebsiteLinkIcon">
-      <Link data={linkTextData} />
+      <Link data={linkTextData} onClick={onClick} />
     </div>
     <div slot="areaContentCardWebsite">
       <RichtText data={{content}}/>
