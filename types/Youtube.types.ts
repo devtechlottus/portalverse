@@ -5,14 +5,14 @@ export type YoutubeOptions = {
 };
 
 export type YoutubeDimensions = {
-  height: string;
-  width: string;
+  height?: string;
+  width?: string;
 }
 
 type YoutubeComponentData = {
   data: {
     options: YoutubeOptions;
-    dimensions: YoutubeDimensions;
+    dimensions?: YoutubeDimensions;
   }
 }
 
