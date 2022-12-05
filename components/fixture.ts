@@ -303,3 +303,11 @@ export const SliderInit: any = {
   ],
   wrapper: false,
 }
+
+export const ProgressBarInit: ProgressBarConfig = {
+  title: '',
+  progress: 60,
+  description: '',
+  size: 'small',
+  disabled: false,
+};
