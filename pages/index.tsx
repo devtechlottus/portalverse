@@ -13,6 +13,7 @@ import Youtube from "@/components/Youtube"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Numbers from "@/components/Numbers"
 import CardWebsite from "@/components/CardWebsite"
+import OpenForm from "@/forms/container/OpenForm"
 
 const Home: NextPageWithLayout = ({ data }: any) => {
   const components = Routes["components"].map((route: any) => route["params"]["component"]);
@@ -98,7 +99,7 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             }
           </section>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
-            Aqui va el formuulario Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, consequuntur sequi perferendis natus delectus magnam sunt consequatur aspernatur placeat corrupti repudiandae modi odit reprehenderit debitis autem! Laborum nemo repudiandae amet.
+            <OpenForm pathThankyou={`/ThankYouPage`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <p className="font-5.5 font-Poppins font-bold mb-6 leading-[125%] w-t:leading-[130%]">{data.video.title}</p>
@@ -269,7 +270,7 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
+              text: 'Ver más',
               iconSecond: 'person',
               isBold: true,
               size: 'large',
@@ -301,7 +302,7 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
+              text: 'Ver más',
               iconSecond: 'person',
               isBold: true,
               size: 'large',
@@ -333,7 +334,7 @@ export async function getStaticProps(context: any) {
               icon: 'star',
             },
             linkIcon: {
-              text: 'vvv',
+              text: 'Ver más',
               iconSecond: 'person',
               isBold: true,
               size: 'large',

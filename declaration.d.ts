@@ -37,5 +37,6 @@ declare namespace JSX {
     ['lottus-carousel-portalverse']: CustomElementContainer,
     ['lottus-slider-portalverse']: CustomElement,
     ['lottus-select']: CustomElement,
+    ['lottus-progress-bar']: CustomElement,
   }
 }
