@@ -7,6 +7,7 @@ export type ContactData = {
 
 export type SectionData = {
   title: string;
+  description?:string;
   contacts: ContactData[];
 };
 

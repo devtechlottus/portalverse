@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
@@ -17,6 +18,8 @@ import OpenForm from "@/forms/container/OpenForm"
 const Home: NextPageWithLayout = ({ data }: any) => {
   const components = Routes["components"].map((route: any) => route["params"]["component"]);
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level,config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
+  const router = useRouter();
+
   return <>
     <Head>
       <title>{data.title}</title>
@@ -44,25 +47,37 @@ const Home: NextPageWithLayout = ({ data }: any) => {
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="col-span-8">
-          <Banner data={data.banner2} />
+          <Banner data={data.banner2} 
+          onBtn={ () => {
+            router.push('/internacionalizacion')
+          }}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden">
         <div className="col-span-12">
-          <Banner data={data.banner2} />
+          <Banner data={data.banner2} 
+          onBtn={ () => {
+            router.push('/internacionalizacion')
+          }}/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="w-t:col-span-8 w-p:col-span-4">
-          <Banner data={data.bannerPodcast} />
+          <Banner data={data.bannerPodcast} 
+          onBtn={ () => {
+            router.push('/podcast')
+          }}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden my-6">
         <div className="col-span-12 w-p:col-span-4">
-          <Banner data={data.bannerPodcast} />
+          <Banner data={data.bannerPodcast} 
+          onBtn={ () => {
+            router.push('/podcast')
+          }}/>
         </div>
       </ContentLayout>
       <ContentLayout>
@@ -176,6 +191,13 @@ const Home: NextPageWithLayout = ({ data }: any) => {
             </a>
           </Link>
         </div>
+        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
+          <Link href="/alumnos">
+            <a className='flex text-2xl hover:underline hover:text-red-800'>
+              alumnos
+            </a>
+          </Link>
+        </div>
               
       {  
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
@@ -209,14 +231,14 @@ export async function getStaticProps(context: any) {
         title: "UANE", 
         titleOffer:"¿Qué me ofrece UANE para estudiar?",
         banner2: {
-          title: 'UANE Internacional', subtitle: 'internacionalízate agrega experiencias internacionales a tu eduacioón', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg', desktop: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
+          title: 'UANE Internacional', subtitle: 'internacionalízate agrega experiencias internacionales a tu eduacioón', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg', desktop: 'https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'outlined', title: "Conocer más", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
         },
         video:{
           title: 'Descubre más de la vida UANE',
           options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} ,
         },
         bannerPodcast:{
-          title: 'Podcast Voz UANE', subtitle: 'Un espisodio nuevo cada 2 semanas en Spotify y Youtube', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg', desktop: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Conocer más", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
+          title: 'Podcast Voz UANE', subtitle: 'Un espisodio nuevo cada 2 semanas en Spotify y Youtube', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg', desktop: 'https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'outlined', title: "Conocer más", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true
         },
         numbers:[
           {icon: 'persons', prefix: '+', number: '77%', suffix: '+', title: 'Alumnos', body: 'con experiencias internacionales acceden a puestos directivos.', container: true,},
