@@ -42,13 +42,25 @@ const Egresados: NextPageWithLayout = ({ data }: any) => {
           }}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ data.sectionBanner.banner }/>
+          <Banner data={ data.sectionBanner.banner }
+            onBtn={ () => {
+              router.push('/empleabilidad')
+            }}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ data.sectionBanners.bannerOfertaEducativa }/>
+          <Banner data={ data.sectionBanners.bannerOfertaEducativa }
+            onBtn={ () => {
+              router.push('/oferta-educativa')
+            }}
+          />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ data.sectionBanners.bannerTramites }/>
+          <Banner data={ data.sectionBanners.bannerTramites }
+            onBtn={ () => {
+              
+              window.open('http://sistema.uane.edu.mx/siuane/login.aspx')
+            }}
+          />
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="gap-6">
@@ -56,10 +68,19 @@ const Egresados: NextPageWithLayout = ({ data }: any) => {
           <Banner data={ data.sectionBanner.banner }/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden mb-6">
-          <Banner data={ data.sectionBanners.bannerOfertaEducativa }/>
+          <Banner data={ data.sectionBanners.bannerOfertaEducativa }
+            onBtn={ () => {
+              router.push('/oferta-educativa')
+            }}
+          />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden">
-          <Banner data={ data.sectionBanners.bannerTramites }/>
+          <Banner data={ data.sectionBanners.bannerTramites }
+            onBtn={ () => {
+              window.open('http://sistema.uane.edu.mx/siuane/login.aspx')
+              
+            }}
+          />
         </div>
       </ContentFullLayout>
       <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-t:bg-SC/Actions/AC-300 w-p:bg-SC/Actions/AC-300 mt-12">
@@ -110,11 +131,11 @@ export async function getStaticProps(context: any) {
           video: {options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '334px'} }
         },
         sectionBanner: {
-          banner:{ title: 'Empleabilidad en UANE', subtitle: 'Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo', state: '', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: 'white', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}
+          banner:{ title: 'Empleabilidad en UANE', subtitle: 'Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo', state: '', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: 'white', height: '', action: {id: 'undefined', type: 'primary', title: "Continuar", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}
         },
         sectionBanners:{
-          bannerOfertaEducativa: { title: 'Oferta educativa de egresados', subtitle: 'UANE te ofrece opciones preferenciales para continuar con tu opreparación profesional', state: '', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg', desktop: 'https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true},
-          bannerTramites: { title: 'Trámites de egresados', subtitle:'Entra al sistema de la universidad y revisa el estatus o solicita algún trámite nuevo', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Entra a SIUANE", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}
+          bannerOfertaEducativa: { title: 'Oferta educativa de egresados', subtitle: 'UANE te ofrece opciones preferenciales para continuar con tu opreparación profesional', state: '', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg', desktop: 'https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Ver oferta educativa", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true},
+          bannerTramites: { title: 'Trámites de egresados', subtitle:'Entra al sistema de la universidad y revisa el estatus o solicita algún trámite nuevo', state: 'black', size: 'medium', middle: false, center: false, bottom: false, left: true, urlImage: {mobile: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU',}, overlay: 'black', height: '', action: {id: 'undefined', type: 'primary', title: "Entra a SIUANE", size: 'small', icon: "", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}
         },
         sectionNoticias:{
           title: 'Noticias',

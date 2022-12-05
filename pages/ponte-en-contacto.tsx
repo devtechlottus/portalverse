@@ -1,3 +1,4 @@
+import { useRouter } from "next/router"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
@@ -7,6 +8,8 @@ import NewBanner from "@/components/NewBanner"
 import { ButtonInit } from "@/components/fixture"
 
 const PonteEnContacto: NextPageWithLayout = ({ data }: any) => {
+  const router = useRouter();
+
   return <HeaderFooterLayout>
     <ContentFullLayout>
       <ContentInsideLayout classNames="gap-6">
@@ -42,7 +45,13 @@ const PonteEnContacto: NextPageWithLayout = ({ data }: any) => {
         </div>
       </ContentInsideLayout>
       <ContentFullLayout>
-        <NewBanner data={data.text.banner } />
+        <NewBanner 
+          data={data.text.banner } 
+          onBtn={ () =>{
+            router.push(`/directorio`)
+            console.log('hola')
+            } 
+          } />
       </ContentFullLayout>
     </ContentFullLayout>
   </HeaderFooterLayout>

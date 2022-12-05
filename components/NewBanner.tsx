@@ -51,7 +51,7 @@ const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
 
   return <lottus-newbanner-portalverse ref={newBannerPortalverseRef}>
     <div slot="areaNewBannerButton">
-      <Button data={actionInfo} />
+      <Button data={actionInfo} onClick={ onBtn }/>
     </div>
   </lottus-newbanner-portalverse>
 
