@@ -9,6 +9,7 @@ const inputConfig = {
 };
 const buttonConfigStepOne = {
   ...ButtonInit,
+  isExpand: false,
   title: "Consultar"
 };
 const inputMailConfig = {
@@ -30,6 +31,36 @@ const buttonConfigStepTwo = {
   ...ButtonInit,
   title: "Enviar Datos"
 };
+const inputNameOpenFormStepOne = {
+  ...InputInit,
+  iconLeft: "person",
+  label: "Nombre",
+};
+const inputSurnameOpenFormStepOne = {
+  ...InputInit,
+  iconLeft: "person",
+  label: "Apellidos",
+};
+const inputPhoneOpenFormStepOne = {
+  ...InputInit,
+  iconLeft: "person",
+  label: "Celular",
+};
+const inputEmailOpenFormStepOne = {
+  ...InputInit,
+  iconLeft: "person",
+  label: "Correo Electrónico",
+};
+const buttonConfigOpenFormStepOne = {
+  ...ButtonInit,
+  isExpand: false,
+  title: "Continuar"
+};
+const buttonConfigOpenFormStepThree = {
+  ...ButtonInit,
+  isExpand: false,
+  title: "Solicita información"
+};
 
 export default {
   inputConfig,
@@ -38,4 +69,10 @@ export default {
   inputPhoneConfig,
   inputCompanyConfig,
   buttonConfigStepTwo,
+  inputNameOpenFormStepOne,
+  inputSurnameOpenFormStepOne,
+  inputPhoneOpenFormStepOne,
+  inputEmailOpenFormStepOne,
+  buttonConfigOpenFormStepOne,
+  buttonConfigOpenFormStepThree,
 }
