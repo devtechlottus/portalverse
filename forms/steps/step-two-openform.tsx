@@ -7,12 +7,18 @@ import Button from "@/components/Button"
 import configControls from "@/forms/fixtures/controls"
 import ProgressBar from "@/components/ProgressBar"
 import OptionPill from "@/components/OptionPill"
+import { OpenFormControls } from "@/types/OpenFormControls.types"
 
-const StepTwo: FC<any> = ({ classNames, data, onNext, step }: any) => {
+const StepTwo: FC<any> = ({ classNames, data, onNext, step, controls }: any) => {
 
   const [ config, setConfig ] = useState<any>({ ...OpenFormInit.steptwo });
+  const [ controlsConfig, setControlsConfig ] = useState<OpenFormControls | null>(null);
   const [ activePill, setActivePill ] = useState<number>(-1);
   const [ progress, setProgress ] = useState<number>(0);
+
+  useEffect(() => {
+    setControlsConfig({...controls});
+  }, [controls])
 
   useEffect(() => {
     setConfig({ ...config, ...data });
@@ -39,11 +45,11 @@ const StepTwo: FC<any> = ({ classNames, data, onNext, step }: any) => {
     <div className="mb-6">
       <ProgressBar data={{ progress }} />
     </div>
-    <div className="flex flex-col">
+    <div className={cn("flex flex-col", { "hidden": controlsConfig?.modality?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.modality }</p>
       <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
     </div>
-    <div className="flex flex-col">
+    <div className={cn("flex flex-col", { "hidden": controlsConfig?.level?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6 mb-1">{ config.level }</p>
       <div className="w-full flex justify-start gap-6 flex-wrap mt-1">
         {
@@ -51,11 +57,11 @@ const StepTwo: FC<any> = ({ classNames, data, onNext, step }: any) => {
         }
       </div>
     </div>
-    <div className="flex flex-col">
+    <div className={cn("flex flex-col", { "hidden": controlsConfig?.program?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.program }</p>
       <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un programa" }}  />
     </div>
-    <div className="flex flex-col">
+    <div className={cn("flex flex-col", { "hidden": controlsConfig?.campus?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.campus }</p>
       <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un campus" }}  />
     </div>
