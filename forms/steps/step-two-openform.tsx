@@ -47,7 +47,7 @@ const StepTwo: FC<any> = ({ classNames, data, onNext, step, controls }: any) => 
     </div>
     <div className={cn("flex flex-col", { "hidden": controlsConfig?.modality?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.modality }</p>
-      <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
+      <Select onClick={(option: CustomEvent) => console.log("option", option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
     </div>
     <div className={cn("flex flex-col", { "hidden": controlsConfig?.level?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6 mb-1">{ config.level }</p>
@@ -59,11 +59,11 @@ const StepTwo: FC<any> = ({ classNames, data, onNext, step, controls }: any) => 
     </div>
     <div className={cn("flex flex-col", { "hidden": controlsConfig?.program?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.program }</p>
-      <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un programa" }}  />
+      <Select onClick={(option: CustomEvent) => console.log("option", option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un programa" }}  />
     </div>
     <div className={cn("flex flex-col", { "hidden": controlsConfig?.campus?.hidden })}>
       <p className="font-Nunito font-normal text-[14px] leading-5 text-[#282828] mt-6">{ config.campus }</p>
-      <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un campus" }}  />
+      <Select onClick={(option: CustomEvent) => console.log("option", option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un campus" }}  />
     </div>
     <div className="mt-6">
       <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
