@@ -25,6 +25,15 @@ const OpenFormInit = {
     labelCampus: "Campus: ",
     contact: "¿Cómo prefieres que te contactemos?",
     schedule: "Elige el horario en el que prefieres que te contactemos",
+  },
+  stepzero: {
+    title: "Escríbenos",
+    subtitle: "Si tienes dudas sobre tu universidad o quieres información."
+  },
+  stepdetails: {
+    title: "Escríbenos",
+    subtitle: "Si tienes dudas sobre tu universidad o quieres información.",
+    conditions: "Al llenar tus datos aceptas nuestro Aviso de privacidad",
   }
 }
 
@@ -99,6 +108,30 @@ export const Modalities: Array<SelectOptionConfig> = [
     value: '04',
     active: false,
     text: 'CHIHUAHUA',
+  },
+];
+
+
+export const QuestionStepZero: Array<SelectOptionConfig> = [
+  {
+    text: 'Quiero información sobre los programas educativos',
+    value: 'programs',
+    active: false,
+  },
+  {
+    text: 'Me interesa hablar con alguien de la universidad',
+    value: 'university',
+    active: false,
+  },
+  {
+    text: 'Soy parte de la comunidad y necesito que me contacten',
+    value: 'community',
+    active: false,
+  },
+  {
+    text: 'Otro motivo de contacto',
+    value: 'other',
+    active: false,
   },
 ];
 

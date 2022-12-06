@@ -61,6 +61,12 @@ const buttonConfigOpenFormStepThree = {
   isExpand: false,
   title: "Solicita información"
 };
+const inputCommentOpenFormStepOther = {
+  ...InputInit,
+  label: "Agrega un comentario",
+  type: "textarea",
+  maxlength: "100",
+};
 
 export default {
   inputConfig,
@@ -75,4 +81,5 @@ export default {
   inputEmailOpenFormStepOne,
   buttonConfigOpenFormStepOne,
   buttonConfigOpenFormStepThree,
+  inputCommentOpenFormStepOther,
 }
