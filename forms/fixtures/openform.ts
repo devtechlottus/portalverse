@@ -34,6 +34,11 @@ const OpenFormInit = {
     title: "Escríbenos",
     subtitle: "Si tienes dudas sobre tu universidad o quieres información.",
     conditions: "Al llenar tus datos aceptas nuestro Aviso de privacidad",
+  },
+  steponecontinuos: {
+    title: "Contáctanos e inscríbete",
+    subtitle: "Llena el siguiente formulario para que te ayudemos a inscribirte en el curso de ",
+    conditions: "Al llenar tus datos aceptas nuestro Aviso de privacidad",
   }
 }
 

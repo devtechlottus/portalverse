@@ -61,6 +61,11 @@ const buttonConfigOpenFormStepThree = {
   isExpand: false,
   title: "Solicita información"
 };
+const buttonConfigSend = {
+  ...ButtonInit,
+  isExpand: false,
+  title: "Enviar"
+};
 const inputCommentOpenFormStepOther = {
   ...InputInit,
   label: "Agrega un comentario",
@@ -82,4 +87,5 @@ export default {
   buttonConfigOpenFormStepOne,
   buttonConfigOpenFormStepThree,
   inputCommentOpenFormStepOther,
+  buttonConfigSend,
 }

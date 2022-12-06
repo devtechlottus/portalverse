@@ -19,10 +19,10 @@ import bachillerato from "@/dummy/bachillerato"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext"
 import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
-import OpenFormPredefined from "@/forms/container/OpenFormPredefined"
 import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
+import OpenFormSuperior from "@/forms/container/OpenFormSuperior"
 
-const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info }, form }: any) => {
+const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info }, form, formCopies }: any) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
@@ -123,8 +123,8 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
           {
             level === 'bachillerato'
-              ? <OpenFormBachillerato image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
-              : <OpenFormPredefined image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+              ? <OpenFormBachillerato copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+              : <OpenFormSuperior copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
           }
           
         </div>
@@ -162,9 +162,26 @@ export async function getStaticProps(context: any) {
     program: { hidden: levelSelected === "bachillerato", value: program },
     modality: { hidden: false },
     campus: { hidden: false },
-  }
+  };
+  const formCopiesSuperior = {
+    stepone: {
+      title: "Obten informes sobre tu programa",
+      subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+    }
+  };
+  const formCopiesBachillerato = {
+    stepone: {
+      title: "¿Quieres más información sobre tu bachillerato?",
+      subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+    }
+  };
+
+  const formCopies = levelSelected === 'bachillerato'
+    ? { ...formCopiesBachillerato }
+    : { ...formCopiesSuperior };
+
   return {
-    props: { data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig } },
+    props: { data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig }, formCopies: { ...formCopies } },
   }
 }
 
