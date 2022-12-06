@@ -20,6 +20,7 @@ import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext"
 import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
 import OpenFormPredefined from "@/forms/container/OpenFormPredefined"
+import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info }, form }: any) => {
 
@@ -120,7 +121,12 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
             : null
         }
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
-          <OpenFormPredefined image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+          {
+            level === 'bachillerato'
+              ? <OpenFormBachillerato image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+              : <OpenFormPredefined image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+          }
+          
         </div>
       </ContentLayout>
     </HeaderFooterLayout>
@@ -152,8 +158,8 @@ export async function getStaticProps(context: any) {
   };
   const infoLevel = diccionario[levelSelected];
   const formConfig = {
-    level: { hidden: true, value: "licenciaturas" },
-    program: { hidden: false, value: program },
+    level: { hidden: true, value: levelSelected },
+    program: { hidden: levelSelected === "bachillerato", value: program },
     modality: { hidden: false },
     campus: { hidden: false },
   }
