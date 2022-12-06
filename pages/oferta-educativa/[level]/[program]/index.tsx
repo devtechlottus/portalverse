@@ -77,7 +77,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
                   />
                 </Fragment>)
               })
-            : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className="col-span-12 w-t:col-span-8 w-p:col-span-4"><CardsOstanding data={content}/></div>)
+            : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4", { "hidden": i !== tabActive })}><CardsOstanding data={content}/></div>)
         }
         </ContentInsideLayout>
       </ContentLayout>
