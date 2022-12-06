@@ -6,8 +6,12 @@ const CardsOstanding: FC<CardsOstandingData> = memo(({data}: CardsOstandingData)
   
   useEffect(() => {
     (cardsOustandingPortalverseRef.current as any).data = {
-      title: data.title || '',
-      cards: data.cards || [
+      cards: data.cards.map((card: any) => ({
+        image: { ...card.image},
+        title: card.title,
+        text: card.text,
+        backgroundColor: card.backgroundColor,
+      })) || [
         {
           image: {
             desktop: '',
@@ -18,7 +22,6 @@ const CardsOstanding: FC<CardsOstandingData> = memo(({data}: CardsOstandingData)
           backgroundColor: '',
         }
       ],
-      wrapper:data.wrapper || false,
     }
   }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
 
