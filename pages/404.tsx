@@ -24,7 +24,7 @@ const NotFound: NextPageWithLayout = _ => {
 }
 
 NotFound.getLayout = function getLayout(page: ReactElement) {
-  return <HeaderFooterLayout>
+  return <HeaderFooterLayout breadcrumbs={false}>
     <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY">
       <ContentLayout>
         { page }
