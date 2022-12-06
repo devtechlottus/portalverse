@@ -19,8 +19,9 @@ import bachillerato from "@/dummy/bachillerato"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext"
 import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
+import OpenFormPredefined from "@/forms/container/OpenFormPredefined"
 
-const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info } }: any) => {
+const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info }, form }: any) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
@@ -119,7 +120,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
             : null
         }
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
-          {/*  */}
+          <OpenFormPredefined image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
         </div>
       </ContentLayout>
     </HeaderFooterLayout>
@@ -150,8 +151,14 @@ export async function getStaticProps(context: any) {
     bachillerato,
   };
   const infoLevel = diccionario[levelSelected];
+  const formConfig = {
+    level: { hidden: true, value: "licenciaturas" },
+    program: { hidden: false, value: program },
+    modality: { hidden: false },
+    campus: { hidden: false },
+  }
   return {
-    props: { data: { level: levelSelected, program, info: infoLevel[program] } },
+    props: { data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig } },
   }
 }
 

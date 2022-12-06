@@ -13,7 +13,6 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
   const [content, setContent] = useState('')
 
   useEffect(()=> {
-    console.log("cardWesibe", data);
     (cardWebsitePortalverseRef.current as any).data ={
       id: data.id || '',
       urlImage: data.urlImage || '',

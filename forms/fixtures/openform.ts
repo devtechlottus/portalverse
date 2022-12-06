@@ -1,3 +1,4 @@
+import { OpenFormControls } from "@/types/OpenFormControls.types";
 import { OptionConfig } from "@/types/OptionPilll.types";
 import { SelectOptionConfig } from "@/types/Select.types"
 
@@ -99,6 +100,13 @@ export const Modalities: Array<SelectOptionConfig> = [
     active: false,
     text: 'CHIHUAHUA',
   },
-]
+];
+
+export const FormConfig: OpenFormControls = {
+  level: { hidden: false },
+  program: { hidden: false },
+  modality: { hidden: false },
+  campus: { hidden: false },
+}
 
 export default OpenFormInit
