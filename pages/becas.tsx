@@ -11,6 +11,7 @@ import Feedback from "@/components/Feedback"
 import CardWebsite from "@/components/CardWebsite"
 import NumbersComponent from "@/components/NumberPortalverse/NumbersPortalverse"
 import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
+import OpenForm from "@/forms/container/OpenForm"
 
 const ModeloEducativo: NextPageWithLayout = ({ data }: any) => {
 
@@ -84,10 +85,9 @@ const ModeloEducativo: NextPageWithLayout = ({ data }: any) => {
           </Feedback>
         </div>
         <div className="col-span-7 w-t:col-span-8 w-p:col-span-4">
-          aqui va el formulario
+        <OpenForm pathThankyou={`/ThankYouPage`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </div>
         <div className="col-span-5 w-t:col-span-8 w-p:col-span-4">
-          aqui va la variante de card
           <p className="font-Poppins font-bold leading-[130%] text-5.5 mb-[30px]">{ data.sectionCallUs.title }</p>
           <CardWebsite data={ data.sectionCallUs.card }/>
         </div>
