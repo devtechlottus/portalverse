@@ -3,6 +3,7 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
+import OpenForm from "@/forms/container/OpenForm"
 
 const PedirInformacion: NextPageWithLayout = ({ data }: any) => {
   return <>
@@ -13,7 +14,9 @@ const PedirInformacion: NextPageWithLayout = ({ data }: any) => {
       <ContentLayout>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-13.5 w-t:text-8.5 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%]">{ data.title }</section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-base w-t:text-3.5 w-p:text-3.5 font-Nunito leading-[125%]">{ data.description }</section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11"></section>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
+          <OpenForm pathThankyou={`/ThankYouPage`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
+        </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
           <Youtube data={ data.video } />
         </section>
