@@ -18,7 +18,6 @@ const data: { [key: string]: any } = {
           {
             label: 'Modalidad Presencial', icons: { primary: '', duplicate: false,}, disabled: false,
             content: {
-              title: 'Conoce tu futuro perfil',
               cards: [
                 {
                   image: {
@@ -137,7 +136,6 @@ const data: { [key: string]: any } = {
           {
             label: 'Modalidad Presencial', icons: { primary: '', duplicate: false,}, disabled: false,
             content: {
-              title: 'Conoce tu futuro perfil',
               cards: [
                 {
                   image: {
