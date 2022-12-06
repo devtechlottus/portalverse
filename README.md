@@ -81,7 +81,7 @@ Then we will put the command
 - **vercel**
 
 Once this is done, we will write the command 
-- **vercel --cwd out --prod **
+- **vercel --cwd out --prod**
 
 where we will select the out folder created previously.
 This command will ask us if we want to configure and deploy the project, we will say yes.
