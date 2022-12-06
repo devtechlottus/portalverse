@@ -10,11 +10,11 @@ const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) 
     if(data.hasOwnProperty('dimensions')) {
       const { dimensions } = data;
       // set dimensions
-      if(dimensions.hasOwnProperty('height')) {
-        (youtubeRef.current as HTMLElement).style.height = dimensions.height;
+      if(!!dimensions && dimensions.hasOwnProperty('height')) {
+        (youtubeRef.current as HTMLElement).style.height = (dimensions!.height as string);
       }
-      if(dimensions.hasOwnProperty('width')) {
-        (youtubeRef.current as HTMLElement).style.width = dimensions.width;
+      if(!!dimensions && dimensions.hasOwnProperty('width')) {
+        (youtubeRef.current as HTMLElement).style.width = (dimensions!.width as string);
       }
     }
   }, [data, youtubeRef]);// eslint-disable-line react-hooks/exhaustive-deps

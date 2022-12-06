@@ -18,7 +18,7 @@ const ProgressBar: FC<ProgressBarComponentData> = ({ data }: ProgressBarComponen
       size: newConfig.size || 'small',
       disabled: newConfig.disabled || false,
     }
-  }, [data]);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-progress-bar ref={progressBarRef}></lottus-progress-bar>
 }
