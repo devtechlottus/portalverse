@@ -40,6 +40,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
     }
   }
 
+  const handleOptionSelected = (option: CustomEvent) => {}
+
   return <section className={cn(classNames)}>
     <div className="flex gap-6">
       <div className="flex flex-col gap-6">
@@ -63,14 +65,14 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
       </div>
     </div>
     <div className="mt-6">
-      <Input data={ configControls.inputPhoneOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "surname")} />
+      <Input data={ configControls.inputPhoneOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "phone")} />
     </div>
     <div className="mt-6">
-      <Input data={ configControls.inputEmailOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "surname")} />
+      <Input data={ configControls.inputEmailOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "email")} />
     </div>
     <div className="mt-6">
       <p className="font-Nunito font-normal text-[14px] leading-5">{ config.modality }</p>
-      <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
+      <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
     </div>
     <div className="mt-6">
       <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />

@@ -50,6 +50,7 @@ export type SelectOptionConfig = {
 type SelectComponentData = {
   options: Array<SelectOptionConfig>;
   data: SelectConfig;
+  onClick: (value: CustomEvent) => void
 }
 
 export default SelectComponentData

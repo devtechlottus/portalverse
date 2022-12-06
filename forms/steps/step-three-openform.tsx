@@ -66,7 +66,7 @@ const StepThree: FC<any> = ({ classNames, step, data, path }: any) => {
     </div>
     <div className="mt-6 flex flex-col">
       <p>{ config.schedule }</p>
-      <Select options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un campus" }}  />
+      <Select onClick={(option: CustomEvent) => console.log("option", option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un campus" }}  />
     </div>
     <div className="mt-6">
       <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepThree } />

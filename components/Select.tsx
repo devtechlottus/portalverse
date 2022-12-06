@@ -1,7 +1,7 @@
 import { createRef, FC, useEffect } from "react"
 import SelectComponentData from "@/types/Select.types"
 
-const Select: FC<SelectComponentData> = ({ data, options }: SelectComponentData) => {
+const Select: FC<SelectComponentData> = ({ data, options, onClick }: SelectComponentData) => {
   const selectRef = createRef();
 
   useEffect(() => {
@@ -17,6 +17,20 @@ const Select: FC<SelectComponentData> = ({ data, options }: SelectComponentData)
     };
     (selectRef.current as any).options = [...options];
   }, [data, options]);// eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    let observerRef: any = null;
+    if (!!selectRef.current) {
+      observerRef = selectRef.current;
+      (selectRef.current as any).removeEventListener('onClick', onClick, false);
+    }
+    (selectRef.current as any).addEventListener('onClick', onClick, false);
+    return () => {
+      if (!!observerRef) {
+        (observerRef as any).removeEventListener('onClick', onClick, false);
+      }
+    }
+  }, [onClick]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-select ref={selectRef}></lottus-select>
 }
