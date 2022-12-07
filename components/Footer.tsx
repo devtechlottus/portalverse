@@ -109,7 +109,10 @@ const Footer: FC<FooterComponentData> = memo(({ data, onLinkMenu, onLink, onLink
     }
   }, [onLinkMenu, onLink, onLinkPhone, onLinkIcon, onLinkDirectory, onLinkCopyright, onLinkPrivacy]);// eslint-disable-line react-hooks/exhaustive-deps
   
-  return <lottus-filter-footer-portalverse ref={footerPortalverseRef}></lottus-filter-footer-portalverse>
+  return <>
+    <div className="mt-[72px] w-t:mt-12 w-p:mt-6"></div>
+    <lottus-filter-footer-portalverse ref={footerPortalverseRef}></lottus-filter-footer-portalverse>
+   </>
 });
 
 export default Footer
