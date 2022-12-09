@@ -1,0 +1,20 @@
+div {
+  &.dark {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: black;
+        }
+      }
+    }
+  }
+  &.light {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: white;
+        }
+      }
+    }
+  }
+}
