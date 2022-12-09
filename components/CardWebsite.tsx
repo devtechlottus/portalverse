@@ -1,8 +1,8 @@
 import { createRef, FC, memo, useEffect, useState } from "react"
 import CardWebsiteComponentData from "@/types/CardWebsite.types"
 import Link from "@/components/Link";
-import { LinkIconsInit, LinkInit } from "@/components/fixture";
-import RichtText from "./Richtext";
+import { LinkInit } from "@/components/fixture";
+import RichtText from "@/components/Richtext/Richtext";
 
 const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardWebsiteComponentData) => {
   const cardWebsitePortalverseRef = createRef();

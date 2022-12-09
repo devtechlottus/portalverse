@@ -6,6 +6,7 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContactTarget from "@/components/ContactTarget"
+import RichtText from "@/components/Richtext/Richtext"
 
 const Directory: NextPageWithLayout<DirectoryComponentData> = ({ directory }: DirectoryComponentData) => {
   return <>
@@ -14,7 +15,7 @@ const Directory: NextPageWithLayout<DirectoryComponentData> = ({ directory }: Di
     </Head>
     <section className="mx-auto mt-6 w-full col-span-12 w-t:col-span-8 w-p:col-span-4">
       <h1 className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-16.25 text-dark">Directorio Universitario</h1>
-      <p className="font-Nunito font-normal text-base leading-5 mb-8.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+      <RichtText data={{ content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"}} />
       {
         directory.map(({ title, contacts }: SectionData, i: number) => <section key={`section-directory-${i}`} className="mb-18">
             <h2 className="font-Poppins font-bold text-10 leading-12.5">{title}</h2>

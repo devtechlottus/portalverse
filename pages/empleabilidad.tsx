@@ -10,8 +10,7 @@ import BeWantedForm from "@/forms/container/BeWanted"
 import Youtube from "@/components/Youtube"
 import CardWebsite from "@/components/CardWebsite"
 import NewBanner from "@/components/NewBanner"
-import { ButtonInit } from "@/components/fixture"
-import RichtText from "@/components/Richtext"
+import RichtText from "@/components/Richtext/Richtext"
 
 
 
