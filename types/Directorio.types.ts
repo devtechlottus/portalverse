@@ -1,3 +1,5 @@
+import MetaData from "@/types/Metadata.type";
+
 export type ContactData = {
   image?: string;
   name: string;
@@ -6,13 +8,20 @@ export type ContactData = {
 };
 
 export type SectionData = {
-  title: string;
+  name: string;
   description?:string;
   contacts: ContactData[];
 };
 
+export type HeadSection = {
+  title: string;
+  description: string;
+};
+
 type DirectoryComponentData = {
-  directory: SectionData[];
+  areas: SectionData[];
+  meta: MetaData;
+  head: HeadSection;
 }
 
 export default DirectoryComponentData

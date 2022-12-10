@@ -4,21 +4,23 @@ import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 import OpenForm from "@/forms/container/OpenForm"
+import { getDataPageFromJSON } from "@/utils/getDataPage"
+import PedirInformacionPage from "@/types/PedirInformacion.types"
 
-const PedirInformacion: NextPageWithLayout = ({ data }: any) => {
+const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, meta }: PedirInformacionPage) => {
   return <>
     <Head>
-      <title>{ data.title }</title>
+      <title>{ meta.title }</title>
     </Head>
     <HeaderFooterLayout>
       <ContentLayout>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-13.5 w-t:text-8.5 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%]">{ data.title }</section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-base w-t:text-3.5 w-p:text-3.5 font-Nunito leading-[125%]">{ data.description }</section>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-13.5 w-t:text-8.5 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%]">{ sections.head.title }</section>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-base w-t:text-3.5 w-p:text-3.5 font-Nunito leading-[125%]">{ sections.head.description }</section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
-          <OpenForm pathThankyou={`/ThankYouPage`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
+          <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
-          <Youtube data={ data.video } />
+          <Youtube data={ sections.video } />
         </section>
       </ContentLayout>
     </HeaderFooterLayout>
@@ -27,14 +29,10 @@ const PedirInformacion: NextPageWithLayout = ({ data }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
+  const { sections, meta } = await getDataPageFromJSON('pedir-informacion.json');
+
   return {
-    props: {
-      data: {
-        title: 'Tu oportunidad está en UANE',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  Ut enim ad minim veniam, quis nostrud Ut enim ad minim veniam, quis nostrud ',
-        video: {options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} }
-      }
-    }
+    props: { sections, meta }
   }
 }
 

@@ -123,8 +123,8 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
           {
             level === 'bachillerato'
-              ? <OpenFormBachillerato copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
-              : <OpenFormSuperior copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/ThankYouPage`} controls={{ ...form }} />
+              ? <OpenFormBachillerato copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form }} />
+              : <OpenFormSuperior copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form }} />
           }
           
         </div>

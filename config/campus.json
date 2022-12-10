@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "title": "Campus",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "campus": [
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["25.4551028", "-100.9690094"],
+        "description": {
+          "state": "Coahuila",
+          "name": "Campus Campus Saltillo",
+          "address": "Blvd. José Musa de León #944, Col. Los Pinos, Saltillo, Coahuila, C.P. 25204",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["25.5770235", "-103.4519563"],
+        "description": {
+          "state": "Coahuila",
+          "name": "Campus Torreón",
+          "address": "Periférico Raúl López Sánchez # 13, Col. El Roble II, Torreón, Coah., C.P. 27119",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["26.9017234", "-101.4222771"],
+        "description": {
+          "state": "Coahuila",
+          "name": "Campus Monclova",
+          "address": "Miguel Blanco Num. 140, Colonina Zona Centro, Monclova, Coahuila, C.P. 25700",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["27.8739617", "-101.1280291"],
+        "description": {
+          "state": "Coahuila",
+          "name": "Campus Sabinas",
+          "address": "Calle Cuauhtémoc #2552, Col. Prolongación Fundadores,Sabinas, Coah. C.P. 26740",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["28.6791114", "-100.5440673"],
+        "description": {
+          "state": "Coahuila",
+          "name": "Campus Piedras Negras",
+          "address": "Arq. Germán Robles Gil Maza #310 Fracc, S. Felipe, Sur, 26070 Piedras Negras, Coah.",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["25.680335", "-100.318919"],
+        "description": {
+          "state": "Nuevo León",
+          "name": "Campus Monterrey",
+          "address": "José Ma. Pino Suarez #506, Zona Centro, Monterrey, N.L., C.P. 64000",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["26.066566", "-98.335228"],
+        "description": {
+          "state": "Tamaulipas",
+          "name": "Campus Reynosa",
+          "address": "Avenida Paraíso N°102, Fraccionamiento, Casa Bella, Reynosa, Tamaulipas, C.P. 88747",
+          "phone": "",
+          "email": ""
+        }
+      },
+      {
+        "images": [
+          {
+            "src": "https://picsum.photos/200/300",
+            "alt": "image-1"
+          },
+          {
+            "src": "https://picsum.photos/300/400",
+            "alt": "image-2"
+          },
+          {
+            "src": "https://picsum.photos/400/500",
+            "alt": "image-3"
+          }
+        ],
+        "coords": ["25.8874448", "-97.5645895"],
+        "description": {
+          "state": "Tamaulipas",
+          "name": "Campus Matamoros",
+          "address": "PROLONGACIÓN CONSTITUYENTES NÚMERO 1002 COL. LAS RUSIAS CP 87560",
+          "phone": "",
+          "email": ""
+        }
+      }
+    ],
+    "head": {
+      "banner": {
+        "title": "Nuestros Campus",
+        "subtitle": "Agrega experiencias internacionales a tus estudiso ",
+        "image": "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"
+      }
+    }
+  }
+}

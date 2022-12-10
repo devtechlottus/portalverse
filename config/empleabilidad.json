@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Empleabilidad",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "banner":{
+        "title": "Empleabilidad", 
+        "subtitle": "", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+      }
+    },
+    "descripcion": {
+      "title": "Lorem ipsum dolor sit amet",
+      "text": { 
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+      }
+    },
+    "vacantes": {
+      "title": "Vacantes disponibles",
+      "carrousel": {}
+    },
+    "vinculacionEmpresas": {
+      "title": "Vinculación empresarial",
+      "description":{
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+      },
+      "image":{}
+    },
+    "historiasExito": {
+      "title": "Casos de éxito",
+      "description": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+      },
+      "video": {
+        "options": {
+          "id": "Ae84Xfec1HM",
+          "type": "single",
+          "controls": true
+        },
+        "dimensions": {
+          "height": "500px"
+        }
+      }
+    },
+    "comoFunciona": {
+      "title": "¿Como funciona la plataforma?",
+      "description": {
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+      },
+      "video": {
+        "options": {
+          "id": "Ae84Xfec1HM",
+          "type": "single",
+          "controls": true
+        },
+        "dimensions": {
+          "height": "500px"
+        }
+      }
+    },
+    "eventos": {
+      "title": "Próximos eventos",
+      "carrousel": {}
+    },
+    "noticias": {
+      "title": "Noticias",
+      "news":[
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        }
+      ]
+    },
+    "contacto": {
+      "banner": {
+        "image": {
+          "desktop": "https://media.istockphoto.com/id/1178013034/photo/climbing-my-way-up-the-customer-service-ladder.jpg?s=612x612&w=0&k=20&c=pLfnuu-EfDfPi9onxWGZbFypzQC1Z0rMxWn4sFc3N-k=",
+          "mobile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStRLzXTJXV0BuMjwpTUnRnpyzT8RFfHEg7tmzJGHvfVTuGn16qaG5g-khUrCPiDz83bJc&usqp=CAU"
+        },
+        "title": "¿Tienes dudas? Contáctanos",
+        "text": "soporte@uane.edu.mx 55-1224-2345",
+        "contentCenter": false,
+        "contentLeft": false,
+        "wrapper": true
+      }
+    }
+  }
+}

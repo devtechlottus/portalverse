@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "UANE - Experiencia que transforma, Inscríbete",
+    "description": "Conoce todos los programas académicos de UANE: Bachillerato, Licenciaturas, Ingenierías, Maestrídas, Especialidades, Doctorados y Programas Internacionales",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "banner":{
+        "title": "UANE estrena sitio web", 
+        "subtitle": "Nos estamos renovando para darte la mejor oferta educativa", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+      }
+    },
+    "oferta": {
+      "title": "¿Qué me ofrece UANE para estudiar?",
+      "levels": [
+        {
+          "level": "bachillerato",
+          "title": "Bachillerato",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Bachillerato",
+            "icon": "arrow_forward",
+            "color": "#D5583E",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        },
+        {
+          "level": "licenciatura",
+          "title": "Licenciaturas",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Licenciaturas",
+            "icon": "arrow_forward",
+            "color": "#42C1A6",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        },
+        {
+          "level": "especialidad",
+          "title": "Especialidades",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Especialidades",
+            "icon": "arrow_forward",
+            "color": "#9E5ED3",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        },
+        {
+          "level": "maestria",
+          "title": "Maestrias",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Maestrias",
+            "icon": "arrow_forward",
+            "color": "#5ED365",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        },
+        {
+          "level": "doctorado",
+          "title": "Doctorado",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Doctorado",
+            "icon": "arrow_forward",
+            "color": "#D35EA3",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        }
+      ]
+    },
+    "banner-internacional": {
+      "title": "UANE Internacional",
+      "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
+      "state": "black",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": false,
+      "urlImage": {
+        "mobile": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg",
+        "desktop": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg"
+      },
+      "overlay": "black",
+      "height": "",
+      "action": {
+        "id": "",
+        "type": "outlined",
+        "title": "Conocer más",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": ""
+      },
+      "wrapper": true
+    },
+    "numbers":[
+      { "icon": "persons", "prefix": "+", "number": "77%", "suffix": "+", "title": "Alumnos", "body": "con experiencias internacionales acceden a puestos directivos.", "container": true },
+      { "icon": "persons", "prefix": "+", "number": "11", "suffix": "+", "title": "Formas", "body": "diferentes de internacionalizar tu título en UANE.", "container": true },
+      { "icon": "persons", "prefix": "+", "number": "1111", "suffix": "+", "title": "Titulación", "body": "Obtén título de UANE y uno más de alguna univesidad extranjera.", "container": true },
+      { "icon": "persons", "prefix": "+", "number": "9", "suffix": "+", "title": "Alianzas", "body": "con universidades en el extranjero.", "container": true }
+    ],
+    "vozUane": {
+      "title": "Voz UANE blog",
+      "notas": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        }
+      ]
+    },
+    "banner-podcast":{
+      "title": "Podcast Voz UANE",
+      "subtitle": "Un espisodio nuevo cada 2 semanas en Spotify y Youtube",
+      "state": "black",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": false,
+      "urlImage": {
+        "mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg",
+        "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"
+      },
+      "overlay": "black",
+      "height": "",
+      "action": {
+        "id": "",
+        "type": "outlined",
+        "title": "Conocer más",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "testClick",
+        "test": ""
+      },
+      "wrapper": true
+    },
+    "descubre": {
+      "title": "Descubre más de la vida UANE",
+      "options": {
+        "id": "Ae84Xfec1HM",
+        "type": "single",
+        "controls": true
+      },
+      "dimensions": {
+        "height": "500px"
+      }
+    }
+  }
+}
