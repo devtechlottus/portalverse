@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Preguntas Frecuentes",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "temas": [
+      {
+        "title": "Nuevo Ingreso",
+        "icon": "edit",
+        "questions": [],
+        "id": "new-incomming"
+      },
+      {
+        "title": "Comunidad UANE",
+        "icon": "edit",
+        "questions": [],
+        "id": "community"
+      },
+      {
+        "title": "Aula Virtual",
+        "icon": "edit",
+        "questions": [],
+        "id": "virtual-classroom"
+      },
+      {
+        "title": "Internacionalización",
+        "icon": "edit",
+        "questions": [],
+        "id": "internationalization"
+      }
+    ]
+  }
+}

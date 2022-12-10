@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Alumnos",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head":{
+      "title": "Acceso al estudiante",
+      "description": "Lorem ipsum dolor sit amet consectetur. Ultrices amet vulputate bibendum id. Feugiat vel condimentum amet dignissim at neque nunc pellentesque rhoncus. Vulputate molestie fermentum sollicitudin in eu quis cursus luctus bibendum. Dui ac tempus magna neque. Quisque faucibus neque elementum nisi mauris est nisl ac. In sodales cras augue ipsum."
+    },
+    "accesos": [
+      { 
+        "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1mAjk7blwP1jGnU45XfcCeicbVRJ9rE-FdQFTovdoeEnMYonChejcOeEYtHwkGHJjlk&usqp=CAU",
+        "subtitle": "",
+        "title": "Espacio universitario internacionalizacion en la UNAE",
+        "text": "Realiza tus pagos, solicita o consulta tus trámites y lleva registro de tus actividades escolares.",
+        "border": true,
+        "allContent": true,
+        "height": "",
+        "isShowCardWebsiteContent": true,
+        "id": "",
+        "type": "vertical",
+        "link": true,
+        "background": false,
+        "linkText": {
+          "text": "Ver video",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": "visibility"
+        },
+        "linkIcon": {
+          "text": "Ver video",
+          "iconSecond": "play_circle",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": ""
+        },
+        "wrapper": true
+      },
+      { 
+        "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8fPWgJJCI7-bEpXSg6DJa909NOPr0W7hTWMTMyS36eTZpq96SyjbvGNDvoscxlLhjS0&usqp=CAU",
+        "subtitle": "",
+        "title": "Aula virtual",
+        "text": "Accede a tus clases y actividades de cada materia, entrega tus trabajos o realiza tus ejercicios y evaluaciones.",
+        "border": true,
+        "allContent": true,
+        "height": "",
+        "isShowCardWebsiteContent": true,
+        "id": "",
+        "type": "vertical",
+        "link": true,
+        "background": false,
+        "linkText": {
+          "text": "Conocer más",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": "star"
+        },
+        "linkIcon": {
+          "text": "Ver más",
+          "iconSecond": "",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": ""
+        },
+        "wrapper": true,
+        "video": "8LDTk1DLg4M"
+      },
+      { 
+        "urlImage": "https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg",
+        "subtitle": "",
+        "title": "Biblioteca virtual",
+        "text": "Explora nuestras colecciones y consulta dentro del acervo bibliográfico que ponemos a tu alcance.",
+        "border": true,
+        "allContent": true,
+        "height": "",
+        "isShowCardWebsiteContent": true,
+        "id": "",
+        "type": "vertical",
+        "link": true,
+        "background": false,
+        "linkText": {
+          "text": "Conocer más",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": "star"
+        },
+        "linkIcon": {
+          "text": "Ver más",
+          "iconSecond": "arrow_right",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": ""
+        },
+        "wrapper": true
+      }
+    ],
+    "calendario": {
+      "banner": {
+        "title": "Calendario escolar",
+        "subtitle": "Consulta el calendario escolar del periodo actual",
+        "state": "",
+        "size": "medium",
+        "middle": false,
+        "center": false,
+        "bottom": false,
+        "left": false,
+        "urlImage": {
+          "mobile": "https://previews.123rf.com/images/moodboard/moodboard1703/moodboard170304313/75511401-longitud-total-de-j%C3%B3venes-estudiantes-universitarios-masculinos-y-femeninos-caminando-en-el-sendero.jpg",
+          "desktop": "https://previews.123rf.com/images/moodboard/moodboard1703/moodboard170304313/75511401-longitud-total-de-j%C3%B3venes-estudiantes-universitarios-masculinos-y-femeninos-caminando-en-el-sendero.jpg"
+        }, 
+        "overlay": "",
+        "height": "",
+        "action": {
+          "id": "",
+          "type": "primary",
+          "title": "Consultar",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "testClick",
+          "test": ""
+        },
+        "wrapper": true
+      }
+    },
+    "directorio": [
+      {
+        "name": "Directorio universitario",
+        "description": "Todos los que integramos la universidad estamos para atenderte y escucharte, contacta a cualquier área de la universidad",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      }
+    ]
+  }
+}

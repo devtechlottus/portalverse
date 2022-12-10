@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Directorio",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title": "Contacto general",
+      "description": ""
+    },
+    "areas": [
+      {
+        "name": "Servicios escolares",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Hermosillo",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Saltillo",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Monterrey",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Torreón",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Monclova",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Piedras Negras",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Reynosa",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      },
+      {
+        "name": "Campus Sabinos",
+        "contacts": [
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Servicios escolares",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Dirección general",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Biblioteca",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          },
+          {
+            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "name": "Línea segura",
+            "email": "email@uane.com",
+            "phone": "55 10 50 27 07"
+          }
+        ]
+      }
+    ]
+  }
+}

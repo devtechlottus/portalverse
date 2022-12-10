@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Gracias",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "agradecimiento": {
+      "socialMediaTitle": "Síguenos en redes sociales",
+      "icons": ["person", "person", "person", "person"]
+    },
+    "video": {
+      "options": {
+        "id": "Ae84Xfec1HM",
+        "type": "single",
+        "controls": true
+      },
+      "dimensions": {
+        "height": "500px"
+      }
+    }
+  }
+}
