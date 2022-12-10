@@ -140,14 +140,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
               Modelo educativo
             </a>
           </Link>
-        </div> 
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/pedir-informacion">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Pedir información
-            </a>
-          </Link>
-        </div>    
+        </div>  
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/ponte-en-contacto">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
@@ -161,25 +154,11 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
               Becas
             </a>
           </Link>
-        </div>   
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/egresados">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Egresados
-            </a>
-          </Link>
         </div>
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/egresados/talento">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
               Egresados talento
-            </a>
-          </Link>
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/alumnos">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Alumnos
             </a>
           </Link>
         </div>

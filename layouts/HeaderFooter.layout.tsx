@@ -1,27 +1,20 @@
 import { useRouter } from "next/router"
 import Footer from "@/components/Footer"
-import Header from "@/components/Header"
+import Header from "@/components/HeaderPortalverse"
 import HeaderFooterLayoutProps from "@/types/HeaderFooterLayout.types"
 import Breadcrumbs from "@/components/Breadcrumbs/BreadcrumbPortalverse"
 import ContentLayout from "@/layouts/Content.layout"
+import menus from "@/dummy/header"
 
 export default function HeaderFooterLayout({ children, breadcrumbs = true }: HeaderFooterLayoutProps) {
   const router = useRouter();
+
+  const logotypeClick = () => router.push('/');
+
+  const clickCTA = () => router.push("/pedir-informacion");
+
   return <>
-    <Header 
-      data={{
-        icon: 'menu',
-        image: '/images/logotipo.png',
-        search: '',
-        active: false,
-      }}
-      onClickLogo={() => {
-        router.push('/')
-      }}
-      onClickMenu={() => {
-        console.log('hola')
-      }}
-    />
+    <Header menus={menus} onClickLogo={logotypeClick} onClickCTA={clickCTA} logotype={{ src:"/images/logotipo.png", alt:"logotipo-uane" }} />
     <ContentLayout>
       <Breadcrumbs classNames="col-span-12 w-t:col-span-8 w-p:col-span-4" visible={breadcrumbs} />
     </ContentLayout>
