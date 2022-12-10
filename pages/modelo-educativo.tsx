@@ -29,7 +29,7 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
-              sections.descripcion.body.map((text: string) => <p className="text-base w-t:text-sm w-p:text-sm font-Nunito leading-[125%] col-span-6 w-p:col-span-4">{ text }</p>)
+              sections.descripcion.body.map((text: string, i: number) => <p key={`text-${i}`} className="text-base w-t:text-sm w-p:text-sm font-Nunito leading-[125%] col-span-6 w-p:col-span-4">{ text }</p>)
             }
           </ContentInsideLayout>
         </div>

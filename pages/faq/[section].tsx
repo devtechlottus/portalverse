@@ -21,7 +21,7 @@ const FAQ: NextPageWithLayout<any> = ({ sections, meta }: any) => {
       return
     }
     setSectionTitle(meta.title);
-  }, [sections])
+  }, [sections]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
     <Head>
