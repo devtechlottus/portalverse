@@ -105,67 +105,10 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
           </div>
       </ContentLayout>
       <ContentLayout>
-          
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/directorio">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Directorio
-            </a>
-          </Link>
-        </div>        
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/campus">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Campus
-            </a>
-          </Link>
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/thank-you">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Thank you page
-            </a>
-          </Link>
-        </div>   
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/thank-you?type=egresados">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Thank you page egresados
-            </a>
-          </Link>
-        </div>     
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/modelo-educativo">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Modelo educativo
-            </a>
-          </Link>
-        </div>  
         <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
           <Link href="/ponte-en-contacto">
             <a className='flex text-2xl hover:underline hover:text-red-800'>
               Ponte en contacto
-            </a>
-          </Link>
-        </div>   
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/becas">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Becas
-            </a>
-          </Link>
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/egresados/talento">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Egresados talento
-            </a>
-          </Link>
-        </div>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/empleabilidad">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Empleabilidad
             </a>
           </Link>
         </div>
