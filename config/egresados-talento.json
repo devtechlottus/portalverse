@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "Talento",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title": "Egresados talento",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+    },
+    "experiencias": {
+      "cards": [
+        { 
+          "urlImage": "https://img.freepik.com/foto-gratis/mira-captura-recortada-atractivo-joven-apuesto-emocionado-camiseta-azul-que-senala-dedos-arriba-despues-haber-mirado-sorprendido-expresion-alegre-feliz-cara-broadley-sonriendo_176420-10316.jpg?w=2000",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Marcos López",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Ver video",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "visibility"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "Rf7Seoj9ZPk"
+        },
+        { 
+          "urlImage": "https://img.freepik.com/foto-gratis/feliz-joven-alegre-telefono-movil-celebrando-victoria_171337-18119.jpg?w=2000",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Susana Ramirez",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "8LDTk1DLg4M"
+        },
+        { 
+          "urlImage": "https://img.freepik.com/foto-gratis/chica-atractiva-satisfecha-sosteniendo-algo-mano-mostrando-pulgar-arriba-senal-aprobacion_1258-19083.jpg?w=2000",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Rosio Jimenez",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "pXIPMGle0_w"
+        },
+        { 
+          "urlImage": "https://i.pinimg.com/736x/9f/c2/95/9fc29549f0e798046353bb399590c362.jpg",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Mariano Morales",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "JSlK3lrUYY8"
+        },
+        { 
+          "urlImage": "https://cdn.pixabay.com/photo/2017/06/09/05/17/woman-2385785_960_720.jpg",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Julieta Sanchez",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "M-BWkJsgEBc"
+        },
+        { 
+          "urlImage": "https://i.pinimg.com/736x/24/bc/5f/24bc5fbf7db9eba9b740480a3a474221.jpg",
+          "subtitle": "Licenciatura en Relaciones Internacionales",
+          "title": "Rodolofo Dominguez",
+          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "0bq-GyBddBo"
+        }
+      ]
+    },
+    "aplica": {
+      "banner": {
+        "image": {
+          "desktop": "https://media.istockphoto.com/id/1264977318/es/foto/gente-de-negocios-entusiasmada-y-exitosa.jpg?s=612x612&w=0&k=20&c=4xQJGbvzrb8zscIZkm2LYAzbqPSVtkuo-z2CW1P4j4s=",
+          "mobile": "https://media.istockphoto.com/id/1264977318/es/foto/gente-de-negocios-entusiasmada-y-exitosa.jpg?s=612x612&w=0&k=20&c=4xQJGbvzrb8zscIZkm2LYAzbqPSVtkuo-z2CW1P4j4s="
+        },
+        "title": "¿Quieres postularte?",
+        "text": "egresados@uane.edu.mx 55-1224-2345",
+        "contentCenter": false,
+        "contentLeft": false,
+        "action": {
+          "title": "Saber más",
+          "type": "primary",
+          "icon": "",
+          "isExpand": false
+        },
+        "wrapper": true
+      }
+    }
+  }
+}

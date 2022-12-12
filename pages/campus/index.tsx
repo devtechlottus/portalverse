@@ -11,8 +11,9 @@ import Modal from "@/components/Modal"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import BannerPortalverse from "@/components/BannerPortalverse"
 import SliderPortalverse from "@/components/SliderImagesPortalverse"
+import { getDataPageFromJSON } from "@/utils/getDataPage"
 
-const Campus = ({ data, banner, title }: any) => {
+const Campus = ({ sections, meta }: any) => {
 
   // Modal functionality begin
   const [isShow, setIsShow] = useState(false);
@@ -36,14 +37,14 @@ const Campus = ({ data, banner, title }: any) => {
 
   return <>
     <Head>
-      <title>{ title }</title>
+      <title>{ meta.title }</title>
     </Head>
     <HeaderFooterLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4">
-        <BannerPortalverse data={ banner } />
+        <BannerPortalverse data={ sections.head.banner } />
       </ContentFullLayout>
       <ContentLayout>
-        <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ banner } />        
+        <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ sections.head.banner } />        
         <Modal isShow={isShow} onClose={handleVisibilityModal} data={{icon: 'close', title: infoMap, tagOnClose: 'testOnClose', wrapper: true,}}>
           {
             !!coordsMap
@@ -69,11 +70,11 @@ const Campus = ({ data, banner, title }: any) => {
           <Image alt="campus" src="https://viveloensaltillo.com/wp-content/uploads/2021/11/1254x851usne-768x521.png"></Image>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <p className="font-Poppins font-bold text-10 leading-12.5">{`¿En cuál de nuestros ${data.length} campus te gustaría estudiar?`}</p>
+          <p className="font-Poppins font-bold text-10 leading-12.5">{`¿En cuál de nuestros ${ sections.campus.length } campus te gustaría estudiar?`}</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-            data.map(({ title, coords, description, images: items }: any, i: number) => <ContentInsideLayout classNames="mb-8" key={`campus-data-${i}`}>
+            sections.campus.map(({ title, coords, description, images: items }: any, i: number) => <ContentInsideLayout classNames="mb-8" key={`campus-data-${i}`}>
                 <SliderPortalverse data={{ items }} classNames="col-span-4 w-p:hidden" classNameSlide="aspect-2/1" />
                 <Image classNames="w-d:hidden w-t:hidden col-span-4 w-t:col-span-4 w-p:col-span-4 w-p:aspect-2/1" alt={items[0].alt} src={items[0].src} />
                 <div className="col-span-4 border w-t:col-span-4 w-p:col-span-4 border-gray-300 rounded pl-3">
@@ -122,203 +123,10 @@ const Campus = ({ data, banner, title }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-  const campusAll = [
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["25.4551028", "-100.9690094"],
-      description: {
-        state: "Coahuila",
-        name: "Campus Campus Saltillo",
-        address: "Blvd. José Musa de León #944, Col. Los Pinos, Saltillo, Coahuila, C.P. 25204",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["25.5770235", "-103.4519563"],
-      description: {
-        state: "Coahuila",
-        name: "Campus Torreón",
-        address: "Periférico Raúl López Sánchez # 13, Col. El Roble II, Torreón, Coah., C.P. 27119",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["26.9017234", "-101.4222771"],
-      description: {
-        state: "Coahuila",
-        name: "Campus Monclova",
-        address: "Miguel Blanco Num. 140, Colonina Zona Centro, Monclova, Coahuila, C.P. 25700",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["27.8739617", "-101.1280291"],
-      description: {
-        state: "Coahuila",
-        name: "Campus Sabinas",
-        address: "Calle Cuauhtémoc #2552, Col. Prolongación Fundadores,Sabinas, Coah. C.P. 26740",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["28.6791114", "-100.5440673"],
-      description: {
-        state: "Coahuila",
-        name: "Campus Piedras Negras",
-        address: "Arq. Germán Robles Gil Maza #310 Fracc, S. Felipe, Sur, 26070 Piedras Negras, Coah.",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["25.680335", "-100.318919"],
-      description: {
-        state: "Nuevo León",
-        name: "Campus Monterrey",
-        address: "José Ma. Pino Suarez #506, Zona Centro, Monterrey, N.L., C.P. 64000",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["26.066566", "-98.335228"],
-      description: {
-        state: "Tamaulipas",
-        name: "Campus Reynosa",
-        address: "Avenida Paraíso N°102, Fraccionamiento, Casa Bella, Reynosa, Tamaulipas, C.P. 88747",
-        phone: "",
-        email: ""
-      }
-    },
-    {
-      images: [
-        {
-          src: "https://picsum.photos/200/300",
-          alt: "image-1"
-        },
-        {
-          src: "https://picsum.photos/300/400",
-          alt: "image-2"
-        },
-        {
-          src: "https://picsum.photos/400/500",
-          alt: "image-3"
-        },
-      ],
-      coords: ["25.8874448", "-97.5645895"],
-      description: {
-        state: "Tamaulipas",
-        name: "Campus Matamoros",
-        address: "PROLONGACIÓN CONSTITUYENTES NÚMERO 1002 COL. LAS RUSIAS CP 87560",
-        phone: "",
-        email: ""
-      }
-    },
-  ];
+  const { sections, meta } = await getDataPageFromJSON('campus.json');
 
   return {
-    props: { data: [ ...campusAll ], title: "Campus", banner:{title: "Nuestros Campus", subtitle: "Agrega experiencias internacionales a tus estudiso ", image: "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"} },
+    props: { sections, meta },
   }
 }
 

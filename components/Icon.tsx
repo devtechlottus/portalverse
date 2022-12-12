@@ -5,6 +5,13 @@ import PhoneIcon from "@/icons/phone.svg"
 import EmailIcon from "@/icons/email.svg"
 import EyeIcon from "@/icons/eye.svg"
 import PersonIcon from "@/icons/person.svg"
+import HamburguerIcon from "@/icons/hamburguer.svg"
+import CloseIcon from "@/icons/close.svg"
+import FacebookIcon from "@/icons/facebook.svg"
+import InstagramIcon from "@/icons/instagram.svg"
+import TiktokIcon from "@/icons/tiktok.svg"
+import TwitterIcon from "@/icons/twitter.svg"
+import YoutubeIcon from "@/icons/youtube.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -12,7 +19,14 @@ const iconTypes: any = {
   phone: PhoneIcon,
   email: EmailIcon,
   eye: EyeIcon,
-  person: PersonIcon
+  person: PersonIcon,
+  hamburguer: HamburguerIcon,
+  close: CloseIcon,
+  facebook: FacebookIcon,
+  twitter: TwitterIcon,
+  tiktok: TiktokIcon,
+  youtube: YoutubeIcon,
+  instagram: InstagramIcon,
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {

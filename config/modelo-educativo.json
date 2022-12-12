@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Modelo Educativo",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title": "Nuestro Modelo educativo modular",
+      "description": ""
+    },
+    "modelo": {
+      "desktop":{
+        "alt": "imagen",
+        "src": "https://www.uane.edu.mx/multi/images/UANE-fit.jpg"
+      },
+      "mobile":{
+        "alt": "imagen",
+        "src": "https://www.lavozdetamaulipas.mx/wp-content/uploads/2018/08/ANUNCIO-UANE.jpg"
+      }
+    },
+    "descripcion": {
+      "title": "Lorem ipsum dolo",
+      "body": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisdo eiusmod tempor incididunt ut labore",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Tu oportunidad está en UANE",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title": "Tu oportunidad está en UANE",
+      "description": ""
+    },
+    "video": {
+      "options": {
+        "id": "Ae84Xfec1HM",
+        "type": "single",
+        "controls": true
+      },
+      "dimensions": {
+        "height": "500px"
+      }
+    }
+  }
+}

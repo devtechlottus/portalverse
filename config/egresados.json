@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Egregsados",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "banner": {
+        "title": "Egresados", 
+        "subtitle": "", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+      }
+    },
+    "introduccion": {
+      "title": "Introducción de este parrafo",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+    },
+    "video": {
+      "title": "Conoce a nuestros egresados talento",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
+      "accion": {
+        "title": "Saber más",
+        "type": "primary",
+        "icon": "",
+        "isExpand": false
+      },
+      "video": {
+        "options": {
+          "id": "Ae84Xfec1HM",
+          "type": "single",
+          "controls": true
+        },
+        "dimensions": {
+          "height": "334px"
+        }
+      } 
+    },
+    "banner-empleabilidad": {
+      "title": "Empleabilidad en UANE",
+      "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo",
+      "state": "",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": true,
+      "urlImage": {
+        "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
+        "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+      },
+      "overlay": "white",
+      "height": "",
+      "action": {
+        "id": "",
+        "type": "primary",
+        "title": "Continuar",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "testClick", "test": ""
+      },
+      "wrapper": true
+    },
+    "banner-oferta-educativa": {
+      "title": "Oferta educativa de egresados",
+      "subtitle": "UANE te ofrece opciones preferenciales para continuar con tu opreparación profesional",
+      "state": "",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": true,
+      "urlImage": {
+        "mobile": "https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg",
+        "desktop": "https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg"
+      },
+      "overlay": "",
+      "height": "",
+      "action": {
+        "id": "",
+        "type": "primary",
+        "title": "Ver oferta educativa",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "testClick",
+        "test": ""
+      },
+      "wrapper": true
+    },
+    "banner-tramites": {
+      "title": "Trámites de egresados",
+      "subtitle":"Entra al sistema de la universidad y revisa el estatus o solicita algún trámite nuevo",
+      "state": "black",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": true,
+      "urlImage": {
+        "mobile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU",
+        "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU"
+      },
+      "overlay": "black",
+      "height": "",
+      "action": {
+        "id": "",
+        "type": "primary",
+        "title": "Entra a SIUANE",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "testClick",
+        "test": ""
+      },
+      "wrapper": true
+    },
+    "noticias": {
+      "title": "Noticias",
+      "news": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "vvv",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "vvv",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        }
+      ]
+    },
+    "dudas": {
+      "banner":{
+        "image": {
+        "desktop": "https://media.istockphoto.com/id/1264977318/es/foto/gente-de-negocios-entusiasmada-y-exitosa.jpg?s=612x612&w=0&k=20&c=4xQJGbvzrb8zscIZkm2LYAzbqPSVtkuo-z2CW1P4j4s=",
+        "mobile": "https://media.istockphoto.com/id/1264977318/es/foto/gente-de-negocios-entusiasmada-y-exitosa.jpg?s=612x612&w=0&k=20&c=4xQJGbvzrb8zscIZkm2LYAzbqPSVtkuo-z2CW1P4j4s="
+        },
+        "title": "¿Tienes dudas? Contáctanos",
+        "text": "egresados@uane.edu.mx",
+        "contentCenter": false,
+        "contentLeft": false,
+        "action": {
+          "title": "Saber más",
+          "type": "primary",
+          "icon": "",
+          "isExpand": false
+        },
+        "wrapper": true
+      }
+    }
+  }
+}

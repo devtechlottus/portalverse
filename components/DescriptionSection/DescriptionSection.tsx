@@ -1,6 +1,6 @@
 import { FC } from "react"
 import cn from "classnames"
-import RichtText from "@/components/Richtext"
+import RichtText from "@/components/Richtext/Richtext"
 import DescriptionSectionComponentData from "@/types/DescriptionSection.types"
 
 
