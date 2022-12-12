@@ -13,7 +13,6 @@ import NewBanner from "@/components/NewBanner"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 
-
 const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 
   const router = useRouter()
@@ -34,7 +33,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-2 w-t:hidden w-p:hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { sections.descripcion.title}</p>
-          <RichtText data={ sections.descripcion.text.content } />
+          <RichtText font="ligth" data={{content: sections.descripcion.text.content}} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-1 relative">
           <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="absolute w-full h-auto bg-white bottom-0 rounded-lg" />
@@ -45,7 +44,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">aqui va el carrrusel</div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6">{ sections.vinculacionEmpresas.title }</p>
-          <RichtText  data={ sections.vinculacionEmpresas.description.content }/>
+          <RichtText data={{ content: sections.vinculacionEmpresas.description.content }}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <Image src="/images/404.png" alt="error_image" classNames="aspect-3/4"/>
@@ -61,23 +60,23 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto w-t:hidden w-p:hidden">
             <p className="font-Poppins text-white font-bold leading-[125%] text-6.5 w-t:text-6 w-p:text-6 mb-6">{ sections.historiasExito.title }</p>
-            <RichtText data={ sections.historiasExito.description.content }/>
+            <RichtText font="light" data={{content: sections.historiasExito.description.content}}/>
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mb-6 w-d:hidden">
-            <RichtText data={ sections.historiasExito.description.content }/>
+            <RichtText font="light" data={{content: sections.historiasExito.description.content}}/>
           </div>
         </ContentLayout>
       </ContentFullLayout>
       <ContentLayout classNames="gap-6 mt-[72px] w-t:mt-12 w-p:mt-12">
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6">{ sections.comoFunciona.title }</p>
-          <RichtText data={ sections.comoFunciona.description.content }/>
+          <RichtText data={{content: sections.comoFunciona.description.content}}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <Youtube data={ sections.comoFunciona.video }/>
         </div>
         <div className="w-t:col-span-8 w-p:col-span-4 w-d:hidden">
-          <RichtText data={ sections.comoFunciona.description.content }/>
+          <RichtText data={{content: sections.comoFunciona.description.content}}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6">{ sections.eventos.title }</p>
