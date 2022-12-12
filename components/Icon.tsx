@@ -4,6 +4,7 @@ import MarkerIcon from "@/icons/marker.svg"
 import PhoneIcon from "@/icons/phone.svg"
 import EmailIcon from "@/icons/email.svg"
 import EyeIcon from "@/icons/eye.svg"
+import PersonIcon from "@/icons/person.svg"
 import HamburguerIcon from "@/icons/hamburguer.svg"
 import CloseIcon from "@/icons/close.svg"
 import FacebookIcon from "@/icons/facebook.svg"
@@ -18,6 +19,7 @@ const iconTypes: any = {
   phone: PhoneIcon,
   email: EmailIcon,
   eye: EyeIcon,
+  person: PersonIcon,
   hamburguer: HamburguerIcon,
   close: CloseIcon,
   facebook: FacebookIcon,

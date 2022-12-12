@@ -10,7 +10,7 @@ import Tabs from "@/components/Tabs"
 import Feedback from "@/components/Feedback"
 import CardWebsite from "@/components/CardWebsite"
 import NumbersComponent from "@/components/NumberPortalverse/NumbersPortalverse"
-import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
+import DescriptionSection from "@/components/DescriptionSection"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 

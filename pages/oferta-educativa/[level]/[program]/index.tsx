@@ -18,7 +18,7 @@ import maestria from "@/dummy/maestria"
 import bachillerato from "@/dummy/bachillerato"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
-import DescriptionSection from "@/components/DescriptionSection/DescriptionSection"
+import DescriptionSection from "@/components/DescriptionSection"
 import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
 import OpenFormSuperior from "@/forms/container/OpenFormSuperior"
 
