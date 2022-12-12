@@ -4,6 +4,7 @@ import MarkerIcon from "@/icons/marker.svg"
 import PhoneIcon from "@/icons/phone.svg"
 import EmailIcon from "@/icons/email.svg"
 import EyeIcon from "@/icons/eye.svg"
+import PersonIcon from "@/icons/person.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -11,6 +12,7 @@ const iconTypes: any = {
   phone: PhoneIcon,
   email: EmailIcon,
   eye: EyeIcon,
+  person: PersonIcon
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
