@@ -30,8 +30,8 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
         <div className="flex gap-9 items-center">
           {
             social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref>
-                <a target={"_blank"} className="w-5 h-5">
-                  <Icon name={item.name} className="w-full h-full" />
+                <a target={"_blank"}>
+                  <Icon name={item.name} className="w-5 h-5" />
                 </a>
               </Link>)
           }
@@ -53,7 +53,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
       </div>
     </div>
     {/* Section logotype */}
-    <div className="p-6 w-t:hidden w-p:hidden flex flex-col flex-wrap gap-20 border-b-[1px] border-solid border-[#CDCDCD]">
+    <div className="p-6 w-t:hidden w-p:hidden flex flex-wrap gap-20 border-b-[1px] border-solid border-[#CDCDCD]">
       {
         sections.map((section: any[], i: number) => <div key={`sections-${i}`} className="flex flex-col gap-6">
             {
