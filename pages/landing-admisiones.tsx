@@ -14,6 +14,8 @@ import DescriptionSection from "@/components/DescriptionSection/DescriptionSecti
 import Tabs from "@/components/Tabs"
 import CardWebsite from "@/components/CardWebsite"
 import Banner from "@/components/Banner"
+import Accordion from "@/components/Accordion"
+import faq from "@/dummy/faq"
 
 
 
@@ -34,23 +36,24 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <div>
-            <p className="font-Poppins font-bold text-13">{data.header.title}</p>
+            <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{data.header.title}</p>
           </div>
           {
             data.header.textIcons.map((item:any, i:number) => 
               <>
-                <div className="grid w-d:grid-cols-1 gap-6 w-t:grid-cols-1 w-p:grid-cols-1">
-                  <p>{item.text}</p>
+                <div className="flex mt-4">
+                  <Icon name={item.icon} className="w-[55px] h-[55px] w-p:w-8 w-p:h-8"/>
+                  <p className="font-Poppins font-bold my-auto ml-6 text-4.5 w-p:text-base">{item.text}</p>
                 </div>
               </>
             )
           }
+          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-4">
+            <Button data={ data.header.button }/>
+          </div>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <Image src="/images/404.png" alt="error_image" classNames="aspect-4/3"/>
-        </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 col-start-2">
-          <Button data={ data.header.button }/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-[72px]">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{ data.sectionTabs.title }</p>
@@ -61,13 +64,19 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
-              contentTabs.map(({ image: { src, alt }, content: { title, description }, }: any, i: number) => <Fragment key={`description-beca-${i}`}>
+              contentTabs.map(({ image: { src, alt }, content: { title, description, action=null }, }: any, i: number) => <Fragment key={`description-beca-${i}`}>
                   <DescriptionSection
+                    mode="light"
                     title={title}
                     description={description}
                     classNames={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
                     titleStyles="col-start-2 col-end-7 w-t:col-end-8"
                     descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
+                    action={
+                      <div slot="actionDescription">
+                        <Button data={action}/>
+                      </div>
+                    }
                   />
                   <Image
                     alt={alt}
@@ -104,7 +113,10 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{data.sectionEgresados.title}</p>
           <p className="font-Poppins text-4.5 font-bold leading-[125%] mt-6">{data.sectionEgresados.description}</p>
         </div>
-        <div className="col-span-6 w-t:col-span-8 w-p_col-span-4">
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
+          <Youtube data={data.sectionEgresados.video}/>
+        </div>
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <section className="grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
             data.sectionEgresados.cards.map((item:any, i:number) => <section key={`section-blog-${i}`}>
@@ -112,17 +124,25 @@ const ThankYouPage: NextPageWithLayout = ({ data }: any) => {
            </section>)
           }
           </section>
-          <div className="object-center	mt-6 flex justify-center">
+          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 object-center	mt-6 flex justify-center">
             <Button data={data.sectionEgresados.button}/>
           </div>
         </div>
-        <div className="col-span-6 w-t:col-span-8 w-p_col-span-4">
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden">
           <Youtube data={data.sectionEgresados.video}/>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:co-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{data.sectionFAQ.title}</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:co-span-4 flex justify-center">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto">
+          {
+            
+            !!data.sectionFAQ.questions.length 
+              ? <Accordion data={{items: data.sectionFAQ.questions}} />
+              : null
+          }
+      </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
           <Button data={ data.sectionFAQ.button }
           onClick={() => {
             router.push('/faq/new-incomming')
@@ -143,20 +163,20 @@ export async function getStaticProps(context: any) {
           title:'Inscríbete en UANE',
           textIcons:[
             {
-              icon:'emoji_events',
+              icon:'email',
               text: '48 años nos respaldan'
             },
             {
-              icon:'emoji_events',
-              text: '48 años nos respaldan'
+              icon:'email',
+              text: '+13,500 alumnos en todas nuestras modalidades'
             },
             {
-              icon:'emoji_events',
-              text: '48 años nos respaldan'
+              icon:'email',
+              text: '+50,000 egresados'
             },
             {
-              icon:'emoji_events',
-              text: '48 años nos respaldan'
+              icon:'email',
+              text: '+760 convenios empresariales para una acelerada inserción laboral'
             },
           ],
           button: {title: 'Quiero más información', type: 'primary', icon: '', isExpand: false,},
@@ -180,6 +200,7 @@ export async function getStaticProps(context: any) {
                     Niveles educativos: Bachillerato, licenciatura y postgrado
                     Modalidades: 
                     -------`,
+                    action: {title: 'Quiero más información', type: 'primary', icon: '', isExpand: false,},
                   },
                   cards: [
                     { 
@@ -295,7 +316,8 @@ export async function getStaticProps(context: any) {
                     Aplica a:
                     Niveles educativos: Bachillerato, licenciatura y postgrado
                     Modalidades: 
-                    -------`
+                    -------`,
+                    action: {title: 'Quiero más información', type: 'primary', icon: '', isExpand: false,},
                   }
                 }
               },
@@ -313,7 +335,8 @@ export async function getStaticProps(context: any) {
                     Aplica a:
                     Niveles educativos: Bachillerato, licenciatura y postgrado
                     Modalidades: 
-                    -------`
+                    -------`,
+                    action: {title: 'Quiero más información', type: 'primary', icon: '', isExpand: false,},
                   }
                 }
               }
@@ -410,6 +433,7 @@ export async function getStaticProps(context: any) {
         sectionFAQ:{
           title: 'Preguntas frecuentes',
           button:{title: 'Ver más preguntas', type: 'outlined', icon: '', isExpand: false,},
+          questions: faq['community'].questions
         }
       }
     }
