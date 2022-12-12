@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "title": "Admisiones UANE",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title":"Inscríbete en UANE",
+      "textIcons":[
+        {
+          "icon": "email",
+          "text": "48 años nos respaldan"
+        },
+        {
+          "icon": "email",
+          "text": "+13,500 alumnos en todas nuestras modalidades"
+        },
+        {
+          "icon": "email",
+          "text": "+50,000 egresados"
+        },
+        {
+          "icon": "email",
+          "text": "+760 convenios empresariales para una acelerada inserción laboral"
+        }
+      ],
+      "button": {"id":"123","title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "size":"small"},
+      "image": {
+        "desk": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+        },
+        "mobile": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+        }
+      }
+    },
+    "requirements": {
+      "title": "Requisitos de admisión",
+      "tabs": {
+        "items":[
+          {
+            "label": "Bachillerato", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "content": {
+              "image": {
+                "alt": "imagen",
+                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+              },
+              "content": {
+                "title": "",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation - Elemento 1 - Elemento 2 - Elemento 3",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+              },
+              "cards": [
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                }
+              ]
+            }
+          },
+          {
+            "label": "Licenciatura", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "content": {
+              "image": {
+                "alt": "imagen",
+                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+              },
+              "content": {
+                "title": "Características de la Beca Servicio1",
+                "description": "La Beca Servicio se otorga en pesos y el monto autorizado se aplica exclusivamente al costo de la colegiatura. Se otorga a los estudiantes de escasos recursos económicos que tengan un promedio de aprovechamiento académico de por lo menos 80. Además de tener buena conducta. La beca deberá ser retribuida mediante actividades de servicio ya sea en beneficio de la Universidad o de la Comunidad. Aplica a: Niveles educativos: Bachillerato, licenciatura y postgrado Modalidades: -------",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+              },
+              "cards": [
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                }
+              ]
+              }
+          },
+          {
+            "label": "Maestria", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "content": {
+              "image": {
+                "alt": "imagen",
+                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+              },
+              "content": {
+                "title": "Características de la Beca Servicio1",
+                "description": "La Beca Servicio se otorga en pesos y el monto autorizado se aplica exclusivamente al costo de la colegiatura. Se otorga a los estudiantes de escasos recursos económicos que tengan un promedio de aprovechamiento académico de por lo menos 80. Además de tener buena conducta. La beca deberá ser retribuida mediante actividades de servicio ya sea en beneficio de la Universidad o de la Comunidad. Aplica a: Niveles educativos: Bachillerato, licenciatura y postgrado Modalidades: -------",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+              },
+              "cards": [
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                }
+              ]
+              }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "internacionalizacion": {
+      "banner": {
+        "title": "UANE  Internacional", "subtitle": "Agrega experiencias internacionales a tus estudiso", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg}"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+      },
+      "redirect": "internacionalizacion"
+    },
+    "empleabilidad": {
+      "banner":{
+        "title": "Empleabilidad en UANE", "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": true, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+      },
+      "redirect": "empleabilidad"
+    },
+    "becas": {
+      "banner":{
+        "title": "Conoce las becas que tenemos para ti", "subtitle": "Mira sus experiencias.", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": true, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+      },
+      "redirect": "becas"
+    },
+    "egresados":{
+      "title": "Los egresados de UANE nos cuentan sus historias",
+      "description": "En UANE dejamos huella de oso en cada paso que damos, piensa y estudia en grande.",
+      "cards": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        }
+      ],
+      "button":{"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "redirect": "egresados/talento"},
+      "video": {"options": { "id": "Ae84Xfec1HM", "type": "single", "controls": true}, "dimensions": { "height": "400px"} }
+    },
+    "FAQ":{
+      "title": "Preguntas frecuentes",
+      "questions": [
+        {
+          "title": "community-question-1",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "title": "community-question-2",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        {
+          "title": "community-question-3",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+          "title": "community-question-4",
+          "answer": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32. \nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+        },
+        {
+          "title": "community-question-5",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        {
+          "title": "community-question-6",
+          "answer": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "title": "community-question-7",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        {
+          "title": "community-question-8",
+          "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "button":{"title": "Ver más preguntas", "type": "outlined", "icon": "", "isExpand": false, "redirect":"/faq/new-incomming"}
+    }
+  }
+}
