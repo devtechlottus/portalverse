@@ -10,7 +10,7 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
   const [ allRoutes, setAllRoutes ] = useState<Array<string>>([]);
 
   useEffect(() => {
-    const routes = Array.from(new Set(asPath.split("/")));
+    const routes = Array.from(asPath.split("/"));
     setAllRoutes([...routes]);
   }, [asPath]);
 
