@@ -64,7 +64,7 @@ const Routes: any = {
           },
         },
         "programs": [
-          { params: { "program": "general" } },
+          { params: { "program": "bachillerato" } },
         ] 
       }
     },
