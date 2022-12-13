@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Oferta Educativa",
+    "description": "",
+    "keywords": ""
+  },
+  "sections":{
+    "head": {
+      "title": "Oferta Educativa",
+      "description": "Encuentra en UANE la licenciatura, ingeniería o posgrado que estás buscando y estudia con el respaldo y prestigio de una de las mejores universidades del país."
+    },
+    "offers": {
+      "title": "Busca tu nivel educativo"
+    },
+    "modalities": {
+      "title": "Estudia en la modalidad que más te convenga",
+      "modalities": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "Presencial",
+          "title": "Presencial",
+          "text": "Asiste a clases y relaciónate en persona con profesores y alumnos en cualquiera de nuestros campus",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "Semipresencial",
+          "title": "Semipresencial",
+          "text": "Estudia en una modalidad híbrida, con clases remotas y presenciales",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "En línea",
+          "title": "En línea",
+          "text": "Aprovecha tu tiempo al máximo y obten tu título estudiando desde nuestra plataforma",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        }
+      ]
+    },
+    "knowledges":{
+      "title": "Elige un área de conocimiento",
+      "knowledges": [
+
+      ]
+    },
+    "bannerTest":{
+      "banner":{
+        "title": "¿No te decides qué estudiar?", "subtitle": "Te ayudamos a decidir que rumbo profesional tomar", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Realizar test", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+      },
+      "redirect": "becas"
+    },
+    "bannerInternacionalizacion": {
+      "banner":{
+        "title": "Internacionalízate", "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Conoce más", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+      },
+      "redirect": "becas"
+    }
+  }
+}
