@@ -8,7 +8,7 @@ const DescriptionSection: FC<DescriptionSectionComponentData> = ({ title, descri
   return <div className={cn("", classNames, {"text-white bg-black": mode === 'dark', "bg-white text-black": mode === 'light'})}>
     <h1 className={cn("text-6 font-bold font-Poppins leading-[30px]", titleStyles)}>{ title }</h1>
     <div className={cn("descriptionSection", descriptionStyles)}>
-      <RichtText data={{ content: description }} />
+      <RichtText font={mode} data={{ content: description }} />
       <slot name="actionDescription">{ action }</slot>
     </div>
   </div>
