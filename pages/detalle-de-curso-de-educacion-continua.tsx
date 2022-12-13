@@ -21,7 +21,7 @@ const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: 
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout classNames="gap-6">
         <div className="col-span-6 w-t:col-span-4 w-p:col-span-4">
-          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-text-7.5 leading-13 w-t:leading-[111%] w-p:leading-[125%] mb-6">{sections.head.title}</p>
+          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5 leading-13 w-t:leading-[111%] w-p:leading-[125%] mb-6">{sections.head.title}</p>
           <RichtText data={{
             content: sections.head.description
           }} />
@@ -35,7 +35,7 @@ const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: 
           aqui va el formulario
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:hidden">
-          <p className="font-Poppins font-bold text-10 pt-6">{sections.relatedCourses.title}</p>
+          <p className="font-Poppins font-bold text-10 pt-6 w-t:text-8.5 w-p:text-7.5 leading-[125%]">{sections.relatedCourses.title}</p>
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-d:hidden w-t:hidden">
           {
