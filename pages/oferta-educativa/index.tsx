@@ -1,5 +1,6 @@
 import { ReactElement } from "react"
 import Head from "next/head"
+import { useRouter } from "next/router"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
@@ -12,6 +13,8 @@ import Banner from "@/components/Banner"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 
 const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sections, meta }: any) => {
+  const router = useRouter()
+
   return <>
     <Head>
       <title>{ meta.title }</title>
@@ -47,18 +50,18 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
           aqui van los promos
         </section>
         <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-p:mt-10 w-t:hidden">
-          <Banner data={sections.bannerTest.banner} />
+          <Banner data={sections.bannerTest.banner} onBtn={()=>{window.open(sections.bannerTest.redirect)}} />
         </section>
         <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-t:hidden">
-          <Banner data={sections.bannerInternacionalizacion.banner} />
+          <Banner data={sections.bannerInternacionalizacion.banner} onBtn={()=>router.push(sections.bannerInternacionalizacion.redirect)}/>
         </section>
       </ContentLayout>
       <ContentFullLayout classNames="gap-6 w-d:hidden w-p:hidden">
         <section className="mt-6">
-          <Banner data={sections.bannerTest.banner} />
+          <Banner data={sections.bannerTest.banner} onBtn={()=>{window.open(sections.bannerTest.redirect)}} />
         </section>
         <section className="my-6">
-          <Banner data={sections.bannerInternacionalizacion.banner} />
+          <Banner data={sections.bannerInternacionalizacion.banner} onBtn={()=>router.push(sections.bannerInternacionalizacion.redirect)} />
         </section>
       </ContentFullLayout>
     </HeaderFooterLayout>
