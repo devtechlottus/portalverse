@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Bachillerato General",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Bachillerato",
+    "config": {
+      "nombre": "Bachillerato",
+      "modalidad": ["Presencial", "Bilingüe", "Online"],
+      "areaConocimiento": ["Educación Media"],
+      "campus": [],
+      "nivel": ["Bachillerato"],
+      "curriculum": "file.pdf"
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Estudia Bachillerato",
+      "description": "lore Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. Praesent sagittis lacus eget tincidunt maximus. Morbi laoreet tristique justo, quis tristique mauris elementum vitae. Sed lobortis tortor vitae felis mollis dapibus. Mauris sit amet nisl dapibus, convallis tortor eget, rhoncus quam. Proin euismod tincidunt magna, vel bibendum mauris mattis e",
+      "image": {
+        "src": "https://picsum.photos/seed/picsum/500/400",
+        "alt": "bachillerato general"
+      }
+    },
+    "modalities": {
+      "title": "Elige una de las tres modalidades disponibles para bachillerato:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false }, "disabled": false,
+            "content": [
+              {
+                "title": "Características del Bachillerato en modalidad presencial",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. Praesent sagittis lacus eget tincidunt maximus. Morbi laoreet tristique justo, quis tristique mauris elementum vitae. Sed lobortis tortor vitae felis mollis dapibus. Mauris sit amet nisl dapibus, convallis tortor eget, rhoncus quam. Proin euismod tincidunt magna, vel bibendum mauris mattis e",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              },
+              {
+                "title": "Requisitos de admisión",
+                "description": "\n ### Estudiantes de nuevo ingreso: \n- Acta de nacimiento reciente\n - Certificado de secundaria legalizado\n - Certificado de preparatoria legalizado\n - CURP copia.\n\n\n ### Estudiantes que tramitan equivalencia:\n - Certificado parcial de estudios legalizado\n - 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n - Carta de buena salud expedida por institución pública o privada.",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Modalidad Bilingüe", "icons": { "primary": "", "duplicate": false }, "disabled": false,
+            "content": [
+              {
+                "title": "Características del Bachillerato en modalidad bilingüe",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. Praesent sagittis lacus eget tincidunt maximus. Morbi laoreet tristique justo, quis tristique mauris elementum vitae. Sed lobortis tortor vitae felis mollis dapibus. Mauris sit amet nisl dapibus, convallis tortor eget, rhoncus quam. Proin euismod tincidunt magna, vel bibendum mauris mattis e",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              },
+              {
+                "title": "Requisitos de admisión",
+                "description": "\n ### Estudiantes de nuevo ingreso: \n- Acta de nacimiento reciente\n - Certificado de secundaria legalizado\n - Certificado de preparatoria legalizado\n - CURP copia.\n\n\n ### Estudiantes que tramitan equivalencia:\n - Certificado parcial de estudios legalizado\n - 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n - Carta de buena salud expedida por institución pública o privada.",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Modalidad Online", "icons": {"primary": "", "duplicate": false }, "disabled": false,
+            "content": [
+              {
+                "title": "Características del Bachillerato en modalidad online",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. Praesent sagittis lacus eget tincidunt maximus. Morbi laoreet tristique justo, quis tristique mauris elementum vitae. Sed lobortis tortor vitae felis mollis dapibus. Mauris sit amet nisl dapibus, convallis tortor eget, rhoncus quam. Proin euismod tincidunt magna, vel bibendum mauris mattis e",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              },
+              {
+                "title": "Requisitos de admisión",
+                "description": "\n ### Estudiantes de nuevo ingreso: \n- Acta de nacimiento reciente\n - Certificado de secundaria legalizado\n - Certificado de preparatoria legalizado\n - CURP copia.\n\n\n ### Estudiantes que tramitan equivalencia:\n - Certificado parcial de estudios legalizado\n - 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n - Carta de buena salud expedida por institución pública o privada.",
+                "image": {
+                  "src": "https://picsum.photos/seed/picsum/500/400",
+                  "alt": "type-1"
+                }
+              }
+            ]
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "benefits": {
+      "video": "oXmARfknhSI",
+      "title": "Plan de estudios",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. ctetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisisctetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis ctetur adipiscing elit. Nulla eleifend finibus ante.\nEl 80% del alumnado tiene algún tipo de beca\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisis. ctetur adipiscing elit. Nulla eleifend finibus ante. Donec elementum euismod facilisisctetur adipiscing elit. Nulla eleifend finibus.\n\nEl 80% del alumnado tiene algún tipo de beca",
+      "action": {
+        "id": "program_bachillerato",
+        "type": "primary",
+        "title": "Descarga el plan de estudios",
+        "size": "small",
+        "icon": "download",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "testClick",
+        "test": ""
+      }
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "bachillerato" },
+      "program": { "hidden": true, "value": "bachillerato" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "¿Quieres más información sobre tu bachillerato?",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}
