@@ -9,54 +9,51 @@ import Image from "@/components/Image"
 import Tabs from "@/components/Tabs"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import CardsOstanding from "@/components/CardsOustanding"
-import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Academia from "@/components/Academia"
-import licenciatura from "@/dummy/licenciatura"
-import especialidad from "@/dummy/especialidad"
-import doctorado from "@/dummy/doctorado"
-import maestria from "@/dummy/maestria"
-import bachillerato from "@/dummy/bachillerato"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
 import DescriptionSection from "@/components/DescriptionSection"
 import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
 import OpenFormSuperior from "@/forms/container/OpenFormSuperior"
+import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Button from "@/components/Button"
 
-const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program, info }, form, formCopies }: any) => {
+const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
 
+  const downloadProgram = (program: string) => console.log("program", program)
+
   useEffect(() => {
-    const allContents = info.modality.tabs.items.reduce((prev: any, curr: any) => { 
+    const allContents = sections.modalities.tabs.items.reduce((prev: any, curr: any) => { 
       const { content } = curr;
       return  [...prev, content ];
     }, []);
     setContentTabs([...allContents]);
-  }, [info.modality.tabs]);
+  }, [sections.modalities.tabs]);
 
   return <>
     <Head>
-      <title>{ info.title }</title>
+      <title>{ meta.title }</title>
     </Head>
     <HeaderFooterLayout>
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
-          <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{info.head.titleGral}</h1>
-          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{info.head.description}</p>
+          <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{sections.head.title}</h1>
+          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{sections.head.description}</p>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <Image
-            alt={info.head.image.alt}
-            src={info.head.image.src}
+            alt={sections.head.image.alt}
+            src={sections.head.image.src}
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
           />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{info.modality.title}</p>
+          <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={info.modality.tabs} tabIndex={(active: number) => setTabActive(active)} />
+          <Tabs data={sections.modalities.tabs} tabIndex={(active: number) => setTabActive(active)} />
         </div>
         <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
         {
@@ -82,7 +79,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
         </ContentInsideLayout>
       </ContentLayout>
 
-      {
+      {/* {
         level !== 'bachillerato'
           ? <>
               <section className="w-d:block w-t:hidden w-p:hidden">
@@ -104,7 +101,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
               </ContentFullLayout>
             </>
           : null
-      }
+      } */}
 
 
       <ContentLayout classNames="mt-6">
@@ -112,10 +109,12 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
           level === 'bachillerato'
             ? <>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-d:order-1 w-t:order-2">
-                  <Youtube data={{ options: { id: info.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
+                  <Youtube data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
-                  <RichtText data={{ content: info.benefits.contentDescription }} />
+                  <h4>{ sections.benefits.title }</h4>
+                  <RichtText font="light" data={{ content: sections.benefits.description }} />
+                  <Button data={{...sections.benefits.action}} onClick={() => downloadProgram(config.config.curriculum)} />
                 </div>
               </>
             : null
@@ -123,8 +122,8 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ data: { level, program
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
           {
             level === 'bachillerato'
-              ? <OpenFormBachillerato copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form }} />
-              : <OpenFormSuperior copies={{ ...formCopies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form }} />
+              ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
+              : <OpenFormSuperior copies={{ ...form.copies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
           }
           
         </div>
@@ -148,40 +147,44 @@ export async function getStaticPaths(props: any) {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-  const { params: { level: levelSelected, program } } = context;
-  const diccionario: any = {
-    licenciatura,
-    especialidad,
-    doctorado,
-    maestria,
-    bachillerato,
-  };
-  const infoLevel = diccionario[levelSelected];
-  const formConfig = {
-    level: { hidden: true, value: levelSelected },
-    program: { hidden: levelSelected === "bachillerato", value: program },
-    modality: { hidden: false },
-    campus: { hidden: false },
-  };
-  const formCopiesSuperior = {
-    stepone: {
-      title: "Obten informes sobre tu programa",
-      subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
-    }
-  };
-  const formCopiesBachillerato = {
-    stepone: {
-      title: "¿Quieres más información sobre tu bachillerato?",
-      subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
-    }
-  };
+  const { params: { level, program } } = context;
+  const { meta, config, sections, form } = await getDataPageFromJSON(`/oferta-educativa/${level}/${program}.json`);
+  // const diccionario: any = {
+  //   licenciatura,
+  //   especialidad,
+  //   doctorado,
+  //   maestria,
+  //   bachillerato,
+  // };
+  // const infoLevel = diccionario[levelSelected];
+  // const formConfig = {
+  //   level: { hidden: true, value: levelSelected },
+  //   program: { hidden: levelSelected === "bachillerato", value: program },
+  //   modality: { hidden: false },
+  //   campus: { hidden: false },
+  // };
+  // const formCopiesSuperior = {
+  //   stepone: {
+  //     title: "Obten informes sobre tu programa",
+  //     subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+  //   }
+  // };
+  // const formCopiesBachillerato = {
+  //   stepone: {
+  //     title: "¿Quieres más información sobre tu bachillerato?",
+  //     subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+  //   }
+  // };
 
-  const formCopies = levelSelected === 'bachillerato'
-    ? { ...formCopiesBachillerato }
-    : { ...formCopiesSuperior };
+  // const formCopies = levelSelected === 'bachillerato'
+  //   ? { ...formCopiesBachillerato }
+  //   : { ...formCopiesSuperior };
 
   return {
-    props: { data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig }, formCopies: { ...formCopies } },
+    props: {
+      level, program, meta, config, sections, form
+      /*data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig }, formCopies: { ...formCopies }*/
+    },
   }
 }
 
