@@ -31,12 +31,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       <ContentLayout>
         <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ {...sections.head.banner, title:"BIENVENIDOS OSOS", subtitle:"¡Nos renovamos para darte la mejor oferta educativa!"} }/>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
-          <p className="text-10 w-t:text-6 w-p:text-6 font-Poppins font-bold">{ sections.oferta.title }</p>
-          <Link href="/oferta-educativa">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Oferta educativa
-            </a>
-          </Link>
+          <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <OfertaEducativa data={sections.oferta.levels} level={'oferta-educativa/'} classNames="opacity-80 w-d:mb-8"/>
@@ -87,7 +82,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
           }
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
-            <p className=" text-10 w-p:text-6 font-Poppins font-bold leading-[125%]">{ sections.vozUane.title }</p>
+            <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
           </section>
           <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
             {
@@ -100,7 +95,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
-            <p className="font-5.5 font-Poppins font-bold mb-6 leading-[125%] w-t:leading-[130%]">{sections.descubre.title}</p>
+            <p className="mb-6 ac-type-h5-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{sections.descubre.title}</p>
             <Youtube data={sections.descubre} />
           </div>
       </ContentLayout>

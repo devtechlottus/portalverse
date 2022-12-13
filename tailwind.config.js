@@ -66,9 +66,10 @@ module.exports = {
         "SC/Backgrounds/BG-GRAY": "#F2F2F2",
         "Brands/UANE/Primary/UANE-P-00": "#B0003C",
         "UNI-066": "#555555",
-        "dark": "#282828",
+        "SC/Blackandgrey/B-80": "#282828",
         "darkBlue": "#2B2C34;",
-        "SC/Actions/AC-300": "#E6E6E6"
+        "SC/Actions/AC-300": "#E6E6E6",
+        "SC/Blackandgrey/B-100": "#000000"
       },
       fontFamily: {
         "Nunito": ["Nunito"],
