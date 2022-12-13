@@ -1,6 +1,7 @@
 import { ReactElement, useEffect, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import cn from "classnames"
 import Routes from "@/routes/Routes"
 import faq from "@/dummy/faq"
@@ -9,8 +10,11 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Banner from "@/components/Banner"
+import ContentFullLayout from "@/layouts/ContentFull.layout"
 
 const FAQ: NextPageWithLayout<any> = ({ sections, meta }: any) => {
+  const router = useRouter()
 
   const [ sectionTitle, setSectionTitle ] = useState('Questions') 
 
@@ -25,36 +29,48 @@ const FAQ: NextPageWithLayout<any> = ({ sections, meta }: any) => {
 
   return <>
     <Head>
-      <title>{ sectionTitle }</title>
+      <title>{ meta.title }</title>
     </Head>
-    <h1 className="col-span-12 font-Poppins w-d:text-13 w-t:text-8.5 w-p:text-8.5 w-t:leading-9.435 font-bold leading-16.25 my-6">Preguntas frecuentes</h1>
-    <h2 className="col-span-12 mt-4 font-semibold font-Poppins leading-7.5 text-6 w-t:text-4.5 w-p:leading-5.625">Elige una sección</h2>
-      <div className="col-span-3 w-t:col-span-8 w-p:col-span-4 flex-grow-0">
-        <ul>
-          {
-            sections.map((section: any, i:number) => <Link key={`section-item${i}`} href={`/faq/${section.route}`}>
-              <a>
-                <li className={cn("font-Poppins flex py-2", { "text-Brands/UANE/Primary/UANE-P-00": section.status, "text-black": !section.status })}>
-                  <span className="material-icons icon pr-3">{section.icon}</span>
-                  <p>{ section.title }</p>
-                </li>
-              </a>
-            </Link>
-            )
-          }
-        </ul>
-      </div>
-      <div className="col-span-9 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto">
-        <h1>{ sectionTitle }</h1>
-        {
-          sections.map(({ questions }: any, i: number) => {
-            if (!!questions.length) {
-              return <Accordion key={`question-item-${i}`} data={{items: questions}} />
+    <HeaderFooterLayout>
+      <ContentLayout>
+        <h1 className="col-span-12 w-t:col-span-8 w-p:col-span-4 font-Poppins w-d:text-13 w-t:text-8.5 w-p:text-6 w-t:leading-9.435 font-bold leading-16.25">{meta.head.title}</h1>
+        <div className="col-span-3 w-t:col-span-8 w-p:col-span-4 flex-grow-0">
+          <h2 className="col-span-12 w-t:col-span-8 w-p:col-span-4 font-semibold font-Poppins leading-7.5 text-6 w-t:text-4.5 w-p:leading-5.625 mt-1">{meta.head.subtitle}</h2>
+          <ul>
+            {
+              sections.map((section: any, i:number) => <Link key={`section-item${i}`} href={`/faq/${section.route}`}>
+                <a>
+                  <li className={cn("font-Poppins font-bold flex py-2", { "text-Brands/UANE/Primary/UANE-P-00": section.status, "text-black": !section.status })}>
+                    <span className="material-icons icon pr-3">{section.icon}</span>
+                    <p>{ section.title }</p>
+                  </li>
+                </a>
+              </Link>
+              )
             }
-            return null
-          }) 
-        }
-      </div>
+          </ul>
+        </div>
+        <div className="col-span-9 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto">
+          <h1 className="font-Poppins font-bold text-[32px] text-Brands/UANE/Primary/UANE-P-00 w-t:text-6 w-p:text-base">{ sectionTitle }</h1>
+          {
+            sections.map(({ questions }: any, i: number) => {
+              if (!!questions.length) {
+                return <Accordion key={`question-item-${i}`} data={{items: questions}} />
+              }
+              return null
+            }) 
+          }
+        </div>
+        <div className="col-span-12 w-t:hidden w-p:col-span-4 mt-[72px] w-p:mt-12">
+         <Banner data={meta.banner} onBtn={()=>router.push(meta.banner.redirect)}/>
+        </div>
+      </ContentLayout>
+      <ContentFullLayout classNames="mt-12">
+        <div className="w-d:hidden w-p:hidden">
+         <Banner data={meta.banner} onBtn={()=>router.push(meta.banner.redirect)}/>
+        </div>
+      </ContentFullLayout>
+    </HeaderFooterLayout>
   </>
 };
 
@@ -75,14 +91,6 @@ export async function getStaticProps(context: any) {
   return {
     props: { sections, meta }
   }
-}
-
-FAQ.getLayout = function getLayout(page: ReactElement) {
-  return <HeaderFooterLayout>
-    <ContentLayout>
-      { page }
-    </ContentLayout>
-  </HeaderFooterLayout>
 }
 
 export default FAQ
