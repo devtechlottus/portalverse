@@ -1,0 +1,120 @@
+{
+  "meta":{
+    "title": "Detalle de curso de educación continua",
+    "description": "",
+    "keywords": ""
+  },
+  "sections":{
+    "head":{
+      "title": "Derechos de Autor y Propiedad Intelectual",
+      "description": "Duración aproximada: 18 horas <br />Perfil del participante: Este curso está dirigido para aquellas personas que requieren contar con mejores herramientas que le permitan tomar decisiones fundamentadas en datos estadísticos.<br />Carreras afines: Todas las áreas<br />Objetivo: El participante aplicará modelos estadísticos y de probabilidad como elementos fundamentales para sustentar la toma de decisiones que impacten en su entorno laboral.<br />Temas que abordar<br />Estadística descriptiva<br />Técnicas de recolección de información<br />Muestreo probabilístico y no probabilístico<br />Distribuciones de probabilidad<br />Pruebas de hipótesis<br />Asociación lineal y modelo lineal<br />Pronósticos para la toma de decisiones<br />Recursos de aprendizaje:<br />Vídeos explicativos<br />Material interactivo<br />Evaluación: La evaluación se realizará por medio de exámenes. Para acreditar debes tener cuando menos 70 de calificación.",
+      "image": {
+        "desk": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+        },
+        "mobile": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+        }
+      }
+    },
+    "relatedCourses":{
+      "title": "Cursos relacionados",
+      "courses": [
+        {
+          "id": "123",
+          "title": "Análisis de datos",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+            }
+          },
+          "redirect": "oferta-educativa"
+        },
+        {
+          "id": "123",
+          "title": "Derecho de Autor y Propiedad Intelectual",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":""
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+            }
+          },
+          "redirect": "oferta-educativa"
+        },
+        {
+          "id": "123",
+          "title": "Estrategias de tiendas en línea",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":""
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+            }
+          },
+          "redirect": "oferta-educativa"
+        },
+        {
+          "id": "123",
+          "title": "Mega tendencias Globales",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":""
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+            }
+          },
+          "redirect": "oferta-educativa"
+        }
+      ]
+    }
+  }
+}
