@@ -13,8 +13,6 @@
   "dependencies": {
     "@svgr/webpack": "^6.4.0",
     "classnames": "^2.3.2",
-    "google-auth-library": "^8.7.0",
-    "googleapis": "^109.0.1",
     "leaflet": "^1.9.2",
     "lottus-elements-uane": "4.3.4",
     "next": "12.3.0",
