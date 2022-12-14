@@ -1,16 +1,17 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
 import Routes from "@/routes/Routes"
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
 import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
 import Ofertas from "@/components/OfertaEducativa"
+import CardProgram from "@/components/CardProgram"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+
 
 const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sections, meta }: any) => {
   const router = useRouter()
@@ -41,7 +42,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
           {
            sections.courses.courses.map((item:any, i:number) => <section key={`section-courses-${i}`}>
-            <CardWebsite data={item} onClick={()=>router.push(`${router.pathname}/${item.redirect}`)}/>
+            <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
            </section>)
           }
         </section>
@@ -51,7 +52,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
           {
            sections.graduates.graduates.map((item:any, i:number) => <section key={`section-graduates-${i}`}>
-            <CardWebsite data={item} onClick={()=>router.push(`${router.pathname}/${item.redirect}`)}/>
+            <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
            </section>)
           }
         </section>
@@ -61,7 +62,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]  w-t:mb-12 w-p:mb-6">
           {
            sections.certifications.certifications.map((item:any, i:number) => <section key={`section-certifications-${i}`}>
-            <CardWebsite data={item} onClick={()=>router.push(`${router.pathname}/${item.redirect}`)}/>
+            <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
            </section>)
           }
         </section>
@@ -74,7 +75,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
           <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
             {
              sections.nextCourses.nextCourses.map((item:any, i:number) => <section key={`section-nextCourses-${i}`}>
-              <CardWebsite data={item} onClick={()=>router.push(`${router.pathname}/${item.redirect}`)}/>
+              <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
              </section>)
             }
           </section>
@@ -103,7 +104,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
 export async function getStaticProps(context: any) {
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level, config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
 
-  const { sections, meta } = await getDataPageFromJSON('educacionContinua.json');
+  const { sections, meta } = await getDataPageFromJSON('educacion-continua/educacionContinua.json');
 
   return {
     props: {data: { oferta, level:'oferta-educativa/' }, sections, meta }
