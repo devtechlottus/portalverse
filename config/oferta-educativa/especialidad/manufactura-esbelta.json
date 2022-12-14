@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "Especialidad en Manufactura Esbelta",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Especialidad en Manufactura Esbelta",
+    "config": {
+      "nombre": "Especialidad en Manufactura Esbelta",
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Ciencias Exactas"],
+      "campus": ["Piedras negras"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Especialidad en Manufactura Esbelta",
+      "description": "Optimiza las operaciones en las empresas de manufactura y profundiza en elementos del proceso industrial.",
+      "image": {
+        "src": "",
+        "alt": "Manufactura Esbelta"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Especialidad en Manufactura Esbelta deberá contar con conocimientos e interés por los procesos de trasformación de la industria, materia prima y productos útiles. Contar con enfoques creativos que permitan la resolución de problemas y se oriente a resultados. Tener facilidad para usar diferentes tipos de herramientas manuales, mecánicas, automáticas e informáticas o digitales. Gusto por el trabajo y dirección de equipos de alto desempeño.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa podrás fortalecer tu desarrollo profesional en las áreas de ingeniería y administración. Tendrás la capacidad de profundizar en los elementos críticos del diseño de procesos y la optimización de las operaciones en las empresas de manufactura.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Especialidad en Manufactura Esbelta de UANE podrá ejercer en:\n- Empresas orientadas a la manufactura y/o logística\n- Administración de cadena de suministro\n- Administración de producción\n- Diseño de modelos de operación en manufactura\n- Proyectos industriales\n- Implantación de modelos de calidad en manufactura\n- Diseño de procesos de manufactura\n- Ingeniería industrial o administración.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Especialidad en Manufactura Esbelta deberá contar con conocimientos e interés por los procesos de trasformación de la industria, materia prima y productos útiles. Contar con enfoques creativos que permitan la resolución de problemas y se oriente a resultados. Tener facilidad para usar diferentes tipos de herramientas manuales, mecánicas, automáticas e informáticas o digitales. Gusto por el trabajo y dirección de equipos de alto desempeño.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa podrás fortalecer tu desarrollo profesional en las áreas de ingeniería y administración. Tendrás la capacidad de profundizar en los elementos críticos del diseño de procesos y la optimización de las operaciones en las empresas de manufactura.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Especialidad en Manufactura Esbelta de UANE podrá ejercer en:\n- Empresas orientadas a la manufactura y/o logística\n- Administración de cadena de suministro\n- Administración de producción\n- Diseño de modelos de operación en manufactura\n- Proyectos industriales\n- Implantación de modelos de calidad en manufactura\n- Diseño de procesos de manufactura\n- Ingeniería industrial o administración",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_especialidad",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Manufactura Esbelta" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

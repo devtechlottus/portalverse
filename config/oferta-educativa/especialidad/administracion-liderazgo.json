@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Especialidad en Administración y Liderazgo",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Especialidad en Administración y Liderazgo",
+    "config": {
+      "nombre": "Especialidad en Administración y Liderazgo",
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Económico - Administrativo"],
+      "campus": ["Piedras Negras"],
+      "nivel": ["Especialidad"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "1QAYw-JBHjXYlsz87rHtAbcHjLVpJ5klw"
+        },
+        "Online": "1imaAXgHw9xRnS42nrlgMKXI4Q7XdQUZY"
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Especialidad en Administración y Liderazgo",
+      "description": "Aplica teorías de liderazgo e identifica áreas de oportunidad y problemas administrativos y de recursos humanos.",
+      "image": {
+        "src": "",
+        "alt": "Administración y Liderazgo"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a ingresar a la Especialidad en Administración y Liderazgo Empresarial deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Formar profesionales especialistas capaces de aplicar las teorías de liderazgo y de identiﬁcar oportunidades, problemas y/o peligros en las áreas funcionales de la organización, tales como Administración de Empresas, Recursos Humanos, Mercadotecnia y Finanzas.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "Los especialistas en Administración y Liderazgo son imprescindibles en la planificación, organización, dirección y control de los recursos, ya sean humanos, tecnológicos o de una organización. De ahí la importancia de su rol en las empresas y en la economía del país. Podrán desempeñar sus conocimientos en el sector público y privado y como consultor y especialista independiente, dictando conferencias y asesorando grandes marcas.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Este programa está dirigido a ingenieros o licenciados de cualquier profesión. Requisitos de ingreso:\n\nLos aspirantes a cursar la Especialidad deberán cubrir los siguientes requisitos:\n\nTener experiencia mínimo de dos años en el área de industrial, mercadotecnia, finanzas, administración y recursos humanos.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Formar profesionales especialistas capaces de aplicar las teorías de liderazgo y de identiﬁcar oportunidades, problemas y/o peligros en las áreas funcionales de la organización, tales como Administración de empresas, Recursos Humanos, Mercadotecnia y Finanzas",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "Los especialistas en Administración y Liderazgo son imprescindibles en la planificación, organización, dirección y control de los recursos, ya sean humanos, tecnológicos o de una organización. De ahí la importancia de su rol en las empresas y en la economía del país. Podrán desempeñar sus conocimientos en el sector público y privado y como consultor y especialista independiente, dictando conferencias y asesorando grandes marcas.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_especialidad",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

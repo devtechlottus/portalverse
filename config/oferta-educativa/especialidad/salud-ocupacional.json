@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "title": "Especialidad en Salud Ocupacional",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Especialidad en Salud Ocupacional",
+    "config": {
+      "nombre": "Especialidad en Salud Ocupacional",
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Saltillo", "Torreon", "Monclova", "Monterrey"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": "1vzqHxXUXaOawCP_GgSDMFjEHYJxuOjm_",
+          "Torreon": "1Gt5YV8F8dMQ97dOUCvoKgSmtkflXFJwW",
+          "Monclova": "1DEWYeMv1hhDd33qr5koqGuLXNv0sWAVa",
+          "Monterrey": ""
+        },
+        "Online": "1IhAodQlV6GCK5VUz1LKDpCYlZEDsdv04"
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Especialidad en Salud Ocupacional",
+      "description": "Evalúa condiciones de riesgo y desarrolla programas para prevenir situaciones nocivas en la salud de los trabajadores.",
+      "image": {
+        "src": "",
+        "alt": "Salud Ocupacional"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Los aspirantes a la especialidad  deberán tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística y destreza en el manejo de computadora, ya que es un posgrado con orientación a la profesionalización, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de la Especialidad en Salud Ocupacional serás capaz de evaluar las condiciones de riesgo dentro de una empresa, para contribuir en el diseño y desarrollo de programas que ayuden a prevenir y controlar situaciones nocivas a la salud del trabajador.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "Los especialistas en Salud Ocupacional estan capacitados para generar un sistema de toma de decisiones con indicadores de salud en el trabajo para el monitoreo de la misma.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Los aspirantes a la especialidad  deberán tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística y destreza en el manejo de computadora, ya que es un posgrado con orientación a la profesionalización, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa serás capaz de evaluar las condiciones de riesgo dentro de una empresa, para contribuir en el diseño y desarrollo de programas que ayuden a prevenir y controlar situaciones nocivas a la salud del trabajador.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El Especiliaste en Salud Ocupacional esta capacitado para generar un sistema de toma de decisiones con indicadores de salud en el trabajo para el monitoreo de la misma.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_especialidad",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}
