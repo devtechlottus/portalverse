@@ -84,7 +84,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{sections.head.title}</h1>
-          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{sections.head.description}</p>
+          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm mt-4">{sections.head.description}</p>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <Image
@@ -125,10 +125,10 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
         </ContentInsideLayout>
       </ContentLayout>
 
-      {/* {
+      {
         level !== 'bachillerato'
           ? <>
-              <section className="w-d:block w-t:hidden w-p:hidden">
+              {/* <section className="w-d:block w-t:hidden w-p:hidden">
                 <ContentLayout>
                   <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4">
                     <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:py-[72px] w-d:px-[100px] w-t:px-0 w-t:pt-12 w-t:pb-6 w-p:py-6 bg-SC-Actions-AC-200">
@@ -144,10 +144,23 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                     <Academia data={info.searchSection} result={info.searchResult} select={info.select} />
                   </div>
                 </ContentInsideLayout>
-              </ContentFullLayout>
+              </ContentFullLayout> */}
+              <ContentLayout>
+                <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
+                  <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+                    <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Consulta tu plan de estudios en esta modalidad</h1>
+                    <div className="my-6">
+                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
+                    </div>
+                    <div className="flex justify-center">
+                      <Button data={{...sections.descarga}} onClick={downloadFileProgram} />
+                    </div>
+                  </div>
+                </ContentInsideLayout>
+              </ContentLayout>
             </>
           : null
-      } */}
+      }
 
 
       <ContentLayout classNames="mt-6">
@@ -188,8 +201,9 @@ export async function getStaticPaths(props: any) {
     })
     return [ ...prev, ...finalRoutes ]
   } , []);
+
   return {
-    paths: allRoutes,
+    paths: [...allRoutes],
     fallback: false,
   }
 }
