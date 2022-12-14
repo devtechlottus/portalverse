@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Doctorado en Derecho",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Doctorado en Derecho",
+    "config": {
+      "nombre": "Doctorado en Derecho",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Doctorado en Derecho",
+      "description": "El Doctorado en Derecho se enfoca en la resolución de la investigación crítica e integral de los procesos jurídicos.",
+      "image": {
+        "src": "",
+        "alt": "Derecho"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en este Doctorado:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Para ingresar al Doctorado, el aspirante debe poseer habilidades para el análisis, discusión y generación de textos originales y especializados en la línea de su investigación, además deberá contar con una sólida formación metodológica que le permita identificar problemas jurídicos relevantes.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Con el Doctorado en Derecho, podrás intervenir en procesos de investigación jurídica, de teoría constitucional y proceso de control constitucional para aportar soluciones a los problemas jurídicos de carácter estructural, nacional e internacional.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado del Doctorado en Derecho de UANE podrá ejercer en: Abogado postulante mediante la implementación de medios de control constitucional. Consultor en materia de derechos fundamentales y tratados internacionales. Investigación jurídica.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación                                                               · CV y Constancia laboral                                       · Fotografías (Preguntar por especificaciones)  · Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_bachillerato",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "doctorado" },
+      "program": { "hidden": false, "value": "Derecho" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

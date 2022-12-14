@@ -73,8 +73,8 @@ export async function getStaticPaths() {
 }
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-  const { params:{detail}} = context
-  const { sections, meta } = await getDataPageFromJSON(`/educacion-continua/${detail}.json`);
+  const { params:{ program }} = context
+  const { sections, meta } = await getDataPageFromJSON(`/educacion-continua/${program}.json`);
 
   return {
     props: { sections, meta }
