@@ -9,6 +9,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import Image from "@/components/Image"
 import CardProgram from "@/components/CardProgram"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Routes from "@/routes/Routes"
 
 const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -62,11 +63,18 @@ const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: 
     </HeaderFooterLayout>
   </>
 }
-
+export async function getStaticPaths() {
+  const data = Routes["oferta-educativa"].filter(({params:{level}}:any) => level === 'educacion-continua')[0]
+  const {params:{programs}} = data
+  return {
+    paths: [...programs],
+    fallback: false,
+  }
+}
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-
-  const { sections, meta } = await getDataPageFromJSON('detalleCursoEducacionContinua.json');
+  const { params:{detail}} = context
+  const { sections, meta } = await getDataPageFromJSON(`/educacion-continua/${detail}.json`);
 
   return {
     props: { sections, meta }

@@ -275,6 +275,53 @@ const Routes: any = {
         ] 
       }
     },
+    { params:
+      {
+        "level": "educacion-continua",
+        "config": {
+          title: "Educacion continua",
+          promo: {
+            urlImage: {
+              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            text: "",
+            icon: "arrow_forward",
+            color: "#D35EA3",
+            opacity: "multiply",
+            height: "282px",
+            enable: true,
+            nobackground: false
+          },
+          banner: {
+            image: {
+              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              alt: "alumnos"
+            },
+            description: {
+              title: "Educacion Continua",
+              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+          },
+          head: {
+            title: "",
+            description: "",
+          },
+        },
+        "programs": [
+          { params: { "detail": "analisis-de-datos" } },
+          { params: { "detail": "derecho-autor-propiedad-intelectual" } },
+          { params: { "detail": "estrategias-tiendas-en-linea" } },
+          { params: { "detail": "mega-tendencias-globales" } },
+          { params: { "detail": "mercadotecnia-entornos-virtuales" } },
+          { params: { "detail": "comunicacion-publica-gestion-reputacion" } },
+          { params: { "detail": "derechos-humanos-sostenibilidad" } },
+          { params: { "detail": "politicas-publicas-gobernanza" } },
+          { params: { "detail": "adobe-after-effects" } },
+          { params: { "detail": "adobe-photoshop" } },
+        ] 
+      }
+    },
   ],
   "faq": [
     { params: { "section": "new-incomming" } },
