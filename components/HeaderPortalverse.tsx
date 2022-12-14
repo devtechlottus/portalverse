@@ -36,7 +36,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
 
   return <>
     {/* desktop menu */}
-    <section className={cn("w-t:hidden w-p:hidden w-full flex p-1", classNames)}>
+    <section className={cn("w-t:hidden w-p:hidden w-full flex p-1", { "shadow-15": !activeMenu }, classNames)}>
       <div className={cn("p-6 cursor-pointer")} onClick={onClickLogo}>
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[143px] h-10" classNamesImg="w-[143px] h-[38px]" />
       </div>
@@ -79,7 +79,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       </div>
     </section>
     {/* menu suboptions */}
-    <div onMouseLeave={handleHoverOutOption} className={cn("w-full p-2 flex gap-6 justify-center w-t:hidden w-p:hidden", { "hidden": !activeMenu, "block": activeMenu })}>
+    <div onMouseLeave={handleHoverOutOption} className={cn("w-full p-2 flex gap-6 justify-center w-t:hidden w-p:hidden", { "hidden": !activeMenu, "block shadow-15": activeMenu })}>
       {
         activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className="p-1 z-20">
             <Link href={item.route} passHref className="w-full">

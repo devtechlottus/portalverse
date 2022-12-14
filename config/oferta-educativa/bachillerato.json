@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "Bachillerato",
+    "description": "",
+    "keywords": ""
+  },
+  "filtro": false,
+  "sections": {
+    "head": {
+      "banner": {
+        "image": {
+          "src": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+          "alt": "alumnos"
+        },
+        "description": {
+          "title": "Bachilleratos",
+          "subtitle": "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      }
+    },
+    "introduction": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "programs": [
+    {
+      "title": "Bachillerato",
+      "config": {
+        "nombre": "Bachillerato",
+        "modalidad": ["Presencial", "Bilingüe", "Online"],
+        "areaConocimiento": ["Educación Media"],
+        "campus": [],
+        "nivel": ["Bachillerato"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "bachillerato"
+      },
+      "route": "bachillerato"
+    }
+  ]
+}

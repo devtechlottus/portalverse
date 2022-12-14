@@ -71,7 +71,7 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
 export async function getStaticProps(context: any) {
   const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level, config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
 
-  const { sections, meta } = await getDataPageFromJSON('ofertaEducativa.json');
+  const { sections, meta } = await getDataPageFromJSON('/oferta-educativa/oferta-educativa.json');
 
   return {
     props: {  data: { oferta, level:'oferta-educativa/' }, sections, meta }

@@ -1,5 +1,5 @@
 const data: { [key: string]: any } = {
-  general: {
+  bachillerato: {
     title: "Bachillerato General",
     head: {
       titleGral: "Estudia Bachillerato",
