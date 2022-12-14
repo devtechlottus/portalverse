@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "title": "Blog",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "banner":{
+        "title": "Convocatoria de proyectos de investigación ", 
+        "subtitle": "Del 12/agosto/2022 al 20/Septiembre 2022", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+      }
+    },
+    "blogNotices":{
+      "title": "Artículos de Voz UANE",
+      "notas": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-1"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-2"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-3"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-4"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-5"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-6"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-7"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-8"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-9"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-10"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-11"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-12"
+        }
+      ],
+      "paginator": { "iconPrevious": "arrow_back_ios", "iconNext": "arrow_forward_ios", "size": "small", "maxNumbers": 10}
+    }
+  }
+}
