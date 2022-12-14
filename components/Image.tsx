@@ -5,7 +5,11 @@ import ImageComponentData from "@/types/Image.types"
 
 const Image: FC<ImageComponentData> = memo(({ alt, src, classNames, classNamesImg }: ImageComponentData) => {
   return <div className={cn("relative", classNames)}>
-    <Imagen className={cn(classNamesImg)} src={src} alt={alt} layout="fill" priority />
+    {
+      !!src && !!alt
+        ? <Imagen className={cn(classNamesImg)} src={src} alt={alt} layout="fill" priority /> 
+        : <div className={cn("bg-gray-600", classNamesImg)} />
+    }
   </div>
 });
 
