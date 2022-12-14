@@ -2,7 +2,7 @@ import { createRef, FC, memo, useEffect } from "react"
 import cn from "classnames"
 import RichTextComponentData from "@/types/RichText.types"
 
-const RichtText: FC<RichTextComponentData> = memo(({ data, font = "dark", classNames }: RichTextComponentData) => {
+const RichtText: FC<RichTextComponentData> = memo(({ data, font = "light", classNames }: RichTextComponentData) => {
   const richTextRef = createRef();
 
   useEffect(() => {
