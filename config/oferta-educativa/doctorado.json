@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Doctorados",
+    "description": "",
+    "keywords": ""
+  },
+  "filtro": true,
+  "sections": {
+    "head": {
+      "banner": {
+        "image": {
+          "src": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+          "alt": "alumnos"
+        },
+        "description": {
+          "title": "Doctorados",
+          "subtitle": "Conoce los doctorados que tenemos para ti y crece profesionalmente con programas de alto nivel con el mejor ambiente estudiantil"
+        }
+      }
+    },
+    "introduction": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "programs": [
+    {
+      "title": "Doctorado en Derecho",
+      "config": {
+        "nombre": "Doctorado en Derecho",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
+      "route": "derecho"
+    },
+    {
+      "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
+      "config": {
+        "nombre": "Doctorado en Planeación y Liderazgo Ejecutivo",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Monclova", "Piedras negras", "Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
+      "route": "planeacion-liderazgo-ejecutivo"
+    }
+  ]
+}
