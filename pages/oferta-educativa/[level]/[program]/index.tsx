@@ -16,13 +16,18 @@ import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
 import OpenFormSuperior from "@/forms/container/OpenFormSuperior"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Button from "@/components/Button"
+import Select from "@/components/Select"
+import { SelectInit } from "@/components/fixture"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
-
-  const downloadProgram = (program: string) => console.log("program", program)
+  const [ modalidades, setModalidades ] = useState<any>({});
+  const [ _, setLevelSelected ] = useState<any>({});
+  const [ optionsSelect, setOptionsSelect ] = useState<any>({});
+  const [ selectData, setSelectData ] = useState<any>([]);
+  const [ fileSelected, setFileSelected ] = useState<string>("");
 
   useEffect(() => {
     const allContents = sections.modalities.tabs.items.reduce((prev: any, curr: any) => { 
@@ -31,6 +36,45 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
     }, []);
     setContentTabs([...allContents]);
   }, [sections.modalities.tabs]);
+
+  useEffect(() => {
+    const modalidades = config.config.modalidad.reduce((prev: any, curr: any, i: number) => ({ ...prev, [curr]: i }), {});
+    setModalidades({ ...modalidades });
+    const options = Object.entries(config.config.curriculum)
+      .reduce((prev: any, [ key, value ]: any) => {
+        if (typeof value === "string") {
+          return { ...prev, [key]: [{ value, text: key, active: false }]}
+        }
+        const values = Object.entries(value).map(([k,v]: any) => ({ value: v, text: k, active: false }))
+        return { ...prev, [key]: [ ...values ]}
+      }, {});
+    setOptionsSelect(options);
+    const some = Object.entries(modalidades).filter(([key, value]: any) => value === tabActive)[0];
+    setSelectData(options[some[0]]);
+  }, [config.config.modalidad]);
+
+  const handleSetModalidad = (active: number) => {
+    const some = Object.entries(modalidades).filter(([key, value]: any) => value === active)[0];
+    if (!!some?.length) {
+      const [ key ] = some;
+      setLevelSelected(key);
+    }
+  };
+
+  const handleSetActiveTab = (active: number) => {
+    setFileSelected("")
+    setTabActive(active);
+    handleSetModalidad(active);
+    const some = Object.entries(modalidades).filter(([ _, value ]: any) => value === active);
+    if (!!some.length) {
+      const [ key ] = some[0];
+      setSelectData(optionsSelect[key]);
+    }
+  }
+
+  const downloadFileProgram = () => window.open(`https://drive.google.com/uc?export=download&id=${fileSelected}`, "_blank")
+
+  const handleSelectOption = async ({ detail }: CustomEvent) => setFileSelected(detail)
 
   return <>
     <Head>
@@ -47,13 +91,14 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
             alt={sections.head.image.alt}
             src={sections.head.image.src}
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
+            classNamesImg="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
           />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={sections.modalities.tabs} tabIndex={(active: number) => setTabActive(active)} />
+          <Tabs data={sections.modalities.tabs} tabIndex={(active: number) => { handleSetActiveTab(active)}} />
         </div>
         <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
         {
@@ -71,6 +116,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                     alt={ image.alt }
                     src={ image.src }
                     classNames={cn("aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i, "w-d:order-1 w-t:order-2 w-p:order-2": j === 1 })}
+                    classNamesImg={cn("aspect-4/3 col-span-5 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8", { "hidden": tabActive !== i, "w-d:order-1 w-t:order-2 w-p:order-2": j === 1 })}
                   />
                 </Fragment>)
               })
@@ -114,7 +160,10 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <h4>{ sections.benefits.title }</h4>
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
-                  <Button data={{...sections.benefits.action}} onClick={() => downloadProgram(config.config.curriculum)} />
+                  <div className="my-6">
+                    <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
+                  </div>
+                  <Button data={{...sections.benefits.action}} onClick={downloadFileProgram} />
                 </div>
               </>
             : null
