@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
+    "config": {
+      "nombre": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Piedras Negras"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "11hEtwJ5oE1vBuC_3w1QkLcbzIFd9ZepI"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
+      "description": "Identifica factores internos y externos influyentes en el desempeño organizacional y contribuye a la mejora continua del sector empresarial.",
+      "image": {
+        "src": "",
+        "alt": "Gestión y Desarrollo de Recursos Humanos"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Especialidad en Gestión de Recursos Humanos deberá contar con un alto sentido de planeación, organización, manejo de personal, formulación de estrategias para la solución de problemas, fundamentándolas en aspectos teórico-metodológicos asumiendo una actitud de compromiso, apertura y honestidad.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "La Especialidad en Gestión de Recursos Humanos forma profesionistas capaces de identificar los factores externos e internos que influyen en el desempeño de una organización y su relación con el recurso humano, interviniendo con planes y programas alineados a la estrategia general del negocio, que generen una ventaja competitiva y que contribuyan al bienestar y a la mejora continua del personal en el ámbito empresarial y con la sociedad.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Especialidad de Gestión de Recursos Humanos será capaz de:\n- Analizar los factores nacionales e internacionales en las decisiones de capital humano para aplicar las estrategias adecuadas a la organización buscando que se transformen en una ventaja competitiva.\n-Evaluar en el proceso de planeación de personal, diseñando estrategias, creando escenarios, planeando los requerimientos y los sistemas de seguimiento de acuerdo a los objetivos de negocio.\n- Generar estrategias que promuevan la competitividad del personal para enfrentar los retos que se le presenten a la organización, basadas en la competencia del recurso humano.\n- Implementar planes y acciones en materia de recursos humanos para lograr la permanencia del personal y asegurar el desarrollo del mismo.\n- Negociar y resolver conflictos interpersonales y grupales que afectan el desarrollo de las organizaciones para lograr un ambiente de trabajo sano.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "\n- Acta de nacimiento original del cajero reciente y 2 copias.\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título).\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación.\n- CV y Constancia laboral.\n- Fotografías (Preguntar por especificaciones).\n- Solicitud de Admisión.",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_especialidad",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Gestión y Desarrollo de Recursos Humanos" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

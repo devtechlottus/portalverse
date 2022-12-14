@@ -1,41 +1,41 @@
 {
   "meta": {
-    "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
+    "title": "Especialidad en Relaciones Jurídico Laborales",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
+    "title": "Especialidad en Relaciones Jurídico Laborales",
     "config": {
-      "nombre": "Doctorado en Planeación y Liderazgo Ejecutivo",
+      "nombre": "Especialidad en Relaciones Jurídico Laborales",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": ["Monclova", "Piedras negras", "Saltillo"],
+      "campus": ["Saltillo", "Matamoros", "Reynosa"],
       "nivel": ["Posgrado"],
       "curriculum": {
         "Presencial": {
-          "Monclova": "1eZxsSWoDE4-6a82INGrYujEoQbSVKO-z",
-          "Piedras negras": "1SeH73FzeAth5AkYaD-1kdBDlMKax6QX9",
-          "Saltillo": "1_Ncy7ErnVhhmjbsy58yla3KvivnvC6pm"
+          "Saltillo": "15YzvRKHguYn2HHkPzyFbHNJtGfXum1c6",
+          "Matamoros": "1VzrKvnX5dbRTb8j0uCWzqzrIhvHeUPKP",
+          "Reynosa": "1C98qsMGK1AI1IoW16bMPURaBSVpnyf9E"
         }
       }
     }
   },
   "sections": {
     "head": {
-      "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
-      "description": "El Doctorado en Planeación y Liderazgo Educativo de UANE brinda las habilidades y conocimientos para desarrollas planes que darán resultados inmediatos y, al mismo tiempo, mantiene las metas de largo plazo que pueden mejorar y hacer crecer la organización.",
+      "title": "Especialidad en Relaciones Jurídico Laborales",
+      "description": "Analiza elementos constitutivos individuales y colectivos y determina vías de acción para aumentar la productividad.",
       "image": {
         "src": "",
-        "alt": "Planeación y Liderazgo Ejecutivo"
+        "alt": "Relaciones Jurídico Laborales"
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Doctorado:",
+      "title": "Modalidades disponibles en esta Especialidad:",
       "tabs": {
         "items": [
           {
-            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false }, "disabled": false,
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
@@ -44,7 +44,7 @@
                     "mobile": ""
                   },
                   "title": "Perfil de ingreso",
-                  "text": "- Se requieren personas con iniciativa para profundizar en el área de planeación, liderazgo y busquen la efectividad educativa.\n- Manejo y comprensión de lectura en español e inglés para comprensión de algunos artículos, lecturas y casos.\n- Que el aspirante cuente preferentemente con una maestría en educación o área de humanidades.\n- Capacidad de análisis y síntesis de documentos.\n- Comunicación oral y escrita.\n- Con liderazgo en el ámbito académico.\n- Manejo de recursos computacionales y de Internet.\n- Interés en profundizar las problemáticas diversas del ámbito educativo.\n- Interés por mejorar la calidad de la educación y procurar el liderazgo de la investigación",
+                  "text": "Los aspirantes a la especialidad en Relaciones Jurídico Laborales deben ser respetuosos de las distintas formas de ser y pensar de las situaciones jurídicas, mostrar sensibilidad ante la injusticia e interés por contribuir a la solución de conflictos internos de las comunidades, disputas interpersonales, revalorando las reglas y normas comunitarias que constituyen sistemas normativos. Con disposicion al diálogo y los diferentes puntos de vista, honesto y con amplio sentido de justicia.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -53,7 +53,7 @@
                     "mobile": ""
                   },
                   "title": "Perfil de egreso",
-                  "text": "Como egresado de este programa podrás ser líder en educación con capacidad ética para crear y transformar sistemas educativos que realmente sirvan para atender las necesidades del país con innovación y calidad, distinguiéndote por tu enfoque en las áreas de docencia, investigación, planeación y liderazgo",
+                  "text": "La Especialidad en Relaciones Jurídico Laborales forma profesionistas capaces de analizar los elementos constitutivos de las relaciones individuales y colectivas de trabajo desde una perspectiva administrativa, que ayuden prevenir conflictos laborales y determinar la mejor vía de acción en caso de que estos se generen y así aumentar la productividad.",
                   "backgroundColor": "#6F7C82"
                 },
                 {
@@ -62,7 +62,7 @@
                     "mobile": ""
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado del Doctorado en Planeación y Liderazgo Educativo de UANE podrá ejercer como:\n- Directivo\n- Emprendedor de proyectos académicos Docente calificado\n- Asesor educativo\n- Evaluador académico\n- Investigador educativo\n- Consultor\n- Planeador educativo\n- Administrador educativo",
+                  "text": "El egresado de la Especialidad en Relaciones Jurídico Laborales podrá desempeñarse como responsable en organizaciones públicas o privadas como:\nAsesor conciliador de relaciones laborales\nRecursos humanos\nDependencias gubernamentales Especializadas en juicios laborales\nConsultoría independiente",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -83,7 +83,7 @@
       }
     },
     "descarga": {
-      "id": "program_doctorado",
+      "id": "program_especialidad",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -97,8 +97,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "doctorado" },
-      "program": { "hidden": false, "value": "Planeación y Liderazgo Ejecutivo" },
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Administración y Liderazgo" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },

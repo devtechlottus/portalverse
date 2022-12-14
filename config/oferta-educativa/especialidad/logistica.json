@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Especialidad en Logística",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Especialidad en Logística",
+    "config": {
+      "nombre": "Especialidad en Logística",
+      "modalidad": ["Online"],
+      "areaConocimiento": ["Económico - Administrativas"],
+      "campus": ["Virtual"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Online": ""
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Especialidad en Logística",
+      "description": "Gestiona operaciones y posiciona competitivamente una empresa.",
+      "image": {
+        "src": "",
+        "alt": "Logística"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Este programa está dirigido a ingenieros o licenciados de cualquier área.\nPerfil de Ingreso.\nPara asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Conocimientos básicos de computación e internet",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "El egresado de este programa será capaz de gestionar efectiva y estratégicamente las cadenas de suministro, la operación de las áreas de inventarios, transporte, distribución y compras en función del cliente, y tomar en cuenta el sistema ambiental con la ﬁnalidad de posicionar competitivamente a la empresa a un nivel mundial.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "Los egresados en la Maestría en Logística puede desarrollarse en sectores económicos asociados a las operaciones de abastecimiento, almacenaje, control de inventarios, transporte y distribución, en empresas tales como: \n- centros de logística y distribución\n- empresas de retail\n- empresas productivas y de servicios\n- empresas de importación y exportación ",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_especialidad",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "especialidad" },
+      "program": { "hidden": false, "value": "Logistica" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}
