@@ -1,10 +1,9 @@
-import ImageComponentData from "./Image.types";
-import { LinkConfig } from "./Link.types";
+import { LinkIconsConfig } from "@/types/LinkLottus.types";
 
 export type CardProgramData = {
   id?: string;
   title?: string;
-  link: LinkConfig;
+  link: LinkIconsConfig;
   classNames?: string;
   image?: string;
   onClick: () => void
