@@ -8,7 +8,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
 import Tabs from "@/components/Tabs"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import CardsOstanding from "@/components/CardsOustanding"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
 import DescriptionSection from "@/components/DescriptionSection"
@@ -18,6 +17,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Button from "@/components/Button"
 import Select from "@/components/Select"
 import { SelectInit } from "@/components/fixture"
+import OutstandingContainer from "@/components/OutstandingContainerPortalverse"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
 
@@ -120,7 +120,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   />
                 </Fragment>)
               })
-            : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4", { "hidden": i !== tabActive })}><CardsOstanding data={content}/></div>)
+            : contentTabs.map( (content: any, i: number) => <div key={`content-outstanding-${i}`} className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4", { "hidden": i !== tabActive })}><OutstandingContainer items={content.cards} /></div>)
         }
         </ContentInsideLayout>
       </ContentLayout>
