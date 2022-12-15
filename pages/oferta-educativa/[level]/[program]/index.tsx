@@ -51,7 +51,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
     setOptionsSelect(options);
     const some = Object.entries(modalidades).filter(([key, value]: any) => value === tabActive)[0];
     setSelectData(options[some[0]]);
-  }, [config.config.modalidad]);
+  }, [config.config.modalidad]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const handleSetModalidad = (active: number) => {
     const some = Object.entries(modalidades).filter(([key, value]: any) => value === active)[0];
