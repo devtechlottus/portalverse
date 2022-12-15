@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "title": "Maestría en Derecho Mercantil",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Derecho Mercantil",
+    "config": {
+      "nombre": "Maestría en Derecho Mercantil",
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Económico - Administrativo"],
+      "campus": ["Piedras Negras"],
+      "nivel": ["Especialidad"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": ""
+        },
+        "Online": ""
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Derecho Mercantil",
+      "description": "Con la Maestría en Derecho Mercantil el aspirante obtiene los conocimientos para vigilar que la actividad económica se desenvuelva de manera correcta, estableciendo el marco de intervención de los poderes públicos, en caso de que resulte necesario, como lo es en la protección al consumidor.",
+      "image": {
+        "src": "",
+        "alt": "Derecho Mercantil"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "- Se requieren personas con visión e iniciativa para profundizar en esta rama del Derecho que busquen la efectividad del tránsito de comercio.\n\n- Disposición de trabajar de manera colaborativa y dispuestas a establecer retos y estrategias en materia Mercantil.\n\n- Manejo y conocimiento de Idioma Inglés para comprensión de algunos artículos, lecturas y casos.\n\n- El alumno deberá contar con el grado de Licenciatura de Derecho y deberá conocer las cuestiones básicas y primordiales del derecho mercantil, con toda la intención y disponibilidad para dedicarle al estudio, reflexión e interpretación del mismo.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Podrás desarrollarte como estratega fiscal de alto nivel, capaz de aportar conocimientos e ideas originales que, en respuesta a las necesidades de las empresas enfrente a los requerimientos gubernamentales en materia tributaria, mediante la aplicación de estrategias soportadas en el marco legal actual.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:                                 Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Derecho Mercantil" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

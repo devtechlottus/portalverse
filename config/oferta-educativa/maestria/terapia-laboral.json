@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Maestría en Terapia Familiar",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Terapia Familiar",
+    "config": {
+      "nombre": "Maestría en Terapia Familiar",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Piedras Negras", "Monclova", "Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "",
+          "Monclova": "",
+          "Saltillo": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Terapia Familiar",
+      "description": "La Maestría en Terapia Familiar permite que nuestros profesionales desarrollen habilidades para profundizar en las relaciones intrapersonales, familiares, estrés, divorcios, problemas financieros, entre otros.",
+      "image": {
+        "src": "",
+        "alt": "Terapia Laboral"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "La comprensión de la problemática familiar no es tarea exclusiva de un área de conocimiento en particular, sino que se requiere de una concepción totalizadora, en donde el objeto de intervención deba ser abordado desde diversas perspectivas teórico-metodológicas.\n\nSe contempla además una etapa de la formación constituida por el curso propedéutico, en donde los aspirantes recibirán contenidos generales que posibiliten su introducción al estudio de la Terapia Familiar y el compartir códigos lingüísticos comunes.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa serás un especialista capaz de detectar, evaluar, diagnosticar e intervenir en problemas familiares aplicando la orientación sistémica para contribuir al bienestar integral del ser humano y de la sociedad con compromiso y ética profesional.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Terapia Familiar de UANE podrá ejercer en:\n\nBrindar atención terapéutica y en crisis a familias con problemas de conducta, adicciones, violencia intrafamiliar, trastornos alimenticios, agresiones sexuales, entre otras disfunciones\nManejar la teoría de la comunicación humana\nDesarrollar habilidades de observación e interpretación de la dinámica comunicacional verbal y no verbal\nDiseñar e instrumentar estrategias de intervención en la resolución de problemas en sistemas familiar, social y laboral",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Terapia Laboral" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Maestría en Salud Ocupacional",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Salud Ocupacional",
+    "config": {
+      "nombre": "Maestría en Salud Ocupacional",
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Piedras Negras", "Monterrey"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "",
+          "Monterrey": ""
+        },
+        "Online": "1oDUcTXSTUQSutMGwOOOoZw4DbCwv4IOe"
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Salud Ocupacional",
+      "description": "Evalúa condiciones de riesgo y desarrolla proyectos de seguridad industrial.",
+      "image": {
+        "src": "",
+        "alt": "Salud Ocupacional"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Los aspirantes a la Maestría Salud Ocupacional deben tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas (hardware y software).\n\nTambién debe poseer interés en la investigación, además de ser emprendedor, creativo, disciplinado y tener una visión holística que le permita orientar sus intereses desde múltiples puntos de vista.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa serás capaz de evaluar las condiciones de riesgo de una empresa y contribuir en el diseño y desarrollo de programas dirigidos al control de higiene y seguridad industrial del personal.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:\n\nOrganizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Con la finalidad de asegurar un desempeño eficiente en la formación profesional del Licenciado en Psicología, es importante que los aspirantes cubran los siguientes aspectos:\n- Espíritu de servicio\n- Habilidad de escucha activa\n- Orientado al trabajo y la colaboración en equipo.\n- Capacidad de observación, análisis y síntesis.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Con la Maestría en Salud Ocupacional serás capaz de evaluar las condiciones de riesgo de una empresa y así contribuir en el diseño y desarrollo de programas dirigidos al control de higiene y seguridad industrial del personal.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional se pueden desarrollar en el sector privado tanto en hospitales, como en el sector público donde destacan las instituciones de salud más importantes IMSS, ISSSTE, SSA, así como los Institutos regionales, estatales y nacionales de salud.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Salud Ocupacional" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

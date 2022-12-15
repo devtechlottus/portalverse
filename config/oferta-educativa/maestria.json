@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "title": "Maestrías",
+    "description": "",
+    "keywords": ""
+  },
+  "filtro": true,
+  "sections": {
+    "head": {
+      "banner": {
+        "image": {
+          "src": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+          "alt": "alumnos"
+        },
+        "description": {
+          "title": "Maestrías",
+          "subtitle": "Conoce las maestrías que tenemos para ti y crece profesionalmente con programas de alto nivel con el mejor ambiente estudiantil"
+        }
+      }
+    },
+    "introduction": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "programs": [
+    {
+      "title": "Maestría en Derecho Fiscal",
+      "config": {
+        "nombre": "Maestría en Derecho Fiscal",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": ["Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "derecho-fiscal"
+    },
+    {
+      "title": "Maestría en Nutrición en Obesidad y Diabetes",
+      "config": {
+        "nombre": "Maestría en Nutrición en Obesidad y Diabetes",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": ["Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "nutricion-obesidad-diabetes"
+    },
+    {
+      "title": "Maestría en Efectividad Organizacional",
+      "config": {
+        "nombre": "Maestría en Efectividad Organizacional",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "efectividad-organizacional"
+    },
+    {
+      "title": "Maestría en Impuestos",
+      "config": {
+        "nombre": "Maestría en Impuestos",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "impuestos"
+    },
+    {
+      "title": "Maestría en Gestión en Servicios de Salud",
+      "config": {
+        "nombre": "Maestría en Gestión en Servicios de Salud",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": ["Piedras Negras", "Monterrey"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "gestion-servicios-salud"
+    },
+    {
+      "title": "Maestría en Salud Ocupacional",
+      "config": {
+        "nombre": "Maestría en Salud Ocupacional",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": ["Piedras Negras", "Monterrey"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "salud-ocupacional"
+    },
+    {
+      "title": "Maestría en Derecho Laboral",
+      "config": {
+        "nombre": "Maestría en Derecho Laboral",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Matamoros", "Monclova", "Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "derecho-laboral"
+    },
+    {
+      "title": "Maestría en Terapia Familiar",
+      "config": {
+        "nombre": "Maestría en Terapia Familiar",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": ["Piedras Negras", "Monclova", "Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "terapia-laboral"
+    },
+    {
+      "title": "Maestría en Justicia Administrativa",
+      "config": {
+        "nombre": "Maestría en Justicia Administrativa",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "justicia-administrativa"
+    },
+    {
+      "title": "Maestría en Derecho Mercantil",
+      "config": {
+        "nombre": "Maestría en Derecho Mercantil",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "derecho-mercantil"
+    },
+    {
+      "title": "Maestría en Gestión Ambiental",
+      "config": {
+        "nombre": "Maestría en Gestión Ambiental",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Ambientales"],
+        "campus": ["Saltillo", "Monterrey", "Torreon"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "gestion-ambiental"
+    },
+    {
+      "title": "Maestría en Docencia",
+      "config": {
+        "nombre": "Maestría en Docencia",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Saltillo", "Piedras Negras"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "docencia"
+    },
+    {
+      "title": "Maestría en Educación",
+      "config": {
+        "nombre": "Maestría en Educación",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Torreon"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "educacion"
+    },
+    {
+      "title": "Maestría en Gestión de Negocios de Manufactura",
+      "config": {
+        "nombre": "Maestría en Gestión de Negocios de Manufactura",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "gestion-negocios-manufactura"
+    },
+    {
+      "title": "Maestría en Administración y Liderazgo",
+      "config": {
+        "nombre": "Maestría en Administración y Liderazgo",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon", "Reynosa", "Monterrey"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "administracion-liderazgo"
+    },
+    {
+      "title": "Maestría en Docencia e Investigación Educativa",
+      "config": {
+        "nombre": "Maestría en Docencia e Investigación Educativa",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Monclova", "Piedras Negras"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "docencia-investigacion-educativa"
+    },
+    {
+      "title": "Maestría en Sistema Penal Acusatorio",
+      "config": {
+        "nombre": "Maestría en Sistema Penal Acusatorio",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Monterrey", "Reynosa", "Piedras Negras", "Saltillo"],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "sistema-penal-acusatorio"
+    },
+    {
+      "title": "Maestría en Mercadotecnia Estrátegica",
+      "config": {
+        "nombre": "Maestría en Mercadotecnia Estrátegica",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "",
+        "alt": "maestria"
+      },
+      "route": "mercadotecnia-estrategica"
+    },
+    {
+      "title": "Maestría en Administración",
+      "config": {
+        "nombre": "Maestría en Administración",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Económico - Administrativas"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "administracion"
+    },
+    {
+      "title": "Maestría en Comunicación Empresarial",
+      "config": {
+        "nombre": "Maestría en Comunicación Empresarial",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "comunicacion-empresarial"
+    },
+    {
+      "title": "Maestría en Derecho",
+      "config": {
+        "nombre": "Maestría en Derecho",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "derecho"
+    },
+    {
+      "title": "Maestría en Desarrollo Organizacional y Talento Humano",
+      "config": {
+        "nombre": "Maestría en Desarrollo Organizacional y Talento Humano",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "desarrollo-organizacional-talento-humano"
+    },
+    {
+      "title": "Maestría en Mercadotecnia Digital",
+      "config": {
+        "nombre": "Maestría en Mercadotecnia Digital",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Economico - Aministrativas"],
+        "campus": [],
+        "nivel": ["Posgrado"]
+      },
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
+      "route": "mercadotecnia-digital"
+    }
+  ]
+}

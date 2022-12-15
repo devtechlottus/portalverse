@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Maestría en Educación",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Educación",
+    "config": {
+      "nombre": "Maestría en Educación",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Torreon"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Torreon": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Educación",
+      "description": "El profesional de la carrera de educación tendrá la posibilidad, gracias a las herramientas brindadas a lo largo de la cursada, de planear estrategias y técnicas curriculares. En este sentido, podrá ser parte de una gestión política y tener tareas que en el ámbito gubernamental a través del diseño de políticas educacionales y también culturales, que tengan una íntima relación con el aprendizaje.",
+      "image": {
+        "src": "",
+        "alt": "Educación"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Para asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Conocimientos básicos de computación e internet",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Los profesionistas que cursen la Maestría en Educación obtendrán conocimientos y habilidades para participar activamente en acciones de transformación escolar mediante la gestión del cambio, del conocimiento y la investigación educativa.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:                                 Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Educación" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

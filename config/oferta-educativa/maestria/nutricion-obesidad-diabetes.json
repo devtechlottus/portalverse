@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Maestría en Nutrición en Obesidad y Diabetes",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Nutrición en Obesidad y Diabetes",
+    "config": {
+      "nombre": "Maestría en Nutrición en Obesidad y Diabetes",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": "1a7GcbzZkVLDn6zXUIUkRxZy5Vr2RtO7B"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Nutrición en Obesidad y Diabetes",
+      "description": "Elabora estrategias orientadas a la prevención y al tratamiento de estados nutricionales.",
+      "image": {
+        "src": "",
+        "alt": "Nutrición en Obesidad y Diabetes"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Maestría en Nutrición en Obesidad y Diabetes debe contar con conocimientos previos a la nutrición y al sector alimenticio, así como interés por combatir los malos hábitos alimenticios, especialmente con problemas de obesidad y diabetes. Sabe elaborar planes alimenticios y cuenta con una organización puntal para el seguimiento de cada uno de sus pacientes. Debe contar con gusto y pasión por el servicio médico, ser una persona empática y con gusto por ayudar a las personas a conseguir sus objetivos personales para mejorar su salud.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Este programa forma profesionales capaces de elaborar estrategias e investigaciones dirigidas a la prevención y tratamiento en obesidad, diabetes y nutrición de la población, así como evaluar el estado nutricio para ofrecer un tratamiento integral para mejorar su estado de salud físico, nutricional y psicológico.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Nutrición en Obesidad y Diabetes de UANE podrá ejercer en:\nHospitales, clínicas y consultorios\nInstituciones educativas Guarderías y/o casas hogar Instituciones de geriatría\nCentros de capacidades especiales Centros deportivos\nIndustria alimentaria",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Nutrición en Obesidad y Diabetes" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Maestría en Gestión en Servicios de Salud",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Gestión en Servicios de Salud",
+    "config": {
+      "nombre": "Maestría en Gestión en Servicios de Salud",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Piedras Negras", "Monterrey"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "1mJhhEXj4N7jcfjiBFICuR_kz0pUilqBR",
+          "Monterrey": "1dHYIyFfbgX5xeQmoZ1b2O2A3-s_jVIMH"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Gestión en Servicios de Salud",
+      "description": "Implementa herramientas de gestión y beneficia al incremento de la eficencia en servicios de salud.",
+      "image": {
+        "src": "",
+        "alt": "Gestión en Servicios de Salud"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la maestría en Gestión de Servicios de Salud debe tener una clara actitud de respeto hacia la preservación de la vida y el ser humano, además de contar con capacidad de análisis y síntesis.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Con este programa serás capaz de intervenir en las áreas administrativas de las instituciones de salud, implementando herramientas de gestión y mejora continua que permitan incrementar la eficiencia de los servicios proporcionados.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Gestión de Servicios de Salud de UANE podrá ejercer en:\n\nDirección administrativa\nRecursos humanos\nDepartamento jurídico\nMantenimiento\nPrevención de la salud\nAtención médica\nPlaneación\nFomento sanitario\nVinculación y enlaces\nTransparencia y acceso a la información\nProcesos de evaluación y acreditación",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Gestión en Servicios de Salud" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

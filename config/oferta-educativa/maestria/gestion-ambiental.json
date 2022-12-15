@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Maestría en Gestión Ambiental",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Gestión Ambiental",
+    "config": {
+      "modalidad": ["Presencial", "Online"],
+      "areaConocimiento": ["Ciencias Ambientales"],
+      "campus": ["Saltillo", "Monterrey", "Torreon"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": "12LxWqS_iKMIU8Y_gFWGKrYS9aQD86okz",
+          "Monterrey": "1giQv012qmi-tAcP5DcpwKVOdnMCB18RP",
+          "Torreon": "1nKF3SZ-3pvY7V4d5kBK-auUzSLNGaDYk"
+        },
+        "Online": "1cy5Xv8MbRL2RUn6-6pGgYKPF3aEZdX2A"
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Gestión Ambiental",
+      "description": "En la especialización en Gestión Ambiental se trabaja para lograr el fortalecimiento y desarrollo de competencias inherentes a toda actividad humana. Se trata de que el profesional tenga un buen desarrollo de sus habilidades para la comunicación y para el trabajo en equipo.",
+      "image": {
+        "src": "",
+        "alt": "Gestión Ambiental"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Este programa está dirigido a ingenieros y licenciados de profesiones que tienen relación con gestión ambiental, que se desempeñan en un ambiente laboral competitivo o desean continuar preparándose para ofrecer mejor servicio en su trabajo.\nPara asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Experiencia en el área, principalmente en la industria\n- Manejo básico de Excel, Word, Power Point e internet",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Con este programa vas a adquirir conocimientos sobre la cultura ambiental y serás capaz de implementar estrategias sustentables dentro de la industria. Reconocerás los principales problemas ambientales y crearás planes y estrategias para la prevención y solución de los mismos, de acuerdo con la normatividad ambiental actual.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Gestión Ambiental de UANE podrá ejercer en:\nDependencias encargadas de la protección del medio ambiente\nConsultorías y auditorías ambientales\nCentros de investigación de energía, salud y materiales avanzados\nConsultor independiente",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          },
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Este programa está dirigido a ingenieros y licenciados de profesiones que tienen relación con gestión ambiental, que se desempeñan en un ambiente laboral competitivo o desean continuar preparándose para ofrecer mejor servicio en su trabajo.\nPara asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Experiencia en el área, principalmente en la industria\n- Manejo básico de Excel, Word, Power Point e internet",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Con la Maestría en Gestión Ambiental el aspirante adquirirá conocimientos sobre la cultura ambiental y será capaz de implementar estrategias sustentables dentro de la industria. Reconocerá los principales problemas ambientales y crearás planes y estrategias para la prevención y solución de los mismos, de acuerdo con la normatividad ambiental actual.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "Los egresados de la Maestría en Gestión Ambiental pueden desempeñar diversas tareas en industrias, empresas agrícolas, entidades públicas, organizaciones no gubernamentales; también en áreas del sector de la salud, seguridad ocupacional, promoción ambiental, entidades educativas, entre otras posibilidades.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Gestión Ambiental" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}
