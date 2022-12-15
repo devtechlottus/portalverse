@@ -25,9 +25,9 @@
   },
   "programs": [
     {
-      "title": "Administración de Empresas",
+      "title": "Licenciatura en Administración de Empresas",
       "config": {
-        "nombre": "Administración de Empresas",
+        "nombre": "Licenciatura en Administración de Empresas",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
