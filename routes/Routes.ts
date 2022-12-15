@@ -274,55 +274,55 @@ const Routes: any = {
           { params: { "program": "planeacion-liderazgo-ejecutivo" } },
         ] 
       }
-    },
-    { params:
-      {
-        "level": "educacion-continua",
-        "config": {
-          title: "Educacion continua",
-          promo: {
-            urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
-            },
-            text: "",
-            icon: "arrow_forward",
-            color: "#D35EA3",
-            opacity: "multiply",
-            height: "282px",
-            enable: true,
-            nobackground: false
-          },
-          banner: {
-            image: {
-              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              alt: "alumnos"
-            },
-            description: {
-              title: "Educacion Continua",
-              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-          },
-          head: {
-            title: "",
-            description: "",
-          },
-        },
-        "programs": [
-          { params: { "program": "analisis-de-datos" } },
-          { params: { "program": "derecho-autor-propiedad-intelectual" } },
-          { params: { "program": "estrategias-tiendas-en-linea" } },
-          { params: { "program": "mega-tendencias-globales" } },
-          { params: { "program": "mercadotecnia-entornos-virtuales" } },
-          { params: { "program": "comunicacion-publica-gestion-reputacion" } },
-          { params: { "program": "derechos-humanos-sostenibilidad" } },
-          { params: { "program": "politicas-publicas-gobernanza" } },
-          { params: { "program": "adobe-after-effects" } },
-          { params: { "program": "adobe-photoshop" } },
-        ] 
-      }
-    },
+    }
   ],
+  "educacion-continua": { 
+    params: {
+      "level": "educacion-continua",
+      "config": {
+        title: "Educacion continua",
+        promo: {
+          urlImage: {
+            mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+            desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+          },
+          text: "",
+          icon: "arrow_forward",
+          color: "#D35EA3",
+          opacity: "multiply",
+          height: "282px",
+          enable: true,
+          nobackground: false
+        },
+        banner: {
+          image: {
+            src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+            alt: "alumnos"
+          },
+          description: {
+            title: "Educacion Continua",
+            subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        },
+        head: {
+          title: "",
+          description: "",
+        },
+      },
+      "programs": [
+        { params: { "program": "adobe-after-effects" } },
+        { params: { "program": "adobe-photoshop" } },
+        { params: { "program": "analisis-de-datos" } },
+        { params: { "program": "comunicacion-publica-gestion-reputacion" } },
+        { params: { "program": "derecho-autor-propiedad-intelectual" } },
+        { params: { "program": "derechos-humanos-sostenibilidad" } },
+        { params: { "program": "estrategias-tiendas-en-linea" } },
+        { params: { "program": "mega-tendencias-globales" } },
+        { params: { "program": "mercadotecnia-entornos-virtuales" } },
+        { params: { "program": "politicas-publicas-gobernanza" } },
+      ] 
+    }
+  },
   "faq": [
     { params: { "section": "new-incomming" } },
     { params: { "section": "community" } },

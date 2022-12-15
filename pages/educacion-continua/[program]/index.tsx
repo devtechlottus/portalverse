@@ -40,7 +40,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-d:hidden w-t:hidden">
           {
            sections.relatedCourses.courses.map((item:any, i:number) => <section key={`section-educativeProgram-${i}`}>
-            <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(item.redirect)}/>
+            <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`/${item.redirect}`)}/>
            </section>)
           }
         </section>
@@ -53,7 +53,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
           <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12">
             {
              sections.relatedCourses.courses.map((item:any, i:number) => <section key={`section-educativeProgram-${i}`}>
-              <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(item.redirect)}/>
+              <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`/${item.redirect}`)}/>
              </section>)
             }
           </section>
@@ -63,8 +63,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
   </>
 }
 export async function getStaticPaths() {
-  const data = Routes["oferta-educativa"].filter(({params:{level}}:any) => level === 'educacion-continua')[0]
-  const {params:{programs}} = data
+  const { params:{ programs } } = Routes["educacion-continua"]
   return {
     paths: [...programs],
     fallback: false,
@@ -73,7 +72,7 @@ export async function getStaticPaths() {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
   const { params:{ program }} = context
-  const { sections, meta } = await getDataPageFromJSON(`/educacion-continua/${program}.json`);
+  const { sections, meta } = await getDataPageFromJSON(`educacion-continua/${program}.json`);
 
   return {
     props: { sections, meta }
