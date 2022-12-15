@@ -13,6 +13,7 @@ const OustandingModule: FC<OustandingModuleData> = memo(({ data }: OustandingMod
       title: data.title || '',
       text: data.text || '',
       backgroundColor: data.backgroundColor || '',
+      direction: data.direction || 'left'
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
