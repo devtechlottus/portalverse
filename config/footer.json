@@ -96,7 +96,7 @@
       { "label": "Comunidad UANE", "principal": true, "link": "" },
       { "label": "Voz UANE", "principal": false, "link": "" },
       { "label": "Centro de idiomas", "principal": false, "link": "" },
-      { "label": "Actividades deportivas  y extracurriculares", "principal": false, "link": "" },
+      { "label": "Actividades deportivas y extracurriculares", "principal": false, "link": "" },
       { "label": "Comité estudiantil", "principal": false, "link": "" }
     ]
   ]
