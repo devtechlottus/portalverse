@@ -70,17 +70,17 @@ const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: 
   </>
 }
 export async function getStaticPaths() {
-  const data = Routes["blog"].filter(({params:{level}}:any) => level === 'entrada')[0]
-  const {params:{programs}} = data
+  const data = Routes["blog"].filter(({params:{ level }}:any) => level === 'entrada')[0]
+  const { params:{ entries } } = data
   return {
-    paths: [...programs],
+    paths: [...entries],
     fallback: false,
   }
 }
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-  const { params:{ program }} = context
-  const { sections, meta } = await getDataPageFromJSON(`/blog/${program}.json`);
+  const { params: { entry } } = context
+  const { sections, meta } = await getDataPageFromJSON(`/blog/${entry}.json`);
 
   return {
     props: { sections, meta }
