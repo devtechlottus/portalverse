@@ -14,13 +14,10 @@
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "alt": "Maestría en Derecho"
       },
       "curriculum": {
-        "Presencial": {
-          "Piedras Negras": ""
-        },
-        "Online": ""
+        "Online": "1hrQwgIh8NnnWPJlQt2-Z_ZSL1XYUd5kp"
       }
     }
   },

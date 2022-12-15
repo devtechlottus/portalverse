@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Maestría en Derecho Fiscal",
       "modalidad": ["Presencial"],
-      "areaConocimiento": ["Ciencias de la Salud"],
+      "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Saltillo"],
       "nivel": ["Posgrado"],
       "image": {

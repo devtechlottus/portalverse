@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Maestría en Mercadotecnia Estrátegica",
       "modalidad": ["Online"],
-      "areaConocimiento": ["Ciencias Sociales"],
+      "areaConocimiento": ["Económico - Administrativas"],
       "campus": [],
       "nivel": ["Posgrado"],
       "image": {
@@ -24,7 +24,7 @@
   "sections": {
     "head": {
       "title": "Maestría en Mercadotecnia Estrátegica",
-      "description": "",
+      "description": "Diseña estrategias de marketing e implementa sistemas de negocios a través de análisis comerciales.",
       "image": {
         "src": "https://picsum.photos/428/321",
         "alt": "Mercadotecnia Estrátegica"

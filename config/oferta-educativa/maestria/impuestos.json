@@ -10,7 +10,7 @@
       "nombre": "Maestría en Impuestos",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+      "campus": ["Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://picsum.photos/428/321",
@@ -18,10 +18,7 @@
       },
       "curriculum": {
         "Presencial": {
-          "Saltillo": "1ZtxpKbqlJChHEWbF-qa10sTNuO8ViFR2",
-          "Torreon": "",
-          "Piedras Negras": "",
-          "Matamoros": ""
+          "Saltillo": "1ZtxpKbqlJChHEWbF-qa10sTNuO8ViFR2"
         }
       }
     }
