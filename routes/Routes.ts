@@ -322,55 +322,6 @@ const Routes: any = {
         ] 
       }
     },
-    { params:
-      {
-        "level": "blog",
-        "config": {
-          title: "Entradas de blog",
-          promo: {
-            urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
-            },
-            text: "",
-            icon: "arrow_forward",
-            color: "#D35EA3",
-            opacity: "multiply",
-            height: "282px",
-            enable: true,
-            nobackground: false
-          },
-          banner: {
-            image: {
-              src: "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              alt: "alumnos"
-            },
-            description: {
-              title: "Educacion Continua",
-              subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            }
-          },
-          head: {
-            title: "",
-            description: "",
-          },
-        },
-        "programs": [
-          { params: { "program": "convocatoria-investigacion-1" } },
-          { params: { "program": "convocatoria-investigacion-2" } },
-          { params: { "program": "convocatoria-investigacion-3" } },
-          { params: { "program": "convocatoria-investigacion-4" } },
-          { params: { "program": "convocatoria-investigacion-5" } },
-          { params: { "program": "convocatoria-investigacion-6" } },
-          { params: { "program": "convocatoria-investigacion-7" } },
-          { params: { "program": "convocatoria-investigacion-8" } },
-          { params: { "program": "convocatoria-investigacion-9" } },
-          { params: { "program": "convocatoria-investigacion-10" } },
-          { params: { "program": "convocatoria-investigacion-11" } },
-          { params: { "program": "convocatoria-investigacion-12" } },
-        ] 
-      }
-    },
   ],
   "faq": [
     { params: { "section": "new-incomming" } },
