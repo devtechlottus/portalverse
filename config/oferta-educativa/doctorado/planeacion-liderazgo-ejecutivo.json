@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Monclova", "Piedras negras", "Saltillo"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
       "curriculum": {
         "Presencial": {
           "Monclova": "1eZxsSWoDE4-6a82INGrYujEoQbSVKO-z",
@@ -26,7 +30,7 @@
       "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
       "description": "El Doctorado en Planeación y Liderazgo Educativo de UANE brinda las habilidades y conocimientos para desarrollas planes que darán resultados inmediatos y, al mismo tiempo, mantiene las metas de largo plazo que pueden mejorar y hacer crecer la organización.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Planeación y Liderazgo Ejecutivo"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "- Se requieren personas con iniciativa para profundizar en el área de planeación, liderazgo y busquen la efectividad educativa.\n- Manejo y comprensión de lectura en español e inglés para comprensión de algunos artículos, lecturas y casos.\n- Que el aspirante cuente preferentemente con una maestría en educación o área de humanidades.\n- Capacidad de análisis y síntesis de documentos.\n- Comunicación oral y escrita.\n- Con liderazgo en el ámbito académico.\n- Manejo de recursos computacionales y de Internet.\n- Interés en profundizar las problemáticas diversas del ámbito educativo.\n- Interés por mejorar la calidad de la educación y procurar el liderazgo de la investigación",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de este programa podrás ser líder en educación con capacidad ética para crear y transformar sistemas educativos que realmente sirvan para atender las necesidades del país con innovación y calidad, distinguiéndote por tu enfoque en las áreas de docencia, investigación, planeación y liderazgo",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado del Doctorado en Planeación y Liderazgo Educativo de UANE podrá ejercer como:\n- Directivo\n- Emprendedor de proyectos académicos Docente calificado\n- Asesor educativo\n- Evaluador académico\n- Investigador educativo\n- Consultor\n- Planeador educativo\n- Administrador educativo",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

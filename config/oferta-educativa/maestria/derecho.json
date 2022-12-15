@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": [],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": ""
@@ -25,7 +29,7 @@
       "title": "Maestría en Derecho",
       "description": "Colabora en actividades jurídicas de investigación a través de estrategias de cumplimiento de obligaciones fiscales y del marco regulatorio.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Derecho"
       }
     },
@@ -39,8 +43,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Este programa está dirigido a cualquier profesional que se dedique al derecho.",
@@ -48,8 +52,8 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Al concluir sus estudios, el egresado de la Maestría será capaz de:\nConocimientos Fundamentales:\n- Analizar el marco jurídico en materia laboral para su adecuada aplicación.\nJurídico Sustantivo:\n- Distinguir los elementos constitutivos de las relaciones individuales y colectivas del trabajo para precisar la norma que es aplicable de acuerdo al caso concreto.\n- Examinar la normatividad laboral de carácter internacional con el objeto de implementarla en asuntos de carácter local e internacional\n- Determinar los elementos especiales que constituyen el régimen laboral de los servidores públicos para distinguir las diferencias que existen con respecto a los otros regímenes.\n- Analizar los derechos humanos relacionados con el derecho laboral para hacerlos cumplir dentro del marco del Estado de Derecho Constitucional\nAdministración de Recursos Humanos:\n- Implementar técnicas de negociación que permitan evitar conflictos jurídico-contenciosos de carácter laboral\n- Identificar los diferentes lineamientos requeridos para una administración óptima de las relaciones laborales.\nJurídico Procesal:\n- Intervenir en procesos laborales de carácter individual y colectivo para obtener resoluciones favorables para el representado.",
@@ -57,8 +61,8 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la maestría en Derecho puede ejercer en el sector privado como litigante o asesor jurídico, en despachos o bufetes jurídicos y en departamentos legales de empresas comerciales, empresas industriales, empresas de servicio entre otros. Como árbitro mediador o negociador dentro de los procedimientos de resolución alterna de controversias.",
@@ -66,8 +70,8 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "Los aspirantes a cursar la Maestría deberán cubrir los siguientes requisitos:\n- Tener experiencia mínimo de dos años en su área de expertis.\n- Título profesional, carta de pasante o documento afín.\n- Aprobar la entrevista en el departamento de postgrado.\n- Acreditar la documentación y pagos correspondientes.\n- Entregar la documentación siguiente:\na) Solicitud de Admisión.\nb) Acta de Nacimiento Original.\nc) Copia notariada del título profesional y una copia simple.\nd) Copia notariada de la cédula profesional y una copia.\ne) 8 fotografías tamaño credencial en blanco y negro no instantáneas en papel mate.\nf) 6 fotografías de tamaño infantil en blanco y negro no instantáneas en papel mate.\ng) Copia del CURP y una copia simple. ",

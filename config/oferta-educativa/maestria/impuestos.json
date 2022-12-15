@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativo"],
       "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Saltillo": "1ZtxpKbqlJChHEWbF-qa10sTNuO8ViFR2",
@@ -27,7 +31,7 @@
       "title": "Maestría en Impuestos",
       "description": "Desarrolla estrategias de planeación y conoce las normas tributarias.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Impuestos"
       }
     },
@@ -41,8 +45,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a la maestría en impuestos debe contar con conocimiento en derecho fiscal y normas fiscales y planeación financiera.\nAdemás contar con la habilidad de analizar temas sobre las contribuciones y recaudación fiscal.",
@@ -50,30 +54,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de este programa podrás desarrollar estrategias de planeación e investigación tributaria. Además, conocerás las instituciones que regulen el cumplimiento y sanciones que implican el incumplimiento de la norma tributaria.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Impuestos de UANE podrá ejercer como:\n\nDesarrollador\nTomador de decisiones integrales\nContribuyente\nGestor de cambio\nAuditor\nAdministrador\nPlaneador\nOperador\nAsesor independiente",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

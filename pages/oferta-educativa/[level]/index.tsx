@@ -46,7 +46,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         </div>
         <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-            programs.map(({ route, title, image: { src, alt } }: any, i: number) => <div key={`program-${i}`} className="flex flex-col col-span-3 w-t:col-span-4 w-p:col-span-4">
+            programs.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className="flex flex-col col-span-3 w-t:col-span-4 w-p:col-span-4">
               <Image src={src} alt={alt} classNames="aspect-4/3" />
               <div>
                 <p>{title}</p>

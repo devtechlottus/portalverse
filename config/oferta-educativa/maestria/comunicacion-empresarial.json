@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": [],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Online": "1GEvzaoG8mhEsG39uEuWw-QuDEMYEYWl3"
       }
@@ -22,7 +26,7 @@
       "title": "Maestría en Comunicación Empresarial",
       "description": "Desarrolla planes estratégicos dentro del entorno empresarial a través de recursos comunicativos y publicitarios para mejorar la Responsabilidad Social Corporativa.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Comunicación Empresarial"
       }
     },
@@ -36,8 +40,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a ingresar a la Maestría en Comunicación Empresarial, deberá contar con los siguientes conocimientos:\n- La expresión oral y escrita.\n- La investigación y redacción de documentos.\n- Manejo de relaciones interpersonales.\n- El análisis de problemas públicos.\n- Diseñar estrategias.\n- Transferencia de información al contexto empresarial.\n- Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n- Interpretar cifras y resolver problemas cuantificables.",
@@ -45,30 +49,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "El aspirante a ingresar a la Maestría en Comunicación Empresarial, deberá contar con los siguientes conocimientos:\n- La expresión oral y escrita.\n- La investigación y redacción de documentos.\n- Manejo de relaciones interpersonales.\n- El análisis de problemas públicos.\n- Diseñar estrategias.\n- Transferencia de información al contexto empresarial.\n- Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n- Interpretar cifras y resolver problemas cuantificables.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la maestria en Comunicación Empresarial genera, desarrolla e implanta estrategias de comunicación que apoyen y respalden los objetivos de la empresa, ofrece cambios, integración y refuerzo de personal, productividad y alcance de metas, puede desempeñarse en el sector público, privado o como independiente.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

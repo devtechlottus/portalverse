@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Saltillo", "Matamoros", "Reynosa"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
       "curriculum": {
         "Presencial": {
           "Saltillo": "15YzvRKHguYn2HHkPzyFbHNJtGfXum1c6",
@@ -26,7 +30,7 @@
       "title": "Especialidad en Relaciones Jurídico Laborales",
       "description": "Analiza elementos constitutivos individuales y colectivos y determina vías de acción para aumentar la productividad.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Relaciones Jurídico Laborales"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Los aspirantes a la especialidad en Relaciones Jurídico Laborales deben ser respetuosos de las distintas formas de ser y pensar de las situaciones jurídicas, mostrar sensibilidad ante la injusticia e interés por contribuir a la solución de conflictos internos de las comunidades, disputas interpersonales, revalorando las reglas y normas comunitarias que constituyen sistemas normativos. Con disposicion al diálogo y los diferentes puntos de vista, honesto y con amplio sentido de justicia.",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "La Especialidad en Relaciones Jurídico Laborales forma profesionistas capaces de analizar los elementos constitutivos de las relaciones individuales y colectivas de trabajo desde una perspectiva administrativa, que ayuden prevenir conflictos laborales y determinar la mejor vía de acción en caso de que estos se generen y así aumentar la productividad.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Especialidad en Relaciones Jurídico Laborales podrá desempeñarse como responsable en organizaciones públicas o privadas como:\nAsesor conciliador de relaciones laborales\nRecursos humanos\nDependencias gubernamentales Especializadas en juicios laborales\nConsultoría independiente",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

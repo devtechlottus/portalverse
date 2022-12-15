@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": [],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Online": "1vFgtB-m68-lJdBPfE3chwnXyfyfT4S1w"
       }
@@ -22,7 +26,7 @@
       "title": "Maestría en Desarrollo Organizacional y Talento Humano",
       "description": "Analiza los procesos organizacionales a través de diversas herramientas de diagnóstico como la planificación, la implementación y la evaluación a fin de mejorar los recursos humanos de una organización.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Desarrollo Organizacional y Talento Humano"
       }
     },
@@ -36,8 +40,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a ingresar a la Maestría en Desarrollo Organizacional y Talento Humano deberá contar con los siguientes conocimientos:\n- La expresión oral y escrita.\n- La investigación y redacción de documentos.\n- Manejo de relaciones interpersonales.\n- El análisis de problemas públicos.\n- Diseñar estrategias.\n- Transferencia de información al contexto empresarial.\n- Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n- Interpretar cifras y resolver problemas cuantificables.",
@@ -45,30 +49,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "- Desarrollará una visión integral sobre los objetivos de las organizaciones y sus estrategias.\n- Conducirá grupos de trabajo y logrará la solución de conflictos para lograr objetivos organizacionales.\n- Asesorará en el diseño e implantación de sistemas y modelos administrativos para la toma de decisiones.\n- Operará sistemas de cómputo y comunicación para el procesamiento de la información.\n- Fundamentará la toma de decisiones, basándose en el análisis de información.\n- Propondrá alternativas de solución para la toma de decisiones.\n- Evaluará con sentido crítico las situaciones a través del uso de evidencia de investigación confiable y relevante para contribuir con la solución de los problemas empresariales.\n- Propondrá soluciones para resolver asuntos específicos relacionados con la organización, con diferentes niveles de complejidad.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Desarrollo Organizacional y Talento Humano es quien analiza las necesidades del capital humano. Brinda consultoría a líderes de departamento, de empresas o unidades de negocio para que sepan como llevar los proyectos de desarrollo. Realiza diagnósticos dentro de las empresas para mejorar la productividad de los empleados.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

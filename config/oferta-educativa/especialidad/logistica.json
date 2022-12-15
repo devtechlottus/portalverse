@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativas"],
       "campus": ["Virtual"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
       "curriculum": {
         "Online": ""
       }
@@ -22,7 +26,7 @@
       "title": "Especialidad en Logística",
       "description": "Gestiona operaciones y posiciona competitivamente una empresa.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Logística"
       }
     },
@@ -36,8 +40,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Este programa está dirigido a ingenieros o licenciados de cualquier área.\nPerfil de Ingreso.\nPara asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Conocimientos básicos de computación e internet",
@@ -45,30 +49,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "El egresado de este programa será capaz de gestionar efectiva y estratégicamente las cadenas de suministro, la operación de las áreas de inventarios, transporte, distribución y compras en función del cliente, y tomar en cuenta el sistema ambiental con la ﬁnalidad de posicionar competitivamente a la empresa a un nivel mundial.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los egresados en la Maestría en Logística puede desarrollarse en sectores económicos asociados a las operaciones de abastecimiento, almacenaje, control de inventarios, transporte y distribución, en empresas tales como: \n- centros de logística y distribución\n- empresas de retail\n- empresas productivas y de servicios\n- empresas de importación y exportación ",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

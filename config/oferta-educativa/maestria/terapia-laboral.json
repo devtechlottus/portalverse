@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias de la Salud"],
       "campus": ["Piedras Negras", "Monclova", "Saltillo"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "",
@@ -26,7 +30,7 @@
       "title": "Maestría en Terapia Familiar",
       "description": "La Maestría en Terapia Familiar permite que nuestros profesionales desarrollen habilidades para profundizar en las relaciones intrapersonales, familiares, estrés, divorcios, problemas financieros, entre otros.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Terapia Laboral"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "La comprensión de la problemática familiar no es tarea exclusiva de un área de conocimiento en particular, sino que se requiere de una concepción totalizadora, en donde el objeto de intervención deba ser abordado desde diversas perspectivas teórico-metodológicas.\n\nSe contempla además una etapa de la formación constituida por el curso propedéutico, en donde los aspirantes recibirán contenidos generales que posibiliten su introducción al estudio de la Terapia Familiar y el compartir códigos lingüísticos comunes.",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de este programa serás un especialista capaz de detectar, evaluar, diagnosticar e intervenir en problemas familiares aplicando la orientación sistémica para contribuir al bienestar integral del ser humano y de la sociedad con compromiso y ética profesional.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Terapia Familiar de UANE podrá ejercer en:\n\nBrindar atención terapéutica y en crisis a familias con problemas de conducta, adicciones, violencia intrafamiliar, trastornos alimenticios, agresiones sexuales, entre otras disfunciones\nManejar la teoría de la comunicación humana\nDesarrollar habilidades de observación e interpretación de la dinámica comunicacional verbal y no verbal\nDiseñar e instrumentar estrategias de intervención en la resolución de problemas en sistemas familiar, social y laboral",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

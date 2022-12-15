@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias de la Salud"],
       "campus": ["Saltillo"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Saltillo": "1uIxEIQjkgGv4SSfbA0fwWaElLrspSMSi"
@@ -24,7 +28,7 @@
       "title": "Maestría en Derecho Fiscal",
       "description": "Posee conocimientos en elementos fiscales para desarrollarse en empresas públicas y privadas.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Derecho Fiscal"
       }
     },
@@ -38,8 +42,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a la Maestría en Derecho fiscal deberá contar con conocimientos profesionales en Derecho, así como habilidades para la expresión oral y escrita de manera eficaz para debates y diálogos. Asimismo, deberá contar con bases y fundamentos en administración, finanzas, contabilidad y actualización del conocimiento fiscal y el desarrollo profesional. Debe contar con capacidad analítica en situaciones de conflicto que le permitan tomar decisiones de manera óptima.",
@@ -47,30 +51,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Preparado con los conocimientos para ejercer el Derecho Fiscal.\nCapacitado para realizar reflexiones críticas sobre problemas del área fiscal.\nPoseerá los elementos indispensables para desempeñarse como asesor fiscal en empresas públicas y privadas.\nSerá un profesionista preparado con los conocimientos para desarrollarse en la docencia.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Derecho Fiscal estará preparado para desempeñarse como:\n\nAsesor o consultor de empresas privadas y públicas; Mando alto y medio en los tribunales de lo contencioso\nAdministrativo en los fueros federales y locales\nAbogado postulante\nDocente e investigador en instituciones de enseñanza superior públicas o privadas.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "\n- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

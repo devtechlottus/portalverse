@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativo"],
       "campus": ["Piedras Negras"],
       "nivel": ["Especialidad"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": ""
@@ -25,7 +29,7 @@
       "title": "Maestría en Derecho Mercantil",
       "description": "Con la Maestría en Derecho Mercantil el aspirante obtiene los conocimientos para vigilar que la actividad económica se desenvuelva de manera correcta, estableciendo el marco de intervención de los poderes públicos, en caso de que resulte necesario, como lo es en la protección al consumidor.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Derecho Mercantil"
       }
     },
@@ -39,8 +43,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "- Se requieren personas con visión e iniciativa para profundizar en esta rama del Derecho que busquen la efectividad del tránsito de comercio.\n\n- Disposición de trabajar de manera colaborativa y dispuestas a establecer retos y estrategias en materia Mercantil.\n\n- Manejo y conocimiento de Idioma Inglés para comprensión de algunos artículos, lecturas y casos.\n\n- El alumno deberá contar con el grado de Licenciatura de Derecho y deberá conocer las cuestiones básicas y primordiales del derecho mercantil, con toda la intención y disponibilidad para dedicarle al estudio, reflexión e interpretación del mismo.",
@@ -48,30 +52,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Podrás desarrollarte como estratega fiscal de alto nivel, capaz de aportar conocimientos e ideas originales que, en respuesta a las necesidades de las empresas enfrente a los requerimientos gubernamentales en materia tributaria, mediante la aplicación de estrategias soportadas en el marco legal actual.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:                                 Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -83,8 +87,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "",
@@ -92,30 +96,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

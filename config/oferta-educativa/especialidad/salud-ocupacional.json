@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias de la Salud"],
       "campus": ["Saltillo", "Torreon", "Monclova", "Monterrey"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
       "curriculum": {
         "Presencial": {
           "Saltillo": "1vzqHxXUXaOawCP_GgSDMFjEHYJxuOjm_",
@@ -28,7 +32,7 @@
       "title": "Especialidad en Salud Ocupacional",
       "description": "Evalúa condiciones de riesgo y desarrolla programas para prevenir situaciones nocivas en la salud de los trabajadores.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Salud Ocupacional"
       }
     },
@@ -42,8 +46,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Los aspirantes a la especialidad  deberán tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística y destreza en el manejo de computadora, ya que es un posgrado con orientación a la profesionalización, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas.",
@@ -51,30 +55,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de la Especialidad en Salud Ocupacional serás capaz de evaluar las condiciones de riesgo dentro de una empresa, para contribuir en el diseño y desarrollo de programas que ayuden a prevenir y controlar situaciones nocivas a la salud del trabajador.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los especialistas en Salud Ocupacional estan capacitados para generar un sistema de toma de decisiones con indicadores de salud en el trabajo para el monitoreo de la misma.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -86,8 +90,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Los aspirantes a la especialidad  deberán tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística y destreza en el manejo de computadora, ya que es un posgrado con orientación a la profesionalización, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas.",
@@ -95,30 +99,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de este programa serás capaz de evaluar las condiciones de riesgo dentro de una empresa, para contribuir en el diseño y desarrollo de programas que ayuden a prevenir y controlar situaciones nocivas a la salud del trabajador.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El Especiliaste en Salud Ocupacional esta capacitado para generar un sistema de toma de decisiones con indicadores de salud en el trabajo para el monitoreo de la misma.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

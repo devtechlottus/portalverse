@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Monclova", "Piedras Negras"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "196IM5Oko5m7h89InFdhqLu11qQHE4XL4",
@@ -26,7 +30,7 @@
       "title": "Maestría en Docencia e Investigación Educativa",
       "description": "La Maestría en Docencia e Investigación Educativa permite desarrollar conocimientos pedagógicos y educativos, desde el cual se pueda responder a las tendencias actuales de investigación y formación de educadores en contextos de globalización e internacionalización de la educación.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Docencia e Investigación Educativa"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Para asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Conocimientos básicos de computación e internet",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Con la Maestría en Docencia e Investigación Educativa serás capaz de aplicar tus conocimientos de procesos educativos para desarrollar proyectos orientados a resolver problemáticas de contexto; aplicando la inteligencia emocional y ejerciendo el liderazgo.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Docencia e Investigación Educativa de UANE podrá trabajar en:\nInstituciones educativas en las áreas de capacitación docente, desarrollo de material educativo, planeación y evaluación educativa Diseñando programas de capacitación para empresas públicas y privadas\nAdministrador de instituciones educativas\nDirector académico\nCentros de investigación educativa\nOrganizaciones no gubernamentales\nDocente de nivel medio y superior",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -84,8 +88,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Para asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes habilidades y conocimientos:\nHabilidades:\n- Capacidad para trabajar en equipo.\n- Facilidad para las relaciones humanas.\nConocimientos:\n- Cultura general.\n- Conocimientos básicos de computación e internet",
@@ -93,30 +97,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Con la Maestría en Docencia e Investigación Educativa serás capaz de aplicar tus conocimientos de procesos educativos para desarrollar proyectos orientados a resolver problemáticas de contexto; aplicando la inteligencia emocional y ejerciendo el liderazgo.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los egresados de la maestría en Docencia e Investigación Educativa forma profesionales con competencias educativas con preparación teórica y metodológica sólida, capaces de desarrollar propuestas y soluciones viables e innovadoras a los problemas educativos que enfrentan las instituciones.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

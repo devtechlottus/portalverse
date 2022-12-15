@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Saltillo"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "doctorado"
+      },
       "curriculum": {
         "Presencial": {
           "Saltillo": ""
@@ -24,7 +28,7 @@
       "title": "Doctorado en Derecho",
       "description": "El Doctorado en Derecho se enfoca en la resolución de la investigación crítica e integral de los procesos jurídicos.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Derecho"
       }
     },
@@ -38,8 +42,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Para ingresar al Doctorado, el aspirante debe poseer habilidades para el análisis, discusión y generación de textos originales y especializados en la línea de su investigación, además deberá contar con una sólida formación metodológica que le permita identificar problemas jurídicos relevantes.",
@@ -47,30 +51,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Con el Doctorado en Derecho, podrás intervenir en procesos de investigación jurídica, de teoría constitucional y proceso de control constitucional para aportar soluciones a los problemas jurídicos de carácter estructural, nacional e internacional.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado del Doctorado en Derecho de UANE podrá ejercer en: Abogado postulante mediante la implementación de medios de control constitucional. Consultor en materia de derechos fundamentales y tratados internacionales. Investigación jurídica.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación                                                               · CV y Constancia laboral                                       · Fotografías (Preguntar por especificaciones)  · Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
