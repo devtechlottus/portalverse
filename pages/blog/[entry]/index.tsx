@@ -12,7 +12,7 @@ import Button from "@/components/Button"
 import Banner from "@/components/Banner"
 
 
-const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: any) => {
+const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
   const handleRedirect = (redirect:string) => router.push(redirect)
 
   const router = useRouter()
@@ -87,4 +87,4 @@ export async function getStaticProps(context: any) {
   }
 }
 
-export default DetalleCursoEducaciónContinua
+export default EntryBlogDetail
