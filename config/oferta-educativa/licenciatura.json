@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "title": "Licenciaturas",
+    "description": "",
+    "keywords": ""
+  },
+  "filtro": true,
+  "sections": {
+    "head": {
+      "banner": {
+        "image": {
+          "src": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+          "alt": "alumnos"
+        },
+        "description": {
+          "title": "Licenciaturas",
+          "subtitle": "Conoce las licenciaturas que tenemos para ti y crece profesionalmente con programas de alto nivel con el mejor ambiente estudiantil"
+        }
+      }
+    },
+    "introduction": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "programs": [
+    {
+      "title": "Administración de Empresas",
+      "config": {
+        "nombre": "Administración de Empresas",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "especilidad"
+        }
+      },
+      "route": "administracion-empresas"
+    },
+    {
+      "title": "Licenciatura en Idiomas",
+      "config": {
+        "nombre": "Licenciatura en Idiomas",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Humanidades"],
+        "campus": ["Saltillo", "Torreon", "Piedras Negras"],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "idiomas"
+    },
+    {
+      "title": "Licenciatura en Diseño Gráfico",
+      "config": {
+        "nombre": "Diseño Gráfico",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova"],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "diseno-grafico"
+    },
+    {
+      "title": "Licenciatura en Gastronomía",
+      "config": {
+        "nombre": "Licenciatura en Gastronomía",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales y Administrativas"],
+        "campus": ["Saltillo", "Torreon"],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "gastronomia"
+    },
+    {
+      "title": "Licenciatura en Comercio Internacional",
+      "config": {
+        "nombre": "Licenciatura en Comercio Internacional",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Sabinas", "Saltillo", "Monterrey",  "Matamoros", "Torreón", "Piedras Negras", "Reynosa", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "comercio-internacional"
+    },
+    {
+      "title": "Licenciatura en Derecho con Acentuación en Negocios Internacionales",
+      "config": {
+        "nombre": "Licenciatura en Derecho con Acentuación en Negocios Internacionales",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "derecho-acentuacion-negocios-internacionales"
+    },
+    {
+      "title": "Licenciatura en Psicología",
+      "config": {
+        "nombre": "Licenciatura en Psicología",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "psicologia"
+    },
+    {
+      "title": "Licenciatura en Administración de Empresas Turísticas",
+      "config": {
+        "nombre": "Licenciatura en Administración de Empresas Turísticas",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Saltillo", "Torreon" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "administracion-empresas-turisticas"
+    },
+    {
+      "title": "Ingeniería Mecánica en Procesos de Inyección",
+      "config": {
+        "nombre": "Ingeniería Mecánica en Procesos de Inyección",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [ "Saltillo", "Monterrey" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "mecanica-procesos-inyeccion"
+    },
+    {
+      "title": "Ingeniería Mecánica en Procesos de Inyección",
+      "config": {
+        "nombre": "Ingeniería Mecánica en Procesos de Inyección",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "ingenieria-industrial-sistemas"
+    },
+    {
+      "title": "Licenciatura en Ciencias de la Educación",
+      "config": {
+        "nombre": "Licenciatura en Ciencias de la Educación",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "ciencias-educacion"
+    },
+    {
+      "title": "Licenciatura en Nutrición",
+      "config": {
+        "nombre": "Licenciatura en Nutrición",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Biologicas"],
+        "campus": [ "Saltillo", "Monterrey", "Torreon", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "nutricion"
+    },
+    {
+      "title": "Licenciatura en Derecho",
+      "config": {
+        "nombre": "Licenciatura en Derecho",
+        "modalidad": ["Presencial", "Online", "Flex"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "derecho"
+    },
+    {
+      "title": "Licenciatura en Administración de Recursos Humanos",
+      "config": {
+        "nombre": "Licenciatura en Administración de Recursos Humanos",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "administracion-recursos-humanos"
+    },
+    {
+      "title": "Licenciatura en Arquitectura",
+      "config": {
+        "nombre": "Licenciatura en Arquitectura",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreon" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "arquitectura"
+    },
+    {
+      "title": "Licenciatura en Contador Público",
+      "config": {
+        "nombre": "Licenciatura en Contador Público",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "contador-publico"
+    },
+    {
+      "title": "Licenciatura en Comunicación",
+      "config": {
+        "nombre": "Licenciatura en Comunicación",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Ciencias Sociales"],
+        "campus": [ "Saltillo", "Torreon", "Monclova", "Piedras Negras" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "comunicacion"
+    },
+    {
+      "title": "Ingenería en Sistemas y Productividad Industrial",
+      "config": {
+        "nombre": "Ingenería en Sistemas y Productividad Industrial",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [ "Saltillo", "Reynosa" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "sistemas-productividad-industrial"
+    },
+    {
+      "title": "Licenciatura en Mercadotecnia",
+      "config": {
+        "nombre": "Licenciatura en Mercadotecnia",
+        "modalidad": ["Presencial", "Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Reynosa" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "mercadotecnia"
+    },
+    {
+      "title": "Licenciatura en Administración Estratégica de Negocios",
+      "config": {
+        "nombre": "Licenciatura en Administración Estratégica de Negocios",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Monterrey" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "administracion-estrategia-negocios"
+    },
+    {
+      "title": "Ingeniería en Desarrollo de Software",
+      "config": {
+        "nombre": "Ingeniería en Desarrollo de Software",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "desarrollo-software"
+    },
+    {
+      "title": "Licenciatura de Psicología Laboral",
+      "config": {
+        "nombre": "Licenciatura de Psicología Laboral",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias de la Salud"],
+        "campus": [],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "psicologia-laboral"
+    },
+    {
+      "title": "Ingeniería en Sistemas",
+      "config": {
+        "nombre": "Ingeniería en Sistemas",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "ingenieria-sistemas"
+    },
+    {
+      "title": "Ingeniería Industrial en Producción",
+      "config": {
+        "nombre": "Ingeniería Industrial en Producción",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "ingenieria-industrial-produccion"
+    },
+    {
+      "title": "Licenciatura en Administración y Liderazgo Empresarial",
+      "config": {
+        "nombre": "Licenciatura en Administración y Liderazgo Empresarial",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "administracion-liderazgo-empresarial"
+    },
+    {
+      "title": "Licenciatura en Contaduría",
+      "config": {
+        "nombre": "Licenciatura en Contaduría",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "contaduria"
+    },
+    {
+      "title": "Licenciatura en Gestión Deportiva",
+      "config": {
+        "nombre": "Licenciatura en Gestión Deportiva",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Administrativas"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "gestion-deportiva"
+    }
+  ]
+}
