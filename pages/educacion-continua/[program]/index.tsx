@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -11,7 +10,7 @@ import CardProgram from "@/components/CardProgram"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Routes from "@/routes/Routes"
 
-const DetalleCursoEducaciónContinua: NextPageWithLayout = ({ sections, meta }: any) => {
+const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: any) => {
 
   const router = useRouter()
 
@@ -81,4 +80,4 @@ export async function getStaticProps(context: any) {
   }
 }
 
-export default DetalleCursoEducaciónContinua
+export default DetalleCursoEducacionContinua
