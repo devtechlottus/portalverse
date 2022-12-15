@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "title": "Maestría en Impuestos",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Impuestos",
+    "config": {
+      "nombre": "Maestría en Impuestos",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Económico - Administrativo"],
+      "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": "1ZtxpKbqlJChHEWbF-qa10sTNuO8ViFR2",
+          "Torreon": "",
+          "Piedras Negras": "",
+          "Matamoros": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Impuestos",
+      "description": "Desarrolla estrategias de planeación y conoce las normas tributarias.",
+      "image": {
+        "src": "",
+        "alt": "Impuestos"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la maestría en impuestos debe contar con conocimiento en derecho fiscal y normas fiscales y planeación financiera.\nAdemás contar con la habilidad de analizar temas sobre las contribuciones y recaudación fiscal.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Como egresado de este programa podrás desarrollar estrategias de planeación e investigación tributaria. Además, conocerás las instituciones que regulen el cumplimiento y sanciones que implican el incumplimiento de la norma tributaria.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Impuestos de UANE podrá ejercer como:\n\nDesarrollador\nTomador de decisiones integrales\nContribuyente\nGestor de cambio\nAuditor\nAdministrador\nPlaneador\nOperador\nAsesor independiente",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Impuestos" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

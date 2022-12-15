@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Maestría en Docencia",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Docencia",
+    "config": {
+      "nombre": "Maestría en Docencia",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Saltillo", "Piedras Negras"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Piedras Negras": "1Z5Q__hqpeHGsBI4ZcbMnGH1FDEClKjIO",
+          "Saltillo": "1OfYnyuM_Ikpa0HolEEpm0LPll4zl47p1"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Docencia",
+      "description": "La Maestría en Docencia permite a nuestros aspirantes que transmitan conocimientos, construyan valores, vivan el crecimiento, desarrollen la personalidad y la capacidad para tomar decisiones. Plantean retos y desafíos. La vocación es la base que necesita todo aquel que quiere dedicarse a la docencia.",
+      "image": {
+        "src": "",
+        "alt": "Docencia"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Este programa está dirigido a cualquier profesional que se dedique a la Docencia. Requisitos de ingreso: \nLos aspirantes a cursar la Maestría deberán cubrir los siguientes requisitos:\n- Tener experiencia mínima de dos años en Docencia.\n- Título profesional, carta de pasante o documento afín.\n- Aprobar la entrevista en el departamento de postgrado.\n- Acreditar la documentación y pagos correspondientes.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "El egresado de este programa podrá ser capaz de aplicar estrategias didácticas y educativas para lograr el aprendizaje significativo de los estudiantes, a través del diseño y planeación de programas académicos, evaluación del conocimiento o desempeño del estudiante, así como la oportunidad de desarrollar proyectos de investigación educativa para la mejora continua del docente",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:                                 Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Docencia" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

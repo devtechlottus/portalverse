@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Maestría en Justicia Administrativa",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Justicia Administrativa",
+    "config": {
+      "nombre": "Maestría en Justicia Administrativa",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": ""
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Justicia Administrativa",
+      "description": "La maestria en Justicia Administrativa, se centra en aplicar los conocimientos con un enfoque de instrumentos jurídicos y procesales que tienen como finalidad la tutela de los particulares frente a la administración pública.",
+      "image": {
+        "src": "",
+        "alt": "Justicia Administrativa"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Maestría Justicia Administrativa, deberá contar con su certificado total de estudios de Licenciatura con el 100% de créditos en Derecho o afín, además deberá mostrar:\n\nUso de tecnología.\nRazonamiento lógico jurídico.\nDesarrollo de temas de investigación jurídica.\nFacilidad para expresarse de forma oral y escrita.\nTrabajo en equipo para el análisis de textos jurídicos.\nContar con conocimientos jurídicos respecto al ámbito nacional.\nRespeto por los principios fundamentales de los Derechos Humanos.\nConocer la organización, funcionamiento del Poder Judicial de la Federación.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "En la Maestría en Justicia Administrativa serás un profesionista del derecho capaz de emitir actos de autoridad, identificar violaciones de derechos, litigar casos ante los órganos jurisdiccionales y plantear soluciones a las controversias en materia administrativa, con apego a los principios de legalidad, constitucionalidad y convencionalidad, así como a partir de los principios de los derechos humanos",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:\nOrganizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Justicia Administrativa" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

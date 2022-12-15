@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "Maestría en Comunicación Empresarial",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Comunicación Empresarial",
+    "config": {
+      "nombre": "Maestría en Comunicación Empresarial",
+      "modalidad": ["Online"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": [],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Online": "1GEvzaoG8mhEsG39uEuWw-QuDEMYEYWl3"
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Comunicación Empresarial",
+      "description": "Desarrolla planes estratégicos dentro del entorno empresarial a través de recursos comunicativos y publicitarios para mejorar la Responsabilidad Social Corporativa.",
+      "image": {
+        "src": "",
+        "alt": "Comunicación Empresarial"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a ingresar a la Maestría en Comunicación Empresarial, deberá contar con los siguientes conocimientos:\n- La expresión oral y escrita.\n- La investigación y redacción de documentos.\n- Manejo de relaciones interpersonales.\n- El análisis de problemas públicos.\n- Diseñar estrategias.\n- Transferencia de información al contexto empresarial.\n- Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n- Interpretar cifras y resolver problemas cuantificables.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "El aspirante a ingresar a la Maestría en Comunicación Empresarial, deberá contar con los siguientes conocimientos:\n- La expresión oral y escrita.\n- La investigación y redacción de documentos.\n- Manejo de relaciones interpersonales.\n- El análisis de problemas públicos.\n- Diseñar estrategias.\n- Transferencia de información al contexto empresarial.\n- Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n- Interpretar cifras y resolver problemas cuantificables.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la maestria en Comunicación Empresarial genera, desarrolla e implanta estrategias de comunicación que apoyen y respalden los objetivos de la empresa, ofrece cambios, integración y refuerzo de personal, productividad y alcance de metas, puede desempeñarse en el sector público, privado o como independiente.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Comunicación Empresarial" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

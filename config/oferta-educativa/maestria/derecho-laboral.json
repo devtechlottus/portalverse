@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "title": "Maestría en Derecho Laboral",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Derecho Laboral",
+    "config": {
+      "nombre": "Maestría en Derecho Laboral",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Matamoros", "Monclova", "Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Matamoros": "",
+          "Monclova": "1SbHfqBOxMyQiz_U7JnXIBkfnZEZSh-oE",
+          "Saltillo": "1HcltYWolYzaYsvuv4TcZNkvW5dZLNKR_"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Derecho Laboral",
+      "description": "La maestría en Derecho Laboral te permite convertirte en especialista de las normas jurídicas que regulan las relaciones entre el trabajador y el patrón; el contrato de trabajo; las condiciones de trabajo tales como la jornada laboral, el salario, los días de descanso, las vacaciones, entre otras.",
+      "image": {
+        "src": "",
+        "alt": "Derecho Laboral"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "Aplicar los principios, garantías constitucionales, y legislación vigente sobre el Derecho Individual y Colectivo de Trabajo, así como de la Seguridad Social, desarrollando habilidades en litigación laboral mediante la aplicación de los procedimientos del sistema administrativo y judicial vigente, brindando soluciones con sujeción a los principios éticos y el ordenamiento jurídico.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "El egresado de la Maestría en Derecho Laboral será capaz de analizar el marco jurídico en materia laboral para su adecuada aplicación y así distinguir los elementos constitutivos de las relaciones individuales y colectivas del trabajo para precisar la norma. Podrá implementar técnicas de negociación que permitan evitar conflictos jurídico-contenciosos de carácter laboral",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Licenciatura en Derecho puede ejercer en el sector privado como litigante o asesor jurídico, en despachos o bufetes jurídicos y en departamentos legales de empresas comerciales, empresas industriales, empresas de servicio entre otros. Como árbitro mediador o negociador dentro de los procedimientos de resolución alterna de controversias.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Derecho Laboral" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}

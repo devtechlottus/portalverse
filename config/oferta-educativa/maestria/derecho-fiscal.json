@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Maestría en Derecho Fiscal",
+    "description": "",
+    "keywords": ""
+  },
+  "config": {
+    "title": "Maestría en Derecho Fiscal",
+    "config": {
+      "nombre": "Maestría en Derecho Fiscal",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias de la Salud"],
+      "campus": ["Saltillo"],
+      "nivel": ["Posgrado"],
+      "curriculum": {
+        "Presencial": {
+          "Saltillo": "1uIxEIQjkgGv4SSfbA0fwWaElLrspSMSi"
+        }
+      }
+    }
+  },
+  "sections": {
+    "head": {
+      "title": "Maestría en Derecho Fiscal",
+      "description": "Posee conocimientos en elementos fiscales para desarrollarse en empresas públicas y privadas.",
+      "image": {
+        "src": "",
+        "alt": "Derecho Fiscal"
+      }
+    },
+    "modalities": {
+      "title": "Modalidades disponibles en esta Especialidad:",
+      "tabs": {
+        "items": [
+          {
+            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "content": {
+              "cards": [
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de ingreso",
+                  "text": "El aspirante a la Maestría en Derecho fiscal deberá contar con conocimientos profesionales en Derecho, así como habilidades para la expresión oral y escrita de manera eficaz para debates y diálogos. Asimismo, deberá contar con bases y fundamentos en administración, finanzas, contabilidad y actualización del conocimiento fiscal y el desarrollo profesional. Debe contar con capacidad analítica en situaciones de conflicto que le permitan tomar decisiones de manera óptima.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Perfil de egreso",
+                  "text": "Preparado con los conocimientos para ejercer el Derecho Fiscal.\nCapacitado para realizar reflexiones críticas sobre problemas del área fiscal.\nPoseerá los elementos indispensables para desempeñarse como asesor fiscal en empresas públicas y privadas.\nSerá un profesionista preparado con los conocimientos para desarrollarse en la docencia.",
+                  "backgroundColor": "#6F7C82"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Campo Laboral",
+                  "text": "El egresado de la Maestría en Derecho Fiscal estará preparado para desempeñarse como:\n\nAsesor o consultor de empresas privadas y públicas; Mando alto y medio en los tribunales de lo contencioso\nAdministrativo en los fueros federales y locales\nAbogado postulante\nDocente e investigador en instituciones de enseñanza superior públicas o privadas.",
+                  "backgroundColor": "#8B9BA3"
+                },
+                {
+                  "image": {
+                    "desktop": "",
+                    "mobile": ""
+                  },
+                  "title": "Requisitos de admisión",
+                  "text": "\n- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "backgroundColor": "#6F7C82"
+                }
+              ],
+              "wrapper": false
+            }
+          }
+        ],
+        "size": "medium"
+      }
+    },
+    "descarga": {
+      "id": "program_maestria",
+      "type": "primary",
+      "title": "Descarga el plan de estudios",
+      "size": "small",
+      "icon": "download",
+      "lyIcon": false,
+      "disabled": false,
+      "isExpand": false,
+      "tagOnClick": "testClick",
+      "test": ""
+    }
+  },
+  "form": {
+    "config": {
+      "level": { "hidden": true, "value": "maestria" },
+      "program": { "hidden": false, "value": "Derecho Fiscal" },
+      "modality": { "hidden": false },
+      "campus": { "hidden": false }
+    },
+    "copies": {
+      "stepone": {
+        "title": "Obten informes sobre tu programa",
+        "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
+      }
+    }
+  }
+}
