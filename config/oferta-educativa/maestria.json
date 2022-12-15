@@ -105,7 +105,7 @@
         "nombre": "Maestría en Salud Ocupacional",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias de la Salud"],
-        "campus": ["Piedras Negras", "Monterrey"],
+        "campus": [ "Saltillo", "Matamoros", "Torreon", "Reynosa", "Monclova", "Monterrey"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://picsum.photos/428/321",
@@ -142,7 +142,7 @@
           "alt": "maestria"
         }
       },
-      "route": "terapia-laboral"
+      "route": "terapia-familiar"
     },
     {
       "title": "Maestría en Justicia Administrativa",

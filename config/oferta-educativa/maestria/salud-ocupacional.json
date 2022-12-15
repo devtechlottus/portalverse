@@ -10,7 +10,7 @@
       "nombre": "Maestría en Salud Ocupacional",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias de la Salud"],
-      "campus": ["Piedras Negras", "Monterrey"],
+      "campus": [ "Saltillo", "Matamoros", "Torreon", "Reynosa", "Monclova", "Monterrey"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://picsum.photos/428/321",
@@ -18,7 +18,11 @@
       },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": "",
+          "Saltillo": "1tk9u4Pmf8NjQDtPrdmBGwYqQmk9aFWvH",
+          "Matamoros": "1vpgPUVLJEYgTLTu1FptVf7cVTXJcpxSj",
+          "Torreon": "1Gt5YV8F8dMQ97dOUCvoKgSmtkflXFJwW",
+          "Reynosa": "1mv9Qa6OWoriVZ_u9K9suSiMAXriYRtfP",
+          "Monclova": "1_Zj1AeUM8bPZqis8rLVL02A1TJmMAuxo",
           "Monterrey": ""
         },
         "Online": "1oDUcTXSTUQSutMGwOOOoZw4DbCwv4IOe"
