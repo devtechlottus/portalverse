@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativo"],
       "campus": ["Piedras Negras"],
       "nivel": ["Especialidad"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "especilidad"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "1QAYw-JBHjXYlsz87rHtAbcHjLVpJ5klw"
@@ -25,7 +29,7 @@
       "title": "Especialidad en Administración y Liderazgo",
       "description": "Aplica teorías de liderazgo e identifica áreas de oportunidad y problemas administrativos y de recursos humanos.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Administración y Liderazgo"
       }
     },
@@ -39,8 +43,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a ingresar a la Especialidad en Administración y Liderazgo Empresarial deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.",
@@ -48,30 +52,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Formar profesionales especialistas capaces de aplicar las teorías de liderazgo y de identiﬁcar oportunidades, problemas y/o peligros en las áreas funcionales de la organización, tales como Administración de Empresas, Recursos Humanos, Mercadotecnia y Finanzas.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los especialistas en Administración y Liderazgo son imprescindibles en la planificación, organización, dirección y control de los recursos, ya sean humanos, tecnológicos o de una organización. De ahí la importancia de su rol en las empresas y en la economía del país. Podrán desempeñar sus conocimientos en el sector público y privado y como consultor y especialista independiente, dictando conferencias y asesorando grandes marcas.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -83,8 +87,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Este programa está dirigido a ingenieros o licenciados de cualquier profesión. Requisitos de ingreso:\n\nLos aspirantes a cursar la Especialidad deberán cubrir los siguientes requisitos:\n\nTener experiencia mínimo de dos años en el área de industrial, mercadotecnia, finanzas, administración y recursos humanos.",
@@ -92,30 +96,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Formar profesionales especialistas capaces de aplicar las teorías de liderazgo y de identiﬁcar oportunidades, problemas y/o peligros en las áreas funcionales de la organización, tales como Administración de empresas, Recursos Humanos, Mercadotecnia y Finanzas",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los especialistas en Administración y Liderazgo son imprescindibles en la planificación, organización, dirección y control de los recursos, ya sean humanos, tecnológicos o de una organización. De ahí la importancia de su rol en las empresas y en la economía del país. Podrán desempeñar sus conocimientos en el sector público y privado y como consultor y especialista independiente, dictando conferencias y asesorando grandes marcas.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

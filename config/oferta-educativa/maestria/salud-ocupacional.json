@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias de la Salud"],
       "campus": ["Piedras Negras", "Monterrey"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "",
@@ -26,7 +30,7 @@
       "title": "Maestría en Salud Ocupacional",
       "description": "Evalúa condiciones de riesgo y desarrolla proyectos de seguridad industrial.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Salud Ocupacional"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Los aspirantes a la Maestría Salud Ocupacional deben tener conocimientos básicos en el área de medicina general, ergonomía, legislación laboral, estadística, habilidades orales y escritas, así como habilidades en el uso de herramientas informáticas (hardware y software).\n\nTambién debe poseer interés en la investigación, además de ser emprendedor, creativo, disciplinado y tener una visión holística que le permita orientar sus intereses desde múltiples puntos de vista.",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Como egresado de este programa serás capaz de evaluar las condiciones de riesgo de una empresa y contribuir en el diseño y desarrollo de programas dirigidos al control de higiene y seguridad industrial del personal.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:\n\nOrganizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -84,8 +88,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Con la finalidad de asegurar un desempeño eficiente en la formación profesional del Licenciado en Psicología, es importante que los aspirantes cubran los siguientes aspectos:\n- Espíritu de servicio\n- Habilidad de escucha activa\n- Orientado al trabajo y la colaboración en equipo.\n- Capacidad de observación, análisis y síntesis.",
@@ -93,30 +97,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Con la Maestría en Salud Ocupacional serás capaz de evaluar las condiciones de riesgo de una empresa y así contribuir en el diseño y desarrollo de programas dirigidos al control de higiene y seguridad industrial del personal.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Salud Ocupacional se pueden desarrollar en el sector privado tanto en hospitales, como en el sector público donde destacan las instituciones de salud más importantes IMSS, ISSSTE, SSA, así como los Institutos regionales, estatales y nacionales de salud.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

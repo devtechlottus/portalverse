@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativas"],
       "campus": [],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Online": "13mUZq-ymxvjOC_MxhepO39QmkoR6OYSR"
       }
@@ -22,7 +26,7 @@
       "title": "Maestría en Administración",
       "description": "Aplica tus conocimientos educativos y desarrolla proyectos orientados a resolver problemáticas.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Administración"
       }
     },
@@ -36,8 +40,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a ingresar a la Maestría en Administración deberá contar con los siguientes conocimientos:\nLa expresión oral y escrita.\nLa investigación y redacción de documentos.\nManejo de relaciones interpersonales.\nEl análisis de problemas públicos.\nDiseñar estrategias.\nTransferencia de información al contexto empresarial.\nRealizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\nInterpretar cifras y resolver problemas cuantificables.",
@@ -45,30 +49,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "El egresado será capaz de:\n- Diseñar planes de acción para mejorar la planeación estratégica y la estructura administrativa en las áreas funcionales de la organización.\n- Conducir los procesos de desarrollo y alinear con habilidades de liderazgo a los colaboradores en los procesos de cambio de la organización.\n- Implementar estrategias que le permitan competir con productos y servicios de calidad y satisfacción de los consumidores.\n- Analizar el impacto en la rentabilidad de la empresa y servicio al cliente de las estrategias en las operaciones de manufactura y logística.\n- Analizar financieramente los estados de gestión económica para optimizar los costos y recursos operativos y de futuras inversiones.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la maestría en Administración es quien posee la visión y el análisis para la organización y dirección de un negocio. Tiene el conocimiento y las habilidades para lograr el aprovechamiento eficiente de los recursos económicos que posee una empresa, así como de verificar la productividad y guiar al negocio. Puede desarollarse en el sector público, privado o como consultor.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

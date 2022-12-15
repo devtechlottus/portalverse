@@ -12,6 +12,10 @@
       "areaConocimiento": ["Educación Media"],
       "campus": [],
       "nivel": ["Bachillerato"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "bachillerato"
+      },
       "curriculum": {
         "Presencial": {
           "Monclova": "12IvFc7gviVNj52MLSDLx09BqDBpNLyrN",
@@ -36,8 +40,8 @@
       "title": "Estudia Bachillerato",
       "description": "",
       "image": {
-        "src": "",
-        "alt": "bachillerato general"
+        "src": "https://picsum.photos/428/321",
+        "alt": "bachillerato"
       }
     },
     "modalities": {
@@ -51,7 +55,7 @@
                 "title": "Características del Bachillerato en modalidad presencial",
                 "description": "Desarrolla habilidades y talentos indispensables para tu carrera profesional.",
                 "image": {
-                  "src": "",
+                  "src": "https://picsum.photos/428/321",
                   "alt": "bachillerato-presencial"
                 }
               },
@@ -59,7 +63,7 @@
                 "title": "Requisitos de admisión",
                 "description": " - Acta de nacimiento reciente, original del cajero y 2 copias\n- Certificado de secundaria original y 2 copias. En caso de equivalencia presentar certificado parcial original legalizado con carta de autenticidad. (Si aún no cuenta traer constancia de trámite)\n- · CURP copia\n- 4 fotografias tamaño infantily 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Constancia de calificaciones si aún no gradúan de secundaria.\n- Carta de buena salud expedida por institución pública o privada",
                 "image": {
-                  "src": "",
+                  "src": "https://picsum.photos/428/321",
                   "alt": "bachillerato-presencial-requisitos"
                 }
               }
@@ -72,16 +76,16 @@
                 "title": "Características del Bachillerato en modalidad bilingüe",
                 "description": "Desarrolla habilidades comunicativas en español e inglés y aplica tus conocimientos en entornos académicos y profesionales.",
                 "image": {
-                  "src": "",
-                  "alt": "bachillerato-biligue"
+                  "src": "https://picsum.photos/428/321",
+                  "alt": "bachillerato-bilingue"
                 }
               },
               {
                 "title": "Requisitos de admisión",
                 "description": "",
                 "image": {
-                  "src": "",
-                  "alt": "bachillerato-biligue-requisitos"
+                  "src": "https://picsum.photos/428/321",
+                  "alt": "bachillerato-bilingue-requisitos"
                 }
               }
             ]
@@ -93,7 +97,7 @@
                 "title": "Características del Bachillerato en modalidad online",
                 "description": "En nuestro bachillerato contarás con los conocimientos necesarios para desarrollar talentos y habilidades indispensables para el inicio de tu carrera profesional y una cultura general necesaria que te preparan",
                 "image": {
-                  "src": "",
+                  "src": "https://picsum.photos/428/321",
                   "alt": "bachillerato-online"
                 }
               },
@@ -101,8 +105,8 @@
                 "title": "Requisitos de admisión",
                 "description": "",
                 "image": {
-                  "src": "",
-                  "alt": "bachillerato-online-requisito"
+                  "src": "https://picsum.photos/428/321",
+                  "alt": "bachillerato-online-requisitos"
                 }
               }
             ]

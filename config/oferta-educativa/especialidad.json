@@ -31,11 +31,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Piedras Negras"],
-        "nivel": ["Especialidad"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "especilidad"
+        "nivel": ["Especialidad"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "especilidad"
+        }
       },
       "route": "administracion-liderazgo"
     },
@@ -46,11 +46,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo", "Matamoros", "Reynosa"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "relaciones-juridico-laborales"
     },
@@ -61,11 +61,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Saltillo", "Torreon", "Monclova", "Monterrey"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "salud-ocupacional"
     },
@@ -76,11 +76,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Piedras negras"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "gestion-desarrollo-recursos-humanos"
     },
@@ -91,11 +91,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": ["Piedras negras"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "manufactura-esbelta"
     },
@@ -106,11 +106,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Económico - Administrativas"],
         "campus": ["Virtual"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "logistica"
     }

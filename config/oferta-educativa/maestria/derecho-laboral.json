@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Matamoros", "Monclova", "Saltillo"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Matamoros": "",
@@ -26,7 +30,7 @@
       "title": "Maestría en Derecho Laboral",
       "description": "La maestría en Derecho Laboral te permite convertirte en especialista de las normas jurídicas que regulan las relaciones entre el trabajador y el patrón; el contrato de trabajo; las condiciones de trabajo tales como la jornada laboral, el salario, los días de descanso, las vacaciones, entre otras.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Derecho Laboral"
       }
     },
@@ -40,8 +44,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Aplicar los principios, garantías constitucionales, y legislación vigente sobre el Derecho Individual y Colectivo de Trabajo, así como de la Seguridad Social, desarrollando habilidades en litigación laboral mediante la aplicación de los procedimientos del sistema administrativo y judicial vigente, brindando soluciones con sujeción a los principios éticos y el ordenamiento jurídico.",
@@ -49,30 +53,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "El egresado de la Maestría en Derecho Laboral será capaz de analizar el marco jurídico en materia laboral para su adecuada aplicación y así distinguir los elementos constitutivos de las relaciones individuales y colectivas del trabajo para precisar la norma. Podrá implementar técnicas de negociación que permitan evitar conflictos jurídico-contenciosos de carácter laboral",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Licenciatura en Derecho puede ejercer en el sector privado como litigante o asesor jurídico, en despachos o bufetes jurídicos y en departamentos legales de empresas comerciales, empresas industriales, empresas de servicio entre otros. Como árbitro mediador o negociador dentro de los procedimientos de resolución alterna de controversias.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

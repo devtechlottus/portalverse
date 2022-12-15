@@ -12,6 +12,10 @@
       "areaConocimiento": ["Ciencias de la Salud"],
       "campus": ["Piedras Negras", "Monterrey"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "1mJhhEXj4N7jcfjiBFICuR_kz0pUilqBR",
@@ -25,7 +29,7 @@
       "title": "Maestría en Gestión en Servicios de Salud",
       "description": "Implementa herramientas de gestión y beneficia al incremento de la eficencia en servicios de salud.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Gestión en Servicios de Salud"
       }
     },
@@ -39,8 +43,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "El aspirante a la maestría en Gestión de Servicios de Salud debe tener una clara actitud de respeto hacia la preservación de la vida y el ser humano, además de contar con capacidad de análisis y síntesis.",
@@ -48,30 +52,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "Con este programa serás capaz de intervenir en las áreas administrativas de las instituciones de salud, implementando herramientas de gestión y mejora continua que permitan incrementar la eficiencia de los servicios proporcionados.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Gestión de Servicios de Salud de UANE podrá ejercer en:\n\nDirección administrativa\nRecursos humanos\nDepartamento jurídico\nMantenimiento\nPrevención de la salud\nAtención médica\nPlaneación\nFomento sanitario\nVinculación y enlaces\nTransparencia y acceso a la información\nProcesos de evaluación y acreditación",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false

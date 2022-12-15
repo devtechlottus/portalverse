@@ -31,11 +31,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "derecho"
     },
@@ -46,11 +46,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Monclova", "Piedras negras", "Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "doctorado"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "doctorado"
+        }
       },
       "route": "planeacion-liderazgo-ejecutivo"
     }

@@ -31,11 +31,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "derecho-fiscal"
     },
@@ -46,11 +46,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "nutricion-obesidad-diabetes"
     },
@@ -61,11 +61,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "efectividad-organizacional"
     },
@@ -76,11 +76,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "impuestos"
     },
@@ -91,11 +91,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Piedras Negras", "Monterrey"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "gestion-servicios-salud"
     },
@@ -106,11 +106,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Piedras Negras", "Monterrey"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "salud-ocupacional"
     },
@@ -121,11 +121,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Matamoros", "Monclova", "Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "derecho-laboral"
     },
@@ -136,11 +136,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": ["Piedras Negras", "Monclova", "Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "terapia-laboral"
     },
@@ -151,11 +151,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "justicia-administrativa"
     },
@@ -166,11 +166,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "derecho-mercantil"
     },
@@ -181,11 +181,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Ambientales"],
         "campus": ["Saltillo", "Monterrey", "Torreon"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "gestion-ambiental"
     },
@@ -196,11 +196,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo", "Piedras Negras"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "docencia"
     },
@@ -211,11 +211,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Torreon"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "educacion"
     },
@@ -226,11 +226,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "gestion-negocios-manufactura"
     },
@@ -241,11 +241,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon", "Reynosa", "Monterrey"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "administracion-liderazgo"
     },
@@ -256,11 +256,11 @@
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Monclova", "Piedras Negras"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "docencia-investigacion-educativa"
     },
@@ -271,11 +271,11 @@
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Monterrey", "Reynosa", "Piedras Negras", "Saltillo"],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "sistema-penal-acusatorio"
     },
@@ -286,11 +286,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "",
+          "alt": "maestria"
+        }
       },
       "route": "mercadotecnia-estrategica"
     },
@@ -301,11 +301,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Económico - Administrativas"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "administracion"
     },
@@ -316,11 +316,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "comunicacion-empresarial"
     },
@@ -331,11 +331,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "derecho"
     },
@@ -346,11 +346,11 @@
         "modalidad": ["Online"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "desarrollo-organizacional-talento-humano"
     },
@@ -361,11 +361,11 @@
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Economico - Aministrativas"],
         "campus": [],
-        "nivel": ["Posgrado"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "maestria"
+        }
       },
       "route": "mercadotecnia-digital"
     }

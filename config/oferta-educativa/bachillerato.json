@@ -31,11 +31,11 @@
         "modalidad": ["Presencial", "Bilingüe", "Online"],
         "areaConocimiento": ["Educación Media"],
         "campus": [],
-        "nivel": ["Bachillerato"]
-      },
-      "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "bachillerato"
+        "nivel": ["Bachillerato"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "bachillerato"
+        }
       },
       "route": "bachillerato"
     }

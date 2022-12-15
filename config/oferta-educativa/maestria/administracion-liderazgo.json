@@ -12,6 +12,10 @@
       "areaConocimiento": ["Económico - Administrativo"],
       "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon", "Reynosa", "Monterrey"],
       "nivel": ["Posgrado"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "maestria"
+      },
       "curriculum": {
         "Presencial": {
           "Matamoros": "1I5aaUq5L11FQ4HHnSifOYkr7SJWBEKas",
@@ -31,7 +35,7 @@
       "title": "Maestría en Administración y Liderazgo",
       "description": "La Maestría en Administración y Liderazgo nos enfoca como profesionistas a desarrollar las habilidades necesarias para que la empresa pueda conseguir objetivos. La idea es conseguir el máximo potencial de los trabajadores para que se satisfagan las necesidades de la empresa.",
       "image": {
-        "src": "",
+        "src": "https://picsum.photos/428/321",
         "alt": "Administración y Liderazgo"
       }
     },
@@ -45,8 +49,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Este programa está dirigido a ingenieros o licenciados de cualquier profesión. Requisitos de ingreso:\nLos aspirantes a cursar la Especialidad deberán cubrir los siguientes requisitos:\n- Tener experiencia mínimo de dos años en el área de industrial, mercadotecnia, finanzas, administración y recursos humanos.",
@@ -54,30 +58,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "La Maestría en Administración y Liderazgo formará profesionistas capaces de identificar amenazas y oportunidades en el ambiente competitivo de una organización, fortalecerá sus conocimientos sobre las teorías de liderazgo y desarrollarás habilidades que le permitan satisfacer las necesidades del cliente.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "El egresado de la Maestría en Administración y Liderazgo de UANE podrá ejercer en:\nProducción\nSeguridad\nCalidad\nLogística\nRecursos humanos Finanzas\nTransporte Mantenimiento Planificación Investigación y desarrollo Mercadeo",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
@@ -89,8 +93,8 @@
               "cards": [
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de ingreso",
                   "text": "Este programa está dirigido a ingenieros o licenciados de cualquier profesión. Requisitos de ingreso:\nLos aspirantes a cursar la Especialidad deberán cubrir los siguientes requisitos:\nTener experiencia mínimo de dos años en el área de industrial, mercadotecnia, finanzas, administración y recursos humanos.",
@@ -98,30 +102,30 @@
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Perfil de egreso",
                   "text": "La Maestría en Administración y Liderazgo formará profesionistas capaces de identificar amenazas y oportunidades en el ambiente competitivo de una organización, fortalecerá sus conocimientos sobre las teorías de liderazgo y desarrollarás habilidades que le permitan satisfacer las necesidades del cliente.",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#B0003C"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
                   "text": "Los egresados en la Maestría en Administración y Liderazgo son imprescindibles en la planificación, organización, dirección y control de los recursos, ya sean humanos, tecnológicos o de una organización. De ahí la importancia de su rol en las empresas y en la economía del país. Podrán desempeñar sus conocimientos en el sector público y privado y como consultor y especialista independiente, dictando conferencias y asesorando grandes marcas.",
-                  "backgroundColor": "#8B9BA3"
+                  "backgroundColor": "#E84537"
                 },
                 {
                   "image": {
-                    "desktop": "",
-                    "mobile": ""
+                    "desktop": "https://picsum.photos/640/320",
+                    "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Requisitos de admisión",
                   "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                  "backgroundColor": "#6F7C82"
+                  "backgroundColor": "#00BEB4"
                 }
               ],
               "wrapper": false
