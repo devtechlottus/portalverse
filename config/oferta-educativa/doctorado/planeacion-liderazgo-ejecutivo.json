@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Doctorado en Planeación y Liderazgo Ejecutivo",
       "modalidad": ["Presencial"],
-      "areaConocimiento": ["Ciencias Sociales"],
+      "areaConocimiento": ["Económico - Administrativo"],
       "campus": ["Monclova", "Piedras negras", "Saltillo"],
       "nivel": ["Posgrado"],
       "image": {

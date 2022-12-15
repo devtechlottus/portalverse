@@ -8,19 +8,18 @@
     "title": "Maestría en Derecho Mercantil",
     "config": {
       "nombre": "Maestría en Derecho Mercantil",
-      "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": ["Saltillo"],
+      "nivel": ["Posgrado"],
       "image": {
         "src": "https://picsum.photos/428/321",
-        "alt": "maestria"
+        "alt": "Maestría en Derecho Mercantil"
       },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": ""
-        },
-        "Online": ""
+          "Saltillo": "1aIhvhzazDOrC0BMhVsWqVrqXc-ib_7V8"
+        }
       }
     }
   },
@@ -65,7 +64,7 @@
                     "mobile": "https://picsum.photos/640/320"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:                                 Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
+                  "text": "El egresado de la Maestría en Salud Ocupacional de UANE podrá ejercer en:\n\n- Organizaciones públicas como instituciones de salud Organizaciones privadas como la industria alimentaria, minería, automotriz, agrícola, etc.",
                   "backgroundColor": "#E84537"
                 },
                 {
