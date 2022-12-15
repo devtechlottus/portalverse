@@ -216,7 +216,7 @@ const Routes: any = {
           { params: { "program": "gestion-servicios-salud" } },
           { params: { "program": "salud-ocupacional" } },
           { params: { "program": "derecho-laboral" } },
-          { params: { "program": "terapia-laboral" } },
+          { params: { "program": "terapia-familiar" } },
           { params: { "program": "justicia-administrativa" } },
           { params: { "program": "derecho-mercantil" } },
           { params: { "program": "gestion-ambiental" } },
