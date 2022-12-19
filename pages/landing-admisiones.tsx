@@ -168,7 +168,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-  const { sections, meta } = await getDataPageFromJSON('landingAdmisiones.json');
+  const { sections, meta } = await getDataPageFromJSON('landing-admisiones.json');
 
   return {
     props: { sections, meta }
