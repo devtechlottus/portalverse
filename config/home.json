@@ -6,11 +6,51 @@
   },
   "sections": {
     "head": {
-      "banner":{
-        "title": "UANE estrena sitio web", 
-        "subtitle": "Nos estamos renovando para darte la mejor oferta educativa", 
-        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
-      }
+      "banner": 
+        {
+          "width": "100%",
+          "height": "600px",
+          "iconleft": "arrow_back_ios",
+          "iconright": "arrow_forward_ios",
+          "slides": [
+            {
+              "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
+              "text": "Carreras sabatinas con sesiones de 4 horas.",
+              "urlImage": {
+                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              },
+              "center": true,
+              "left": false,
+              "middle": true,
+              "bottom": false
+            },
+            {
+              "title": "Conecta con el mundo", 
+              "text": "UANE te da acceso a diferentes programas internacionales con movilidad al extranjero y en línea.",
+              "urlImage": {
+                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              },
+              "center": true,
+              "left": false,
+              "middle": true,
+              "bottom": false
+            },
+            {
+              "title": "¡Tenemos vacantes nuevas!", 
+              "text": "Accede y descubre las oportunidades que tenemos para ti.",
+              "urlImage": {
+                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              },
+              "center": true,
+              "left": false,
+              "middle": true,
+              "bottom": false
+            }
+          ]
+        }
     },
     "oferta": {
       "title": "¿Qué me ofrece UANE para estudiar?",
@@ -132,10 +172,10 @@
       "wrapper": true
     },
     "numbers":[
-      { "icon": "persons", "prefix": "+", "number": "77%", "suffix": "+", "title": "Alumnos", "body": "con experiencias internacionales acceden a puestos directivos.", "container": true },
-      { "icon": "persons", "prefix": "+", "number": "11", "suffix": "+", "title": "Formas", "body": "diferentes de internacionalizar tu título en UANE.", "container": true },
-      { "icon": "persons", "prefix": "+", "number": "1111", "suffix": "+", "title": "Titulación", "body": "Obtén título de UANE y uno más de alguna univesidad extranjera.", "container": true },
-      { "icon": "persons", "prefix": "+", "number": "9", "suffix": "+", "title": "Alianzas", "body": "con universidades en el extranjero.", "container": true }
+      { "icon": "apartment", "prefix": "", "number": "8", "suffix": "", "title": "Campus en el país", "body": "", "container": true },
+      { "icon": "manage_history", "prefix": "+", "number": "48", "suffix": "+", "title": "Años de experiencia", "body": "", "container": true },
+      { "icon": "group", "prefix": "+", "number": "12500", "suffix": "+", "title": "Alumnos Inscritos", "body": "", "container": true },
+      { "icon": "history_edu", "prefix": "+", "number": "48000", "suffix": "+", "title": "Egresados", "body": "", "container": true }
     ],
     "vozUane": {
       "title": "Voz UANE blog",

@@ -13,7 +13,7 @@ const Carousel: FC<CarouselPortalverseComponentData> = ({ data, }: CarouselPorta
       iconright: data.iconright || 'arrow_forward_ios',
       size: data.size || '',
       slides: [...data.slides] || [],
-      wrapper: false
+      wrapper: true
     };
 
     setSlidesData([...data.slides]);
