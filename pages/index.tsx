@@ -5,7 +5,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import OfertaEducativa from "@/components/OfertaEducativa"
-import BannerPortalverse from "@/components/BannerPortalverse"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Banner from "@/components/Banner"
 import Youtube from "@/components/Youtube"
@@ -14,6 +13,7 @@ import Numbers from "@/components/Numbers"
 import CardWebsite from "@/components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Slider from "@/components/Slider"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
@@ -25,11 +25,13 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
     <HeaderFooterLayout breadcrumbs={false}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <BannerPortalverse data={ sections.head.banner } />
+          <Slider data={{ ...sections.head.banner, height: "350px" }} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
-        <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ {...sections.head.banner, title:"BIENVENIDOS OSOS", subtitle:"¡Nos renovamos para darte la mejor oferta educativa!"} }/>
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <Slider data={{ ...sections.head.banner }} />
+        </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
         </div>
