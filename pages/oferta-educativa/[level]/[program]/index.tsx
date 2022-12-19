@@ -128,32 +128,15 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
       {
         level !== 'bachillerato'
           ? <>
-              {/* <section className="w-d:block w-t:hidden w-p:hidden">
-                <ContentLayout>
-                  <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4">
-                    <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:py-[72px] w-d:px-[100px] w-t:px-0 w-t:pt-12 w-t:pb-6 w-p:py-6 bg-SC-Actions-AC-200">
-                      <Academia data={info.searchSection} result={info.searchResult} select={info.select} />
-                    </div>
-                  </ContentInsideLayout>
-                </ContentLayout>
-              </section>
-              
-              <ContentFullLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4 px-6 w-d:hidden w-t:block w-p:block bg-SC-Actions-AC-200">
-                <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4">
-                  <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:py-[72px] w-d:px-[100px] w-t:px-0 w-t:pt-12 w-t:pb-6 w-p:py-6">
-                    <Academia data={info.searchSection} result={info.searchResult} select={info.select} />
-                  </div>
-                </ContentInsideLayout>
-              </ContentFullLayout> */}
               <ContentLayout>
                 <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
                   <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
                     <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Consulta tu plan de estudios en esta modalidad</h1>
                     <div className="my-6">
-                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
+                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus", icon: "apartment"}} options={selectData} />
                     </div>
                     <div className="flex justify-center">
-                      <Button data={{...sections.descarga}} onClick={downloadFileProgram} />
+                      <Button data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />
                     </div>
                   </div>
                 </ContentInsideLayout>
@@ -212,41 +195,10 @@ export async function getStaticPaths(props: any) {
 export async function getStaticProps(context: any) {
   const { params: { level, program } } = context;
   const { meta, config, sections, form } = await getDataPageFromJSON(`/oferta-educativa/${level}/${program}.json`);
-  // const diccionario: any = {
-  //   licenciatura,
-  //   especialidad,
-  //   doctorado,
-  //   maestria,
-  //   bachillerato,
-  // };
-  // const infoLevel = diccionario[levelSelected];
-  // const formConfig = {
-  //   level: { hidden: true, value: levelSelected },
-  //   program: { hidden: levelSelected === "bachillerato", value: program },
-  //   modality: { hidden: false },
-  //   campus: { hidden: false },
-  // };
-  // const formCopiesSuperior = {
-  //   stepone: {
-  //     title: "Obten informes sobre tu programa",
-  //     subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
-  //   }
-  // };
-  // const formCopiesBachillerato = {
-  //   stepone: {
-  //     title: "¿Quieres más información sobre tu bachillerato?",
-  //     subtitle: "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
-  //   }
-  // };
-
-  // const formCopies = levelSelected === 'bachillerato'
-  //   ? { ...formCopiesBachillerato }
-  //   : { ...formCopiesSuperior };
 
   return {
     props: {
       level, program, meta, config, sections, form
-      /*data: { level: levelSelected, program, info: infoLevel[program] }, form: { ...formConfig }, formCopies: { ...formCopies }*/
     },
   }
 }

@@ -17,7 +17,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
     setYear(new Date().getFullYear().toString());
   }, []);
 
-  return <section className="w-full border-t-[1px] border-solid border-[#282828] mt-[72px]">
+  return <section className="w-full border-t-[1px] border-solid border-[#282828]">
     {/* Section logotype */}
     <div className="p-6 w-p:hidden border-b-[1px] border-solid border-[#CDCDCD]">
       <div className="flex justify-between items-center mb-6">

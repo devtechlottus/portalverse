@@ -32,7 +32,7 @@ import CardsOstanding from "@/components/CardsOustanding"
 import Carousel from "@/components/Carousel"
 import Slider from "@/components/Slider"
 import Table from "@/components/Table"
-import CarouselPortalverse from "@/components/CarouselPortalverse"
+import CarouselPortalverse from "@/components/CarouselPortalverse/CarouselPortalverse"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -660,18 +660,6 @@ export async function getStaticProps(context: any) {
     {
       image: {
         alt: "aaa",
-        src: "https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg"
-      },
-      title: "titulo2",
-      subtitle: "subtitle2",
-      action: {
-        ...ButtonInit,
-        title: "Conoce más"
-      }
-    },
-    {
-      image: {
-        alt: "aaa",
         src: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
       },
       title: "titulo3",
@@ -680,7 +668,19 @@ export async function getStaticProps(context: any) {
         ...ButtonInit,
         title: "Conoce más"
       }
-    }] }},
+    },
+    {
+      image: {
+        alt: "aaa",
+        src: "https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg"
+      },
+      title: "titulo2",
+      subtitle: "subtitle2",
+      action: {
+        ...ButtonInit,
+        title: "Conoce más"
+      }
+    },] }},
   ];
   const { params: { component } } = context;
   const preFilter = components.filter((item: any) => item.component === component)
