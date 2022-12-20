@@ -13,7 +13,7 @@ import Mosaic from "@/components/Mosaic"
 import Youtube from "@/components/Youtube"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 
-const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
+const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
 
   const router = useRouter()
 
@@ -166,4 +166,4 @@ export async function getStaticProps(context: any) {
   }
 }
 
-export default ThankYouPage
+export default SomosUane
