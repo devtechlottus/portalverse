@@ -1,0 +1,88 @@
+{
+    "meta": {
+      "title": "Podcast",
+      "description": "",
+      "keywords": ""
+    },
+    "sections": {
+      "head": {
+        "banner": {
+          "title": "Voz UANE",
+          "subtitle": "Un episodio nuevo cada dos semanas.\nSíguenos a través de spotify",
+          "state": "",
+          "size": "medium",
+          "middle": false,
+          "center": false,
+          "bottom": false,
+          "left": true,
+          "urlImage": {
+            "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
+            "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+          },
+          "overlay": "white",
+          "height": "342px",
+          "action": {
+            "id": "",
+            "type": "outlined",
+            "title": "Ir a Spotify",
+            "size": "small",
+            "icon": "",
+            "lyIcon": false,
+            "disabled": false,
+            "isExpand": false,
+            "tagOnClick": "testClick", "test": ""
+          },
+          "wrapper": true,
+          "redirect": "https://open.spotify.com/"
+        }
+      },
+      "lastPodcast":{
+        "title": "Último Podcast",
+        "podcast": { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}}
+      },
+      "allPodcast":{
+        "title": "Todos los Podcast",
+        "items": [
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}},
+          { "config": { "type": "episode", "format": "normal", "id": "1iMWrWrpocYYtxS2wV6tJt"}}
+        ],
+        "paginator": { "iconPrevious": "arrow_back_ios", "iconNext": "arrow_forward_ios", "size": "small", "maxNumbers": 10}
+      },
+      "vozUane": {
+        "banner": {
+          "title": "Voz UANE ayuda a difundir tus ideas.",
+          "subtitle": "Si eres parte de la comunidad contacta al equipo: vozuane@lottuseducation.com.mx",
+          "state": "",
+          "size": "medium",
+          "middle": false,
+          "center": false,
+          "bottom": false,
+          "left": true,
+          "urlImage": {
+            "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
+            "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+          },
+          "overlay": "white",
+          "height": "",
+          "action": {
+            "id": "",
+            "type": "outlined",
+            "title": "Contactar",
+            "size": "small",
+            "icon": "",
+            "lyIcon": false,
+            "disabled": false,
+            "isExpand": false,
+            "tagOnClick": "testClick", "test": ""
+          },
+          "wrapper": true,
+          "redirect": "vozUane"
+        }
+      }
+    }
+  }
