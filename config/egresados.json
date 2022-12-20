@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Egregsados",
+    "title": "Egresados",
     "description": "",
     "keywords": ""
   },
@@ -8,8 +8,12 @@
     "head": {
       "banner": {
         "title": "Egresados", 
-        "subtitle": "", 
-        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+        "subtitle": "Estadísticas", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+        "statics": [
+          { "icon": "", "prefix": "+", "number": "108", "suffix": "", "title": "", "body": "Vacantes enviadas durante 2022", "container": true },
+          { "icon": "", "prefix": "+", "number": "29", "suffix": "", "title": "", "body": "Invitaciones a nuestros alumnos y egresados ", "container": true }
+        ]
       }
     },
     "introduccion": {
