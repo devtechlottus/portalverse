@@ -1,0 +1,147 @@
+{
+  "meta":{
+    "title": "Vida Estudiantil",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "title": "Vida estudiantil",
+      "subtitle": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      "image": {
+        "desk": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+        },
+        "mobile": {
+          "alt": "imagen",
+          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+        }
+      }
+    },
+    "sportActivities": {
+      "title": "Actividades deportivas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
+      "moreInformation": "¿Quieres más información?",
+      "moreInformationLink": {
+        "text": "actividades_deportivas@uane.mx",
+        "size": "large",
+        "isUnderline": false,
+        "isBold": false,
+        "disabled": false,
+        "id": "undefined",
+        "iconFirst": "",
+        "iconSecond": ""
+      },
+      "video": {
+        "options": {
+          "id": "Ae84Xfec1HM",
+          "type": "single",
+          "controls": true
+        },
+        "dimensions": {
+          "height": "500px"
+        }
+      }
+    },
+    "culturalActivities": {
+      "title": "Actividades Culturales",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
+      "moreInformation": "¿Quieres más información?",
+      "moreInformationLink": {
+        "text": "actividades_culturales@uane.mx",
+        "size": "large",
+        "isUnderline": false,
+        "isBold": false,
+        "disabled": false,
+        "id": "undefined",
+        "iconFirst": "",
+        "iconSecond": ""
+      },
+      "video": {
+        "options": {
+          "id": "Ae84Xfec1HM",
+          "type": "single",
+          "controls": true
+        },
+        "dimensions": {
+          "height": "500px"
+        }
+      }
+    },
+    "lifeUANE": {
+      "title": "La vida en UANE",
+      "images": {"images": [{"id": "1", "image": "https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium", "icon": "zoom_out_map" }, {"id": "2", "image": "https://www.fotocommunity.es/styleguide/img/homepage/ottilia.jpg", "icon": "zoom_out_map" }, {"id": "3", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"}, {"id": "4", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"},{"id": "1", "image": "https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium", "icon": "zoom_out_map"}, {"id": "2", "image": "https://th.bing.com/th/id/R.e2607cf730a72b5ce7024be6003c558c?rik=nsEV30f5tEd4Uw&riu=http%3a%2f%2finformacionimagenes.net%2fwp-content%2fuploads%2f2017%2f05%2fAnimales-salvajes-55.jpg&ehk=BIvlyNek99FY06ulqPA8F8XiK49vWahPniSVCLV4P5Y%3d&risl=&pid=ImgRaw&r=0", "icon": "zoom_out_map" }, {"id": "3", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"}, {"id": "4", "image": "https://th.bing.com/th/id/R.b9760e7cd34211c15d5e34d07dd8ba4c?rik=fSZN4Dk2BlNUUw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k5NoJq9ax90%2fTwwRmC0VYmI%2fAAAAAAAAAbY%2fWvIsdkfWI8c%2fs1600%2fBeautiful_Animal_Wallpaper_rp5pe.jpg&ehk=fg%2bG0NrN5rmEaj9A0IsT9JdEbhPmKGvSOtFlzetkSf0%3d&risl=&pid=ImgRaw&r=0", "icon": "zoom_out_map"}]}
+    },
+    "lifeUANEarticles": {
+      "title": "Artículos sobre la vida estudiantil en UANE",
+      "articles": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true
+        }
+      ]
+    }
+  }
+}
