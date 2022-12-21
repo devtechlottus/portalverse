@@ -7,9 +7,15 @@
   "sections": {
     "head": {
       "banner":{
-        "title": "Empleabilidad", 
-        "subtitle": "", 
-        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+        "title": "Bolsa de empleo", 
+        "subtitle": "Estadísticas", 
+        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+        "statics": [
+          { "icon": "", "prefix": "+", "number": "108", "suffix": "", "title": "", "body": "Vacantes enviadas durante 2022", "container": true },
+          { "icon": "", "prefix": "+", "number": "29", "suffix": "", "title": "", "body": "Invitaciones a nuestros alumnos y egresados ", "container": true },
+          { "icon": "", "prefix": "+", "number": "355", "suffix": "", "title": "", "body": "Convenios con empresas firmados", "container": true },
+          { "icon": "", "prefix": "+", "number": "3291", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": true }
+        ]
       }
     },
     "descripcion": {
