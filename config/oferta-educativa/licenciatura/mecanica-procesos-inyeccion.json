@@ -1,32 +1,36 @@
 {
   "meta": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Ingeniería Mecánica en Procesos de Inyección",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Ingeniería Mecánica en Procesos de Inyección",
     "config": {
-      "nombre": "Especialidad en Administración y Liderazgo",
-      "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "nombre": "Ingeniería Mecánica en Procesos de Inyección",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Exactas"],
+      "campus": [ "Saltillo", "Monterrey" ],
+      "nivel": ["Licenciatura"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "licenciatura"
+      },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": ""
-        },
-        "Online": ""
+          "Saltillo": "1GYL6xURW-wUHlW6clT2vKVpUS784UUW2",
+          "Monterrey": "1p8AHRMs5OHOFtucfIV5AApmwfNI2sZas"
+        }
       }
     }
   },
   "sections": {
     "head": {
-      "title": "Especialidad en Administración y Liderazgo",
-      "description": "",
+      "title": "Ingeniería Mecánica en Procesos de Inyección",
+      "description": "Administra operaciones empresariales de manufactura con estrategias a la vanguardia de moldes y piezas en plásticos, aplica métodos y tecnologías actuales en compañías.",
       "image": {
-        "src": "",
-        "alt": "Administración y Liderazgo"
+        "src": "https://picsum.photos/428/321",
+        "alt": "Mecánica en Procesos de Inyección"
       }
     },
     "modalities": {
@@ -43,7 +47,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "Los aspirantes a estudiar Ingeniería Mecánica en Procesos de Inyeccióna ingresar al programa educativo deberán tener gusto y habilidad para la resolución de problemas, gusto por las ciencias y aplicaciones fisico-matematicas, aptitud para realizar actividades en las áreas técnicas y administrativas y trabajo en equipo.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -52,7 +56,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Estudiar Ingeniería en Mecánica en Procesos de Inyección te permitirá administrar las operaciones de empresas relacionadas con el diseño y la manufactura de moldes y piezas en plásticos y aplicar métodos de ingeniería y tecnologías de vanguardia para responder a los requerimientos de los clientes.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -61,7 +65,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "Los egresados de la Ingeniería Mecánica en Procesos de Inyección podrán administrar las operaciones de empresas industriales del sector público y prividado, relacionadas con el diseño y la manufactura de moldes y piezas en plásticos, así como aplicar métodos de ingeniería y tecnologías de vanguardia para responder a los requerimientos de los clientes.",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -70,51 +74,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "",
-                  "backgroundColor": "#00BEB4"
-                }
-              ],
-              "wrapper": false
-            }
-          },
-          {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
-            "content": {
-              "cards": [
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5",
-                    "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
-                  },
-                  "title": "Perfil de ingreso",
-                  "text": "",
-                  "backgroundColor": "#8B9BA3"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
-                  },
-                  "title": "Perfil de egreso",
-                  "text": "",
-                  "backgroundColor": "#B0003C"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
-                  },
-                  "title": "Campo Laboral",
-                  "text": "",
-                  "backgroundColor": "#E84537"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
-                  },
-                  "title": "Requisitos de admisión",
-                  "text": "",
+                  "text": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                   "backgroundColor": "#00BEB4"
                 }
               ],
@@ -126,7 +86,7 @@
       }
     },
     "descarga": {
-      "id": "program_maestria",
+      "id": "program_licenciatura",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -140,8 +100,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "maestria" },
-      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "level": { "hidden": true, "value": "licenciatura" },
+      "program": { "hidden": false, "value": "Mecánica en Procesos de Inyección" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },

@@ -145,24 +145,9 @@
       "route": "administracion-empresas-turisticas"
     },
     {
-      "title": "Ingeniería Mecánica en Procesos de Inyección",
+      "title": "Ingeniería Industrial y de Sistemas",
       "config": {
-        "nombre": "Ingeniería Mecánica en Procesos de Inyección",
-        "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias Exactas"],
-        "campus": [ "Saltillo", "Monterrey" ],
-        "nivel": ["Licenciatura"],
-        "image": {
-          "src": "https://picsum.photos/428/321",
-          "alt": "licenciatura"
-        }
-      },
-      "route": "mecanica-procesos-inyeccion"
-    },
-    {
-      "title": "Ingeniería Mecánica en Procesos de Inyección",
-      "config": {
-        "nombre": "Ingeniería Mecánica en Procesos de Inyección",
+        "nombre": "Ingeniería Industrial y de Sistemas",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
@@ -210,7 +195,7 @@
         "nombre": "Licenciatura en Derecho",
         "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova" ],
+        "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://picsum.photos/428/321",
@@ -428,6 +413,21 @@
         }
       },
       "route": "gestion-deportiva"
+    },
+    {
+      "title": "Ingeniería Mecánica en Procesos de Inyección",
+      "config": {
+        "nombre": "Ingeniería Mecánica en Procesos de Inyección",
+        "modalidad": ["Presencial"],
+        "areaConocimiento": ["Ciencias Exactas"],
+        "campus": [ "Saltillo", "Monterrey" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://picsum.photos/428/321",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "mecanica-procesos-inyeccion"
     }
   ]
 }
