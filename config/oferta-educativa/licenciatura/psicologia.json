@@ -1,32 +1,43 @@
 {
   "meta": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Psicología",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Psicología",
     "config": {
-      "nombre": "Especialidad en Administración y Liderazgo",
-      "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "nombre": "Licenciatura en Psicología",
+      "modalidad": ["Presencial"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
+      "nivel": ["Licenciatura"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "licenciatura"
+      },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": ""
+          "Saltillo": "1IyRB9sRFHBn1JbEAdxCQ0Vc-w3NHv1JA",
+          "Monterrey": "1DIbnCHKGLYBtHVdWLogiUc2rRba4WJ8r",
+          "Matamoros": "1QQD1i_1EEOEl0kIYc4gRWQQpQ7qPHlYX",
+          "Torreon": "1QITOLsbvcmI8PkA-iRofCLDZjTZJ-5XJ",
+          "Piedras Negras": "1f75-kxsLPi2_GVMDBUQPpN0cz2mofCyN",
+          "Sabinas": "1cP3064cAw3OVyN-ZO_VFMkkdK9ygBqww",
+          "Reynosa": "1E8wpoKqSbNTW-MsYB4Sae8fRwpdMb20Q",
+          "Monclova": "1vntzenIE1ombyo9bYgCwR0gmSZ8pR6L5"
         },
-        "Online": ""
+        "Online": "1ZHOOcVeBfX3DUh7Mfe1kGvkUMynVLO6e"
       }
     }
   },
   "sections": {
     "head": {
-      "title": "Especialidad en Administración y Liderazgo",
-      "description": "",
+      "title": "Licenciatura en Psicología",
+      "description": "Interviene en áreas clínicas, sociales o educativas y desarrolla estrategias a beneficio de la salud mental. Escucha, analiza y evalúa la conducta. Motiva al cambio.",
       "image": {
-        "src": "",
-        "alt": "Administración y Liderazgo"
+        "src": "https://picsum.photos/428/321",
+        "alt": "Psicología"
       }
     },
     "modalities": {
@@ -43,7 +54,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a la Licenciatura en Psicología deberá contar con habilidad de comunicación e interacción para trabajar en equipo. Gusto por la escucha activa. Capacidad manifiesta por la lectura y el análisis de texto como una disciplina y como una forma de desarrollo personal y profesional.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -52,7 +63,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "La Licenciatura en Psicología te dará las herramientas para realizar intervenciones en las áreas clínica, social, educativa e industrial para promover el bienestar integral de los individuos, grupos y sociedad. Además, desarrollarás estrategias para la prevención y promoción de la salud mental.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -61,7 +72,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "Como egresado de la Licenciatura en Psicología, podrás desempeñar tus conocimientos en el sector público como clínicas, instituciones de apoyo psicológico, oficinas o áreas de atención familiar, así como escuelas entre los que se incluyen gabinetes de orientación psicológica y educativa, así como en empresas del sector privado o como independiente desarrollando tu propio consultorio.",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -70,51 +81,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "",
-                  "backgroundColor": "#00BEB4"
-                }
-              ],
-              "wrapper": false
-            }
-          },
-          {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
-            "content": {
-              "cards": [
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5",
-                    "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
-                  },
-                  "title": "Perfil de ingreso",
-                  "text": "",
-                  "backgroundColor": "#8B9BA3"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
-                  },
-                  "title": "Perfil de egreso",
-                  "text": "",
-                  "backgroundColor": "#B0003C"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
-                  },
-                  "title": "Campo Laboral",
-                  "text": "",
-                  "backgroundColor": "#E84537"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
-                  },
-                  "title": "Requisitos de admisión",
-                  "text": "",
+                  "text": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                   "backgroundColor": "#00BEB4"
                 }
               ],
@@ -126,7 +93,7 @@
       }
     },
     "descarga": {
-      "id": "program_maestria",
+      "id": "program_licenciatura",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -140,8 +107,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "maestria" },
-      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "level": { "hidden": true, "value": "licenciatura" },
+      "program": { "hidden": false, "value": "Psicología" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },

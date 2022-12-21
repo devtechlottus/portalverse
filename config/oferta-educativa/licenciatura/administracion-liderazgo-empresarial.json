@@ -1,32 +1,40 @@
 {
   "meta": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Administración y Liderazgo Empresarial",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Administración y Liderazgo Empresarial",
     "config": {
-      "nombre": "Especialidad en Administración y Liderazgo",
-      "modalidad": ["Presencial", "Online"],
+      "nombre": "Licenciatura en Administración y Liderazgo Empresarial",
+      "modalidad": ["Online", "Flex"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+      "nivel": ["Licenciatura"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "licenciatura"
+      },
       "curriculum": {
-        "Presencial": {
-          "Piedras Negras": ""
+        "Flex": {
+          "Saltillo": "10XT_SbeX6plfDScFzDKdnIfDrxyOT4s2",
+          "Monterrey": "10XT_SbeX6plfDScFzDKdnIfDrxyOT4s2",
+          "Piedras Negras": "10XT_SbeX6plfDScFzDKdnIfDrxyOT4s2",
+          "Torreon": "10XT_SbeX6plfDScFzDKdnIfDrxyOT4s2",
+          "Matamoros": "10XT_SbeX6plfDScFzDKdnIfDrxyOT4s2"
         },
-        "Online": ""
+        "Online": "10E3bzRbSQbWrvUAiMmOl08nxkqp1iWl0"
       }
     }
   },
   "sections": {
     "head": {
-      "title": "Especialidad en Administración y Liderazgo",
-      "description": "",
+      "title": "Licenciatura en Administración y Liderazgo Empresarial",
+      "description": "Optimiza los recursos de instituciones públicas y privadas  a  través  de  procesos  administrativos. Coordina e implementa estrategias innovadoras  de  desarrollo.",
       "image": {
-        "src": "",
-        "alt": "Administración y Liderazgo"
+        "src": "https://picsum.photos/428/321",
+        "alt": "Administración y Liderazgo Empresarial"
       }
     },
     "modalities": {
@@ -34,7 +42,7 @@
       "tabs": {
         "items": [
           {
-            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
@@ -43,7 +51,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a ingresar a la Licenciatura en Administración debe sentir pasión por los negocios, y tener las siguientes características:\nUna mente creativa y analítica enfocada a la acción.\nFlexibilidad y dinamismo para aceptar el cambio.\nFacilidad para establecer relaciones interpersonales y trabajar en equipo.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -52,7 +60,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Al estudiar la Licenciatura en Administración y Liderazgo Empresarial serás capaz de contribuir a la planeación, organización, dirección y control de los recursos de cualquier organización lucrativa. Serás pieza fundamental de la toma de decisiones a través de la innovación empresarial y las tecnologías de la información como herramientas de apoyo para orientar el desarrollo del negocio.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -61,7 +69,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "El egresado de la Licenciatura en Administración y Liderazgo Empresarial planifica, organiza, coordina y controla los diferentes recursos dentro de organizaciones públicas y privadas. Desempeña funciones directivas, asesora y presta asistencia técnica para las funciones gerenciales de dichas organizaciones.",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -78,7 +86,7 @@
             }
           },
           {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "label": "Modalidad Flex", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
@@ -87,7 +95,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a ingresar a la Licenciatura en Administración y Liderazgo Empresarial deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.\n- Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n- Desarrollar un pensamiento crítico y constructivo.\n- Aplicar el razonamiento lógico.\n- Manejar equipos de cómputo y electrónicos.\n- Tener la capacidad para liderar grupos de trabajo.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -96,7 +104,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "- Desarrollará una visión integral sobre los objetivos de lasorganizaciones y sus estrategias.\n- Conducirá grupos de trabajo y logrará la solución de conflictos para lograr objetivos organizacionales.\n- Asesorará en el diseño e implantación de sistemas y modelos administrativos para la toma de decisiones.\n- Operará sistemas de cómputo y comunicación para el procesamiento de la información.\n- Fundamentará la toma de decisiones, basándose en el análisis de información.\n- Propondrá alternativas de solución para la toma de decisiones.\n- Evaluará con sentido crítico las situaciones a través del uso de evidencia de investigación confiable y relevante para contribuir con la solución de los problemas empresariales.\n- Propondrá soluciones para resolver asuntos específicos relacionados con",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -126,7 +134,7 @@
       }
     },
     "descarga": {
-      "id": "program_maestria",
+      "id": "program_licenciatura",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -140,8 +148,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "maestria" },
-      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "level": { "hidden": true, "value": "licenciatura" },
+      "program": { "hidden": false, "value": "Administración y Liderazgo Empresarial" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },

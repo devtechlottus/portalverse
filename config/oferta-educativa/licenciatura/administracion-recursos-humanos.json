@@ -1,20 +1,28 @@
 {
   "meta": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Administración de Recursos Humanos",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Licenciatura en Administración de Recursos Humanos",
     "config": {
-      "nombre": "Especialidad en Administración y Liderazgo",
+      "nombre": "Licenciatura en Administración de Recursos Humanos",
       "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "areaConocimiento": ["Ciencias Sociales"],
+      "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
+      "nivel": ["Licenciatura"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "licenciatura"
+      },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": ""
+          "Saltillo": "",
+          "Sabinas": "1rkV5jB6Kf34VrGisyFrGNy0pWxRfBPVL",
+          "Torreon": "1FbHPvkRrnQfXjOJOgmmw8Rbn7kN_D2CK",
+          "Piedras Negras": "1_dZf746WglxJyTUHz-PT8tp5bf1kk6U7",
+          "Monclova": "1bJrNjDH5IMxpVE-2NCgbdHaPOACylkys"
         },
         "Online": ""
       }
@@ -22,11 +30,11 @@
   },
   "sections": {
     "head": {
-      "title": "Especialidad en Administración y Liderazgo",
-      "description": "",
+      "title": "Licenciatura en Administración de Recursos Humanos",
+      "description": "Participa en procesos administrativos de los recursos humanos y diseña planes para el desarrollo de talentos en ambientes organizacionales. Contribuye a un sano entorno.",
       "image": {
-        "src": "",
-        "alt": "Administración y Liderazgo"
+        "src": "https://picsum.photos/428/321",
+        "alt": "Administración de Recursos Humanos"
       }
     },
     "modalities": {
@@ -43,7 +51,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a cursar la Licenciatura en administración de recursos humanos debe tener conocimientos básicos de matemáticas, economía, administración, derecho y métodos de investigación; además de contar con el manejo adecuado de procesador de textos, comunicación oral y escrita, así como valores de compromiso, responsabilidad, tolerancia, respeto, honestidad, empatía, colaboración y servicio, así como gusto por el trabajo en equipos interdisciplinarios y emprendimiento.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -52,7 +60,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Como egresado de este programa podrás participar en los procesos de la administración del recurso humano, el desarrollo de sus talentos y el diseño de planes para la conservación de los colaboradores, en un ambiente organizacional incluyente y seguro, alineados al logro de las metas de la empresa.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -61,7 +69,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "El licenciado en Administración de Recursos Humanos egresado de UANE podrá trabajar en:\n- Empresas de manufactura y comercio.\n- Administración pública.\n- Buffet de asesoría a empresas",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -70,7 +78,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "",
+                  "text": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                   "backgroundColor": "#00BEB4"
                 }
               ],
@@ -87,7 +95,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a cursar la Licenciatura en administración de recursos humanos debe tener conocimientos básicos de matemáticas, economía, administración, derecho y métodos de investigación; además de contar con el manejo adecuado de procesador de textos, comunicación oral y escrita, así como valores de compromiso, responsabilidad, tolerancia, respeto, honestidad, empatía, colaboración y servicio, así como gusto por el trabajo en equipos interdisciplinarios y emprendimiento.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -96,7 +104,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Con la Licenciatura en Administración de Recursos Humanos serás capaz de crear y mantener un buen ambiente laboral al contar con los conocimientos y herramientas para contratar al personal idóneo para cada área específica de trabajo, identificar sus habilidades y necesidades de capacitación, formar equipos de trabajo que se desempeñen de forma eficiente. Mediar de forma correcta y efectiva conflictos de personal y diseñar programas para el desarrollo del recurso humano dentro de la organización.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -105,7 +113,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "El licenciado en Administración de Recursos Humanos egresado de UANE podrá trabajar en:\n- Empresas de manufactura y comercio.\n- Administración pública.\n- Buffet de asesoría a empresas",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -114,7 +122,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "",
+                  "text": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                   "backgroundColor": "#00BEB4"
                 }
               ],
@@ -126,7 +134,7 @@
       }
     },
     "descarga": {
-      "id": "program_maestria",
+      "id": "program_licenciatura",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -140,8 +148,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "maestria" },
-      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "level": { "hidden": true, "value": "licenciatura" },
+      "program": { "hidden": false, "value": "Administración de Recursos Humanos" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },

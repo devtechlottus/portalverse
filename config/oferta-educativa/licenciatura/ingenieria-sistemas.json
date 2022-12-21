@@ -1,32 +1,40 @@
 {
   "meta": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Ingeniería en Sistemas",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Especialidad en Administración y Liderazgo",
+    "title": "Ingeniería en Sistemas",
     "config": {
-      "nombre": "Especialidad en Administración y Liderazgo",
-      "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Piedras Negras"],
-      "nivel": ["Especialidad"],
+      "nombre": "Ingeniería en Sistemas",
+      "modalidad": ["Online", "Flex"],
+      "areaConocimiento": ["Ciencias Exactas"],
+      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+      "nivel": ["Licenciatura"],
+      "image": {
+        "src": "https://picsum.photos/428/321",
+        "alt": "licenciatura"
+      },
       "curriculum": {
-        "Presencial": {
-          "Piedras Negras": ""
+        "Flex": {
+          "Saltillo": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
+          "Monterrey": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
+          "Piedras Negras": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
+          "Torreon": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
+          "Matamoros": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX"
         },
-        "Online": ""
+        "Online": "1tsfsZVpUre1enEsH9H2TMrEbUFJp_vBf"
       }
     }
   },
   "sections": {
     "head": {
-      "title": "Especialidad en Administración y Liderazgo",
-      "description": "",
+      "title": "Ingeniería en Sistemas",
+      "description": "Gestiona recursos computacionales y administra  proyectos  a  través  de  un  manejo  eficiente  de  las  redes; incrementa la productividad de las organizaciones.",
       "image": {
-        "src": "",
-        "alt": "Administración y Liderazgo"
+        "src": "https://picsum.photos/428/321",
+        "alt": "Ingeniería en Sistemas"
       }
     },
     "modalities": {
@@ -34,7 +42,7 @@
       "tabs": {
         "items": [
           {
-            "label": "Modalidad Presencial", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
@@ -43,7 +51,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a Ingeniería en Sistemas debe tener las siguientes habilidades desarrolladas: Habilidad numérica, capacidad creativa e innovadora, capacidad de adaptación y respuesta ágil y eficiente ante situaciones imprevistas, capacidad de análisis, de síntesis y de abstracción, facilidad para entablar relaciones interpersonales, habilidad para administrar y diseñar sistemas y habilidad para optimizar los recursos.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -52,7 +60,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Tendrás conocimientos y habilidades para desempeñarte en la administración, gestión y desarrollo estratégico de las operaciones de producción, manufactura y logística de las organizaciones. Podrás aplicar métodos de ingeniería industrial, sistemas de información y calidad para lograr mayor eficiencia y sustentabilidad.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -61,7 +69,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "",
+                  "text": "El egresado de la Ingeniería en Sistemas tiene una amplia gama de oportunidades laborales en el sector privado de plantas industriales nacionales y extranjeras, de manufactura y servicios, automotrices, fabricantes o cualquier organización que busque optimizar sus sistemas, producción y procesos.",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -78,7 +86,7 @@
             }
           },
           {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "label": "Modalidad Flex", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
@@ -87,7 +95,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "",
+                  "text": "El aspirante a Ingeniería en Sistemas debe tener las siguientes habilidades desarrolladas: Habilidad numérica, capacidad creativa e innovadora, capacidad de adaptación y respuesta ágil y eficiente ante situaciones imprevistas, capacidad de análisis, de síntesis y de abstracción, facilidad para entablar relaciones interpersonales, habilidad para administrar y diseñar sistemas y habilidad para optimizar los recursos.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -96,7 +104,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "",
+                  "text": "Con la carrera de Ingeniería Industrial y de Sistemas, tendrás conocimientos y habilidades para desempeñarte en la administración, gestión y desarrollo estratégico de las operaciones de producción, manufactura y logística de las organizaciones. Podrás aplicar métodos de ingeniería industrial, sistemas de información y calidad para lograr mayor eficiencia y sustentabilidad.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -126,7 +134,7 @@
       }
     },
     "descarga": {
-      "id": "program_maestria",
+      "id": "program_licenciatura",
       "type": "primary",
       "title": "Descarga el plan de estudios",
       "size": "small",
@@ -140,8 +148,8 @@
   },
   "form": {
     "config": {
-      "level": { "hidden": true, "value": "maestria" },
-      "program": { "hidden": false, "value": "Administración y Liderazgo" },
+      "level": { "hidden": true, "value": "licenciatura" },
+      "program": { "hidden": false, "value": "Ingeniería en Sistemas" },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },
