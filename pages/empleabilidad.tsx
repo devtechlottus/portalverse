@@ -12,6 +12,7 @@ import CardWebsite from "@/components/CardWebsite"
 import NewBanner from "@/components/NewBanner"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
 
 const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -22,14 +23,14 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
       <title>{meta.title}</title>
     </Head>
     <HeaderFooterLayout breadcrumbs={false}>
-      <ContentFullLayout>
-        <div className="head col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2 w-d:hidden mb-6">
-          <BannerPortalverse data={ sections.head.banner }/>
+    <ContentFullLayout classNames="gap-6 w-d:hidden mb-6">
+        <div className="head col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <BannerNumeralia data={ sections.head.banner } />
         </div>
       </ContentFullLayout>
       <ContentLayout classNames="gap-6">
         <div className="head col-span-12 w-t:hidden w-p:hidden">
-          <BannerPortalverse data={ sections.head.banner }/>
+          <BannerNumeralia data={ sections.head.banner } />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-2 w-t:hidden w-p:hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { sections.descripcion.title}</p>
