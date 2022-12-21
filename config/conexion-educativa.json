@@ -49,7 +49,10 @@
                 "process": {
                   "title": "Proceso servicio social",
                   "description": "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sit nunc, facilisis tincidunt id faucibus parturient ornare hendrerit.\n2. At et elit duis nibh ornare in pulvinar id proin. Interdum pellentesque rhoncus, nunc, tincidunt vulputate sed cursus lorem sollicitudin.\n3. Mattis volutpat ac nunc, sit ut vitae urna ornare aliquam. Mattis phasellus cursus viverra faucibus tristique amet, cursus eget.\n4.Tellus sem ac pellentesque volutpat vitae augue faucibus purus habitant.",
-                  "download": "Descargar listado de empresas con convenio"
+                  "download": {
+                    "title": "Descargar listado de empresas con convenio",
+                    "link": ""
+                  }
                 }
               }
             },
@@ -67,7 +70,10 @@
                 "process": {
                   "title": "Proceso practicas profesionales",
                   "description": "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sit nunc, facilisis tincidunt id faucibus parturient ornare hendrerit.\n2. At et elit duis nibh ornare in pulvinar id proin. Interdum pellentesque rhoncus, nunc, tincidunt vulputate sed cursus lorem sollicitudin.\n3. Mattis volutpat ac nunc, sit ut vitae urna ornare aliquam. Mattis phasellus cursus viverra faucibus tristique amet, cursus eget.\n4.Tellus sem ac pellentesque volutpat vitae augue faucibus purus habitant.",
-                  "download": "Descargar listado de empresas con convenio "
+                  "download": {
+                    "title": "Descargar listado de empresas con convenio",
+                    "link": ""
+                  }
                 }
               }
             }

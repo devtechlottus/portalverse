@@ -17,4 +17,13 @@ div {
       }
     }
   }
+  &.transparent {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: black;
+        }
+      }
+    }
+  }
 }

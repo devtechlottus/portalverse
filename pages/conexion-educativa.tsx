@@ -14,6 +14,7 @@ import DescriptionSection from "@/components/DescriptionSection"
 import Tabs from "@/components/Tabs"
 import Mosaic from "@/components/Mosaic"
 import Button from "@/components/Button"
+import Link from "next/link"
 
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -68,7 +69,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
-              contentTabs.map(({ image: { src, alt }, content: { title, description } }: any, i: number) => <Fragment key={`description-serviceSocial-${i}`}>
+              contentTabs.map(({ image: { src, alt }, content: { title, description }, process: {title: titleProcess,description: descripcionProcess, download} }: any, i: number) => <Fragment key={`description-serviceSocial-${i}`}>
                   <DescriptionSection
                   title={title}
                   description={description}
@@ -81,9 +82,10 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
                     classNames={cn("aspect-4/3 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
                   />
                   <DescriptionSection
-                  mode="light"
-                  title={title}
-                  description={description}
+                  action={<Link href={download.link}><a className="flex items-center" target={"_blank"}>{download.title} <span className="material-icons">download</span></a></Link>}
+                  mode="transparent"
+                  title={titleProcess}
+                  description={descripcionProcess}
                   classNames={cn("col-span-12 grid grid-cols-12 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
                   titleStyles="col-start-2 col-end-12 w-t:col-end-8"
                   descriptionStyles="col-start-2 col-end-12 w-t:col-end-8" />
