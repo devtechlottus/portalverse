@@ -1,7 +1,8 @@
 import { createRef, FC, memo, useEffect } from "react"
 import { PromoLinkData } from "@/types/Promolink.types"
+import cn from "classnames"
 
-const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) => {
+const PromoLink: FC<PromoLinkData> = memo(({ data, classNames,   onClick } : PromoLinkData) => {
   const promoLinkPortalverseRef = createRef();
 
   useEffect(() => {
@@ -17,6 +18,7 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) =>
       height: data.height || '',
       enable: data.enable || false,
       nobackground: data.nobackground || false,
+      shadowColor: data.shadowColor || false
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
@@ -34,7 +36,11 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) =>
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-promo-link-portalverse ref={promoLinkPortalverseRef}></lottus-promo-link-portalverse>
+  return <>
+    <div className={cn("", classNames, {"shadow-[-5px_5px_#00BEB4] rounded": data.shadowColor === true})}>
+      <lottus-promo-link-portalverse ref={promoLinkPortalverseRef}></lottus-promo-link-portalverse>
+    </div>
+  </>
 })
 
 export default PromoLink;
