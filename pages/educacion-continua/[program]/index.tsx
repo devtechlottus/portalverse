@@ -28,8 +28,8 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
         </div>
         <div className="col-span-6 w-t:col-span-4 w-p:col-span-4">
           <Image
-              alt={ sections.head.image.desk.alt }
-              src={ sections.head.image.desk.src }
+              alt={ sections.head.image.alt }
+              src={ sections.head.image.src }
               classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1 mb-6"
             />
           aqui va el formulario
