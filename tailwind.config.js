@@ -97,6 +97,16 @@ module.exports = {
       },
       boxShadow: {
         15: '0px 5px 15px rgba(0, 0, 0, 0.15)',
+        "pastelBlueShadowLeft": '-5px 5px 0px 0px #99E5E1',
+        "pastelYellowShadowLeft": '-5px 5px 0px 0px #FFD033',
+        "pastelRedShadowLeft": '-5px 5px 0px 0px #ED6A5F',
+        "pastelGrayShadowLeft": '-5px 5px 0px 0px #A2AFB5',
+        "blueShadowLeft": "-5px 5px 0px 0px #00BEB4",
+        "pastelBlueShadowRight": '5px 5px 0px 0px #99E5E1',
+        "pastelYellowShadowRight": '5px 5px 0px 0px #FFD033',
+        "pastelRedShadowRight": '5px 5px 0px 0px #ED6A5F',
+        "pastelGrayShadowRight": '5px 5px 0px 0px #A2AFB5',
+        "blueShadowRight": "5px 5px 0px 0px #00BEB4"
       }
     },
   },
