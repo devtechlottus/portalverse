@@ -30,7 +30,7 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
           <p>{sections.offers.title}</p>
         </section>
         <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} level={ level } />
+          <Ofertas classNames="mb-6 mt-4 opacity-80" data={oferta} />
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">{sections.modalities.title }</p>
@@ -68,12 +68,15 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
 }
 
 export async function getStaticProps(context: any) {
-  const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { level, config: { title, promo } } }: any) => [ ...prev, ({ level,title, promo:{...promo, text: title} })], []);
-
+  const oferta = Routes["oferta-educativa"].reduce((prev: any, { params: { levelRoute: level, config: { title, promo } } }: any) => [ ...prev, ({ level, title, promo:{...promo, text: title} })], []);
+  
   const { sections, meta } = await getDataPageFromJSON('/oferta-educativa/oferta-educativa.json');
+  
+  // Educación continua promolink
+  const { level, config: { title, promo } } = Routes["educacion-continua"].params;
 
   return {
-    props: {  data: { oferta, level:'oferta-educativa/' }, sections, meta }
+    props: {  data: { oferta: [ ...oferta, { level, title, promo: { ...promo, text: title } } ], level:'oferta-educativa/' }, sections, meta }
   }
 }
 
