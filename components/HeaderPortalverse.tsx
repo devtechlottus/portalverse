@@ -37,7 +37,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
   return <>
     {/* desktop menu */}
     <section className={cn("w-t:hidden w-p:hidden w-full flex p-1", { "shadow-15": !activeMenu }, classNames)}>
-      <div className={cn("p-6 cursor-pointer")} onClick={onClickLogo}>
+      <div className={cn("p-6 cursor-pointer border-solid border-SC/Actions/AC-300 border-r-2")} onClick={onClickLogo}>
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[143px] h-10" classNamesImg="w-[143px] h-[38px]" />
       </div>
       <div className={cn("flex flex-col flex-grow p-1")}>
@@ -54,7 +54,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
             </a>
           </Link>
         </div>
-        <div className="flex flex-grow p-1">
+        <div className="flex flex-grow p-1 border-solid border-SC/Actions/AC-300 border-t-2">
           <div className="flex flex-grow gap-6">
             {
               menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
@@ -69,7 +69,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                 </div>)
             }
           </div>
-          <div className="py-3 px-7 cursor-pointer">
+          <div className="py-3 px-7 cursor-pointer border-solid border-SC/Actions/AC-300 border-x-2">
             <Icon name="search" className="w-6 h-6" />
           </div>
           <div className="px-6">
@@ -93,14 +93,14 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     {/* menu suboptions */}
     {/* desktop menu */}
     {/* desktop tablet */}
-    <section className={cn("w-d:hidden w-full flex p-1 relative", classNames)}>
-      <div className="p-3" onClick={handleMenuMobile}>
+    <section className={cn("w-d:hidden w-full flex p-1 relative shadow-md", classNames)}>
+      <div className="p-3 border-solid border-SC/Actions/AC-300 border-r-2" onClick={handleMenuMobile}>
         <Icon name="hamburguer" className="w-6 h-6" />
       </div>
       <div className="flex justify-center items-center flex-grow" onClick={onClickLogo}>
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[90px] h-6" classNamesImg="w-[90px] h-6" />
       </div>
-      <div className="p-3">
+      <div className="p-3 border-solid border-SC/Actions/AC-300 border-l-2">
         <Icon name="search" className="w-6 h-6" />
       </div>
     </section>

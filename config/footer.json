@@ -71,30 +71,30 @@
       { "label": "Maestrías", "principal": false, "link": "/oferta-educativa/maestria" },
       { "label": "Especialidades", "principal": false, "link": "/oferta-educativa/especialidad" },
       { "label": "Doctorados", "principal": false, "link": "/oferta-educativa/doctorado" },
-      { "label": "Educación Contínua", "principal": false, "link": "" }
+      { "label": "Educación Contínua", "principal": false, "link": "/educacion-continua" }
     ],
     [
       { "label": "Nosotros", "principal": true, "link": "" },
-      { "label": "Internacionalización", "principal": false, "link": "" },
-      { "label": "Somos UANE", "principal": false, "link": "" },
+      { "label": "Internacionalización", "principal": false, "link": "/internacionalizacion" },
+      { "label": "Somos UANE", "principal": false, "link": "/somos-UANE" },
       { "label": "Campus", "principal": false, "link": "/campus" },
       { "label": "Certificaciones", "principal": false, "link": "" },
       { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo" },
       { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad" },
       { "label": "Centro de apoyo psicopedagógico", "principal": false, "link": "" },
       { "label": "Prácticas profesionales", "principal": false, "link": "" },
-      { "label": "Conexión Educativa", "principal": false, "link": "" }
+      { "label": "Conexión Educativa", "principal": false, "link": "/conexion-educativa" }
     ],
     [
       { "label": "Contacto", "principal": true, "link": "" },
       { "label": "Directorio", "principal": false, "link": "/directorio" },
       { "label": "Línea segura", "principal": false, "link": "" },
       { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/new-incomming" },
-      { "label": "Envíanos un mensaje", "principal": false, "link": "" }
+      { "label": "Envíanos un mensaje", "principal": false, "link": "pedir-informacion" }
     ],
     [
       { "label": "Comunidad UANE", "principal": true, "link": "" },
-      { "label": "Voz UANE", "principal": false, "link": "" },
+      { "label": "Voz UANE", "principal": false, "link": "/voz-UANE" },
       { "label": "Centro de idiomas", "principal": false, "link": "" },
       { "label": "Actividades deportivas y extracurriculares", "principal": false, "link": "" },
       { "label": "Comité estudiantil", "principal": false, "link": "" }

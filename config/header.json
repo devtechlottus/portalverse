@@ -9,7 +9,14 @@
       { "label": "Especialidades", "route": "/oferta-educativa/especialidad" }
     ] },
     { "label": "Nosotros", "route": "/", "items": [] },
-    { "label": "Comunidad UANE", "route": "/", "items": [] }
+    { "label": "Comunidad UANE", "route": "/", "items": [] },
+    { "label": "Blog", "route": "/blog", "items": [] },
+    { "label": "Preguntas frecuentes", "route": "/faq/new-incomming", "items": [] },
+    { "label": "Educación Continua", "route": "/educacion-continua", "items": [] }
+
+    
+
+
   ],
   "logotype":{ "src":"/images/logotipo.png", "alt":"logotipo-uane" }
 }
