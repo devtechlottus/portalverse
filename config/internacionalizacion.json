@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "title": "Internacionalización",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "head": {
+      "slider":{
+        "width": "100%",
+        "height": "600px",
+        "iconleft": "arrow_back_ios",
+        "iconright": "arrow_forward_ios",
+        "slides": [
+          {
+            "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
+            "text": "Carreras sabatinas con sesiones de 4 horas.",
+            "urlImage": {
+              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+            },
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false
+          },
+          {
+            "title": "Conecta con el mundo", 
+            "text": "UANE te da acceso a diferentes programas internacionales con movilidad al extranjero y en línea.",
+            "urlImage": {
+              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+            },
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false
+          },
+          {
+            "title": "¡Tenemos vacantes nuevas!", 
+            "text": "Accede y descubre las oportunidades que tenemos para ti.",
+            "urlImage": {
+              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+            },
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false
+          }
+        ]
+      },
+      "title": "UANE Internacional",
+      "subtitle": "Formación global",
+      "description": "Las experiencias internacionales son clave para potencializar tus conocimientos y habilidades, además amplían tu visión personal y profesional; es por ello que UANE apuesta por una formación global, brindando la oportunidad de tener clases espejo, webinars internacionales, intercambios de materias y movilidad al extranjero, así como distintos proyectos en conjunto con las mejores universidades de Latinoamérica y Europa."
+    },
+    "modes": {
+      "title": "Modos de internacionalización",
+      "rainbow": {}
+    },
+    "alliances": {
+      "title": "Alianzas al rededor del mundo",
+      "alliances": [
+        {
+          "urlImage": {
+            "mobile": "https://universidadisep.com/wp-content/uploads/2021/05/logo_universidad_isep-1980x1116-1.png",
+            "desktop": "https://universidadisep.com/wp-content/uploads/2021/05/logo_universidad_isep-1980x1116-1.png"
+          },
+          "text": "Universidad ISEP",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.isep.es"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://www.poli.edu.co/sites/default/files/logos/logo-poli-politecnico-grancolombiano2018.png",
+            "desktop": "https://www.poli.edu.co/sites/default/files/logos/logo-poli-politecnico-grancolombiano2018.png"
+          },
+          "text": "Politécnico Gran Colombiano",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.poli.edu.co/"
+        },        {
+          "urlImage": {
+            "mobile": "https://www.ibero.edu.co/wp-content/uploads/2022/10/cropped-Logo-IBERO-2022.png",
+            "desktop": "https://www.ibero.edu.co/wp-content/uploads/2022/10/cropped-Logo-IBERO-2022.png"
+          },
+          "text": "Ibero de Colombia",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.ibero.edu.co/"
+        },        
+        {
+          "urlImage": {
+            "mobile": "https://ucom.edu.py/wp-content/uploads/2022/05/logoUCOM.svg",
+            "desktop": "https://ucom.edu.py/wp-content/uploads/2022/05/logoUCOM.svg"
+          },
+          "text": "Universidad Comunera",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://ucom.edu.py/"
+        },        
+        {
+          "urlImage": {
+            "mobile": "https://www.us.es/sites/default/files/logoPNG_3.png",
+            "desktop": "https://www.us.es/sites/default/files/logoPNG_3.png"
+          },
+          "text": "Universidad De Sevilla",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.us.es/"
+        },   
+        {
+          "urlImage": {
+            "mobile": "https://www.ucam.edu/sites/default/files/imagenes/imageblock/logo-ucam-desktop_25aniversario.svg",
+            "desktop": "https://www.ucam.edu/sites/default/files/imagenes/imageblock/logo-ucam-desktop_25aniversario.svg"
+          },
+          "text": "Universidad Católica San Antonio de Murcia",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.ucam.edu/"
+        },   
+        {
+          "urlImage": {
+            "mobile": "https://www.uneatlantico.es/themes/uneatlantico/logo.svg",
+            "desktop": "https://www.uneatlantico.es/themes/uneatlantico/logo.svg"
+          },
+          "text": "Universidad Europea del Atlántico",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.uneatlantico.es/es-mx"
+        },   
+        {
+          "urlImage": {
+            "mobile": "https://www.ucm.es/themes/ucm16/media/img/logo.png",
+            "desktop": "https://www.ucm.es/themes/ucm16/media/img/logo.png"
+          },
+          "text": "Universidad Complutense Madrid",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.ucm.es/"
+        },   
+        {
+          "urlImage": {
+            "mobile": "https://www.planetaformacion.com/sites/pfu.es/themes/custom/pfu_es/logo.webp",
+            "desktop": "https://www.planetaformacion.com/sites/pfu.es/themes/custom/pfu_es/logo.webp"
+          },
+          "text": "Grupo Planeta Formación y Universidades",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://www.planetaformacion.com/"
+        },   
+        {
+          "urlImage": {
+            "mobile": "https://www.guninetwork.org/files/styles/medium/public/logo_19.gif?itok=7qJIRE7P",
+            "desktop": "https://www.guninetwork.org/files/styles/medium/public/logo_19.gif?itok=7qJIRE7P"
+          },
+          "text": "Consorcio para la Colaboración de la Educación Superior en América del Norte",
+          "icon": "arrow_forward",
+          "color": "#A2AFB5",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "https://conahec.org/es/"
+        }
+       
+      ]
+    },
+    "articles": {
+      "title": "Artículos sobre UANE Internacional",
+      "articles": [
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-1"
+        },
+        { 
+          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "subtitle": "SUBTITULO",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "person",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "person"
+          },
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-2"
+        }
+      ]
+    }
+  }
+}
