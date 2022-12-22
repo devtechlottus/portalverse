@@ -73,7 +73,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
-              contentTabs.map(({ image: { src, alt }, content: { title, description, action=null }, }: any, i: number) => <Fragment key={`description-beca-${i}`}>
+              contentTabs.map(({ image: { src, alt }, content: { title, description, action=null }, cards }: any, i: number) => <Fragment key={`description-beca-${i}`}>
                   <DescriptionSection
                     mode="light"
                     title={title}
@@ -92,6 +92,13 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
                     src={src}
                     classNames={cn("aspect-4/3 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
                   />
+                  <section className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1", { "hidden w-p:hidden": tabActive !== i })}>
+                    {
+                     cards.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+                      <CardWebsite data={item}/>
+                     </section>)
+                    }
+                  </section>
                 </Fragment>)
             }
           </ContentInsideLayout>

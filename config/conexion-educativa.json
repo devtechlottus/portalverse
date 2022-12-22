@@ -1,0 +1,89 @@
+{
+    "meta":{
+      "title": "Conexión Educativa",
+      "description": "",
+      "keywords": ""
+    },
+    "sections":{
+      "head": {
+        "title": "Vinculación empresarial",
+        "subtitle": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam.",
+        "contactText": "¿Eres empesa? Contáctanos",
+        "contactLink": "info@uane.edu.mx",
+        "image": {
+          "desk": {
+            "alt": "imagen",
+            "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+          },
+          "mobile": {
+            "alt": "imagen",
+            "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+          }
+        }
+      },
+      "alliances": {
+        "title": "Nuestras alianzas",
+        "carrousel": {},
+        "button": {
+            "title": "Ver todos los convenios",
+            "type": "outlined",
+            "icon": "download",
+            "isExpand": false
+          }
+      },
+      "socialService": {
+        "tabs": {
+          "items": [
+            {
+              "label": "Servicio social", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+              "content": {
+                "image": {
+                  "alt": "imagen",
+                  "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                },
+                "content": {
+                  "title": "¿Porque hacer el servicio social?",
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra\n\nAplica a:\nNiveles educativos: Bachillerato,  licenciatura y posgrado\nModalidades: ---------"
+                },
+                "process": {
+                  "title": "Proceso servicio social",
+                  "description": "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sit nunc, facilisis tincidunt id faucibus parturient ornare hendrerit.\n2. At et elit duis nibh ornare in pulvinar id proin. Interdum pellentesque rhoncus, nunc, tincidunt vulputate sed cursus lorem sollicitudin.\n3. Mattis volutpat ac nunc, sit ut vitae urna ornare aliquam. Mattis phasellus cursus viverra faucibus tristique amet, cursus eget.\n4.Tellus sem ac pellentesque volutpat vitae augue faucibus purus habitant.",
+                  "download": {
+                    "title": "Descargar listado de empresas con convenio",
+                    "link": ""
+                  }
+                }
+              }
+            },
+            {
+              "label": "Practicas profesionales", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+              "content": {
+                "image": {
+                  "alt": "imagen",
+                  "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                },
+                "content": {
+                  "title": "¿Porque hacer practicas profesionales?",
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra\n\nAplica a:\nNiveles educativos: Bachillerato,  licenciatura y posgrado\nModalidades: ---------"
+                },
+                "process": {
+                  "title": "Proceso practicas profesionales",
+                  "description": "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac sit nunc, facilisis tincidunt id faucibus parturient ornare hendrerit.\n2. At et elit duis nibh ornare in pulvinar id proin. Interdum pellentesque rhoncus, nunc, tincidunt vulputate sed cursus lorem sollicitudin.\n3. Mattis volutpat ac nunc, sit ut vitae urna ornare aliquam. Mattis phasellus cursus viverra faucibus tristique amet, cursus eget.\n4.Tellus sem ac pellentesque volutpat vitae augue faucibus purus habitant.",
+                  "download": {
+                    "title": "Descargar listado de empresas con convenio",
+                    "link": ""
+                  }
+                }
+              }
+            }
+          ],
+          "size": "medium"
+        }
+      },
+      "experiences": {
+        "title": "Experiencias UANE",
+        "images": {"images": [{"id": "1", "image": "https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium", "icon": "zoom_out_map" }, {"id": "2", "image": "https://www.fotocommunity.es/styleguide/img/homepage/ottilia.jpg", "icon": "zoom_out_map" }, {"id": "3", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"}, {"id": "4", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"},{"id": "1", "image": "https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium", "icon": "zoom_out_map"}, {"id": "2", "image": "https://th.bing.com/th/id/R.e2607cf730a72b5ce7024be6003c558c?rik=nsEV30f5tEd4Uw&riu=http%3a%2f%2finformacionimagenes.net%2fwp-content%2fuploads%2f2017%2f05%2fAnimales-salvajes-55.jpg&ehk=BIvlyNek99FY06ulqPA8F8XiK49vWahPniSVCLV4P5Y%3d&risl=&pid=ImgRaw&r=0", "icon": "zoom_out_map" }, {"id": "3", "image": "https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg", "icon": "zoom_out_map"}, {"id": "4", "image": "https://th.bing.com/th/id/R.b9760e7cd34211c15d5e34d07dd8ba4c?rik=fSZN4Dk2BlNUUw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k5NoJq9ax90%2fTwwRmC0VYmI%2fAAAAAAAAAbY%2fWvIsdkfWI8c%2fs1600%2fBeautiful_Animal_Wallpaper_rp5pe.jpg&ehk=fg%2bG0NrN5rmEaj9A0IsT9JdEbhPmKGvSOtFlzetkSf0%3d&risl=&pid=ImgRaw&r=0", "icon": "zoom_out_map"}]}
+      }
+    }
+  }
