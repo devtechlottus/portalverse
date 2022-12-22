@@ -36,7 +36,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <OfertaEducativa data={sections.oferta.levels} level={'oferta-educativa/'} classNames="opacity-80 w-d:mb-8"/>
+          <OfertaEducativa data={sections.oferta.levels} classNames="opacity-80 w-d:mb-8"/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
