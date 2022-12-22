@@ -1,7 +1,8 @@
 import { createRef, FC, memo, useEffect } from "react"
 import { PromoLinkData } from "@/types/Promolink.types"
+import cn from "classnames"
 
-const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) => {
+const PromoLink: FC<PromoLinkData> = memo(({ data, classNames, typeShadowColor="",  onClick } : PromoLinkData) => {
   const promoLinkPortalverseRef = createRef();
 
   useEffect(() => {
@@ -17,6 +18,8 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) =>
       height: data.height || '',
       enable: data.enable || false,
       nobackground: data.nobackground || false,
+      isShadowColor: data.isShadowColor || false,
+
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
@@ -34,7 +37,22 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, onClick } : PromoLinkData) =>
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-promo-link-portalverse ref={promoLinkPortalverseRef}></lottus-promo-link-portalverse>
+  return <>
+    <div className={cn("", classNames, {
+      "shadow-pastelBlueShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'blue-pastel-left',
+      "shadow-pastelYellowShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'yellow-pastel-left',
+      "shadow-pastelRedShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'red-pastel-left',
+      "shadow-pastelGrayShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'gray-pastel-left',
+      "shadow-blueShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'blue-left',
+      "shadow-pastelBlueShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'blue-pastel-right',
+      "shadow-pastelYellowShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'yellow-pastel-right',
+      "shadow-pastelRedShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'red-pastel-right',
+      "shadow-pastelGrayShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'gray-pastel-right',
+      "shadow-blueShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'blue-right'
+      })}>
+      <lottus-promo-link-portalverse ref={promoLinkPortalverseRef}></lottus-promo-link-portalverse>
+    </div>
+  </>
 })
 
 export default PromoLink;

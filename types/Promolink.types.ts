@@ -31,6 +31,8 @@ export type PromoLinkConfig = {
    * Background true | false
    */
   nobackground: boolean;
+  isShadowColor?: boolean;
+  
 }
 
 type Image = {
@@ -40,5 +42,7 @@ type Image = {
 
 export type PromoLinkData = {
     data: PromoLinkConfig;
+    classNames?: string;
+    typeShadowColor?: string;
     onClick?: () => void;
 }

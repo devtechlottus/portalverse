@@ -110,11 +110,11 @@ const ComponentPage = ({ data }: any) => {
         break;
       case "numbers":
         console.log("numbers", componentState);
-        return <Numbers data={componentState.data} />
+        return <Numbers data={componentState.data} typeShadowColor={"gray-pastel-right"}/>
         break;
       case "promoLink":
         console.log("promoLink", componentState);
-        return <PromoLink data={componentState.data} />
+        return <PromoLink data={componentState.data} typeShadowColor={"gray-pastel-right"}/>
         break;
       case "oustandingModule": 
         console.log("oustandingModule", componentState)
@@ -281,8 +281,8 @@ export async function getStaticProps(context: any) {
     { [path]: "link", title: "Link", data:{  text: 'xdxd', size: 'small', isBold: false, disabled: false, id: '123', icon: 'person',}},
     { [path]: "breadcum", title: "Breadcum", data:{tagOnItem: 'testOnItem', tagOnBack: 'testOnBack', textItems: [{value: 'text1', text: 'Firt text', }, {value: 'text2', text: 'Second text', }, {value: 'text3', text: 'Third text large end', },], icon: 'home', textColor: 'black',}},
     { [path]: "oustandingModule", title: "OustandingModule", data: {image: {mobile: 'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959', desktop: 'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',}, title: 'Perfil de ingreso',text: 'At vero eos et accusamus et iusto odio dignissi ducimus qui blanditiis praesentium voluptatum\n\n- Atque corrupti quos dolores et quas molestias \n- Excepturi sint occaecati cupiditate non provident\n- Excepturi sint occaecati cupiditate non providentExcepturi sint occaecati cupiditate non provident', backgroundColor: '#8B9BA3',}},
-    { [path]: "promoLink", title: "PromoLink", data: {  urlImage: { mobile: 'https://thumbs.dreamstime.com/z/fondo-del-coraz%C3%B3n-del-amor-del-arco-iris-60045149.jpg', desktop: 'https://media.istockphoto.com/id/1354441996/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?b=1&s=170667a&w=0&k=20&c=O_VZbgONe4WTXPOEvwKYezhqFkzAXpr2g-lCdpdj5FU=',}, text: 'Mab', icon: 'person', color: '', opacity: '', height: '300px', enable: true, nobackground: false,}},
-    { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true,}},
+    { [path]: "promoLink", title: "PromoLink", data: {  urlImage: { mobile: 'https://thumbs.dreamstime.com/z/fondo-del-coraz%C3%B3n-del-amor-del-arco-iris-60045149.jpg', desktop: 'https://media.istockphoto.com/id/1354441996/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?b=1&s=170667a&w=0&k=20&c=O_VZbgONe4WTXPOEvwKYezhqFkzAXpr2g-lCdpdj5FU=',}, text: 'Mab', icon: 'person', color: '', opacity: '', height: '100px', enable: true, nobackground: true, isShadowColor: true}},
+    { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true, isShadowColor: true}},
     { [path]: "navDrawer", title: "NavDrawer", data:{ text: 'Hola', iconselected: false, linkselected: false, isleft: false, singleaction: false, morecontent: false, activesingle: false}},
     { [path]: "cardWebsite", title:"CardWebsite", data:{ 
         urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',

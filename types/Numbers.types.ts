@@ -27,8 +27,12 @@ export type NumbersConfig = {
    * NumbersPortalverse container to box-shadow and background true | false
    */
   container: boolean;
+  isShadowColor?: boolean;
 }
 
 export type NumbersData ={
     data: NumbersConfig;
+    classNames?: string;
+    typeShadowColor?: string;
+
 }

@@ -1,7 +1,9 @@
 import { createRef, FC, memo, useEffect } from "react"
 import { NumbersData } from "@/types/Numbers.types"
+import cn from "classnames"
 
-const Numbers: FC<NumbersData> = memo(({ data }: NumbersData) => {
+
+const Numbers: FC<NumbersData> = memo(({ data, classNames, typeShadowColor="" }: NumbersData) => {
   const numbersPortalverseRef = createRef();
 
   useEffect(() => {
@@ -13,10 +15,26 @@ const Numbers: FC<NumbersData> = memo(({ data }: NumbersData) => {
       title: data.title || '',
       body: data.body || '',
       container: data.container || false,
+      shadowColor: data.isShadowColor || false
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
   
-  return <lottus-numbers-portalverse ref={numbersPortalverseRef}></lottus-numbers-portalverse>
+  return <>
+  <div className={cn("", classNames, {
+     "shadow-pastelBlueShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'blue-pastel-left',
+     "shadow-pastelYellowShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'yellow-pastel-left',
+     "shadow-pastelRedShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'red-pastel-left',
+     "shadow-pastelGrayShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'gray-pastel-left',
+     "shadow-blueShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'blue-left',
+     "shadow-pastelBlueShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'blue-pastel-right',
+     "shadow-pastelYellowShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'yellow-pastel-right',
+     "shadow-pastelRedShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'red-pastel-right',
+     "shadow-pastelGrayShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'gray-pastel-right',
+     "shadow-blueShadowRight rounded": data.isShadowColor === true && typeShadowColor === 'blue-right'
+  })}>
+    <lottus-numbers-portalverse ref={numbersPortalverseRef}></lottus-numbers-portalverse>
+  </div>
+  </>
 });
 
 export default Numbers
