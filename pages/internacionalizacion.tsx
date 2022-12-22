@@ -1,17 +1,14 @@
-import { useEffect, useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
-import NextPageWithLayout from "@/types/Layout.types"
-import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Slider from "@/components/Slider"
 import ContentLayout from "@/layouts/Content.layout"
+import NextPageWithLayout from "@/types/Layout.types"
+import Slider from "@/components/Slider"
 import RichtText from "@/components/Richtext/Richtext"
 import PromoLink from "@/components/PromoLink"
 import CardWebsite from "@/components/CardWebsite"
+import { getDataPageFromJSON } from "@/utils/getDataPage"
 
 const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
 
