@@ -1,0 +1,12 @@
+div {
+  lottus-accordion {
+    div.accordion-component {
+      div.container {
+        max-width: 100% !important;
+        @media (min-width: 1024px) {
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+}

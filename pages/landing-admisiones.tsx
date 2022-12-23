@@ -15,7 +15,7 @@ import DescriptionSection from "@/components/DescriptionSection"
 import Tabs from "@/components/Tabs"
 import CardWebsite from "@/components/CardWebsite"
 import Banner from "@/components/Banner"
-import Accordion from "@/components/Accordion"
+import Accordion from "@/components/Accordion/Accordion"
 import { getDataPageFromJSON } from "utils/getDataPage"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
