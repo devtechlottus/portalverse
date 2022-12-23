@@ -1,11 +1,11 @@
 import { FC, SyntheticEvent, useEffect, useState } from "react"
 import { useRouter } from "next/router";
 import cn from "classnames"
-import BeWantedInit from "@/forms/fixtures/bewanted";
-import Input from "@/components/Input/Input";
-import Button from "@/components/Button";
+import BeWantedInit from "@/forms/fixtures/bewanted"
+import Input from "@/components/Input/Input"
+import Button from "@/components/Button"
 import configControls from "@/forms/fixtures/controls"
-import BeWantedStepComponentData from "@/types/BeWantedStep.types";
+import BeWantedStepComponentData from "@/types/BeWantedStep.types"
 
 
 const StepTwo: FC<BeWantedStepComponentData> = ({ data, classNames, enrollment, path }: BeWantedStepComponentData) => {

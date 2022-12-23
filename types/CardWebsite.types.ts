@@ -1,5 +1,4 @@
-import { LinkConfig } from "./Link.types";
-import  LinkIconsConfig  from "./LinkLottus.types";
+import { LinkConfig } from "@/types/Link.types"
 
 export type CardWebsiteConfig = {
   /**

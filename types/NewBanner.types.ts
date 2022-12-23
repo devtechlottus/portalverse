@@ -1,4 +1,4 @@
-import ButtonComponentData from "./Button.types";
+import ButtonComponentData from "@/types/Button.types";
 
 export type NewBannerConfig = {
     /**

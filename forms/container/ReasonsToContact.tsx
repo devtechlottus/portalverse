@@ -1,8 +1,8 @@
 import { FC, useState } from "react"
 import cn from "classnames"
 import StepZero from "@/forms/steps/step-zero-openform"
-import StepOtherReason from "@/forms/steps/step-otherreason-openform";
-import OpenForm from "@/forms/container/OpenForm";
+import StepOtherReason from "@/forms/steps/step-otherreason-openform"
+import OpenForm from "@/forms/container/OpenForm"
 
 const ReasonsToContact: FC<any> = ({ classNames }: any) => {
 
