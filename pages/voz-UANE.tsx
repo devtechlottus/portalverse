@@ -22,7 +22,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
       <title>{ meta.title }</title>
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
-      <ContentFullLayout classNames="w-d:hidden ">
+      <ContentFullLayout classNames="w-d:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8">
           <Banner data={ sections.head.banner } onBtn={() => router.push(sections.head.banner.redirect)}/>
         </div>
@@ -42,7 +42,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
               </section>)
             }
           </section>
-          <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center mb-18">
+          <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
             <Button data={sections.articles.button} onClick={() => router.push(sections.articles.button.redirect)}/>
           </div>
         </div>
@@ -54,7 +54,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
             </section>)
           }
           {
-            sections.banners.banners.map((item:any, i:number) => <section className="mb-6" key={`section-podcast-${i}`}>
+            sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6" key={`section-podcast-${i}`}>
              <Banner data={item} onBtn={() => router.push(item.redirect)}/>
             </section>)
           }

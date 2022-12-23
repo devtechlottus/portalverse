@@ -6,6 +6,7 @@ import ContentLayout from "@/layouts/Content.layout"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import PedirInformacionPage from "@/types/PedirInformacion.types"
+import RichtText from "@/components/Richtext/Richtext"
 
 const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, meta }: PedirInformacionPage) => {
   return <>
@@ -15,11 +16,15 @@ const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, 
     <HeaderFooterLayout>
       <ContentLayout>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-13.5 w-t:text-8.5 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%]">{ sections.head.title }</section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-base w-t:text-3.5 w-p:text-3.5 font-Nunito leading-[125%]">{ sections.head.description }</section>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 text-base w-t:text-3.5 w-p:text-3.5 font-Nunito leading-[125%]">
+          <RichtText data={{
+            content: sections.head.description
+          }} />
+        </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
           <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 mb-12 w-t:mb-6 w-p:mb-6">
           <Youtube data={ sections.video } />
         </section>
       </ContentLayout>

@@ -44,7 +44,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         <div className={cn({ "hidden": !filtro })}>
           {/* filtro */}
         </div>
-        <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-12 w-p:mb-6">
           {
             programs.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className="flex flex-col col-span-3 w-t:col-span-4 w-p:col-span-4">
               <Image src={src} alt={alt} classNames="aspect-4/3" />

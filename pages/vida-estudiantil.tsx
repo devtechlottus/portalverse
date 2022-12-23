@@ -11,6 +11,7 @@ import Mosaic from "@/components/Mosaic"
 import CardWebsite from "@/components/CardWebsite"
 import LinkLottus from "@/components/LinkLottus"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import LinkContactTarget from "@/components/LinkContactTarget"
 
 
 const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -45,11 +46,11 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-auto">
             <p className="font-Poppins font-bold text-6.5 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{sections.sportActivities.title}</p>
-            <RichtText font="light" data={{
+            <RichtText font="dark" data={{
               content: sections.sportActivities.description
             }} />
             <p>{sections.sportActivities.moreInformation}</p>
-            <LinkLottus data={sections.sportActivities.moreInformationLink}  />
+            <LinkContactTarget type="email" info={sections.sportActivities.moreInformationLink} />
           </div>
         </ContentLayout>
       </ContentFullLayout>
@@ -60,7 +61,7 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
               content: sections.culturalActivities.description
             }} />
             <p>{sections.culturalActivities.moreInformation}</p>
-            <LinkLottus data={sections.culturalActivities.moreInformationLink}  />
+            <LinkContactTarget type="email" info={sections.culturalActivities.moreInformationLink} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
             <Youtube data={ sections.culturalActivities.video} />
@@ -78,7 +79,7 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
           <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-6">
             {
              sections.lifeUANEarticles.articles.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite data={item}/>
+              <CardWebsite data={item} onClick={()=>router.push(`blog/${item.redirect}`)}/>
              </section>)
             }
           </section>

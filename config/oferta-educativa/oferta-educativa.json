@@ -116,7 +116,102 @@
     "knowledges":{
       "title": "Elige un área de conocimiento",
       "knowledges": [
-
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Negocios",
+          "icon": "arrow_forward",
+          "color": "red",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ingeniería",
+          "icon": "arrow_forward",
+          "color": "#FADB62",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ciencias Sociales",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Comunicación y diseño",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ciencias de la salud",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Humanidades",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        } 
       ]
     },
     "bannerTest":{

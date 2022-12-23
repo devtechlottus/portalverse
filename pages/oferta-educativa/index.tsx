@@ -10,6 +10,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
 import Banner from "@/components/Banner"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import PromoLink from "@/components/PromoLink"
 
 const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sections, meta }: any) => {
   const router = useRouter()
@@ -45,9 +46,13 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">{sections.knowledges.title }</p>
         </section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
-          aqui van los promos
-        </section>
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+          {
+            sections.knowledges.knowledges.map((item:any, i:number) => <section key={`section-schoolarships-${i}`}>
+              <PromoLink data={item} onClick={()=> router.push(item.redirect)} typeShadowColor={item.shadowColor}/>
+            </section>)
+          }
+        </div>
         <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-p:mt-10 w-t:hidden">
           <Banner data={sections.bannerTest.banner} onBtn={()=>{window.open(sections.bannerTest.redirect)}} />
         </section>

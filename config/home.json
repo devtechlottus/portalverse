@@ -189,10 +189,10 @@
       "wrapper": true
     },
     "numbers":[
-      { "icon": "apartment", "prefix": "", "number": "8", "suffix": "", "title": "Campus en el país", "body": "", "container": true },
-      { "icon": "manage_history", "prefix": "+", "number": "48", "suffix": "+", "title": "Años de experiencia", "body": "", "container": true },
-      { "icon": "group", "prefix": "+", "number": "12500", "suffix": "+", "title": "Alumnos Inscritos", "body": "", "container": true },
-      { "icon": "history_edu", "prefix": "+", "number": "48000", "suffix": "+", "title": "Egresados", "body": "", "container": true }
+      { "icon": "apartment", "prefix": "", "number": "8", "suffix": "", "title": "Campus en el país", "body": "", "container": true, "isShadowColor": true, "shadowColor": "blue-pastel-right" },
+      { "icon": "manage_history", "prefix": "+", "number": "48", "suffix": "+", "title": "Años de experiencia", "body": "", "container": true, "isShadowColor": true, "shadowColor": "red-pastel-right" },
+      { "icon": "group", "prefix": "+", "number": "12500", "suffix": "+", "title": "Alumnos Inscritos", "body": "", "container": true,  "isShadowColor": true, "shadowColor": "gray-pastel-right" },
+      { "icon": "history_edu", "prefix": "+", "number": "48000", "suffix": "+", "title": "Egresados", "body": "", "container": true,  "isShadowColor": true, "shadowColor": "yellow-pastel-right" }
     ],
     "vozUane": {
       "title": "Voz UANE blog",

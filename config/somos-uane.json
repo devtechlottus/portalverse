@@ -192,56 +192,46 @@
       "title": "Comunidad UANE",
       "links": [
         {
-          "level": "especialidad",
-          "title": "Especialidades",
-          "promo": {
-            "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
-            },
-            "text": "Especialidades",
-            "icon": "arrow_forward",
-            "color": "#9E5ED3",
-            "opacity": "multiply",
-            "height": "282px",
-            "enable": true,
-            "nobackground": false
-          }
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Voz UANE",
+          "icon": "arrow_forward",
+          "color": "red",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "voz-UANE"
         },
         {
-          "level": "maestria",
-          "title": "Maestrias",
-          "promo": {
-            "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
-            },
-            "text": "Maestrias",
-            "icon": "arrow_forward",
-            "color": "#5ED365",
-            "opacity": "multiply",
-            "height": "282px",
-            "enable": true,
-            "nobackground": false
-          }
-        },
-        {
-          "level": "doctorado",
-          "title": "Doctorado",
-          "promo": {
-            "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
-            },
-            "text": "Doctorado",
-            "icon": "arrow_forward",
-            "color": "#D35EA3",
-            "opacity": "multiply",
-            "height": "282px",
-            "enable": true,
-            "nobackground": false
-          }
-        }
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Internacionalización",
+          "icon": "arrow_forward",
+          "color": "#FADB62",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "internacionalizacion"
+        },{
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Podcast",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "282px",
+          "enable": true,
+          "nobackground": false,
+          "redirect": "podcast"
+        } 
       ]
     },
     "experiences": {
@@ -250,7 +240,72 @@
     },
     "ourScholarships": {
       "title": "El 90% de nuestros alumnos están becados",
-      "scholarships": []
+      "scholarships": [
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Beca servicio",
+          "icon": "arrow_forward",
+          "color": "red",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "becas",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Beca Excelencia",
+          "icon": "arrow_forward",
+          "color": "#FADB62",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "becas",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Beca convenio",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "becas",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Beca al merito academico",
+          "icon": "arrow_forward",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "becas",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        } 
+      ]
     },
     "ourConventions": {
       "title": "Más de 700 convenios",
