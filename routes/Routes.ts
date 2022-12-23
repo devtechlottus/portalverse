@@ -335,10 +335,7 @@ const Routes: any = {
     }
   },
   "faq": [
-    { params: { "section": "new-incomming" } },
-    { params: { "section": "community" } },
-    { params: { "section": "virtual-classroom" } },
-    { params: { "section": "internationalization" } },
+    { params: { "section": "general" } }
   ],
   "blog": [
     { params:
