@@ -13,6 +13,7 @@ import NumbersComponent from "@/components/NumberPortalverse/NumbersPortalverse"
 import DescriptionSection from "@/components/DescriptionSection"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import RichtText from "@/components/Richtext/Richtext"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -35,8 +36,10 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5 w-d:mb-6 w-t:mb-4 w-p:mb-3">{ sections.head.title }</h1>
-          <p className="text-5.5  font-bold font-Poppins leading-[130%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-4.5 w-p:text-4.5 w-t:mb-4 w-p:mb-3">{ sections.head.subtitle }</p>
-          <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm ">{ sections.head.description }</p>
+          <p className="text-5.5  font-bold font-Poppins leading-[130%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-4.5 w-p:text-4.5 w-d:mb-6 w-t:mb-4 w-p:mb-3">{ sections.head.subtitle }</p>
+          <RichtText data={{
+            content: sections.head.description
+          }} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12">
           <Image
@@ -45,7 +48,7 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
           />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8 mb-12 w-t:mb-6 w-p:mb-6">
           <NumbersComponent data={ sections.estadisticas } />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
@@ -71,7 +74,7 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
             }
           </ContentInsideLayout>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[73px] w-t:mt-6 w-p:mt-6">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[73px] w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6">
           <p className="font-bold font-Poppins text-10">{ sections.proceso.title }</p>
           <Image
             alt={sections.proceso.image.alt}
@@ -79,16 +82,16 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
             classNames={cn("aspect-4/3 w-t:aspect-3/4 m-p:aspect-1/2")}
           />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <Feedback data={ sections.feedback.feedback} >
             <h1>{ sections.feedback.title }</h1>
             <p>{ sections.feedback.text }</p>
           </Feedback>
         </div>
-        <div className="col-span-7 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-7 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </div>
-        <div className="col-span-5 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-5 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <p className="font-Poppins font-bold leading-[130%] text-5.5 mb-[30px]">{ sections.llamanos.title }</p>
           <CardWebsite data={ sections.llamanos.card }/>
         </div>

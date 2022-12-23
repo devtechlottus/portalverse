@@ -9,6 +9,7 @@ import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import ContactTarget from "@/components/ContactTarget"
 import Banner from "@/components/Banner"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import RichtText from "@/components/Richtext/Richtext"
 
 const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -20,7 +21,9 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mb-12">
           <p className="font-Poppins font-bold text-10 w-t:text-8.5 w-p:text-7.5 leading-13 w-t:leading-[111%] w-p:leading-[125%] mb-6">{ sections.head.title }</p>
-          <p className="font-Nunito text-base w-t:text-3.5 w-p:text-3.5 leading-[125%]">{ sections.head.description }</p>
+          <RichtText data={{
+            content: sections.head.description
+          }} />
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12">
           {
@@ -33,7 +36,7 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
           {
             sections.directorio.map(({ name: title, description ,contacts }: SectionData, i: number) => <section key={`section-directory-${i}`} className="mb-18">
               <ContentInsideLayout>
-                <p className="font-Poppins font-bold text-10 leading-12.5 col-span-12">{title}</p>
+                <p className="font-Poppins font-bold text-10 leading-12.5 col-span-12 mb-6">{title}</p>
                 <p className="font-Nunito text-base w-t:text-3.5 w-p:text-base col-span-7 leading-[125%]">{description}</p>
               </ContentInsideLayout>
               <ContentInsideLayout classNames="mt-6 gap-6">
@@ -47,7 +50,7 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
             )
           }
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <Banner 
             data={sections.calendario.banner}
             onBtn={ ()=> {

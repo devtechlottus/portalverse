@@ -10,6 +10,7 @@ import Modal from "@/components/Modal"
 import Youtube from "@/components/Youtube"
 import { YoutubeOptions } from "@/types/Youtube.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import RichtText from "@/components/Richtext/Richtext"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -45,7 +46,9 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         </Modal>
         <div className="w-d:col-span-8 w-t:col-span-7 w-p:col-span-4 w-d:mb-12 w-t:mb-6 w-p:mb-6">
           <h1 className="text-13 w-t:text-8.25 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%] mb-5">{ sections.head.title }</h1>
-          <p className="text-base w-t:text-sm w-p:text-sm font-Nunito leading-[125%] ">{ sections.head.description }</p>
+          <RichtText data={{
+            content: sections.head.description
+          }} />
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {

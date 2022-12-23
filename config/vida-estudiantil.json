@@ -24,16 +24,7 @@
       "title": "Actividades deportivas",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
       "moreInformation": "¿Quieres más información?",
-      "moreInformationLink": {
-        "text": "actividades_deportivas@uane.mx",
-        "size": "large",
-        "isUnderline": false,
-        "isBold": false,
-        "disabled": false,
-        "id": "undefined",
-        "iconFirst": "",
-        "iconSecond": ""
-      },
+      "moreInformationLink": "actividades_deportivas@uane.mx",
       "video": {
         "options": {
           "id": "Ae84Xfec1HM",
@@ -49,16 +40,7 @@
       "title": "Actividades Culturales",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
       "moreInformation": "¿Quieres más información?",
-      "moreInformationLink": {
-        "text": "actividades_culturales@uane.mx",
-        "size": "large",
-        "isUnderline": false,
-        "isBold": false,
-        "disabled": false,
-        "id": "undefined",
-        "iconFirst": "",
-        "iconSecond": ""
-      },
+      "moreInformationLink": "actividades_culturales@uane.mx",
       "video": {
         "options": {
           "id": "Ae84Xfec1HM",
@@ -107,7 +89,8 @@
             "disabled": false,
             "icon": "person"
           },
-          "wrapper": true
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-1"
         },
         { 
           "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
@@ -139,7 +122,8 @@
             "disabled": false,
             "icon": "person"
           },
-          "wrapper": true
+          "wrapper": true,
+          "redirect": "/convocatoria-investigacion-1"
         }
       ]
     }

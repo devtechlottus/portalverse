@@ -12,6 +12,7 @@ import NewBanner from "@/components/NewBanner"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
 import BeWantedForm from "@/forms/container/BeWanted"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import RichtText from "@/components/Richtext/Richtext"
 
 const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -32,7 +33,9 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-6 w-t:col-span-4 w-p:col-span-4 w-p:order-2">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { sections.introduccion.title}</p>
-          <p className="font-Nunito leading-[125%] text-base w-t:text-3.5 w-p:text-3.5">{ sections.introduccion.descripcion }</p>
+          <RichtText data={{
+            content: sections.introduccion.descripcion
+          }} />
         </div>
         <div className="col-span-6 w-t:col-span-4 w-p:col-span-4 w-p:order-1 relative">
           <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="absolute w-full h-auto bg-white bottom-0 rounded-lg" />
@@ -42,7 +45,9 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { sections.video.title }</p>
-          <p className="font-Nunito leading-[125%] text-base w-t:text-3.5 w-p:text-3.5 mb-6">{ sections.video.descripcion }</p>
+          <RichtText data={{
+            content: sections.video.descripcion
+          }} />
           <Button data={ sections.video.accion } onClick={()=>{
             router.push(`${router.pathname}/talento`)
           }}/>

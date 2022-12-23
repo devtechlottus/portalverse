@@ -101,7 +101,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
             sections.community.links.map((item:any, i:number) => <section key={`section-community-${i}`}>
-              <PromoLink data={item}/>
+              <PromoLink data={item} onClick={()=> router.push(item.redirect)}/>
             </section>)
           }
         </div>
@@ -111,7 +111,13 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.ourScholarships.title}</p>
-          aqui van promos becas
+        </div>
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+          {
+            sections.ourScholarships.scholarships.map((item:any, i:number) => <section key={`section-schoolarships-${i}`}>
+              <PromoLink data={item} onClick={()=> router.push(item.redirect)} typeShadowColor={item.shadowColor}/>
+            </section>)
+          }
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{ sections.ourConventions.title}</p>          
@@ -139,7 +145,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6">
+      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6">
         <ContentLayout>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
             <Youtube data={ sections.meetYourRector.video} />

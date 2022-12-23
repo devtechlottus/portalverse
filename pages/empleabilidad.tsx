@@ -100,12 +100,12 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           </section>
         </ContentLayout>
       </ContentFullLayout>
-      <ContentLayout classNames="w-t:hidden w-p:hidden">
+      <ContentLayout classNames="w-t:hidden w-p:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
           <NewBanner data={ sections.contacto.banner }/>
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="w-d:hidden">
+      <ContentFullLayout classNames="w-d:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
           <NewBanner data={ sections.contacto.banner }/>
         </div>

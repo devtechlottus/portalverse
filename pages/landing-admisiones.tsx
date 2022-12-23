@@ -70,7 +70,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           <Tabs data={ sections.requirements.tabs } tabIndex={(active: number) => setTabActive(active)} />  
         </div>
        
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <ContentInsideLayout classNames="gap-6">
             {
               contentTabs.map(({ image: { src, alt }, content: { title, description, action=null }, cards }: any, i: number) => <Fragment key={`description-beca-${i}`}>
@@ -104,11 +104,11 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           </ContentInsideLayout>
         </div>
 
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
           <Banner data={sections.internacionalizacion.banner} onBtn={()=>router.push(sections.internacionalizacion.redirect)}/>
         </div>
                 
-        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden ">
           <Banner data={sections.empleabilidad.banner} onBtn={()=>router.push(sections.empleabilidad.redirect)}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
@@ -144,24 +144,24 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
            </section>)
           }
           </section>
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 object-center	mt-6 flex justify-center">
+          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 object-center	mt-6 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
             <Button data={sections.egresados.button} onClick={()=>router.push(sections.egresados.button.redirect)}/>
           </div>
         </div>
-        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden">
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
           <Youtube data={sections.egresados.video}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{sections.FAQ.title}</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex-grow overflow-y-auto mb-12 w-t:mb-6 w-p:mb-6">
           {
             !!sections.FAQ.questions.length 
               ? <Accordion data={{items: sections.FAQ.questions}} />
               : null
           }
       </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
           <Button data={ sections.FAQ.button }
           onClick={() => {
             router.push(sections.FAQ.button.redirect)

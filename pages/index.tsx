@@ -35,7 +35,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <OfertaEducativa data={sections.oferta.levels} classNames="opacity-80 w-d:mb-8"/>
         </div>
       </ContentLayout>
@@ -49,13 +49,30 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
-      <ContentLayout classNames="w-t:hidden">
-        <div className="col-span-12">
+      <ContentLayout classNames="">
+        <div className="col-span-12 w-p:col-span-4 w-t:hidden">
           <Banner data={sections["banner-internacional"]} 
             onBtn={ () => {
               router.push('/internacionalizacion')
             }}/>
         </div>
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
+          {
+            sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
+              <Numbers data={item} typeShadowColor={item.shadowColor}/>
+            </section>)
+          }
+        </div>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
+          <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
+        </section>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-6 w-p:mb-6">
+          {
+            sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+             <CardWebsite data={item}/>
+            </section>)
+          }
+        </section>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
@@ -76,23 +93,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         </div>
       </ContentLayout>
       <ContentLayout>
-        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
-          {
-            sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
-              <Numbers data={item}/>
-            </section>)
-          }
-        </div>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
-            <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
-          </section>
-          <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
-            {
-             sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite data={item}/>
-             </section>)
-            }
-          </section>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
           </div>
@@ -100,15 +100,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             <p className="mb-6 ac-type-h5-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{sections.descubre.title}</p>
             <Youtube data={sections.descubre} />
           </div>
-      </ContentLayout>
-      <ContentLayout>
-        <div className='col-span-12 w-t:col-span-8 w-p:col-span-4 my-2'>
-          <Link href="/ponte-en-contacto">
-            <a className='flex text-2xl hover:underline hover:text-red-800'>
-              Ponte en contacto
-            </a>
-          </Link>
-        </div>
       </ContentLayout>
     </HeaderFooterLayout>
   </>

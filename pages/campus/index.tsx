@@ -12,6 +12,7 @@ import ContentFullLayout from "@/layouts/ContentFull.layout"
 import BannerPortalverse from "@/components/BannerPortalverse"
 import SliderPortalverse from "@/components/SliderImagesPortalverse"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Banner from "@/components/Banner"
 
 const Campus = ({ sections, meta }: any) => {
 
@@ -115,6 +116,9 @@ const Campus = ({ sections, meta }: any) => {
               </ContentInsideLayout>
             )
           }
+        </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
+          <Banner data={sections.banner} />
         </div>
       </ContentLayout>
     </HeaderFooterLayout>
