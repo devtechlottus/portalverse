@@ -1,8 +1,8 @@
-import CardProgramData from "@/types/CardProgram.types"
-import { createRef, FC, memo, useEffect, useState } from "react"
-import Image from "@/components/Image"
+import { FC, memo } from "react"
 import cn from "classnames"
-import LinkIcons from "./LinkLottus"
+import CardProgramData from "@/types/CardProgram.types"
+import Image from "@/components/Image"
+import LinkIcons from "@/components/LinkLottus"
 
 
 const CardProgram: FC<CardProgramData> = memo(({ title, link, image, classNames , onClick}: CardProgramData) => {

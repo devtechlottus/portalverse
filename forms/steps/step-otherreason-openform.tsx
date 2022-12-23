@@ -1,11 +1,11 @@
 import { FC, useEffect, useState } from "react"
+import { useRouter } from "next/router"
 import cn from "classnames"
 import ProgressBar from "@/components/ProgressBar"
-import OpenFormInit from "@/forms/fixtures/openform";
+import OpenFormInit from "@/forms/fixtures/openform"
 import configControls from "@/forms/fixtures/controls"
-import Input from "@/components/Input/Input";
-import Button from "@/components/Button";
-import { useRouter } from "next/router";
+import Input from "@/components/Input/Input"
+import Button from "@/components/Button"
 
 const StepOtherReason: FC<any> = ({ classNames, step, pathThankyou }: any) => {
 

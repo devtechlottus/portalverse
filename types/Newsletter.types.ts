@@ -1,5 +1,3 @@
-import { InputConfig } from "./Input.types";
-
 export type NewsletterConfig = {
   icon?: string;
   placeholder?: string;

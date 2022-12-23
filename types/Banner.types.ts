@@ -1,4 +1,4 @@
-import ButtonComponentData, { ButtonConfig } from "./Button.types";
+import ButtonComponentData, { ButtonConfig } from "@/types/Button.types";
 
 export type BannerConfig = {
   /**

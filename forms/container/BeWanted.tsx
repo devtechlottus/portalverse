@@ -1,8 +1,8 @@
 import { FC, useState } from "react"
 import cn from "classnames"
-import StepOne from "@/forms/steps/step-one-bewanted";
-import StepTwo from "@/forms/steps/step-two-bewanted";
-import BeWantedFormComponentData from "@/types/BeWantedForm.types";
+import StepOne from "@/forms/steps/step-one-bewanted"
+import StepTwo from "@/forms/steps/step-two-bewanted"
+import BeWantedFormComponentData from "@/types/BeWantedForm.types"
 
 const BeWantedForm: FC<BeWantedFormComponentData> = ({ classNames, pathThankyou }: BeWantedFormComponentData) => {
 
