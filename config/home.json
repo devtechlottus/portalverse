@@ -56,7 +56,7 @@
       "title": "¿Qué me ofrece UANE para estudiar?",
       "levels": [
         {
-          "level": "bachillerato",
+          "level": "oferta-educativa/bachillerato",
           "title": "Bachillerato",
           "promo": {
             "urlImage": {
@@ -73,7 +73,7 @@
           }
         },
         {
-          "level": "licenciatura",
+          "level": "oferta-educativa/licenciatura",
           "title": "Licenciaturas",
           "promo": {
             "urlImage": {
@@ -90,7 +90,7 @@
           }
         },
         {
-          "level": "especialidad",
+          "level": "oferta-educativa/especialidad",
           "title": "Especialidades",
           "promo": {
             "urlImage": {
@@ -107,7 +107,7 @@
           }
         },
         {
-          "level": "maestria",
+          "level": "oferta-educativa/maestria",
           "title": "Maestrias",
           "promo": {
             "urlImage": {
@@ -124,7 +124,7 @@
           }
         },
         {
-          "level": "doctorado",
+          "level": "oferta-educativa/doctorado",
           "title": "Doctorado",
           "promo": {
             "urlImage": {
@@ -132,6 +132,23 @@
               "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
             },
             "text": "Doctorado",
+            "icon": "arrow_forward",
+            "color": "#D35EA3",
+            "opacity": "multiply",
+            "height": "282px",
+            "enable": true,
+            "nobackground": false
+          }
+        },
+        {
+          "level": "/educacion-continua",
+          "title": "Educación Continua",
+          "promo": {
+            "urlImage": {
+              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
+              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            },
+            "text": "Educación Continua",
             "icon": "arrow_forward",
             "color": "#D35EA3",
             "opacity": "multiply",

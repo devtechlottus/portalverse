@@ -33,6 +33,7 @@ const Routes: any = {
     { params:
       {
         "level": "bachillerato",
+        "levelRoute": "oferta-educativa/bachillerato",
         "config": {
           title: "Bachillerato",
           promo: {
@@ -71,6 +72,7 @@ const Routes: any = {
     { params:
       {
         "level": "licenciatura",
+        "levelRoute": "oferta-educativa/licenciatura",
         "config": {
           title: "Licenciaturas",
           promo: {
@@ -135,6 +137,7 @@ const Routes: any = {
     { params:
       {
         "level": "especialidad",
+        "levelRoute": "oferta-educativa/especialidad",
         "config": {
           title: "Especialidades",
           promo: {
@@ -178,6 +181,7 @@ const Routes: any = {
     { params:
       {
         "level": "maestria",
+        "levelRoute": "oferta-educativa/maestria",
         "config": {
           title: "Maestrias",
           promo: {
@@ -239,6 +243,7 @@ const Routes: any = {
     { params:
       {
         "level": "doctorado",
+        "levelRoute": "oferta-educativa/doctorado",
         "config": {
           title: "Doctorado",
           promo: {
@@ -319,7 +324,13 @@ const Routes: any = {
         { params: { "program": "estrategias-tiendas-en-linea" } },
         { params: { "program": "mega-tendencias-globales" } },
         { params: { "program": "mercadotecnia-entornos-virtuales" } },
-        { params: { "program": "politicas-publicas-gobernanza" } },
+        { params: { "program": "psicologia-consumidor" } },
+        { params: { "program": "estructura-datos" } },
+        { params: { "program": "gerencia-gestion-deportiva" } },
+        { params: { "program": "higiene-seguridad-trabajo" } },
+        { params: { "program": "liderazgo-trabajo-equipo" } },
+        { params: { "program": "obligaciones-contratos" } },
+        { params: { "program": "psicologia-comunicacion" } },
       ] 
     }
   },
@@ -333,6 +344,7 @@ const Routes: any = {
     { params:
       {
         "level": "entrada",
+        "levelRoute": "educacion-continua/",
         "config": {
           title: "entradas de blog",
           head: {

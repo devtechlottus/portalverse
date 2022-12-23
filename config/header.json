@@ -4,9 +4,10 @@
     { "label": "Oferta Educativa", "route": "/oferta-educativa", "items": [
       { "label": "Bachillerato", "route": "/oferta-educativa/bachillerato" },
       { "label": "Licenciaturas", "route": "/oferta-educativa/licenciatura" },
+      { "label": "Especialidades", "route": "/oferta-educativa/especialidad" },
       { "label": "Maestria", "route": "/oferta-educativa/maestria" },
-      { "label": "Posgrados", "route": "/oferta-educativa/posgrados" },
-      { "label": "Especialidades", "route": "/oferta-educativa/especialidad" }
+      { "label": "Doctorados", "route": "/oferta-educativa/doctorado" },
+      { "label": "Educación Continua", "route": "/educacion-continua" }
     ] },
     { "label": "Nosotros", "route": "/", "items": [] },
     { "label": "Comunidad UANE", "route": "/", "items": [] },
