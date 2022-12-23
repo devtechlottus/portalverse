@@ -33,7 +33,8 @@ type FooterPortalverseComponentData = {
   social: Array<SocialItemConfig>;
   phone: string;
   directorio: LinkLottusFooter;
-  sections: Array<Array<SectionItemConfig>>
+  sections: Array<Array<Array<SectionItemConfig>>>;
+  onClickLogo?: () => void;
 }
 
 export default FooterPortalverseComponentData

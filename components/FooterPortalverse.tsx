@@ -1,14 +1,14 @@
 import { FC, Fragment, useEffect, useState } from "react"
 import Link from "next/link"
-import { useRouter } from "next/router";
+import { useRouter } from "next/router"
 import cn from "classnames"
-import Image from "@/components/Image";
-import Icon from "@/components/Icon";
-import LinkContactTarget from "@/components/LinkContactTarget";
-import LinkIcons from "@/components/LinkLottus";
-import FooterPortalverseComponentData from "@/types/FooterPortalverse.types";
+import Image from "@/components/Image"
+import Icon from "@/components/Icon"
+import LinkContactTarget from "@/components/LinkContactTarget"
+import LinkIcons from "@/components/LinkLottus"
+import FooterPortalverseComponentData from "@/types/FooterPortalverse.types"
 
-const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certifications, logotype, social, phone, directorio, sections }: FooterPortalverseComponentData) => {
+const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certifications, logotype, social, phone, directorio, sections, onClickLogo }: FooterPortalverseComponentData) => {
 
   const router = useRouter();
   const [ year, setYear ] = useState<string>("0");
@@ -20,9 +20,9 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
   return <section className="w-full border-t-[1px] border-solid border-[#282828]">
     {/* Section logotype */}
     <div className="p-6 w-p:hidden border-b-[1px] border-solid border-[#CDCDCD]">
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 cursor-pointer" onClick={onClickLogo}>
         <Image classNamesImg="w-[200px] h-10" classNames="w-[200px] h-10" src={logotype.src} alt={logotype.alt} />
-        <div className="flex">
+        <div className="hidden">
           <p>Suscríbete a nuestro newsletter</p>
         </div>
       </div>
@@ -45,26 +45,30 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
     </div>
     <div className="p-6 w-d:hidden w-t:hidden flex flex-col border-b-[1px] border-solid border-[#CDCDCD]">
       <div className="flex justify-between items-center mb-6">
-        <Image classNamesImg="w-[92px] h-6" classNames="w-[92px] h-6" src={logotype.src} alt={logotype.alt} />
+        <div onClick={onClickLogo}>
+          <Image classNamesImg="w-[92px] h-6" classNames="w-[92px] h-6" src={logotype.src} alt={logotype.alt} />
+        </div>
         <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} />
       </div>
-      <div className="flex">
+      <div className="hidden">
         <p>Suscríbete a nuestro newsletter</p>
       </div>
     </div>
     {/* Section logotype */}
-    <div className="p-6 w-t:hidden w-p:hidden flex flex-wrap gap-20 border-b-[1px] border-solid border-[#CDCDCD]">
+    <div className="p-6 w-t:hidden w-p:hidden flex gap-24 border-b-[1px] border-solid border-[#CDCDCD]">
       {
-        sections.map((section: any[], i: number) => <div key={`sections-${i}`} className="flex flex-col gap-6">
+        sections.map((section: any[], i: number) => <div key={`sections-${i}`} className="flex flex-col gap-6 w-[252px]">
             {
-              section.map((item: any, j: number) => {
-                return <Fragment key={`section-access-${j}`}>
-                  {
-                    !!item.link
-                      ? <Link href={item.link} passHref><a><p className={cn({ "font-bold": item.principal })}>{item.label}</p></a></Link>
-                      : <p className={cn({ "font-bold": item.principal })}>{item.label}</p>
-                  }
-                </Fragment>
+              section.map((itemSection: any[], a: number) => {
+                return itemSection.map((item: any, j: number) => {
+                  return <Fragment key={`section-access-${j}`}>
+                    {
+                      !!item.link
+                        ? <Link href={item.link} passHref><a><p className={cn({ "font-bold": item.principal })}>{item.label}</p></a></Link>
+                        : <p className={cn({ "font-bold": item.principal })}>{item.label}</p>
+                    }
+                  </Fragment>
+                })
               })
             }
           </div>)
