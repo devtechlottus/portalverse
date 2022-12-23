@@ -8,16 +8,25 @@
       { "label": "Maestria", "route": "/oferta-educativa/maestria" },
       { "label": "Doctorados", "route": "/oferta-educativa/doctorado" },
       { "label": "Educación Continua", "route": "/educacion-continua" }
-    ] },
-    { "label": "Nosotros", "route": "/", "items": [] },
-    { "label": "Comunidad UANE", "route": "/", "items": [] },
-    { "label": "Blog", "route": "/blog", "items": [] },
-    { "label": "Preguntas frecuentes", "route": "/faq/new-incomming", "items": [] },
-    { "label": "Educación Continua", "route": "/educacion-continua", "items": [] }
-
-    
-
-
+      ]
+    },
+    { "label": "Nosotros", "route": "/", "items": [
+      { "label": "Somos UANE", "route": "/somos-UANE" },
+      { "label": "Campus", "route": "/campus" },
+      { "label": "Modelo Educativo", "route": "/modelo-educativo" },
+      { "label": "Internacionalización", "route": "/internacionalizacion" },
+      { "label": "Bolsa de Trabajo", "route": "/" },
+      { "label": "Centro de apoyo Psicopedagógico", "route": "/" }
+      ]
+    },
+    { "label": "Comunidad UANE", "route": "/", "items": [
+      { "label": "Noticias", "route": "/" },
+      { "label": "Actividades Deportivas", "route": "/" },
+      { "label": "Actividades Extracuriculares", "route": "/" },
+      { "label": "Comité Estudiantil", "route": "/" },
+      { "label": "Centro de Idiomas", "route": "/" }
+      ]
+    }
   ],
   "logotype":{ "src":"/images/logotipo.png", "alt":"logotipo-uane" }
 }

@@ -81,7 +81,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     {/* menu suboptions */}
     <div onMouseLeave={handleHoverOutOption} className={cn("w-full p-2 flex gap-6 justify-center w-t:hidden w-p:hidden", { "hidden": !activeMenu, "block shadow-15": activeMenu })}>
       {
-        activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className="p-1 z-20">
+        activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className="py-1 px-6 z-20 border-solid border-SC/Actions/AC-300 border-r-2">
             <Link href={item.route} passHref className="w-full">
               <a>
                 <p>{item.label}</p>
