@@ -7,8 +7,8 @@
   "sections": {
     "head": {
       "title": "Vida estudiantil",
-      "subtitle": "Lorem ipsum dolor sit amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      "subtitle": "",
+      "description": "La universidad no es solamente un lugar para atender a clases; la experiencia y aprendizaje de convivir con distintas formas de pensamiento y participar en sus actividades de integración y recreación, contribuye al desarrollo integral de la comunidad universitaria.\n\n Viajes académicos y culturales, visitas empresariales, bici tours, un cineclub, organizaciones estudiantiles. La UDLAP ofrece una gran variedad de actividades caracterizadas por su diversidad temática.\n\n ¡Te invitamos a explorar nuestra vida universitaria!",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -22,9 +22,9 @@
     },
     "sportActivities": {
       "title": "Actividades deportivas",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
-      "moreInformation": "¿Quieres más información?",
-      "moreInformationLink": "actividades_deportivas@uane.mx",
+      "description": "¡Por actividades deportivas no paramos! \n\n No sólo porque contamos con varias disciplinas deportivas que te harán más responsable, un mejor estudiante y ser humano; sino porque tenemos el evento INTER UANE que se convierte en algo inolvidable año con año.",
+      "moreInformation": "¿Quiere ser un oso UANE?",
+      "moreInformationLink": "hola@uane.edu.mx",
       "video": {
         "options": {
           "id": "Ae84Xfec1HM",
@@ -32,15 +32,15 @@
           "controls": true
         },
         "dimensions": {
-          "height": "500px"
+          "height": "330px"
         }
       }
     },
     "culturalActivities": {
       "title": "Actividades Culturales",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
-      "moreInformation": "¿Quieres más información?",
-      "moreInformationLink": "actividades_culturales@uane.mx",
+      "description": "- Cine\n\n - Jazz\n\n - Hip-Hop\n\n - Ritmos latinos\n\n - Canto\n\n - Comedia Musical",
+      "moreInformation": "¿Quieres ser un oso UANE?",
+      "moreInformationLink": "hola@uane.edu.mx",
       "video": {
         "options": {
           "id": "Ae84Xfec1HM",
@@ -48,7 +48,7 @@
           "controls": true
         },
         "dimensions": {
-          "height": "500px"
+          "height": "330px"
         }
       }
     },
