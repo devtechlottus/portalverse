@@ -273,6 +273,37 @@
           "redirect": "/convocatoria-investigacion-2"
         }
       ]
+    },
+    "rainbow": { 
+      "title": "Modos de internacionalización",
+      "sections": [
+        {
+          "color": "#E84537", "sections": [
+            { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, de temáticas incluidas en los planes de estudio, por carrera, impartidas por profesores de las Universidades con convenio.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Intercambio de materias (virtual)", "description": "Posibilidad de cursar una materia completa, en formato online, en alguna universidad extranjera con convenio. Créditos revalidados por UANE.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Semestre | Año Study Abroad", "description": "En esta modalidad podrás cursar, de forma presencial, un semestre o año completo en alguna universidad en el extranjero. Deberás revisar los planes de estudios y consultar con Academia para saber cuáles son las materias que se revalidan.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } }
+          ]
+        },
+        {
+          "color": "#B0003C", "sections": [
+            { "title": "Webinar | Profesores internacionales", "description": "Masterclasses impartidas por profesores o especialistas internacionales, de temáticas de interés para cada carrera. Con certificado internacional de participación.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Campus de Verano", "description": "Se trata de una actividad internacional a través de la cual alumnos de UANE podrán tener una experiencia en un campus de verano, con nuestros aliados internacionales, y podrán revalidar algunas de las materias al tiempo que tiene una experiencia internacional inolvidable.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Twin Projects", "description": "Sesiones virtuales de 45 a 60 minutos, de temáticas incluidas en los planes de estudio, por carrera, impartidas por profesores de las Universidades con convenio.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } }
+          ]
+        },
+        {
+          "color": "#00BEB4", "sections": [
+            { "title": "Prácticas Internacionales", "description": "A través de diversos programas, los alumnos de UANE podrán tener acceso al desarrollo de prácticas profesionales internacionales en sus áreas de conocimiento.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Dobles títulos", "description": "Dentro de los esfuerzos de internacionalización de UANE se encuentra esta modalidad, por la que podrás cursar un semestre de tu carrera en alguna de las universidades internacionales de convenio y obtener, además del título de UANE, el título extranjero de la carrera que estés cursando.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } },
+            { "title": "Materias con contenidos internacionales", "description": "La UANE cuenta, a través de sus convenios, con materias elaboradas juntamente con las mejores Universidades internacionales. De esta forma podrás tener una experiencia internacional en el marco de su propio itinerario académico y contar con diversos certificados internacionales.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } }
+          ]
+        },
+        {
+          "color": "#8B9BA3", "sections": [
+            { "title": "Seminarios Internacionales de Titulación", "description": "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu Licenciatura en UANE.", "image": { "src": "https://picsum.photos/640/320", "alt": "imagen-item" } }
+          ]
+        }
+      ]
     }
   }
 }
