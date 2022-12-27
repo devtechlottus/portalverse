@@ -7,22 +7,22 @@
   "sections": {
     "head": {
       "banner": {
-        "title": "Egresados", 
+        "title": "ExaUANE", 
         "subtitle": "Estadísticas", 
         "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
         "statics": [
-          { "icon": "", "prefix": "+", "number": "108", "suffix": "", "title": "", "body": "Vacantes enviadas durante 2022", "container": true },
-          { "icon": "", "prefix": "+", "number": "29", "suffix": "", "title": "", "body": "Invitaciones a nuestros alumnos y egresados ", "container": true }
+          { "icon": "", "prefix": "", "number": "50", "suffix": "", "title": "mil egresados", "body": "Han salido de nuestra universidad", "container": true },
+          { "icon": "", "prefix": "", "number": "50", "suffix": "%", "title": "de egresados", "body": "Pertenecen a nivel de licenciatura", "container": true }
         ]
       }
     },
     "introduccion": {
-      "title": "Introducción de este parrafo",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+      "title": "¡Bienvenido!",
+      "descripcion": "¡Querido ExaUANE! Este espacio está hecho para ti, estamos comprometidos en apoyarte a generar oportunidades para desarrollar tu potencial y actualización constante. Somos una comunidad de más de 45mil egresados y queremos mantenernos en contacto contigo, que participes en las actividades que realiza tu universidad y continues formando parte de ella."
     },
     "video": {
-      "title": "Conoce a nuestros egresados talento",
-      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor",
+      "title": "Conoce a nuestro Talento Exa UANE",
+      "descripcion": "El objetivo de este programa es destacar la labor de los ex alumnos que han dejado huella en los campos académico, laboral, empresarial y/o social. Buscamos hacer un reconocimiento público a nuestro << Talento ExaUANE >> (ex alumnos de licenciatura y/o maestría) que tengan logros profesionales detacables y que sirvan de inspiración a toda la comunidad UANE.",
       "accion": {
         "title": "Saber más",
         "type": "primary",
@@ -105,7 +105,7 @@
       "middle": false,
       "center": false,
       "bottom": false,
-      "left": true,
+      "left": false,
       "urlImage": {
         "mobile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU",
         "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU"
@@ -114,7 +114,7 @@
       "height": "",
       "action": {
         "id": "",
-        "type": "primary",
+        "type": "outlined",
         "title": "Entra a SIUANE",
         "size": "small",
         "icon": "",
