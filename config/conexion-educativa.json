@@ -7,10 +7,10 @@
     "sections":{
       "head": {
         "title": "Vinculación empresarial",
-        "subtitle": "Lorem ipsum dolor sit amet",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam.",
-        "contactText": "¿Eres empesa? Contáctanos",
-        "contactLink": "info@uane.edu.mx",
+        "subtitle": "",
+        "description": "UANE  y beWanted han llegado a un acuerdo pionero para que todos sus alumnos multipliquen sus opciones de acceder al mundo laboral.\n\n ¡Más de 3.000 empresas buscan talento junior en beWanted!",
+        "contactText": "",
+        "contactLink": "",
         "image": {
           "desk": {
             "alt": "imagen",
@@ -44,7 +44,7 @@
                 },
                 "content": {
                   "title": "¿Porque hacer el servicio social?",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra\n\nAplica a:\nNiveles educativos: Bachillerato,  licenciatura y posgrado\nModalidades: ---------"
+                  "description": "El servicio social es un requisito indispensable que <b> ayuda a formar en los estudiantes habilidades nuevas </b> y es un espacio ideal para que puedan poner en práctica los conocimientos adquiridos a lo largo de la licenciatura."
                 },
                 "process": {
                   "title": "Proceso servicio social",
@@ -65,7 +65,7 @@
                 },
                 "content": {
                   "title": "¿Porque hacer practicas profesionales?",
-                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra\n\nAplica a:\nNiveles educativos: Bachillerato,  licenciatura y posgrado\nModalidades: ---------"
+                  "description": "Contamos con más de 790 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las practicas profesionales, bolsa de empleo y seminarios y conferencias con grandes ponencias de negocios e industria."
                 },
                 "process": {
                   "title": "Proceso practicas profesionales",
