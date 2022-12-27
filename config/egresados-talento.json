@@ -7,15 +7,15 @@
   "sections": {
     "head": {
       "title": "Egresados talento",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+      "description": "<b>En estos 48 años de historia y experiencia hemos formando profesionales que han contribuido y dejado huella en nuestra sociedad. Nuestros egresados trabajan en empresas e instituciones de muy diversos sectores, tanto de la región como nacionales e internacionales,</b> y se han convertido en un engranaje clave. Estamos orgullosos de todos y cada uno de los miles de titulados que han egresado de la Universidad Americana del Noreste."
     },
     "experiencias": {
       "cards": [
         { 
           "urlImage": "https://img.freepik.com/foto-gratis/mira-captura-recortada-atractivo-joven-apuesto-emocionado-camiseta-azul-que-senala-dedos-arriba-despues-haber-mirado-sorprendido-expresion-alegre-feliz-cara-broadley-sonriendo_176420-10316.jpg?w=2000",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Marcos López",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "subtitle": "DISEÑO GRÁFICO",
+          "title": "Noé Silva",
+          "text": "Noé ha logrado dejar huella con su trabajo en todo el país. Gracias a su único estilo, desde la imagen de una edición especial de la cerveza Indio, hasta el diseño del Quetzalcoatl de la imagen conmemorativa del aniversario de la independencia de México en 2021.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -42,13 +42,13 @@
             "icon": "play_circle"
           },
           "wrapper": true,
-          "video": "Rf7Seoj9ZPk"
+          "video": "GMtcxjuvBHc"
         },
         { 
           "urlImage": "https://img.freepik.com/foto-gratis/feliz-joven-alegre-telefono-movil-celebrando-victoria_171337-18119.jpg?w=2000",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Susana Ramirez",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "subtitle": "RECURSOS HUMANOS",
+          "title": "Martha Rodríguez",
+          "text": "Después de concluir su Licenciatura, Martha continúa su crecimiento académico y profesional con una Maestría en Administración y Liderazgo en UANE. Hoy se desempeña como Gerente Administrativa.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -75,13 +75,13 @@
             "icon": "play_circle"
           },
           "wrapper": true,
-          "video": "8LDTk1DLg4M"
+          "video": "RRd5gA6AVDY"
         },
         { 
           "urlImage": "https://img.freepik.com/foto-gratis/chica-atractiva-satisfecha-sosteniendo-algo-mano-mostrando-pulgar-arriba-senal-aprobacion_1258-19083.jpg?w=2000",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Rosio Jimenez",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "subtitle": "COMUNICACIÓN",
+          "title": "Nidia Orozco",
+          "text": "Nidia se consolidó en los medios de comunicación en Piedras Negras Coahuila, pero continúo su formación y hoy tiene su propio negocio.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -108,13 +108,46 @@
             "icon": "play_circle"
           },
           "wrapper": true,
-          "video": "pXIPMGle0_w"
+          "video": "rDfCvp0UrKg"
         },
         { 
           "urlImage": "https://i.pinimg.com/736x/9f/c2/95/9fc29549f0e798046353bb399590c362.jpg",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Mariano Morales",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "subtitle": "MERCADOTECNIA INTERNACIONAL",
+          "title": "Luis Cruz Brito",
+          "text": "Conoce la trayectoria de Luis quien hoy se desempeña como Gerente General Regional de Televisa Piedras Negras, Coahuila.",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "star"
+          },
+          "linkIcon": {
+            "text": "Ver video",
+            "iconSecond": "play_circle",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "play_circle"
+          },
+          "wrapper": true,
+          "video": "0bq-GyBddBo"
+        },
+        { 
+          "urlImage": "https://cdn.pixabay.com/photo/2017/06/09/05/17/woman-2385785_960_720.jpg",
+          "subtitle": "DISEÑO GRÁFICO",
+          "title": "Ángel Treviño",
+          "text": "Gracias a su excepcional trabajo como diseñador, Ángel ha logrado trabajar para artistas de alto nivel como Shakira o su más reciente colaboración con Gloria Trevi.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -144,43 +177,10 @@
           "video": "JSlK3lrUYY8"
         },
         { 
-          "urlImage": "https://cdn.pixabay.com/photo/2017/06/09/05/17/woman-2385785_960_720.jpg",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Julieta Sanchez",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
-          "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
-          "type": "vertical",
-          "link": true,
-          "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "star"
-          },
-          "linkIcon": {
-            "text": "Ver video",
-            "iconSecond": "play_circle",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "play_circle"
-          },
-          "wrapper": true,
-          "video": "M-BWkJsgEBc"
-        },
-        { 
           "urlImage": "https://i.pinimg.com/736x/24/bc/5f/24bc5fbf7db9eba9b740480a3a474221.jpg",
-          "subtitle": "Licenciatura en Relaciones Internacionales",
-          "title": "Rodolofo Dominguez",
-          "text": "El convenio está enfocado en la colaboración académica, científica y cultural, a través de programas anuales que comprenden, entre otros proyectos, el desarrollo de investigaciones conjuntas, programas intercambio",
+          "subtitle": "PSICOLOGÍA",
+          "title": "FIDENCIO GONZÁLEZ",
+          "text": "Ganador de la medalla de oro de los Juegos Panamericanos de Lima en 2019, Fidencio es Atleta de la Selección Mexicana de Tiro Deportivo y nos cuenta su paso por UANE Monterrey.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -207,7 +207,7 @@
             "icon": "play_circle"
           },
           "wrapper": true,
-          "video": "0bq-GyBddBo"
+          "video": "_-j9GOu_C-M"
         }
       ]
     },
