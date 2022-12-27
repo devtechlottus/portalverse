@@ -66,7 +66,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
             />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-            <RichtText font="light" data={{
+            <RichtText font="dark" data={{
             content: sections.missionAndVission.description
           }} />
           </div>
