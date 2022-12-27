@@ -7,7 +7,7 @@
   "sections": {
     "head": {
       "title": "Nuestro Modelo educativo modular",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  Ut enim ad minim veniam, quis nostrud Ut enim ad minim veniam, quis nostrud "
+      "description": "Conoce las ventajas de estudiar en un sistema educativo modular, el cual enriquecido con nuestras experiencias internacionales te ofrecerán el mejor camino para vivir la mejor experiencia estudiantil"
     },
     "modelo": {
       "desktop":{
@@ -20,10 +20,10 @@
       }
     },
     "descripcion": {
-      "title": "Lorem ipsum dolo",
+      "title": "Título: Innovamos la manera de aprender ",
       "body": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisdo eiusmod tempor incididunt ut labore",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisnostrud exercitation Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "
+        "Nuestro sistema educativo modular permite que nuestros alumnos se enfoquen y se concentren en un solo campo de conocimiento, generando el desarrollo de habilidades por lapsos de 30 sesiones,",
+        "favoreciendo la integración, el acercamiento y la identificación entre maestros y alumnos."
       ]
     }
   }
