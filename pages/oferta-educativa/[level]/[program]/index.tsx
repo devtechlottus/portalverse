@@ -154,7 +154,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   <Youtube data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
-                  <h4>{ sections.benefits.title }</h4>
+                  <h4 className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
@@ -164,7 +164,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
               </>
             : null
         }
-        <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
+        <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4 mb-8">
           {
             level === 'bachillerato'
               ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
