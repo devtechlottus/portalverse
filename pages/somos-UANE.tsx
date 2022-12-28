@@ -12,6 +12,9 @@ import PromoLink from "@/components/PromoLink"
 import Mosaic from "@/components/Mosaic"
 import Youtube from "@/components/Youtube"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Link from "@/components/Link"
+import LinkIcons from "@/components/LinkLottus"
+import data from "@/dummy/licenciatura"
 
 const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -119,10 +122,13 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
             </section>)
           }
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-end mb-6">
+          <LinkIcons data={sections.ourScholarships.link} onClick={()=>router.push(sections.ourScholarships.link.redirect)}/>     
+          </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6 hidden">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{ sections.ourConventions.title}</p>          
         </div>
-        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 hidden">
           {
             sections.ourConventions.conventions.map((item:any, i:number) => <section key={`section-conventions-${i}`}>
               <CardWebsite data={item}/>
@@ -130,7 +136,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </div>
       </ContentLayout>
-      <ContentLayout classNames="mt-18 w-t:mt-6 w-p:mt-6">
+      <ContentLayout classNames="mt-18 w-t:mt-6 w-p:mt-6 hidden">
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-auto">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.ourCertifications.title}</p>
           <RichtText data={{
@@ -145,7 +151,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6">
+      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6 hidden">
         <ContentLayout>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
             <Youtube data={ sections.meetYourRector.video} />

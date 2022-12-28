@@ -182,10 +182,10 @@
         }
       ],
       "numbers":[
-        { "icon": "persons", "prefix": "", "number": "14,500", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": true },
-        { "icon": "persons", "prefix": "", "number": "70", "suffix": "", "title": "PROGRAMAS", "body": "", "container": true },
-        { "icon": "persons", "prefix": "", "number": "8", "suffix": "", "title": "CAMPUS", "body": "", "container": true },
-        { "icon": "persons", "prefix": "", "number": "760", "suffix": "", "title": "CONVENIOS", "body": "", "container": true }
+        { "icon": "groups", "prefix": "", "number": "14,500", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "70", "suffix": "", "title": "PROGRAMAS", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "8", "suffix": "", "title": "CAMPUS", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "760", "suffix": "", "title": "CONVENIOS", "body": "", "container": true }
       ]
     },
     "community": {
@@ -305,7 +305,18 @@
           "isShadowColor": true,
           "shadowColor": "blue-left"
         } 
-      ]
+      ],
+      "link":{
+        "text": "Ver todas las becas",
+        "size": "large",
+        "isUnderline": false,
+        "isBold": true,
+        "disabled": false,
+        "id": "",
+        "iconFirst": "",
+        "iconSecond": "arrow_right_ios",
+        "redirect": "becas"
+      }
     },
     "ourConventions": {
       "title": "Más de 700 convenios",
