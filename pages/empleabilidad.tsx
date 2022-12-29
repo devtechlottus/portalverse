@@ -61,10 +61,10 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto w-t:hidden w-p:hidden">
             <p className="font-Poppins text-white font-bold leading-[125%] text-6.5 w-t:text-6 w-p:text-6 mb-6">{ sections.historiasExito.title }</p>
-            <RichtText font="light" data={{content: sections.historiasExito.description.content}}/>
+            <RichtText font="dark" data={{content: sections.historiasExito.description.content}}/>
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mb-6 w-d:hidden">
-            <RichtText font="light" data={{content: sections.historiasExito.description.content}}/>
+            <RichtText font="dark" data={{content: sections.historiasExito.description.content}}/>
           </div>
         </ContentLayout>
       </ContentFullLayout>

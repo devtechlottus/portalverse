@@ -19,9 +19,9 @@
       }
     },
     "descripcion": {
-      "title": "Lorem ipsum dolor sit amet",
+      "title": "Conoce nuestra bolsa de empleo para una rápida inserción al mercado laboral",
       "text": { 
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra"
+        "content": "La Universidad Americana del Noreste forma profesionistas competentes mediante la impartición de programas de calidad académica, con enfoque práctico y tecnología de vanguardia. Por el conocimiento de estas características, tenemos convenio con diversas empresas para elevar la empleabilidad de nuestros estudiantes y alumnos egresados del plantel."
       }
     },
     "vacantes": {
@@ -31,14 +31,14 @@
     "vinculacionEmpresas": {
       "title": "Vinculación empresarial",
       "description":{
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+        "content": "UANE  y beWanted han llegado a un acuerdo pionero para que todos sus alumnos multipliquen sus opciones de acceder al mundo laboral. ¡Más de 3.000 empresas buscan talento junior en beWanted!\n\nPero eso no lo es todo, tenemos convenio con empresas importantes de diversos gremios que se ubican al noreste del país para facilitar tu acceso al mundo laboral. "
       },
       "image":{}
     },
     "historiasExito": {
       "title": "Casos de éxito",
       "description": {
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+        "content": "Completa tu perfil Confirma tu cuenta con el email de validación que te hemos enviado y completa tu perfil para que las empresas te encuentren."
       },
       "video": {
         "options": {
@@ -54,7 +54,7 @@
     "comoFunciona": {
       "title": "¿Como funciona la plataforma?",
       "description": {
-        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio"
+        "content": "Te proporcionaremos un excelente nivel de servicio en todas las áreas de la Universidad, incluyendo el de <b>bolsa de trabajo</b>, que en este caso se hace en colaboración con <b>beWanted</b>, la mejor plataforma de conexión con <b>más de 2,000 empresas buscando talento joven.\n\n¿Quieres hacerte visible a todas esas empresas?\n\n¡Fácil!</b> regístrate y completa al máximo tu perfil."
       },
       "video": {
         "options": {
