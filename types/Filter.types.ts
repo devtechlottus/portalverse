@@ -14,8 +14,14 @@ export type ConfigItemFilterComponent = {
   options: OptionsFilter[];
 }
 
-type FilterComponentData = {
-  [filter: string]: ConfigItemFilterComponent;
+export type FilterComponentData = Record<string, ConfigItemFilterComponent | string>
+
+interface FilterComponentConfig {
+  data: FilterComponentData;
+  color?: string;
+  onSelectionItems: (filters: any) => void;
+  onChangeView: (status: boolean) => void;
 }
 
-export default FilterComponentData
+
+export default FilterComponentConfig

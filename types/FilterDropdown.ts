@@ -14,8 +14,10 @@ type FilterDropdownComponentData = {
     config: FilterDropdownConfig;
     options: OptionDropdownItem[];
   };
+  color?: string;
   onSelectedOptions: (options: string[]) => void;
-  clear?: boolean;
+  onClearOptions: () => void;
+  onClear?: () => void;
 };
 
 export default FilterDropdownComponentData

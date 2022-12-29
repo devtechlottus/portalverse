@@ -1,12 +1,10 @@
 import { ReactElement, useEffect, useState } from "react"
 import Head from "next/head"
 import Routes from "routes/Routes"
-import Filter from "@/components/Filter/Filter"
 import Lottie from "@/components/Lottie"
 import RichtText from "@/components/Richtext/Richtext"
 import Spotify from "@/components/Spotify"
 import Youtube from "@/components/Youtube"
-import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import Tabs from "@/components/Tabs"
@@ -34,6 +32,9 @@ import Slider from "@/components/Slider"
 import Table from "@/components/Table"
 import CarouselPortalverse from "@/components/CarouselPortalverse/CarouselPortalverse"
 import Rainbow from "@/components/Rainbow"
+import Checkbox from "@/components/Checkbox"
+import Filter from "@/components/Filter/Filter"
+import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -81,9 +82,9 @@ const ComponentPage = ({ data }: any) => {
         break;
       case "filter":
         console.log("filter", componentState)
-        return <Filter data={componentState.data} />
+        return <Filter onSelectionItems={() => {}} onChangeView={() => {}} data={componentState.data} />
       case "filter-dropdown":
-        return <FilterDropdown data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
+        return <FilterDropdown onClearOptions={() => {}} data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
         break;
       case "tabs":
         console.log("tabs", componentState)
@@ -186,6 +187,9 @@ const ComponentPage = ({ data }: any) => {
       case "carouselPortalverse":
         console.log("carouselPortalverse", componentState)
         return <CarouselPortalverse classNamesContainer="h-100" items={componentState.data.items} />
+      case "checkbox":
+        console.log("checkbox", componentState)
+        return <Checkbox onCheck={(e: CustomEvent) => console.log("evt---", e)} data={componentState.data} />
         break;
       case "rainbow":
         console.log("rainbow", componentState)
@@ -396,7 +400,7 @@ export async function getStaticProps(context: any) {
     },
     {
       [path]: 'filter-dropdown', title: "Filter Dropdown", data: {
-      config: { label: 'dos', icon: 'grade' },
+        config: { label: 'dos', icon: 'grade' },
         options: [
           { label: 'una', active: false, value: 'una' },
           { label: 'dos', active: false, value: 'dos' },
@@ -713,7 +717,10 @@ export async function getStaticProps(context: any) {
           { title: "Seminarios Internacionales de Titulación", description: "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu Licenciatura en UANE.", image: { src: "https://picsum.photos/640/320", alt: "imagen-item" } },
         ]
       },
-    ] } }
+    ] } },
+    {
+      [path]: 'checkbox', title: "Checkbox", data: {label: 'una', active: false, value: 'una'}
+    },
   ];
   const { params: { component } } = context;
   const preFilter = components.filter((item: any) => item.component === component)
