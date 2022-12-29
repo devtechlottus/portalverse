@@ -32,10 +32,10 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
                 sections.medios.map((medio: any, i: number) => <p key={`item-media-${i}`} className="col-span-5 col-start-2 col-end-5 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1 text-base font-Poppins w-d:mt-6 w-t:mt-6 w-p:mt-2 w-p:mx-6 leading-[24px] w-t:leading-[125%] w-p:leading-3[130%]"><span className="material-icons mr-2">{ medio.icon }</span>{ medio.text }</p>)
               }
               <section className="col-span-5 col-start-2 col-end-5 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1">
-                <p className="text-4.5 w-t:text-6 font-Poppins font-bold w-d:mt-6 w-t:mt-6 w-p:mt-2 w-p:mx-6 leading-[125%]">Visítanos en nuestros campus</p>
+                <p className="text-4.5 w-t:text-6 font-Poppins font-bold w-d:mt-6 w-t:mt-6 w-p:mt-2 w-p:mx-6 leading-[125%]">{sections.campus.title}</p>
               </section>
               <section className="col-span-5 col-start-2 col-end-5 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1 w-d:mb-18 mt-6">
-              <Button data={{...ButtonInit, title: 'Ver directorio'}} />
+                <Button data={sections.campus.button} onClick={()=> router.push(sections.campus.button.redirect)}/>
               </section>
               <p className="col-span-5 col-start-2 col-end-11 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1  text-4.5 font-bold font-Poppins w-d:mt-12 w-t:mt-18 w-p:mt-16 w-p:ml-6 leading-[125%]">Síguenos en redes sociales</p>
               <section className="grid w-d:grid-cols-4 w-t:grid-cols-4 w-p:grid-cols-4 col-start-2 col-end-5 w-t:col-start-2 w-t:col-end-6 w-p:col-start-1 w-p:col-end-4 w-d:mt-[38px] w-t:mt-[38px] w-p:my-[20px] w-p:ml-6 w-d:mb-6 w-t:mb-[6.5rem] w-p:mb-13">
