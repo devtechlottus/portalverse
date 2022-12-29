@@ -8,7 +8,7 @@
     "head":{
       "title": "Somos UANE",
       "subtitle": "46 años transformando vidas",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      "description": "UANE es una universidad con más de 14,500 estudiantes, más de 50,000 egresados en los niveles de bachillerato, licenciatura y posgrado, además de 8 campus en 3 estados de la república mexicana.",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -22,7 +22,7 @@
     },
     "history": {
       "title": "Nuestra historia",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
+      "description": "¡Han pasado 48 años!\n\nTodas las experiencias educativas que se han generado en UANE nacieron por la visión de un compromiso social centrado en ofertar oportunidades de crecimiento a través de una educación superior de calidad.\n\n El desarrollo se dió de manera acelerada a partir de las primeras clases gracias a que la gente que sí aspira a elevar su calidad de vida laboral y personal se acercó al plantel para descubrir todas las posibilidades y las puertas que se abren cuando se satisfacen las necesidades del ambiente empresarial, gracias a la constante preparación.",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -36,7 +36,7 @@
     },
     "missionAndVission": {
       "title": "Mision y visión",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus",
+      "description": "MISIÓN \n\n Generar oportunidades para desarrollar personas ejemplares, comprometidas con su futuro.\n\n VISIÓN\n\n Estar entre las 10 mejores universidades particulares de México y lograr un crecimiento anual de alumnos de al menos un 30%",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -54,8 +54,8 @@
         { 
           "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1mAjk7blwP1jGnU45XfcCeicbVRJ9rE-FdQFTovdoeEnMYonChejcOeEYtHwkGHJjlk&usqp=CAU",
           "subtitle": "",
-          "title": "Espacio universitario internacionalizacion en la UNAE",
-          "text": "Realiza tus pagos, solicita o consulta tus trámites y lleva registro de tus actividades escolares.",
+          "title": "HONESTIDAD",
+          "text": "Actuamos con integridad, congruencia y rectitud en nuestro que hacer cotidiano y nos conducimos con apego a la verdad.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -86,8 +86,8 @@
         { 
           "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8fPWgJJCI7-bEpXSg6DJa909NOPr0W7hTWMTMyS36eTZpq96SyjbvGNDvoscxlLhjS0&usqp=CAU",
           "subtitle": "",
-          "title": "Aula virtual",
-          "text": "Accede a tus clases y actividades de cada materia, entrega tus trabajos o realiza tus ejercicios y evaluaciones.",
+          "title": "RESPONSABILIDAD",
+          "text": "Estamos comprometidos con la comunidad universitaria y con la sociedad, con esto desempeñamos nuestro trabajo con exigencia y profesionalismo.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -119,8 +119,8 @@
         { 
           "urlImage": "https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg",
           "subtitle": "",
-          "title": "Biblioteca virtual",
-          "text": "Explora nuestras colecciones y consulta dentro del acervo bibliográfico que ponemos a tu alcance.",
+          "title": "DESARROLLO HUMANO",
+          "text": "Construimos un ambiente de oportunidades, respeto y confianza para motivar a la pasión por el aprendizaje y la superación permanentes.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -151,8 +151,8 @@
         { 
           "urlImage": "https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg",
           "subtitle": "",
-          "title": "Biblioteca virtual",
-          "text": "Explora nuestras colecciones y consulta dentro del acervo bibliográfico que ponemos a tu alcance.",
+          "title": "SERVICIO",
+          "text": "Nos vinculamos permanentemente con nuestro entorno para satisfacer sus necesidades con calidad, oportunidad y trato amable.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -182,10 +182,10 @@
         }
       ],
       "numbers":[
-        { "icon": "persons", "prefix": "+", "number": "77%", "suffix": "+", "title": "Alumnos", "body": "con experiencias internacionales acceden a puestos directivos.", "container": true },
-        { "icon": "persons", "prefix": "+", "number": "11", "suffix": "+", "title": "Formas", "body": "diferentes de internacionalizar tu título en UANE.", "container": true },
-        { "icon": "persons", "prefix": "+", "number": "1111", "suffix": "+", "title": "Titulación", "body": "Obtén título de UANE y uno más de alguna univesidad extranjera.", "container": true },
-        { "icon": "persons", "prefix": "+", "number": "9", "suffix": "+", "title": "Alianzas", "body": "con universidades en el extranjero.", "container": true }
+        { "icon": "groups", "prefix": "", "number": "14,500", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "70", "suffix": "", "title": "PROGRAMAS", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "8", "suffix": "", "title": "CAMPUS", "body": "", "container": true },
+        { "icon": "groups", "prefix": "", "number": "760", "suffix": "", "title": "CONVENIOS", "body": "", "container": true }
       ]
     },
     "community": {
@@ -305,7 +305,18 @@
           "isShadowColor": true,
           "shadowColor": "blue-left"
         } 
-      ]
+      ],
+      "link":{
+        "text": "Ver todas las becas",
+        "size": "large",
+        "isUnderline": false,
+        "isBold": true,
+        "disabled": false,
+        "id": "",
+        "iconFirst": "",
+        "iconSecond": "arrow_right_ios",
+        "redirect": "becas"
+      }
     },
     "ourConventions": {
       "title": "Más de 700 convenios",
