@@ -1,13 +1,15 @@
 import { FC, memo, useEffect, useState } from "react"
-import FilterDropdownComponentData, { FilterDropdownConfig, OptionDropdownItem } from "@/types/FilterDropdown"
+import cn from "classnames"
+import FilterDropdownComponentData, { FilterDropdownConfig } from "@/types/FilterDropdown"
 import Checkbox from "@/components/Checkbox"
 import Button from "@/components/Button"
 import { ButtonInit } from "@/components/fixture"
 import { CheckboxConfig } from "@/types/Checkbox.types"
 
-const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, options }, onSelectedOptions, clear }: FilterDropdownComponentData) => {
+const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, options }, onSelectedOptions, color, onClear }: FilterDropdownComponentData) => {
 
   const [ open, setOpen ] = useState(false);
+  const [ active, setActive ] = useState(false);
   const [ optionsList, setOptionsList ] = useState<any[]>([])
   const [ buttonConfig, setButtonConfig ] = useState({ ...ButtonInit, title: 'Aplicar', type: 'outlined', disabled: true });
 
@@ -24,24 +26,33 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
   
   const applySelection = () => {
     setOptionsList((state: string[]) => {
-      onSelectedOptions(state);
+      if (active) {
+        onSelectedOptions(state);
+      }
       return state; 
     });
+    setActive(true);
   }
   
   useEffect(() => {
+    setConfigComponent(() => ({ ...config }));
+  }, [config])
+  
+  useEffect(() => {
     setOptionsCollection(() => options.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
-    setConfigComponent(() => config);
-  }, [config, options])
+  }, [options])
   
   useEffect(() => {
     setButtonConfig({ ...buttonConfig, disabled: !optionsList.length })
+    if( !optionsList.length ) {
+      applySelection();
+    }
   }, [optionsList])// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
     <section className="dropdown" onClick={onOpenClose}>
-      <span className="material-icons icon">{ configComponent.icon }</span>
-      <p>{ configComponent.label }</p>
+      <span className={cn(`material-icons icon text-[${color}]`)}>{ configComponent.icon }</span>
+      <p className={cn(`text-[#B0003C]`)}>{ configComponent.label }</p>
       <span className="material-icons icon" onClick={onOpenClose}>expand_{ open ? 'less' : 'more' }</span>
     </section>
     <section className="dropdown-list" style={{ display: open ? 'flex' : 'none' }}>
