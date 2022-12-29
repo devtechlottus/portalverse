@@ -7,8 +7,8 @@ const Checkbox: FC<CheckboxComponentData> = memo(({ data, onCheck }: CheckboxCom
   useEffect(() => {
     (checkboxRef.current as any).data = {
       label: data.label || "",
-      disabled: data.disabled,
-      selected: data.selected,
+      disabled: !!data.disabled,
+      selected: !!data.selected,
       name: data.name || "",
     };
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
