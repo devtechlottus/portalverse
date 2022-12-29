@@ -20,7 +20,7 @@ import { getDataPageFromJSON } from "utils/getDataPage"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
-  const router = useRouter()
+  const router = useRouter();
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
   useEffect(() => {
@@ -30,6 +30,9 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
     }, []);
     setContentTabs([...allContents]);
   }, [sections.requirements.tabs]);
+
+  const navigate = (route: string) => router.push(route)
+
   return <>
     <Head>
       <title>{ meta.title }</title>
@@ -37,12 +40,10 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-          <div>
-            <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.head.title}</p>
-          </div>
+          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.head.title}</p>
           {
             sections.head.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4">
-                <Icon name={item.icon} className="w-[55px] h-[55px] w-p:w-8 w-p:h-8"/>
+                <Icon name={item.icon} className="w-[55px] h-[55px] w-p:w-8 w-p:h-8 text-[#B0003C]"/>
                 <p className="font-Poppins font-bold my-auto ml-6 text-4.5 w-p:text-base">{item.text}</p>
               </div>
             )
@@ -80,7 +81,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
                     descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
                     action={
                       <div slot="actionDescription" className="w-t:hidden w-p:hidden">
-                        <Button data={action}/>
+                        <Button  onClick={() => navigate(action.route)} data={action}/>
                       </div>
                     }
                   />

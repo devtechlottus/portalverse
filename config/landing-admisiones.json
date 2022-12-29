@@ -9,19 +9,19 @@
       "title":"Inscríbete en UANE",
       "textIcons":[
         {
-          "icon": "email",
+          "icon": "trophy",
           "text": "48 años nos respaldan"
         },
         {
-          "icon": "email",
+          "icon": "person",
           "text": "+13,500 alumnos en todas nuestras modalidades"
         },
         {
-          "icon": "email",
+          "icon": "graduatecap",
           "text": "+50,000 egresados"
         },
         {
-          "icon": "email",
+          "icon": "agreement",
           "text": "+760 convenios empresariales para una acelerada inserción laboral"
         }
       ],
@@ -50,8 +50,8 @@
               },
               "content": {
                 "title": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation - Elemento 1 - Elemento 2 - Elemento 3",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+                "description": "\n- Acta de nacimiento reciente\n- Certificado de secundaria legalizado\n- Certificado de preparatoria legalizado\n- CURP copia.\n\n<b>Estudiantes que tramitan equivalencia:</b>\n- Certificado parcial de estudios legalizado\n- 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/bachillerato"}
               },
               "cards": [
                 { 
@@ -161,9 +161,9 @@
                 "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
               },
               "content": {
-                "title": "Características de la Beca Servicio1",
-                "description": "La Beca Servicio se otorga en pesos y el monto autorizado se aplica exclusivamente al costo de la colegiatura. Se otorga a los estudiantes de escasos recursos económicos que tengan un promedio de aprovechamiento académico de por lo menos 80. Además de tener buena conducta. La beca deberá ser retribuida mediante actividades de servicio ya sea en beneficio de la Universidad o de la Comunidad. Aplica a: Niveles educativos: Bachillerato, licenciatura y postgrado Modalidades: -------",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+                "title": "",
+                "description": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/licenciatura"}
               },
               "cards": [
                 { 
@@ -202,16 +202,112 @@
               }
           },
           {
-            "label": "Maestria", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "label": "Maestría", "icons": { "primary": "", "duplicate": true }, "disabled": false,
             "content": {
               "image": {
                 "alt": "imagen",
                 "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
               },
               "content": {
-                "title": "Características de la Beca Servicio1",
-                "description": "La Beca Servicio se otorga en pesos y el monto autorizado se aplica exclusivamente al costo de la colegiatura. Se otorga a los estudiantes de escasos recursos económicos que tengan un promedio de aprovechamiento académico de por lo menos 80. Además de tener buena conducta. La beca deberá ser retribuida mediante actividades de servicio ya sea en beneficio de la Universidad o de la Comunidad. Aplica a: Niveles educativos: Bachillerato, licenciatura y postgrado Modalidades: -------",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false}
+                "title": "",
+                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/maestria"}
+              },
+              "cards": [
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                }
+              ]
+              }
+          },
+          {
+            "label": "Especialidad", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "content": {
+              "image": {
+                "alt": "imagen",
+                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+              },
+              "content": {
+                "title": "",
+                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/especialidad"}
+              },
+              "cards": [
+                { 
+                  "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+                  "subtitle": "SUBTITULO",
+                  "title": "Coursera y UANE se unen para ti",
+                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "vertical",
+                  "link": true,
+                  "background": false,
+                  "linkText": {
+                    "text": "Conocer más",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "star"
+                  },
+                  "linkIcon": {
+                    "text": "Ver más",
+                    "iconSecond": "person",
+                    "isBold": true,
+                    "size": "large",
+                    "isUnderline": false,
+                    "disabled": false,
+                    "icon": "person"
+                  },
+                  "wrapper": true
+                }
+              ]
+              }
+          },
+          {
+            "label": "Doctorado", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "content": {
+              "image": {
+                "alt": "imagen",
+                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+              },
+              "content": {
+                "title": "",
+                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/doctorado"}
               },
               "cards": [
                 { 
