@@ -12,6 +12,9 @@ import InstagramIcon from "@/icons/instagram.svg"
 import TiktokIcon from "@/icons/tiktok.svg"
 import TwitterIcon from "@/icons/twitter.svg"
 import YoutubeIcon from "@/icons/youtube.svg"
+import Agreement from "@/icons/agreement.svg"
+import GraduateCap from "@/icons/graduatecap.svg"
+import Trophy from "@/icons/trophy.svg" 
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -27,6 +30,9 @@ const iconTypes: any = {
   tiktok: TiktokIcon,
   youtube: YoutubeIcon,
   instagram: InstagramIcon,
+  agreement: Agreement,
+  graduatecap: GraduateCap,
+  trophy: Trophy,
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
