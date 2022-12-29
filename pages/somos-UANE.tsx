@@ -12,9 +12,7 @@ import PromoLink from "@/components/PromoLink"
 import Mosaic from "@/components/Mosaic"
 import Youtube from "@/components/Youtube"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Link from "@/components/Link"
 import LinkIcons from "@/components/LinkLottus"
-import data from "@/dummy/licenciatura"
 
 const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
 
