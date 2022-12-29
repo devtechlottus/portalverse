@@ -50,7 +50,7 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
             )
           }
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
+        <div className="hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <Banner 
             data={sections.calendario.banner}
             onBtn={ ()=> {
