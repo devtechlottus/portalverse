@@ -8,11 +8,11 @@ import Youtube from "@/components/Youtube"
 import Banner from "@/components/Banner"
 import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
-import NewBanner from "@/components/NewBanner"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
 import BeWantedForm from "@/forms/container/BeWanted"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
+import Cintillo from "@/components/Cintillo"
 
 const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -109,9 +109,9 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
         </ContentLayout>
       </ContentFullLayout>
-      <ContentLayout classNames="my-[72px]">
+      <ContentLayout classNames="my-[72px] w-t:my-6 w-p:my-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <NewBanner data={ sections.dudas.banner } />
+          <Cintillo image={sections.dudas.banner.image} title={sections.dudas.banner.title} subtitle={sections.dudas.banner.subtitle} phone={sections.dudas.banner.phone} email={sections.dudas.banner.email}/>
         </div>
       </ContentLayout>
     </HeaderFooterLayout>

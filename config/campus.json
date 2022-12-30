@@ -209,32 +209,9 @@
     "banner": {
       "title": "Agenda una visita",
       "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
-      "state": "black",
-      "size": "medium",
-      "middle": false,
-      "center": false,
-      "bottom": false,
-      "left": false,
-      "urlImage": {
-        "mobile": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg",
-        "desktop": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg"
-      },
-      "overlay": "black",
-      "height": "",
-      "action": {
-        "id": "",
-        "type": "outlined",
-        "title": "Conocer más",
-        "size": "small",
-        "icon": "",
-        "lyIcon": false,
-        "disabled": false,
-        "isExpand": false,
-        "tagOnClick": "",
-        "test": ""
-      },
-      "wrapper": true,
-      "redirect": "/directorio"
+      "image": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg",
+      "email": "egresados@uane.edu.mx",
+      "phone": "55-1224-2345"
     }
   }
 }

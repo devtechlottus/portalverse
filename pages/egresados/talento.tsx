@@ -4,13 +4,13 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 import CardWebsite from "@/components/CardWebsite"
-import NewBanner from "@/components/NewBanner"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Modal from "@/components/Modal"
 import Youtube from "@/components/Youtube"
 import { YoutubeOptions } from "@/types/Youtube.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
+import Cintillo from "@/components/Cintillo"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -58,12 +58,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </section>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden my-[72px]">
-          <NewBanner data={ sections.aplica.banner } />
+          <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:mt-[65px] w-t:mb-[41px] w-p:my-12">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <NewBanner data={ sections.aplica.banner } />
+          <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>
       </ContentFullLayout>
     </HeaderFooterLayout>

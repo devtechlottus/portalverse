@@ -142,15 +142,10 @@
     },
     "contacto": {
       "banner": {
-        "image": {
-          "desktop": "https://media.istockphoto.com/id/1178013034/photo/climbing-my-way-up-the-customer-service-ladder.jpg?s=612x612&w=0&k=20&c=pLfnuu-EfDfPi9onxWGZbFypzQC1Z0rMxWn4sFc3N-k=",
-          "mobile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStRLzXTJXV0BuMjwpTUnRnpyzT8RFfHEg7tmzJGHvfVTuGn16qaG5g-khUrCPiDz83bJc&usqp=CAU"
-        },
+        "image": "https://media.istockphoto.com/id/1178013034/photo/climbing-my-way-up-the-customer-service-ladder.jpg?s=612x612&w=0&k=20&c=pLfnuu-EfDfPi9onxWGZbFypzQC1Z0rMxWn4sFc3N-k=",
         "title": "¿Tienes dudas? Contáctanos",
-        "text": "soporte@uane.edu.mx 55-1224-2345",
-        "contentCenter": false,
-        "contentLeft": false,
-        "wrapper": true
+        "email": "soporte@uane.edu.mx",
+        "phone": "55-1224-2345"
       }
     }
   }

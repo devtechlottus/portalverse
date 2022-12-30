@@ -1,6 +1,5 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
-import BannerPortalverse from "@/components/BannerPortalverse"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -9,10 +8,10 @@ import Image from "@/components/Image"
 import BeWantedForm from "@/forms/container/BeWanted"
 import Youtube from "@/components/Youtube"
 import CardWebsite from "@/components/CardWebsite"
-import NewBanner from "@/components/NewBanner"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
+import Cintillo from "@/components/Cintillo"
 
 const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -102,12 +101,12 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden w-p:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
-          <NewBanner data={ sections.contacto.banner }/>
+          <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
-          <NewBanner data={ sections.contacto.banner }/>
+          <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentFullLayout>
     </HeaderFooterLayout>
