@@ -1,4 +1,4 @@
-import { FC, memo } from "react" 
+import { FC } from "react" 
 import cn from "classnames"
 import LinkContactTarget from "./LinkContactTarget"
 import CintilloData from "@/types/Cintillo.types"
