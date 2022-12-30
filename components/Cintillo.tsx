@@ -1,6 +1,6 @@
 import { FC } from "react" 
 import cn from "classnames"
-import LinkContactTarget from "./LinkContactTarget"
+import LinkContactTarget from "@/components/LinkContactTarget"
 import CintilloData from "@/types/Cintillo.types"
 
 const Cintillo: FC<CintilloData> = ({ image,title, subtitle, email, phone, classNames }: CintilloData) => {
