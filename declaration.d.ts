@@ -13,7 +13,6 @@ declare namespace JSX {
     ['lottus-input']: CustomElement,
     ['lottus-accordion']: CustomElement,
     ['lottus-nav-portalverse']: CustomElement,
-    ['lottus-tabs-portalverse']: CustomElement,
     ['lottus-banner-portalverse']: CustomElementContainer,
     ['lottus-card-website-portalverse']: CustomElementContainer,
     ['lottus-navdrawer-portalverse']: CustomElement,

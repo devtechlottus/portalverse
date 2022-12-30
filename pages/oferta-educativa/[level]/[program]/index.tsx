@@ -6,7 +6,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
-import Tabs from "@/components/Tabs"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
@@ -18,6 +17,8 @@ import Button from "@/components/Button"
 import Select from "@/components/Select"
 import { SelectInit } from "@/components/fixture"
 import OutstandingContainer from "@/components/OutstandingContainerPortalverse"
+import TabsFeatured from "@/components/TabsFeatured"
+import ContentFullLayout from "@/layouts/ContentFull.layout"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
 
@@ -97,9 +98,16 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={sections.modalities.tabs} tabIndex={(active: number) => { handleSetActiveTab(active)}} />
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
+      </ContentLayout>
+      <ContentFullLayout>
+        <section className="w-d:hidden">
+          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => setTabActive(active)} />
+        </section>
+      </ContentFullLayout>
+      <ContentLayout>
         <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
         {
           level === 'bachillerato'

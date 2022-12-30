@@ -7,7 +7,6 @@ import Spotify from "@/components/Spotify"
 import Youtube from "@/components/Youtube"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
-import Tabs from "@/components/Tabs"
 import Banner from "@/components/Banner"
 import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
@@ -35,6 +34,7 @@ import Rainbow from "@/components/Rainbow"
 import Checkbox from "@/components/Checkbox"
 import Filter from "@/components/Filter/Filter"
 import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
+import TabsFeatured from "@/components/TabsFeatured"
 
 const ComponentPage = ({ data }: any) => {
 
@@ -85,10 +85,6 @@ const ComponentPage = ({ data }: any) => {
         return <Filter onSelectionItems={() => {}} onChangeView={() => {}} data={componentState.data} />
       case "filter-dropdown":
         return <FilterDropdown onClearOptions={() => {}} data={componentState.data} onSelectedOptions={handleOnSelectedOptions} />
-        break;
-      case "tabs":
-        console.log("tabs", componentState)
-        return <Tabs data={componentState.data} /> 
         break;
       case "button":
         console.log("button", componentState);
@@ -195,6 +191,10 @@ const ComponentPage = ({ data }: any) => {
         console.log("rainbow", componentState)
         return <Rainbow sections={componentState.data.sections} title={componentState.data.title} />
         break;
+      case "tabs-featured":
+        console.log("tabs-featured", componentState)
+        return <TabsFeatured onActive={(active: number) => alert(`tab active: ${active}`)} tabs={componentState.data.tabs} />
+        break;
       }      
   }
 
@@ -202,7 +202,7 @@ const ComponentPage = ({ data }: any) => {
     <Head>
       <title>{ componentState.title }</title>
     </Head>
-    <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+    <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-6">
     {
       renderComponent(componentState.component)
     }
@@ -328,7 +328,6 @@ export async function getStaticProps(context: any) {
     },
     { [path]: "banner", title:"Banner", data:{ title: 'Hola', subtitle: 'jejeje', state: 'black', size: 'small', middle: false, center: false, bottom: false, left: false, urlImage: {mobile: 'https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg', desktop: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s',}, overlay: '', height: '', action: {id: 'undefined', type: 'primary', title: "Hola", size: 'small', icon: "person", lyIcon: false, disabled: false, isExpand: false, tagOnClick: 'testClick', test: ''}, wrapper: true}},
     { [path]: "button", title: "Button", data:{title: 'Continuar', type: 'primary', icon: '', isExpand: false,}},
-    { [path]: "tabs", title: "Tabs", data:{items: [{label: 'Item Tab 1', icons: { primary: 'star', duplicate: true,}, disabled: true,}, {label: 'Item Tab 1', icons: {primary: 'star', duplicate: true, }, disabled: false, }], size: 'medium', }},
     { [path]: "youtube", title: "Youtube", data: { options: { id: 'Ae84Xfec1HM', type: 'single', controls: true}, dimensions: { height: '500px'} } },
     { [path]: "spotify", title: "Spotify", data: { config: { type: 'episode', format: 'normal', id: '1iMWrWrpocYYtxS2wV6tJt',} } },
     { [path]: "lottie", title: "Lottie", data: { data: { path: '/lottie/loader.json', }, dimensions: {}  }},
@@ -720,6 +719,9 @@ export async function getStaticProps(context: any) {
     ] } },
     {
       [path]: 'checkbox', title: "Checkbox", data: {label: 'una', active: false, value: 'una'}
+    },
+    {
+      [path]: 'tabs-featured', title: "TabsFeatured", data: { tabs: [ { label: "una" }, { label: "dos" }, { label: "tres" }, { label: "cuatro" }, { label: "cinco" }, ] }
     },
   ];
   const { params: { component } } = context;

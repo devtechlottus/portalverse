@@ -12,11 +12,11 @@ import Icon from "@/components/Icon"
 import Image from "@/components/Image"
 import Button from "@/components/Button"
 import DescriptionSection from "@/components/DescriptionSection"
-import Tabs from "@/components/Tabs"
 import CardWebsite from "@/components/CardWebsite"
 import Banner from "@/components/Banner"
 import Accordion from "@/components/Accordion/Accordion"
 import { getDataPageFromJSON } from "utils/getDataPage"
+import TabsFeatured from "@/components/TabsFeatured"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -64,10 +64,15 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{ sections.requirements.title }</p>
         </div>
          
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={ sections.requirements.tabs } tabIndex={(active: number) => setTabActive(active)} />  
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+          {/* <Tabs data={ sections.requirements.tabs } tabIndex={(active: number) => setTabActive(active)} />   */}
+          <TabsFeatured tabs={sections.requirements.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
-       
+      </ContentLayout>
+      <ContentFullLayout classNames="w-d:hidden">
+        <TabsFeatured tabs={sections.requirements.tabs.items} onActive={(active: number) => setTabActive(active)} />
+      </ContentFullLayout>
+      <ContentLayout> 
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <ContentInsideLayout classNames="gap-6">
             {

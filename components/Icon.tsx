@@ -14,7 +14,8 @@ import TwitterIcon from "@/icons/twitter.svg"
 import YoutubeIcon from "@/icons/youtube.svg"
 import Agreement from "@/icons/agreement.svg"
 import GraduateCap from "@/icons/graduatecap.svg"
-import Trophy from "@/icons/trophy.svg" 
+import Trophy from "@/icons/trophy.svg"
+import TriangleDown from "@/icons/triangledown.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -33,6 +34,7 @@ const iconTypes: any = {
   agreement: Agreement,
   graduatecap: GraduateCap,
   trophy: Trophy,
+  triangledown: TriangleDown
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {

@@ -30,6 +30,7 @@ const Routes: any = {
     { params: { "component": "carouselPortalverse" } },
     { params: { "component": "rainbow" } },
     { params: { "component": "checkbox" } },
+    { params: { "component": "tabs-featured" } },
   ],
   "oferta-educativa": [
     { params:
