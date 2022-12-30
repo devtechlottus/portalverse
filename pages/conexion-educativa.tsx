@@ -11,10 +11,10 @@ import Image from "@/components/Image"
 import RichtText from "@/components/Richtext/Richtext"
 import LinkContactTarget from "@/components/LinkContactTarget"
 import DescriptionSection from "@/components/DescriptionSection"
-import Tabs from "@/components/Tabs"
 import Mosaic from "@/components/Mosaic"
 import Button from "@/components/Button"
 import Link from "next/link"
+import TabsFeatured from "@/components/TabsFeatured"
 
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -60,10 +60,15 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
           <Button data={sections.alliances.button} />
           </div>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={ sections.socialService.tabs } tabIndex={(active: number) => setTabActive(active)} />  
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+          <TabsFeatured tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
       </ContentLayout>
+      <ContentFullLayout>
+        <section className="w-d:hidden">
+          <TabsFeatured tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
+        </section>
+      </ContentFullLayout>
       <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY py-6">
         <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">

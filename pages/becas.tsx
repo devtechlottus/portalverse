@@ -6,7 +6,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 import Image from "@/components/Image"
-import Tabs from "@/components/Tabs"
 import Feedback from "@/components/Feedback"
 import CardWebsite from "@/components/CardWebsite"
 import NumbersComponent from "@/components/NumberPortalverse/NumbersPortalverse"
@@ -14,6 +13,8 @@ import DescriptionSection from "@/components/DescriptionSection"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
+import TabsFeatured from "@/components/TabsFeatured"
+import ContentFullLayout from "@/layouts/ContentFull.layout"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -51,9 +52,14 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8 mb-12 w-t:mb-6 w-p:mb-6">
           <NumbersComponent data={ sections.estadisticas } />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <Tabs data={ sections.becas.tabs } tabIndex={(active: number) => setTabActive(active)} />  
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+          <TabsFeatured tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
+      </ContentLayout>
+      <ContentFullLayout classNames="w-d:hidden">
+        <TabsFeatured tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
+      </ContentFullLayout>
+      <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
