@@ -6,51 +6,26 @@
   },
   "sections": {
     "head": {
-      "banner": 
-        {
-          "width": "100%",
-          "height": "600px",
-          "iconleft": "arrow_back_ios",
-          "iconright": "arrow_forward_ios",
-          "slides": [
-            {
-              "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
-              "text": "Carreras sabatinas con sesiones de 4 horas.",
-              "urlImage": {
-                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
-              },
-              "center": true,
-              "left": false,
-              "middle": true,
-              "bottom": false
+      "banner": {
+        "width": "100%",
+        "height": "600px",
+        "iconleft": "arrow_back_ios",
+        "iconright": "arrow_forward_ios",
+        "slides": [
+          {
+            "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
+            "text": "Carreras sabatinas con sesiones de 4 horas.",
+            "urlImage": {
+              "mobile": "https://drive.google.com/uc?export=view&id=1-UAAELA36dp-rxWdiSnZcJu-uKGurf-L",
+              "desktop": "https://drive.google.com/uc?export=view&id=1-UAAELA36dp-rxWdiSnZcJu-uKGurf-L"
             },
-            {
-              "title": "Conecta con el mundo", 
-              "text": "UANE te da acceso a diferentes programas internacionales con movilidad al extranjero y en línea.",
-              "urlImage": {
-                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
-              },
-              "center": true,
-              "left": false,
-              "middle": true,
-              "bottom": false
-            },
-            {
-              "title": "¡Tenemos vacantes nuevas!", 
-              "text": "Accede y descubre las oportunidades que tenemos para ti.",
-              "urlImage": {
-                "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-                "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
-              },
-              "center": true,
-              "left": false,
-              "middle": true,
-              "bottom": false
-            }
-          ]
-        }
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false
+          }
+        ]
+      }
     },
     "oferta": {
       "title": "¿Qué me ofrece UANE para estudiar?",
@@ -60,8 +35,8 @@
           "title": "Bachillerato",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1uNHXxqCeysOLfU9LsOO4uVlgddy00Byh",
+              "desktop": "https://drive.google.com/uc?export=view&id=1uNHXxqCeysOLfU9LsOO4uVlgddy00Byh"
             },
             "text": "Bachillerato",
             "icon": "arrow_forward",
@@ -77,8 +52,8 @@
           "title": "Licenciaturas",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1jYWG-q0kMjA44B9bC6bMIZeJsmtVr6fK",
+              "desktop": "https://drive.google.com/uc?export=view&id=1jYWG-q0kMjA44B9bC6bMIZeJsmtVr6fK"
             },
             "text": "Licenciaturas",
             "icon": "arrow_forward",
@@ -94,8 +69,8 @@
           "title": "Especialidades",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1ejK0WsnQMQ7ifzFL5XLt33Ix10cTbLek",
+              "desktop": "https://drive.google.com/uc?export=view&id=1ejK0WsnQMQ7ifzFL5XLt33Ix10cTbLek"
             },
             "text": "Especialidades",
             "icon": "arrow_forward",
@@ -111,8 +86,8 @@
           "title": "Maestrias",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1_9yjRHPOyA1AFwuKylmiIrd7Z2qaiIzw",
+              "desktop": "https://drive.google.com/uc?export=view&id=1_9yjRHPOyA1AFwuKylmiIrd7Z2qaiIzw"
             },
             "text": "Maestrias",
             "icon": "arrow_forward",
@@ -128,8 +103,8 @@
           "title": "Doctorado",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=15oWovsIyLzYFvET2qzcobLiq6UX4D8Rl",
+              "desktop": "https://drive.google.com/uc?export=view&id=15oWovsIyLzYFvET2qzcobLiq6UX4D8Rl"
             },
             "text": "Doctorado",
             "icon": "arrow_forward",
@@ -145,8 +120,8 @@
           "title": "Educación Continua",
           "promo": {
             "urlImage": {
-              "mobile": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              "desktop": "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1Ffy99QaEA-GzOD8plfJgTyZ1QyPKii9U",
+              "desktop": "https://drive.google.com/uc?export=view&id=1Ffy99QaEA-GzOD8plfJgTyZ1QyPKii9U"
             },
             "text": "Educación Continua",
             "icon": "arrow_forward",
@@ -161,7 +136,7 @@
     },
     "banner-internacional": {
       "title": "UANE Internacional",
-      "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
+      "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
       "state": "black",
       "size": "medium",
       "middle": false,
@@ -169,8 +144,8 @@
       "bottom": false,
       "left": false,
       "urlImage": {
-        "mobile": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg",
-        "desktop": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg"
+        "mobile": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+        "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW"
       },
       "overlay": "black",
       "height": "",
@@ -198,7 +173,7 @@
       "title": "Voz UANE blog",
       "notas": [
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1-H0lWSF74-m7I27Ajimfv-3MklsQ0nZ_",
           "subtitle": "SUBTITULO",
           "title": "Coursera y UANE se unen para ti",
           "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
@@ -230,7 +205,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1_HDZ0yzh3bmGey33AoUhO4oOMKDTW4ON",
           "subtitle": "SUBTITULO",
           "title": "Coursera y UANE se unen para ti",
           "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
@@ -262,7 +237,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1Xlshz6sWTpWQhjCH5ZtF6PLZNHVFl0jF",
           "subtitle": "SUBTITULO",
           "title": "Coursera y UANE se unen para ti",
           "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
@@ -305,8 +280,8 @@
       "bottom": false,
       "left": false,
       "urlImage": {
-        "mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg",
-        "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"
+        "mobile": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+        "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
       },
       "overlay": "black",
       "height": "",

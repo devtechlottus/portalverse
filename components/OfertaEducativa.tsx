@@ -1,14 +1,45 @@
-import { FC, memo } from "react"
+import { FC, memo, useEffect, useState } from "react"
 import Link from "next/link"
 import cn from "classnames"
 import PromoLink from "@/components/PromoLink"
 
-
 const OfertaEducativa: FC<any> = memo(({ data, classNames } : any) => {
+
+  const [ baseHeight ] = useState<Array<string>>(["282px", "346px", "143px"]);
+  const [ changeDetect, setChangeDetect ] = useState<number>(0);
+  const [ allPromos, setAllPromos ] = useState<Array<any>>([]);
+
+  useEffect(() => {
+    setAllPromos([ ...data ]);
+  }, [data]);
+
+  const detectResize = () => {
+    setChangeDetect((prevState: number) => prevState + 1);
+  }
+
+  useEffect(() => {
+    detectResize();
+    window.addEventListener('resize', detectResize);
+    return () => window.removeEventListener('resize', detectResize);
+  }, []);
+
+  useEffect(() => {
+    const { outerWidth } = window;
+    let newH = baseHeight[0];
+    if (outerWidth < 1024 && outerWidth >= 600) {
+      newH = baseHeight[1];
+    }
+    if ( outerWidth < 600) {
+      newH = baseHeight[2];
+    }
+    const newAllPromosConf = data.reduce((p: any, c: any) => [ ...p, { ...c, promo: { ...c.promo, height: newH } }], []);
+    console.log("newAllPromosConf", newAllPromosConf)
+    setAllPromos([ ...newAllPromosConf ]);
+  }, [changeDetect]);
     
   return <section className={cn("col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2", classNames)}>
     {
-      data.map((content: any, i: number) => <section key={`section-oferta-${i}`}>
+      allPromos.map((content: any, i: number) => <section key={`section-oferta-${i}`}>
           <Link href={`${content.level}`}>
             <a>
               <PromoLink data={{

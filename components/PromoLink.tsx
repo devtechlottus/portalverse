@@ -19,7 +19,6 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, classNames, typeShadowColor="
       enable: data.enable || false,
       nobackground: data.nobackground || false,
       isShadowColor: data.isShadowColor || false,
-
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
@@ -38,7 +37,7 @@ const PromoLink: FC<PromoLinkData> = memo(({ data, classNames, typeShadowColor="
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
-    <div className={cn("", classNames, {
+    <div className={cn(classNames, {
       "shadow-pastelBlueShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'blue-pastel-left',
       "shadow-pastelYellowShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'yellow-pastel-left',
       "shadow-pastelRedShadowLeft rounded": data.isShadowColor === true && typeShadowColor === 'red-pastel-left',
