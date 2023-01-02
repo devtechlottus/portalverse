@@ -24,7 +24,7 @@ const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, 
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
           <OpenForm data={sections.form} pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </section>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11 mb-12 w-t:mb-6 w-p:mb-6">
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
           <Youtube data={ sections.video } />
         </section>
       </ContentLayout>

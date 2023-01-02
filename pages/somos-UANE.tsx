@@ -120,7 +120,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
             </section>)
           }
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-end mb-6">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-end">
           <LinkIcons data={sections.ourScholarships.link} onClick={()=>router.push(sections.ourScholarships.link.redirect)}/>     
           </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6 hidden">
@@ -149,7 +149,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6 hidden">
+      <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 hidden">
         <ContentLayout>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
             <Youtube data={ sections.meetYourRector.video} />

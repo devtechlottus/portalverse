@@ -101,7 +101,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         </ContentLayout>
       </ContentFullLayout>
       <ContentLayout>
-      <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-12 w-t:mt-6 w-p:mt-6">
+      <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.experiences.title}</p>
           <Mosaic data={sections.experiences.images}/>
         </div>
