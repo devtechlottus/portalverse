@@ -64,7 +64,6 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
             data={sections.banner } 
             onBtn={ () =>{
               router.push(`/directorio`)
-              console.log('hola')
               } 
             } />
         </ContentFullLayout>

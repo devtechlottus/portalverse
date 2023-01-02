@@ -172,7 +172,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
               </>
             : null
         }
-        <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4 mb-8">
+        <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
           {
             level === 'bachillerato'
               ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />

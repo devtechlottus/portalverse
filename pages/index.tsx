@@ -28,7 +28,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         </div>
       </ContentFullLayout>
       <ContentLayout>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
           <Slider data={{ ...sections.head.banner }} />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">

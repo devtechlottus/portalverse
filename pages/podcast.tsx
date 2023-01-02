@@ -45,12 +45,12 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
           aqui va el paginador
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden mb-12">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentLayout>
       <ContentFullLayout>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden mb-12">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentFullLayout>

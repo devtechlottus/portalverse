@@ -57,11 +57,11 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
             </section>)
           }
         </section>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden my-[72px]">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
           <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="w-d:hidden w-t:mt-[65px] w-t:mb-[41px] w-p:my-12">
+      <ContentFullLayout classNames="w-d:hidden w-t:mt-[65px]">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>

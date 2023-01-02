@@ -6,15 +6,15 @@
   },
   "sections": {
     "head":{
-      "title": "Acceso al estudiante",
-      "description": "Lorem ipsum dolor sit amet consectetur. Ultrices amet vulputate bibendum id. Feugiat vel condimentum amet dignissim at neque nunc pellentesque rhoncus. Vulputate molestie fermentum sollicitudin in eu quis cursus luctus bibendum. Dui ac tempus magna neque. Quisque faucibus neque elementum nisi mauris est nisl ac. In sodales cras augue ipsum."
+      "title": "Alumnos ¡Bienvenidos a la Universidad Americana del Noreste!",
+      "description": "Tenemos 48 años de experiencia en la formación de profesionistas que sí resuelven las necesidades de las empresas.\n\nAquí tendrás un progreso con educación continua y experiencias internacionales, a través de modalidades que te permitirán desarrollarte en todas las áreas de tu vida."
     },
     "accesos": [
       { 
         "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1mAjk7blwP1jGnU45XfcCeicbVRJ9rE-FdQFTovdoeEnMYonChejcOeEYtHwkGHJjlk&usqp=CAU",
-        "subtitle": "",
-        "title": "Espacio universitario internacionalizacion en la UNAE",
-        "text": "Realiza tus pagos, solicita o consulta tus trámites y lleva registro de tus actividades escolares.",
+        "subtitle": "Portal para estudiantes:",
+        "title": "SIUANE",
+        "text": "Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
         "border": true,
         "allContent": true,
         "height": "",
@@ -24,7 +24,7 @@
         "link": true,
         "background": false,
         "linkText": {
-          "text": "Ver video",
+          "text": "Ver más",
           "isBold": true,
           "size": "large",
           "isUnderline": false,
@@ -32,7 +32,7 @@
           "icon": "visibility"
         },
         "linkIcon": {
-          "text": "Ver video",
+          "text": "Ver más",
           "iconSecond": "play_circle",
           "isBold": true,
           "size": "large",
@@ -45,8 +45,8 @@
       { 
         "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8fPWgJJCI7-bEpXSg6DJa909NOPr0W7hTWMTMyS36eTZpq96SyjbvGNDvoscxlLhjS0&usqp=CAU",
         "subtitle": "",
-        "title": "Aula virtual",
-        "text": "Accede a tus clases y actividades de cada materia, entrega tus trabajos o realiza tus ejercicios y evaluaciones.",
+        "title": "AULA VIRTUAL MOODLE",
+        "text": "Hemos diseñado una plataforma de aprendizaje seguro para que aproveches tus clases virtuales al máximo.",
         "border": true,
         "allContent": true,
         "height": "",
@@ -78,8 +78,8 @@
       { 
         "urlImage": "https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg",
         "subtitle": "",
-        "title": "Biblioteca virtual",
-        "text": "Explora nuestras colecciones y consulta dentro del acervo bibliográfico que ponemos a tu alcance.",
+        "title": "ESPACIO DIGITAL CANVAS ",
+        "text": "Herramientas digitales que facilitan la enseñanza y aprendizaje. Accede a la información de manera simple.",
         "border": true,
         "allContent": true,
         "height": "",
@@ -136,7 +136,8 @@
           "tagOnClick": "testClick",
           "test": ""
         },
-        "wrapper": true
+        "wrapper": true,
+        "visible": false
       }
     },
     "directorio": [
