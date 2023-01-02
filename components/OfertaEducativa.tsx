@@ -11,7 +11,7 @@ const OfertaEducativa: FC<any> = memo(({ data, classNames } : any) => {
 
   useEffect(() => {
     setAllPromos([ ...data ]);
-  }, [data]);
+  }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const detectResize = () => {
     setChangeDetect((prevState: number) => prevState + 1);
@@ -35,7 +35,7 @@ const OfertaEducativa: FC<any> = memo(({ data, classNames } : any) => {
     const newAllPromosConf = data.reduce((p: any, c: any) => [ ...p, { ...c, promo: { ...c.promo, height: newH } }], []);
     console.log("newAllPromosConf", newAllPromosConf)
     setAllPromos([ ...newAllPromosConf ]);
-  }, [changeDetect]);
+  }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
     
   return <section className={cn("col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2", classNames)}>
     {

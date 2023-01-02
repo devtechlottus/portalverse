@@ -31,7 +31,7 @@ const Rainbow: FC<RainbowComponentConfig> = ({ sections, title, classNamesTitle 
       }, {}) }
     }, {});
     setStylesContainer({ ...allStyles });
-  }, [changeDetect]);
+  }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <section className="relative w-full">
     <h1 className={cn("mb-6 ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h2-bold-solid-poppins-mobile w-p:ac-type-h3-bold-solid-poppins-tabmob", classNamesTitle)}>{ title }</h1>

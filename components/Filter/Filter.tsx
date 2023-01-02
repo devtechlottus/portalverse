@@ -28,7 +28,7 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
     if (active) {
       onSelectionItems(selectedOptions);
     }
-  }, [selectedOptions]);
+  }, [selectedOptions]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const clearAllFilters = () => {
     // clear options
