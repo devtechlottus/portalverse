@@ -12,9 +12,9 @@
     "accesos": [
       { 
         "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1mAjk7blwP1jGnU45XfcCeicbVRJ9rE-FdQFTovdoeEnMYonChejcOeEYtHwkGHJjlk&usqp=CAU",
-        "subtitle": "Portal para estudiantes:",
+        "subtitle": "",
         "title": "SIUANE",
-        "text": "Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
+        "text": "Portal para estudiantes: Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
         "border": true,
         "allContent": true,
         "height": "",
@@ -40,7 +40,8 @@
           "disabled": false,
           "icon": ""
         },
-        "wrapper": true
+        "wrapper": true,
+        "redirect": "http://sistema.uane.edu.mx/siuane/login.aspx"
       },
       { 
         "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8fPWgJJCI7-bEpXSg6DJa909NOPr0W7hTWMTMyS36eTZpq96SyjbvGNDvoscxlLhjS0&usqp=CAU",
@@ -148,37 +149,37 @@
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
             "name": "Servicios escolares",
-            "email": "email@uane.com",
+            "email": "servicios@uane.com",
             "phone": "55 10 50 27 07"
           },
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
-            "name": "Dirección general",
-            "email": "email@uane.com",
+            "name": "Dirección",
+            "email": "direccion@uane.com",
             "phone": "55 10 50 27 07"
           },
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
-            "name": "Dirección general",
-            "email": "email@uane.com",
+            "name": "Coordinación educativa",
+            "email": "coordinacion@uane.com",
             "phone": "55 10 50 27 07"
           },
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
             "name": "Biblioteca",
-            "email": "email@uane.com",
+            "email": "biblioteca@uane.com",
             "phone": "55 10 50 27 07"
           },
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
             "name": "Línea segura",
-            "email": "email@uane.com",
+            "email": "lineasegura@uane.com",
             "phone": "55 10 50 27 07"
           },
           {
             "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
-            "name": "Línea segura",
-            "email": "email@uane.com",
+            "name": "Soporte técnico",
+            "email": "soportetécnico@uane.com",
             "phone": "55 10 50 27 07"
           }
         ]
