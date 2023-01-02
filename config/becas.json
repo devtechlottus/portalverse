@@ -12,26 +12,26 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+          "src": "https://drive.google.com/uc?export=view&id=1KUZbjSo1b_7q5U6UZoain-QVcS1H_Pt-"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+          "src": "https://drive.google.com/uc?export=view&id=1KUZbjSo1b_7q5U6UZoain-QVcS1H_Pt-"
         }
       }
     },
     "estadisticas": [
       {
-        "icon": "persons", "prefix": "+", "number": "30%", "suffix": "", "title": "Alumnos con Beca de Servicio", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "30%", "suffix": "", "title": "Alumnos con Beca de Servicio", "body": "", "container": true
       },
       {
-        "icon": "persons", "prefix": "+", "number": "10%", "suffix": "", "title": "Alumnos con Beca Excelencia", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "10%", "suffix": "", "title": "Alumnos con Beca Excelencia", "body": "", "container": true
       },
       {
-        "icon": "persons", "prefix": "+", "number": "40%", "suffix": "", "title": "Alumnos con Beca Convenio", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "40%", "suffix": "", "title": "Alumnos con Beca Convenio", "body": "", "container": true
       },
       {
-        "icon": "persons", "prefix": "+", "number": "2%", "suffix": "", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "2%", "suffix": "", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": true
       }
     ],
     "becas": {
@@ -42,11 +42,11 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                "src": "https://drive.google.com/uc?export=view&id=1x9I6MC7DA97n_oFhPYb9RJoWPNF8vMvZ"
               },
               "content": {
                 "title": "Características",
-                "description": "La ‘Beca Servicio’ se otorga en pesos y el monto autorizado aplica exclusivamente al costo de la colegiatura.\n\n Se concede a estudiantes de escasos recursos económicos con promedio de aprovechamiento académico de 80 y buena conducta. \n\nEs retribuida mediante actividades de servicio, ya sea en beneficio de la universidad o de la comunidad.\n\nAplica para: bachillerato, licenciatura y posgrado\n\nModalidades: ---------"
+                "description": "La Beca Servicio se otorga en pesos y el monto autorizado aplica exclusivamente al costo de la colegiatura.\n\n Se concede a estudiantes de escasos recursos económicos con promedio de aprovechamiento académico de 80 y buena conducta. \n\nEs retribuida mediante actividades de servicio, ya sea en beneficio de la universidad o de la comunidad.\n\nAplica para: bachillerato, licenciatura y posgrado\n\nModalidades: ---------"
               }
             }
           },
@@ -55,7 +55,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                "src": "https://drive.google.com/uc?export=view&id=1k63DG8EFks1yArO5uFmSUCoUokPBr0cE"
               },
               "content": {
                 "title": "Características",
@@ -68,23 +68,16 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                "src": "https://drive.google.com/uc?export=view&id=1_Bo-zvkpT08YoGLcDeuWq6Iifr5qiD48"
               },
               "content": {
                 "title": "Características",
-                "description": "Para licenciaturas, la ‘Beca Excelencia’ cubre el 50% del monto total de la colegiatura y se otorga a los alumnos egresados del bachillerato UANE y otras instituciones que cuentan con un promedio de aprovechamiento académico mínimo de 95.\n\n*Pregunta por las opciones de Beca de Excelencia para bachillerato.\n\nAplica para: bachillerato y licenciatura\n\nModalidades: ---------"
+                "description": "Para licenciaturas, la Beca Excelencia cubre el 50% del monto total de la colegiatura y se otorga a los alumnos egresados del bachillerato UANE y otras instituciones que cuentan con un promedio de aprovechamiento académico mínimo de 95.\n\n*Pregunta por las opciones de Beca de Excelencia para bachillerato.\n\nAplica para: bachillerato y licenciatura\n\nModalidades: ---------"
               }
             }
           }
         ],
         "size": "medium"
-      }
-    },
-    "proceso": {
-      "title": "Proceso",
-      "image": {
-        "alt": "imagen",
-        "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
       }
     },
     "feedback": {
@@ -107,7 +100,7 @@
     "llamanos": {
       "title": "¿Tienes dudas? llámanos",
       "card": { 
-        "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+        "urlImage": "https://drive.google.com/uc?export=view&id=1S1dJyvzulBkHkDD-I0pDIL7yXoe75N7J",
         "subtitle": "",
         "title": "Oficinas de servicios estudiantiles y Centros de admisión",
         "text": "Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.\n 55 10 50 27 07\n Correo: serviciosestudiantiles@uane.edu.mx",
