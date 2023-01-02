@@ -80,14 +80,14 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
             }
           </ContentInsideLayout>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[73px] w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6">
+        {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[73px] w-t:mt-6 w-p:mt-6 mb-12 w-t:mb-6 w-p:mb-6">
           <p className="font-bold font-Poppins text-10">{ sections.proceso.title }</p>
           <Image
             alt={sections.proceso.image.alt}
             src={sections.proceso.image.src}
             classNames={cn("aspect-4/3 w-t:aspect-3/4 m-p:aspect-1/2")}
           />
-        </div>
+        </div> */}
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
           <Feedback data={ sections.feedback.feedback} >
             <h1>{ sections.feedback.title }</h1>
