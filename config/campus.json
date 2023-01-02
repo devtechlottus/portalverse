@@ -9,16 +9,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1yiUtT-a8G6MK8lgNi7-Zx4bx9kG4OUS0",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["25.4551028", "-100.9690094"],
@@ -33,16 +25,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1GhO4avVMRLf6T9YIYm9vjnFp-ICQ8_Lh",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["25.5770235", "-103.4519563"],
@@ -57,16 +41,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1VIXRq0R8DSqGLSTkIoLjXWfDGVKzhFgX",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["26.9017234", "-101.4222771"],
@@ -81,16 +57,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1Z2Avqg7iUdk6SVvHMNv4DYDQTt4uaf_6",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["27.8739617", "-101.1280291"],
@@ -105,16 +73,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1MiD841KwsZduQgnqrzeptukHp-ifk_6I",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["28.6791114", "-100.5440673"],
@@ -129,16 +89,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1qD8W1RchHgbSdQWGP3aVUWPODWr8cj6u",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["25.680335", "-100.318919"],
@@ -153,16 +105,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1cAhBj2gFpePtlId5yrSmXVhcLi45RYse",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["26.066566", "-98.335228"],
@@ -177,16 +121,8 @@
       {
         "images": [
           {
-            "src": "https://picsum.photos/200/300",
+            "src": "https://drive.google.com/uc?export=view&id=1TMcVkF-gZrNf-UDzY9ZWPRCLn5tLGCzq",
             "alt": "image-1"
-          },
-          {
-            "src": "https://picsum.photos/300/400",
-            "alt": "image-2"
-          },
-          {
-            "src": "https://picsum.photos/400/500",
-            "alt": "image-3"
           }
         ],
         "coords": ["25.8874448", "-97.5645895"],
@@ -202,14 +138,14 @@
     "head": {
       "banner": {
         "title": "Nuestros Campus",
-        "subtitle": "Agrega experiencias internacionales a tus estudiso ",
-        "image": "https://www.elegircarrera.net/blog/wp-content/uploads/2017/10/campus-universitario-2000x1200.jpg"
+        "subtitle": "Agrega experiencias internacionales a tus estudios",
+        "image": "https://drive.google.com/uc?export=view&id=1DivAOO2be095H1sknR5NPaO-FveClU9C"
       }
     },
     "banner": {
       "title": "Agenda una visita",
       "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
-      "image": "https://cdn.milenio.com/uploads/media/2020/01/31/reconocio-alumnos-obtuvieron-promedios-mayores.jpg",
+      "image": "https://drive.google.com/uc?export=view&id=1nthjOTHZE1eFY0WLGgV7uhP8sguiWmgn",
       "email": "egresados@uane.edu.mx",
       "phone": "55-1224-2345"
     }
