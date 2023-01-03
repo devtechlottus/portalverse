@@ -33,7 +33,6 @@ const OfertaEducativa: FC<any> = memo(({ data, classNames } : any) => {
       newH = baseHeight[2];
     }
     const newAllPromosConf = data.reduce((p: any, c: any) => [ ...p, { ...c, promo: { ...c.promo, height: newH } }], []);
-    console.log("newAllPromosConf", newAllPromosConf)
     setAllPromos([ ...newAllPromosConf ]);
   }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
     

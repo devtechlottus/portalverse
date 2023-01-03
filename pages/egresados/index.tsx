@@ -4,7 +4,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Youtube from "@/components/Youtube"
 import Banner from "@/components/Banner"
 import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
@@ -13,6 +12,7 @@ import BeWantedForm from "@/forms/container/BeWanted"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import Cintillo from "@/components/Cintillo"
+import Video from "@/components/Video"
 
 const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -41,7 +41,7 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
           <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-          <Youtube data={ sections.video.video }/>
+          <Video dimensions={["330px","400px","200px"]} data={ sections.video.video }/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6"> { sections.video.title }</p>

@@ -7,7 +7,6 @@ import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
 import DescriptionSection from "@/components/DescriptionSection"
 import OpenFormBachillerato from "@/forms/container/OpenFormBachillerato"
@@ -19,6 +18,7 @@ import { SelectInit } from "@/components/fixture"
 import OutstandingContainer from "@/components/OutstandingContainerPortalverse"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import Video from "@/components/Video"
 
 const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
 
@@ -159,7 +159,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           level === 'bachillerato'
             ? <>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-d:order-1 w-t:order-2">
-                  <Youtube data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
+                  <Video dimensions={["450px", "400px", "200px"]} data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <h4 className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>

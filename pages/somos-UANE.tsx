@@ -10,9 +10,9 @@ import CardWebsite from "@/components/CardWebsite"
 import Numbers from "@/components/Numbers"
 import PromoLink from "@/components/PromoLink"
 import Mosaic from "@/components/Mosaic"
-import Youtube from "@/components/Youtube"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import LinkIcons from "@/components/LinkLottus"
+import Video from "@/components/Video"
 
 const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -126,7 +126,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6 hidden">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{ sections.ourConventions.title}</p>          
         </div>
-        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 hidden">
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4  w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 hidden">
           {
             sections.ourConventions.conventions.map((item:any, i:number) => <section key={`section-conventions-${i}`}>
               <CardWebsite data={item}/>
@@ -152,7 +152,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentFullLayout classNames="bg-darkBlue text-white mt-12 w-t:mt-6 w-p:mt-6 mb-12 hidden">
         <ContentLayout>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
-            <Youtube data={ sections.meetYourRector.video} />
+            <Video dimensions={["330px", "400px", "200px"]} data={ sections.meetYourRector.video} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-auto">
             <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{sections.meetYourRector.title}</p>
