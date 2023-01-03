@@ -1,6 +1,6 @@
-import VideoComponentData from "@/types/Video.types";
-import { FC, useEffect, useState } from "react";
-import Youtube from "./Youtube";
+import { FC, useEffect, useState } from "react"
+import VideoComponentData from "@/types/Video.types"
+import Youtube from "./Youtube"
 
 
 const Video: FC<VideoComponentData> = ({ dimensions, data }: VideoComponentData) => {
@@ -30,7 +30,6 @@ const Video: FC<VideoComponentData> = ({ dimensions, data }: VideoComponentData)
         newH = h[2];
       }
       const newConf = {...data, dimensions: {...data.dimensions, height: newH}}
-      console.log("newConf", newConf)
       setConfVideo({...newConf})
     }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
     return <div >
