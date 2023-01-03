@@ -1,12 +1,12 @@
 import Head from "next/head"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
-import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import PedirInformacionPage from "@/types/PedirInformacion.types"
 import RichtText from "@/components/Richtext/Richtext"
+import Video from "@/components/Video"
 
 const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, meta }: PedirInformacionPage) => {
   return <>
@@ -25,7 +25,7 @@ const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, 
           <OpenForm data={sections.form} pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
-          <Youtube data={ sections.video } />
+          <Video data={sections.video} dimensions={["450px", "400px", "200px"]} />
         </section>
       </ContentLayout>
     </HeaderFooterLayout>

@@ -4,11 +4,11 @@ import { useRouter } from "next/router"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Link from "next/link"
 import Icon from "@/components/Icon"
+import Video from "@/components/Video"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -60,7 +60,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
             </ContentInsideLayout>
           </div>
           <div className="col-span-7 w-t:col-span-12 w-p:col-span-12">
-            <Youtube data={ sections.video} />
+            <Video dimensions={["500px", "430px", "200px"]} data={ sections.video} />
           </div>
         </ContentInsideLayout>
       </ContentFullLayout>
