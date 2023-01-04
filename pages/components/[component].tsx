@@ -10,24 +10,20 @@ import ContentLayout from "@/layouts/Content.layout"
 import Banner from "@/components/Banner"
 import Button from "@/components/Button"
 import CardWebsite from "@/components/CardWebsite"
-import NavDrawer from "@/components/NavDrawer"
 import Numbers from "@/components/Numbers"
 import PromoLink from "@/components/PromoLink"
 import OustandingModule from "@/components/OustandingModule"
-import Breadcum from "@/components/Breadcrumb"
 import Link from "@/components/Link"
 import Paginator from "@/components/Paginator"
 import Modal from "@/components/Modal"
 import ModalIframe from "@/components/ModalIframe"
 import Feedback from "@/components/Feedback"
 import Mosaic from "@/components/Mosaic"
-import Newsletter from "@/components/Newsletter"
 import { ButtonInit, LinkIconsInit } from "@/components/fixture"
 import NewBanner from "@/components/NewBanner"
 import CustomHead from "@/components/CustomHead"
 import CardsOstanding from "@/components/CardsOustanding"
 import Carousel from "@/components/Carousel"
-import Slider from "@/components/Slider"
 import Table from "@/components/Table"
 import CarouselPortalverse from "@/components/CarouselPortalverse/CarouselPortalverse"
 import Rainbow from "@/components/Rainbow"
@@ -100,12 +96,6 @@ const ComponentPage = ({ data }: any) => {
         console.log("cardWebsite", componentState)
         return <CardWebsite data={componentState.data} />
         break;
-      case "navDrawer":
-        console.log("navDrawer", componentState);
-        return <NavDrawer onClick={ ()=> {
-          console.log("aqui")
-        }} data={componentState.data} />
-        break;
       case "numbers":
         console.log("numbers", componentState);
         return <Numbers data={componentState.data} typeShadowColor={"gray-pastel-right"}/>
@@ -117,10 +107,6 @@ const ComponentPage = ({ data }: any) => {
       case "oustandingModule": 
         console.log("oustandingModule", componentState)
         return <OustandingModule data= {componentState.data} />
-        break;
-      case "breadcum":
-        console.log("breadcum", componentState)
-        return <Breadcum data= {componentState.data} />
         break;
       case "link":
         console.log("link", componentState)
@@ -152,10 +138,6 @@ const ComponentPage = ({ data }: any) => {
         console.log("mosaic", componentState)
         return <Mosaic data={componentState.data}/>
         break;
-      case "newsletter":
-        console.log("newsletter", componentState)
-        return <Newsletter data={componentState.data} />
-        break;
       case "newBanner":
         console.log("newBanner", componentState)
         return <NewBanner data={componentState.data} />
@@ -171,10 +153,6 @@ const ComponentPage = ({ data }: any) => {
       case "carousel":
         console.log("carousel", componentState)
         return <Carousel data={componentState.data} />
-        break;
-      case "slider":
-        console.log("slider", componentState)
-        return <Slider data={componentState.data} />
         break;
       case "table":
         console.log("table", componentState)
@@ -269,30 +247,25 @@ export async function getStaticProps(context: any) {
     wrapper: false,}},
     { [path]: "customHead", title: "CustomHead", data: {  id: '123', text: 'Busca tu nivel educativo', type: '', color: '', bgcolor: '',}},
     { [path]: "newBanner", title: "NewBanner", data:{image: {
-      desktop: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
-      mobile: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
-    },
-    title: 'soy un newbanner',
-    text: 'jsanjkankjana',
-    contentCenter: false,
-    contentLeft: false,
-    action: {
-      ...ButtonInit,
-      title: 'Conocer más',
-    },
-    wrapper: true}},
-    { [path]: "newsletter", title: "Newsletter", data:{  type: 'text', typeSearch: 'filed', alphabetical: true, placeholder: 'Buscar', autocomplete: 'off', upperCase: false, icon: 'search', size: 'small',}},
+        desktop: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
+        mobile: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium',
+      },
+      title: 'soy un newbanner',
+      text: 'jsanjkankjana',
+      contentCenter: false,
+      contentLeft: false,
+      action: {
+        ...ButtonInit,
+        title: 'Conocer más' }, wrapper: true}},
     { [path]: "mosaic", title: "Mosaic", data:{images: [{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map', }, {id: '2', image: 'https://www.fotocommunity.es/styleguide/img/homepage/ottilia.jpg', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',}, {id: '4', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map',},{id: '1', image: 'https://www.adobe.com/es/express/feature/image/media_1bb4d071398492506a1b76b3b6f9d69a5e96d7ffc.png?width=750&format=png&optimize=medium', icon: 'zoom_out_map',}, {id: '2', image: 'https://th.bing.com/th/id/R.e2607cf730a72b5ce7024be6003c558c?rik=nsEV30f5tEd4Uw&riu=http%3a%2f%2finformacionimagenes.net%2fwp-content%2fuploads%2f2017%2f05%2fAnimales-salvajes-55.jpg&ehk=BIvlyNek99FY06ulqPA8F8XiK49vWahPniSVCLV4P5Y%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map', }, {id: '3', image: 'https://ichef.bbci.co.uk/news/640/cpsprodpb/35F4/production/_116221831_mediaitem116221830.jpg', icon: 'zoom_out_map', }, {id: '4', image: 'https://th.bing.com/th/id/R.b9760e7cd34211c15d5e34d07dd8ba4c?rik=fSZN4Dk2BlNUUw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-k5NoJq9ax90%2fTwwRmC0VYmI%2fAAAAAAAAAbY%2fWvIsdkfWI8c%2fs1600%2fBeautiful_Animal_Wallpaper_rp5pe.jpg&ehk=fg%2bG0NrN5rmEaj9A0IsT9JdEbhPmKGvSOtFlzetkSf0%3d&risl=&pid=ImgRaw&r=0', icon: 'zoom_out_map',},],}},
     { [path]: "feedback", title: "Feedback", data:{left: {name: 'info', status: 'normal', }, right: {name: 'info', }, type: 'alert', isTextEvent: false, textEvent: 'Dismiss', tagOnRight: 'testOnRight',}},
     { [path]: "modal-iframe", title: "ModalIframe", data:{  title: 'Titulo', icon: 'close',}},
     { [path]: "modal", title: "Modal", data:{icon: 'close', title: 'The standard Lorem', tagOnClose: 'testOnClose', wrapper: true,}},
     { [path]: "paginator", title: "Paginator", data: {  iconPrevious: 'arrow_back_ios', iconNext: 'arrow_forward_ios', size: 'small', maxNumbers: 10,}},
     { [path]: "link", title: "Link", data:{  text: 'xdxd', size: 'small', isBold: false, disabled: false, id: '123', icon: 'person',}},
-    { [path]: "breadcum", title: "Breadcum", data:{tagOnItem: 'testOnItem', tagOnBack: 'testOnBack', textItems: [{value: 'text1', text: 'Firt text', }, {value: 'text2', text: 'Second text', }, {value: 'text3', text: 'Third text large end', },], icon: 'home', textColor: 'black',}},
     { [path]: "oustandingModule", title: "OustandingModule", data: {image: {mobile: 'https://fmrockandpop.com/media/k2/items/cache/2ded9d06202dff1f6b8071cb70aba6eb_L.webp?t=20220524_174959', desktop: 'https://images.vexels.com/media/users/3/204811/isolated/preview/a307512393af96412f590360aba3fdfd-mujer-feliz-con-car-aacute-cter-de-libros-by-vexels.png',}, title: 'Perfil de ingreso',text: 'At vero eos et accusamus et iusto odio dignissi ducimus qui blanditiis praesentium voluptatum\n\n- Atque corrupti quos dolores et quas molestias \n- Excepturi sint occaecati cupiditate non provident\n- Excepturi sint occaecati cupiditate non providentExcepturi sint occaecati cupiditate non provident', backgroundColor: '#8B9BA3',}},
     { [path]: "promoLink", title: "PromoLink", data: {  urlImage: { mobile: 'https://thumbs.dreamstime.com/z/fondo-del-coraz%C3%B3n-del-amor-del-arco-iris-60045149.jpg', desktop: 'https://media.istockphoto.com/id/1354441996/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?b=1&s=170667a&w=0&k=20&c=O_VZbgONe4WTXPOEvwKYezhqFkzAXpr2g-lCdpdj5FU=',}, text: 'Mab', icon: 'person', color: '', opacity: '', height: '100px', enable: true, nobackground: true, isShadowColor: true}},
     { [path]: "numbers", title: "Numbers", data:{  icon: 'person', prefix: '+', number: '1222', suffix: '+', title: 'hola', body: 'aaa', container: true, isShadowColor: true}},
-    { [path]: "navDrawer", title: "NavDrawer", data:{ text: 'Hola', iconselected: false, linkselected: false, isleft: false, singleaction: false, morecontent: false, activesingle: false}},
     { [path]: "cardWebsite", title:"CardWebsite", data:{ 
         urlImage: 'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
         subtitle: 'SUBTITULO',
@@ -397,8 +370,7 @@ export async function getStaticProps(context: any) {
         }
       }
     },
-    {
-      [path]: 'filter-dropdown', title: "Filter Dropdown", data: {
+    { [path]: 'filter-dropdown', title: "Filter Dropdown", data: {
         config: { label: 'dos', icon: 'grade' },
         options: [
           { label: 'una', active: false, value: 'una' },
@@ -411,9 +383,7 @@ export async function getStaticProps(context: any) {
         ]
       }
     },
-    {
-      [path]: 'carousel',
-      title: 'Carousel',
+    { [path]: 'carousel', title: 'Carousel',
       data: {
         iconleft: 'arrow_back_ios',
         iconright: 'arrow_forward_ios',
@@ -588,75 +558,6 @@ export async function getStaticProps(context: any) {
         wrapper: true,
       }
     },
-    {
-      [path]: "slider",
-      title: "Slider",
-      data: {
-        width: '100%',
-        height: '100%',
-        iconleft: 'arrow_back_ios',
-        iconright: 'arrow_forward_ios',
-        slides: [
-          {
-            urlImage: {
-              mobile:
-                'https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
-
-              desktop:
-                'https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg',
-            },
-            heightmobile: '',
-            title: 'Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!',
-            text: 'Carreras sabatinas con sesiones sabatinas de 4 horas',
-            description: 'probando slide',
-            center: false,
-            left: false,
-            middle: false,
-            bottom: false,
-            action: {
-              ...ButtonInit,
-              title: 'Conocer más',
-            },
-            link: {
-              ...LinkIconsInit,
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-            },
-          },
-          {
-            urlImage: {
-              mobile:
-                'https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg',
-
-              desktop:
-                'https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg',
-            },
-            heightmobile: '250px',
-            title: 'Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!',
-            text: 'Carreras sabatinas con sesiones sabatinas de 4 horas',
-            description: 'probando slide',
-            center: true,
-            left: false,
-            middle: false,
-            bottom: false,
-            action: {
-              ...ButtonInit,
-              title: 'Aceptar',
-            },
-            link: {
-              ...LinkIconsInit,
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-            },
-          },
-        ],
-        wrapper: true,
-      },
-    },
     { [path]: "carouselPortalverse", title:"Carousel Portalverse", data:{ items: [{
       image: {
         alt: "aaa",
@@ -717,12 +618,8 @@ export async function getStaticProps(context: any) {
         ]
       },
     ] } },
-    {
-      [path]: 'checkbox', title: "Checkbox", data: {label: 'una', active: false, value: 'una'}
-    },
-    {
-      [path]: 'tabs-featured', title: "TabsFeatured", data: { tabs: [ { label: "una" }, { label: "dos" }, { label: "tres" }, { label: "cuatro" }, { label: "cinco" }, ] }
-    },
+    { [path]: 'checkbox', title: "Checkbox", data: {label: 'una', active: false, value: 'una'}},
+    { [path]: 'tabs-featured', title: "TabsFeatured", data: { tabs: [ { label: "una" }, { label: "dos" }, { label: "tres" }, { label: "cuatro" }, { label: "cinco" }, ] }},
   ];
   const { params: { component } } = context;
   const preFilter = components.filter((item: any) => item.component === component)
