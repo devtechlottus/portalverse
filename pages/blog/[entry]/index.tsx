@@ -10,7 +10,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
 import Button from "@/components/Button"
 import Banner from "@/components/Banner"
-import BannerWrapper from "@/components/BannerWrapper/BannerWrapper"
+import BannerWrapper from "@/components/BannerWrapper"
 
 
 const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {

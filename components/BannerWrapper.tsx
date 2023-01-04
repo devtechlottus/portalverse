@@ -1,10 +1,9 @@
 import { FC, memo } from "react" 
 import cn from "classnames"
+import BannerWrapperData from "@/types/BannerWrapper.types"
 import Banner from "@/components/Banner"
 import Button from "@/components/Button"
-import BannerWrapperData from "@/types/BannerWrapper.types"
 import RichtText from "@/components/Richtext/Richtext"
-
 
 const BannerWrapper: FC<BannerWrapperData> = memo(({ data: { urlImage, title, subtitle,description, action }, classNames, typeBanner="banner", banner, font = "light", onBtn}: BannerWrapperData) => {
   return <>
