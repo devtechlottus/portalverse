@@ -117,6 +117,5 @@ Once this process is done, the project will start deploying and it will generate
     - lottus-newbanner-portalverse
     - lottus-custom-head-portalverse
     - lottus-cards-outstanding-portalverse
-    - lottus-carousel-portalverse
     - lottus-select
     - lottus-progress-bar
