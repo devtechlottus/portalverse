@@ -92,6 +92,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     </div>
     {/* menu suboptions */}
     {/* desktop menu */}
+
     {/* desktop tablet */}
     <section className={cn("w-d:hidden w-full flex p-1 relative shadow-md", classNames)}>
       <div className="p-3 border-solid border-SC/Actions/AC-300 border-r-2" onClick={handleMenuMobile}>
