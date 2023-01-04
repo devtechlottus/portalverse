@@ -6,7 +6,7 @@ const Accordion: FC<AccordionComponentData> = memo(({ data }: AccordionComponent
 
   useEffect( () => {
     const items = data.items.map((item: any, id: number) => ({ title: item.title, content: item.answer, id: `item-${id}`, iconArrow: 'expand_more', }));
-    (accordionRef.current as any).data = { items: [...items] };
+    (accordionRef.current as any).data = { items: [...items], wrapper: true };
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <lottus-accordion ref={accordionRef}></lottus-accordion>
