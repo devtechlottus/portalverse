@@ -23,9 +23,7 @@ import { ButtonInit } from "@/components/fixture"
 import NewBanner from "@/components/NewBanner"
 import CustomHead from "@/components/CustomHead"
 import CardsOstanding from "@/components/CardsOustanding"
-import Carousel from "@/components/Carousel"
 import Table from "@/components/Table"
-import CarouselPortalverse from "@/components/CarouselPortalverse/CarouselPortalverse"
 import Rainbow from "@/components/Rainbow"
 import Checkbox from "@/components/Checkbox"
 import Filter from "@/components/Filter/Filter"
@@ -150,17 +148,10 @@ const ComponentPage = ({ data }: any) => {
         console.log("cardsOustanding", componentState)
         return <CardsOstanding data={componentState.data} />
         break
-      case "carousel":
-        console.log("carousel", componentState)
-        return <Carousel data={componentState.data} />
-        break;
       case "table":
         console.log("table", componentState)
         return <Table data={componentState.data} />
         break;
-      case "carouselPortalverse":
-        console.log("carouselPortalverse", componentState)
-        return <CarouselPortalverse classNamesContainer="h-100" items={componentState.data.items} />
       case "checkbox":
         console.log("checkbox", componentState)
         return <Checkbox onCheck={(e: CustomEvent) => console.log("evt---", e)} data={componentState.data} />
@@ -383,213 +374,6 @@ export async function getStaticProps(context: any) {
         ]
       }
     },
-    { [path]: 'carousel', title: 'Carousel',
-      data: {
-        iconleft: 'arrow_back_ios',
-        iconright: 'arrow_forward_ios',
-        size: '',
-        slides: [
-          {
-            urlImage:
-              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-            subtitle: 'SUBTITULO',
-            title: 'Coursera y UANE se unen para ti',
-            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-            border: true,
-            allContent: true,
-            height: '',
-            isShowCardWebsiteContent: true,
-            id: '',
-            type: 'vertical',
-            link: true,
-            background: false,
-            linkIcon: {
-              text: '',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-            linkText: {
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-          },
-          {
-            urlImage:
-              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-            subtitle: 'SUBTITULO',
-            title: 'Coursera y UANE se unen para ti',
-            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-            border: true,
-            allContent: true,
-            height: '',
-            isShowCardWebsiteContent: true,
-            id: '',
-            type: 'vertical',
-            link: true,
-            background: false,
-            linkIcon: {
-              text: '',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-            linkText: {
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-          },
-          {
-            urlImage:
-              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-            subtitle: 'SUBTITULO',
-            title: 'Coursera y UANE se unen para ti',
-            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-            border: true,
-            allContent: true,
-            height: '',
-            isShowCardWebsiteContent: true,
-            id: '',
-            type: 'vertical',
-            link: true,
-            background: false,
-            linkIcon: {
-              text: '',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-            linkText: {
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-          },
-          {
-            urlImage:
-              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-            subtitle: 'SUBTITULO',
-            title: 'Coursera y UANE se unen para ti',
-            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-            border: true,
-            allContent: true,
-            height: '',
-            isShowCardWebsiteContent: true,
-            id: '',
-            type: 'vertical',
-            link: true,
-            background: false,
-            linkIcon: {
-              text: '',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-            linkText: {
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-          },
-          {
-            urlImage:
-              'https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg',
-            subtitle: 'SUBTITULO',
-            title: 'Coursera y UANE se unen para ti',
-            text: 'Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa',
-            border: true,
-            allContent: true,
-            height: '',
-            isShowCardWebsiteContent: true,
-            id: '',
-            type: 'vertical',
-            link: true,
-            background: false,
-            linkIcon: {
-              text: '',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-            linkText: {
-              text: 'Conocer más',
-              iconSecond: 'arrow_forward_ios',
-              isBold: true,
-              size: 'large',
-              isUnderline: false,
-              disabled: false,
-              iconFirst: '',
-            },
-          },
-        ],
-        wrapper: true,
-      }
-    },
-    { [path]: "carouselPortalverse", title:"Carousel Portalverse", data:{ items: [{
-      image: {
-        alt: "aaa",
-        src: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
-      },
-      title: "titulo1",
-      subtitle: "subtitle1",
-    },
-    {
-      image: {
-        alt: "aaa",
-        src: "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
-      },
-      title: "titulo3",
-      subtitle: "subtitle3",
-      action: {
-        ...ButtonInit,
-        title: "Conoce más"
-      }
-    },
-    {
-      image: {
-        alt: "aaa",
-        src: "https://image.shutterstock.com/image-photo/lake-teletskoye-altai-republic-siberia-260nw-2155866837.jpg"
-      },
-      title: "titulo2",
-      subtitle: "subtitle2",
-      action: {
-        ...ButtonInit,
-        title: "Conoce más"
-      }
-    },] }},
     { [path]: "rainbow", title: "Rainbow", data: { title: "Modos de internacionalización", sections: [
       {
         color: "#E84537", sections: [
