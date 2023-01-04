@@ -10,6 +10,7 @@ import Banner from "@/components/Banner"
 import CardWebsite from "@/components/CardWebsite"
 import Button from "@/components/Button"
 import Spotify from "@/components/Spotify"
+import BannerWrapper from "@/components/BannerWrapper/BannerWrapper"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -52,8 +53,13 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
             </section>)
           }
           {
-            sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6" key={`section-podcast-${i}`}>
-             <Banner data={item} onBtn={() => router.push(item.redirect)}/>
+            sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6 w-t:hidden" key={`section-podcast-${i}`}>
+              <BannerWrapper data={item} banner={item} typeBanner={"sm"} font={item.font} onBtn={() => router.push(item.redirect)}/>
+            </section>)
+          }
+          {
+            sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6 w-d:hidden w-p:hidden" key={`section-podcast-${i}`}>
+              <BannerWrapper data={item} banner={item} typeBanner={""} font={item.font} onBtn={() => router.push(item.redirect)}/>
             </section>)
           }
         </div>
