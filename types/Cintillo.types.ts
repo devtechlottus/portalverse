@@ -1,5 +1,7 @@
+import Image from "@/types/Image.type";
+
 export type CintilloData = {
-  image?:string;
+  image?: Image;
   title?:string;
   subtitle?:string;
   email: string;
