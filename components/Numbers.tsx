@@ -1,6 +1,6 @@
 import { createRef, FC, memo, useEffect } from "react"
-import { NumbersData } from "@/types/Numbers.types"
 import cn from "classnames"
+import { NumbersData } from "@/types/Numbers.types"
 
 
 const Numbers: FC<NumbersData> = memo(({ data, classNames, typeShadowColor="" }: NumbersData) => {

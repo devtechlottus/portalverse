@@ -1,5 +1,5 @@
-import { CardsOstandingData } from "@/types/CardsOustanding";
-import { createRef, FC, memo, useEffect } from "react";
+import { createRef, FC, memo, useEffect } from "react"
+import { CardsOstandingData } from "@/types/CardsOustanding"
 
 const CardsOstanding: FC<CardsOstandingData> = memo(({data}: CardsOstandingData) => {
   const cardsOustandingPortalverseRef = createRef();

@@ -1,6 +1,6 @@
 import { createRef, FC, memo, useEffect } from "react"
-import { PromoLinkData } from "@/types/Promolink.types"
 import cn from "classnames"
+import { PromoLinkData } from "@/types/Promolink.types"
 
 const PromoLink: FC<PromoLinkData> = memo(({ data, classNames, typeShadowColor="",  onClick } : PromoLinkData) => {
   const promoLinkPortalverseRef = createRef();
