@@ -1,32 +1,4 @@
 const Routes: any = {
-  components: [
-    { params: { "component": "youtube" } },
-    { params: { "component": "spotify" } },
-    { params: { "component": "lottie" } },
-    { params: { "component": "richtext" } },
-    { params: { "component": "filter" } },
-    { params: { "component": "filter-dropdown" } },
-    { params: { "component": "tabs" } },
-    { params: { "component": "button" } },
-    { params: { "component": "banner" } },
-    { params: { "component": "cardWebsite" } },
-    { params: { "component": "numbers" } },
-    { params: { "component": "promoLink" } },
-    { params: { "component": "oustandingModule" } },
-    { params: { "component": "link" } },
-    { params: { "component": "paginator" } },
-    { params: { "component": "modal" } },
-    { params: { "component": "modal-iframe" } },
-    { params: { "component": "feedback" } },
-    { params: { "component": "mosaic" } },
-    { params: { "component": "newBanner" } },
-    { params: { "component": "customHead" } },
-    { params: { "component": "cardsOustanding" } },
-    { params: { "component": "table" } },
-    { params: { "component": "rainbow" } },
-    { params: { "component": "checkbox" } },
-    { params: { "component": "tabs-featured" } },
-  ],
   "oferta-educativa": [
     { params:
       {
