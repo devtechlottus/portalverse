@@ -90,3 +90,33 @@ Then it will ask us in which area we want to deploy and we will select
 
 It will ask us if we want to link to an existing project.
 Once this process is done, the project will start deploying and it will generate the url where we can view it.
+
+#### Lista de web elements necesarios para este sitio
+- linea: UANE
+- componentes:
+    - lottus-youtube
+    - lottus-lottie
+    - lottus-spotify
+    - lottus-rich-text
+    - lottus-link-icons
+    - lottus-button
+    - lottus-checkbox
+    - lottus-input
+    - lottus-accordion
+    - lottus-banner-portalverse
+    - lottus-card-website-portalverse
+    - lottus-numbers-portalverse
+    - lottus-promo-link-portalverse
+    - lottus-outstanding-module-portalverse
+    - lottus-link
+    - lottus-paginator
+    - lottus-modal
+    - lottus-modal-iframe-portalverse
+    - lottus-feedback
+    - lottus-mosaic-portalverse
+    - lottus-newbanner-portalverse
+    - lottus-custom-head-portalverse
+    - lottus-cards-outstanding-portalverse
+    - lottus-carousel-portalverse
+    - lottus-select
+    - lottus-progress-bar
