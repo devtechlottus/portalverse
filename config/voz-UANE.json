@@ -458,7 +458,10 @@
     },
     "banners": {
       "title": "",
-      "banners": [{
+      "banners": [
+        {
+        "font": "light",
+        "type": "sm",
         "title": "Escucha más capítulos de nuestro Podcast",
         "subtitle": "Un episodio cada 2 semanas\nDisponible en spotify y youtube",
         "state": "",
@@ -466,10 +469,10 @@
         "middle": false,
         "center": false,
         "bottom": false,
-        "left": true,
+        "left": false,
         "urlImage": {
-          "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
-          "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+          "mobile": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+          "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
         },
         "overlay": "white",
         "height": "342px",
@@ -488,6 +491,8 @@
         "redirect": "podcast"
       },
       {
+        "font": "dark",
+        "type": "sm",
         "title": "Voz UANE ayuda a difundir tus ideas",
         "subtitle": "Si eres parte de la comunidad contacta al equipo",
         "state": "",
@@ -495,10 +500,10 @@
         "middle": false,
         "center": false,
         "bottom": false,
-        "left": true,
+        "left": false,
         "urlImage": {
-          "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
-          "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+          "mobile": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+          "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
         },
         "overlay": "white",
         "height": "342px",
@@ -516,7 +521,7 @@
         "wrapper": true,
         "redirect": "https://open.spotify.com/"
       }
-    ]
+      ]
     }
   }
 }

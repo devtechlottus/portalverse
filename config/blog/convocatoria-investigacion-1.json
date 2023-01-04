@@ -61,6 +61,8 @@
     "banners":[
       
         {
+          "font": "",
+          "type": "",
           "title": "Voz UANE ayuda a difundir tus ideas",
           "subtitle": "Si eres parte de la comunidad contacta al equipo. Te estamos buscando",
           "state": "black",
@@ -88,9 +90,11 @@
             "test": ""
           },
           "wrapper": true,
-          "redirect": "/vozUANE"
+          "redirect": "/voz-UANE"
         },
         {
+          "font": "light",
+          "type": "sm",
           "title": "Escucha nuestro Podcast",
           "subtitle": "Un episodio cada 2 semanas\n\nDisponible en spotify y youtube",
           "state": "black",

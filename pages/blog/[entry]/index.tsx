@@ -10,6 +10,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
 import Button from "@/components/Button"
 import Banner from "@/components/Banner"
+import BannerWrapper from "@/components/BannerWrapper"
 
 
 const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -54,14 +55,14 @@ const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-4 w-t:hidden w-p:hidden w-d:grid-cols-1">
           {
            sections.banners.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
-            <Banner data={item}/>
+            <BannerWrapper data={item} typeBanner={item.type} banner={item} font={item.font} onBtn={() => router.push(item.redirect)}/>
            </section>)
           }
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:hidden">
           {
            sections.banners.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-            <Banner data={item}/>
+            <Banner data={item} onBtn={() => router.push(item.redirect)}/>
            </section>)
           }
         </section>
