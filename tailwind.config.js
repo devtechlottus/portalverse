@@ -97,6 +97,7 @@ module.exports = {
       },
       boxShadow: {
         15: '0px 5px 15px rgba(0, 0, 0, 0.15)',
+        30: '0px 10px 40px rgba(0, 0, 0, 0.25)',
         "pastelBlueShadowLeft": '-5px 5px 0px 0px #99E5E1',
         "pastelYellowShadowLeft": '-5px 5px 0px 0px #FFD033',
         "pastelRedShadowLeft": '-5px 5px 0px 0px #ED6A5F',

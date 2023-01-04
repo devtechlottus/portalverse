@@ -11,7 +11,7 @@ import Numbers from "@/components/Numbers"
 import CardWebsite from "@/components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Slider from "@/components/Slider"
+import SliderPortalverse from "@/components/SliderPortalverse"
 import Video from "@/components/Video"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
@@ -24,12 +24,12 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
     <HeaderFooterLayout breadcrumbs={false}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.banner, height: "350px" }} />
+          <SliderPortalverse data={{ ...sections.head.banner }} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
-          <Slider data={{ ...sections.head.banner }} />
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <SliderPortalverse data={{ ...sections.head.banner, height: "600px" }} />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>

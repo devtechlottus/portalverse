@@ -17,6 +17,7 @@
             "text": "Carreras sabatinas con sesiones de 4 horas.",
             "urlImage": {
               "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
               "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
             },
             "center": true,
@@ -29,6 +30,7 @@
             "text": "UANE te da acceso a diferentes programas internacionales con movilidad al extranjero y en línea.",
             "urlImage": {
               "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
               "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
             },
             "center": true,
@@ -41,6 +43,7 @@
             "text": "Accede y descubre las oportunidades que tenemos para ti.",
             "urlImage": {
               "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
               "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
             },
             "center": true,

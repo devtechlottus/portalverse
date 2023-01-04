@@ -46,7 +46,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     const allFilter = {
       modalidad: { options: [ ...modalidades ], config: { label: "Modalidades", icon: "edit_note" } },
       campus: { options: [ ...campus ], config: { label: "Campus", icon: "apartment" } },
-      areaConocimiento: { options: [ ...conocimiento ], config: { label: "Areás de Conocimiento", icon: "school" } }
+      areaConocimiento: { options: [ ...conocimiento ], config: { label: "Áreas de Conocimiento", icon: "school" } }
     };
     setFilterConfig({ ...allFilter });
     setVisiblePrograms([ ...programs ]);
@@ -96,12 +96,12 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         </div>
         <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-            visiblePrograms.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className={cn("flex", { "flex-col w-d:col-span-3 w-t:col-span-4 w-p:col-span-4": mosaicActive, "w-d:col-span-12 w-t:col-span-8 w-p:col-span-4": !mosaicActive })}>
+            visiblePrograms.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className={cn("flex hover:shadow-30 h-full border", { "flex-col w-d:col-span-3 w-t:col-span-4 w-p:col-span-4": mosaicActive, "w-d:col-span-12 w-t:col-span-8 w-p:col-span-4": !mosaicActive })}>
               <Image src={src} alt={alt} classNames={cn({ "aspect-4/3": mosaicActive, "w-[80px] h-full": !mosaicActive })} />
-              <div className={cn("border p-3 flex flex-col", { "w-full": !mosaicActive })}>
+              <div className={cn("p-3 flex flex-col bg-white", { "w-full": !mosaicActive })}>
                 <p>{title}</p>
                 <Link href={`${level}/${route}`}>
-                  <a className="flex items-center justify-end">
+                  <a className="flex items-center justify-end font-bold">
                     <span className="mr-1 w-t:hidden w-p:hidden">Ver más</span>
                     <span className="material-icons icon">chevron_right</span>
                   </a>

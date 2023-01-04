@@ -4,7 +4,7 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Slider from "@/components/Slider"
+import Slider from "@/components/SliderPortalverse"
 import RichtText from "@/components/Richtext/Richtext"
 import PromoLink from "@/components/PromoLink"
 import CardWebsite from "@/components/CardWebsite"
@@ -22,12 +22,12 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.slider, height: "350px" }} />
+          <Slider data={{ ...sections.head.slider }} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.slider }} />
+          <Slider data={{ ...sections.head.slider, height: "600px" }} />
         </div>
       </ContentLayout>
       <ContentLayout classNames="w-d:mt-18 w-t:mt-6 w-p:mt-12">
