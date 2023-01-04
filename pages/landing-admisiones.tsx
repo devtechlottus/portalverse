@@ -7,7 +7,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
 import Icon from "@/components/Icon"
 import Image from "@/components/Image"
 import Button from "@/components/Button"
@@ -17,6 +16,7 @@ import Banner from "@/components/Banner"
 import Accordion from "@/components/Accordion/Accordion"
 import { getDataPageFromJSON } from "utils/getDataPage"
 import TabsFeatured from "@/components/TabsFeatured"
+import Video from "@/components/Video"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -137,7 +137,8 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           <p className="font-Poppins text-4.5 font-bold leading-[125%] mt-6">{sections.egresados.description}</p>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
-          <Youtube data={sections.egresados.video}/>
+          <Video dimensions={["330px", "400px", "200px"]} data={sections.egresados.video}/>
+          <p>hola</p>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <section className="grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
@@ -152,7 +153,8 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
-          <Youtube data={sections.egresados.video}/>
+          <Video dimensions={["330px", "400px", "200px"]} data={sections.egresados.video}/>
+          <p>adios</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{sections.FAQ.title}</p>
@@ -164,7 +166,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
               : null
           }
       </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
           <Button data={ sections.FAQ.button }
           onClick={() => {
             router.push(sections.FAQ.button.redirect)

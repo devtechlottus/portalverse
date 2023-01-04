@@ -6,12 +6,12 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
 import BeWantedForm from "@/forms/container/BeWanted"
-import Youtube from "@/components/Youtube"
 import CardWebsite from "@/components/CardWebsite"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
 import Cintillo from "@/components/Cintillo"
+import Video from "@/components/Video"
 
 const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -56,7 +56,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
             <p className="font-Poppins text-white font-bold leading-[125%] text-6.5 w-t:text-6 w-p:text-6">{ sections.historiasExito.title }</p>
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-6 mb-6">
-            <Youtube data={ sections.historiasExito.video }/>
+            <Video dimensions={["400px", "350px", "200px"]} data={ sections.historiasExito.video }/>
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto w-t:hidden w-p:hidden">
             <p className="font-Poppins text-white font-bold leading-[125%] text-6.5 w-t:text-6 w-p:text-6 mb-6">{ sections.historiasExito.title }</p>
@@ -73,7 +73,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText data={{content: sections.comoFunciona.description.content}}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-          <Youtube data={ sections.comoFunciona.video }/>
+          <Video dimensions={["330px", "350px", "200px"]} data={ sections.comoFunciona.video }/>
         </div>
         <div className="w-t:col-span-8 w-p:col-span-4 w-d:hidden">
           <RichtText data={{content: sections.comoFunciona.description.content}}/>

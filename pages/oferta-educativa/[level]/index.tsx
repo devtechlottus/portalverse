@@ -94,7 +94,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         <div className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col", { "hidden": !filtro })}>
           <Filter color={"#B0003C"} data={filterConfig} onSelectionItems={(filters: any) => setNewSelecton(filters)} onChangeView={(status: boolean) => setMosaicActive(status) } />
         </div>
-        <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-12 w-p:mb-6">
+        <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
             visiblePrograms.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className={cn("flex hover:shadow-30 h-full border", { "flex-col w-d:col-span-3 w-t:col-span-4 w-p:col-span-4": mosaicActive, "w-d:col-span-12 w-t:col-span-8 w-p:col-span-4": !mosaicActive })}>
               <Image src={src} alt={alt} classNames={cn({ "aspect-4/3": mosaicActive, "w-[80px] h-full": !mosaicActive })} />

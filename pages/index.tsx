@@ -6,17 +6,17 @@ import ContentLayout from "@/layouts/Content.layout"
 import OfertaEducativa from "@/components/OfertaEducativa"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Banner from "@/components/Banner"
-import Youtube from "@/components/Youtube"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Numbers from "@/components/Numbers"
 import CardWebsite from "@/components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import SliderPortalverse from "@/components/SliderPortalverse"
+import Video from "@/components/Video"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
-
+  
   return <>
     <Head>
       <title>{meta.title}</title>
@@ -97,8 +97,12 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <p className="mb-6 ac-type-h5-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{sections.descubre.title}</p>
-            <Youtube data={sections.descubre} />
+            {
+              <Video dimensions={["330px","400px","200px"]} data={ sections.descubre } />
+
+            }
           </div>
+          
       </ContentLayout>
     </HeaderFooterLayout>
   </>

@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
-import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Youtube from "@/components/Youtube"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentLayout from "@/layouts/Content.layout"
@@ -42,7 +40,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
               </section>)
             }
           </section>
-          <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
+          <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center">
             <Button data={sections.articles.button} onClick={() => router.push(sections.articles.button.redirect)}/>
           </div>
         </div>

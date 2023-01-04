@@ -4,14 +4,13 @@ import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentLayout from "@/layouts/Content.layout"
-import Youtube from "@/components/Youtube"
 import RichtText from "@/components/Richtext/Richtext"
 import Image from "@/components/Image"
 import Mosaic from "@/components/Mosaic"
 import CardWebsite from "@/components/CardWebsite"
-import LinkLottus from "@/components/LinkLottus"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import LinkContactTarget from "@/components/LinkContactTarget"
+import Video from "@/components/Video"
 
 
 const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -42,7 +41,7 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentFullLayout classNames="bg-darkBlue text-white mt-18 w-t:mt-3 w-p:mt-3">
         <ContentLayout classNames="text-white">
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
-            <Youtube data={ sections.sportActivities.video} />
+            <Video dimensions={["330px", "360px", "200px"]} data={ sections.sportActivities.video} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-auto">
             <p className="font-Poppins font-bold text-6.5 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{sections.sportActivities.title}</p>
@@ -64,7 +63,7 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
             <LinkContactTarget type="email" info={sections.culturalActivities.moreInformationLink} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-6">
-            <Youtube data={ sections.culturalActivities.video} />
+            <Video dimensions={["330px", "360px", "200px"]} data={ sections.culturalActivities.video} />
           </div>
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.lifeUANE.title}</p>
