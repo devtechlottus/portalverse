@@ -23,12 +23,12 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
     </Head>
     <HeaderFooterLayout breadcrumbs={false}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-1">
           <SliderPortalverse data={{ ...sections.head.banner }} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-1">
           <SliderPortalverse data={{ ...sections.head.banner, height: "600px" }} />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
