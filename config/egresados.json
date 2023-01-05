@@ -11,8 +11,8 @@
         "subtitle": "Estadísticas", 
         "image": "https://drive.google.com/uc?export=view&id=1pLqo240d_ACAIP_mIU57CAep_Asd_nSa",
         "statics": [
-          { "icon": "", "prefix": "", "number": "50", "suffix": "", "title": "mil egresados", "body": "Han salido de nuestra universidad", "container": true },
-          { "icon": "", "prefix": "", "number": "50", "suffix": "%", "title": "de egresados", "body": "Pertenecen a nivel de licenciatura", "container": true }
+          { "icon": "", "prefix": "", "number": "50", "suffix": "", "title": "", "body": "mil egresados han salido de nuestra universidad", "container": true },
+          { "icon": "", "prefix": "", "number": "50", "suffix": "%", "title": "", "body": "de egresados pertenecen a nivel de licenciatura", "container": true }
         ]
       }
     },
