@@ -3,6 +3,7 @@ import cn from "classnames"
 import Button from "@/components/Button"
 import LinkIcons from "@/components/LinkLottus";
 import { LinkIconsInit } from "@/components/fixture";
+import Image from "@/components/Image"
 
 const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
 
@@ -43,7 +44,6 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
   }
 
   const handlerClickControl = ({ target }: SyntheticEvent) => {
-    console.log("evt", target);
     const { ariaLabel } = (target as HTMLElement)
     if ( countItems > 1) {
       if ( ariaLabel === "next" ) {
@@ -79,10 +79,10 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
     </div>
     <section style={{ "height": data.height }} className={cn("w-full flex overflow-hidden w-p:hidden")}>
       {
-        slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex justify-center grow aspect-2/1")}>
-          <img className="w-t:hidden w-full h-full absolute w-p:block z-1" src={item.urlImage.desktop} alt="image" />
-          <img className="w-d:hidden w-full h-full absolute w-p:block z-1" src={item.urlImage.tablet} alt="image" />
-          <div className="z-10 w-d:mt-12 w-t:mt-20 w-d:px-[200px] w-t:px-[160px]">
+        slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col justify-center grow aspect-2/1")}>
+          <Image classNames="w-t:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.desktop} alt="image" />
+          <Image classNames="w-d:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.tablet} alt="image" />
+          <div className="absolute z-10 w-d:mt-12 w-t:mt-20 w-d:px-[200px] w-t:px-[160px]">
             <h2 className="font-Poppins font-bold w-d:text-[65px] w-d:leading-[80px] w-t:text-[30px]">{ item.title }</h2>
             <p className="font-Poppins font-semibold w-d:text-[24px] w-d:leading-[30px] w-t:text-base">{ item.text }</p>
             {
@@ -109,7 +109,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
       {
         slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-auto relative flex flex-col grow")}>
           <div style={{"width": wMob}} className={cn("aspect-1/1")}>
-            <img className="w-full h-full" src={item.urlImage.mobile} alt="image" />
+            <Image classNames="w-full h-full aspect-1/1" src={item.urlImage.mobile} alt="image" />
           </div>
           <div className="p-4 flex flex-col gap-6">
             <h2 className="font-Poppins font-normal text-[32px] leading-10">{ item.title }</h2>
