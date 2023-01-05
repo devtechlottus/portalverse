@@ -42,13 +42,13 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.head.title}</p>
           {
-            sections.head.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4">
-                <Icon name={item.icon} className="w-[55px] h-[55px] w-p:w-8 w-p:h-8 text-[#B0003C]"/>
-                <p className="font-Poppins font-bold my-auto ml-6 text-4.5 w-p:text-base">{item.text}</p>
+            sections.head.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
+                <Image classNames="aspect-1/1 w-[55px] w-p:w-[32px]" src={item.icon} alt={item.icon} />
+                <p className="font-Poppins font-bold my-auto text-4.5 w-p:text-base grow">{item.text}</p>
               </div>
             )
           }
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-4">
+          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
             <Button data={ sections.head.button }/>
           </div>
         </div>
