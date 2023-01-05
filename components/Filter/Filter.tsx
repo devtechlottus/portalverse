@@ -58,8 +58,8 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
         }
       </section>
       <div className="flex items-center justify-end cursor-pointer mt-6" onClick={changeMosaicView}>
-        <span className="mr-1">Ver en { mosaicActive ? "mosaico" : "lista" }</span>
-        <span className="material-icons icon">{ mosaicActive ? "space_dashboard" : "format_list_bulleted" }</span>
+        <span className="mr-1">Ver en { mosaicActive ? "lista" : "mosaico" }</span>
+        <span className="material-icons icon">{ mosaicActive ? "format_list_bulleted" : "space_dashboard" }</span>
       </div>
     </section>
 });
