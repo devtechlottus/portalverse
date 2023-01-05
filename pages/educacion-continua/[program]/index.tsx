@@ -1,12 +1,13 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+import cn from "classnames"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
 import RichtText from "@/components/Richtext/Richtext"
 import Image from "@/components/Image"
-import CardProgram from "@/components/CardProgram"
+import CardProgram from "@/components/CardProgram/CardProgram"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Routes from "@/routes/Routes"
 
@@ -32,7 +33,11 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
               src={ sections.head.image.src }
               classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1 mb-6"
             />
-          aqui va el formulario
+          <div className="flex flex-col p-2 border rounded-lg">
+            <p className="font-Nunito-Sans font-normal text-base leading-5 text-[#818181]">Precio:</p>
+            <h1 className="font-Poppins font-semibold text-[32px] leading-10">{ sections.head.price }</h1>
+          </div>
+          {/* aqui va el formulario */}
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:hidden">
           <p className="font-Poppins font-bold text-10 pt-6 w-t:text-8.5 w-p:text-7.5 leading-[125%]">{sections.relatedCourses.title}</p>
