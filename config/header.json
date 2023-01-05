@@ -20,11 +20,7 @@
       ]
     },
     { "label": "Comunidad UANE", "route": "/", "items": [
-      { "label": "Noticias", "route": "/" },
-      { "label": "Actividades Deportivas", "route": "/" },
-      { "label": "Actividades Extracuriculares", "route": "/" },
-      { "label": "Comité Estudiantil", "route": "/" },
-      { "label": "Centro de Idiomas", "route": "/" }
+      { "label": "Noticias", "route": "/" }
       ]
     }
   ],
