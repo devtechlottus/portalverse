@@ -21,7 +21,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
     {/* Section logotype */}
     <div className="p-6 w-p:hidden border-b-[1px] border-solid border-[#CDCDCD]">
       <div className="flex justify-between items-center mb-6 cursor-pointer" onClick={onClickLogo}>
-        <Image classNamesImg="w-[200px] h-10" classNames="w-[200px] h-10" src={logotype.src} alt={logotype.alt} />
+        <Image classNamesImg="w-[143px] h-10" classNames="w-[200px] h-10" src={logotype.src} alt={logotype.alt} />
         <div className="hidden">
           <p>Suscríbete a nuestro newsletter</p>
         </div>
@@ -40,7 +40,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
             <LinkContactTarget type="tel" info={phone}/>
           </div>
         </div>
-        <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} />
+        {/* <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} /> */}
       </div>
     </div>
     <div className="p-6 w-d:hidden w-t:hidden flex flex-col border-b-[1px] border-solid border-[#CDCDCD]">
@@ -48,7 +48,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
         <div onClick={onClickLogo}>
           <Image classNamesImg="w-[92px] h-6" classNames="w-[92px] h-6" src={logotype.src} alt={logotype.alt} />
         </div>
-        <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} />
+        {/* <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} /> */}
       </div>
       <div className="hidden">
         <p>Suscríbete a nuestro newsletter</p>

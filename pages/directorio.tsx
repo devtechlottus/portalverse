@@ -1,4 +1,4 @@
-import { ReactElement } from "react"
+import { ReactElement, useEffect } from "react"
 import Head from "next/head"
 import DirectoryComponentData, { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
@@ -8,8 +8,17 @@ import NextPageWithLayout from "@/types/Layout.types"
 import ContactTarget from "@/components/ContactTarget"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import { useRouter } from "next/router"
 
 const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta, head }: DirectoryComponentData) => {
+
+  const router = useRouter();
+
+  useEffect(() => {
+    // disabled Route
+    router.push("/404");
+  }, []);
+
   return <>
     <Head>
       <title>{ meta.title }</title>

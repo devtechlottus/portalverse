@@ -94,7 +94,6 @@
     [
       [
         { "label": "Contacto", "principal": true, "link": "" },
-        { "label": "Directorio", "principal": false, "link": "/directorio" },
         { "label": "Línea segura", "principal": false, "link": "" },
         { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general" },
         { "label": "Envíanos un mensaje", "principal": false, "link": "pedir-informacion" }
