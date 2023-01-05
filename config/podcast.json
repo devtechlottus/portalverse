@@ -13,11 +13,11 @@
           "size": "medium",
           "middle": false,
           "center": false,
-          "bottom": false,
+          "bottom": true,
           "left": true,
           "urlImage": {
-            "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
-            "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+            "mobile": "https://drive.google.com/uc?export=view&id=1MI62tyuUxu71bBCDfRUz1NHxUhmHeJF0",
+            "desktop": "https://drive.google.com/uc?export=view&id=1We_A9VCsxSV9buE8TMHKqyqI5HyqPguN"
           },
           "overlay": "white",
           "height": "342px",
@@ -62,10 +62,10 @@
           "middle": false,
           "center": false,
           "bottom": false,
-          "left": true,
+          "left": false,
           "urlImage": {
-            "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
-            "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+            "mobile": "https://drive.google.com/uc?export=view&id=1BBHm3qD0hUf27eIRfpw8t3NQQoWVyJED",
+            "desktop": "https://drive.google.com/uc?export=view&id=1_cUI-wPs5OJJucnW1w2OhXxVtAnyU90B"
           },
           "overlay": "white",
           "height": "",

@@ -22,7 +22,7 @@ const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, 
           }} />
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
-          <OpenForm data={sections.form} pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
+          <OpenForm data={sections.form} pathThankyou={`/thank-you`} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} />
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-3 w-d:col-end-11">
           <Video data={sections.video} dimensions={["450px", "400px", "200px"]} />

@@ -50,7 +50,7 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
       </ContentLayout>
       <ContentFullLayout>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentFullLayout>

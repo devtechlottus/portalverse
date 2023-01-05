@@ -16,7 +16,7 @@
       "title": "Estudia en la modalidad que más te convenga",
       "modalities": [
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1LQ5gMlzjBHJRt_LD24p8rHzHxMb_bYzP",
           "subtitle": "Presencial",
           "title": "Presencial",
           "text": "Asiste a clases y relaciónate en persona con profesores y alumnos en cualquiera de nuestros campus",
@@ -48,7 +48,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1s_95yEEf8AtHRcvciNowBl5nIBwQZ7Ui",
           "subtitle": "Semipresencial",
           "title": "Semipresencial",
           "text": "Estudia en una modalidad híbrida, con clases remotas y presenciales",
@@ -80,7 +80,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1_m_d-VlFYnVRS9wgVpi3d_tZY15ZOwK4",
           "subtitle": "En línea",
           "title": "En línea",
           "text": "Aprovecha tu tiempo al máximo y obten tu título estudiando desde nuestra plataforma",
@@ -216,13 +216,13 @@
     },
     "bannerTest":{
       "banner":{
-        "title": "¿No te decides qué estudiar?", "subtitle": "Te ayudamos a decidir que rumbo profesional tomar", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Realizar test", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+        "title": "¿No te decides qué estudiar?", "subtitle": "Te ayudamos a decidir que rumbo profesional tomar", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1XFnp_Ufc-rAqZxZ2KM60ogWyuS2vdOOi", "desktop": "https://drive.google.com/uc?export=view&id=1Y-NyCheOPilvlVa45pHQQ97mp-a-rQGy"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Realizar test", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
       },
       "redirect": "https://www.uane.edu.mx/"
     },
     "bannerInternacionalizacion": {
       "banner":{
-        "title": "Internacionalízate", "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg", "desktop": "https://home.kpmg/content/dam/kpmg/es/images/2021/01/podcast-1500x857.jpg"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Conoce más", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+        "title": "Internacionalízate", "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1U6Bw6nBdz7aaCyjNrQ50wOMFiRJKQR-G", "desktop": "https://drive.google.com/uc?export=view&id=1Yd2dBe60616xK-qlbYNNe6tehHrMsF6a"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Conoce más", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
       },
       "redirect": "internacionalizacion"
     }
