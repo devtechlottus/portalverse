@@ -12,7 +12,7 @@
     "experiencias": {
       "cards": [
         { 
-          "urlImage": "https://img.freepik.com/foto-gratis/mira-captura-recortada-atractivo-joven-apuesto-emocionado-camiseta-azul-que-senala-dedos-arriba-despues-haber-mirado-sorprendido-expresion-alegre-feliz-cara-broadley-sonriendo_176420-10316.jpg?w=2000",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1wfjNtXOd1FuohuUjKvUNgEfVhR7iXLWI",
           "subtitle": "DISEÑO GRÁFICO",
           "title": "Noé Silva",
           "text": "Noé ha logrado dejar huella con su trabajo en todo el país. Gracias a su único estilo, desde la imagen de una edición especial de la cerveza Indio, hasta el diseño del Quetzalcoatl de la imagen conmemorativa del aniversario de la independencia de México en 2021.",
@@ -45,7 +45,7 @@
           "video": "GMtcxjuvBHc"
         },
         { 
-          "urlImage": "https://img.freepik.com/foto-gratis/feliz-joven-alegre-telefono-movil-celebrando-victoria_171337-18119.jpg?w=2000",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1strM2v22iKqaQ6vOUVkvXkug8hup6jG4",
           "subtitle": "RECURSOS HUMANOS",
           "title": "Martha Rodríguez",
           "text": "Después de concluir su Licenciatura, Martha continúa su crecimiento académico y profesional con una Maestría en Administración y Liderazgo en UANE. Hoy se desempeña como Gerente Administrativa.",
@@ -78,7 +78,7 @@
           "video": "RRd5gA6AVDY"
         },
         { 
-          "urlImage": "https://img.freepik.com/foto-gratis/chica-atractiva-satisfecha-sosteniendo-algo-mano-mostrando-pulgar-arriba-senal-aprobacion_1258-19083.jpg?w=2000",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1XOyNsblR_cP35SzzhNynDI1baSATivXt",
           "subtitle": "COMUNICACIÓN",
           "title": "Nidia Orozco",
           "text": "Nidia se consolidó en los medios de comunicación en Piedras Negras Coahuila, pero continúo su formación y hoy tiene su propio negocio.",
@@ -111,7 +111,7 @@
           "video": "rDfCvp0UrKg"
         },
         { 
-          "urlImage": "https://i.pinimg.com/736x/9f/c2/95/9fc29549f0e798046353bb399590c362.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1kKcHX3j1JlvdEM71qDMmBysLjIjiWeJc",
           "subtitle": "MERCADOTECNIA INTERNACIONAL",
           "title": "Luis Cruz Brito",
           "text": "Conoce la trayectoria de Luis quien hoy se desempeña como Gerente General Regional de Televisa Piedras Negras, Coahuila.",
@@ -144,7 +144,7 @@
           "video": "0bq-GyBddBo"
         },
         { 
-          "urlImage": "https://cdn.pixabay.com/photo/2017/06/09/05/17/woman-2385785_960_720.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1w83Ftzyh8j0vntGa9ppxv6oq5pAwqNqG",
           "subtitle": "DISEÑO GRÁFICO",
           "title": "Ángel Treviño",
           "text": "Gracias a su excepcional trabajo como diseñador, Ángel ha logrado trabajar para artistas de alto nivel como Shakira o su más reciente colaboración con Gloria Trevi.",
@@ -177,7 +177,7 @@
           "video": "JSlK3lrUYY8"
         },
         { 
-          "urlImage": "https://i.pinimg.com/736x/24/bc/5f/24bc5fbf7db9eba9b740480a3a474221.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1L-LTN9t9D-lvR0Z5Ermi1mhqHglDAM_Y",
           "subtitle": "PSICOLOGÍA",
           "title": "FIDENCIO GONZÁLEZ",
           "text": "Ganador de la medalla de oro de los Juegos Panamericanos de Lima en 2019, Fidencio es Atleta de la Selección Mexicana de Tiro Deportivo y nos cuenta su paso por UANE Monterrey.",
@@ -213,7 +213,10 @@
     },
     "aplica": {
       "banner":{
-        "image": "https://media.istockphoto.com/id/1264977318/es/foto/gente-de-negocios-entusiasmada-y-exitosa.jpg?s=612x612&w=0&k=20&c=4xQJGbvzrb8zscIZkm2LYAzbqPSVtkuo-z2CW1P4j4s=",
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1bAZaQJAenCjvL_3Yw2Mj_50G3h-tB3gV",
+          "mobile": "https://drive.google.com/uc?export=view&id=1wSC-z_Mzco940OwZ1jKjqnv9c0wTUPx9"
+        },
         "title": "¿Quieres postularte?",
         "subtitle": "",
         "email": "egresados@uane.edu.mx",

@@ -9,7 +9,7 @@
       "banner": {
         "title": "ExaUANE", 
         "subtitle": "Estadísticas", 
-        "image": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
+        "image": "https://drive.google.com/uc?export=view&id=1pLqo240d_ACAIP_mIU57CAep_Asd_nSa",
         "statics": [
           { "icon": "", "prefix": "", "number": "50", "suffix": "", "title": "mil egresados", "body": "Han salido de nuestra universidad", "container": true },
           { "icon": "", "prefix": "", "number": "50", "suffix": "%", "title": "de egresados", "body": "Pertenecen a nivel de licenciatura", "container": true }
@@ -50,8 +50,8 @@
       "bottom": false,
       "left": true,
       "urlImage": {
-        "mobile": "https://www.studyinjapan.go.jp/en/_mt/2020/05/kv_04.jpg",
-        "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K_vYDisviIeacdi_G2t5LzGol_o27rivExNw7wtm&s"
+        "mobile": "https://drive.google.com/uc?export=view&id=1AouSIC5-YJc0Js1LIRHRxRf03n5ibngx",
+        "desktop": "https://drive.google.com/uc?export=view&id=1idUUed8QBG8hf9qbpWqm00PmVs-JbGMw"
       },
       "overlay": "white",
       "height": "",
@@ -78,8 +78,8 @@
       "bottom": false,
       "left": true,
       "urlImage": {
-        "mobile": "https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg",
-        "desktop": "https://www.questionpro.com/blog/wp-content/uploads/2018/07/evaluacion-de-empleados.jpg"
+        "mobile": "https://drive.google.com/uc?export=view&id=190CNvADpywpMXK_QVM6udMb2GsV4HsMt",
+        "desktop": "https://drive.google.com/uc?export=view&id=1ublCyobsLlz7uKehh34mAfdpQ1or4eYv"
       },
       "overlay": "",
       "height": "",
@@ -107,8 +107,8 @@
       "bottom": false,
       "left": false,
       "urlImage": {
-        "mobile": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU",
-        "desktop": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzYCpTM3Kc9sAhmJXAjQUwMMf8VPZIWZtoxvBho2zCsIzKNzMX7WJqRvKgsjGQF9NCkk&usqp=CAU"
+        "mobile": "https://drive.google.com/uc?export=view&id=1cXj_pPf0OvVkA7ew-UF--T-L-20FPoOl",
+        "desktop": "https://drive.google.com/uc?export=view&id=1lymiihfxStWQNox-uD9mvh2Ln6GEuUjU"
       },
       "overlay": "black",
       "height": "",
@@ -130,7 +130,7 @@
       "title": "Noticias",
       "news": [
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=17DFc4e-VEJry-I3puVquu4wxR0m6J6Rw",
           "subtitle": "SUBTITULO",
           "title": "Coursera y UANE se unen para ti",
           "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
@@ -162,7 +162,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://image.shutterstock.com/image-photo/graduates-student-graduation-caps-thrown-260nw-1937758900.jpg",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1DlQof6MOk9PQgJtcad50-gb5K3l7WHL_",
           "subtitle": "SUBTITULO",
           "title": "Coursera y UANE se unen para ti",
           "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",

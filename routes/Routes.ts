@@ -8,8 +8,8 @@ const Routes: any = {
           title: "Bachillerato",
           promo: {
             urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              mobile: "https://drive.google.com/uc?export=view&id=1IZB-O4PNo9wwRDtweld_gpoRxzmv6WhX",
+              desktop: "https://drive.google.com/uc?export=view&id=1ooMLjk3zU7_8_A9W-NOdTOvjbGEw8qQW"
             },
             text: "",
             icon: "arrow_forward",
@@ -47,8 +47,8 @@ const Routes: any = {
           title: "Licenciaturas",
           promo: {
             urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              mobile: "https://drive.google.com/uc?export=view&id=1zl9VvR13Y1Tk0f-EfvkOzkHUZjQ2gPH_",
+              desktop: "https://drive.google.com/uc?export=view&id=1qB-SaPTknHUetoHA_e0CmcNQZxj2RZ2t"
             },
             text: "",
             icon: "arrow_forward",
@@ -112,8 +112,8 @@ const Routes: any = {
           title: "Especialidades",
           promo: {
             urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              mobile: "https://drive.google.com/uc?export=view&id=1jqW4m0V-UYJdCp2Ax0dqLxf04ansooLB",
+              desktop: "https://drive.google.com/uc?export=view&id=1lksUFh99fwx12CS5NDhSzzOwqjE2nBCQ"
             },
             text: "",
             icon: "arrow_forward",
@@ -156,8 +156,8 @@ const Routes: any = {
           title: "Maestrias",
           promo: {
             urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              mobile: "https://drive.google.com/uc?export=view&id=1Y7pu9KD4hCZOM5MCQqYUf-cTkm6FjAxu",
+              desktop: "https://drive.google.com/uc?export=view&id=19gyvlX5gfDtt2QeQ5pnc66BAgtV9X5ng"
             },
             text: "",
             icon: "arrow_forward",
@@ -218,8 +218,8 @@ const Routes: any = {
           title: "Doctorado",
           promo: {
             urlImage: {
-              mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-              desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+              mobile: "https://drive.google.com/uc?export=view&id=1Hkdd9ScYfqlaS3D0wXntZ87PKJyFRXMG",
+              desktop: "https://drive.google.com/uc?export=view&id=1A-V4fwz_65l2Jrt20GxUOb22qshS7hqu"
             },
             text: "",
             icon: "arrow_forward",
@@ -258,8 +258,8 @@ const Routes: any = {
         title: "Educacion continua",
         promo: {
           urlImage: {
-            mobile: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg",
-            desktop: "https://image.shutterstock.com/image-photo/young-student-woman-isolated-on-260nw-1932261476.jpg"
+            mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",
+            desktop: "https://drive.google.com/uc?export=view&id=19Oe9R_hCPk8oY2t37VFiIHeZvWwUw3HL"
           },
           text: "",
           icon: "arrow_forward",

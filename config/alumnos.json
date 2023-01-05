@@ -11,7 +11,7 @@
     },
     "accesos": [
       { 
-        "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr1mAjk7blwP1jGnU45XfcCeicbVRJ9rE-FdQFTovdoeEnMYonChejcOeEYtHwkGHJjlk&usqp=CAU",
+        "urlImage": "https://drive.google.com/uc?export=view&id=17IHKUeFZlozxvkt1GRKKU9CHkO_QBYJQ",
         "subtitle": "",
         "title": "SIUANE",
         "text": "Portal para estudiantes: Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
@@ -44,7 +44,7 @@
         "redirect": "http://sistema.uane.edu.mx/siuane/login.aspx"
       },
       { 
-        "urlImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8fPWgJJCI7-bEpXSg6DJa909NOPr0W7hTWMTMyS36eTZpq96SyjbvGNDvoscxlLhjS0&usqp=CAU",
+        "urlImage": "https://drive.google.com/uc?export=view&id=1vN8A17tA73ECHhlapbvLgJVIo5ZW0sEa",
         "subtitle": "",
         "title": "AULA VIRTUAL MOODLE",
         "text": "Hemos diseñado una plataforma de aprendizaje seguro para que aproveches tus clases virtuales al máximo.",
@@ -77,7 +77,7 @@
         "video": "8LDTk1DLg4M"
       },
       { 
-        "urlImage": "https://pcredcom.com/blog/wp-content/uploads/2020/06/tipos-de-computadoras.jpg",
+        "urlImage": "https://drive.google.com/uc?export=view&id=1D2BUw7hrBN6M_fVDEIO7lbYB25a_sQiT",
         "subtitle": "",
         "title": "ESPACIO DIGITAL CANVAS ",
         "text": "Herramientas digitales que facilitan la enseñanza y aprendizaje. Accede a la información de manera simple.",
@@ -120,10 +120,10 @@
         "bottom": true,
         "left": false,
         "urlImage": {
-          "mobile": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
-          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW"
-        },
-        "overlay": "black",
+          "mobile": "https://drive.google.com/uc?export=view&id=1oYRLmnAXdRUZ3i88SOblPkbWBdP78NIv",
+          "desktop": "https://drive.google.com/uc?export=view&id=1T-W52yh4F3iGkl1u8sQrhM1ij-ctSnuw"
+        }, 
+        "overlay": "",
         "height": "",
         "action": {
           "id": "",
@@ -147,40 +147,40 @@
         "description": "Todos los que integramos la universidad estamos para atenderte y escucharte, contacta a cualquier área de la universidad",
         "contacts": [
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=1e5UpQ17ZAUGw_0bb3I9tRz_dJmq8LNIn",
             "name": "Servicios escolares",
             "email": "servicios@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           },
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=1G-D4Ar1FKdp8YYqQ2878cQ8MvX_5IYie",
             "name": "Dirección",
             "email": "direccion@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           },
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=1T9Ra-lOkOtZ_keBbkFAzQqiGc3se-4-u",
             "name": "Coordinación educativa",
             "email": "coordinacion@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           },
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=1CM5eV6vBuq6dG45McKmzpJ-TVpudUfoz",
             "name": "Biblioteca",
             "email": "biblioteca@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           },
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=128erB9tr_N9BUEI0axIbuNKjSEBAr9xY",
             "name": "Línea segura",
             "email": "lineasegura@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           },
           {
-            "image": "https://blogcomparasoftware-192fc.kxcdn.com/wp-content/uploads/2021/02/dimensionamiento-de-un-call-center-1024x576.png",
+            "image": "https://drive.google.com/uc?export=view&id=1Kpnrd5wFkqIkUWpRKZgd3Y8WszI7HCPj",
             "name": "Soporte técnico",
             "email": "soportetécnico@uane.com",
-            "phone": "55 10 50 27 07"
+            "phone": ""
           }
         ]
       }
