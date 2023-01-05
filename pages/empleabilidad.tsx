@@ -36,7 +36,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText font="ligth" data={{content: sections.descripcion.text.content}} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-1 relative">
-          <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="absolute w-full h-auto bg-white bottom-0 rounded-lg" />
+          <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[125%] text-10"> { sections.vacantes.title }</p>
@@ -99,13 +99,13 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           </section>
         </ContentLayout>
       </ContentFullLayout>
-      <ContentLayout classNames="w-t:hidden w-p:hidden mb-12 w-t:mb-6 w-p:mb-6">
+      <ContentLayout classNames="w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
           <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="w-d:hidden mb-12 w-t:mb-6 w-p:mb-6">
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
+      <ContentFullLayout classNames="w-d:hidden w-p:hidden mb-12 w-t:mb-6 w-p:mb-6">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2 mt-12">
           <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentFullLayout>
