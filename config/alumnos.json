@@ -111,34 +111,34 @@
     ],
     "calendario": {
       "banner": {
-        "title": "Calendario escolar",
-        "subtitle": "Consulta el calendario escolar del periodo actual",
-        "state": "",
+        "title": "UANE Internacional",
+        "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
+        "state": "black",
         "size": "medium",
         "middle": false,
         "center": false,
-        "bottom": false,
+        "bottom": true,
         "left": false,
         "urlImage": {
-          "mobile": "https://previews.123rf.com/images/moodboard/moodboard1703/moodboard170304313/75511401-longitud-total-de-j%C3%B3venes-estudiantes-universitarios-masculinos-y-femeninos-caminando-en-el-sendero.jpg",
-          "desktop": "https://previews.123rf.com/images/moodboard/moodboard1703/moodboard170304313/75511401-longitud-total-de-j%C3%B3venes-estudiantes-universitarios-masculinos-y-femeninos-caminando-en-el-sendero.jpg"
-        }, 
-        "overlay": "",
+          "mobile": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW"
+        },
+        "overlay": "black",
         "height": "",
         "action": {
           "id": "",
-          "type": "primary",
-          "title": "Consultar",
+          "type": "outlined",
+          "title": "Conocer más",
           "size": "small",
           "icon": "",
           "lyIcon": false,
           "disabled": false,
           "isExpand": false,
-          "tagOnClick": "testClick",
+          "tagOnClick": "",
           "test": ""
         },
         "wrapper": true,
-        "visible": false
+        "visible": true
       }
     },
     "directorio": [
