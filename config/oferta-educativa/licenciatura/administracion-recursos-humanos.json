@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1947RsnMuQbrbSemz26C_eA93kabKyP8a",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -33,8 +33,8 @@
       "title": "Licenciatura en Administración de Recursos Humanos",
       "description": "Participa en procesos administrativos de los recursos humanos y diseña planes para el desarrollo de talentos en ambientes organizacionales. Contribuye a un sano entorno.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Administración de Recursos Humanos"
+        "src": "https://drive.google.com/uc?export=view&id=1947RsnMuQbrbSemz26C_eA93kabKyP8a",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

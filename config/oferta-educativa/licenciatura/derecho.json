@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=19Fv-odSZ3hzQTNfQ7XAqIM0LOStux1qn",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -40,8 +40,8 @@
       "title": "Licenciatura en Derecho",
       "description": "",
       "image": {
-        "src": "",
-        "alt": "Derecho"
+        "src": "https://drive.google.com/uc?export=view&id=19Fv-odSZ3hzQTNfQ7XAqIM0LOStux1qn",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

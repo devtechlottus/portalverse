@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Monterrey", "Torreon", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1kyJT49LV6EcSA65HNK7IJKw3IKj4V7PJ",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -31,8 +31,8 @@
       "title": "Licenciatura en Nutrición",
       "description": "Aplica estrategias y mejora la calidad de vida de la sociedad a través de balances nutricionales. Ejerce tu labor en clínicas públicas o privadas, escuelas o centros de salud.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Nutrición"
+        "src": "https://drive.google.com/uc?export=view&id=1kyJT49LV6EcSA65HNK7IJKw3IKj4V7PJ",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

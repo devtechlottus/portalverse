@@ -12,7 +12,7 @@
       "campus": ["Saltillo", "Monterrey", "Torreon"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1AIIslAK7PmWqgk7PdBD4pU12vmkOv6wr",
         "alt": "maestria"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Maestría en Gestión Ambiental",
       "description": "En la especialización en Gestión Ambiental se trabaja para lograr el fortalecimiento y desarrollo de competencias inherentes a toda actividad humana. Se trata de que el profesional tenga un buen desarrollo de sus habilidades para la comunicación y para el trabajo en equipo.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Gestión Ambiental"
+        "src": "https://drive.google.com/uc?export=view&id=1AIIslAK7PmWqgk7PdBD4pU12vmkOv6wr",
+        "alt": "maestria"
       }
     },
     "modalities": {

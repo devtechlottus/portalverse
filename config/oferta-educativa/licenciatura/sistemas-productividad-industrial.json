@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Reynosa" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1LWTwinSoVElzup0ONvuV_YMioVNzUmfL",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -29,8 +29,8 @@
       "title": "Ingenería en Sistemas y Productividad Industrial",
       "description": "Gestiona estrategias en la producción de manufactura en las organizaciones y aplica métodos para lograr eficiencia y sustentabilidad. Resuelve las necesidades más complejas.",
       "image": {
-        "src": "",
-        "alt": "Sistemas y Productividad Industrial"
+        "src": "https://drive.google.com/uc?export=view&id=1LWTwinSoVElzup0ONvuV_YMioVNzUmfL",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1txiRradR7dgMBlxeIJVCRhNoDA5DV_jR",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -34,8 +34,8 @@
       "title": "Ingeniería Industrial y de Sistemas",
       "description": "Gestiona estrategias en la producción de manufactura en las organizaciones y aplica métodos para lograr eficiencia y sustentabilidad. Resuelve las necesidades más complejas.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Ingeniería Industrial y de Sistemas"
+        "src": "https://drive.google.com/uc?export=view&id=1txiRradR7dgMBlxeIJVCRhNoDA5DV_jR",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

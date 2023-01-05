@@ -13,7 +13,7 @@
       "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1fxU5qQvmvjtXd3M4ggcoGFH7a_tEBHFC",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Licenciatura en Derecho con Acentuación en Negocios Internacionales",
       "description": "Dirige estrategias corporativas en el ámbito mercantil administrativo, fiscal. Representa en juicios a dependencias del sector público. Formula demandas y contestaciones. ",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Derecho con Acentuación en Negocios Internacionales"
+        "src": "https://drive.google.com/uc?export=view&id=1fxU5qQvmvjtXd3M4ggcoGFH7a_tEBHFC",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

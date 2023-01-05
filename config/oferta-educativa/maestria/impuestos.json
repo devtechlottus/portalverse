@@ -13,7 +13,7 @@
       "campus": ["Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1WIYm7cjRESVj0MX1YST3DPJCCbloIaB_",
         "alt": "maestria"
       },
       "curriculum": {
@@ -28,8 +28,8 @@
       "title": "Maestría en Impuestos",
       "description": "Desarrolla estrategias de planeación y conoce las normas tributarias.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Impuestos"
+        "src": "https://drive.google.com/uc?export=view&id=1WIYm7cjRESVj0MX1YST3DPJCCbloIaB_",
+        "alt": "maestria"
       }
     },
     "modalities": {

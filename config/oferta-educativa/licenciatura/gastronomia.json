@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Torreon"],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1Yr8Kk57j3iGB8yrgbEBWOh7LGWwxBoRT",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -29,8 +29,8 @@
       "title": "Licenciatura en Gastronomía",
       "description": "Interviene en servicios de alimentación, administra, dirige y posiciona las tradiciones culinarias. Conviértete en un promotor de la gastronomía de tu país y del mundo.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Gastronomía"
+        "src": "https://drive.google.com/uc?export=view&id=1Yr8Kk57j3iGB8yrgbEBWOh7LGWwxBoRT",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

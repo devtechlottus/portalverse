@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1Sb3r92gDYkX9h3ZVXXdw04itRVmUg7sH",
         "alt": "especilidad"
       },
       "curriculum": {
@@ -35,8 +35,8 @@
       "title": "Licenciatura en Administración de Empresas",
       "description": "Detecta nuevos modelos de negocio y diseña estrategias de posicionamiento. Supervisa que las tareas y funciones de una empresa sí se cumplan satisfactoriamente.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Administración de Empresas"
+        "src": "https://drive.google.com/uc?export=view&id=1Sb3r92gDYkX9h3ZVXXdw04itRVmUg7sH",
+        "alt": "especilidad"
       }
     },
     "modalities": {

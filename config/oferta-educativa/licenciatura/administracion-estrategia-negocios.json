@@ -13,7 +13,7 @@
       "campus": [ "Monterrey" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=19vFuL48Tc5YTDXAIBvonJ-XL23DcIUSK",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -28,8 +28,8 @@
       "title": "Licenciatura en Administración Estratégica de Negocios",
       "description": "Diseña estrategias de negocios con visión global para optimizar la toma de decisiones. Conviértete en una herramienta de diagnóstico, análisis y de adaptación al cambio.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Administración Estratégica de Negocios"
+        "src": "https://drive.google.com/uc?export=view&id=19vFuL48Tc5YTDXAIBvonJ-XL23DcIUSK",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

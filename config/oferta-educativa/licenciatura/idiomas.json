@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Torreon", "Piedras Negras"],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=19wr68tsR7OEsvbnzWY5xXpYgpYQqkYdS",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Licenciatura en Idiomas",
       "description": "Traduce la segunda lengua y conviértete en un profesional de la instrucción. Actualízate e investiga la terminología específica y aspectos culturales de los idiomas.",
       "image": {
-        "src": "",
-        "alt": "Idiomas"
+        "src": "https://drive.google.com/uc?export=view&id=19wr68tsR7OEsvbnzWY5xXpYgpYQqkYdS",
+        "alt": "licenciatura"
       }
     },
     "modalities": {
