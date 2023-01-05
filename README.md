@@ -94,28 +94,27 @@ Once this process is done, the project will start deploying and it will generate
 #### Lista de web elements necesarios para este sitio
 - linea: UANE
 - componentes:
-    - lottus-youtube
-    - lottus-lottie
-    - lottus-spotify
-    - lottus-rich-text
-    - lottus-link-icons
-    - lottus-button
-    - lottus-checkbox
-    - lottus-input
-    - lottus-accordion
-    - lottus-banner-portalverse
-    - lottus-card-website-portalverse
-    - lottus-numbers-portalverse
-    - lottus-promo-link-portalverse
-    - lottus-outstanding-module-portalverse
-    - lottus-link
-    - lottus-paginator
-    - lottus-modal
-    - lottus-modal-iframe-portalverse
-    - lottus-feedback
-    - lottus-mosaic-portalverse
-    - lottus-newbanner-portalverse
-    - lottus-custom-head-portalverse
-    - lottus-cards-outstanding-portalverse
-    - lottus-select
-    - lottus-progress-bar
+    - [] lottus-accordion
+    - [] lottus-banner-portalverse
+    - [] lottus-button
+    - [] lottus-card-website-portalverse
+    - [] lottus-cards-outstanding-portalverse
+    - [] lottus-checkbox
+    - [] lottus-custom-head-portalverse
+    - [] lottus-feedback
+    - [] lottus-input
+    - [] lottus-link
+    - [] lottus-link-icons
+    - [] lottus-lottie
+    - [] lottus-modal
+    - [] lottus-mosaic-portalverse
+    - [] lottus-newbanner-portalverse
+    - [] lottus-numbers-portalverse
+    - [] lottus-outstanding-module-portalverse
+    - [] lottus-paginator
+    - [] lottus-progress-bar
+    - [] lottus-promo-link-portalverse
+    - [] lottus-rich-text
+    - [] lottus-select
+    - [] lottus-spotify
+    - [] lottus-youtube
