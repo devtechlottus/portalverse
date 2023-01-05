@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1bBv99_xuMk_M2DhAwzDc0WxaQtGKs9WW",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -33,8 +33,8 @@
       "title": "Ingeniería en Sistemas",
       "description": "Gestiona recursos computacionales y administra  proyectos  a  través  de  un  manejo  eficiente  de  las  redes; incrementa la productividad de las organizaciones.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Ingeniería en Sistemas"
+        "src": "https://drive.google.com/uc?export=view&id=1bBv99_xuMk_M2DhAwzDc0WxaQtGKs9WW",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

@@ -13,7 +13,7 @@
       "campus": ["Matamoros", "Monclova", "Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1savY3UxaZs4eoAh3SmyE2bESVQ7e9vJb",
         "alt": "maestria"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Maestría en Derecho Laboral",
       "description": "La maestría en Derecho Laboral te permite convertirte en especialista de las normas jurídicas que regulan las relaciones entre el trabajador y el patrón; el contrato de trabajo; las condiciones de trabajo tales como la jornada laboral, el salario, los días de descanso, las vacaciones, entre otras.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Derecho Laboral"
+        "src": "https://drive.google.com/uc?export=view&id=1savY3UxaZs4eoAh3SmyE2bESVQ7e9vJb",
+        "alt": "maestria"
       }
     },
     "modalities": {

@@ -15,7 +15,7 @@ const Blog: NextPageWithLayout = ({ sections, meta }: any) => {
     <Head>
       <title>{ meta.title }</title>
     </Head>
-    <HeaderFooterLayout breadcrumbs={false}>
+    <HeaderFooterLayout breadcrumbs={true}>
 			<ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <Slider data={{ ...sections.head.banner }} />

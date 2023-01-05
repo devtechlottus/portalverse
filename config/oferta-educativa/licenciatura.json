@@ -33,7 +33,7 @@
         "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1Sb3r92gDYkX9h3ZVXXdw04itRVmUg7sH",
           "alt": "especilidad"
         }
       },
@@ -48,7 +48,7 @@
         "campus": ["Saltillo", "Torreon", "Piedras Negras"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=19wr68tsR7OEsvbnzWY5xXpYgpYQqkYdS",
           "alt": "licenciatura"
         }
       },
@@ -63,7 +63,7 @@
         "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1pcSuQipeNpn8hQT2axqtZ9OuMineeoC9",
           "alt": "licenciatura"
         }
       },
@@ -78,7 +78,7 @@
         "campus": ["Saltillo", "Torreon"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1Yr8Kk57j3iGB8yrgbEBWOh7LGWwxBoRT",
           "alt": "licenciatura"
         }
       },
@@ -93,7 +93,7 @@
         "campus": [ "Sabinas", "Saltillo", "Monterrey",  "Matamoros", "Torreón", "Piedras Negras", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1QjAGs7uqe1J88h2dA3weRoNOMAg5ZGhb",
           "alt": "licenciatura"
         }
       },
@@ -108,7 +108,7 @@
         "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1fxU5qQvmvjtXd3M4ggcoGFH7a_tEBHFC",
           "alt": "licenciatura"
         }
       },
@@ -123,7 +123,7 @@
         "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1YxjRkrGXP14MaiZRSy9CNqVd-ltFVMCJ",
           "alt": "licenciatura"
         }
       },
@@ -138,7 +138,7 @@
         "campus": [ "Saltillo", "Torreon" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1y6BzlxIr6Zi_sV9uNgq3PeCxtqZhLIeu",
           "alt": "licenciatura"
         }
       },
@@ -153,7 +153,7 @@
         "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1txiRradR7dgMBlxeIJVCRhNoDA5DV_jR",
           "alt": "licenciatura"
         }
       },
@@ -168,7 +168,7 @@
         "campus": [ "Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1jrKgLYJoy9oX14IF6vqsEX_R-zX9cOaY",
           "alt": "licenciatura"
         }
       },
@@ -183,7 +183,7 @@
         "campus": [ "Saltillo", "Monterrey", "Torreon", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1kyJT49LV6EcSA65HNK7IJKw3IKj4V7PJ",
           "alt": "licenciatura"
         }
       },
@@ -198,7 +198,7 @@
         "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=19Fv-odSZ3hzQTNfQ7XAqIM0LOStux1qn",
           "alt": "licenciatura"
         }
       },
@@ -213,7 +213,7 @@
         "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1947RsnMuQbrbSemz26C_eA93kabKyP8a",
           "alt": "licenciatura"
         }
       },
@@ -228,7 +228,7 @@
         "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreon" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=140DMD5weJlXIItPXz9OndgRL3AvyLsGi",
           "alt": "licenciatura"
         }
       },
@@ -243,7 +243,7 @@
         "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
           "alt": "licenciatura"
         }
       },
@@ -258,7 +258,7 @@
         "campus": [ "Saltillo", "Torreon", "Monclova", "Piedras Negras" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1Stw3--PtA0_0qK13VxwxPwrweM4IlfLZ",
           "alt": "licenciatura"
         }
       },
@@ -273,7 +273,7 @@
         "campus": [ "Saltillo", "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1LWTwinSoVElzup0ONvuV_YMioVNzUmfL",
           "alt": "licenciatura"
         }
       },
@@ -288,7 +288,7 @@
         "campus": [ "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1SlyD0RBk6qwgjGE8FLl3w9p4LTLrG3GE",
           "alt": "licenciatura"
         }
       },
@@ -303,7 +303,7 @@
         "campus": [ "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=19vFuL48Tc5YTDXAIBvonJ-XL23DcIUSK",
           "alt": "licenciatura"
         }
       },
@@ -318,7 +318,7 @@
         "campus": [],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1hPGAnoL1QoExyzS6aOGkRBYXSk351GM1",
           "alt": "licenciatura"
         }
       },
@@ -348,7 +348,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1bBv99_xuMk_M2DhAwzDc0WxaQtGKs9WW",
           "alt": "licenciatura"
         }
       },
@@ -378,7 +378,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1SoA5ssMvmxkcxky4xmh_k08qGMxcguIT",
           "alt": "licenciatura"
         }
       },
@@ -423,7 +423,7 @@
         "campus": [ "Saltillo", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1w0UVDGgpcJ9-LPVD2x99zfIupjeqyoJJ",
           "alt": "licenciatura"
         }
       },

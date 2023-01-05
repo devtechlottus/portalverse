@@ -13,7 +13,7 @@
       "campus": ["Piedras negras", "Matamoros"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1zcIlTmIQCfvubA3kkapczOaEopF8p8bo",
         "alt": "doctorado"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Especialidad en Manufactura Esbelta",
       "description": "Optimiza las operaciones en las empresas de manufactura y profundiza en elementos del proceso industrial.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Manufactura Esbelta"
+        "src": "https://drive.google.com/uc?export=view&id=1zcIlTmIQCfvubA3kkapczOaEopF8p8bo",
+        "alt": "doctorado"
       }
     },
     "modalities": {

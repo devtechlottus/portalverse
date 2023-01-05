@@ -13,7 +13,7 @@
       "campus": [ "Sabinas", "Saltillo", "Monterrey",  "Matamoros", "Torreon", "Piedras Negras", "Reynosa", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1QjAGs7uqe1J88h2dA3weRoNOMAg5ZGhb",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -36,8 +36,8 @@
       "title": "Licenciatura en Comercio Internacional",
       "description": "Evalúa oportunidades de comercialización y aplica estrategias en el mercado. Desarrolla o gestiona políticas comerciales internacionales, impacta en el mundo de los negocios.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Comercio Internacional"
+        "src": "https://drive.google.com/uc?export=view&id=1QjAGs7uqe1J88h2dA3weRoNOMAg5ZGhb",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

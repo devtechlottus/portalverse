@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Piedras Negras"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=17iBk3MfmsjMRKepExJsfD6TOXCclplkw",
         "alt": "maestria"
       },
       "curriculum": {
@@ -29,8 +29,8 @@
       "title": "Maestría en Docencia",
       "description": "La Maestría en Docencia permite a nuestros aspirantes que transmitan conocimientos, construyan valores, vivan el crecimiento, desarrollen la personalidad y la capacidad para tomar decisiones. Plantean retos y desafíos. La vocación es la base que necesita todo aquel que quiere dedicarse a la docencia.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Docencia"
+        "src": "https://drive.google.com/uc?export=view&id=17iBk3MfmsjMRKepExJsfD6TOXCclplkw",
+        "alt": "maestria"
       }
     },
     "modalities": {

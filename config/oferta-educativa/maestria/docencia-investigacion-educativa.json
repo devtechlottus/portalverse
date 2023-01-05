@@ -13,7 +13,7 @@
       "campus": ["Monclova", "Piedras Negras"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=10E6tdS42AWfy4g0pMEU0BnEiuOQ9PCGk",
         "alt": "maestria"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Maestría en Docencia e Investigación Educativa",
       "description": "La Maestría en Docencia e Investigación Educativa permite desarrollar conocimientos pedagógicos y educativos, desde el cual se pueda responder a las tendencias actuales de investigación y formación de educadores en contextos de globalización e internacionalización de la educación.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Docencia e Investigación Educativa"
+        "src": "https://drive.google.com/uc?export=view&id=10E6tdS42AWfy4g0pMEU0BnEiuOQ9PCGk",
+        "alt": "maestria"
       }
     },
     "modalities": {

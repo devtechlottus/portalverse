@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1G0CnmnAy8oSPWcKl27h0FzPfNWS0Tntf",
         "alt": "maestria"
       },
       "curriculum": {
@@ -31,8 +31,8 @@
       "title": "Maestría en Efectividad Organizacional",
       "description": "Detecta y analiza problemas organizacionales en áreas de planeación, administración y desarrollo de recursos humanos. ",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Efectividad Organizacional"
+        "src": "https://drive.google.com/uc?export=view&id=1G0CnmnAy8oSPWcKl27h0FzPfNWS0Tntf",
+        "alt": "maestria"
       }
     },
     "modalities": {

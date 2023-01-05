@@ -13,7 +13,7 @@
       "campus": ["Piedras Negras", "Monclova", "Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1Fq4iRm5p5cGATZNP0ED7Q2VFlNJRR9uN",
         "alt": "maestria"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Maestría en Terapia Familiar",
       "description": "La Maestría en Terapia Familiar permite que nuestros profesionales desarrollen habilidades para profundizar en las relaciones intrapersonales, familiares, estrés, divorcios, problemas financieros, entre otros.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Terapia Laboral"
+        "src": "https://drive.google.com/uc?export=view&id=1Fq4iRm5p5cGATZNP0ED7Q2VFlNJRR9uN",
+        "alt": "maestria"
       }
     },
     "modalities": {

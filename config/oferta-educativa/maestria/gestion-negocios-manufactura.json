@@ -13,7 +13,7 @@
       "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=14mLsXKb_F6Wx0rLVlMQcupo8o5DspKoo",
         "alt": "maestria"
       },
       "curriculum": {
@@ -33,8 +33,8 @@
       "title": "Maestría en Gestión de Negocios de Manufactura",
       "description": "Con la Maestría en Gestión de Negocios de Manufactura obtendrás los conocimientos y habilidades con el enfoque a la transformación de materias primas en productos elaborados o semielaborados. Para producir estos bienes se emplea mano de obra, maquinarias y sistemas automáticos.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Gestión de Negocios de Manufactura"
+        "src": "https://drive.google.com/uc?export=view&id=14mLsXKb_F6Wx0rLVlMQcupo8o5DspKoo",
+        "alt": "maestria"
       }
     },
     "modalities": {

@@ -13,7 +13,7 @@
       "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -33,8 +33,8 @@
       "title": "Licenciatura en Contador Público",
       "description": "Analiza información financiera y optimiza recursos de inversión en operaciones complejas. Resuelve las necesidades de las empresas con un enfoque moderno y analítico.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Contador Público"
+        "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

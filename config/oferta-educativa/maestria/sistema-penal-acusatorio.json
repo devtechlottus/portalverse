@@ -13,7 +13,7 @@
       "campus": ["Monterrey", "Reynosa", "Piedras Negras", "Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1fszVajOhcJiDgfY65K4IKz26tlGWgbiT",
         "alt": "maestria"
       },
       "curriculum": {
@@ -31,8 +31,8 @@
       "title": "Maestría en Sistema Penal Acusatorio",
       "description": "Con la Maestría en Sistema Penal Acusatorio podrás desarrollar los conocimientos de este nuevo sistema que tiene como objetivo la solución de conflictos de una manera más pronta, eficiente, justa, humana, transparente y respetuoso de las garantías individuales.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Sistema Penal Acusatorio"
+        "src": "https://drive.google.com/uc?export=view&id=1fszVajOhcJiDgfY65K4IKz26tlGWgbiT",
+        "alt": "maestria"
       }
     },
     "modalities": {

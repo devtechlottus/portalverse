@@ -13,7 +13,7 @@
       "campus": ["Virtual"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1iMIRsZf9o9FY_FgiiIX5xmsfPmAt8-Rp",
         "alt": "doctorado"
       },
       "curriculum": {
@@ -26,8 +26,8 @@
       "title": "Especialidad en Logística",
       "description": "Gestiona operaciones y posiciona competitivamente una empresa.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Logística"
+        "src": "https://drive.google.com/uc?export=view&id=1iMIRsZf9o9FY_FgiiIX5xmsfPmAt8-Rp",
+        "alt": "doctorado"
       }
     },
     "modalities": {

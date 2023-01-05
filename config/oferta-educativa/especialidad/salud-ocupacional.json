@@ -13,7 +13,7 @@
       "campus": ["Saltillo", "Torreon", "Monclova", "Monterrey"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1oO4OKnb1Hb80kmINAVIKgidvoX22FJRW",
         "alt": "doctorado"
       },
       "curriculum": {
@@ -32,8 +32,8 @@
       "title": "Especialidad en Salud Ocupacional",
       "description": "Evalúa condiciones de riesgo y desarrolla programas para prevenir situaciones nocivas en la salud de los trabajadores.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Salud Ocupacional"
+        "src": "https://drive.google.com/uc?export=view&id=1oO4OKnb1Hb80kmINAVIKgidvoX22FJRW",
+        "alt": "doctorado"
       }
     },
     "modalities": {

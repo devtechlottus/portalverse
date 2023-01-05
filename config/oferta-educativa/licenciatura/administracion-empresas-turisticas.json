@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Torreon" ],
       "nivel": ["Licenciatura"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1y6BzlxIr6Zi_sV9uNgq3PeCxtqZhLIeu",
         "alt": "licenciatura"
       },
       "curriculum": {
@@ -30,8 +30,8 @@
       "title": "Licenciatura en Administración de Empresas Turísticas",
       "description": "Desarrolla organismos turísticos e implementa procesos de operación y promoción de calidad. Adquiere lo necesario para desempeñarte en hotelería, alimentos y bebidas.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Administración de Empresas Turísticas"
+        "src": "https://drive.google.com/uc?export=view&id=1y6BzlxIr6Zi_sV9uNgq3PeCxtqZhLIeu",
+        "alt": "licenciatura"
       }
     },
     "modalities": {

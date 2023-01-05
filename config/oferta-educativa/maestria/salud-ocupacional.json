@@ -13,7 +13,7 @@
       "campus": [ "Saltillo", "Matamoros", "Torreon", "Reynosa", "Monclova", "Monterrey"],
       "nivel": ["Posgrado"],
       "image": {
-        "src": "https://picsum.photos/428/321",
+        "src": "https://drive.google.com/uc?export=view&id=1YcP7k3VRmpi2NK1axLt_1kGT8c7fLzdo",
         "alt": "maestria"
       },
       "curriculum": {
@@ -34,8 +34,8 @@
       "title": "Maestría en Salud Ocupacional",
       "description": "Evalúa condiciones de riesgo y desarrolla proyectos de seguridad industrial.",
       "image": {
-        "src": "https://picsum.photos/428/321",
-        "alt": "Salud Ocupacional"
+        "src": "https://drive.google.com/uc?export=view&id=1YcP7k3VRmpi2NK1axLt_1kGT8c7fLzdo",
+        "alt": "maestria"
       }
     },
     "modalities": {
