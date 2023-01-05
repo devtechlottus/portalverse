@@ -98,7 +98,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
           {
             visiblePrograms.map(({ route, title, config: { image: { src, alt } } }: any, i: number) => <div key={`program-${i}`} className={cn("flex hover:shadow-30 h-full border", { "flex-col w-d:col-span-3 w-t:col-span-4 w-p:col-span-4": mosaicActive, "w-d:col-span-12 w-t:col-span-8 w-p:col-span-4": !mosaicActive })}>
               <Image src={src} alt={alt} classNames={cn({ "aspect-4/3": mosaicActive, "w-[80px] h-full": !mosaicActive })} />
-              <div className={cn("p-3 flex flex-col bg-white", { "w-full": !mosaicActive })}>
+              <div className={cn("p-3 flex flex-col bg-white gap-2", { "w-full": !mosaicActive })}>
                 <p>{title}</p>
                 <Link href={`${level}/${route}`}>
                   <a className="flex items-center justify-end font-bold">
