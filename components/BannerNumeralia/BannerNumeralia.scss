@@ -24,6 +24,11 @@
                 }
               }
             }
+            .body {
+              @media (max-width: 599px) {
+                font-size: 14px !important;
+              }
+            }
           }
         }
       }

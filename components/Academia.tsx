@@ -12,7 +12,6 @@ const Academia: FC<AcademiaComponentData> = ({ data, result, classNames, select:
   const [ newConfig, setNewConfig ] = useState({ ...SelectInit });
 
   useEffect(() => {
-    console.log("options", options);
     setNewOptions(options);
   }, [options]);
   

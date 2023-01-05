@@ -1,4 +1,5 @@
 import { FC, memo, useEffect, useState } from "react"
+import cn from "classnames"
 import FilterDropdown from "@/components/FilterDropdown/FilterDropdown"
 import { LinkIconsInit } from "@/components/fixture"
 import LinkIcons from "@/components/LinkLottus"
@@ -47,16 +48,16 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
           <LinkIcons data={linkLottusConfig} onClick={clearAllFilters}/>
         </span>
       </div>
-      <section className="flex py-3 w-t:flex-col w-p:flex-col">
+      <section className="flex py-3 w-t:flex-col w-p:flex-col border-t border-b">
         {
           config.map( ({ key, config }: any, i: number) =>
-            <div key={`filter-${i}`} className="px-1 flex flex-col">
+            <div key={`filter-${i}`} className={cn("px-1 flex flex-col", { "border-r": i < 2 })}>
               <FilterDropdown color={color} data={config} onSelectedOptions={(options: string[]) => handleOnSelectedOptions(options, key)} onClearOptions={() => {}} />
             </div>
           )
         }
       </section>
-      <div className="flex items-center justify-end cursor-pointer" onClick={changeMosaicView}>
+      <div className="flex items-center justify-end cursor-pointer mt-6" onClick={changeMosaicView}>
         <span className="mr-1">Ver en { mosaicActive ? "mosaico" : "lista" }</span>
         <span className="material-icons icon">{ mosaicActive ? "space_dashboard" : "format_list_bulleted" }</span>
       </div>

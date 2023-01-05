@@ -145,7 +145,11 @@
     "banner": {
       "title": "Agenda una visita",
       "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
-      "image": "https://drive.google.com/uc?export=view&id=1nthjOTHZE1eFY0WLGgV7uhP8sguiWmgn",
+      "image": {
+        "desktop":  "https://drive.google.com/uc?export=view&id=1nthjOTHZE1eFY0WLGgV7uhP8sguiWmgn",
+        "tablet":  "https://drive.google.com/uc?export=view&id=1gFcEfNPgIYgUHsnb356rgEm029xAbTEG",
+        "mobile":  "https://drive.google.com/uc?export=view&id=1wiAtu6gzutmc1iccoJPD_LOoh5keaWH4"
+      },
       "email": "egresados@uane.edu.mx",
       "phone": "55-1224-2345"
     }
