@@ -32,7 +32,7 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
     };
     setLinkLinkData({...linkLinkData, ...data.linkIcon});
     setLinkTextData({...linkTextData, ...data.linkIcon});
-    setContent(`${data.subtitle || ''}\n${data.title || ''}\n${data.text || ''}`)
+    setContent(`${data.text || ''}`)
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
@@ -56,7 +56,9 @@ const CardWebsite: FC<CardWebsiteComponentData> = memo(({ data, onClick }: CardW
     <div slot="areaCardWebsiteLinkIcon">
       <Link data={linkTextData} onClick={onClick} />
     </div>
-    <div slot="areaContentCardWebsite">
+    <div className="flex flex-col gap-2" slot="areaContentCardWebsite">
+      <p className="font-Nunito-Sans font-normal w-d:text-base w-d:leading-5 w-t:text-sm w-t:leading-[17.5px] w-p:text-sm w-p:leading-[17.5px] text-[#686868]">{ data.subtitle }</p>
+      <h5 className="font-Poppins font-semibold w-d:text-[22px] w-d:leading-7 w-t:text-base w-t:leading-5 w-p:text-base w-p:leading-5">{ data.title }</h5>
       <RichtText data={{content}}/>
     </div>
   </lottus-card-website-portalverse>
