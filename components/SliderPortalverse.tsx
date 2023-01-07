@@ -79,7 +79,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
     </div>
     <section style={{ "height": data.height }} className={cn("w-full flex overflow-hidden w-p:hidden")}>
       {
-        slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col justify-center grow aspect-2/1")}>
+        slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col grow aspect-2/1")}>
           <Image classNames="w-t:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.desktop} alt="image" />
           <Image classNames="w-d:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.tablet} alt="image" />
           <div className="absolute z-10 w-d:mt-12 w-t:mt-20 w-d:px-[200px] w-t:px-[160px]">

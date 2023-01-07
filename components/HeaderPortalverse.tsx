@@ -62,7 +62,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                   <a className="flex">
                     <p>{item.label}</p>
                     <p className={cn({ "hidden": !item.items.length })} onMouseEnter={() => handleHoverOption(item.label)}>
-                      <span className={cn("material-icons")}>expand_more</span>
+                      <span className={cn("material-icons ml-2")}>expand_more</span>
                     </p>
                   </a>
                 </Link>
@@ -79,7 +79,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       </div>
     </section>
     {/* menu suboptions */}
-    <div onMouseLeave={handleHoverOutOption} className={cn("w-full p-2 flex gap-6 justify-center w-t:hidden w-p:hidden", { "hidden": !activeMenu, "block shadow-15": activeMenu })}>
+    <div onMouseLeave={handleHoverOutOption} className={cn("w-full p-2 flex gap-6 justify-center w-t:hidden w-p:hidden absolute bg-white z-10", { "hidden": !activeMenu, "block shadow-15": activeMenu })}>
       {
         activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className={cn("py-1 px-6 z-20 border-solid border-SC/Actions/AC-300", { "border-r-2": activeOptionMenu.length > 1 })}>
             <Link href={item.route} passHref className="w-full">
