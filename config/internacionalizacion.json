@@ -66,8 +66,8 @@
       "alliances": [
         {
           "urlImage": {
-            "mobile": "https://universidadisep.com/wp-content/uploads/2021/05/logo_universidad_isep-1980x1116-1.png",
-            "desktop": "https://universidadisep.com/wp-content/uploads/2021/05/logo_universidad_isep-1980x1116-1.png"
+            "mobile": "https://drive.google.com/uc?export=view&id=1rhmeQFH5EwnFntuyD21iV1OBQ1dkx6GP",
+            "desktop": "https://drive.google.com/uc?export=view&id=1rhmeQFH5EwnFntuyD21iV1OBQ1dkx6GP"
           },
           "text": "Universidad ISEP",
           "icon": "arrow_forward",
@@ -80,8 +80,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://www.poli.edu.co/sites/default/files/logos/logo-poli-politecnico-grancolombiano2018.png",
-            "desktop": "https://www.poli.edu.co/sites/default/files/logos/logo-poli-politecnico-grancolombiano2018.png"
+            "mobile": "https://drive.google.com/uc?export=view&id=1cusJOeZrx29G_28CTB1IzxwzPw3ickdM",
+            "desktop": "https://drive.google.com/uc?export=view&id=1cusJOeZrx29G_28CTB1IzxwzPw3ickdM"
           },
           "text": "Politécnico Gran Colombiano",
           "icon": "arrow_forward",
@@ -91,10 +91,11 @@
           "enable": true,
           "nobackground": false,
           "redirect": "https://www.poli.edu.co/"
-        },        {
+        },
+        {
           "urlImage": {
-            "mobile": "https://www.ibero.edu.co/wp-content/uploads/2022/10/cropped-Logo-IBERO-2022.png",
-            "desktop": "https://www.ibero.edu.co/wp-content/uploads/2022/10/cropped-Logo-IBERO-2022.png"
+            "mobile": "https://drive.google.com/uc?export=view&id=1yNK3cnyelvEbrxioj6mlvkI3GnJRb1i_",
+            "desktop": "https://drive.google.com/uc?export=view&id=1yNK3cnyelvEbrxioj6mlvkI3GnJRb1i_"
           },
           "text": "Ibero de Colombia",
           "icon": "arrow_forward",
@@ -107,8 +108,8 @@
         },        
         {
           "urlImage": {
-            "mobile": "https://ucom.edu.py/wp-content/uploads/2022/05/logoUCOM.svg",
-            "desktop": "https://ucom.edu.py/wp-content/uploads/2022/05/logoUCOM.svg"
+            "mobile": "https://drive.google.com/uc?export=view&id=1GKXhq6tM_9MimghhVHgFeObEGx4hgs0c",
+            "desktop": "https://drive.google.com/uc?export=view&id=1GKXhq6tM_9MimghhVHgFeObEGx4hgs0c"
           },
           "text": "Universidad Comunera",
           "icon": "arrow_forward",
@@ -121,8 +122,8 @@
         },        
         {
           "urlImage": {
-            "mobile": "https://www.us.es/sites/default/files/logoPNG_3.png",
-            "desktop": "https://www.us.es/sites/default/files/logoPNG_3.png"
+            "mobile": "https://drive.google.com/uc?export=view&id=1dx6NbhhaYeyqkDGHLEx9BQ45_k8yODAl",
+            "desktop": "https://drive.google.com/uc?export=view&id=1dx6NbhhaYeyqkDGHLEx9BQ45_k8yODAl"
           },
           "text": "Universidad De Sevilla",
           "icon": "arrow_forward",
@@ -135,8 +136,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://www.ucam.edu/sites/default/files/imagenes/imageblock/logo-ucam-desktop_25aniversario.svg",
-            "desktop": "https://www.ucam.edu/sites/default/files/imagenes/imageblock/logo-ucam-desktop_25aniversario.svg"
+            "mobile": "https://drive.google.com/uc?export=view&id=1HosGC148YLeEnpMrHG68HGZjj8gpV45B",
+            "desktop": "https://drive.google.com/uc?export=view&id=1HosGC148YLeEnpMrHG68HGZjj8gpV45B"
           },
           "text": "Universidad Católica San Antonio de Murcia",
           "icon": "arrow_forward",
@@ -149,8 +150,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://www.uneatlantico.es/themes/uneatlantico/logo.svg",
-            "desktop": "https://www.uneatlantico.es/themes/uneatlantico/logo.svg"
+            "mobile": "https://drive.google.com/uc?export=view&id=1pF6MxaMA3-R81PrC_VOzNcJVery1ThGp",
+            "desktop": "https://drive.google.com/uc?export=view&id=1pF6MxaMA3-R81PrC_VOzNcJVery1ThGp"
           },
           "text": "Universidad Europea del Atlántico",
           "icon": "arrow_forward",
@@ -163,8 +164,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://www.ucm.es/themes/ucm16/media/img/logo.png",
-            "desktop": "https://www.ucm.es/themes/ucm16/media/img/logo.png"
+            "mobile": "https://drive.google.com/uc?export=view&id=1o9YNkdxYYQ4CacrdrbtfJkEW3mCd0wHF",
+            "desktop": "https://drive.google.com/uc?export=view&id=1o9YNkdxYYQ4CacrdrbtfJkEW3mCd0wHF"
           },
           "text": "Universidad Complutense Madrid",
           "icon": "arrow_forward",
@@ -177,8 +178,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://www.planetaformacion.com/sites/pfu.es/themes/custom/pfu_es/logo.webp",
-            "desktop": "https://www.planetaformacion.com/sites/pfu.es/themes/custom/pfu_es/logo.webp"
+            "mobile": "https://drive.google.com/uc?export=view&id=1nlISsCRDl_QwxkPHf47p67m_Z6Ard0Sq",
+            "desktop": "https://drive.google.com/uc?export=view&id=1nlISsCRDl_QwxkPHf47p67m_Z6Ard0Sq"
           },
           "text": "Grupo Planeta Formación y Universidades",
           "icon": "arrow_forward",
@@ -191,8 +192,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://www.guninetwork.org/files/styles/medium/public/logo_19.gif?itok=7qJIRE7P",
-            "desktop": "https://www.guninetwork.org/files/styles/medium/public/logo_19.gif?itok=7qJIRE7P"
+            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
+            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
           },
           "text": "Consorcio para la Colaboración de la Educación Superior en América del Norte",
           "icon": "arrow_forward",
