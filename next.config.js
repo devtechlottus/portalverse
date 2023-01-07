@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['https://www.fimpes.org.mx/']
+    domains: ['https://drive.google.com/']
   },
   webpack(config) {
     config.module.rules.push({
