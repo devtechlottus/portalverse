@@ -75,7 +75,10 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
 
   const downloadFileProgram = () => window.open(`https://drive.google.com/uc?export=download&id=${fileSelected}`, "_blank")
 
-  const handleSelectOption = async ({ detail }: CustomEvent) => setFileSelected(detail)
+  const handleSelectOption = async ({ detail }: CustomEvent) => {
+    setFileSelected(detail);
+    setSelectData((state: any) => state.map((item: any) => ({ ...item, active: item.value === detail })));
+  }
 
   return <>
     <Head>
@@ -108,12 +111,12 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
         </div>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => setTabActive(active)} />
+          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => handleSetActiveTab(active)} />
         </div>
       </ContentLayout>
       <ContentFullLayout>
         <section className="w-d:hidden">
-          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => setTabActive(active)} />
+          <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => handleSetActiveTab(active)} />
         </section>
       </ContentFullLayout>
       <ContentLayout>

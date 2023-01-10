@@ -72,7 +72,7 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
     </div>
     <div className="mt-6">
       <p className="font-Nunito font-normal text-[14px] leading-5">{ config.modality }</p>
-      <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige una modalidad" }}  />
+      <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: " " }}  />
     </div>
     <div className="mt-6">
       <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
