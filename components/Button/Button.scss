@@ -1,0 +1,11 @@
+lottus-button {
+  &.dark {
+    button {
+      background-color: black !important;
+      &:hover {
+        background-color: #F2F2F2 !important;
+        color: black !important;
+      }
+    }
+  }
+}

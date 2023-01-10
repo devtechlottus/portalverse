@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import './utils.scss';
 @import './fonts.scss';
 @import '../components/index.scss';
@@ -28,7 +31,3 @@
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

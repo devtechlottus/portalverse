@@ -1,7 +1,8 @@
 import { createRef, FC, memo, useEffect } from "react"
+import cn from "classnames"
 import ButtonComponentData from "@/types/Button.types"
 
-const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponentData) => {
+const Button: FC<ButtonComponentData> = memo(({ data, onClick, dark }: ButtonComponentData) => {
   const buttonPortalverseRef = createRef();
 
   useEffect(() => {
@@ -32,7 +33,7 @@ const Button: FC<ButtonComponentData> = memo(({ data, onClick }: ButtonComponent
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-button ref={buttonPortalverseRef}></lottus-button>
+  return <lottus-button class={cn({ "dark": dark })} ref={buttonPortalverseRef}></lottus-button>
 });
 
 export default Button

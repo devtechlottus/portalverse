@@ -1,7 +1,7 @@
 import { createRef, FC, memo, useEffect, useState } from "react"
 import NewBannerData from "@/types/NewBanner.types"
 import { ButtonInit } from "@/components/fixture"
-import Button from "@/components/Button";
+import Button from "@/components/Button/Button";
 
 const NewBanner: FC<NewBannerData> = memo(({data, onBtn}: NewBannerData) => {
   const newBannerPortalverseRef = createRef();

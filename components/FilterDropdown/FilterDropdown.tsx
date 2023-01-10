@@ -2,7 +2,7 @@ import { FC, memo, useEffect, useState } from "react"
 import cn from "classnames"
 import FilterDropdownComponentData, { FilterDropdownConfig } from "@/types/FilterDropdown"
 import Checkbox from "@/components/Checkbox"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import { ButtonInit } from "@/components/fixture"
 import { CheckboxConfig } from "@/types/Checkbox.types"
 

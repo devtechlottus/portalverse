@@ -2,7 +2,7 @@ import { FC, useEffect, useState } from "react"
 import Link from "next/link"
 import cn from "classnames"
 import Image from "@/components/Image"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import { ButtonInit } from "@/components/fixture"
 import Icon from "@/components/Icon"
 import HeaderPortalverseComponentData from "@/types/HeaderPortalverse.types"
@@ -73,7 +73,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
             <Icon name="search" className="w-6 h-6" />
           </div>
           <div className="px-6">
-            <Button data={{ ...ButtonInit, title: "Pedir informes" }} onClick={onClickCTA} />
+            <Button dark data={{ ...ButtonInit, title: "Pedir informes" }} onClick={onClickCTA} />
           </div>
         </div>
       </div>

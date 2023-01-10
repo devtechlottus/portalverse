@@ -5,7 +5,7 @@ import ProgressBar from "@/components/ProgressBar"
 import OpenFormInit from "@/forms/fixtures/openform"
 import configControls from "@/forms/fixtures/controls"
 import Input from "@/components/Input/Input"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 
 const StepOtherReason: FC<any> = ({ classNames, step, pathThankyou }: any) => {
 

@@ -6,7 +6,7 @@ import Image from "@/components/Image"
 import Input from "@/components/Input/Input"
 import configControls from "@/forms/fixtures/controls"
 import Select from "@/components/Select"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import { SelectInit } from "@/components/fixture"
 
 

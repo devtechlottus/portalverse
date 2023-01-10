@@ -3,7 +3,7 @@ import cn from "classnames"
 import BeWantedInit from "@/forms/fixtures/bewanted"
 import Input from "@/components/Input/Input"
 import RichtText from "@/components/Richtext/Richtext"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import configControls from "@/forms/fixtures/controls"
 import BeWantedStepComponentData from "@/types/BeWantedStep.types"
 

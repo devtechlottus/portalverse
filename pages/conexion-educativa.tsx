@@ -12,7 +12,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import LinkContactTarget from "@/components/LinkContactTarget"
 import DescriptionSection from "@/components/DescriptionSection"
 import Mosaic from "@/components/Mosaic"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import Link from "next/link"
 import TabsFeatured from "@/components/TabsFeatured"
 

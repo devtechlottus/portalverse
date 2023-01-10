@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from "react"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import Table from "@/components/Table"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import AcademiaComponentData from "@/types/Academia.types"
 import Select from "@/components/Select"
 import { SelectInit } from "@/components/fixture"

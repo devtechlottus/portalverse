@@ -6,7 +6,7 @@ import ProgressBar from "@/components/ProgressBar"
 import Input from "@/components/Input/Input"
 import configControls from "@/forms/fixtures/controls"
 import Select from "@/components/Select"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import { SelectInit } from "@/components/fixture"
 
 const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {

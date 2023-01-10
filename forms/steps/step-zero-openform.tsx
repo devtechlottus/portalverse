@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react"
 import cn from "classnames"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import ProgressBar from "@/components/ProgressBar"
 import OpenFormInit, { QuestionStepZero } from "@/forms/fixtures/openform"
 import configControls from "@/forms/fixtures/controls"

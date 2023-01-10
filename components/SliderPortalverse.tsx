@@ -1,6 +1,6 @@
 import { FC, SyntheticEvent, useEffect, useState } from "react"
 import cn from "classnames"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import LinkIcons from "@/components/LinkLottus";
 import { LinkIconsInit } from "@/components/fixture";
 import Image from "@/components/Image"

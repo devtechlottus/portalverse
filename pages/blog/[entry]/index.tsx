@@ -8,7 +8,7 @@ import ContentLayout from "@/layouts/Content.layout"
 import Image from "@/components/Image"
 import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 import Banner from "@/components/Banner"
 import BannerWrapper from "@/components/BannerWrapper"
 

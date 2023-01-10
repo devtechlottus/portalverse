@@ -1,7 +1,7 @@
 import { createRef, FC, memo, useEffect, useState } from "react"
 import cn from "classnames"
 import BannerComponentData from "@/types/Banner.types"
-import Button from "@/components/Button"
+import Button from "@/components/Button/Button"
 
 const Banner: FC<BannerComponentData> = memo(({ data, noAction = false, onBtn }: BannerComponentData) => {
   const bannerPortalverseRef = createRef();
