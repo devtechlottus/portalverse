@@ -21,7 +21,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
     {/* Section logotype */}
     <div className="p-6 w-p:hidden border-b-[1px] border-solid border-[#CDCDCD]">
       <div className="flex justify-between items-center mb-6 cursor-pointer" onClick={onClickLogo}>
-        <Image classNamesImg="w-[143px] h-10" classNames="w-[200px] h-10" src={logotype.src} alt={logotype.alt} />
+        <Image classNamesImg="w-[143px] h-10" classNames="w-[143px] h-10" src={logotype.src} alt={logotype.alt} />
         <div className="hidden">
           <p>Suscríbete a nuestro newsletter</p>
         </div>
@@ -78,7 +78,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
       <p className="mb-5">{ certifications.title }</p>
       <div className="flex gap-12 w-p:flex-wrap">
         {
-          certifications.certificaciones.map(({ src, alt }: any, i: number) => <Image key={`certification-${i}`} classNamesImg="w-11 w-p:w-8 h-12 w-p:h-9 aspect-1/1" classNames="w-11 w-p:w-8 h-12 w-p:h-9" src={src} alt={alt} />)
+          certifications.certificaciones.map(({ src, alt }: any, i: number) => <Image key={`certification-${i}`} classNamesImg="w-11 w-p:w-8 h-12 w-p:h-9" classNames="w-11 w-p:w-8 h-12 w-p:h-9 aspect-1/1" src={src} alt={alt} />)
         }
       </div>
     </div>
