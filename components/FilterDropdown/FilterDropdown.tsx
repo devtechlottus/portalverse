@@ -13,6 +13,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
   const [ optionsList, setOptionsList ] = useState<any[]>([])
   const [ buttonConfig, setButtonConfig ] = useState({ ...ButtonInit, title: 'Aplicar', type: 'outlined', disabled: true });
 
+  const [ allOptions, setAllOptions ] = useState<any>([]);
   const [ optionsCollection, setOptionsCollection ] = useState<CheckboxConfig[]>([]);
   const [ configComponent, setConfigComponent ] = useState<FilterDropdownConfig>({ label: "" });
 
@@ -22,6 +23,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     const { data: { selected } } = (evt.target as any);
     const option = optionsCollection[position].label;
     setOptionsList((state: string[]) => selected ? [...state, option] : state.filter((item: string) => item !== option))
+    setOptionsCollection(() => optionsCollection.map((item: any, i: number) => ({ label: item.label, disabled: item.active, selected: position === i ? selected : item.selected })));
   }
   
   const applySelection = () => {
@@ -39,6 +41,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
   }, [config])
   
   useEffect(() => {
+    setAllOptions([ ...options ]);
     setOptionsCollection(() => options.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
   }, [options])
   
@@ -49,6 +52,13 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     }
   }, [optionsList])// eslint-disable-line react-hooks/exhaustive-deps
 
+  useEffect(() => {
+    if (onClear) {
+      setOptionsCollection(() => allOptions.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
+      setOptionsList([]);
+    }
+  }, [onClear]);
+
   return <>
     <section className="dropdown" onClick={onOpenClose}>
       <span className={cn(`material-icons icon text-[${color}]`)}>{ configComponent.icon }</span>
@@ -57,11 +67,9 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     </section>
     <section className="dropdown-list" style={{ display: open ? 'flex' : 'none' }}>
       {
-        optionsCollection.map((option: CheckboxConfig, i: number) => 
-          <div key={`optionDropdown-${i}`}>
+        optionsCollection.map((option: CheckboxConfig, i: number) => <div key={`optionDropdown-${i}`}>
             <Checkbox data={option} onCheck={(evt: CustomEvent) => getOptionSelected(evt, i)} />
-          </div>
-        )
+          </div>)
       }
       <div>
         <Button data={buttonConfig} onClick={applySelection}/>

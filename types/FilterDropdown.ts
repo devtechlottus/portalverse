@@ -17,7 +17,7 @@ type FilterDropdownComponentData = {
   color?: string;
   onSelectedOptions: (options: string[]) => void;
   onClearOptions: () => void;
-  onClear?: () => void;
+  onClear?: boolean;
 };
 
 export default FilterDropdownComponentData

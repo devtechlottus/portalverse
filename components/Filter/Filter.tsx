@@ -11,6 +11,7 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
   const [ config, setConfig ] = useState<any[]>([])
   const [ selectedOptions, setSelectedOptions ] = useState<any>({});
   const [ mosaicActive, setMosaicActive ] = useState<boolean>(true);
+  const [ activeClear, setActiveClear ] = useState<boolean>(false);
 
   const linkLottusConfig = { ...LinkIconsInit, text: 'Eliminar filtros', iconFirst: 'close' };
 
@@ -32,13 +33,15 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
   }, [selectedOptions]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const clearAllFilters = () => {
-    // clear options
-    console.log("its a clear filters")
+    setActiveClear(true);
   }
 
   const handleOnSelectedOptions = (options: string[], key: string) => {
     setSelectedOptions((state: any) => ({ ...state, [key]: [ ...options ] }));
     setActive(true);
+    if (!options.length) {
+      setActiveClear(false);
+    }
   }
 
   return <section className="container-filter w-full flex flex-col">
@@ -52,7 +55,7 @@ const Filter: FC<FilterComponentConfig> = memo(({ data, color = "#000", onSelect
         {
           config.map( ({ key, config }: any, i: number) =>
             <div key={`filter-${i}`} className={cn("px-1 flex flex-col", { "border-r": i < 2 })}>
-              <FilterDropdown color={color} data={config} onSelectedOptions={(options: string[]) => handleOnSelectedOptions(options, key)} onClearOptions={() => {}} />
+              <FilterDropdown color={color} data={config} onSelectedOptions={(options: string[]) => handleOnSelectedOptions(options, key)} onClearOptions={() => {}} onClear={activeClear} />
             </div>
           )
         }
