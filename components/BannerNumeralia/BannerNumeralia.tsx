@@ -1,6 +1,6 @@
 import { FC } from "react"
 import cn from "classnames"
-import Numbers from "@/components/Numbers"
+import Numbers from "@/components/Numbers/Numbers"
 import Image from "@/components/Image"
 
 const BannerNumeralia: FC<any> = ({ data: { image, title, subtitle, statics }, classNames }: any) => {

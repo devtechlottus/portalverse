@@ -1,6 +1,6 @@
 import { FC, memo } from "react"
 import cn from "classnames"
-import Numbers from "@/components/Numbers"
+import Numbers from "@/components/Numbers/Numbers"
 
 const NumbersComponent: FC<any> = memo(({ data, classNames } : any) => {
     
