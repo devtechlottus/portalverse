@@ -1,5 +1,5 @@
 {
-  "privacyLink": { "link": "https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdCertificationsConfigf", "label": "Aviso de privacidad" },
+  "privacyLink": { "link": "/docs/Aviso_Privacidad.pdf", "label": "Aviso de privacidad" },
   "certifications": { "title": "Certificaciones", "certificaciones":[
       {
         "src": "https://drive.google.com/uc?export=view&id=15fwTRfZJ6TrbgxyWjCPfCMsT2vVIXj0h",
