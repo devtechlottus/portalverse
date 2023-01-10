@@ -22,16 +22,16 @@
     },
     "estadisticas": [
       {
-        "icon": "group", "prefix": "+", "number": "30%", "suffix": "", "title": "Alumnos con Beca de Servicio", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "30%", "suffix": "", "title": "Alumnos con Beca de Servicio", "body": "", "container": false
       },
       {
-        "icon": "group", "prefix": "+", "number": "10%", "suffix": "", "title": "Alumnos con Beca Excelencia", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "10%", "suffix": "", "title": "Alumnos con Beca Excelencia", "body": "", "container": false
       },
       {
-        "icon": "group", "prefix": "+", "number": "40%", "suffix": "", "title": "Alumnos con Beca Convenio", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "40%", "suffix": "", "title": "Alumnos con Beca Convenio", "body": "", "container": false
       },
       {
-        "icon": "group", "prefix": "+", "number": "2%", "suffix": "", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": true
+        "icon": "group", "prefix": "+", "number": "2%", "suffix": "", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": false
       }
     ],
     "becas": {

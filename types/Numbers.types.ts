@@ -28,11 +28,11 @@ export type NumbersConfig = {
    */
   container: boolean;
   isShadowColor?: boolean;
+  bordered?: boolean;
 }
 
 export type NumbersData ={
     data: NumbersConfig;
     classNames?: string;
     typeShadowColor?: string;
-
 }
