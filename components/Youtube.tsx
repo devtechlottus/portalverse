@@ -7,6 +7,11 @@ const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) 
   useEffect(() => {
     const { options } = data;
     (youtubeRef.current as any).data = { ...options };
+    // set title iframe
+    if (!!(youtubeRef.current as any).querySelector('iframe')) {
+      ((youtubeRef.current as any).querySelector('iframe') as HTMLIFrameElement).setAttribute("title", "video");
+      ((youtubeRef.current as any).querySelector('iframe') as HTMLIFrameElement).setAttribute("src", `https://www.youtube-nocookie.com/embed/${options?.id}`);
+    }
     if(data.hasOwnProperty('dimensions')) {
       const { dimensions } = data;
       // set dimensions
