@@ -14,7 +14,7 @@ const ReasonsToContact: FC<any> = ({ classNames }: any) => {
 
   return <section className={cn("p-6 shadow-15 bg-white", classNames)}>
     <StepZero step={50} classNames={cn({ "hidden": !!reason })} onNext={(value: string) => handleReasonSelected(value) } />
-    <OpenForm classNames={cn({ "hidden": reason === "" || reason !== "programs" })} pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
+    <OpenForm classNames={cn({ "hidden": reason === "" || reason !== "programs" })} pathThankyou={`/thank-you`} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} />
     <StepOtherReason pathThankyou={`/thank-you`} step={90} classNames={cn({ "hidden": reason === "" || reason === "programs" })} />
   </section>
 }

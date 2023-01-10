@@ -93,7 +93,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       </ContentLayout>
       <ContentLayout>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
-            <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://engineering.unl.edu/images/staff/Kayla-Person.jpg", alt:"image-person" }} />
+            <OpenForm pathThankyou={`/thank-you`} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} />
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
             <p className="mb-6 ac-type-h5-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{sections.descubre.title}</p>
