@@ -50,7 +50,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     if( !optionsList.length ) {
       applySelection();
     }
-  }, [optionsList])// eslint-disable-line react-hooks/exhaustive-deps
+  }, [optionsList]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (onClear) {

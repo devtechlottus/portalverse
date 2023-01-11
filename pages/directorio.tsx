@@ -1,5 +1,6 @@
 import { ReactElement, useEffect } from "react"
 import Head from "next/head"
+import { useRouter } from "next/router"
 import DirectoryComponentData, { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -8,7 +9,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import ContactTarget from "@/components/ContactTarget"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import { useRouter } from "next/router"
 
 const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta, head }: DirectoryComponentData) => {
 
@@ -17,7 +17,7 @@ const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta, he
   useEffect(() => {
     // disabled Route
     router.push("/404");
-  }, []);
+  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <>
     <Head>
