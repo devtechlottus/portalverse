@@ -45,9 +45,6 @@ const StepOne: FC<any> = ({ classNames, data, image, path }: any) => {
       </div>
     </div>
     <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828]">{  config.conditions }</p>
-    {/* <div className="mb-6">
-      <ProgressBar data={{ progress }} />
-    </div> */}
     <div className="mt-6 flex">
       <div>
         <Input data={ configControls.inputNameOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "name")} />

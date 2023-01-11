@@ -1,5 +1,7 @@
 import { ButtonInit, InputInit } from "@/components/fixture";
 
+const patternEmail =  /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z0-9]{2,4}$/i;
+
 const inputConfig = {
   ...InputInit,
   iconLeft: "person",
@@ -15,12 +17,18 @@ const buttonConfigStepOne = {
 const inputMailConfig = {
   ...InputInit,
   iconLeft: "mail",
-  label: "Correo electrónico personal"
+  label: "Correo electrónico personal",
+  alphanumeric: false,
+  alphabetical: false,
+  onlyNumbers: false,
 };
 const inputPhoneConfig = {
   ...InputInit,
   iconLeft: "phone",
-  label: "Teléfono"
+  label: "Teléfono",
+  alphanumeric: false,
+  alphabetical: false,
+  onlyNumbers: true,
 };
 const inputCompanyConfig = {
   ...InputInit,
@@ -43,13 +51,20 @@ const inputSurnameOpenFormStepOne = {
 };
 const inputPhoneOpenFormStepOne = {
   ...InputInit,
-  iconLeft: "person",
+  iconLeft: "call",
   label: "Celular",
+  alphanumeric: false,
+  alphabetical: false,
+  onlyNumbers: true,
+  maxlength: '10',
 };
 const inputEmailOpenFormStepOne = {
   ...InputInit,
-  iconLeft: "person",
+  iconLeft: "mail",
   label: "Correo Electrónico",
+  alphanumeric: false,
+  alphabetical: false,
+  onlyNumbers: false,
 };
 const buttonConfigOpenFormStepOne = {
   ...ButtonInit,
@@ -73,6 +88,24 @@ const inputCommentOpenFormStepOther = {
   maxlength: "100",
 };
 
+const errorMessagesStepOneOpenForm = {
+  name: 'Ingresa un nombre',
+  surname: 'Ingresa tus apellidos',
+  email: 'Ingresa un correo electrónico válido',
+  phone: 'Ingresa un teléfono de 10 dígitos',
+  modality: 'Debes elegir una modalidad'
+}
+const errorMessagesStepTwoOpenForm = {
+  modality: 'Debes elegir una modalidad',
+  level: 'Debes elegir un nivel',
+  program: 'Debes elegir un programa',
+  campus: 'Debes elegir un campus'
+}
+const errorMessagesStepThreeOpenForm = {
+  contacto: 'Debes elegir un Medio de Contacto',
+  horario: 'Debes elegir un Horario de Contacto'
+}
+
 export default {
   inputConfig,
   buttonConfigStepOne,
@@ -88,4 +121,8 @@ export default {
   buttonConfigOpenFormStepThree,
   inputCommentOpenFormStepOther,
   buttonConfigSend,
+  patternEmail,
+  errorMessagesStepOneOpenForm,
+  errorMessagesStepTwoOpenForm,
+  errorMessagesStepThreeOpenForm
 }

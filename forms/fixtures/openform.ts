@@ -95,25 +95,20 @@ export const contacts: Array<OptionConfig> = [
 
 export const Modalities: Array<SelectOptionConfig> = [
   {
-    value: '01',
+    value: 'Presencial',
     active: false,
-    text: 'AGUASCALIENTES',
+    text: 'Presencial',
   },
   {
-    value: '02',
+    value: 'Online',
     active: false,
-    text: 'BAJA CALIFORNIA NORTE',
+    text: 'Online',
   },
   {
-    value: '03',
+    value: 'Flex',
     active: false,
-    text: 'BAJA CALIFORNIA SUR',
-  },
-  {
-    value: '04',
-    active: false,
-    text: 'CHIHUAHUA',
-  },
+    text: 'Ejecutiva',
+  }
 ];
 
 

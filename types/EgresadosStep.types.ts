@@ -1,13 +1,13 @@
-export type BeWantedConfig = {
+export type EgresadosConfig = {
   [key: string]: string;
 }
 
-type BeWantedStepComponentData = {
-  data?: BeWantedConfig;
+type EgresadosStepComponentData = {
+  data?: EgresadosConfig;
   classNames?: string;
   enrollment?: string;
   path?: string;
   onNext?: (enrollment: string) => void; 
 }
 
-export default BeWantedStepComponentData
+export default EgresadosStepComponentData

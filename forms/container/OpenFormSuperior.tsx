@@ -20,7 +20,7 @@ const OpenFormSuperior: FC<any> = ({ classNames, image, pathThankyou, controls, 
 
   return <section className={cn("p-6 shadow-15 bg-white", classNames)}>
     <StepOne data={ copies.stepone } step={30} classNames={cn({ "hidden": step !== 1 })} image={image} onNext={handleNextStep} />
-    <StepTwo step={60} classNames={cn({ "hidden": step !== 2 })} onNext={handleNextStep} controls={controlsConfig} />
+    <StepTwo levels={[]} programs={[]} campus={[]} step={60} classNames={cn({ "hidden": step !== 2 })} onNext={handleNextStep} controls={controlsConfig} />
     <StepThree path={pathThankyou} step={90} data={{ modality: "", program: "", level: "", campus: "" }} classNames={cn({ "hidden": step !== 3 })} />
   </section>
 }
