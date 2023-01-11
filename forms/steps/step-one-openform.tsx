@@ -20,10 +20,29 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
     email: "",
     modality: "",
   });
+  const [ infoControlsTouched, setInfoControlsTouched ] = useState<any>({
+    name: false,
+    surname: false,
+    phone: false,
+    email: false,
+    modality: false,
+  });
+  const [ errorControls, setErrorControls ] = useState<any>({
+    name: false,
+    surname: false,
+    phone: false,
+    email: false,
+    modality: false,
+  });
+  const [ dataModalities, setDataModalities ] = useState<Array<any>>([])
 
   useEffect(() => {
     setConfig({ ...config, ...data });
   }, [data]);
+
+  useEffect(() => {
+    setDataModalities([ ...Modalities ]);
+  }, [Modalities]);
   
   useEffect(() => {
     setProgress(step);
@@ -32,15 +51,64 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
   const handleKeyPress = (e: CustomEvent, control: string ) => {
     const { detail: { value } } = e;
     setInfoControls({ ...infoControls, [control]: value });
+    setErrorControls({ ...errorControls, [control]: validateControl(control, value, infoControlsTouched[control])});
   };
 
   const handleNext = () => {
     if (!!onNext) {
-      onNext()
+      setInfoControlsTouched({
+        name: true,
+        surname: true,
+        phone: true,
+        email: true,
+        modality: true,
+      });
+      const newValidation = {
+        name: validateControl("name", infoControls.name, true),
+        surname: validateControl("surname", infoControls.surname, true),
+        phone: validateControl("phone", infoControls.phone, true),
+        email: validateControl("email", infoControls.email, true),
+        modality: validateControl("modality", infoControls.modality, true),
+      };
+      setErrorControls({ ...newValidation });
+      if (validateControls()) {
+        onNext(infoControls);
+      }
     }
   }
 
-  const handleOptionSelected = (option: CustomEvent) => {}
+  const handleOptionSelected = (option: CustomEvent) => {
+    const { detail: modality } = option;
+    setInfoControlsTouched({ ...infoControlsTouched, modality: true });
+    setInfoControls({ ...infoControls, modality });
+    setDataModalities( state => state.map((item: any) => ({ ...item, active: item.value === modality })) );
+    setErrorControls({ ...errorControls, modality: validateControl("modality", modality, infoControlsTouched[modality])});
+  }
+
+  const validateControls = () => !Object.entries(infoControls).map((value: any) => {
+    if(value[0] === 'email') {
+      return !!value[1].match(configControls.patternEmail) ? !!value[1].match(configControls.patternEmail).length : true
+    }
+    if(value[0] === 'phone') {
+      return value[1].length === 10
+    }
+    return !!value[1];
+  }).includes(false)
+
+  const validateControl = (control: string, value: string, touched: boolean) => {
+    if (control === 'email') {
+      return touched ? !value.match(configControls.patternEmail) : false;
+    }
+    if (control === 'phone') {
+      return touched ? !(value && value.length === 10) : false;
+    }
+    return touched ? !value : false;
+  };
+
+  const handleTouchedControl = (control: string) => {
+    setInfoControlsTouched({ ...infoControlsTouched, [control]: true });
+    setErrorControls({ ...errorControls, [control]: validateControl(control, infoControls[control], infoControlsTouched[control])});
+  }
 
   return <section className={cn(classNames)}>
     <div className="flex gap-6">
@@ -48,34 +116,35 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
         <h1 className="font-Nunito-Sans font-bold text-5 leading-6">{ config.title }</h1>
         <p className="font-Nunito font-normal text-[14px] leading-4">{ config.subtitle }</p>
       </div>
-      <div className={"w-[112px] h-[112px]"} >
-        <Image classNamesImg="rounded-full" classNames="aspect-1/1 w-[112px] h-[112px]" src={image.src} alt={image.alt} />
+      <div className={"aspect-1/1 w-p:hidden"} >
+        <Image classNamesImg="rounded-full" classNames="w-[112px] h-[112px]" src={image.src} alt={image.alt} />
       </div>
     </div>
     <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828]">{  config.conditions }</p>
     <div className="mb-6">
       <ProgressBar data={{ progress }} />
     </div>
-    <div className="mt-6 flex">
-      <div>
-        <Input data={ configControls.inputNameOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "name")} />
+    <div className="mt-6 flex w-p:flex-col gap-6">
+      <div className="grow">
+        <Input errorMessage={configControls.errorMessagesStepOneOpenForm.name} hasError={errorControls.name} eventFocus={() => handleTouchedControl("name")} data={ configControls.inputNameOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "name")} />
       </div>
-      <div>
-        <Input data={ configControls.inputSurnameOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "surname")} />
+      <div  className="grow">
+        <Input errorMessage={configControls.errorMessagesStepOneOpenForm.surname} hasError={errorControls.surname} eventFocus={() => handleTouchedControl("surname")} data={ configControls.inputSurnameOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "surname")} />
       </div>
     </div>
     <div className="mt-6">
-      <Input data={ configControls.inputPhoneOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "phone")} />
+      <Input errorMessage={configControls.errorMessagesStepOneOpenForm.phone} hasError={errorControls.phone} eventFocus={() => handleTouchedControl("phone")} data={ configControls.inputPhoneOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "phone")} />
     </div>
     <div className="mt-6">
-      <Input data={ configControls.inputEmailOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "email")} />
+      <Input errorMessage={configControls.errorMessagesStepOneOpenForm.email} hasError={errorControls.email} eventFocus={() => handleTouchedControl("email")} data={ configControls.inputEmailOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "email")} />
     </div>
     <div className="mt-6">
       <p className="font-Nunito font-normal text-[14px] leading-5">{ config.modality }</p>
-      <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: " " }}  />
+      <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...dataModalities]} data={{ ...SelectInit, textDefault: !!infoControls.modality ? " " : "Elige una modalidad", icon: "school" }}  />
+      <p className={cn("text-[#e57565] text-xs px-3 mt-4", { "hidden": !errorControls.modality })}>{ configControls.errorMessagesStepOneOpenForm.modality }</p>
     </div>
     <div className="mt-6">
-      <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
     </div>
   </section>
 }
