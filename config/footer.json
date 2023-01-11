@@ -52,7 +52,6 @@
       [
         { "label": "Admisiones", "principal": true, "link": "" },
         { "label": "Solicita informes", "principal": false, "link": "/pedir-informacion" },
-        { "label": "Test de orientación vocacional", "principal": false, "link": "" },
         { "label": "Becas para el estudiante", "principal": false, "link": "/becas" }
       ],
       [

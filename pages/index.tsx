@@ -16,7 +16,6 @@ import Video from "@/components/Video"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
-  
   return <>
     <Head>
       <title>{meta.title}</title>
@@ -99,10 +98,8 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             <p className="mb-6 ac-type-h5-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{sections.descubre.title}</p>
             {
               <Video dimensions={["330px","400px","200px"]} data={ sections.descubre } />
-
             }
           </div>
-          
       </ContentLayout>
     </HeaderFooterLayout>
   </>
