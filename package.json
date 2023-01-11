@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "^6.4.0",
+    "axios": "^1.2.2",
     "classnames": "^2.3.2",
     "leaflet": "^1.9.2",
     "lottus-elements-uane": "4.3.8",
