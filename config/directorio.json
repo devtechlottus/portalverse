@@ -2,7 +2,8 @@
   "meta": {
     "title": "Directorio",
     "description": "",
-    "keywords": ""
+    "keywords": "",
+    "hidden": true
   },
   "sections": {
     "head": {

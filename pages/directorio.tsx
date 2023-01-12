@@ -10,15 +10,14 @@ import ContactTarget from "@/components/ContactTarget"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 
-const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta, head }: DirectoryComponentData) => {
-
+const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta }: DirectoryComponentData) => {
   const router = useRouter();
 
   useEffect(() => {
-    // disabled Route
-    router.push("/404");
+    if (!!meta.hidden) {
+      router.push("/404");
+    }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
-
   return <>
     <Head>
       <title>{ meta.title }</title>
