@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -10,15 +11,36 @@ import PromoLink from "@/components/PromoLink"
 import CardWebsite from "@/components/CardWebsite"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Rainbow from "@/components/Rainbow"
+import Modal from "@/components/Modal"
 
 const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
 
-  const router = useRouter()
+  const router = useRouter();
+  // Modal functionality begin
+  const [isShow, setIsShow] = useState(false);
+  const [infoModal, setInfoModal] = useState<any>(null);
+  const handleVisibilityModal = () => {
+    if (isShow) {
+      setInfoModal(null);
+    }
+    setIsShow(!isShow);
+  };
+  // Modal functionality end
+
+  const handleOpenModal = () => {
+    handleVisibilityModal();
+  };
 
   return <>
     <Head>
       <title>{ meta.title }</title>
     </Head>
+    <Modal isShow={isShow} onClose={handleVisibilityModal} data={{icon: 'close', title: "", tagOnClose: 'testOnClose', wrapper: true,}}>
+      <section slot="areaModalContent" className="flex w-t:flex-col w-p:flex-col w-full h-[673px]">
+        <div className="grow bg-[#2B2C34]"></div>
+        <div className="grow-[2] bg-white"></div>
+      </section>
+    </Modal>
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
@@ -38,11 +60,11 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
             content: sections.head.description
           }} />
         </div>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-12 w-p:mb-6">
+        <div className="w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-12 w-p:mb-6">
           <Rainbow sections={sections.rainbow.sections} title={sections.rainbow.title} />
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="gap-6 w-d:hidden">
+      <ContentFullLayout classNames="gap-6 w-d:hidden mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <Rainbow classNamesTitle="ml-6" sections={sections.rainbow.sections} title={sections.rainbow.title} />
         </div>
@@ -54,7 +76,7 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-12 w-p:mb-6">
           {
            sections.alliances.alliances.map((item:any, i:number) => <section key={`section-alliances-${i}`}>
-            <PromoLink data={item} onClick={()=>window.open(item.redirect)}/>
+            <PromoLink data={item} onClick={handleOpenModal}/>
            </section>)
           }
         </section>
@@ -68,7 +90,6 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
            </section>)
           }
         </section>
-
       </ContentLayout>
     </HeaderFooterLayout>
   </>
