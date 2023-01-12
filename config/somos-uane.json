@@ -422,13 +422,28 @@
     },
     "ourCertifications": {
       "title": "Certificaciones",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      "description": "Poseemos el máximo reconocimiento de calidad de la federación más importante del sector particular de la educación en México.\n\n Se trata de la acreditación Lisa y Llana que otorga la Federación de Instituciones Mexicanas Particulares de Educación Superior (FIMPES).\n\n Quality Matters; es la organización global líder en garantía de calidad en la enseñanza y el aprendizaje digitales innovadores y en línea.\n\n Esto da como lugar a la Universidad Americana del Noreste ser la segunda casa de estudios que obtiene una certificación en todo América Latina por Quality Matters.",
       "certifications": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=13x7wxU5bZlRbLQlUskDGLyci1sEpGYeH",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1j0ZjWKgDoRBr06ZmhzV286dqdioFzSFp",
           "subtitle": "",
-          "title": "Espacio universitario internacionalizacion en la UNAE",
-          "text": "Realiza tus pagos, solicita o consulta tus trámites y lleva registro de tus actividades escolares.",
+          "title": "FIMPES",
+          "text": "Federación de Instituciones Mexicanas Particulares",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "small",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=125U6n0Zdk556KYbA1xxDSKl8q39pSY-M",
+          "subtitle": "",
+          "title": "Quality Matters Higher Education",
+          "text": "Organización global líder en garantía de calidad en la enseñanza y el aprendizaje digitales innovadores y en línea",
           "border": true,
           "allContent": true,
           "height": "",

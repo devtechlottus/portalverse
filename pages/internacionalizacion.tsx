@@ -12,22 +12,19 @@ import CardWebsite from "@/components/CardWebsite"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Rainbow from "@/components/Rainbow"
 import Modal from "@/components/Modal"
+import ContentInsideLayout from "@/layouts/ContentInside.layout"
 
 const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
 
   const router = useRouter();
   // Modal functionality begin
   const [isShow, setIsShow] = useState(false);
-  const [infoModal, setInfoModal] = useState<any>(null);
-  const handleVisibilityModal = () => {
-    if (isShow) {
-      setInfoModal(null);
-    }
-    setIsShow(!isShow);
-  };
+  const [infoModal, setInfoModal] = useState<any>({});
+  const handleVisibilityModal = () => setIsShow(!isShow);
   // Modal functionality end
 
-  const handleOpenModal = () => {
+  const handleOpenModal = (content: any) => {
+    setInfoModal({...content})
     handleVisibilityModal();
   };
 
@@ -36,9 +33,17 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
       <title>{ meta.title }</title>
     </Head>
     <Modal isShow={isShow} onClose={handleVisibilityModal} data={{icon: 'close', title: "", tagOnClose: 'testOnClose', wrapper: true,}}>
-      <section slot="areaModalContent" className="flex w-t:flex-col w-p:flex-col w-full h-[673px]">
-        <div className="grow bg-[#2B2C34]"></div>
-        <div className="grow-[2] bg-white"></div>
+      <section slot="areaModalContent" className="flex w-t:flex-col w-p:flex-col w-full h-auto">
+      <ContentInsideLayout classNames="gap-6">
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 bg-[#2B2C34] p-6">
+            <p className="text-white font-Poppins font-bold text-6 break-normal">{infoModal?.title?.title}</p>
+          </div>
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 bg-white overflow-y-auto">
+            <RichtText data={{
+              content: infoModal?.description?.content
+            }} />
+          </div>
+        </ContentInsideLayout>
       </section>
     </Modal>
     <HeaderFooterLayout breadcrumbs={true}>
@@ -76,7 +81,9 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-12 w-p:mb-6">
           {
            sections.alliances.alliances.map((item:any, i:number) => <section key={`section-alliances-${i}`}>
-            <PromoLink data={item} onClick={handleOpenModal}/>
+            <PromoLink data={item} onClick={() => {
+              handleOpenModal(item.content)
+            }}/>
            </section>)
           }
         </section>

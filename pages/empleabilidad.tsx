@@ -47,7 +47,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText data={{ content: sections.vinculacionEmpresas.description.content }}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-          <Image src="/images/404.png" alt="error_image" classNames="aspect-1/1"/>
+          <Image src={sections.vinculacionEmpresas.image.src} alt={sections.vinculacionEmpresas.image.src} classNames="aspect-1/1"/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="bg-darkBlue">

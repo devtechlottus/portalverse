@@ -168,7 +168,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1fKXu9Tz_CeXR-eMo41IHswMg1fqIm45i",
           "alt": "maestria"
         }
       },
@@ -278,21 +278,6 @@
         }
       },
       "route": "sistema-penal-acusatorio"
-    },
-    {
-      "title": "Maestría en Mercadotecnia Estrátegica",
-      "config": {
-        "nombre": "Maestría en Mercadotecnia Estrátegica",
-        "modalidad": ["Online"],
-        "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [],
-        "nivel": ["Posgrado"],
-        "image": {
-          "src": "https://picsum.photos/428/321",
-          "alt": "maestria"
-        }
-      },
-      "route": "mercadotecnia-estrategica"
     },
     {
       "title": "Maestría en Administración",
