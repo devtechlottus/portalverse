@@ -304,6 +304,8 @@ const Routes: any = {
         { params: { "program": "liderazgo-trabajo-equipo" } },
         { params: { "program": "obligaciones-contratos" } },
         { params: { "program": "psicologia-comunicacion" } },
+        { params: { "program": "politicas-publicas-gobernanza" } },
+
       ] 
     }
   },
