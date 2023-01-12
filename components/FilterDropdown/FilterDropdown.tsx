@@ -30,7 +30,9 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     setOptionsList((state: string[]) => {
       if (active) {
         onSelectedOptions(state);
-        onOpenClose()
+        if (open) {
+          onOpenClose();
+        }
       }
       return state; 
     });
@@ -60,13 +62,13 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     }
   }, [onClear]);
 
-  return <>
+  return <section className="relative">
     <section className="dropdown" onClick={onOpenClose}>
       <span className={cn(`material-icons icon text-[${color}]`)}>{ configComponent.icon }</span>
       <p className={cn(`text-black`)}>{ configComponent.label }</p>
       <span className="material-icons icon" onClick={onOpenClose}>expand_{ open ? 'less' : 'more' }</span>
     </section>
-    <section className="dropdown-list" style={{ display: open ? 'flex' : 'none' }}>
+    <section className="dropdown-list absolute w-full top-[44px] bg-white z-10" style={{ display: open ? 'flex' : 'none' }}>
       {
         optionsCollection.map((option: CheckboxConfig, i: number) => <div key={`optionDropdown-${i}`}>
             <Checkbox data={option} onCheck={(evt: CustomEvent) => getOptionSelected(evt, i)} />
@@ -76,7 +78,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
         <Button data={buttonConfig} onClick={applySelection}/>
       </div>
     </section>
-  </>
+  </section>
 });
 
 export default FilterDropdown
