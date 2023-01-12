@@ -41,7 +41,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[125%] text-10"> { sections.vacantes.title }</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">aqui va el carrrusel</div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4"></div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 mt-auto mb-auto">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6">{ sections.vinculacionEmpresas.title }</p>
           <RichtText data={{ content: sections.vinculacionEmpresas.description.content }}/>
@@ -82,7 +82,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6">{ sections.eventos.title }</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          aqui va el carrusel de eventos
+
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY mt-[72px] w-t:mt-12 w-p:mt-12">

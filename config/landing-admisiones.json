@@ -51,103 +51,52 @@
               "content": {
                 "title": "",
                 "description": "\n- Acta de nacimiento reciente\n- Certificado de secundaria legalizado\n- Certificado de preparatoria legalizado\n- CURP copia.\n\n<b>Estudiantes que tramitan equivalencia:</b>\n- Certificado parcial de estudios legalizado\n- 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/bachillerato"}
+                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/bachillerato"}
               },
               "cards": [
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "Presencial",
+                  "text": "¡Vive la ezperiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
                   "wrapper": true
                 },
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "UANE Online",
+                  "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
                   "wrapper": true
                 },
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "UANE Flex (Híbrido)",
+                  "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
                   "wrapper": true
                 }
               ]
@@ -163,39 +112,52 @@
               "content": {
                 "title": "",
                 "description": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/licenciatura"}
+                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/licenciatura"}
               },
               "cards": [
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "Presencial",
+                  "text": "¡Vive la ezperiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "subtitle": "",
+                  "title": "UANE Online",
+                  "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "subtitle": "",
+                  "title": "UANE Flex (Híbrido)",
+                  "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
                   "wrapper": true
                 }
               ]
@@ -211,39 +173,52 @@
               "content": {
                 "title": "",
                 "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/maestria"}
+                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/maestria"}
               },
               "cards": [
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "Presencial",
+                  "text": "¡Vive la ezperiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "subtitle": "",
+                  "title": "UANE Online",
+                  "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "subtitle": "",
+                  "title": "UANE Flex (Híbrido)",
+                  "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
                   "wrapper": true
                 }
               ]
@@ -259,39 +234,52 @@
               "content": {
                 "title": "",
                 "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/especialidad"}
+                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/especialidad"}
               },
               "cards": [
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "Presencial",
+                  "text": "¡Vive la ezperiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "subtitle": "",
+                  "title": "UANE Online",
+                  "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "subtitle": "",
+                  "title": "UANE Flex (Híbrido)",
+                  "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
                   "wrapper": true
                 }
               ]
@@ -307,39 +295,52 @@
               "content": {
                 "title": "",
                 "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
-                "action": {"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/doctorado"}
+                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/doctorado"}
               },
               "cards": [
                 { 
                   "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
-                  "subtitle": "SUBTITULO",
-                  "title": "Coursera y UANE se unen para ti",
-                  "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+                  "subtitle": "",
+                  "title": "Presencial",
+                  "text": "¡Vive la ezperiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
                   "border": true,
                   "allContent": true,
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "vertical",
+                  "type": "",
                   "link": true,
                   "background": false,
-                  "linkText": {
-                    "text": "Conocer más",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "star"
-                  },
-                  "linkIcon": {
-                    "text": "Ver más",
-                    "iconSecond": "person",
-                    "isBold": true,
-                    "size": "large",
-                    "isUnderline": false,
-                    "disabled": false,
-                    "icon": "person"
-                  },
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "subtitle": "",
+                  "title": "UANE Online",
+                  "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
+                  "wrapper": true
+                },
+                { 
+                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "subtitle": "",
+                  "title": "UANE Flex (Híbrido)",
+                  "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
+                  "border": true,
+                  "allContent": true,
+                  "height": "",
+                  "isShowCardWebsiteContent": true,
+                  "id": "",
+                  "type": "",
+                  "link": true,
+                  "background": false,
                   "wrapper": true
                 }
               ]
@@ -363,7 +364,7 @@
     },
     "becas": {
       "banner":{
-        "title": "Conoce las becas que tenemos para ti", "subtitle": "Mira sus experiencias.", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": true, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1Uvnv0JiPehD-OQWNCUIHP5UzGDY_xi18", "desktop": "https://drive.google.com/uc?export=view&id=1KkYoofSvnXgTQZi7aPRMy9ErSXb-XySa"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+        "title": "Conoce las becas que tenemos para ti", "subtitle": "Mira sus experiencias.", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1Uvnv0JiPehD-OQWNCUIHP5UzGDY_xi18", "desktop": "https://drive.google.com/uc?export=view&id=1KkYoofSvnXgTQZi7aPRMy9ErSXb-XySa"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
       },
       "redirect": "becas"
     },
@@ -372,10 +373,10 @@
       "description": "En UANE dejamos huella de oso en cada paso que damos, piensa y estudia en grande.",
       "cards": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1zS4Yaux64foY96PUFyFulCV8c50Brbbb",
-          "subtitle": "SUBTITULO",
-          "title": "Coursera y UANE se unen para ti",
-          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1dUsNbdPsO41DxKvGxCixRy3Kh4SxEgiu",    
+          "subtitle": "Alumna, en Psicología",
+          "title": "María Torres",
+          "text": "Estudiar en UANE hace que me sienta como en casa, soy parte de una familia.",
           "border": true,
           "allContent": true,
           "height": "",
@@ -387,10 +388,10 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1dUsNbdPsO41DxKvGxCixRy3Kh4SxEgiu",
-          "subtitle": "SUBTITULO",
-          "title": "Coursera y UANE se unen para ti",
-          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "urlImage": "https://drive.google.com/uc?export=view&id=1zS4Yaux64foY96PUFyFulCV8c50Brbbb",
+          "subtitle": "Egresado, Lic. en Mercadotecnia Internacional",
+          "title": "Erick Santoyo",
+          "text": "UANE ha transformado mis experiencias laborales permitiendo crecer con todas las herramientas y conocimientos que adquirí durante mi carrera profesional",
           "border": true,
           "allContent": true,
           "height": "",
@@ -403,7 +404,7 @@
         }
       ],
       "button":{"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "redirect": "egresados/talento"},
-      "video": {"options": { "id": "Ae84Xfec1HM", "type": "single", "controls": true}, "dimensions": { "height": "400px"} }
+      "video": {"options": { "id": "AIgIgANXCx0", "type": "single", "controls": true}, "dimensions": { "height": "400px"} }
     },
     "FAQ":{
       "title": "Preguntas frecuentes",

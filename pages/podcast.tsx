@@ -43,7 +43,7 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </section>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-          aqui va el paginador
+          
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>

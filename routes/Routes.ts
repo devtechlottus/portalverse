@@ -101,6 +101,9 @@ const Routes: any = {
           { params: { "program": "sistemas-productividad-industrial" } },
           { params: { "program": "mercadotecnia" } },
           { params: { "program": "administracion-estrategia-negocios" } },
+          { params: { "program": "negocios-internacionales" } },
+          { params: { "program": "negocios-digitales" } },
+          { params: { "program": "ingenieria-ciencia-datos" } },
         ]
       }
     },
@@ -301,6 +304,8 @@ const Routes: any = {
         { params: { "program": "liderazgo-trabajo-equipo" } },
         { params: { "program": "obligaciones-contratos" } },
         { params: { "program": "psicologia-comunicacion" } },
+        { params: { "program": "politicas-publicas-gobernanza" } },
+
       ] 
     }
   },

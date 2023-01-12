@@ -7,7 +7,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Icon from "@/components/Icon"
 import Image from "@/components/Image"
 import Button from "@/components/Button/Button"
 import DescriptionSection from "@/components/DescriptionSection"
@@ -154,7 +153,6 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
           <Video dimensions={["330px", "400px", "200px"]} data={sections.egresados.video}/>
-          <p>adios</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{sections.FAQ.title}</p>

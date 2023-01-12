@@ -85,7 +85,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.WebinarsAndConferences.title}</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          aqui va el carrousel
+          
         </div>
         <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">
           <p>{sections.oferta.title}</p>
