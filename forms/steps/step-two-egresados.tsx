@@ -56,7 +56,7 @@ const StepTwo: FC<EgresadosStepComponentData> = ({ data, classNames, enrollment,
       <Input data={ inputCompanyConfig } />
     </div>
     <div className="flex mt-8">
-      <Button onClick={handleNext} data={ buttonConfig } />
+      <Button dark onClick={handleNext} data={ buttonConfig } />
     </div>
   </section>
 }

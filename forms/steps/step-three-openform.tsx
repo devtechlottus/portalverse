@@ -136,7 +136,7 @@ const StepThree: FC<any> = ({ classNames, step, data, contacts, schedulers, onNe
       <p className={cn("text-[#e57565] text-xs px-3 mt-4", { "hidden": !errorControls.horario })}>{ configControls.errorMessagesStepThreeOpenForm.horario }</p>
     </div>
     <div className="mt-6">
-      <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepThree } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepThree } />
     </div>
   </section>
 }

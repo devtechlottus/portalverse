@@ -38,7 +38,7 @@ const StepZero: FC<any> = ({ classNames, step, onNext }: any) => {
       <Select onClick={(option: CustomEvent) => handleSelectedOption(option)} options={[...QuestionStepZero]} data={{ ...SelectInit, textDefault: "Elige una opción" }}  />
     </div>
     <div className="flex mt-8">
-      <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
     </div>
   </section>
 }

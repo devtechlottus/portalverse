@@ -9,7 +9,7 @@
         "banner": {
           "title": "Voz UANE",
           "subtitle": "Un episodio nuevo cada dos semanas.\nSíguenos a través de spotify",
-          "state": "",
+          "state": "black",
           "size": "medium",
           "middle": false,
           "center": false,
@@ -19,7 +19,7 @@
             "mobile": "https://drive.google.com/uc?export=view&id=1MI62tyuUxu71bBCDfRUz1NHxUhmHeJF0",
             "desktop": "https://drive.google.com/uc?export=view&id=1We_A9VCsxSV9buE8TMHKqyqI5HyqPguN"
           },
-          "overlay": "white",
+          "overlay": "",
           "height": "342px",
           "action": {
             "id": "",
@@ -57,7 +57,7 @@
         "banner": {
           "title": "Voz UANE ayuda a difundir tus ideas.",
           "subtitle": "Si eres parte de la comunidad contacta al equipo: vozuane@lottuseducation.com.mx",
-          "state": "",
+          "state": "black",
           "size": "medium",
           "middle": false,
           "center": false,
@@ -67,7 +67,7 @@
             "mobile": "https://drive.google.com/uc?export=view&id=1BBHm3qD0hUf27eIRfpw8t3NQQoWVyJED",
             "desktop": "https://drive.google.com/uc?export=view&id=1_cUI-wPs5OJJucnW1w2OhXxVtAnyU90B"
           },
-          "overlay": "white",
+          "overlay": "black",
           "height": "",
           "action": {
             "id": "",

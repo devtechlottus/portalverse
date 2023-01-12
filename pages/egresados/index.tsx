@@ -48,7 +48,7 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText data={{
             content: sections.video.descripcion
           }} />
-          <Button data={ sections.video.accion } onClick={()=>{
+          <Button dark data={ sections.video.accion } onClick={()=>{
             router.push(`${router.pathname}/talento`)
           }}/>
         </div>

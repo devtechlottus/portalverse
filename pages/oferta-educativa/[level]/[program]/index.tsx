@@ -156,7 +156,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                       <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus", icon: "apartment"}} options={selectData} />
                     </div>
                     <div className="flex justify-center">
-                      <Button data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />
+                      <Button dark data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />
                     </div>
                   </div>
                 </ContentInsideLayout>
@@ -179,7 +179,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   <div className="my-6">
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
                   </div>
-                  <Button data={{...sections.benefits.action}} onClick={downloadFileProgram} />
+                  <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
                 </div>
               </>
             : null

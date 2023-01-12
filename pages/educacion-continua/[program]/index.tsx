@@ -1,6 +1,5 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
-import cn from "classnames"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
