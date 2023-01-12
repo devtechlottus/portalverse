@@ -1,6 +1,7 @@
 import { FC, useState } from "react"
 import cn from "classnames"
-import TabsComponentConfig from "@/types/TabsFeatured.types";
+import TabsComponentConfig from "@/types/TabsFeatured.types"
+import Image from "@/components/Image"
 
 const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive }: TabsComponentConfig) => {
 
@@ -11,12 +12,15 @@ const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive }: TabsComponent
     onActive(position);
   }
 
-  return <section className="w-full overflow-x-auto justify-center">
-    <ul className="flex gap-1 justify-center w-p:justify-start">
+  return <section className="w-full overflow-x-auto justify-center mb-4">
+    <ul className="flex gap-1 w-d:justify-center w-t:justify-center w-p:justify-start items-baseline">
       {
-        tabs.map(({ label }: any, i: number) => <li key={`tab-${i}`} className={cn("w-auto border border-b-2 flex flex-col justify-center", { "border-b-[#B0003C]": tabActive !== i })} onClick={() => activeTab(i)}>
-            <div className={cn("py-4 px-6 flex flex-col justify-center cursor-pointer", { "bg-[#000] text-white": tabActive === i })}>
-              <p className="text-center">{ label }</p>
+        tabs.map(({ label }: any, i: number) => <li key={`tab-${i}`} className={cn("w-auto  flex flex-col justify-center")} onClick={() => activeTab(i)}>
+            <div className={cn("py-4 px-6 flex flex-col justify-center cursor-pointer border border-b-2", { "bg-[#000] text-white ": tabActive === i, "border-b-[#B0003C]": tabActive !== i })}>
+              <p className="text-center whitespace-nowrap">{ label }</p>
+            </div>
+            <div className={cn("flex justify-center relative", { "hidden": tabActive !== i })}>
+              <Image src="/images/triangle_tabs.png" alt="triangle" classNames="w-[44px] h-[30px] absolute -top-1" />
             </div>
           </li>)
       }
