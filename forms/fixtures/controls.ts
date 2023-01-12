@@ -105,6 +105,13 @@ const errorMessagesStepThreeOpenForm = {
   contacto: 'Debes elegir un Medio de Contacto',
   horario: 'Debes elegir un Horario de Contacto'
 }
+const errorMessagesStepOneOpenFormContinuous = {
+  name: 'Ingresa un nombre',
+  surname: 'Ingresa tus apellidos',
+  email: 'Ingresa un correo electrónico válido',
+  phone: 'Ingresa un teléfono de 10 dígitos',
+  program: 'Debes elegir un programa'
+}
 
 export default {
   inputConfig,
@@ -124,5 +131,6 @@ export default {
   patternEmail,
   errorMessagesStepOneOpenForm,
   errorMessagesStepTwoOpenForm,
-  errorMessagesStepThreeOpenForm
+  errorMessagesStepThreeOpenForm,
+  errorMessagesStepOneOpenFormContinuous
 }

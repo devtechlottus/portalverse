@@ -57,10 +57,15 @@ export const saveDataForms = () => {
       })
   }
 
+  const saveDataEducacionContinua = (info: any, Authorization: string, linea?: string) => {
+    const bot = setRegisterBot();
+  } 
+
   return {
     isLoading,
     isError,
     data,
-    saveData
+    saveData,
+    saveDataEducacionContinua
   }
 }

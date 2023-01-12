@@ -41,6 +41,9 @@ export const getEducativeOffer = () => {
             case 'Flex':
               dataPrograms = programs.reduce((prev: any, item: any) => item.modalidad === 'Online' && !!['MONTERREY','SALTILLO','PIEDRAS NEGRAS','MATAMOROS','TORREÓN'].filter((campus: string) => campus === item.nombreCampus).length? [...prev, item] : [...prev], [])
               break;
+            default:
+              dataPrograms = [ ...programs ]
+              break;
           }
           setFilterPrograms([ ...dataPrograms ]);
           const exists = dataPrograms.reduce((prev: any, curr: any) => {
