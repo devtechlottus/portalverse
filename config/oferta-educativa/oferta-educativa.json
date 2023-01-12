@@ -216,7 +216,8 @@
     },
     "bannerTest":{
       "banner":{
-        "title": "¿No te decides qué estudiar?", "subtitle": "Te ayudamos a decidir que rumbo profesional tomar", "state": "", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1XFnp_Ufc-rAqZxZ2KM60ogWyuS2vdOOi", "desktop": "https://drive.google.com/uc?export=view&id=1Y-NyCheOPilvlVa45pHQQ97mp-a-rQGy"}, "overlay": "", "height": "", "action": {"id": "", "type": "primary", "title": "Realizar test", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
+        "title": "¿¿Aún no decides qué estudiar?", 
+        "subtitle": "Te ayudamos a decidir qué rumbo profesional tomar", "state": "", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1XFnp_Ufc-rAqZxZ2KM60ogWyuS2vdOOi", "desktop": "https://drive.google.com/uc?export=view&id=1Y-NyCheOPilvlVa45pHQQ97mp-a-rQGy"}, "overlay": "", "height": "", "action": {"id": "", "type": "primary", "title": "Realizar test", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
       },
       "redirect": "https://www.uane.edu.mx/"
     },

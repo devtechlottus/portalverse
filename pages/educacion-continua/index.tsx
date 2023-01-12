@@ -66,7 +66,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
           }
         </section>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY">
+      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY hidden">
         <ContentLayout classNames="w-d:py-12 w-t:py-6 w-p:py-6">
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
             <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.nextCourses.title}</p>

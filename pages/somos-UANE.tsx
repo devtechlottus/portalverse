@@ -134,7 +134,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </div>
       </ContentLayout>
-      <ContentLayout classNames="mt-18 w-t:mt-6 w-p:mt-6 hidden">
+      <ContentLayout classNames="mt-18 w-t:mt-6 w-p:mt-6">
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 my-auto">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.ourCertifications.title}</p>
           <RichtText data={{

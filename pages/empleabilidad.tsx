@@ -38,7 +38,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-1 relative">
           <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10"> { sections.vacantes.title }</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4"></div>
@@ -47,7 +47,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText data={{ content: sections.vinculacionEmpresas.description.content }}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-          <Image src="/images/404.png" alt="error_image" classNames="aspect-3/4"/>
+          <Image src="/images/404.png" alt="error_image" classNames="aspect-1/1"/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="bg-darkBlue">
@@ -78,10 +78,10 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="w-t:col-span-8 w-p:col-span-4 w-d:hidden">
           <RichtText data={{content: sections.comoFunciona.description.content}}/>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6">{ sections.eventos.title }</p>
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
 
         </div>
       </ContentLayout>

@@ -30,6 +30,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
     setOptionsList((state: string[]) => {
       if (active) {
         onSelectedOptions(state);
+        onOpenClose()
       }
       return state; 
     });
