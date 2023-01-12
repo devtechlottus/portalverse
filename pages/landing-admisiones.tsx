@@ -154,7 +154,6 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
           <Video dimensions={["330px", "400px", "200px"]} data={sections.egresados.video}/>
-          <p>adios</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{sections.FAQ.title}</p>

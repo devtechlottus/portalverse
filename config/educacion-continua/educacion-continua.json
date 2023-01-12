@@ -7,16 +7,16 @@
   "sections": {
     "head": {
       "title": "Educación Continua",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra",
+      "subtitle": "En UANE sabemos que los profesionistas requieren de actualizarse y reforzar sus habilidades y conocimientos. ",
+      "description": "Por eso tenemos a tu disposición diversos programas que te permitirán enriquecer tu currículum, habilidades y destrezas para satisfacer a las necesidades cambiantes del ambiente laboral.\n\n ¡Ponte a la vanguardia dentro de tu campo de trabajo de manera constante y actualízate para ser el mejor candidato de las organizaciones!",
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+          "src": "https://drive.google.com/uc?export=view&id=1Uiino6zUW6GrzgFokICHGxisBmCLPLlb"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+          "src": "https://drive.google.com/uc?export=view&id=1Uiino6zUW6GrzgFokICHGxisBmCLPLlb"
         }
       }
     },

@@ -198,7 +198,7 @@
         "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=19Fv-odSZ3hzQTNfQ7XAqIM0LOStux1qn",
+          "src": "https://drive.google.com/uc?export=view&id=1fkHschHQn87_ISClxQ3JrxbTSYmFMjCH",
           "alt": "licenciatura"
         }
       },
@@ -363,7 +363,7 @@
         "campus": [],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1NMLlLwRog1Dvaoc4gCZG6neGsJFIlc57",
           "alt": "licenciatura"
         }
       },
@@ -393,7 +393,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
           "alt": "licenciatura"
         }
       },
@@ -408,7 +408,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://picsum.photos/428/321",
+          "src": "https://drive.google.com/uc?export=view&id=1iWJf1IJ_ew8fwl7Ibr2j7gTjKGZoqAx8",
           "alt": "licenciatura"
         }
       },
@@ -428,6 +428,51 @@
         }
       },
       "route": "mecanica-procesos-inyeccion"
+    },
+    {
+      "title": "Licenciatura en negocios internacionales",
+      "config": {
+        "nombre": "Licenciatura en negocios internacionales",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=1bY5_8INHrJMAVRNWVxO7jr9kXlO23Fz-",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "negocios-internacionales"
+    },
+    {
+      "title": "Licenciatura en negocios digitales",
+      "config": {
+        "nombre": "Licenciatura en negocios digitales",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Online" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=1u5C7cOsjHiY96xDGAtmL80MdONHTJRhP",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "negocios-digitales"
+    },
+    {
+      "title": "Ingenieria en Ciencias de Datos",
+      "config": {
+        "nombre": "Ingenieria en Ciencias de Datos",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Económico - Adminstrativo"],
+        "campus": [ "Online" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=17KoWteVG1PLUT3BSJai2wSN-KUtBS-Il",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "ingenieria-ciencia-datos"
     }
   ]
 }

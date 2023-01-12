@@ -101,6 +101,9 @@ const Routes: any = {
           { params: { "program": "sistemas-productividad-industrial" } },
           { params: { "program": "mercadotecnia" } },
           { params: { "program": "administracion-estrategia-negocios" } },
+          { params: { "program": "negocios-internacionales" } },
+          { params: { "program": "negocios-digitales" } },
+          { params: { "program": "ingenieria-ciencia-datos" } },
         ]
       }
     },
