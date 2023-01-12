@@ -42,7 +42,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
             }
           </section>
           <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-            <Button data={sections.articles.button} onClick={() => router.push(sections.articles.button.redirect)}/>
+            <Button dark data={sections.articles.button} onClick={() => router.push(sections.articles.button.redirect)}/>
           </div>
         </div>
         <div className="col-span-4 w-t:col-span-8 w-p:col-span-4">

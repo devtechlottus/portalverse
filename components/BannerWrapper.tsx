@@ -27,7 +27,7 @@ const BannerWrapper: FC<BannerWrapperData> = memo(({ data: { urlImage, title, su
             </div>
           </div>
           <div className="mt-6">
-            <Button data={{...action, isExpand: true}} onClick={onBtn} />
+            <Button dark data={{...action, isExpand: true}} onClick={onBtn} />
           </div>
         </>
         : <Banner data={banner}/>    

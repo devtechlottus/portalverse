@@ -177,7 +177,7 @@ const StepTwo: FC<any> = ({
       <p className={cn("text-[#e57565] text-xs px-3 mt-4", { "hidden": !errorControls.campus })}>{ configControls.errorMessagesStepTwoOpenForm.campus }</p>
     </div>
     <div className="mt-6">
-      <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
     </div>
   </section>
 }

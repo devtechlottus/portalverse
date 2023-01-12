@@ -60,7 +60,7 @@ const StepOtherReason: FC<any> = ({ classNames, step, pathThankyou }: any) => {
         <Input data={ configControls.inputCommentOpenFormStepOther } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "email")} />
       </div> 
     <div className="flex mt-8">
-      <Button onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
     </div>
   </section>
 }

@@ -64,7 +64,7 @@ const StepOne: FC<any> = ({ classNames, data, image, path }: any) => {
       <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...Modalities]} data={{ ...SelectInit, textDefault: "Elige un programa" }}  />
     </div>
     <div className="mt-6">
-      <Button onClick={handleNext} data={ configControls.buttonConfigSend } />
+      <Button dark onClick={handleNext} data={ configControls.buttonConfigSend } />
     </div>
   </section>
 }

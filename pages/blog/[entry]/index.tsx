@@ -49,7 +49,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
             }
           </section>
           <div className="my-6 flex justify-center">
-            <Button data={sections.relatedPost.button} onClick={()=>{router.push(sections.relatedPost.redirect)}}/>
+            <Button dark data={sections.relatedPost.button} onClick={()=>{router.push(sections.relatedPost.redirect)}}/>
           </div>
         </div>
         <div className="col-span-4 w-t:hidden w-p:hidden w-d:grid-cols-1">

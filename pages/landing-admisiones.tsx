@@ -48,7 +48,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
             )
           }
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
-            <Button data={ sections.head.button }/>
+            <Button dark data={ sections.head.button }/>
           </div>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
@@ -85,7 +85,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
                     descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
                     action={
                       <div slot="actionDescription" className="w-t:hidden w-p:hidden">
-                        <Button  onClick={() => navigate(action.route)} data={action}/>
+                        <Button dark onClick={() => navigate(action.route)} data={action}/>
                       </div>
                     }
                   />
@@ -148,7 +148,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           }
           </section>
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 object-center	mt-6 flex justify-center mb-12 w-t:mb-6 w-p:mb-6">
-            <Button data={sections.egresados.button} onClick={()=>router.push(sections.egresados.button.redirect)}/>
+            <Button dark data={sections.egresados.button} onClick={()=>router.push(sections.egresados.button.redirect)}/>
           </div>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:hidden w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">

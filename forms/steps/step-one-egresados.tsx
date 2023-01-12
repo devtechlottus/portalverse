@@ -39,7 +39,7 @@ const StepOne: FC<EgresadosStepComponentData> = ({ data, classNames, onNext }: E
       <RichtText data={{ content: config.message }} />
     </div>
     <div className="flex mt-8">
-      <Button onClick={handleNext} data={ buttonConfig } />
+      <Button dark onClick={handleNext} data={ buttonConfig } />
     </div>
   </section>
 }
