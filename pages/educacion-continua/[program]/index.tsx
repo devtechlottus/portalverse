@@ -40,10 +40,10 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
           </div>
           <EducacionContinuaForm image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} copies={OpenFormInit.steponecontinuos} />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:hidden">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:hidden hidden">
           <p className="font-Poppins font-bold text-10 pt-6 w-t:text-8.5 w-p:text-7.5 leading-[125%]">{sections.relatedCourses.title}</p>
         </div>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-d:hidden w-t:hidden">
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-d:hidden w-t:hidden hidden">
           {
            sections.relatedCourses.courses.map((item:any, i:number) => <section key={`section-educativeProgram-${i}`}>
             <CardProgram image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`/${item.redirect}`)}/>
@@ -51,7 +51,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
           }
         </section>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-p:hidden">
+      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-p:hidden hidden">
         <ContentLayout>
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
             <p className="font-Poppins font-bold text-10 pt-6">{sections.relatedCourses.title}</p>

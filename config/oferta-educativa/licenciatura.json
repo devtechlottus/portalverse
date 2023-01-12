@@ -325,21 +325,6 @@
       "route": "desarrollo-software"
     },
     {
-      "title": "Licenciatura de Psicología Laboral",
-      "config": {
-        "nombre": "Licenciatura de Psicología Laboral",
-        "modalidad": ["Online"],
-        "areaConocimiento": ["Ciencias de la Salud"],
-        "campus": [],
-        "nivel": ["Licenciatura"],
-        "image": {
-          "src": "https://picsum.photos/428/321",
-          "alt": "licenciatura"
-        }
-      },
-      "route": "psicologia-laboral"
-    },
-    {
       "title": "Ingeniería en Sistemas",
       "config": {
         "nombre": "Ingeniería en Sistemas",
