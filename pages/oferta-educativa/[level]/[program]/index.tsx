@@ -90,7 +90,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           <h1 className="text-13 font-bold font-Nunito leading-13 w-t:leading-[111%] w-p:leading-[125%] w-t:text-8.5 w-p:text-7.5">{sections.head.title}</h1>
           <p className="text-base font-Nunito leading-5 w-t:leading-[125%] w-p:leading-[125%] w-t:text-sm w-p:text-sm mt-4">{sections.head.description}</p>
         </div>
-        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-p:hidden">
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-p:hidden mb-10 mt-6">
           <Image
             alt={sections.head.image.alt}
             src={sections.head.image.src}
@@ -99,7 +99,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           />
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="w-d:hidden w-t:hidden">
+      <ContentFullLayout classNames="w-d:hidden w-t:hidden mb-10 mt-6">
         <Image
           alt={sections.head.image.alt}
           src={sections.head.image.src}
@@ -107,10 +107,10 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           classNamesImg="aspect-2/1"/>
       </ContentFullLayout>
       <ContentLayout>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-6">
           <p className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
         </div>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
+        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
           <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => handleSetActiveTab(active)} />
         </div>
       </ContentLayout>
