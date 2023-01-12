@@ -74,7 +74,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
 
   return <section className="relative z-1">
     {/* desktop */}
-    <div className={cn("z-20 left-0", { "hidden": countItems === 1, "bg-white cursor-pointer": countItems > 1 }, stylesBaseControls)}>
+    <div className={cn("z-20 left-0", { "bg-white cursor-pointer": countItems > 1 }, stylesBaseControls)}>
       <span aria-label="prev" onClick={handlerClickControl} className="material-icons">arrow_back_ios</span>
     </div>
     <section style={{ "height": data.height }} className={cn("w-full flex overflow-hidden w-p:hidden")}>
@@ -93,13 +93,13 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
           </div>
         </div>)
       }
-      <div className={cn("w-full flex justify-center absolute bottom-10 gap-2 z-20", { "hidden": countItems === 1 })}>
+      <div className={cn("w-full flex justify-center absolute bottom-10 gap-2 z-20")}>
         {
           slides.map((_: any, i: number) => <div key={`bullet-item-${i}`} onClick={() => activeBulletSlide(i)} className={cn("h-4 bg-[#686868] rounded-full cursor-pointer", { "w-4": i !== active, "w-8": i === active })} />)
         }
       </div>
     </section>
-    <div className={cn("z-10 right-0", { "hidden": countItems === 1, "bg-white cursor-pointer": countItems > 1 }, stylesBaseControls)}>
+    <div className={cn("z-10 right-0", { "bg-white cursor-pointer": countItems > 1 }, stylesBaseControls)}>
       <span aria-label="next" onClick={handlerClickControl} className="material-icons">arrow_forward_ios</span>
     </div>
     {/* desktop */}
@@ -123,7 +123,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn }: any) => {
         </div>)
       }
     </section>
-    <div className={cn("w-full flex justify-center gap-2 mt-4 pb-4 w-d:hidden w-t:hidden", { "hidden": countItems === 1 })}>
+    <div className={cn("w-full flex justify-center gap-2 mt-4 pb-4 w-d:hidden w-t:hidden")}>
       {
         slides.map((_: any, i: number) => <div key={`bullet-item-${i}`} onClick={() => activeBulletSlide(i)} className={cn("h-4 bg-[#DDDDDD] rounded-full cursor-pointer", { "w-4": i !== active, "w-8": i === active })} />)
       }
