@@ -27,7 +27,7 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
         : <span className="flex"><p className="mr-1 text-[#282828]">/</p><p className="text-[#B0003C]">{ text }</p></span>
   }
 
-  return <ul className={cn("w-full flex my-6 font-Nunito font-bold text-xs text-[#686868]", classNames, { "hidden": !visible })} aria-label="breadcrumbs">
+  return <ul className={cn("breadcrumbs w-full flex my-6 font-Nunito font-bold text-xs text-[#686868]", classNames, { "hidden": !visible })} aria-label="breadcrumbs">
     {
       allRoutes.map((route: string, i: number, arr: Array<string>) => <li key={`crumb-${i}`}>{Crumb( route, i, arr, i === (arr.length - 1) )}</li>)
     }

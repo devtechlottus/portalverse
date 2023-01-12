@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 import Footer from "@/components/FooterPortalverse"
-import Header from "@/components/HeaderPortalverse"
+import Header from "@/components/HeaderPortalverse/HeaderPortalverse"
 import HeaderFooterLayoutProps from "@/types/HeaderFooterLayout.types"
 import Breadcrumbs from "@/components/Breadcrumbs/BreadcrumbPortalverse"
 import ContentLayout from "@/layouts/Content.layout"

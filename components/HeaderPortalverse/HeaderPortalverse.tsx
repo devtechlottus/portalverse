@@ -63,7 +63,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                     <p>{item.label}</p>
                   </a>
                 </Link>
-                <p className={cn({ "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
+                <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
                   <span className={cn("material-icons ml-2")}>expand_more</span>
                 </p>
                 </div>)
