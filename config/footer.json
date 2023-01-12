@@ -74,8 +74,7 @@
         { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo" },
         { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad" },
         { "label": "Centro de apoyo psicopedagógico", "principal": false, "link": "" },
-        { "label": "Prácticas profesionales", "principal": false, "link": "" },
-        { "label": "Conexión Educativa", "principal": false, "link": "/conexion-educativa" }
+        { "label": "Prácticas profesionales", "principal": false, "link": "" }
       ]
     ],
     [
