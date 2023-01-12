@@ -15,7 +15,6 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Link from "next/link"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
 

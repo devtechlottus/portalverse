@@ -1,5 +1,4 @@
 import Head from "next/head"
-import { useRouter } from "next/router"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -14,8 +13,6 @@ import Cintillo from "@/components/Cintillo"
 import Video from "@/components/Video"
 
 const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
-
-  const router = useRouter()
 
   return <>
     <Head>
