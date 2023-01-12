@@ -37,7 +37,7 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-           sections.allPodcast.items.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+           sections.allPodcast.items.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
             <Spotify data={item}/>
            </section>)
           }

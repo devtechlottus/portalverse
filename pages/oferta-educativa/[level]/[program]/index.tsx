@@ -170,16 +170,18 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
         {
           level === 'bachillerato'
             ? <>
-                <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-d:order-1 w-t:order-2">
-                  <Video dimensions={["450px", "400px", "200px"]} data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
+                <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
+                  <h4 className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
-                  <h4 className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
                   </div>
                   <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
+                </div>
+                <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-d:order-1 w-t:order-2">
+                  <Video dimensions={["450px", "400px", "200px"]} data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
                 </div>
               </>
             : null
