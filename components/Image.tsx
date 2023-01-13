@@ -7,7 +7,7 @@ const Image: FC<ImageComponentData> = memo(({ alt, src, classNames, classNamesIm
   return <div className={cn("relative", classNames)}>
     {
       !!src && !!alt
-        ? <Imagen className={cn(classNamesImg)} src={src} alt={alt} layout="fill" priority /> 
+        ? <Imagen loading="lazy" className={cn(classNamesImg)} src={src} alt={alt} layout="fill" /> 
         : <div className={cn("bg-gray-600", classNamesImg)} />
     }
   </div>
