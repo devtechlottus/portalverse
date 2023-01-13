@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['https://drive.google.com/']
+    domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx']
   },
   webpack(config) {
     config.module.rules.push({
