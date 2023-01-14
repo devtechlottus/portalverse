@@ -10,7 +10,7 @@ const BannerWrapper: FC<BannerWrapperData> = memo(({ data: { urlImage, title, su
     {
       typeBanner === "sm"
         ? <>
-          <div style={{"backgroundImage":`url(${urlImage?.desktop})`}} className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 bg-contain p-10 " , classNames)}>
+          <div style={{"backgroundImage":`url(${urlImage?.desktop})`}} className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 bg-cover p-10 " , classNames)}>
             <div className={cn(classNames, {
             "text-white": font === "light",
             "text-black": font === "dark" ,

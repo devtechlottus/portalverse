@@ -1,9 +1,9 @@
-import { FC, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import cn from "classnames"
 import TabsComponentConfig from "@/types/TabsFeatured.types"
 import Image from "@/components/Image"
 
-const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive }: TabsComponentConfig) => {
+const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive, active }: TabsComponentConfig) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
 
@@ -11,6 +11,12 @@ const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive }: TabsComponent
     setTabActive(position);
     onActive(position);
   }
+
+  useEffect(() => {
+    if(active !== undefined) {
+      setTabActive(active)
+    }
+  }, [active])
 
   return <section className="w-full overflow-x-auto justify-center mb-4">
     <ul className="flex gap-1 w-d:justify-center w-t:justify-center w-p:justify-start items-baseline">

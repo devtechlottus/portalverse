@@ -255,7 +255,8 @@
           "nobackground": true,
           "redirect": "becas",
           "isShadowColor": true,
-          "shadowColor": "blue-left"
+          "shadowColor": "blue-left",
+          "param": "beca-servicio" 
         },
         {
           "urlImage": {
@@ -271,7 +272,9 @@
           "nobackground": true,
           "redirect": "becas",
           "isShadowColor": true,
-          "shadowColor": "blue-left"
+          "shadowColor": "blue-left",
+          "param": "beca-excelencia" 
+
         },
         {
           "urlImage": {
@@ -287,7 +290,8 @@
           "nobackground": true,
           "redirect": "becas",
           "isShadowColor": true,
-          "shadowColor": "blue-left"
+          "shadowColor": "blue-left",
+          "param": "beca-convenio" 
         },
         {
           "urlImage": {
@@ -303,7 +307,9 @@
           "nobackground": true,
           "redirect": "becas",
           "isShadowColor": true,
-          "shadowColor": "blue-left"
+          "shadowColor": "blue-left",
+          "param": "beca-merito-academico" 
+
         } 
       ],
       "link":{

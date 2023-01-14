@@ -165,7 +165,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           }
       </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-          <Button data={ sections.FAQ.button }
+          <Button darkOutlined data={ sections.FAQ.button }
           onClick={() => {
             router.push(sections.FAQ.button.redirect)
           }}/>

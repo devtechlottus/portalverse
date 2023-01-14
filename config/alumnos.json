@@ -138,7 +138,8 @@
           "test": ""
         },
         "wrapper": true,
-        "visible": true
+        "visible": true,
+        "redirect": "/internacionalizacion"
       }
     },
     "directorio": [

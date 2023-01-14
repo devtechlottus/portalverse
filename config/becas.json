@@ -16,7 +16,7 @@
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1KUZbjSo1b_7q5U6UZoain-QVcS1H_Pt-"
+          "src": "https://drive.google.com/uc?export=view&id=1I4ku9VpOema24_j8rcbJ90A2ji77oMKE"
         }
       }
     },
@@ -38,7 +38,7 @@
       "tabs": {
         "items": [
           {
-            "label": "Beca Servicio", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "label": "Beca Servicio", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "beca-servicio",
             "content": {
               "image": {
                 "alt": "imagen",
@@ -51,7 +51,7 @@
             }
           },
           {
-            "label": "Beca Convenio", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "label": "Beca Convenio", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "beca-convenio",
             "content": {
               "image": {
                 "alt": "imagen",
@@ -64,7 +64,7 @@
             }
           },
           {
-            "label": "Beca Excelencia", "icons": {"primary": "", "duplicate": true }, "disabled": false, 
+            "label": "Beca Excelencia", "icons": {"primary": "", "duplicate": true }, "disabled": false, "id": "beca-excelencia", 
             "content": {
               "image": {
                 "alt": "imagen",
@@ -112,23 +112,6 @@
         "type": "vertical",
         "link": true,
         "background": false,
-        "linkText": {
-          "text": "link",
-          "isBold": true,
-          "size": "large",
-          "isUnderline": false,
-          "disabled": false,
-          "icon": "star"
-        },
-        "linkIcon": {
-          "text": "link",
-          "iconSecond": "",
-          "isBold": true,
-          "size": "large",
-          "isUnderline": false,
-          "disabled": false,
-          "icon": ""
-        },
         "wrapper": true
       }
     }

@@ -45,6 +45,7 @@ export type ButtonConfig = {
 type ButtonComponentData = {
   data: ButtonConfig;
   dark?: boolean; 
+  darkOutlined?: boolean;
   onClick?: () => void;
 }
 

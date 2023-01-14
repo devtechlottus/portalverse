@@ -4,6 +4,7 @@ export type ItemTabsComponent ={
 
 type TabsComponentConfig = {
   tabs: Array<ItemTabsComponent>;
+  active?: number;
   onActive: (status: number) => void;
 }
 
