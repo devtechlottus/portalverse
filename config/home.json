@@ -36,7 +36,7 @@
           "title": "Bachillerato",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1uNHXxqCeysOLfU9LsOO4uVlgddy00Byh",
+              "mobile": "https://drive.google.com/uc?export=view&id=15xSPr6TqmIb8edY2IQ5Vo06XHkhXKk4w",
               "desktop": "https://drive.google.com/uc?export=view&id=1uNHXxqCeysOLfU9LsOO4uVlgddy00Byh"
             },
             "text": "Bachillerato",
@@ -53,7 +53,7 @@
           "title": "Licenciaturas",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1jYWG-q0kMjA44B9bC6bMIZeJsmtVr6fK",
+              "mobile": "https://drive.google.com/uc?export=view&id=12OuWzFkABWZor5wOlz30Xagqz4vtiNff",
               "desktop": "https://drive.google.com/uc?export=view&id=1jYWG-q0kMjA44B9bC6bMIZeJsmtVr6fK"
             },
             "text": "Licenciaturas",
@@ -70,7 +70,7 @@
           "title": "Especialidades",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1ejK0WsnQMQ7ifzFL5XLt33Ix10cTbLek",
+              "mobile": "https://drive.google.com/uc?export=view&id=18l9HW09i3uCph12zbz3JNBZY-5ffSQ74",
               "desktop": "https://drive.google.com/uc?export=view&id=1ejK0WsnQMQ7ifzFL5XLt33Ix10cTbLek"
             },
             "text": "Especialidades",
@@ -87,7 +87,7 @@
           "title": "Maestrias",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1_9yjRHPOyA1AFwuKylmiIrd7Z2qaiIzw",
+              "mobile": "https://drive.google.com/uc?export=view&id=19uxxBiFgKArr8tsf-RB69Wy9NS5ztzf8",
               "desktop": "https://drive.google.com/uc?export=view&id=1_9yjRHPOyA1AFwuKylmiIrd7Z2qaiIzw"
             },
             "text": "Maestrias",
@@ -104,7 +104,7 @@
           "title": "Doctorado",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=15oWovsIyLzYFvET2qzcobLiq6UX4D8Rl",
+              "mobile": "https://drive.google.com/uc?export=view&id=1KFIqsq75X64vpDQXREjh_5L-om7JGxYc",
               "desktop": "https://drive.google.com/uc?export=view&id=15oWovsIyLzYFvET2qzcobLiq6UX4D8Rl"
             },
             "text": "Doctorado",
@@ -121,7 +121,7 @@
           "title": "Educación Continua",
           "promo": {
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1Ffy99QaEA-GzOD8plfJgTyZ1QyPKii9U",
+              "mobile": "https://drive.google.com/uc?export=view&id=1dAQU2RUTKLrYXFmQ7jfmMC56bj6FCbF3",
               "desktop": "https://drive.google.com/uc?export=view&id=1Ffy99QaEA-GzOD8plfJgTyZ1QyPKii9U"
             },
             "text": "Educación Continua",
@@ -145,14 +145,14 @@
       "bottom": true,
       "left": false,
       "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+        "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
         "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW"
       },
       "overlay": "black",
-      "height": "",
+      "height": "300px",
       "action": {
         "id": "",
-        "type": "outlined",
+        "type": "primary",
         "title": "Conocer más",
         "size": "small",
         "icon": "",
@@ -192,16 +192,16 @@
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "star"
+            "icon": "chevron_right"
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron_right",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron_right"
           },
           "wrapper": true
         },
@@ -224,16 +224,16 @@
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "star"
+            "icon": "chevron_right"
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron_right",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron_right"
           },
           "wrapper": true
         },
@@ -256,16 +256,16 @@
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "star"
+            "icon": "chevron_right"
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron_right",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron_right"
           },
           "wrapper": true
         }
@@ -273,7 +273,7 @@
     },
     "banner-podcast":{
       "title": "Podcast Voz UANE",
-      "subtitle": "Un espisodio nuevo cada 2 semanas en Spotify y Youtube",
+      "subtitle": "Un espisodio nuevo cada semana en Spotify y Youtube",
       "state": "black",
       "size": "medium",
       "middle": false,
@@ -281,14 +281,14 @@
       "bottom": false,
       "left": false,
       "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+        "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
         "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
       },
       "overlay": "",
-      "height": "",
+      "height": "300px",
       "action": {
         "id": "",
-        "type": "outlined",
+        "type": "primary",
         "title": "Conocer más",
         "size": "small",
         "icon": "",

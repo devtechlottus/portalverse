@@ -15,19 +15,43 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import { useRouter } from "next/router"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
+  const router = useRouter()
+
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
+  const [ allTabsId , setAllTabsId ] = useState<Array<string>>([]);
+
+  const setTabByQueryParam = (param: any, tabsIds:Array<string>) => {
+    console.log("tabsId", tabsIds)
+    if(!!param){
+      const {type} = router.query
+      const idTab = tabsIds.findIndex((tab: string) => tab === type)
+      console.log("idTab",idTab)
+      setTabActive(idTab === -1 ? 0 : idTab)
+    }
+  }
 
   useEffect(() => {
-    const allContents = sections.becas.tabs.items.reduce((prev: any, curr: any) => { 
-      const { content } = curr;
-      return  [...prev, content ];
-    }, []);
-    setContentTabs([...allContents]);
+    const {contents, ids} = sections.becas.tabs.items.reduce((prev: any, curr: any) => { 
+      const { content, id } = curr;
+      return  {...prev, contents: [...prev.contents, content], ids:[ ...prev.ids, id ] };
+    }, {contents: [], ids:[]});
+    setContentTabs([...contents]);
+    setAllTabsId([...ids]);
   }, [sections.becas.tabs]);
+
+  useEffect(() => {
+    console.log(router.query)
+    if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type') && !!allTabsId.length){
+      const {type} = router.query
+      setTabByQueryParam(type, allTabsId)
+    }
+  }, [router.query, allTabsId])
+
 
   return <>
     <Head>
@@ -53,11 +77,11 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
           <NumbersComponent data={ sections.estadisticas } />
         </div>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <TabsFeatured tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
+          <TabsFeatured active={tabActive} tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden">
-        <TabsFeatured tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
+        <TabsFeatured active={tabActive} tabs={sections.becas.tabs.items} onActive={(active: number) => setTabActive(active)} />
       </ContentFullLayout>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">

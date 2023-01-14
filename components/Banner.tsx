@@ -49,10 +49,18 @@ const Banner: FC<BannerComponentData> = memo(({ data, noAction = false, onBtn }:
 
   return <lottus-banner-portalverse ref={bannerPortalverseRef}>
     <div slot="areaBannerButtonDesk" className={cn({"hidden": noAction})}>
-      <Button data={{...data.action}} onClick={ onBtn }/>
+      {
+        data.action?.type === "primary" 
+          ? <Button dark data={{...data.action}} onClick={ onBtn }/> 
+          : <Button darkOutlined data={{...data.action}} onClick={ onBtn }/> 
+      }
     </div>
     <div slot="areaBannerButtonMobile" className={cn({"hidden": noAction})}>
-      <Button data={{...data.action, isExpand: true}} onClick={ onBtn } />
+      {
+        data.action?.type === "primary" 
+          ? <Button dark data={{...data.action, isExpand: true}} onClick={ onBtn } />
+          : <Button darkOutlined data={{...data.action, isExpand: true}} onClick={ onBtn } /> 
+      }
     </div>
   </lottus-banner-portalverse>
 });

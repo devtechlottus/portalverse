@@ -56,7 +56,7 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
             <Banner 
             data={sections.calendario.banner}
             onBtn={ ()=> {
-              router.push(`${router.pathname}/calendario-escolar`)
+              router.push(sections.calendario.banner.redirect)
             }}/>
           </div>
           : null
