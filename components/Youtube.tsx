@@ -1,30 +1,27 @@
-import { createRef, FC, memo, useEffect } from "react"
-import YoutubeComponentData from "@/types/Youtube.types"
+import React, { FC, memo, useEffect, useState } from "react"
+import cn from "classnames"
+import YoutubeComponentData from "@/types/Youtube.types";
+
 
 const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) => {
-  const youtubeRef = createRef();
-
+  const [ url, setURL ] = useState<string>("");
+  const [ dimensions, setDimensions ] = useState<any>({});
+  
   useEffect(() => {
-    const { options } = data;
-    (youtubeRef.current as any).data = { ...options };
-    // set title iframe
-    if (!!(youtubeRef.current as any).querySelector('iframe')) {
-      ((youtubeRef.current as any).querySelector('iframe') as HTMLIFrameElement).setAttribute("title", "video");
-      ((youtubeRef.current as any).querySelector('iframe') as HTMLIFrameElement).setAttribute("src", `https://www.youtube-nocookie.com/embed/${options?.id}`);
+    if (!!data?.options?.id!) {
+      setURL(`https://www.youtube.com/embed/${data?.options?.id!}`);
     }
-    if(data.hasOwnProperty('dimensions')) {
+
+    if(!!data.hasOwnProperty('dimensions')) {
       const { dimensions } = data;
       // set dimensions
-      if(!!dimensions && dimensions.hasOwnProperty('height')) {
-        (youtubeRef.current as HTMLElement).style.height = (dimensions!.height as string);
-      }
-      if(!!dimensions && dimensions.hasOwnProperty('width')) {
-        (youtubeRef.current as HTMLElement).style.width = (dimensions!.width as string);
-      }
+      setDimensions({ ...dimensions, width: !!dimensions.hasOwnProperty('width') ? (dimensions!.width as string) : "100%" ,height: !!dimensions.hasOwnProperty('height') ? (dimensions!.height as string) : "100%" })
     }
-  }, [data, youtubeRef]);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);
 
-  return <lottus-youtube ref={youtubeRef}></lottus-youtube>
-});
+  return <section className={cn("w-full")}>
+    <iframe width={dimensions.width} height={dimensions.height} className="w-full" title="video" src={url} />
+  </section>
+})
 
 export default Youtube

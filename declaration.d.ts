@@ -3,7 +3,6 @@ type CustomElementContainer<T, K extends string> = Partial<T & DOMAttributes<T> 
 
 declare namespace JSX {
   interface IntrinsicElements {
-    ['lottus-youtube']: CustomElement,
     ['lottus-lottie']: CustomElement,
     ['lottus-spotify']: CustomElement,
     ['lottus-rich-text']: CustomElement,
