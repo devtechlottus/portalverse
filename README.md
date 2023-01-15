@@ -117,7 +117,6 @@ Once this process is done, the project will start deploying and it will generate
     - [] lottus-rich-text
     - [] lottus-select
     - [] lottus-spotify
-    - [] lottus-youtube
 
 - Intructions:
     - Go to the project CampusLibraries-Virtual
