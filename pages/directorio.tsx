@@ -1,6 +1,5 @@
-import { ReactElement, useEffect } from "react"
+import { ReactElement } from "react"
 import Head from "next/head"
-import { useRouter } from "next/router"
 import DirectoryComponentData, { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -11,13 +10,6 @@ import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 
 const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta }: DirectoryComponentData) => {
-  const router = useRouter();
-
-  useEffect(() => {
-    if (!!meta.hidden) {
-      router.push("/404");
-    }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
   return <>
     <Head>
       <title>{ meta.title }</title>
@@ -44,6 +36,13 @@ const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta }: 
 
 export async function getStaticProps(context: any) {
   const { sections: { areas, head }, meta } = await getDataPageFromJSON('directorio.json');
+
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
 
   return {
     props: { areas, meta, head }

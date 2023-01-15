@@ -75,6 +75,13 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('ponte-en-contacto.json');
 
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
     props: { sections, meta }
   }

@@ -1,6 +1,5 @@
 import { Fragment, useEffect, useState } from "react"
 import Head from "next/head"
-import { useRouter } from "next/router"
 import cn from "classnames"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -19,16 +18,9 @@ import TabsFeatured from "@/components/TabsFeatured"
 
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
-  const router = useRouter();
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
-
-  useEffect(() => {
-    if (!!meta.hidden) {
-      router.push("/404");
-    }
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const allContents = sections.socialService.tabs.items.reduce((prev: any, curr: any) => { 
@@ -121,8 +113,14 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-
   const { sections, meta } = await getDataPageFromJSON('conexion-educativa.json');
+
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
 
   return {
     props: { sections, meta }

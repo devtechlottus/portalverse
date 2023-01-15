@@ -70,8 +70,14 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-
   const { sections, meta } = await getDataPageFromJSON('thank-you.json');
+
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
 
   return {
     props: { sections, meta }

@@ -36,6 +36,13 @@ const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, 
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('pedir-informacion.json');
 
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
     props: { sections, meta }
   }

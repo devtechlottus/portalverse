@@ -12,7 +12,6 @@ import Spotify from "@/components/Spotify"
 import BannerWrapper from "@/components/BannerWrapper"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
-
   const router = useRouter()
 
   return <>
@@ -69,8 +68,14 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
-
   const { sections, meta } = await getDataPageFromJSON('voz-UANE.json');
+
+  // redirect not avaliable page
+  if (!!meta.hidden) {
+    return {
+      notFound: true,
+    }
+  }
 
   return {
     props: { sections, meta }
