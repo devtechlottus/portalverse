@@ -6,8 +6,9 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx']
+    domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx', 'www.youtube.com']
   },
+  productionBrowserSourceMaps: true,
   webpack: (config, { isServer }) => {
     // console.log(process.env.ANALYZE)
     // if (!!process.env.ANALYZE) {
