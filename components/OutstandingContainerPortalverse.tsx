@@ -1,5 +1,5 @@
 import { FC, useEffect } from "react"
-import OustandingModule from "@/components/OustandingModule"
+import OustandingModule from "@/components/OutstandingModule/OustandingModule"
 import OutstandingContainerPortalverseComponentData from "@/types/OutstandingContainerPortalverse.types";
 
 const OutstandingContainer: FC<OutstandingContainerPortalverseComponentData> = ({ items }: OutstandingContainerPortalverseComponentData) => {
