@@ -140,9 +140,9 @@ const StepTwo: FC<any> = ({
   };
 
   useEffect(() => {
-    console.log("infoControls", infoControls)
-    console.log("errorControls", errorControls)
-    console.log("infoControlsTouched", infoControlsTouched)
+    // console.log("infoControls", infoControls)
+    // console.log("errorControls", errorControls)
+    // console.log("infoControlsTouched", infoControlsTouched)
   }, [infoControls, errorControls, infoControlsTouched])
 
   return <section className={cn(classNames)}>

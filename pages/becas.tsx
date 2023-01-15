@@ -26,11 +26,9 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   const [ allTabsId , setAllTabsId ] = useState<Array<string>>([]);
 
   const setTabByQueryParam = (param: any, tabsIds:Array<string>) => {
-    console.log("tabsId", tabsIds)
     if(!!param){
       const {type} = router.query
       const idTab = tabsIds.findIndex((tab: string) => tab === type)
-      console.log("idTab",idTab)
       setTabActive(idTab === -1 ? 0 : idTab)
     }
   }
@@ -45,7 +43,6 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   }, [sections.becas.tabs]);
 
   useEffect(() => {
-    console.log(router.query)
     if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type') && !!allTabsId.length){
       const {type} = router.query
       setTabByQueryParam(type, allTabsId)

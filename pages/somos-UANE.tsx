@@ -118,12 +118,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
             sections.ourScholarships.scholarships.map((item:any, i:number) => <section key={`section-schoolarships-${i}`}>
-              <PromoLink data={item} onClick={()=> {
-                //router.push(item.redirect)
-                const url= item.redirect.concat(`?type=${item.param}`)
-                console.log(url)
-                router.push(url)
-              }} typeShadowColor={item.shadowColor}/>
+              <PromoLink data={item} onClick={()=> { router.push(item.redirect.concat(`?type=${item.param}`)) }} typeShadowColor={item.shadowColor}/>
             </section>)
           }
         </div>
