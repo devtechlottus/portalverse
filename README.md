@@ -118,3 +118,14 @@ Once this process is done, the project will start deploying and it will generate
     - [] lottus-select
     - [] lottus-spotify
     - [] lottus-youtube
+
+- Intructions:
+    - Go to the project CampusLibraries-Virtual
+    - Go to the file `projects/lottus-ui/src/lib/components/components-lottus.module.ts` and comment all not necessary imports
+    - Go to the file `projects/lottus-ui/src/lib/components/index.components.ts` and comment all not necessary exports
+    - Go to the file `projects/lottus-ui/src/lib/lottus-ui.module.ts`and comment not necessary import
+    - Go to the file `projects/lottus-ui/src/public-api.ts` and comment all not necessary exports
+    - Run `ng build lottus-ui` to create a new build with only necessary elements to portalverse
+    * With all this configurations we get a bundle more lightweight and only contains all necessary to the project
+    - Go to the folder `projects/elements/src/app/components.ts` and comments all the imorts to show an error
+    - Continue the process to create a new version a library `lottus-elements-uane`
