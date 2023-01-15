@@ -6,7 +6,7 @@ export const getEducativeOffer = () => {
   const [ isError, setIsError ] = useState<boolean>(false);
   const [ data, setData ] = useState<any>({});
   const [ filterPrograms, setFilterPrograms ] = useState<any>(null);
-  const [ allPrograms, setAllPrograms ] = useState<Array<any>>([]);
+  const [ _, setAllPrograms ] = useState<Array<any>>([]);
   const [ sourceData, setSourceData ] = useState<any>({});
 
   const fetchData= async (domain: string, modalidad: string, linea: string, Authorization: string) => {
@@ -92,6 +92,11 @@ export const getEducativeOffer = () => {
     return selectCampus
   }
 
+  const getDataByProgramEC = (program: string ) => {
+    const programInfo = filterPrograms.filter((item: any) => item.nombrePrograma === program)[0]
+    return { ...programInfo }
+  }
+
   return {
     isLoading,
     isError,
@@ -100,6 +105,7 @@ export const getEducativeOffer = () => {
     sourceData,
     fetchData,
     filterByLevel,
-    filterByProgram
+    filterByProgram,
+    getDataByProgramEC
   } as const
 }
