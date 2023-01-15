@@ -1,0 +1,18 @@
+@supports (font-variation-settings: "wght" 400) {
+  * {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+  }
+}
+@supports (font-variation-settings: "wght" 600) {
+  * {
+    font-family: 'Nunito Sans';
+    font-weight: 600;
+  }
+}
+@supports (font-variation-settings: "wght" 700) {
+  * {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+  }
+}
