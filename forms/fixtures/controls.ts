@@ -8,7 +8,8 @@ const inputConfig = {
   label: "Ingresa tu matrícula",
   alphanumeric: true,
   alphabetical: false,
-  id: "matricula"
+  test: "matricula",
+  name: "matricula",
 };
 const buttonConfigStepOne = {
   ...ButtonInit,
@@ -22,7 +23,8 @@ const inputMailConfig = {
   alphanumeric: false,
   alphabetical: false,
   onlyNumbers: false,
-  id: "email"
+  test: "email",
+  name: "email",
 };
 const inputPhoneConfig = {
   ...InputInit,
@@ -31,13 +33,15 @@ const inputPhoneConfig = {
   alphanumeric: false,
   alphabetical: false,
   onlyNumbers: true,
-  id: "phone"
+  test: "phone",
+  name: "phone",
 };
 const inputCompanyConfig = {
   ...InputInit,
   iconLeft: "apartment",
   label: "Empresa para la que trabajas",
-  id: "company"
+  test: "company",
+  name: "company",
 };
 const buttonConfigStepTwo = {
   ...ButtonInit,
@@ -47,13 +51,15 @@ const inputNameOpenFormStepOne = {
   ...InputInit,
   iconLeft: "person",
   label: "Nombre",
-  id: "name"
+  test: "name",
+  name: "name",
 };
 const inputSurnameOpenFormStepOne = {
   ...InputInit,
   iconLeft: "person",
   label: "Apellidos",
-  id: "surname"
+  test: "surname",
+  name: "surname",
 };
 const inputPhoneOpenFormStepOne = {
   ...InputInit,
@@ -63,7 +69,8 @@ const inputPhoneOpenFormStepOne = {
   alphabetical: false,
   onlyNumbers: true,
   maxlength: '10',
-  id: "phone"
+  test: "phone",
+  name: "phone",
 };
 const inputEmailOpenFormStepOne = {
   ...InputInit,
@@ -72,7 +79,8 @@ const inputEmailOpenFormStepOne = {
   alphanumeric: false,
   alphabetical: false,
   onlyNumbers: false,
-  id: "mail"
+  test: "mail",
+  name: "mail",
 };
 const buttonConfigOpenFormStepOne = {
   ...ButtonInit,
@@ -94,7 +102,8 @@ const inputCommentOpenFormStepOther = {
   label: "Agrega un comentario",
   type: "textarea",
   maxlength: "100",
-  id: "comments"
+  test: "comments",
+  name: "comments",
 };
 
 const errorMessagesStepOneOpenForm = {

@@ -21,7 +21,8 @@ const Input: FC<InputComponentData> = memo(({ data, value, hasError, errorMessag
       upperCase: data.upperCase,
       pattern: data.pattern || '',
       mask: data.mask || "",
-      iconLeft: data.iconLeft || ""
+      iconLeft: data.iconLeft || "",
+      test: data.test || ""
     }
   }, [data]);// eslint-disable-line react-hooks/exhaustive-deps
 
