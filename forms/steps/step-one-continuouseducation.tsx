@@ -21,8 +21,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
     phone: "",
     email: "",
     program: "",
-    contacto: "",
-    horario: ""
+    contacto: "contact",
+    horario: "schedule"
   });
   const [ infoControlsTouched, setInfoControlsTouched ] = useState<any>({
     name: false,
@@ -96,9 +96,9 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
       return !!value[1].match(configControls.patternEmail) ? !!value[1].match(configControls.patternEmail).length : true
     }
     if(value[0] === 'phone') {
-      return value[1].length === 10
+      return value[1].trim().length === 10
     }
-    return !!value[1];
+    return !!value[1].trim();
   }).includes(false)
 
   const validateControl = (control: string, value: string, touched: boolean) => {
@@ -106,9 +106,9 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
       return touched ? !value.match(configControls.patternEmail) : false;
     }
     if (control === 'phone') {
-      return touched ? !(value && value.length === 10) : false;
+      return touched ? !(value.trim() && value.trim().length === 10) : false;
     }
-    return touched ? !value : false;
+    return touched ? !value.trim() : false;
   };
 
   const handleTouchedControl = (control: string) => {
