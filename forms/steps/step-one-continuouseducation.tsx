@@ -21,6 +21,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
     phone: "",
     email: "",
     program: "",
+    contacto: "",
+    horario: ""
   });
   const [ infoControlsTouched, setInfoControlsTouched ] = useState<any>({
     name: false,
@@ -28,6 +30,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
     phone: false,
     email: false,
     program: false,
+    contacto: true,
+    horario: true
   });
   const [ errorControls, setErrorControls ] = useState<any>({
     name: false,
@@ -35,6 +39,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
     phone: false,
     email: false,
     program: false,
+    contacto: true,
+    horario: true
   });
   const [ dataPrograms, setDataPrograms ] = useState<Array<any>>([])
 
@@ -60,6 +66,8 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
         phone: true,
         email: true,
         program: true,
+        contacto: true,
+        horario: true
       });
       const newValidation = {
         name: validateControl("name", infoControls.name, true),
