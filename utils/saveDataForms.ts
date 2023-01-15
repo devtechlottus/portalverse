@@ -24,7 +24,7 @@ export const saveDataForms = () => {
    return lead;
   }
 
-  const saveData = (step: string, data: any, Authorization: string, linea?: string) => {
+  const saveData = async(step: string, data: any, Authorization: string, linea?: string) => {
     const bot = setRegisterBot();
     const params = step === 'step1'
       ? `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${linea}&modalidad=${data.modality}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=landing`
@@ -33,7 +33,7 @@ export const saveDataForms = () => {
     setIsLoading(true);
     setIsError(false);
     setData({});
-    axios.post(`${stepsEndpoints[step]}?${params}`,{},{
+    await axios.post(`${stepsEndpoints[step]}?${params}`,{},{
       headers: {
         Authorization,
         'Content-Type': 'application/json;charset=UTF-8'
@@ -57,9 +57,37 @@ export const saveDataForms = () => {
       })
   }
 
-  const saveDataEducacionContinua = (info: any, Authorization: string, linea?: string) => {
+  const saveDataEducacionContinua = async(data: any, Authorization: string, linea?: string) => {
     const bot = setRegisterBot();
-  } 
+    const params = `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${!!linea ? linea : data.lineaNegocio}&modalidad=${data.modalidad}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=landing`;
+  
+    setIsLoading(true);
+    setIsError(false);
+    await axios.post(`${stepsEndpoints.step1}?${params}`,{},{
+      headers: {
+        Authorization,
+        'Content-Type': 'application/json;charset=UTF-8'
+      }
+    })
+      .then((res: any) => {
+        if (res.data.Exitoso === "False") {
+          setIsError(true);
+          setIsLoading(false);
+        } else {
+          const horarioContacto = res.data.Horario_de_contacto.slice(1, -1).split(",")[0]
+          const medioContacto = res.data.medio_de_contacto.slice(1, -1).split(",")[0]
+          saveData("step3", { ...data, horarioContacto, medioContacto, id: res.data.id }, Authorization)
+          setIsError(false);
+          setIsLoading(false);
+        }
+      })
+      .catch((err: any) => {
+        console.log("err", err)
+        setData({});
+        setIsLoading(false);
+        setIsError(true);
+      })
+  }
 
   return {
     isLoading,
