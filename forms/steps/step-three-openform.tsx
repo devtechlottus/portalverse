@@ -113,8 +113,8 @@ const StepThree: FC<any> = ({ classNames, step, data, contacts, schedulers, onNe
           <p className="font-Nunito-Sans text-sm leading-[17px] font-normal">{ data.program }</p>
         </div>
         <div className="flex">
-          <h3 className="font-Nunito-Sans text-base leading-[17px] font-bold">{ config.labelCampus }</h3>
-          <p className="font-Nunito-Sans text-base leading-[17px]">{ data.campus }</p>
+          <h3 className="font-Nunito-Sans text-sm leading-[17px] font-bold mr-1">{ config.labelCampus }</h3>
+          <p className="font-Nunito-Sans text-sm leading-[17px]">{ data.campus }</p>
         </div>
       </div>
       <div className="cursor-pointer" onClick={handleChangeInfo}>
