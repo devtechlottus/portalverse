@@ -79,7 +79,7 @@
         { "label": "Contacto", "principal": true, "link": "" },
         { "label": "Línea segura", "principal": false, "link": "" },
         { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general" },
-        { "label": "Envíanos un mensaje", "principal": false, "link": "pedir-informacion" }
+        { "label": "Envíanos un mensaje", "principal": false, "link": "/ponte-en-contacto" }
       ],
       [
         { "label": "Comunidad UANE", "principal": true, "link": "" },
