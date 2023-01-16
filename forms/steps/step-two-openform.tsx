@@ -21,7 +21,9 @@ const StepTwo: FC<any> = ({
   onLevelSelected,
   programs,
   onChangeProgram,
-  campus
+  campus,
+  programDefault,
+  levelDefault
 }: any) => {
 
   const [ config, setConfig ] = useState<any>({ ...OpenFormInit.steptwo });
@@ -49,11 +51,13 @@ const StepTwo: FC<any> = ({
   const [ dataModalities, setDataModalities ] = useState<Array<any>>([]);
   const [ dataPrograms, setDataPrograms ] = useState<Array<any>>([]);
   const [ dataCampus, setDataCampus ] = useState<Array<any>>([]);
+  const [ defaultValues, setDefaultValues ] = useState<any>({});
 
   useEffect(() => {
     if (!!modality) {
       setDataModalities(Modalities.map((item: any) => ({ ...item, active: item.value === modality })));
-      setInfoControls({ ...infoControls, modality, level: "", program: "", campus: "" });
+      setInfoControls({ ...infoControls, modality, level: !!defaultValues.level ? defaultValues.level : "", program: "", campus: "" });
+      setInfoControlsTouched({ ...infoControlsTouched, modality: true });
       return
     }
     setDataModalities([ ...Modalities ]);
@@ -62,6 +66,23 @@ const StepTwo: FC<any> = ({
   useEffect(() => {
     setDataPrograms([ ...programs ]);
   }, [programs])
+  
+  useEffect(() => {
+    if (!!programDefault && !!dataPrograms.length && !infoControls.program) {
+      setDefaultValues({ ...defaultValues, program: programDefault });
+      onChangeProgram(programDefault);
+      setInfoControls({ ...infoControls, program: programDefault });
+      setInfoControlsTouched({ ...infoControlsTouched, program: true });
+    }
+  }, [programDefault, dataPrograms])
+
+  useEffect(() => {
+    if (!!levelDefault) {
+      setDefaultValues({ ...defaultValues, level: levelDefault });
+      setInfoControls({ ...infoControls, level: levelDefault });
+      setInfoControlsTouched({ ...infoControlsTouched, level: true });
+    }
+  }, [levelDefault])
   
   useEffect(() => {
     setDataCampus([ ...campus ]);
@@ -109,7 +130,7 @@ const StepTwo: FC<any> = ({
 
   const handleChangeModality = (option: CustomEvent) => {
     const { detail: modality } = option;
-    setInfoControls({ ...infoControls, modality, level: "", program: "", campus: "" });
+    setInfoControls({ ...infoControls, modality, level: !!defaultValues.level ? defaultValues.level : "", program: "", campus: "" });
     setDataModalities(Modalities.map((item: any) => ({ ...item, active: item.value === modality })));
     onChangeModality(modality);
     setActivePill(-1);
@@ -138,12 +159,6 @@ const StepTwo: FC<any> = ({
   const validateControl = (value: string, touched: boolean) => {
     return touched ? !value : false;
   };
-
-  useEffect(() => {
-    // console.log("infoControls", infoControls)
-    // console.log("errorControls", errorControls)
-    // console.log("infoControlsTouched", infoControlsTouched)
-  }, [infoControls, errorControls, infoControlsTouched])
 
   return <section className={cn(classNames)}>
     <h1>{ config.title }</h1>

@@ -74,22 +74,22 @@ export const getEducativeOffer = () => {
           return { ...prev, [nombrePrograma]: [{ periodo, nombrePrograma, idPrograma, idCampus, nombreCampus }] }
         }
         return { ...prev, [nombrePrograma]: [ ...prev[nombrePrograma], { periodo, nombrePrograma, idPrograma, idCampus, nombreCampus }] }
-
       }
       return { ...prev }
     }, {})
 
     setSourceData({ ...sourceData });
 
-    return Object.keys(sourceData).map( (value: string) => ({active:false, value, text: value}) )
+    const dataFiltered = Object.keys(sourceData).map( (value: string) => ({active:false, value, text: value}) )
+
+    return dataFiltered
   }
 
   const filterByProgram = (program: string) => {
-    const selectCampus = sourceData[program].reduce((prev: any[], { idCampus: value, nombreCampus: text }: any) => {
+    const selectCampus = sourceData[program]?.reduce((prev: any[], { idCampus: value, nombreCampus: text }: any) => {
       return !prev.filter( (c: any) => c.value === value ).length ? [ ...prev, { active: false, value, text } ] : [ ...prev ]
-    }, [])
-
-    return selectCampus
+    }, []);
+    return selectCampus;
   }
 
   const getDataByProgramEC = (program: string ) => {

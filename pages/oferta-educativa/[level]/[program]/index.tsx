@@ -190,7 +190,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           {
             level === 'bachillerato'
               ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
-              : <OpenFormSuperior copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
+              : <OpenFormSuperior levelDefault={config.config.nivel[0]} programDefault={config.config.nombre} copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
           }
           
         </div>
