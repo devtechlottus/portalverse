@@ -50,9 +50,9 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
           <div className="col-span-7 w-t:col-span-8 w-p:col-span-4">
             <ContentInsideLayout classNames="grid-cols-7 w-t:grid-cols-8">
-              <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 col-start-3 col-end-11 w-t:col-start-1 w-t:col-end-8 w-p:col-start-1 w-p:col-end-4">
+              <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 col-start-3 col-end-11 w-t:col-start-1 w-t:col-end-8 w-p:col-start-1 w-p:col-end-5">
                 <div className="mt-18">
-                  <ReasonsToContact />
+                  <ReasonsToContact image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThanyouOtherReason="/thank-you" pathThanyouOpenForm="/thank-you" />
                 </div>
               </div>
             </ContentInsideLayout>
