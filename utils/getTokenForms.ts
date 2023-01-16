@@ -12,7 +12,7 @@ export const getTokenForms = () => {
 
     setIsLoading(true);
     setIsError(false);
-    axios.post(`${process.env.NEXT_PUBLIC_TOKEN!}?${params}`)
+    await axios.post(`${process.env.NEXT_PUBLIC_TOKEN!}?${params}`)
       .then( (res: any) => {
         const { data: { access_token, token_type } } = res;
         setToken({ access_token, token_type });

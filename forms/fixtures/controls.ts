@@ -132,6 +132,14 @@ const errorMessagesStepOneOpenFormContinuous = {
   program: 'Debes elegir un programa'
 }
 
+const errorMessagesFormEgresados = {
+  matricula: 'Ingresa matricula',
+  email: 'Ingresa un correo electrónico válido',
+  phone: 'Ingresa un teléfono de 10 dígitos',
+  company: 'Debes proporcionar el nombre de la empresa',
+  activeCompany: 'Debes seleccionar una opción'
+}
+
 export default {
   inputConfig,
   buttonConfigStepOne,
@@ -151,5 +159,6 @@ export default {
   errorMessagesStepOneOpenForm,
   errorMessagesStepTwoOpenForm,
   errorMessagesStepThreeOpenForm,
-  errorMessagesStepOneOpenFormContinuous
+  errorMessagesStepOneOpenFormContinuous,
+  errorMessagesFormEgresados
 }

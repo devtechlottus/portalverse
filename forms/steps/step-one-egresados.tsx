@@ -10,9 +10,17 @@ import EgresadosStepComponentData from "@/types/EgresadosStep.types"
 const StepOne: FC<EgresadosStepComponentData> = ({ data, classNames, onNext }: EgresadosStepComponentData) => {
 
   const { inputConfig, buttonConfigStepOne: buttonConfig } = configControls;
+  const [ infoControls, setInfoControls ] = useState<any>({
+    matricula: "",
+  });
+  const [ infoControlsTouched, setInfoControlsTouched ] = useState<any>({
+    matricula: false,
+  });
+  const [ errorControls, setErrorControls ] = useState<any>({
+    matricula: false,
+  });
 
   const [ config, setConfig ] = useState<any>({ ...BeWantedInit });
-  const [ enrollment, setEnrollment ] = useState<string>("");
 
   useEffect(() => {
     setConfig({ ...config, ...data });
@@ -20,20 +28,44 @@ const StepOne: FC<EgresadosStepComponentData> = ({ data, classNames, onNext }: E
 
   const handleNext = () => {
     if (!!onNext) {
-      onNext(enrollment)
+      setInfoControlsTouched({
+        matricula: true,
+      });
+      const newValidation = {
+        matricula: validateControl("matricula", infoControls.matricula, true),
+      };
+      setErrorControls({ ...newValidation });
+      console.log(newValidation)
+      if (validateControls()) {
+        onNext(infoControls)
+      }
     }
   }
 
-  const handleKeyPress = (e: CustomEvent) => {
+  const validateControls = () => !Object.entries(infoControls).map((value: any) => {
+    return !!value[1].trim();
+  }).includes(false)
+
+  const validateControl = (control: string, value: string, touched: boolean) => {
+    return touched ? !value.trim() : false;
+  };
+
+  const handleKeyPress = (e: CustomEvent, control: string) => {
     const { detail: { value } } = e;
-    setEnrollment(value);
+    setInfoControls({ ...infoControls, matricula: value });
+    setErrorControls({ ...errorControls, [control]: validateControl(control, value, infoControlsTouched[control])});
+  }
+
+  const handleTouchedControl = (control: string) => {
+    setInfoControlsTouched({ ...infoControlsTouched, [control]: true });
+    setErrorControls({ ...errorControls, [control]: validateControl(control, infoControls[control], infoControlsTouched[control])});
   }
 
   return <section className={cn(classNames)}>
     <h1 className="font-Poppins font-semibold text-[22px] leading-7">{ config.title }</h1>
     <p className="font-Nunito-Sans font-normal text-base leading-4 mt-6">{ config.subtitle }</p>
     <div className="mt-6">
-      <Input data={ inputConfig } eventKeyPress={(e: CustomEvent) => handleKeyPress(e)} />
+      <Input errorMessage={configControls.errorMessagesFormEgresados.matricula} hasError={errorControls.matricula} data={ inputConfig } eventFocus={() => handleTouchedControl("matricula")} eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "matricula")} />
     </div>
     <div className="mt-6">
       <RichtText data={{ content: config.message }} />
