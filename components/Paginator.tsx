@@ -5,7 +5,7 @@ const Paginator: FC<PaginatorData> = memo(({ data, onClick}: PaginatorData) => {
   const paginatorPortalverseRef = createRef();
   
   useEffect(() => {
-    (paginatorPortalverseRef.current as any) = {
+    (paginatorPortalverseRef.current as any).data = {
       iconPrevious: data.iconPrevious|| '',
       iconNext: data.iconNext || '',
       size: data.size || '',

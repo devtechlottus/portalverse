@@ -35,17 +35,15 @@
     [
       [
         { "label": "Estudiantes", "principal": true, "link": "" },
-        { "label": "SIUANE", "principal": false, "link": "" },
-        { "label": "Aula virtual", "principal": false, "link": "" },
-        { "label": "Biblioteca digital", "principal": false, "link": "" },
-        { "label": "Calendario escolar", "principal": false, "link": "" },
-        { "label": "Servicios escolares", "principal": false, "link": "" },
+        { "label": "SIUANE", "principal": false, "link": "https://sistema.uane.edu.mx/" },
+        { "label": "Aula virtual", "principal": false, "link": "https://aula.uane.mx/login/index.php " },
+        { "label": "Biblioteca digital", "principal": false, "link": "https://biblioteca.uane.edu.mx/ " },
         { "label": "Reglamento universitario", "principal": false, "link": "" }
       ],
       [
         { "label": "Exalumnos", "principal": true, "link": "" },
-        { "label": "Beneficios ExaUANE", "principal": false, "link": "" },
-        { "label": "SIUANE para egresados", "principal": false, "link": "" }
+        { "label": "Beneficios ExaUANE", "principal": false, "link": "/egresados" },
+        { "label": "SIUANE para egresados", "principal": false, "link": "https://sistema.uane.edu.mx/" }
       ]
     ],
     [
@@ -73,8 +71,7 @@
         { "label": "Certificaciones", "principal": false, "link": "" },
         { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo" },
         { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad" },
-        { "label": "Centro de apoyo psicopedagógico", "principal": false, "link": "" },
-        { "label": "Prácticas profesionales", "principal": false, "link": "" }
+        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa" }
       ]
     ],
     [

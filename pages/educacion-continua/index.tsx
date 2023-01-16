@@ -23,7 +23,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
       <ContentLayout>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-[72px]">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5 leading-[60px] w-p:leading-[125%] w-t:leading-[111%]">{sections.head.title}</p>
-          <p className="font-Poppins font-old text-5.5 w-t:text-base w-p:text-base leading-[130%] my-6">{sections.head.subtitle}</p>
+          <p className="font-Poppins font-semibold text-5.5 w-t:text-base w-p:text-base leading-[130%] my-6">{sections.head.subtitle}</p>
           <RichtText data={{
             content: sections.head.description
           }} />

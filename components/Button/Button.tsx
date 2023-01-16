@@ -33,7 +33,13 @@ const Button: FC<ButtonComponentData> = memo(({ data, onClick, dark, darkOutline
     }
   }, [onClick]);// eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-button class={cn({ "dark": dark,  "darkOutlined" : darkOutlined})} ref={buttonPortalverseRef}></lottus-button>
+  return <>
+        {
+          data.disabled 
+          ? <lottus-button ref={buttonPortalverseRef}></lottus-button> 
+          : <lottus-button class={cn({ "dark": dark,  "darkOutlined" : darkOutlined})} ref={buttonPortalverseRef}></lottus-button>
+        }  
+        </>
 });
 
 export default Button

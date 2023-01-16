@@ -25,21 +25,6 @@
   },
   "programs": [
     {
-      "title": "Doctorado en Derecho",
-      "config": {
-        "nombre": "Doctorado en Derecho",
-        "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias Sociales"],
-        "campus": ["Saltillo"],
-        "nivel": ["Posgrado"],
-        "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1htVQsvA7MczYu8VsTzTzlnzHsKCAO_rT",
-          "alt": "doctorado"
-        }
-      },
-      "route": "derecho"
-    },
-    {
       "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
       "config": {
         "nombre": "Doctorado en Planeación y Liderazgo Ejecutivo",

@@ -28,7 +28,7 @@
       "title": "Licenciatura en Administración de Empresas",
       "config": {
         "nombre": "Licenciatura en Administración de Empresas",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
@@ -133,7 +133,7 @@
       "title": "Licenciatura en Administración de Empresas Turísticas",
       "config": {
         "nombre": "Licenciatura en Administración de Empresas Turísticas",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": [ "Saltillo", "Torreon" ],
         "nivel": ["Licenciatura"],
@@ -148,7 +148,7 @@
       "title": "Ingeniería Industrial y de Sistemas",
       "config": {
         "nombre": "Ingeniería Industrial y de Sistemas",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
@@ -208,7 +208,7 @@
       "title": "Licenciatura en Administración de Recursos Humanos",
       "config": {
         "nombre": "Licenciatura en Administración de Recursos Humanos",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],

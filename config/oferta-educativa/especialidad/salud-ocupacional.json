@@ -10,7 +10,7 @@
       "nombre": "Especialidad en Salud Ocupacional",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias de la Salud"],
-      "campus": ["Saltillo", "Torreon", "Monclova", "Monterrey"],
+      "campus": ["Saltillo", "Torreon", "Monclova"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1_Knwh3LL_gDy7Q-Vg-dAU-tI-y8mwIxb",
@@ -20,8 +20,7 @@
         "Presencial": {
           "Saltillo": "1tk9u4Pmf8NjQDtPrdmBGwYqQmk9aFWvH",
           "Torreon": "1Q51UjuQeXqRhow6SQZSSEV45f1m8_WY5",
-          "Monclova": "1_Zj1AeUM8bPZqis8rLVL02A1TJmMAuxo",
-          "Monterrey": ""
+          "Monclova": "1_Zj1AeUM8bPZqis8rLVL02A1TJmMAuxo"
         },
         "Online": "1IhAodQlV6GCK5VUz1LKDpCYlZEDsdv04"
       }

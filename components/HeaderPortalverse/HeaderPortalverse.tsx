@@ -41,16 +41,16 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[143px] h-10" classNamesImg="w-[143px] h-[38px]" />
       </div>
       <div className={cn("flex flex-col flex-grow p-1")}>
-        <div className="flex justify-end pr-6 gap-6">
-          <span>Accesos para:</span>
+        <div className="flex justify-end pr-6 gap-6 font-Nunito text-gray-500 text-sm">
+          <span className="font-normal">Accesos para:</span>
           <Link href="/alumnos" passHref>
             <a>
-              <p>Alumnos</p>
+              <p className="font-bold">Alumnos</p>
             </a>
           </Link>
           <Link href="/egresados" passHref>
             <a>
-              <p>Egresados</p>
+              <p className="font-bold">Egresados</p>
             </a>
           </Link>
         </div>
@@ -60,7 +60,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
               menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
                 <Link passHref href={item.route}>
                   <a className="flex">
-                    <p>{item.label}</p>
+                    <p className="font-Nunito font-bold text-sm">{item.label}</p>
                   </a>
                 </Link>
                 <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
