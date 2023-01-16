@@ -31,8 +31,10 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
   const [ idLead, setIdLead ] = useState<string>("");
   const [ contacts, setContacts ] = useState<string>("");
   const [ schedulers, setSchedulers ] = useState<string>("");
-  const [ activeLoader, setActiveLoader ] = useState<boolean>(false)
-  const [ errorLoader, setErrorLoader ] = useState<boolean>(false)
+  const [ activeLoader, setActiveLoader ] = useState<boolean>(false);
+  const [ errorLoader, setErrorLoader ] = useState<boolean>(false);
+  const [ returnedStep, setReturnedStep ] = useState<boolean>(false);
+
 
   const { isLoading, isError, token } = getTokenForms();
 
@@ -82,7 +84,7 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
   }, [isLoadingSD, isErrorSD, dataSD]);
 
   useEffect(() => {
-    if (!!Object.keys(tokenActive).length && step === 2) {
+    if (!!Object.keys(tokenActive).length && step === 2 && !returnedStep) {
       handleFetchEducativeOffer(infoForm.step1.modality);
     }
   }, [tokenActive, step]);
@@ -151,6 +153,11 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
     setErrorLoader(isError || isErrorEO || isErrorSD)
   }, [isError, isErrorEO, isErrorSD])
 
+  const handleReturnedStep = (step: number) => {
+    setReturnedStep(true);
+    setStep(step);
+  }
+
   return <section className={cn("p-6 shadow-15 bg-white relative", classNames)}>
     <div className={cn("absolute w-full h-full z-10 flex justify-center items-center left-0 top-0", { "hidden": !activeLoader, "block": activeLoader })}>
       <Image src="/images/loader.gif" alt="loader" classNames={cn("w-10 h-10 top-0 left-0")} />
@@ -163,7 +170,7 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
     </div>
     <StepOne data={data} step={30} classNames={cn({ "hidden": step !== 1 })} image={image} onNext={(info: any) => handleNextStep(info, 1)} />
     <StepTwo campus={filteredCampus} programs={filteredPrograms} onChangeProgram={(program: string) => handleProgramSelected(program)} onLevelSelected={(level: string) => handleLevelSelected(level)} onChangeModality={(modality: string) => handleFetchEducativeOffer(modality)} modality={infoForm.step1.modality} levels={levelsOffer} step={60} classNames={cn({ "hidden": step !== 2 })} onNext={(info: any) => handleNextStep(info, 2)} controls={{...controlsConfig}} />
-    <StepThree onReturnStep={(step: number) => setStep(step)} contacts={contacts} schedulers={schedulers} onNext={(info: any) => handleNextStep(info, 3)} step={90} data={{ modality: infoForm.step2.modality, program: infoForm.step2.nameProgram, level: infoForm.step2.level, campus: infoForm.step2.nombreCampus }} classNames={cn({ "hidden": step !== 3 })} />
+    <StepThree onReturnStep={(step: number) => handleReturnedStep(step)} contacts={contacts} schedulers={schedulers} onNext={(info: any) => handleNextStep(info, 3)} step={90} data={{ modality: infoForm.step2.modality, program: infoForm.step2.nameProgram, level: infoForm.step2.level, campus: infoForm.step2.nombreCampus }} classNames={cn({ "hidden": step !== 3 })} />
   </section>
 }
 
