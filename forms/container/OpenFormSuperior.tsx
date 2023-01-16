@@ -74,7 +74,7 @@ const OpenFormSuperior: FC<any> = ({ classNames, image, pathThankyou, controls, 
   }, [tokenActive, step, returnedStep]);
 
   useEffect(() => {
-    if (!isLoadingEO && !isErrorEO && !!Object.keys(dataSD).length) {
+    if (!isLoadingSD && !isErrorSD && !!Object.keys(dataSD).length) {
       setDataPersonal({ ...dataSD });
       if (!idLead) {
         setIdLead(dataSD.id);
