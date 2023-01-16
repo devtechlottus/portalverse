@@ -111,7 +111,8 @@ const errorMessagesStepOneOpenForm = {
   surname: 'Ingresa tus apellidos',
   email: 'Ingresa un correo electrónico válido',
   phone: 'Ingresa un teléfono de 10 dígitos',
-  modality: 'Debes elegir una modalidad'
+  modality: 'Debes elegir una modalidad',
+  comment: 'Proporciona el mensaje para contactarte'
 }
 const errorMessagesStepTwoOpenForm = {
   modality: 'Debes elegir una modalidad',
