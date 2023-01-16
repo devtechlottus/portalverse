@@ -7,6 +7,7 @@ import NextPageWithLayout from "@/types/Layout.types"
 import Banner from "@/components/Banner"
 import Spotify from "@/components/Spotify"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Paginator from "@/components/Paginator"
 
 
 const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -43,7 +44,13 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </section>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-          
+          <Paginator data={{
+            iconPrevious: "arrow_left_ios",
+            iconNext: "arrow_right_ios",
+            size: "small",
+            maxNumbers: 2,
+            id: "undefined"
+          }} /> 
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
@@ -54,6 +61,9 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentFullLayout>
+      <ContentLayout>
+        
+      </ContentLayout>
 
     </HeaderFooterLayout>
   </>

@@ -64,8 +64,8 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
                   return <Fragment key={`section-access-${j}`}>
                     {
                       !!item.link
-                        ? <Link href={item.link} passHref><a><p className={cn({ "font-bold": item.principal })}>{item.label}</p></a></Link>
-                        : <p className={cn({ "font-bold": item.principal })}>{item.label}</p>
+                        ? <Link href={item.link} passHref><a><p className={cn({ "font-bold": item.principal, "font-normal": !item.principal })}>{item.label}</p></a></Link>
+                        : <p className={cn({ "font-bold": item.principal, "font-normal": !item.principal})}>{item.label}</p>
                     }
                   </Fragment>
                 })

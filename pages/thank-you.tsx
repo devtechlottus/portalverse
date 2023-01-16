@@ -52,7 +52,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
                 {
                   sections.agradecimiento.social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref>
                       <a target={"_blank"}>
-                        <Icon name={item.name} className="w-5 h-5 text-white" />
+                        <Icon name={item.name} className="w-14 h-14 text-white" />
                       </a>
                     </Link>)
                 }

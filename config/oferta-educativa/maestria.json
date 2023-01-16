@@ -60,7 +60,7 @@
         "nombre": "Maestría en Efectividad Organizacional",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+        "campus": ["Saltillo", "Torreon", "Piedras Negras"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1G0CnmnAy8oSPWcKl27h0FzPfNWS0Tntf",
@@ -120,7 +120,7 @@
         "nombre": "Maestría en Derecho Laboral",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": ["Matamoros", "Monclova", "Saltillo"],
+        "campus": ["Monclova", "Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1savY3UxaZs4eoAh3SmyE2bESVQ7e9vJb",
@@ -210,7 +210,7 @@
         "nombre": "Maestría en Educación",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": ["Torreon"],
+        "campus": ["Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1HL06-lU2N3Tc4Tm95P3DjYbt-Yo-c8SH",

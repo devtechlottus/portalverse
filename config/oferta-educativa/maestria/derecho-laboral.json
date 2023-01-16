@@ -10,7 +10,7 @@
       "nombre": "Maestría en Derecho Laboral",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": ["Matamoros", "Monclova", "Saltillo"],
+      "campus": ["Monclova", "Saltillo"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1I4_u35eDTpulrPY-C7KcNr-KAXvysbWM",
@@ -18,7 +18,6 @@
       },
       "curriculum": {
         "Presencial": {
-          "Matamoros": "",
           "Monclova": "1SbHfqBOxMyQiz_U7JnXIBkfnZEZSh-oE",
           "Saltillo": "1HcltYWolYzaYsvuv4TcZNkvW5dZLNKR_"
         }
@@ -75,7 +74,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
                   },
                   "title": "Requisitos de admisión",
-                  "text": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                  "text": "Acta de nacimiento original del cajero reciente y 2 copias\n\nCopia fiel del título (Constancia de trámite en caso de aún no tener el título)\n\nCopia de cédula (traer original para copia)\n\nImpresión de CURP directo de intenet sin ampliación\n\n CV y Constancia laboral\n\n Fotografías (Preguntar por especificaciones)\n\n Solicitud de Admisión",
                   "backgroundColor": "#00BEB4"
                 }
               ],
