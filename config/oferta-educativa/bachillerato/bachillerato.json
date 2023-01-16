@@ -136,7 +136,7 @@
   "form": {
     "config": {
       "level": { "hidden": true, "value": "bachillerato" },
-      "program": { "hidden": true, "value": "bachillerato" },
+      "program": { "hidden": false },
       "modality": { "hidden": false },
       "campus": { "hidden": false }
     },
