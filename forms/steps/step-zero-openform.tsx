@@ -9,9 +9,14 @@ import { SelectInit } from "@/components/fixture"
 
 const StepZero: FC<any> = ({ classNames, step, onNext }: any) => {
 
-  const [ config, setConfig ] = useState<any>({ ...OpenFormInit.stepzero });
+  const [ config ] = useState<any>({ ...OpenFormInit.stepzero });
+  const [ options, setOptions ] = useState<Array<any>>([])
   const [ progress, setProgress ] = useState<number>(0);
   const [ reason, setReason ] = useState<string>("");
+
+  useEffect(() => {
+    setOptions([ ...QuestionStepZero ]);
+  }, []);
 
   useEffect(() => {
     setProgress(step);
@@ -26,6 +31,7 @@ const StepZero: FC<any> = ({ classNames, step, onNext }: any) => {
   const handleSelectedOption = (option: CustomEvent) => {
     const { detail } = option;
     setReason(detail);
+    setOptions(options.map((item: any) => ({ ...item, active: item.value === detail })))
   }
 
   return <section className={cn(classNames)}>
@@ -35,7 +41,7 @@ const StepZero: FC<any> = ({ classNames, step, onNext }: any) => {
         <ProgressBar data={{ progress }} />
       </div>
     <div className="mt-6">
-      <Select onClick={(option: CustomEvent) => handleSelectedOption(option)} options={[...QuestionStepZero]} data={{ ...SelectInit, textDefault: "Elige una opción" }}  />
+      <Select onClick={(option: CustomEvent) => handleSelectedOption(option)} options={[...options]} data={{ ...SelectInit, textDefault: "Elige una opción" }}  />
     </div>
     <div className="flex mt-8">
       <Button dark onClick={handleNext} data={ configControls.buttonConfigOpenFormStepOne } />
