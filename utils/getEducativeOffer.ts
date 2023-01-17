@@ -15,7 +15,7 @@ export const getEducativeOffer = () => {
 
     setIsLoading(true);
     setIsError(false);
-    axios.get(
+    await axios.get(
       `${domain}`, {
         params: {
           linea

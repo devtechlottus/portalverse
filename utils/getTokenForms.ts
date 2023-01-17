@@ -29,9 +29,9 @@ export const getTokenForms = () => {
   const validateData = () => setIsValidateData(!!process.env.NEXT_PUBLIC_TOKEN && !!process.env.NEXT_PUBLIC_CLIENT_ID && !!process.env.NEXT_PUBLIC_CLIENT_SECRET && !!process.env.NEXT_PUBLIC_USERNAME && !!process.env.NEXT_PUBLIC_PASSWORD && !!process.env.NEXT_PUBLIC_GRANT_TYPE);
 
   useEffect(() => {
-      if(isValidateData) {
-        fetchData();
-      }
+    if(isValidateData) {
+      fetchData();
+    }
   }, [isValidateData]);
 
   useEffect(() => {
