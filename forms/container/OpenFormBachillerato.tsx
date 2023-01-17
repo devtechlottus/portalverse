@@ -33,10 +33,12 @@ const OpenFormBachillerato: FC<any> = ({ classNames, image, pathThankyou, contro
   const [ idLead, setIdLead ] = useState<string>("");
   const [ contacts, setContacts ] = useState<string>("");
   const [ schedulers, setSchedulers ] = useState<string>("");
+  const [ newLineaNegocio, setNewLineaNegocio ] = useState<string>("");
+  const [ newModalidad, setNewModalidad ] = useState<string>("");
 
   const { isLoading, isError, token } = getTokenForms();
 
-  const { fetchData: fetchEducativeOffer, filterByLevel, filterByProgram, data: dataEO, isLoading: isLoadingEO, isError: isErrorEO, sourceData } = getEducativeOffer();
+  const { fetchData: fetchEducativeOffer, filterByLevel, filterByProgram, getDataByProgramEC, data: dataEO, isLoading: isLoadingEO, isError: isErrorEO, sourceData } = getEducativeOffer();
 
   const { isLoading: isLoadingSD, isError: isErrorSD, data: dataSD, saveData } = saveDataForms();
 
@@ -78,26 +80,38 @@ const OpenFormBachillerato: FC<any> = ({ classNames, image, pathThankyou, contro
       const programsByLevel = filterByLevel(levelDefault);
       setFilteredPrograms([ ...programsByLevel ]);
     }
-
   }, [isLoadingEO, isErrorEO, dataEO])
 
   const handleNextStep = (info: any, step: number) => {
-    const linea = info.modality === 'Presencial' || infoForm.step2.modality === 'Presencial'
-        ? process.env.NEXT_PUBLIC_LINEA!
-        : info.modality === 'Online'
-          ? `${process.env.NEXT_PUBLIC_LINEA!},ULA`
-          : 'ULA'
+    let modalidad = info.modality;
+    let lineaNegocio = `${process.env.NEXT_PUBLIC_LINEA!}`;
+
+    if (step === 1 && modalidad === 'Flex') {
+      lineaNegocio = "ULA";
+    }
+
+    if (modalidad === 'Flex') {
+      modalidad = "Online";
+    }
+    
+    if (step === 2) {
+      const programa = getDataByProgramEC(info.program);
+      console.log("programa", programa)
+      lineaNegocio = programa.lineaNegocio;
+      setNewLineaNegocio(lineaNegocio);
+      setNewModalidad(modalidad);
+    }
     setInfoForm({ ...infoForm, [`step${step}`]: { ...info } });
     if (`step${step}` === 'step1') {
-      saveData(`step${step}`, info, tokenActive, linea);
+      saveData(`step${step}`, { ...info, modality: modalidad}, tokenActive, lineaNegocio);
     } if (`step${step}` === 'step3') {
       const data = {
         id: idLead,
         nivel: levelDefault,
         campus: infoForm.step2.campus,
         programa: infoForm.step2.program,
-        modalidad: infoForm.step2.modality,
-        lineaNegocio: linea,
+        modalidad: newModalidad,
+        lineaNegocio: newLineaNegocio,
         medioContacto: info.contacto,
         horarioContacto: info.horario
       }
@@ -124,12 +138,13 @@ const OpenFormBachillerato: FC<any> = ({ classNames, image, pathThankyou, contro
     setFilteredPrograms([]);
     setFilteredCampus([]);
     setReturnedStep(false);
-    const linea = modality === 'Presencial'
-        ? process.env.NEXT_PUBLIC_LINEA!
-        : modality === 'Online'
-          ? `${process.env.NEXT_PUBLIC_LINEA!},ULA`
-          : 'ULA'
-    fetchEducativeOffer(process.env.NEXT_PUBLIC_EDUCATIVE_OFFER!, modality, linea, tokenActive);
+    let modalidad = modality;
+    let lineaNegocio = `${process.env.NEXT_PUBLIC_LINEA!}`
+    if (step === 2 && modality === 'Flex') {
+      modalidad = "Online"
+      lineaNegocio = "ULA"
+    }
+    fetchEducativeOffer(process.env.NEXT_PUBLIC_EDUCATIVE_OFFER!, modalidad, lineaNegocio, tokenActive);
   }
 
   const handleProgramSelected = (program: string) => {
