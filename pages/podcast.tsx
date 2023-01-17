@@ -7,11 +7,26 @@ import NextPageWithLayout from "@/types/Layout.types"
 import Banner from "@/components/Banner"
 import Spotify from "@/components/Spotify"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Paginator from "@/components/Paginator"
+import { useState } from "react"
+import PaginatorPortalverse from "@/components/PaginatorPortalverse"
 
 
 const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 7;
+
+  const onPageChange = (page: any) => {
+    setCurrentPage(page);
+  };
+
+  const paginate = (items:any, pageNumber:any, pageSize:any) => {
+    const startIndex = (pageNumber - 1) * pageSize;
+    return items.slice(startIndex, startIndex + pageSize);
+  };
+  
+  const paginatedPost = paginate(sections.allPodcast.items, currentPage, pageSize)
 
   return <>
     <Head>
@@ -38,19 +53,13 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-           sections.allPodcast.items.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
+           paginatedPost.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
             <Spotify data={item}/>
            </section>)
           }
         </section>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-          <Paginator data={{
-            iconPrevious: "arrow_left_ios",
-            iconNext: "arrow_right_ios",
-            size: "small",
-            maxNumbers: 2,
-            id: "undefined"
-          }} /> 
+          <PaginatorPortalverse items={sections.allPodcast.items.length} currentPage={currentPage} pageSize={pageSize} onPageChange={onPageChange} iconNext={"chevron_right"} iconPrevious={"chevron_left"} /> 
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
           <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>

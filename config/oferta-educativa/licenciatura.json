@@ -415,21 +415,6 @@
       "route": "mecanica-procesos-inyeccion"
     },
     {
-      "title": "Licenciatura en negocios internacionales",
-      "config": {
-        "nombre": "Licenciatura en negocios internacionales",
-        "modalidad": ["Online", "Flex"],
-        "areaConocimiento": ["Económico - Administrativo"],
-        "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
-        "nivel": ["Licenciatura"],
-        "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1bY5_8INHrJMAVRNWVxO7jr9kXlO23Fz-",
-          "alt": "licenciatura"
-        }
-      },
-      "route": "negocios-internacionales"
-    },
-    {
       "title": "Licenciatura en negocios digitales",
       "config": {
         "nombre": "Licenciatura en negocios digitales",
