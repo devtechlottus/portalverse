@@ -82,6 +82,17 @@ const inputEmailOpenFormStepOne = {
   test: "mail",
   name: "mail",
 };
+const inputPasswordOpenFormStepOne = {
+  ...InputInit,
+  iconLeft: "visibility",
+  label: "Contraseña",
+  type: "password",
+  alphanumeric: false,
+  alphabetical: false,
+  onlyNumbers: false,
+  name: "passwordAccount",
+  test: "passwordAccount"
+};
 const buttonConfigOpenFormStepOne = {
   ...ButtonInit,
   isExpand: false,
@@ -112,7 +123,8 @@ const errorMessagesStepOneOpenForm = {
   email: 'Ingresa un correo electrónico válido',
   phone: 'Ingresa un teléfono de 10 dígitos',
   modality: 'Debes elegir una modalidad',
-  comment: 'Proporciona el mensaje para contactarte'
+  comment: 'Proporciona el mensaje para contactarte',
+  password: 'Ingresa una contraseña'
 }
 const errorMessagesStepTwoOpenForm = {
   modality: 'Debes elegir una modalidad',
@@ -160,5 +172,6 @@ export default {
   errorMessagesStepTwoOpenForm,
   errorMessagesStepThreeOpenForm,
   errorMessagesStepOneOpenFormContinuous,
-  errorMessagesFormEgresados
+  errorMessagesFormEgresados,
+  inputPasswordOpenFormStepOne
 }
