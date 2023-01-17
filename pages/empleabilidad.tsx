@@ -118,21 +118,6 @@ export async function getStaticProps(context: any) {
 
   let token = ''
 
-  await axios.post(`${process.env.NEXT_PUBLIC_BE_WANTED_TOKEN_LOGIN!}`,
-    {
-      email: `${process.env.NEXT_PUBLIC_BE_WANTED_USERNAME!}`,
-      password: `${process.env.NEXT_PUBLIC_BE_WANTED_PASSWORD!}`
-    },
-    {
-      headers: {
-        "Content-Type": "application/json"
-      }
-    })
-    .then((res: any) => {
-      const { data: { access_token, token_type } } = res;
-      token = `${token_type} ${access_token}`
-    })
-
   // redirect not avaliable page
   if (!!meta.hidden) {
     return {
