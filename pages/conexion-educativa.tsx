@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useState } from "react"
 import Head from "next/head"
+import Link from "next/link"
 import cn from "classnames"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -13,7 +14,6 @@ import LinkContactTarget from "@/components/LinkContactTarget"
 import DescriptionSection from "@/components/DescriptionSection"
 import Mosaic from "@/components/Mosaic"
 import Button from "@/components/Button/Button"
-import Link from "next/link"
 import TabsFeatured from "@/components/TabsFeatured"
 
 

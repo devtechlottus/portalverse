@@ -1,18 +1,20 @@
 import Head from "next/head"
+import axios from "axios"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Image from "@/components/Image"
-import BeWantedForm from "@/forms/container/Egresados"
+import BeWanted from "@/forms/container/BeWanted"
 import CardWebsite from "@/components/CardWebsite"
 import RichtText from "@/components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
 import Cintillo from "@/components/Cintillo"
 import Video from "@/components/Video"
+import OpenFormInit from "@/forms/fixtures/openform"
 
-const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
+const Empleabilidad: NextPageWithLayout = ({ sections, meta, token }: any) => {
 
   return <>
     <Head>
@@ -33,7 +35,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
           <RichtText font="ligth" data={{content: sections.descripcion.text.content}} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-1 relative">
-          <BeWantedForm pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
+          <BeWanted pathBeWanted="https://www.bewanted.com/acceso/candidatos" token={token} copies={{ ...OpenFormInit.steponebewanted }} pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10"> { sections.vacantes.title }</p>
@@ -114,6 +116,23 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('empleabilidad.json');
 
+  let token = ''
+
+  await axios.post(`${process.env.NEXT_PUBLIC_BE_WANTED_TOKEN_LOGIN!}`,
+    {
+      email: `${process.env.NEXT_PUBLIC_BE_WANTED_USERNAME!}`,
+      password: `${process.env.NEXT_PUBLIC_BE_WANTED_PASSWORD!}`
+    },
+    {
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+    .then((res: any) => {
+      const { data: { access_token, token_type } } = res;
+      token = `${token_type} ${access_token}`
+    })
+
   // redirect not avaliable page
   if (!!meta.hidden) {
     return {
@@ -122,7 +141,7 @@ export async function getStaticProps(context: any) {
   }
 
   return {
-    props: { sections, meta }
+    props: { sections, meta, token }
   }
 }
 
