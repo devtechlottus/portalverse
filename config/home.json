@@ -152,7 +152,7 @@
       "height": "300px",
       "action": {
         "id": "",
-        "type": "primary",
+        "type": "outlined",
         "title": "Conocer más",
         "size": "small",
         "icon": "",
@@ -288,7 +288,7 @@
       "height": "300px",
       "action": {
         "id": "",
-        "type": "primary",
+        "type": "outlined",
         "title": "Conocer más",
         "size": "small",
         "icon": "",

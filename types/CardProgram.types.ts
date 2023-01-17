@@ -6,6 +6,7 @@ export type CardProgramData = {
   link: LinkIconsConfig;
   classNames?: string;
   image?: string;
+  aspectImg?: string;
   onClick: () => void
 }
 
