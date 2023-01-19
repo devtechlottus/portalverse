@@ -114,7 +114,7 @@ export const Modalities: Array<SelectOptionConfig> = [
   {
     value: 'Flex',
     active: false,
-    text: 'Ejecutiva',
+    text: 'Flex',
   }
 ];
 
