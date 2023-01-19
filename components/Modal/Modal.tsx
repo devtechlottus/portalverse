@@ -35,11 +35,13 @@ const Modal: FC<ModalData> = memo(({ data, isShow, children, className, onBtn, o
     }
   },[onBtn, onClose]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  return <lottus-modal ref={modalPortalverseRef}>
-    <div slot='areaModalContent' className={cn(className)}>
-      { children }
-    </div>
-  </lottus-modal>
+  return <section>
+    <lottus-modal class="overflow-y-auto" ref={modalPortalverseRef}>
+      <div slot='areaModalContent' className={cn(className, "overflow-y-auto")}>
+        { children }
+      </div>
+    </lottus-modal>
+  </section>
 })
 
 export default Modal
