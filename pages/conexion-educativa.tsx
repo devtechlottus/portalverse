@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react"
 import Head from "next/head"
 import Link from "next/link"
+import { useRouter } from "next/router"
 import cn from "classnames"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -19,16 +20,36 @@ import TabsFeatured from "@/components/TabsFeatured"
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
 
+  const router = useRouter();
+
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
+  const [ allTabsId , setAllTabsId ] = useState<Array<string>>([]);
+
+  const setTabByQueryParam = (param: any, tabsIds:Array<string>) => {
+    if(!!param){
+      const {type} = router.query
+      const idTab = tabsIds.findIndex((tab: string) => tab === type)
+      setTabActive(idTab === -1 ? 0 : idTab)
+    }
+  }
 
   useEffect(() => {
-    const allContents = sections.socialService.tabs.items.reduce((prev: any, curr: any) => { 
-      const { content } = curr;
-      return  [...prev, content ];
-    }, []);
-    setContentTabs([...allContents]);
+    const {contents, ids} = sections.socialService.tabs.items.reduce((prev: any, curr: any) => { 
+      const { content, id } = curr;
+      return  {...prev, contents: [...prev.contents, content], ids:[ ...prev.ids, id ] };
+    }, {contents: [], ids:[]});
+    setContentTabs([...contents]);
+    setAllTabsId([...ids]);
   }, [sections.socialService.tabs]);
+
+  useEffect(() => {
+    if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type') && !!allTabsId.length){
+      const {type} = router.query
+      setTabByQueryParam(type, allTabsId)
+    }
+  }, [router.query, allTabsId])
+
   return <>
     <Head>
       <title>{ meta.title }</title>
@@ -62,12 +83,12 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
         </div>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          <TabsFeatured tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
+          <TabsFeatured active={tabActive} tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
       </ContentLayout>
       <ContentFullLayout>
         <section className="w-d:hidden">
-          <TabsFeatured tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
+          <TabsFeatured active={tabActive} tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </section>
       </ContentFullLayout>
       <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY py-6">

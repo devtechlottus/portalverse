@@ -37,7 +37,7 @@
       "tabs": {
         "items": [
           {
-            "label": "Servicio social", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "label": "Servicio social", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "servicio-social",
             "content": {
               "image": {
                 "alt": "imagen",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "label": "Practicas profesionales", "icons": { "primary": "", "duplicate": true }, "disabled": false,
+            "label": "Practicas profesionales", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "practicas-profesionales",
             "content": {
               "image": {
                 "alt": "imagen",

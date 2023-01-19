@@ -143,7 +143,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
             content: sections.ourCertifications.description
           }} />
         </div>
-        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
+        <div id={sections.ourCertifications.id} className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           {
             sections.ourCertifications.certifications.map((item:any, i:number) => <section className="mt-6" key={`section-values-${i}`}>
              <CardWebsite data={item}/>
