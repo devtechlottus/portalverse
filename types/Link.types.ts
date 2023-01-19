@@ -1,5 +1,5 @@
 export type LinkConfig = {
-/**
+  /**
    * link text
    */
   text: string;
@@ -27,6 +27,6 @@ export type LinkConfig = {
 }
 
 export type LinkData = {
-    data: LinkConfig,
-    onClick?: () => void;
+  data: LinkConfig,
+  onClick?: () => void;
 }

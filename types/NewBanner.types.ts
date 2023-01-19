@@ -1,7 +1,7 @@
 import ButtonComponentData from "@/types/Button.types";
 
 export type NewBannerConfig = {
-    /**
+  /**
    * Url image background newBanner
    */
   image: Image;

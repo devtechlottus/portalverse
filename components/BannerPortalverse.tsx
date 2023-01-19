@@ -1,4 +1,4 @@
-import { FC, memo, useEffect, useState } from "react" 
+import { FC, memo } from "react" 
 import cn from "classnames"
 import BannerPortalverseComponentData from "@/types/BannerPortalverse.types"
 import Image from "@/components/Image"
@@ -8,7 +8,7 @@ import Button from "./Button/Button"
 const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, classNames, onClick }: BannerPortalverseComponentData) => {
 
   return<>
-      <div style={{"height": data.height}} className={cn(`relative flex border-solid border-2 border-dark w-p:hidden`, classNames)} >
+      <div style={{"height": data?.height}} className={cn(`relative flex border-solid border-2 border-dark w-p:hidden`, classNames)} >
         <Image classNames="w-full h-full w-t:hidden w-p:hidden aspect-7/2" src={data.image?.desktop!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-7/2" src={data.image?.tablet!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-t:hidden aspect-4/3" src={data.image?.mobile!} alt="image" />
@@ -42,7 +42,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
                 "items-end justify-center": data.position === "center-bottom",
                 "items-end justify-end": data.position === "right-bottom"
                 })}>
-                  <Button darkOutlined data={data.button} onClick={onClick}/>
+                  <Button darkOutlined data={data?.button} onClick={onClick}/>
                 </div>
               : !data.noAction && data.overlayWhite 
               ? <div className={cn("mt-2 flex", classNames, {
@@ -63,7 +63,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
                 "items-end" : data.position === "left-bottom",
                 "items-end justify-center": data.position === "center-bottom",
                 "items-end justify-end": data.position === "right-bottom"
-                })}><Button darkOutlined data={data.button} onClick={onClick}/></div>
+                })}><Button darkOutlined data={data?.button} onClick={onClick}/></div>
               : data.noAction
               ? null : <div className={cn("mt-2 flex", classNames, {
                 "justify-end" : data.position=== "right",
@@ -73,7 +73,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
                 "items-end" : data.position === "left-bottom",
                 "items-end justify-center": data.position === "center-bottom",
                 "items-end justify-end": data.position === "right-bottom"
-                })}><Button dark data={data.button} onClick={onClick}/></div>
+                })}><Button dark data={data?.button} onClick={onClick}/></div>
             }
           </div>
       </div>

@@ -11,7 +11,7 @@ import PromoLink from "@/components/PromoLink"
 import CardWebsite from "@/components/CardWebsite"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Rainbow from "@/components/Rainbow"
-import Modal from "@/components/Modal"
+import Modal from "@/components/Modal/Modal"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 
 const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -93,7 +93,7 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
            sections.articles.articles.map((item:any, i:number) => <section key={`section-alliances-${i}`}>
-            <CardWebsite data={item} onClick={()=> router.push(`blog/${item.redirect}`)}/>
+            <CardWebsite data={item} onClick={()=> router.push(`/voz-uane/blog/${item.redirect}`)}/>
            </section>)
           }
         </section>

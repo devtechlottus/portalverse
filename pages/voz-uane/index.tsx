@@ -52,12 +52,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
           }
           {
             sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6 w-t:hidden" key={`section-podcast-${i}`}>
-              <BannerWrapper data={item} banner={item} typeBanner={item.type} font={item.font} onBtn={() => router.push(item.redirect)}/>
+              <BannerWrapper data={item} banner={item} typeBanner={item.type} font={item.font} onBtn={() => item.extern ? window.open(item.redirect, "_blank") : router.push(item.redirect)}/>
             </section>)
           }
           {
             sections.banners.banners.map((item:any, i:number) => <section className="mb-12 w-t:mb-6 w-p:mb-6 w-d:hidden w-p:hidden" key={`section-podcast-${i}`}>
-              <BannerWrapper data={item} banner={item} typeBanner={""} font={item.font} onBtn={() => router.push(item.redirect)}/>
+              <BannerWrapper data={item} banner={item} typeBanner={""} font={item.font} onBtn={() => item.extern ? window.open(item.redirect, "_blank") : router.push(item.redirect)}/>
             </section>)
           }
         </div>

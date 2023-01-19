@@ -8,7 +8,9 @@ const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) 
   const [ newHeight, setNewHeight ] = useState("100%");
 
   useEffect(() => {
-    setURL((state: string) => state.replace("<id>", data?.options?.id) )
+    if (!!data?.options?.id) {
+      setURL(() => `https://youtu.be/${data?.options?.id}` )
+    }
     if (!!data?.dimensions?.height) {
       setNewHeight(data?.dimensions?.height);
     }

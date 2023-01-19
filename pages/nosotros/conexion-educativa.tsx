@@ -77,7 +77,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-12">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.alliances.title}</p>
-          carrousel
+          {/* carrousel */}
           <div className="flex justify-center">
           <Button data={sections.alliances.button} />
           </div>

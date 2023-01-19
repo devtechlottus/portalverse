@@ -56,7 +56,7 @@
         }
       ],
       "button":{"title": "Ver más Artículos", "type": "primary", "icon": "", "isExpand": false, "redirect": "egresados/talento"},
-      "redirect": "/blog"
+      "redirect": "/voz-uane/blog"
     },
     "banners":[
       {

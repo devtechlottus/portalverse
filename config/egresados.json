@@ -74,7 +74,7 @@
         "test": ""
       },
       "noAction": false,
-      "redirect": "/internacionalizacion"
+      "redirect": "/nosotros/internacionalizacion"
     },
     "bannerOfertaEducativa": {
       "image": {

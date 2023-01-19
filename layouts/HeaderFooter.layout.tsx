@@ -16,7 +16,7 @@ export default function HeaderFooterLayout({ children, breadcrumbs = true }: Hea
 
   const logotypeClick = () => router.push('/');
 
-  const clickCTA = () => router.push("/pedir-informacion");
+  const clickCTA = () => router.push("/admisiones/pedir-informacion");
 
   return <>
     <Header menus={menus} onClickLogo={logotypeClick} onClickCTA={clickCTA} logotype={logotype} />

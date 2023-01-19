@@ -1,13 +1,13 @@
-import { FC, memo, useEffect, useLayoutEffect, useRef, useState } from "react" 
+import { FC, memo, useState } from "react" 
 import cn from "classnames"
-import BannerPortalverseComponentData from "@/types/BannerPortalverse.types"
 import { NumbersPortalverseData } from "@/types/NumbersPortalverse.types"
-import classNames from "classnames"
 import CountUp from "react-countup"
 import VisibilitySensor from "react-visibility-sensor"
 
 
 const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}: NumbersPortalverseData) => {
+
+  const [ finishedCount, setFinishedCount ] = useState<boolean>(false);
 
   return <>
     <div className={cn("wrapperNumbers", classNames, {
@@ -29,9 +29,9 @@ const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}:
     })}>
         <p className="icono material-icons pr-2">{data.icon}</p>
         <p className="font-Poppins text-10 font-bold leading-[125%] pr-2">{data.prefix}</p>
-        <CountUp start={0} end={data.maxNumber} delay={0}>
+        <CountUp start={0} end={data.maxNumber} delay={0} onEnd={() => console.log("acabe")} >
           {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
+            <VisibilitySensor onChange={() => !finishedCount ? start : null} delayedCall>
               <span className="font-Poppins text-10 font-bold leading-[125%] pr-2" ref={countUpRef} />
             </VisibilitySensor>
           )}

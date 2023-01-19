@@ -64,7 +64,6 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
          
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
-          {/* <Tabs data={ sections.requirements.tabs } tabIndex={(active: number) => setTabActive(active)} />   */}
           <TabsFeatured tabs={sections.requirements.tabs.items} onActive={(active: number) => setTabActive(active)} />
         </div>
       </ContentLayout>
@@ -107,14 +106,14 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
 
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
-          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.banner.redirect)}/>
+          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.redirect)}/>
         </div>
                 
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden ">
-          <BannerPortalverse data={sections.empleabilidad.banner} onClick={()=>router.push(sections.empleabilidad.banner.redirect)}/>
+          <BannerPortalverse data={sections.empleabilidad.banner} onClick={()=>router.push(sections.empleabilidad.redirect)}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <BannerPortalverse data={sections.becas.banner} onClick={()=>router.push(sections.becas.banner.redirect)} />
+          <BannerPortalverse data={sections.becas.banner} onClick={()=>router.push(sections.becas.redirect)} />
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden">
@@ -165,7 +164,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           }
       </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
-          <Button darkOutlined data={ sections.FAQ.button }
+          <Button dark data={ sections.FAQ.button }
           onClick={() => {
             router.push(sections.FAQ.button.redirect)
           }}/>

@@ -1,5 +1,5 @@
 export type BreadcumConfig = {
-    /**
+  /**
    * List of texts to show
    *
    * @example
@@ -29,7 +29,7 @@ export type BreadcumConfig = {
 }
 
 export type BreadCrumbItemInterface = {
-    /**
+  /**
    * Vale of text
    */
   value: string;
@@ -40,7 +40,7 @@ export type BreadCrumbItemInterface = {
 }
 
 export type BreadcumData = {
-    data: BreadcumConfig;
-    onItem?: () => void;
-    onBack?: () => void;
+  data: BreadcumConfig;
+  onItem?: () => void;
+  onBack?: () => void;
 }

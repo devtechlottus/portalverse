@@ -1,5 +1,5 @@
 export type NumbersConfig = {
-    /**
+  /**
    * NumbersPortalverse icon optional
    */
   icon?: string;
@@ -32,7 +32,7 @@ export type NumbersConfig = {
 }
 
 export type NumbersData ={
-    data: NumbersConfig;
-    classNames?: string;
-    typeShadowColor?: string;
+  data: NumbersConfig;
+  classNames?: string;
+  typeShadowColor?: string;
 }
