@@ -7,9 +7,9 @@ import CardWebsite from "@/components/CardWebsite"
 import { ContactData, SectionData } from "@/types/Directorio.types"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import ContactTarget from "@/components/ContactTarget"
-import Banner from "@/components/Banner"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -53,9 +53,9 @@ const Alumnos: NextPageWithLayout = ({ sections, meta }: any) => {
         {
           sections.calendario.banner.visible ? 
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-            <Banner 
+            <BannerPortalverse
             data={sections.calendario.banner}
-            onBtn={ ()=> {
+            onClick={ ()=> {
               router.push(sections.calendario.banner.redirect)
             }}/>
           </div>

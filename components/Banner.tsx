@@ -59,7 +59,7 @@ const Banner: FC<BannerComponentData> = memo(({ data, noAction = false, onBtn }:
       {
         data.action?.type === "primary" 
           ? <Button dark data={{...data.action, isExpand: true}} onClick={ onBtn } />
-          : <Button darkOutlined data={{...data.action, isExpand: true}} onClick={ onBtn } /> 
+          : <Button dark data={{...data.action, isExpand: true}} onClick={ onBtn } /> 
       }
     </div>
   </lottus-banner-portalverse>

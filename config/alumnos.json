@@ -112,21 +112,19 @@
     ],
     "calendario": {
       "banner": {
-        "title": "UANE Internacional",
-        "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
-        "state": "",
-        "size": "medium",
-        "middle": false,
-        "center": false,
-        "bottom": true,
-        "left": false,
-        "urlImage": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1T-W52yh4F3iGkl1u8sQrhM1ij-ctSnuw",
           "mobile": "https://drive.google.com/uc?export=view&id=1oYRLmnAXdRUZ3i88SOblPkbWBdP78NIv",
-          "desktop": "https://drive.google.com/uc?export=view&id=1T-W52yh4F3iGkl1u8sQrhM1ij-ctSnuw"
-        }, 
-        "overlay": "",
-        "height": "",
-        "action": {
+          "tablet": "https://drive.google.com/uc?export=view&id=1aEm5uY89FbvNcWOvJ1ayjLV0WZRuSZyF"
+        },
+        "font": "",
+        "title": "UANE Internacional",
+        "subtitle": "Agrega experiencias internacionales a tu educación",
+        "position": "",
+        "height": "200px",
+        "overlayWhite":false,
+        "overlayDak": false,
+        "button":{
           "id": "",
           "type": "outlined",
           "title": "Conocer más",
@@ -138,9 +136,9 @@
           "tagOnClick": "",
           "test": ""
         },
-        "wrapper": true,
-        "visible": true,
-        "redirect": "/nosotros/internacionalizacion"
+        "noAction": false,
+        "redirect": "/nosotros/internacionalizacion",
+        "visible": true
       }
     },
     "directorio": [
