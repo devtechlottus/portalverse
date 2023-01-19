@@ -1,7 +1,6 @@
 export type NumbersPortalverseconfig = {
-    maxNumber: any;
-
-        /**
+  maxNumber: any;
+  /**
    * NumbersPortalverse icon optional
    */
   icon?: string;
@@ -33,8 +32,8 @@ export type NumbersPortalverseconfig = {
 }
 
 export type NumbersPortalverseData = {
-    data:NumbersPortalverseconfig
-    classNames?: any
-    onAnimation?: any
-    timer?: number
+  data:NumbersPortalverseconfig;
+  classNames?: any;
+  onAnimation?: any;
+  timer?: number;
 }

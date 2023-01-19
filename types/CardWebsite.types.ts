@@ -58,14 +58,11 @@ export type CardWebsiteConfig = {
     * Mode wrapper
     */
    wrapper?: boolean;
-
 }
 
 type CardWebsiteComponentData = {
     data: CardWebsiteConfig;
     onClick?: () => void;
-
-
 }
 
 export default CardWebsiteComponentData;

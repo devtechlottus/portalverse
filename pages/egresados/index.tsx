@@ -56,7 +56,8 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
           <BannerPortalverse data={ sections.bannerEmpleabilidad }
             onClick={ () => {
               router.push(`${sections.bannerEmpleabilidad.redirect}`)
-            }}/>
+            }}
+          />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
           <BannerPortalverse data={ sections.bannerOfertaEducativa }
@@ -69,7 +70,6 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
         <BannerPortalverse data={ sections.bannerTramites}
             onClick={ () => {
               window.open(`${sections.bannerTramites.redirect}`)
-              
             }}
           />  
         </div>
@@ -90,11 +90,10 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden">
           <BannerPortalverse data={ sections.bannerTramites}
-            onClick={ () => {
-              window.open(`${sections.bannerTramites.redirect}`)
-              
-            }}
-          />
+              onClick={ () => {
+                window.open(`${sections.bannerTramites.redirect}`)
+              }}
+            /> 
         </div>
       </ContentFullLayout>
       <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-t:bg-SC/Actions/AC-300 w-p:bg-SC/Actions/AC-300 mt-12">

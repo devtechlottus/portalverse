@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react"
 import Head from "next/head"
+import Link from "next/link"
 import { useRouter } from "next/router"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Link from "next/link"
 import Icon from "@/components/Icon"
 import Video from "@/components/Video"
 

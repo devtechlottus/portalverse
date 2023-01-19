@@ -6,8 +6,8 @@ export type VideoComponentConf = {
 }
 
 type VideoComponentData = {
-    dimensions: Array<string>;
-    data: VideoComponentConf;
+  dimensions: Array<string>;
+  data: VideoComponentConf;
 }
 
 export default VideoComponentData

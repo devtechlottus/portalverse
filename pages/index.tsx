@@ -46,8 +46,8 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       </ContentFullLayout>
       <ContentLayout classNames="">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-            <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
-          </div>
+          <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
+        </div>
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
             sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
