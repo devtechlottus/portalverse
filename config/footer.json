@@ -67,16 +67,16 @@
         { "label": "Internacionalización", "principal": false, "link": "/internacionalizacion", "external": false },
         { "label": "Somos UANE", "principal": false, "link": "/somos-UANE", "external": false },
         { "label": "Campus", "principal": false, "link": "/campus", "external": false },
-        { "label": "Certificaciones", "principal": false, "link": "/somos-UANE", "external": false },
+        { "label": "Certificaciones", "principal": false, "link": "/somos-UANE#certificaciones", "external": false },
         { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo", "external": false },
         { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad", "external": false },
-        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa", "external": false }
+        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa?type=practicas-profesionales", "external": false }
       ]
     ],
     [
       [
         { "label": "Contacto", "principal": true, "link": "", "external": false },
-        { "label": "Línea segura", "principal": false, "link": "", "external": false },
+        { "label": "Línea segura", "principal": false, "link": "https://lineasegura.uane.edu.mx/", "external": true },
         { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general", "external": false },
         { "label": "Envíanos un mensaje", "principal": false, "link": "/ponte-en-contacto", "external": false }
       ],
