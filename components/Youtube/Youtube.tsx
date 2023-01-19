@@ -8,11 +8,11 @@ const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) 
   const [ newHeight, setNewHeight ] = useState("100%");
 
   useEffect(() => {
-    setURL((state: string) => state.replace("<id>", data.options.id) )
-    if (!!data.dimensions.height) {
-      setNewHeight(data.dimensions.height);
+    setURL((state: string) => state.replace("<id>", data?.options?.id) )
+    if (!!data?.dimensions?.height) {
+      setNewHeight(data?.dimensions?.height);
     }
-  }, [data.options.id])
+  }, [data?.options?.id])
 
   return <ReactPlayer width='100%' height={newHeight} url={url} />
 })
