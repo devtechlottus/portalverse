@@ -7,21 +7,19 @@
     "sections": {
       "head": {
         "banner": {
-          "title": "Voz UANE",
-          "subtitle": "Un episodio nuevo cada dos semanas.\nSíguenos a través de spotify",
-          "state": "black",
-          "size": "medium",
-          "middle": false,
-          "center": false,
-          "bottom": true,
-          "left": true,
-          "urlImage": {
+          "image": {
+            "desktop": "https://drive.google.com/uc?export=view&id=1We_A9VCsxSV9buE8TMHKqyqI5HyqPguN",
             "mobile": "https://drive.google.com/uc?export=view&id=1MI62tyuUxu71bBCDfRUz1NHxUhmHeJF0",
-            "desktop": "https://drive.google.com/uc?export=view&id=1We_A9VCsxSV9buE8TMHKqyqI5HyqPguN"
+            "tablet": "https://drive.google.com/uc?export=view&id=1Mz2X9iO44qaoaabLE4ACYpLfNtkkFoIK"
           },
-          "overlay": "",
-          "height": "342px",
-          "action": {
+          "title": "Voz UANE",
+          "font": "light",
+          "subtitle": "Un episodio nuevo cada dos semanas.\nSíguenos a través de spotify",
+          "position": "right-bottom",
+          "height": "350px",
+          "overlayWhite":false,
+          "overlayDak": false,
+          "button":{
             "id": "",
             "type": "outlined",
             "title": "Ir a Spotify",
@@ -30,9 +28,10 @@
             "lyIcon": false,
             "disabled": false,
             "isExpand": false,
-            "tagOnClick": "testClick", "test": ""
+            "tagOnClick": "",
+            "test": ""
           },
-          "wrapper": true,
+          "noAction": false,
           "redirect": "https://open.spotify.com/"
         }
       },
@@ -65,21 +64,19 @@
       },
       "vozUane": {
         "banner": {
-          "title": "Voz UANE ayuda a difundir tus ideas.",
-          "subtitle": "Si eres parte de la comunidad contacta al equipo: vozuane@lottuseducation.com.mx",
-          "state": "black",
-          "size": "medium",
-          "middle": false,
-          "center": false,
-          "bottom": false,
-          "left": false,
-          "urlImage": {
+          "image": {
+            "desktop": "https://drive.google.com/uc?export=view&id=1_cUI-wPs5OJJucnW1w2OhXxVtAnyU90B",
             "mobile": "https://drive.google.com/uc?export=view&id=1BBHm3qD0hUf27eIRfpw8t3NQQoWVyJED",
-            "desktop": "https://drive.google.com/uc?export=view&id=1_cUI-wPs5OJJucnW1w2OhXxVtAnyU90B"
+            "tablet": "https://drive.google.com/uc?export=view&id=1lrPOMrka9L0994d6uZKYfNCSmaPF47-G"
           },
-          "overlay": "black",
-          "height": "",
-          "action": {
+          "title": "Voz UANE ayuda a difundir tus ideas.",
+          "font": "light",
+          "subtitle": "Si eres parte de la comunidad contacta al equipo: vozuane@lottuseducation.com.mx",
+          "position": "",
+          "height": "350px",
+          "overlayWhite":false,
+          "overlayDak": true,
+          "button":{
             "id": "",
             "type": "outlined",
             "title": "Contactar",
@@ -88,10 +85,11 @@
             "lyIcon": false,
             "disabled": false,
             "isExpand": false,
-            "tagOnClick": "testClick", "test": ""
+            "tagOnClick": "",
+            "test": ""
           },
-          "wrapper": true,
-          "redirect": "vozUane"
+          "noAction": false,
+          "redirect": "/voz-UANE"
         }
       }
     }

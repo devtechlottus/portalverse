@@ -6,34 +6,33 @@
   },
   "sections": {
     "head": {
+
       "banner": {
-        "title": "UANE  Internacional",
-        "subtitle": "Agrega experiencias internacionales a tus estudiso ",
-        "state": "",
-        "size": "medium",
-        "middle": false,
-        "center": true,
-        "bottom": true,
-        "left": false,
-        "urlImage": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1YvpbcKK9ZNsXG9vJQlqHus7dREaPHToq",
           "mobile": "https://drive.google.com/uc?export=view&id=1KM3AYIzQT3fWttYmlNRtrmVjxd4FxmQJ",
-          "desktop": "https://drive.google.com/uc?export=view&id=1YvpbcKK9ZNsXG9vJQlqHus7dREaPHToq"
+          "tablet": "https://drive.google.com/uc?export=view&id=1jCw8YnLwGvypBRpY2pwUip_h4N0ITtN0"
         },
-        "overlay": "white",
-        "height": "342px",
-        "action": {
+        "title": "UANE  Internacional",
+        "subtitle": "Agrega experiencias internacionales a tus estudios",
+        "position": "center-bottom",
+        "height": "350px",
+        "overlayWhite":true,
+        "overlayDak": false,
+        "button":{
           "id": "",
-          "type": "primary",
+          "type": "outlined",
           "title": "Continuar",
           "size": "small",
           "icon": "",
           "lyIcon": false,
           "disabled": false,
           "isExpand": false,
-          "tagOnClick": "testClick", "test": ""
+          "tagOnClick": "",
+          "test": ""
         },
-        "wrapper": true,
-        "redirect": "internacionalizacion"
+        "noAction": false,
+        "redirect": "/internacionalizacion"
       }
     },
     "articles": {

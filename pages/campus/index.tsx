@@ -42,10 +42,14 @@ const Campus = ({ sections, meta }: any) => {
     </Head>
     <HeaderFooterLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4">
-        <BannerPortalverse data={ sections.head.banner } />
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
+          <BannerPortalverse data={ sections.head.banner } />
+        </div>
       </ContentFullLayout>
       <ContentLayout>
-        <BannerPortalverse classNames="w-t:hidden w-p:hidden" data={ sections.head.banner } />        
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
+          <BannerPortalverse data={ sections.head.banner } />
+        </div>       
         <Modal isShow={isShow} onClose={handleVisibilityModal} data={{icon: 'close', title: infoMap, tagOnClose: 'testOnClose', wrapper: true,}}>
           {
             !!coordsMap

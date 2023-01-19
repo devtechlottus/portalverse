@@ -1,7 +1,7 @@
 import { FC, memo } from "react" 
 import cn from "classnames"
 import BannerWrapperData from "@/types/BannerWrapper.types"
-import Banner from "@/components/Banner/Banner"
+import Banner from "@/components/Banner"
 import Button from "@/components/Button/Button"
 import RichtText from "@/components/Richtext/Richtext"
 

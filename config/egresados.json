@@ -48,62 +48,61 @@
         }
       } 
     },
-    "banner-empleabilidad": {
+    "bannerEmpleabilidad": {
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1idUUed8QBG8hf9qbpWqm00PmVs-JbGMw",
+        "mobile": "https://drive.google.com/uc?export=view&id=1AouSIC5-YJc0Js1LIRHRxRf03n5ibngx",
+        "tablet": "https://drive.google.com/uc?export=view&id=16G9jZNK2fS1E5tl5pDA-EmB3RVfOi5hr"
+      },
+      "font": "",
       "title": "Empleabilidad en UANE",
       "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo",
-      "state": "",
-      "size": "medium",
-      "middle": false,
-      "center": false,
-      "bottom": false,
-      "left": true,
-      "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=1AouSIC5-YJc0Js1LIRHRxRf03n5ibngx",
-        "desktop": "https://drive.google.com/uc?export=view&id=1idUUed8QBG8hf9qbpWqm00PmVs-JbGMw"
-      },
-      "overlay": "white",
-      "height": "",
-      "action": {
+      "position": "right",
+      "height": "350px",
+      "overlayWhite":true,
+      "overlayDak": false,
+      "button":{
         "id": "",
-        "type": "primary",
+        "type": "outlined",
         "title": "Continuar",
         "size": "small",
         "icon": "",
         "lyIcon": false,
         "disabled": false,
         "isExpand": false,
-        "tagOnClick": "testClick", "test": ""
+        "tagOnClick": "",
+        "test": ""
       },
-      "wrapper": true
+      "noAction": false,
+      "redirect": "/internacionalizacion"
     },
-    "banner-oferta-educativa": {
+    "bannerOfertaEducativa": {
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1ublCyobsLlz7uKehh34mAfdpQ1or4eYv",
+        "mobile": "https://drive.google.com/uc?export=view&id=190CNvADpywpMXK_QVM6udMb2GsV4HsMt",
+        "tablet": "https://drive.google.com/uc?export=view&id=1-dKm6LNGLTiYVh4bFNe5SFxc1mPffLF9"
+      },
+      "font": "light",
       "title": "Oferta educativa de egresados",
       "subtitle": "UANE te ofrece opciones preferenciales para continuar con tu opreparación profesional",
-      "state": "black",
-      "size": "medium",
-      "middle": false,
-      "center": false,
-      "bottom": false,
-      "left": true,
-      "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=190CNvADpywpMXK_QVM6udMb2GsV4HsMt",
-        "desktop": "https://drive.google.com/uc?export=view&id=1ublCyobsLlz7uKehh34mAfdpQ1or4eYv"
-      },
-      "overlay": "",
-      "height": "",
-      "action": {
+      "position": "right",
+      "height": "350px",
+      "overlayWhite":false,
+      "overlayDak": false,
+      "button":{
         "id": "",
-        "type": "primary",
+        "type": "outlined",
         "title": "Ver oferta educativa",
         "size": "small",
         "icon": "",
         "lyIcon": false,
         "disabled": false,
         "isExpand": false,
-        "tagOnClick": "testClick",
+        "tagOnClick": "",
         "test": ""
       },
-      "wrapper": true
+      "noAction": false,
+      "redirect": "/oferta-educativa"
     },
     "banner-tramites": {
       "title": "Trámites de egresados",
@@ -133,6 +132,34 @@
         "test": ""
       },
       "wrapper": true
+    },
+    "bannerTramites": {
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1lymiihfxStWQNox-uD9mvh2Ln6GEuUjU",
+        "mobile": "https://drive.google.com/uc?export=view&id=1cXj_pPf0OvVkA7ew-UF--T-L-20FPoOl",
+        "tablet": "https://drive.google.com/uc?export=view&id=1yYRKBIWFTDeyIKXur1aOKx1mPgq3DDDo"
+      },
+      "font": "",
+      "title": "Trámites de egresados",
+      "subtitle": "Entra al sistema de la universidad y revisa el estatus o solicita algún trámite nuevo",
+      "position": "light",
+      "height": "350px",
+      "overlayWhite":false,
+      "overlayDak": false,
+      "button":{
+        "id": "",
+        "type": "outlined",
+        "title": "Entra a SIUANE",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": ""
+      },
+      "noAction": false,
+      "redirect": "http://sistema.uane.edu.mx/siuane/login.aspx"
     },
     "noticias": {
       "title": "Noticias",

@@ -11,7 +11,7 @@ import Image from "@/components/Image"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Filter from "@/components/Filter/Filter"
-import Banner from "@/components/Banner"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 
 const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, level }: any) => {
@@ -79,12 +79,12 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     <HeaderFooterLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4 mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Banner noAction data={sections.head.banner2} />
+          <BannerPortalverse  data={sections.head.banner1} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
-          <Banner noAction data={sections.head.banner2} />
+          <BannerPortalverse  data={sections.head.banner1} />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col">
           <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-13 w-t:text-6 w-p:text-6">{ sections.introduction.title }</h1>
