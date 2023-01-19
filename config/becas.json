@@ -21,18 +21,10 @@
       }
     },
     "estadisticas": [
-      {
-        "icon": "group", "prefix": "+", "number": "30%", "suffix": "", "title": "Alumnos con Beca de Servicio", "body": "", "container": false
-      },
-      {
-        "icon": "group", "prefix": "+", "number": "10%", "suffix": "", "title": "Alumnos con Beca Excelencia", "body": "", "container": false
-      },
-      {
-        "icon": "group", "prefix": "+", "number": "40%", "suffix": "", "title": "Alumnos con Beca Convenio", "body": "", "container": false
-      },
-      {
-        "icon": "group", "prefix": "+", "number": "2%", "suffix": "", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": false
-      }
+      {"maxNumber": 30, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca de Servicio", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 10, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca Excelencia", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 40, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca Convenio", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 2, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
     ],
     "becas": {
       "tabs": {

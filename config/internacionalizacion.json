@@ -242,8 +242,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1DFY9Q5uKNoLFntGfv2DrT2-Hjf5vq5T3",
+            "desktop": "https://drive.google.com/uc?export=view&id=1DFY9Q5uKNoLFntGfv2DrT2-Hjf5vq5T3"
           },
           "text": "Universidad de Valencia",
           "icon": "arrow_forward",
@@ -251,7 +251,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -264,8 +264,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1T1o0D1s8MQ2jDqolnhKTofE70wMnoPRl",
+            "desktop": "https://drive.google.com/uc?export=view&id=1T1o0D1s8MQ2jDqolnhKTofE70wMnoPRl"
           },
           "text": "Universidad Alfonso X el Sabio",
           "icon": "arrow_forward",
@@ -273,7 +273,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -286,8 +286,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1ig0gNvU1CMW-Pa80rLyOdQP9xrI9Wsfv",
+            "desktop": "https://drive.google.com/uc?export=view&id=1ig0gNvU1CMW-Pa80rLyOdQP9xrI9Wsfv"
           },
           "text": "Universidad Carlos III de Madrid",
           "icon": "arrow_forward",
@@ -295,7 +295,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -308,8 +308,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1B5otH-3aVwgPGSi7MGD-GD6q6wXa2_p3",
+            "desktop": "https://drive.google.com/uc?export=view&id=1B5otH-3aVwgPGSi7MGD-GD6q6wXa2_p3"
           },
           "text": "Universidad Internacional de Valencia",
           "icon": "arrow_forward",
@@ -317,7 +317,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -330,8 +330,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez",
+            "desktop": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez"
           },
           "text": "Escuela de Gobierno y transformación pública",
           "icon": "arrow_forward",
@@ -339,7 +339,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -352,8 +352,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1KECHLYBujZ8FV_FaAjfRq95XTbb2y5P1",
+            "desktop": "https://drive.google.com/uc?export=view&id=1KECHLYBujZ8FV_FaAjfRq95XTbb2y5P1"
           },
           "text": "UNICOC Institución Universitaria Colegios de Colombia ",
           "icon": "arrow_forward",
@@ -361,7 +361,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -374,8 +374,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1J0wVLKhMgQcGY_GS68mK-IrI9yxUe5KP",
+            "desktop": "https://drive.google.com/uc?export=view&id=1J0wVLKhMgQcGY_GS68mK-IrI9yxUe5KP"
           },
           "text": "Universidad El Bosque",
           "icon": "arrow_forward",
@@ -383,7 +383,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -396,8 +396,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=112i71-eqdE_EWzOKNE49bCMoTghktt7s",
+            "desktop": "https://drive.google.com/uc?export=view&id=112i71-eqdE_EWzOKNE49bCMoTghktt7s"
           },
           "text": "Universidad del Itsmo",
           "icon": "arrow_forward",
@@ -405,7 +405,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -418,8 +418,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1_yFT_avyc70fBfxtySpQBCIE7zXW6e_w",
+            "desktop": "https://drive.google.com/uc?export=view&id=1_yFT_avyc70fBfxtySpQBCIE7zXW6e_w"
           },
           "text": "Universidad de San Marcos",
           "icon": "arrow_forward",
@@ -427,7 +427,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {
@@ -440,8 +440,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9",
-            "desktop": "https://drive.google.com/uc?export=view&id=1VTsgIJz1wVdA3AzpKZBoX4aNQdMtOgl9"
+            "mobile": "https://drive.google.com/uc?export=view&id=1uTwMd43E347cgBgWa-bQAVzEoa6FAaim",
+            "desktop": "https://drive.google.com/uc?export=view&id=1uTwMd43E347cgBgWa-bQAVzEoa6FAaim"
           },
           "text": "Universidad Isabel I",
           "icon": "arrow_forward",
@@ -449,7 +449,7 @@
           "opacity": "multiply",
           "height": "282px",
           "enable": true,
-          "nobackground": true,
+          "nobackground": false,
           "redirect": "https://conahec.org/es/",
           "content": {
             "title": {

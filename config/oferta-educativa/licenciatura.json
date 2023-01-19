@@ -16,6 +16,34 @@
           "title": "Licenciaturas",
           "subtitle": "Los mejores programas educativos con experiencias y planes de estudio internacionales y un sistema modular que te permitirá aprovechar el conocimiento al máximo."
         }
+      },
+      "banner2": {
+        "title": "Licenciaturas",
+        "subtitle": "Los mejores programas educativos con experiencias y planes de estudio internacionales y un sistema modular que te permitirá aprovechar el conocimiento al máximo.",
+        "state": "",
+        "size": "medium",
+        "middle": true,
+        "center": true,
+        "bottom": false,
+        "left": false,
+        "urlImage": {
+          "mobile": "https://drive.google.com/uc?export=view&id=1yd6VKxdKPQTAyRJT0YegLihHyzbESFIL",
+          "desktop": "https://drive.google.com/uc?export=view&id=1kVvyHmdlUY2Tugvlu2Jywkhpz2lQGJj5"
+        },
+        "overlay": "white",
+        "height": "",
+        "action": {
+          "id": "",
+          "type": "primary",
+          "title": "Continuar",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "testClick", "test": ""
+        },
+        "wrapper": true
       }
     },
     "introduction": {
