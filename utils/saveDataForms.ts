@@ -57,7 +57,7 @@ export const saveDataForms = () => {
       })
   }
 
-  const saveDataEducacionContinua = async(data: any, Authorization: string, linea?: string) => {
+  const saveDataEducacionContinua = async(data: any, Authorization: string, infoProgram: any, linea?: string) => {
     const bot = setRegisterBot();
     const params = `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${!!linea ? linea : data.lineaNegocio}&modalidad=${data.modalidad}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=landing`;
   
@@ -76,7 +76,8 @@ export const saveDataForms = () => {
         } else {
           const horarioContacto = res.data.Horario_de_contacto.slice(1, -1).split(",")[0]
           const medioContacto = res.data.medio_de_contacto.slice(1, -1).split(",")[0]
-          saveData("step3", { ...data, horarioContacto, medioContacto, id: res.data.id }, Authorization)
+          const newData = { ...data, lineaNegocio: infoProgram.lineaNegocio }
+          saveData("step3", { ...newData, horarioContacto, medioContacto, id: res.data.id }, Authorization)
           setIsError(false);
           setIsLoading(false);
         }
