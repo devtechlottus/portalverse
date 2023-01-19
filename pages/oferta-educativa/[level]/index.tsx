@@ -44,7 +44,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     setFilterConfig({ ...allFilter });
     setVisiblePrograms([ ...programs ]);
     setInitialPrograms([ ...programs ]);
-  }, [programs]);
+  }, [programs]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const setNewSelecton = (filters: any) => {
     const filtersExists: any[] = Object.entries(filters).filter(([ key, value ]: any) => !!value.length).map(([ key ]: any) => key);

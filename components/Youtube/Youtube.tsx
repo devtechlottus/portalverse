@@ -12,7 +12,7 @@ const Youtube: FC<YoutubeComponentData> = memo(({ data }: YoutubeComponentData) 
     if (!!data?.dimensions?.height) {
       setNewHeight(data?.dimensions?.height);
     }
-  }, [data?.options?.id])
+  }, [data?.options?.id]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <ReactPlayer width='100%' height={newHeight} url={url} />
 })

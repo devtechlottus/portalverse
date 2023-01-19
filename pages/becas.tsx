@@ -20,7 +20,6 @@ import ContentFullLayout from "@/layouts/ContentFull.layout"
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter()
 
-
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
   const [ allTabsId , setAllTabsId ] = useState<Array<string>>([]);
@@ -40,14 +39,14 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
     }, {contents: [], ids:[]});
     setContentTabs([...contents]);
     setAllTabsId([...ids]);
-  }, [sections.becas.tabs]);
+  }, [sections.becas.tabs]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type') && !!allTabsId.length){
       const {type} = router.query
       setTabByQueryParam(type, allTabsId)
     }
-  }, [router.query, allTabsId])
+  }, [router.query, allTabsId]);// eslint-disable-line react-hooks/exhaustive-deps
 
 
   return <>

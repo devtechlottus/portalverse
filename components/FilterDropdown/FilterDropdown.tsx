@@ -41,12 +41,12 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
   
   useEffect(() => {
     setConfigComponent(() => ({ ...config }));
-  }, [config])
+  }, [config]);// eslint-disable-line react-hooks/exhaustive-deps
   
   useEffect(() => {
     setAllOptions([ ...options ]);
     setOptionsCollection(() => options.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
-  }, [options])
+  }, [options]);// eslint-disable-line react-hooks/exhaustive-deps
   
   useEffect(() => {
     setButtonConfig({ ...buttonConfig, disabled: !optionsList.length })
@@ -60,7 +60,7 @@ const FilterDropdown: FC<FilterDropdownComponentData> = memo(({ data: { config, 
       setOptionsCollection(() => allOptions.map((item: any) => ({ label: item.label, disabled: item.active, selected: false  })));
       setOptionsList([]);
     }
-  }, [onClear]);
+  }, [onClear]);// eslint-disable-line react-hooks/exhaustive-deps
 
   return <section className="relative">
     <section className="dropdown" onClick={onOpenClose}>
