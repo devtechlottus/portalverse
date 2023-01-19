@@ -182,10 +182,10 @@
         }
       ],
       "numbers":[
-        { "icon": "groups", "prefix": "", "number": "14,500", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": true },
-        { "icon": "groups", "prefix": "", "number": "70", "suffix": "", "title": "PROGRAMAS", "body": "", "container": true },
-        { "icon": "groups", "prefix": "", "number": "8", "suffix": "", "title": "CAMPUS", "body": "", "container": true },
-        { "icon": "groups", "prefix": "", "number": "760", "suffix": "", "title": "CONVENIOS", "body": "", "container": true }
+        {"maxNumber": 14000, "icon": "groups", "prefix": "", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": true},
+        {"maxNumber": 70, "icon": "groups", "prefix": "", "suffix": "", "title": "PROGRAMAS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "red-pastel-right", "boxShadow": true},
+        {"maxNumber": 8, "icon": "groups", "prefix": "", "suffix": "", "title": "CAMPUS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "gray-pastel-right", "boxShadow": true},
+        {"maxNumber": 760, "icon": "groups", "prefix": "", "suffix": "", "title": "CONVENIOS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "yellow-pastel-right", "boxShadow": true}
       ]
     },
     "community": {

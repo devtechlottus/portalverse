@@ -7,12 +7,12 @@ import ContentFullLayout from "@/layouts/ContentFull.layout"
 import RichtText from "@/components/Richtext/Richtext"
 import Image from "@/components/Image"
 import CardWebsite from "@/components/CardWebsite"
-import Numbers from "@/components/Numbers/Numbers"
 import PromoLink from "@/components/PromoLink"
 import Mosaic from "@/components/Mosaic"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import LinkIcons from "@/components/LinkLottus"
 import Video from "@/components/Video"
+import NumbersPortalverse from "@/components/NumbersPortalverse/NumbersPortalverse"
 
 const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -93,7 +93,7 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
           <div className="grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
             {
               sections.ourValues.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
-                <Numbers data={item}/>
+                <NumbersPortalverse data={item}/>
               </section>)
             }
           </div>

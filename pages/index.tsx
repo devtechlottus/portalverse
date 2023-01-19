@@ -7,12 +7,12 @@ import OfertaEducativa from "@/components/OfertaEducativa"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Banner from "@/components/Banner"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import Numbers from "@/components/Numbers/Numbers"
 import CardWebsite from "@/components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import SliderPortalverse from "@/components/SliderPortalverse"
 import Video from "@/components/Video"
+import NumbersPortalverse from "@/components/NumbersPortalverse/NumbersPortalverse"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
@@ -57,7 +57,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
             sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
-              <Numbers data={item} typeShadowColor={item.shadowColor}/>
+              <NumbersPortalverse data={item}/>
             </section>)
           }
         </div>

@@ -1,7 +1,7 @@
 import { FC } from "react"
 import cn from "classnames"
-import Numbers from "@/components/Numbers/Numbers"
 import Image from "@/components/Image"
+import NumbersPortalverse from "../NumbersPortalverse/NumbersPortalverse"
 
 const BannerNumeralia: FC<any> = ({ data: { image, title, subtitle, statics }, classNames }: any) => {
   return <section className="relative flex flex-col col-span-12 w-t:col-span-8 w-p:col-span-4">
@@ -14,7 +14,7 @@ const BannerNumeralia: FC<any> = ({ data: { image, title, subtitle, statics }, c
       <div className="w-d:flex w-t:flex w-p:grid w-p:grid-cols-2 gap-6 w-p:gap-3">
         {
           statics.map((item:any, i:number) => <section className="w-[144px]" key={`section-numbers-${i}`}>
-              <Numbers data={item}/>
+              <NumbersPortalverse data={item}/>
             </section>)
         }
       </div>

@@ -15,8 +15,12 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1lJ4sw-tmKdpTS3carQuLc-nLfEEXDOkk"
         },
         "statics": [
-          { "icon": "", "prefix": "", "number": "50", "suffix": "", "title": "", "body": "mil egresados han salido de nuestra universidad", "container": true },
-          { "icon": "", "prefix": "", "number": "50", "suffix": "%", "title": "", "body": "de egresados pertenecen a nivel de licenciatura", "container": true }
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "", "title": "ESTUDIANTES", "body": "mil egresados han salido de nuestra universidad", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "%", "title": "ESTUDIANTES", "body": "de egresados pertenecen a nivel de licenciatura", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
+        ],
+        "statics2": [
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "", "title": "ESTUDIANTES", "body": "mil egresados han salido de nuestra universidad", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "%", "title": "ESTUDIANTES", "body": "de egresados pertenecen a nivel de licenciatura", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
         ]
       }
     },
