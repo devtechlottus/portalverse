@@ -34,59 +34,55 @@
   "sections": [
     [
       [
-        { "label": "Estudiantes", "principal": true, "link": "" },
-        { "label": "SIUANE", "principal": false, "link": "https://sistema.uane.edu.mx/" },
-        { "label": "Aula virtual", "principal": false, "link": "https://aula.uane.mx/login/index.php " },
-        { "label": "Biblioteca digital", "principal": false, "link": "https://biblioteca.uane.edu.mx/ " },
-        { "label": "Reglamento universitario", "principal": false, "link": "" }
+        { "label": "Estudiantes", "principal": true, "link": "", "external": false },
+        { "label": "SIUANE", "principal": false, "link": "https://sistema.uane.edu.mx/", "external": true },
+        { "label": "Aula virtual", "principal": false, "link": "https://aula.uane.mx/login/index.php", "external": true },
+        { "label": "Biblioteca digital", "principal": false, "link": "https://biblioteca.uane.edu.mx/", "external": true }
       ],
       [
-        { "label": "Exalumnos", "principal": true, "link": "" },
-        { "label": "Beneficios ExaUANE", "principal": false, "link": "/egresados" },
-        { "label": "SIUANE para egresados", "principal": false, "link": "https://sistema.uane.edu.mx/" }
+        { "label": "Exalumnos", "principal": true, "link": "", "external": false },
+        { "label": "Beneficios ExaUANE", "principal": false, "link": "/egresados", "external": false },
+        { "label": "SIUANE para egresados", "principal": false, "link": "https://sistema.uane.edu.mx/", "external": true }
       ]
     ],
     [
       [
         { "label": "Admisiones", "principal": true, "link": "" },
-        { "label": "Solicita informes", "principal": false, "link": "/pedir-informacion" },
-        { "label": "Becas para el estudiante", "principal": false, "link": "/becas" }
+        { "label": "Solicita informes", "principal": false, "link": "/pedir-informacion", "external": false },
+        { "label": "Becas para el estudiante", "principal": false, "link": "/becas", "external": false }
       ],
       [
-        { "label": "Oferta educativa", "principal": true, "link": "/oferta-educativa" },
-        { "label": "Bachillerato", "principal": false, "link": "/oferta-educativa/bachillerato" },
-        { "label": "Licenciaturas", "principal": false, "link": "/oferta-educativa/licenciatura" },
-        { "label": "Maestrías", "principal": false, "link": "/oferta-educativa/maestria" },
-        { "label": "Especialidades", "principal": false, "link": "/oferta-educativa/especialidad" },
-        { "label": "Doctorados", "principal": false, "link": "/oferta-educativa/doctorado" },
-        { "label": "Educación Contínua", "principal": false, "link": "/educacion-continua" }
+        { "label": "Oferta educativa", "principal": true, "link": "/oferta-educativa", "external": false },
+        { "label": "Bachillerato", "principal": false, "link": "/oferta-educativa/bachillerato", "external": false },
+        { "label": "Licenciaturas", "principal": false, "link": "/oferta-educativa/licenciatura", "external": false },
+        { "label": "Maestrías", "principal": false, "link": "/oferta-educativa/maestria", "external": false },
+        { "label": "Especialidades", "principal": false, "link": "/oferta-educativa/especialidad", "external": false },
+        { "label": "Doctorados", "principal": false, "link": "/oferta-educativa/doctorado", "external": false },
+        { "label": "Educación Contínua", "principal": false, "link": "/educacion-continua", "external": false }
       ]
     ],
     [
       [
         { "label": "Nosotros", "principal": true, "link": "" },
-        { "label": "Internacionalización", "principal": false, "link": "/internacionalizacion" },
-        { "label": "Somos UANE", "principal": false, "link": "/somos-UANE" },
-        { "label": "Campus", "principal": false, "link": "/campus" },
-        { "label": "Certificaciones", "principal": false, "link": "" },
-        { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo" },
-        { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad" },
-        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa" }
+        { "label": "Internacionalización", "principal": false, "link": "/internacionalizacion", "external": false },
+        { "label": "Somos UANE", "principal": false, "link": "/somos-UANE", "external": false },
+        { "label": "Campus", "principal": false, "link": "/campus", "external": false },
+        { "label": "Certificaciones", "principal": false, "link": "/somos-UANE", "external": false },
+        { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo", "external": false },
+        { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad", "external": false },
+        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa", "external": false }
       ]
     ],
     [
       [
-        { "label": "Contacto", "principal": true, "link": "" },
-        { "label": "Línea segura", "principal": false, "link": "" },
-        { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general" },
-        { "label": "Envíanos un mensaje", "principal": false, "link": "/ponte-en-contacto" }
+        { "label": "Contacto", "principal": true, "link": "", "external": false },
+        { "label": "Línea segura", "principal": false, "link": "", "external": false },
+        { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general", "external": false },
+        { "label": "Envíanos un mensaje", "principal": false, "link": "/ponte-en-contacto", "external": false }
       ],
       [
-        { "label": "Comunidad UANE", "principal": true, "link": "" },
-        { "label": "Voz UANE", "principal": false, "link": "/voz-UANE" },
-        { "label": "Centro de idiomas", "principal": false, "link": "" },
-        { "label": "Actividades deportivas y extracurriculares", "principal": false, "link": "/vida-estudiantil" },
-        { "label": "Comité estudiantil", "principal": false, "link": "" }
+        { "label": "Comunidad UANE", "principal": true, "link": "", "external": false },
+        { "label": "Voz UANE", "principal": false, "link": "/voz-UANE", "external": false }
       ]
     ]
   ]
