@@ -137,9 +137,31 @@
     ],
     "head": {
       "banner": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1DivAOO2be095H1sknR5NPaO-FveClU9C",
+          "mobile": "https://drive.google.com/uc?export=view&id=1xGozyNf783hDUdWKMl-YYAVfCCYucLXJ",
+          "tablet": "https://drive.google.com/uc?export=view&id=1aIRuW4hEKrgtfPwM01N2PJQRP2sn5KhE"
+        },
         "title": "Nuestros Campus",
-        "subtitle": "Agrega experiencias internacionales a tus estudios",
-        "image": "https://drive.google.com/uc?export=view&id=1DivAOO2be095H1sknR5NPaO-FveClU9C"
+        "subtitle": "Agrega experiencias internacionales a tus estudiosn",
+        "position": "middle-center",
+        "height": "350px",
+        "overlayWhite":true,
+        "overlayDak": false,
+        "button":{
+          "id": "",
+          "type": "outlined",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": true,
+        "redirect": "/internacionalizacion"
       }
     },
     "banner": {

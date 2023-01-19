@@ -5,7 +5,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import OfertaEducativa from "@/components/OfertaEducativa"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Banner from "@/components/Banner"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import CardWebsite from "@/components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
@@ -13,6 +12,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import SliderPortalverse from "@/components/SliderPortalverse"
 import Video from "@/components/Video"
 import NumbersPortalverse from "@/components/NumbersPortalverse/NumbersPortalverse"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
@@ -40,20 +40,14 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="col-span-8">
-          <Banner data={sections["banner-internacional"]} 
-            onBtn={ () => {
-              router.push('/internacionalizacion')
-            }}/>
+          <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="">
-        <div className="col-span-12 w-p:col-span-4 w-t:hidden">
-          <Banner data={sections["banner-internacional"]} 
-            onBtn={ () => {
-              router.push('/internacionalizacion')
-            }}/>
-        </div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
+            <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
+          </div>
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
             sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
@@ -75,19 +69,13 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="w-t:col-span-8 w-p:col-span-4">
-          <Banner data={sections["banner-podcast"]} 
-            onBtn={ () => {
-              router.push('/podcast')
-            }}/>
+          <BannerPortalverse data={sections.bannerPodcast} onClick={() => router.push(`${sections.bannerPodcast.redirect}`)}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden my-6">
         <div className="col-span-12 w-p:col-span-4">
-          <Banner data={sections["banner-podcast"]} 
-            onBtn={ () => {
-              router.push('/podcast')
-            }}/>
+          <BannerPortalverse data={sections.bannerPodcast} onClick={() => router.push(`${sections.bannerPodcast.redirect}`)}/>
         </div>
       </ContentLayout>
       <ContentLayout>
@@ -100,6 +88,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
               <Video dimensions={["330px","400px","200px"]} data={ sections.descubre } />
             }
           </div>
+          
       </ContentLayout>
     </HeaderFooterLayout>
   </>

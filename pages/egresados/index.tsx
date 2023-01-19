@@ -4,7 +4,6 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Banner from "@/components/Banner"
 import Button from "@/components/Button/Button"
 import CardWebsite from "@/components/CardWebsite"
 import BannerNumeralia from "@/components/BannerNumeralia/BannerNumeralia"
@@ -13,6 +12,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import Cintillo from "@/components/Cintillo"
 import Video from "@/components/Video"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -53,41 +53,45 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
           }}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ sections["banner-empleabilidad"] }
-            onBtn={ () => {
-              router.push('/empleabilidad')
+          <BannerPortalverse data={ sections.bannerEmpleabilidad }
+            onClick={ () => {
+              router.push(`${sections.bannerEmpleabilidad.redirect}`)
             }}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ sections["banner-oferta-educativa"] }
-            onBtn={ () => {
-              router.push('/oferta-educativa')
+          <BannerPortalverse data={ sections.bannerOfertaEducativa }
+            onClick={ () => {
+              router.push(`${sections.bannerOfertaEducativa.redirect}`)
             }}
           />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={ sections["banner-tramites"] }
-            onBtn={ () => {
-              window.open('http://sistema.uane.edu.mx/siuane/login.aspx')
+        <BannerPortalverse data={ sections.bannerTramites}
+            onClick={ () => {
+              window.open(`${sections.bannerTramites.redirect}`)
+              
             }}
-          />
+          />  
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="gap-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden my-6">
-          <Banner data={ sections["banner-empleabilidad"] }/>
+          <BannerPortalverse data={ sections.bannerEmpleabilidad }
+            onClick={ () => {
+              router.push(`${sections.bannerEmpleabilidad.redirect}`)
+            }}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden mb-6">
-          <Banner data={ sections["banner-oferta-educativa"] }
-            onBtn={ () => {
-              router.push('/oferta-educativa')
+          <BannerPortalverse data={ sections.bannerOfertaEducativa }
+            onClick={ () => {
+              router.push(`${sections.bannerOfertaEducativa.redirect}`)
             }}
           />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden">
-          <Banner data={ sections["banner-tramites"] }
-            onBtn={ () => {
-              window.open('http://sistema.uane.edu.mx/siuane/login.aspx')
+          <BannerPortalverse data={ sections.bannerTramites}
+            onClick={ () => {
+              window.open(`${sections.bannerTramites.redirect}`)
               
             }}
           />

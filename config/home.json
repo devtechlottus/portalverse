@@ -135,22 +135,19 @@
         }
       ]
     },
-    "banner-internacional": {
+    "bannerInternacional": {
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+        "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
+        "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
+      },
       "title": "UANE Internacional",
       "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
-      "state": "black",
-      "size": "medium",
-      "middle": false,
-      "center": false,
-      "bottom": true,
-      "left": false,
-      "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
-        "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW"
-      },
-      "overlay": "black",
+      "position": "left-bottom",
       "height": "300px",
-      "action": {
+      "overlayWhite":false,
+      "overlayDak": true,
+      "button":{
         "id": "",
         "type": "outlined",
         "title": "Conocer más",
@@ -162,7 +159,8 @@
         "tagOnClick": "",
         "test": ""
       },
-      "wrapper": true
+      "noAction": false,
+      "redirect": "/internacionalizacion"
     },
     "numbers":[
       {"maxNumber": 8, "icon": "apartment", "prefix": "", "suffix": "", "title": "Campus en el país", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
@@ -271,22 +269,20 @@
         }
       ]
     },
-    "banner-podcast":{
+    "bannerPodcast" :{
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+        "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
+        "tablet": "https://drive.google.com/uc?export=view&id=1jFU-_03HH8rVc3D723BUAyEzwjTOhYPp"
+      },
+      "font": "light",
       "title": "Podcast Voz UANE",
       "subtitle": "Un espisodio nuevo cada semana en Spotify y Youtube",
-      "state": "black",
-      "size": "medium",
-      "middle": false,
-      "center": false,
-      "bottom": false,
-      "left": false,
-      "urlImage": {
-        "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
-        "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
-      },
-      "overlay": "",
+      "position": "",
       "height": "300px",
-      "action": {
+      "overlayWhite":false,
+      "overlayDak": true,
+      "button":{
         "id": "",
         "type": "outlined",
         "title": "Conocer más",
@@ -295,10 +291,11 @@
         "lyIcon": false,
         "disabled": false,
         "isExpand": false,
-        "tagOnClick": "testClick",
+        "tagOnClick": "",
         "test": ""
       },
-      "wrapper": true
+      "noAction": false,
+      "redirect": "/podcast"
     },
     "descubre": {
       "title": "Descubre más de la vida UANE",

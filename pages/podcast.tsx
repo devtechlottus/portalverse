@@ -5,10 +5,10 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Banner from "@/components/Banner"
 import Spotify from "@/components/Spotify"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import PaginatorPortalverse from "@/components/PaginatorPortalverse"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 
 const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -35,12 +35,12 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentFullLayout classNames="w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12">
-          <Banner data={sections.head.banner} onBtn={() => window.open(sections.head.banner.redirect)}/>
+          <BannerPortalverse data={sections.head.banner} onClick={() => window.open(sections.head.banner.redirect)}/>
         </div>
       </ContentFullLayout>
       <ContentLayout classNames="">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden mb-12">
-          <Banner data={sections.head.banner} onBtn={() => window.open(sections.head.banner.redirect)}/>
+          <BannerPortalverse data={sections.head.banner} onClick={() => window.open(sections.head.banner.redirect)}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold text-10 w-t:text-6.5 w-p:text-7.5 leading-[125%]">{ sections.lastPodcast.title}</p>
@@ -62,12 +62,12 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
           <PaginatorPortalverse items={sections.allPodcast.items.length} currentPage={currentPage} pageSize={pageSize} onPageChange={onPageChange} iconNext={"chevron_right"} iconPrevious={"chevron_left"} /> 
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
+          <BannerPortalverse data={sections.vozUane.banner} onClick={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentLayout>
       <ContentFullLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-p:hidden">
-          <Banner data={sections.vozUane.banner} onBtn={() => router.push(sections.vozUane.banner.redirect)}/>
+          <BannerPortalverse data={sections.vozUane.banner} onClick={() => router.push(sections.vozUane.banner.redirect)}/>
         </div>
       </ContentFullLayout>
       <ContentLayout>

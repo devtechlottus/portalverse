@@ -11,15 +11,11 @@ import Image from "@/components/Image"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Filter from "@/components/Filter/Filter"
-import Banner from "@/components/Banner"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 
 const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, level }: any) => {
 
-  // const [ configPrograms, setConfigPrograms ] = useState<Array<any>>([]);
-  // const [ configModalidad, setConfigModalidad ] = useState<Array<any>>([]);
-  // const [ configCampus, setConfigCampus ] = useState<Array<any>>([]);
-  // const [ configConocimiento, setConfigConocimiento ] = useState<Array<any>>([]);
   const [ filterConfig, setFilterConfig ] = useState<any>({});
   const [ visiblePrograms, setVisiblePrograms ] = useState<any[]>([]);
   const [ initialPrograms, setInitialPrograms ] = useState<any[]>([]);
@@ -39,10 +35,6 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
       const { areaConocimiento } = c;
       return [ ...p, ...areaConocimiento ]
     }, []))) ].map((conc: string) => ({ value: conc, active: false, label: conc }));
-    // setConfigModalidad([ ...modalidades ]);
-    // setConfigCampus([ ...campus ]);
-    // setConfigConocimiento([ ...conocimiento ]);
-    // setConfigPrograms([ ...configs ]);
 
     const allFilter = {
       modalidad: { options: [ ...modalidades ], config: { label: "Modalidades", icon: "edit_note" } },
@@ -52,7 +44,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     setFilterConfig({ ...allFilter });
     setVisiblePrograms([ ...programs ]);
     setInitialPrograms([ ...programs ]);
-  }, [programs]);
+  }, [programs]);// eslint-disable-line react-hooks/exhaustive-deps
 
   const setNewSelecton = (filters: any) => {
     const filtersExists: any[] = Object.entries(filters).filter(([ key, value ]: any) => !!value.length).map(([ key ]: any) => key);
@@ -79,12 +71,12 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     <HeaderFooterLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:col-span-8 w-p:col-span-4 mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          {/* <Banner noAction data={sections.head.banner} /> */}
+          <BannerPortalverse  data={sections.head.banner1} />
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
-          {/* <Banner noAction data={sections.head.banner} /> */}
+          <BannerPortalverse  data={sections.head.banner1} />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col">
           <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-13 w-t:text-6 w-p:text-6">{ sections.introduction.title }</h1>

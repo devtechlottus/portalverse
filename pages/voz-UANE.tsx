@@ -5,11 +5,11 @@ import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentLayout from "@/layouts/Content.layout"
-import Banner from "@/components/Banner"
 import CardWebsite from "@/components/CardWebsite"
 import Button from "@/components/Button/Button"
 import Spotify from "@/components/Spotify"
 import BannerWrapper from "@/components/BannerWrapper"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter()
@@ -21,12 +21,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentFullLayout classNames="w-d:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8">
-          <Banner data={ sections.head.banner } onBtn={() => router.push(sections.head.banner.redirect)}/>
+          <BannerPortalverse data={ sections.head.banner } onClick={() => router.push(sections.head.banner.redirect)}/>
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="col-span-12 w-p:col-span-4 w-t:hidden w-p:hidden">
-          <Banner data={ sections.head.banner } onBtn={() => router.push(sections.head.banner.redirect)}/>
+          <BannerPortalverse data={ sections.head.banner } onClick={() => router.push(sections.head.banner.redirect)}/>
         </div>
         <div className="col-span-8 w-t:col-span-8 w-p:col-span-4">
           <div className="mb-6">

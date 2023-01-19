@@ -352,21 +352,90 @@
     },
     "internacionalizacion": {
       "banner": {
-        "title": "UANE  Internacional", "subtitle": "Agrega experiencias internacionales a tus estudiso", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1nbWptTJTinE5UoJLXEwSmITP5KXVUJ7b", "desktop": "https://drive.google.com/uc?export=view&id=16_s-yRhKnh7MN17ElcNPPbufvlf3DHK_"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
-      },
-      "redirect": "internacionalizacion"
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+          "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
+          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
+        },
+        "title": "UANE Internacional",
+        "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
+        "position": "left-bottom",
+        "height": "300px",
+        "overlayWhite":false,
+        "overlayDak": false,
+        "button":{
+          "id": "",
+          "type": "outlined",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": false,
+        "redirect": "/internacionalizacion"
+      }
     },
     "empleabilidad": {
-      "banner":{
-        "title": "Empleabilidad en UANE", "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": true, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1ZUOdTVdzIjtW5zxjAt0P1plB4wEeexl4", "desktop": "https://drive.google.com/uc?export=view&id=1EFLlkdIgmmhEjT9MhRsMV95VOLJWiGLd"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
-      },
-      "redirect": "empleabilidad"
+      "banner": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1EFLlkdIgmmhEjT9MhRsMV95VOLJWiGLd",
+          "mobile": "https://drive.google.com/uc?export=view&id=1ZUOdTVdzIjtW5zxjAt0P1plB4wEeexl4",
+          "tablet": "https://drive.google.com/uc?export=view&id=1Pbqg2oRfuFjD4wnVYSRlYBWQK0cIu9qT"
+        },
+        "title": "Empleabilidad en UANE",
+        "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo",
+        "position": "right",
+        "height": "350px",
+        "overlayWhite":false,
+        "overlayDak": true,
+        "button":{
+          "id": "",
+          "type": "outlined",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": false,
+        "redirect": "/empleabilidad"
+      }
     },
     "becas": {
-      "banner":{
-        "title": "Conoce las becas que tenemos para ti", "subtitle": "Mira sus experiencias.", "state": "black", "size": "medium", "middle": false, "center": false, "bottom": false, "left": false, "urlImage": {"mobile": "https://drive.google.com/uc?export=view&id=1Uvnv0JiPehD-OQWNCUIHP5UzGDY_xi18", "desktop": "https://drive.google.com/uc?export=view&id=1KkYoofSvnXgTQZi7aPRMy9ErSXb-XySa"}, "overlay": "black", "height": "", "action": {"id": "", "type": "primary", "title": "Continuar", "size": "small", "icon": "", "lyIcon": false, "disabled": false, "isExpand": false, "tagOnClick": "testClick", "test": ""}, "wrapper": true
-      },
-      "redirect": "becas"
+      "banner": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1KkYoofSvnXgTQZi7aPRMy9ErSXb-XySa",
+          "mobile": "https://drive.google.com/uc?export=view&id=1Uvnv0JiPehD-OQWNCUIHP5UzGDY_xi18",
+          "tablet": "https://drive.google.com/uc?export=view&id=1s0kYSffDl7MkU2vBMW75R7WKAJde48_5"
+        },
+        "title": "Conoce las becas que tenemos para ti",
+        "subtitle": "Mira sus experiencias.",
+        "position": "",
+        "height": "350px",
+        "overlayWhite":false,
+        "overlayDak": true,
+        "button":{
+          "id": "",
+          "type": "outlined",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": false,
+        "redirect": "/becas"
+      }
     },
     "egresados":{
       "title": "Los egresados de UANE nos cuentan sus historias",
