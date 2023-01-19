@@ -1,5 +1,4 @@
 import { FC, useEffect, useState } from "react"
-import { useRouter } from "next/router"
 import cn from "classnames"
 import OpenFormInit from "@/forms/fixtures/openform"
 import Image from "@/components/Image"
@@ -11,8 +10,6 @@ import { SelectInit } from "@/components/fixture"
 
 
 const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) => {
-
-  const router = useRouter()
 
   const [ config, setConfig ] = useState<any>({ ...OpenFormInit.steponecontinuoscontrols });
   const [ infoControls, setInfoControls ] = useState<any>({
@@ -50,6 +47,12 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
 
   useEffect(() => {
     setDataPrograms([ ...programs ]);
+    const activeProgram = programs.filter((program: any) => program.active)
+    if (!!activeProgram.length) {
+      setInfoControls({ ...infoControls, "program": activeProgram[0].value });
+      setInfoControlsTouched({ ...infoControlsTouched, "program": true })
+      setErrorControls({ ...errorControls, "program": validateControl("program", activeProgram[0].value, infoControlsTouched["program"])});
+    }
   }, [programs]);
 
   const handleKeyPress = (e: CustomEvent, control: string ) => {
@@ -151,7 +154,5 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) =>
   </div>
 </section>
 }
-
-{/*  */}
 
 export default StepOne

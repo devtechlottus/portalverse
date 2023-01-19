@@ -16,10 +16,6 @@ import BannerPortalverse from "@/components/BannerPortalverse"
 
 const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, level }: any) => {
 
-  // const [ configPrograms, setConfigPrograms ] = useState<Array<any>>([]);
-  // const [ configModalidad, setConfigModalidad ] = useState<Array<any>>([]);
-  // const [ configCampus, setConfigCampus ] = useState<Array<any>>([]);
-  // const [ configConocimiento, setConfigConocimiento ] = useState<Array<any>>([]);
   const [ filterConfig, setFilterConfig ] = useState<any>({});
   const [ visiblePrograms, setVisiblePrograms ] = useState<any[]>([]);
   const [ initialPrograms, setInitialPrograms ] = useState<any[]>([]);
@@ -39,10 +35,6 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
       const { areaConocimiento } = c;
       return [ ...p, ...areaConocimiento ]
     }, []))) ].map((conc: string) => ({ value: conc, active: false, label: conc }));
-    // setConfigModalidad([ ...modalidades ]);
-    // setConfigCampus([ ...campus ]);
-    // setConfigConocimiento([ ...conocimiento ]);
-    // setConfigPrograms([ ...configs ]);
 
     const allFilter = {
       modalidad: { options: [ ...modalidades ], config: { label: "Modalidades", icon: "edit_note" } },

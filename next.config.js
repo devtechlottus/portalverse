@@ -15,7 +15,6 @@ const nextConfig = {
     domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx', 'www.youtube.com']
   },
   productionBrowserSourceMaps: true,
-  reactStrictMode: true,
   async headers() {
     return [
       {

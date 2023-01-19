@@ -29,7 +29,7 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
   const { isLoading: isLoadingSD, isError: isErrorSD, data: dataSD, saveDataEducacionContinua } = saveDataForms();
 
   const handleFetchEducativeOffer = (modality: string) => {
-    fetchEducativeOffer(process.env.NEXT_PUBLIC_EDUCATIVE_OFFER!, modality, lineaNegocio, tokenActive);
+    fetchEducativeOffer(process.env.NEXT_PUBLIC_EDUCATIVE_OFFER!, modality, "UANE,ULA", tokenActive);
   }
 
   useEffect(() => {
@@ -63,7 +63,7 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
       if (!!Object.entries(dataEO).filter(([ _, level ]: any) => level.search === levelDefault).length) {
         const filterPrograms = filterByLevel(levelDefault);
         if (filterPrograms.length > 0) {
-          setFilteredPrograms([ ...filterPrograms ].map((item: any) => ({ ...item, active: item.value === programDefault })))
+          setFilteredPrograms([ ...filterPrograms ].map((item: any) => ({ ...item, active: item.value === programDefault.toUpperCase() })))
           return
         }
         setFilteredPrograms([ ...filterPrograms ])
@@ -84,8 +84,8 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
   const handleNext = (info: any) => {
     const infoProgram = getDataByProgramEC(info.program);
     if (!!Object.keys(infoProgram).length) {
-      const newInfo = { ...info, programa: infoProgram.idPrograma, nivel: levelDefault, campus: infoProgram.idCampus, modalidad: infoProgram.modalidad, lineaNegocio, medioContacto: info.contacto, horarioContacto: info.horario }
-      saveDataEducacionContinua({ ...newInfo }, tokenActive );
+      const newInfo = { ...info, programa: infoProgram.idOfertaPrograma, nivel: levelDefault, campus: infoProgram.idCampus, modalidad: infoProgram.modalidad, lineaNegocio, medioContacto: info.contacto, horarioContacto: info.horario }
+      saveDataEducacionContinua({ ...newInfo }, tokenActive, infoProgram );
     }
   }
 
