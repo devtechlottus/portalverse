@@ -74,7 +74,7 @@
           "icon": ""
         },
         "wrapper": true,
-        "video": "8LDTk1DLg4M"
+        "redirect": "https://aula.uane.mx/my/"
       },
       { 
         "urlImage": "https://drive.google.com/uc?export=view&id=1D2BUw7hrBN6M_fVDEIO7lbYB25a_sQiT",
@@ -106,7 +106,8 @@
           "disabled": false,
           "icon": ""
         },
-        "wrapper": true
+        "wrapper": true,
+        "redirect": "https://uane.instructure.com/login/canvas"
       }
     ],
     "calendario": {
@@ -139,49 +140,19 @@
         },
         "wrapper": true,
         "visible": true,
-        "redirect": "/internacionalizacion"
+        "redirect": "/nosotros/internacionalizacion"
       }
     },
     "directorio": [
       {
-        "name": "Directorio universitario",
+        "name": "Contacto universitario",
         "description": "Todos los que integramos la universidad estamos para atenderte y escucharte, contacta a cualquier área de la universidad",
         "contacts": [
           {
             "image": "https://drive.google.com/uc?export=view&id=1e5UpQ17ZAUGw_0bb3I9tRz_dJmq8LNIn",
-            "name": "Servicios escolares",
-            "email": "servicios@uane.com",
-            "phone": ""
-          },
-          {
-            "image": "https://drive.google.com/uc?export=view&id=1G-D4Ar1FKdp8YYqQ2878cQ8MvX_5IYie",
-            "name": "Dirección",
-            "email": "direccion@uane.com",
-            "phone": ""
-          },
-          {
-            "image": "https://drive.google.com/uc?export=view&id=1T9Ra-lOkOtZ_keBbkFAzQqiGc3se-4-u",
-            "name": "Coordinación educativa",
-            "email": "coordinacion@uane.com",
-            "phone": ""
-          },
-          {
-            "image": "https://drive.google.com/uc?export=view&id=1CM5eV6vBuq6dG45McKmzpJ-TVpudUfoz",
-            "name": "Biblioteca",
-            "email": "biblioteca@uane.com",
-            "phone": ""
-          },
-          {
-            "image": "https://drive.google.com/uc?export=view&id=128erB9tr_N9BUEI0axIbuNKjSEBAr9xY",
-            "name": "Línea segura",
-            "email": "lineasegura@uane.com",
-            "phone": ""
-          },
-          {
-            "image": "https://drive.google.com/uc?export=view&id=1Kpnrd5wFkqIkUWpRKZgd3Y8WszI7HCPj",
-            "name": "Soporte técnico",
-            "email": "soportetécnico@uane.com",
-            "phone": ""
+            "name": "Contacto Central",
+            "email": "hola@uane.edu.mx",
+            "phone": "8008228263"
           }
         ]
       }

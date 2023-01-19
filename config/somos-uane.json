@@ -203,7 +203,7 @@
           "height": "282px",
           "enable": true,
           "nobackground": false,
-          "redirect": "voz-UANE"
+          "redirect": "/voz-uane"
         },
         {
           "urlImage": {
@@ -230,7 +230,7 @@
           "height": "282px",
           "enable": true,
           "nobackground": false,
-          "redirect": "podcast"
+          "redirect": "/voz-uane/podcast"
         } 
       ]
     },
@@ -253,7 +253,7 @@
           "height": "84px",
           "enable": true,
           "nobackground": true,
-          "redirect": "becas",
+          "redirect": "/admisiones/becas",
           "isShadowColor": true,
           "shadowColor": "blue-left",
           "param": "beca-servicio" 
@@ -270,7 +270,7 @@
           "height": "84px",
           "enable": true,
           "nobackground": true,
-          "redirect": "becas",
+          "redirect": "/admisiones/becas",
           "isShadowColor": true,
           "shadowColor": "blue-left",
           "param": "beca-excelencia" 
@@ -288,7 +288,7 @@
           "height": "84px",
           "enable": true,
           "nobackground": true,
-          "redirect": "becas",
+          "redirect": "/admisiones/becas",
           "isShadowColor": true,
           "shadowColor": "blue-left",
           "param": "beca-convenio" 
@@ -305,7 +305,7 @@
           "height": "84px",
           "enable": true,
           "nobackground": true,
-          "redirect": "becas",
+          "redirect": "/admisiones/becas",
           "isShadowColor": true,
           "shadowColor": "blue-left",
           "param": "beca-merito-academico" 
@@ -321,7 +321,7 @@
         "id": "",
         "iconFirst": "",
         "iconSecond": "arrow_right_ios",
-        "redirect": "becas"
+        "redirect": "/admisiones/becas"
       }
     },
     "ourConventions": {

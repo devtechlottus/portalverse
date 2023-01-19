@@ -35,7 +35,7 @@
         "isExpand": false,
         "tagOnClick": "testClick", 
         "test": "",
-        "redirect": "campus"
+        "redirect": "/nosotros/campus"
       }
     },
     "sociales": [

@@ -1,6 +1,6 @@
 {
   "menus": [
-    { "label": "Admisiones", "route": "/landing-admisiones", "items": [] },
+    { "label": "Admisiones", "route": "/admisiones", "items": [] },
     { "label": "Oferta Educativa", "route": "/oferta-educativa", "items": [
       { "label": "Bachillerato", "route": "/oferta-educativa/bachillerato" },
       { "label": "Licenciaturas", "route": "/oferta-educativa/licenciatura" },
@@ -11,16 +11,14 @@
       ]
     },
     { "label": "Nosotros", "route": "/", "items": [
-      { "label": "Somos UANE", "route": "/somos-UANE" },
-      { "label": "Campus", "route": "/campus" },
-      { "label": "Modelo Educativo", "route": "/modelo-educativo" },
-      { "label": "Internacionalización", "route": "/internacionalizacion" },
-      { "label": "Bolsa de Trabajo", "route": "/" },
-      { "label": "Centro de apoyo Psicopedagógico", "route": "/" }
+      { "label": "Somos UANE", "route": "/nosotros/somos-UANE" },
+      { "label": "Campus", "route": "/nosotros/campus" },
+      { "label": "Modelo Educativo", "route": "/nosotros/modelo-educativo" },
+      { "label": "Internacionalización", "route": "/nosotros/internacionalizacion" }
       ]
     },
     { "label": "Comunidad UANE", "route": "/", "items": [
-      { "label": "Noticias", "route": "/" }
+      { "label": "Noticias", "route": "/voz-uane/blog" }
       ]
     }
   ],

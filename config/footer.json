@@ -48,8 +48,8 @@
     [
       [
         { "label": "Admisiones", "principal": true, "link": "" },
-        { "label": "Solicita informes", "principal": false, "link": "/pedir-informacion", "external": false },
-        { "label": "Becas para el estudiante", "principal": false, "link": "/becas", "external": false }
+        { "label": "Solicita informes", "principal": false, "link": "/admisiones/pedir-informacion", "external": false },
+        { "label": "Becas para el estudiante", "principal": false, "link": "/admisiones/becas", "external": false }
       ],
       [
         { "label": "Oferta educativa", "principal": true, "link": "/oferta-educativa", "external": false },
@@ -64,25 +64,25 @@
     [
       [
         { "label": "Nosotros", "principal": true, "link": "" },
-        { "label": "Internacionalización", "principal": false, "link": "/internacionalizacion", "external": false },
-        { "label": "Somos UANE", "principal": false, "link": "/somos-UANE", "external": false },
-        { "label": "Campus", "principal": false, "link": "/campus", "external": false },
-        { "label": "Certificaciones", "principal": false, "link": "/somos-UANE#certificaciones", "external": false },
-        { "label": "Modelo educativo", "principal": false, "link": "/modelo-educativo", "external": false },
-        { "label": "Empleabilidad", "principal": false, "link": "/empleabilidad", "external": false },
-        { "label": "Prácticas profesionales", "principal": false, "link": "/conexion-educativa?type=practicas-profesionales", "external": false }
+        { "label": "Internacionalización", "principal": false, "link": "/nosotros/internacionalizacion", "external": false },
+        { "label": "Somos UANE", "principal": false, "link": "/nosotros/somos-UANE", "external": false },
+        { "label": "Campus", "principal": false, "link": "/nosotros/campus", "external": false },
+        { "label": "Certificaciones", "principal": false, "link": "/nosotros/somos-UANE#certificaciones", "external": false },
+        { "label": "Modelo educativo", "principal": false, "link": "/nosotros/modelo-educativo", "external": false },
+        { "label": "Empleabilidad", "principal": false, "link": "/nosotros/empleabilidad", "external": false },
+        { "label": "Prácticas profesionales", "principal": false, "link": "/nosotros/conexion-educativa?type=practicas-profesionales", "external": false }
       ]
     ],
     [
       [
         { "label": "Contacto", "principal": true, "link": "", "external": false },
         { "label": "Línea segura", "principal": false, "link": "https://lineasegura.uane.edu.mx/", "external": true },
-        { "label": "Preguntas frecuentes", "principal": false, "link": "/faq/general", "external": false },
-        { "label": "Envíanos un mensaje", "principal": false, "link": "/ponte-en-contacto", "external": false }
+        { "label": "Preguntas frecuentes", "principal": false, "link": "/contactanos/faq/general", "external": false },
+        { "label": "Envíanos un mensaje", "principal": false, "link": "/contactanos", "external": false }
       ],
       [
         { "label": "Comunidad UANE", "principal": true, "link": "", "external": false },
-        { "label": "Voz UANE", "principal": false, "link": "/voz-UANE", "external": false }
+        { "label": "Voz UANE", "principal": false, "link": "/voz-uane", "external": false }
       ]
     ]
   ]

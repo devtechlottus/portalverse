@@ -376,11 +376,11 @@
           "test": ""
         },
         "noAction": false,
-        "redirect": "/internacionalizacion"
+        "redirect": "/nosotros/internacionalizacion"
       }
     },
     "empleabilidad": {
-      "banner": {
+      "banner":{
         "image": {
           "desktop": "https://drive.google.com/uc?export=view&id=1EFLlkdIgmmhEjT9MhRsMV95VOLJWiGLd",
           "mobile": "https://drive.google.com/uc?export=view&id=1ZUOdTVdzIjtW5zxjAt0P1plB4wEeexl4",
@@ -405,11 +405,11 @@
           "test": ""
         },
         "noAction": false,
-        "redirect": "/empleabilidad"
+        "redirect": "/nosotros/empleabilidad"
       }
     },
     "becas": {
-      "banner": {
+      "banner":{
         "image": {
           "desktop": "https://drive.google.com/uc?export=view&id=1KkYoofSvnXgTQZi7aPRMy9ErSXb-XySa",
           "mobile": "https://drive.google.com/uc?export=view&id=1Uvnv0JiPehD-OQWNCUIHP5UzGDY_xi18",
@@ -434,7 +434,7 @@
           "test": ""
         },
         "noAction": false,
-        "redirect": "/becas"
+        "redirect": "/admisiones/becas"
       }
     },
     "egresados":{
@@ -499,7 +499,7 @@
           "answer": "A través de UANE INTERNACIONAL puedes compartir tu desarrollo académico y profesional con maestros y compañeros de otros países del mundo.\nLas experiencias internacionales son clave para potencializar tus conocimientos y habilidades, además amplían tu visión personal y profesional; es por ello que UANE apuesta por una formación global, brindando la oportunidad de tener clases espejo, webinars internacionales, intercambios de materias y movilidad al extranjero, así como distintos proyectos en conjunto con las mejores universidades de Latinoamérica y Europa."
         }
       ],
-      "button":{"title": "Ver más preguntas", "type": "outlined", "icon": "", "isExpand": false, "redirect":"/faq/general"}
+      "button":{"title": "Ver más preguntas", "type": "outlined", "icon": "", "isExpand": false, "redirect":"/contactanos/faq/general"}
     }
   }
 }
