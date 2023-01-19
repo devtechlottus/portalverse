@@ -3,6 +3,7 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import cn from "classnames"
 import BreadcrumbsComponentData from "@/types/BreadcrumbsPortalverse.types"
+import BreadcrumbsLabels from "@/routes/breadcrumbs.labels"
 
 const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames }: BreadcrumbsComponentData) => {
   const mainRoute = <span className="material-icons mr-1">home</span>;
@@ -17,14 +18,15 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
   const Crumb = (text: string, position: number, router: Array<string>, last = false) => {
 
     const url = router.slice(0, position+1).join("/");
+    const label = !!BreadcrumbsLabels[text] ? BreadcrumbsLabels[text] : text
 
     return text === ''
       ? last
         ? mainRoute
         : <Link href={"/"}><a>{mainRoute}</a></Link>
       : !last
-        ? <Link href={url}><a className="flex"><p className="mr-1 text-[#282828]">/</p><p className="mr-1">{ text }</p></a></Link>
-        : <span className="flex"><p className="mr-1 text-[#282828]">/</p><p className="text-[#B0003C]">{ text }</p></span>
+        ? <Link href={url}><a className="flex"><p className="mr-1 text-[#282828]">/</p><p className="mr-1">{ label }</p></a></Link>
+        : <span className="flex"><p className="mr-1 text-[#282828]">/</p><p className="text-[#B0003C]">{ label }</p></span>
   }
 
   return <ul className={cn("breadcrumbs w-full flex my-6 font-Nunito font-bold text-xs text-[#686868]", classNames, { "hidden": !visible })} aria-label="breadcrumbs">
