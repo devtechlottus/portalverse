@@ -1,3 +1,4 @@
+import { useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -7,7 +8,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import Banner from "@/components/Banner"
 import Spotify from "@/components/Spotify"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import { useState } from "react"
 import PaginatorPortalverse from "@/components/PaginatorPortalverse"
 
 

@@ -1,5 +1,4 @@
 import Head from "next/head"
-import axios from "axios"
 import ContentLayout from "@/layouts/Content.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"

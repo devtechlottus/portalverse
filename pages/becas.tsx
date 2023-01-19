@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useState } from "react"
 import Head from "next/head"
+import { useRouter } from "next/router"
 import cn from "classnames"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
@@ -15,7 +16,6 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import { useRouter } from "next/router"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter()
