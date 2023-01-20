@@ -7,13 +7,52 @@ import { ButtonInit } from "@/components/fixture"
 import Icon from "@/components/Icon"
 import HeaderPortalverseComponentData from "@/types/HeaderPortalverse.types"
 
-const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, logotype, onClickCTA, menus }: HeaderPortalverseComponentData) => { 
+const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, logotype, onClickCTA, menus, menusMobile }: HeaderPortalverseComponentData) => { 
 
   const [ menuInvisible, setMenuInvisible ] = useState<boolean>(true);
   const [ activeMenu, setActiveMenu ] = useState<boolean>(false);
   const [ activeOptionMenu, setActiveOptionMenu ] = useState<any[]>([]);
+  const [ levelActive, setLevelActive ] = useState<number>(1)
+  const [ menusMobileConf, setMenuMobilesConf ] = useState<Array<any>>([])
+  const [ activeMenuList, setActiveMenuList ] = useState<Array<any>>([])
 
   const handleMenuMobile = () => setMenuInvisible(!menuInvisible)
+
+  const handleNavigateWrapper = (active: boolean, label: string) => {
+    if (!!active) {
+      const newItems = menusMobileConf.filter((item: any) => item.label === label)[0]
+      let confItems = [ { ...newItems, children: undefined, back: true }, ...newItems.children ]
+      setActiveMenuList([ ...confItems ])
+    }
+  }
+  
+  const handleNavigateArrow = (active: boolean, label: string) => {
+    if (active) {
+      const newItems = menusMobileConf.filter((item: any) => item.label === label)[0]
+      let confItems = [ { ...newItems, children: undefined, back: true }, ...newItems.children ]
+      setActiveMenuList([ ...confItems ])
+    }
+  }
+
+  const handleEventNavigate = (active: boolean, label: string, from: string, back = false) => {
+    if (back) {
+      setActiveMenuList([ ...menusMobileConf ])
+      setLevelActive(1)
+      return
+    }
+
+    if (from === "single") {
+      handleNavigateWrapper(active, label)
+      setLevelActive(2)
+      return
+    }
+    
+    if (from === "arrow") {
+      handleNavigateArrow(active, label)
+      setLevelActive(2)
+      return
+    }
+  } 
 
   const handleHoverOption = (option: string) => {
     const { items } = menus.filter((menu: any) => menu.label === option)[0];
@@ -33,6 +72,11 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     }
     document.body.classList.remove("overflow-y-hidden");
   }, [menuInvisible]);
+
+  useEffect(() => {
+    setMenuMobilesConf([ ...menusMobile ]);
+    setActiveMenuList([ ...menusMobile ])
+  }, [menusMobile]);
 
   return <>
     {/* desktop menu */}
@@ -58,11 +102,15 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
           <div className="flex flex-grow gap-6">
             {
               menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
-                <Link passHref href={item.route}>
-                  <a className="flex">
-                    <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
-                  </a>
-                </Link>
+                {
+                  !!item.route
+                    ? <Link passHref href={item.route}>
+                        <a className="flex">
+                          <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
+                        </a>
+                      </Link>
+                    : <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
+                }
                 <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
                   <span className={cn("material-icons ml-2")}>expand_more</span>
                 </p>
@@ -96,7 +144,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     {/* desktop tablet */}
     <section className={cn("w-d:hidden w-full flex p-1 relative shadow-md", classNames)}>
       <div className="p-3 border-solid border-SC/Actions/AC-300 border-r-2" onClick={handleMenuMobile}>
-        <Icon name="hamburguer" className="w-6 h-6" />
+        <Icon name="sort" className="w-6 h-6" />
       </div>
       <div className="flex justify-center items-center flex-grow" onClick={onClickLogo}>
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[90px] h-6" classNamesImg="w-[90px] h-6" />
@@ -106,19 +154,29 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       </div>
     </section>
     <div className={cn("w-d:hidden w-full static left-0 top-0 bottom-0 h-screen bg-white flex flex-col p-2", { "hidden z-10": menuInvisible })}>
-      <div className="h-screen overflow-hidden">
-        <div className="w-full flex justify-end p-1 z-20">
-          <Icon name="close" className="w-4 h-4" onClick={handleMenuMobile} />
+      <div className="h-screen overflow-auto">
+        <div className="overflow-y-auto h-[90%]">
+          {
+            activeMenuList.map((item: any, i: number) => <div key={`submenu-mobile-${i}`} className="w-full flex flex-col justify-between p-1 z-20">
+              <div className={cn("flex justify-between items-center p-1 border-b", { "cursor-pointer": !item.route, "flex-row-reverse": item.back })}>
+                {
+                  !!item.route
+                    ? <Link href={item.route} passHref className="w-full">
+                        <a className={cn("p-1 grow", { "border-r": levelActive === 1 })} target={item.external ? "_blank" : "_self"} onClick={handleMenuMobile}>
+                          <p className="font-Nunito font-normal text-sm">{item.label}</p>
+                        </a>
+                      </Link>
+                    : <div onClick={() => handleEventNavigate(!item.route, item.label, "single", !!item.back)} className="p-1 grow">
+                        <p className="font-Nunito font-normal text-sm">{ item.label }</p>
+                      </div>
+                }
+                <div className={cn("p-3", { "cursor-pointer": !!item.route })} onClick={() => handleEventNavigate(!!item.route, item.label, "arrow", !!item.back)}>
+                  <span className="material-icons icon">{ !item.back ? "arrow_forward_ios" : "arrow_back_ios" }</span>
+                </div>
+              </div>
+          </div>)
+          }
         </div>
-        {
-          menus.map((item: any, i: number) => <div key={`submenu-mobile-${i}`} className="w-full flex p-1 z-20">
-              <Link href={item.route} passHref className="w-full">
-                <a>
-                  <p>{item.label}</p>
-                </a>
-              </Link>
-            </div>)
-        }
       </div>
     </div>
     {/* desktop tablet */}

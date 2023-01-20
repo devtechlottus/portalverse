@@ -9,7 +9,7 @@ import FooterConf from "@/config/footer.json"
 
 export default function HeaderFooterLayout({ children, breadcrumbs = true }: HeaderFooterLayoutProps) {
 
-  const { menus, logotype } = HeaderConf;
+  const { menus, logotype, menuMobile } = HeaderConf;
   const { privacyLink, certifications, logotype: logotipo, social, phone, directorio, sections } = FooterConf;
 
   const router = useRouter();
@@ -19,7 +19,7 @@ export default function HeaderFooterLayout({ children, breadcrumbs = true }: Hea
   const clickCTA = () => router.push("/admisiones/pedir-informacion");
 
   return <>
-    <Header menus={menus} onClickLogo={logotypeClick} onClickCTA={clickCTA} logotype={logotype} />
+    <Header menus={menus} menusMobile={menuMobile} onClickLogo={logotypeClick} onClickCTA={clickCTA} logotype={logotype} />
     <ContentLayout>
       <Breadcrumbs classNames="col-span-12 w-t:col-span-8 w-p:col-span-4" visible={breadcrumbs} />
     </ContentLayout>

@@ -7,6 +7,7 @@ type HeaderPortalverseComponentData = {
   logotype: ImageComponentData;
   onClickCTA: () => void;
   menus: Array<OptionMenuConfig>;
+  menusMobile: Array<any>;
 }
 
 export default HeaderPortalverseComponentData
