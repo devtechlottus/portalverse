@@ -51,8 +51,10 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
     let modalidad = modality;
     let lineaNegocio = `${process.env.NEXT_PUBLIC_LINEA!}`
     if (step === 2 && modality === 'Flex') {
-      modalidad = "Online"
       lineaNegocio = "ULA"
+    }
+    if (step === 2 && modality === 'Online') {
+      lineaNegocio = "UANE,ULA"
     }
     fetchEducativeOffer(process.env.NEXT_PUBLIC_EDUCATIVE_OFFER!, modalidad, lineaNegocio, tokenActive);
   }
@@ -123,7 +125,7 @@ const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, cu
     }
     setInfoForm({ ...infoForm, [`step${step}`]: { ...info } });
     if (`step${step}` === 'step1') {
-      saveData(`step${step}`, { ...info, modality: modalidad}, tokenActive, lineaNegocio);
+      saveData(`step${step}`, { ...info, modality: modalidad}, tokenActive, "UANE");
     } if (`step${step}` === 'step3') {
       const data = {
         id: idLead,
