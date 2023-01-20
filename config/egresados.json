@@ -15,8 +15,8 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1lJ4sw-tmKdpTS3carQuLc-nLfEEXDOkk"
         },
         "statics": [
-          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "mil", "title": "ESTUDIANTES", "body": "egresados han salido de nuestra universidad", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "%", "title": "ESTUDIANTES", "body": "egresados pertenecen a nivel de licenciatura", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "mil", "title": "ESTUDIANTES", "body": "egresados de UANE", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 50, "icon": "", "prefix": "", "suffix": "%", "title": "ESTUDIANTES", "body": "a nivel licenciatura", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
         ]
       }
     },
