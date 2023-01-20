@@ -33,13 +33,13 @@ export const getEducativeOffer = () => {
           setAllPrograms([ ...programs ])
           switch(modalidad) {
             case 'Presencial':
-              dataPrograms = programs.reduce((prev: any, item: any) => item.modalidad === modalidad ? [...prev, item] : [...prev], [])
+              dataPrograms = programs.reduce((prev: any, item: any) => item.modalidad === "Presencial" ? [...prev, item] : [...prev], [])
               break;
             case 'Online':
               dataPrograms = programs.reduce((prev: any, item: any) => (item.lineaNegocio === 'UANE' && item.modalidad === "Online") || (item.lineaNegocio === "ULA" && (item.nombreCampus === 'UANE ONLINE' && item.modalidad === "Online")) ? [...prev, item] : [...prev], [])
               break;
             case 'Flex':
-              dataPrograms = programs.reduce((prev: any, item: any) => item.modalidad === 'Online' && !!['MONTERREY','SALTILLO','PIEDRAS NEGRAS','MATAMOROS','TORREÓN'].filter((campus: string) => campus === item.nombreCampus).length? [...prev, item] : [...prev], [])
+              dataPrograms = programs.reduce((prev: any, item: any) => item.lineaNegocio === "ULA" && item.modalidad === 'Online' && ['MONTERREY','SALTILLO','PIEDRAS NEGRAS','MATAMOROS','TORREÓN','REYNOSA','SABINAS'].includes(item.nombreCampus) ? [...prev, item] : [...prev], [])
               break;
             default:
               dataPrograms = [ ...programs ]
