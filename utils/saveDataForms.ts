@@ -27,7 +27,7 @@ export const saveDataForms = () => {
   const saveData = async(step: string, data: any, Authorization: string, linea?: string) => {
     const bot = setRegisterBot();
     const params = step === 'step1'
-      ? `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${linea}&modalidad=${data.modality}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=landing&canal=${process.env.NEXT_PUBLIC_CANAL!}`
+      ? `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${linea}&modalidad=${data.modality}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=portalUANE&canal=${process.env.NEXT_PUBLIC_CANAL!}`
       : `id=${data.id}&nivel=${data.nivel}&campus=${data.campus}&programa=${data.programa}&modalidad=${data.modalidad}&lineaNegocio=${data.lineaNegocio}&medioContacto=${data.medioContacto}&horarioContacto=${data.horarioContacto}`
 
     setIsLoading(true);
