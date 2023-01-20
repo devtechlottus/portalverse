@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import axios from "axios"
 
 export const getTokenBeWanted = () => {
@@ -58,13 +58,18 @@ export const getTokenBeWanted = () => {
       })
   }
 
+  useEffect(() => {
+    if (!Object.keys(token).length) {
+      getToken()
+    }
+  }, []);
+
   return {
     isLoading,
     isError,
     isLogoutSuccess,
     token,
     logoutToken,
-    getToken
   } as const
 
 }
