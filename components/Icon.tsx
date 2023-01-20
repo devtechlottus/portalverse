@@ -16,6 +16,7 @@ import FacebookIcon from "@/icons/Facebook.svg"
 import InstagramIcon from "@/icons/Instagram.svg"
 import TikTokIcon from "@/icons/TikTok.svg"
 import YoutubeIcon from "@/icons/Youtube.svg"
+import SortIcon from "@/icons/sort.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -35,7 +36,7 @@ const iconTypes: any = {
   graduatecap: GraduateCap,
   trophy: Trophy,
   triangledown: TriangleDown,
-
+  sort: SortIcon
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
