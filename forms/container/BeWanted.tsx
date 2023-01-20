@@ -28,12 +28,12 @@ const BeWanted: FC<any> = ({ classNames, copies, token, pathThankyou, pathBeWant
     setActiveLoader(isLoading || isLoadingWanted)
   }, [isLoading, isLoadingWanted])
   
-  useEffect(() => {
-    setErrorLoader(isError || isErrorWanted || userCreated === false)
-    if (isError || isErrorWanted) {
-      logoutToken(tokenActive);
-    }
-  }, [isError, isErrorWanted, userCreated])
+  // useEffect(() => {
+  //   setErrorLoader(isError || isErrorWanted || userCreated === false)
+  //   if (isError || isErrorWanted) {
+  //     logoutToken(tokenActive);
+  //   }
+  // }, [isError, isErrorWanted, userCreated])
 
   const handleNext = (info: any) => {
     const { name: first_name, surname: last_name, email, password } = info;
@@ -42,11 +42,11 @@ const BeWanted: FC<any> = ({ classNames, copies, token, pathThankyou, pathBeWant
     registerAccount(data, tokenActive);
   }
 
-  useEffect(() => {
-    if (!isLoading && !isError && !!Object.keys(data).length) {
-      logoutToken(tokenActive);
-    }
-  }, [isLoading, isError, data]);
+  // useEffect(() => {
+  //   if (!isLoading && !isError && !!Object.keys(data).length) {
+  //     logoutToken(tokenActive);
+  //   }
+  // }, [isLoading, isError, data]);
 
   useEffect(() => {
     if (isLogoutSuccess && !!Object.keys(data).length && !!userCreated) {
