@@ -70,7 +70,9 @@
         { "label": "Certificaciones", "principal": false, "link": "/nosotros/somos-UANE#certificaciones", "external": false },
         { "label": "Modelo educativo", "principal": false, "link": "/nosotros/modelo-educativo", "external": false },
         { "label": "Empleabilidad", "principal": false, "link": "/nosotros/empleabilidad", "external": false },
-        { "label": "Prácticas profesionales", "principal": false, "link": "/nosotros/conexion-educativa?type=practicas-profesionales", "external": false }
+        { "label": "Prácticas profesionales", "principal": false, "link": "/nosotros/conexion-educativa?type=practicas-profesionales", "external": false },
+        { "label": "Conexión educativa", "principal": false, "link": "/nosotros/conexion-educativa", "external": false }
+
       ]
     ],
     [
