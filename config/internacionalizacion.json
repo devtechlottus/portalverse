@@ -11,14 +11,16 @@
         "height": "600px",
         "iconleft": "arrow_back_ios",
         "iconright": "arrow_forward_ios",
+        "overlayWhite": true,
+        "overlayDak": false,
         "slides": [
           {
             "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
             "text": "Carreras sabatinas con sesiones de 4 horas.",
             "urlImage": {
-              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1sbsXvmOyKDNpFoVq4MpLUbMdq8dHmRzk",
+              "tablet": "https://drive.google.com/uc?export=view&id=1wsAv6xU6W7XmtPohh7W43XMClSns-Ui0",
+              "desktop": "https://drive.google.com/uc?export=view&id=1DJEJ4lIYY8HJg_mvIWPtUpNz0YLmITIT"
             },
             "center": true,
             "left": false,
@@ -29,9 +31,9 @@
             "title": "Conecta con el mundo", 
             "text": "UANE te da acceso a diferentes programas internacionales con movilidad al extranjero y en línea.",
             "urlImage": {
-              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1sbsXvmOyKDNpFoVq4MpLUbMdq8dHmRzk",
+              "tablet": "https://drive.google.com/uc?export=view&id=1wsAv6xU6W7XmtPohh7W43XMClSns-Ui0",
+              "desktop": "https://drive.google.com/uc?export=view&id=1DJEJ4lIYY8HJg_mvIWPtUpNz0YLmITIT"
             },
             "center": true,
             "left": false,
@@ -42,9 +44,9 @@
             "title": "¡Tenemos vacantes nuevas!", 
             "text": "Accede y descubre las oportunidades que tenemos para ti.",
             "urlImage": {
-              "mobile": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "tablet": "https://www.uane.edu.mx/multi/images/programas/becas.jpg",
-              "desktop": "https://www.uane.edu.mx/multi/images/programas/becas.jpg"
+              "mobile": "https://drive.google.com/uc?export=view&id=1sbsXvmOyKDNpFoVq4MpLUbMdq8dHmRzk",
+              "tablet": "https://drive.google.com/uc?export=view&id=1wsAv6xU6W7XmtPohh7W43XMClSns-Ui0",
+              "desktop": "https://drive.google.com/uc?export=view&id=1DJEJ4lIYY8HJg_mvIWPtUpNz0YLmITIT"
             },
             "center": true,
             "left": false,
