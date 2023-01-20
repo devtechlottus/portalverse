@@ -1,3 +1,5 @@
+import Routes from "@/routes/Routes"
+
 const BreadcrumbsLabels: any = {
   "oferta-educativa": "Oferta Educativa",
   "bachillerato": "Bachillerato",
@@ -23,7 +25,20 @@ const BreadcrumbsLabels: any = {
   "faq": "Preguntas Frecuentes",
   "general": "General",
   "voz-uane": "Voz UANE",
-  "pedir-informacion": "Solicita Informes"
+  "pedir-informacion": "Solicita Informes",
+  ...Routes["oferta-educativa"].reduce((prev: any, value: any) => {
+    const {params: {programs}} = value
+    const programList = programs.reduce((p:any, c:any) => {
+      const {params: {program , nameProgram}} = c
+      return {...p, [program] : nameProgram}
+    }, {})
+    return {...prev, ...programList}
+  }, {}),
+
+  ...Routes["educacion-continua"]["params"]["programs"].reduce((prev:any, curr: any) => {
+    const {params: {program, nameProgram}} = curr
+    return {...prev, [program]: nameProgram}
+  }, {})
 }
 
 export default BreadcrumbsLabels;

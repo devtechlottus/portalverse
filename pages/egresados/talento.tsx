@@ -44,7 +44,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         <Modal isShow={isShow} onClose={() => handleVisibilityModal('close')} data={{icon: 'close', title: 'Video de egresado', tagOnClose: 'testOnClose', wrapper: true,}}>
           <Youtube data={{options: {...youtubeConfig}, dimensions: { height: "383px" }}} />
         </Modal>
-        <div className="w-d:col-span-8 w-t:col-span-7 w-p:col-span-4 w-d:mb-12 w-t:mb-6 w-p:mb-6">
+        <div className="w-d:col-span-12 w-t:col-span-7 w-p:col-span-4 w-d:mb-12 w-t:mb-6 w-p:mb-6">
           <h1 className="text-13 w-t:text-8.25 w-p:text-6 font-Poppins font-bold leading-[125%] w-t:leading-[111%] mb-5">{ sections.head.title }</h1>
           <RichtText data={{
             content: sections.head.description
@@ -58,12 +58,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </section>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
-          <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
+          <Cintillo classNames="h-[200px]" image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-t:mt-[65px]">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Cintillo image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
+          <Cintillo classNames="h-[200px]" image={sections.aplica.banner.image} title={sections.aplica.banner.title} subtitle={sections.aplica.banner.subtitle} phone={sections.aplica.banner.phone} email={sections.aplica.banner.email}/>
         </div>
       </ContentFullLayout>
     </HeaderFooterLayout>

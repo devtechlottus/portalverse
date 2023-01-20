@@ -26,7 +26,7 @@ const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}:
     })}>
       <div className= {cn("content-number flex justify-center items-center px-4 pt-4 wrapperNumbers", classNames, {
         "pt-0 px-0" : data.isShadowColor === false && data.container === false && data.bordered === false && data.boxShadow === false
-    })}>
+      })}>
         <p className="icono material-icons pr-2">{data.icon}</p>
         <p className="font-Poppins text-10 font-bold leading-[125%] pr-2">{data.prefix}</p>
         <CountUp start={0} end={data.maxNumber} delay={0} onEnd={() => console.log("acabe")} >
@@ -42,7 +42,7 @@ const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}:
         "pt-0" : data.isShadowColor === false && data.container === false && data.bordered === false && data.boxShadow === false
     })}>
         <p className="font-Poppins font-semibold text-lg mb-2">{data.title}</p>
-        <p className="font-Poppins font-normal text-lg">{data.body}</p>
+        <p className="sub font-Poppins font-normal text-lg">{data.body}</p>
       </div>
     </div>
   </>

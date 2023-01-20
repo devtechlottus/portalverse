@@ -43,7 +43,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           {
             sections.head.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
                 <Image classNames="aspect-1/1 w-[55px] w-p:w-[32px]" src={item.icon} alt={item.icon} />
-                <p className="font-Poppins font-bold my-auto text-4.5 w-p:text-base grow">{item.text}</p>
+                <p className="font-Nunito-Sans font-bold my-auto text-4.5 w-p:text-base grow">{item.text}</p>
               </div>
             )
           }
@@ -106,19 +106,19 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
 
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
-          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.redirect)}/>
+          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.banner.redirect)}/>
         </div>
                 
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden ">
-          <BannerPortalverse data={sections.empleabilidad.banner} onClick={()=>router.push(sections.empleabilidad.redirect)}/>
+          <BannerPortalverse data={sections.empleabilidad.banner} onClick={()=>router.push(sections.empleabilidad.banner.redirect)}/>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <BannerPortalverse data={sections.becas.banner} onClick={()=>router.push(sections.becas.redirect)} />
+          <BannerPortalverse data={sections.becas.banner} onClick={()=>router.push(sections.becas.banner.redirect)} />
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
-          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.redirect)}/>
+          <BannerPortalverse data={sections.internacionalizacion.banner} onClick={()=>router.push(sections.internacionalizacion.banner.redirect)}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
           <BannerPortalverse data={sections.empleabilidad.banner} onClick={()=>router.push(sections.empleabilidad.banner.redirect)}/>

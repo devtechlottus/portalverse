@@ -28,23 +28,6 @@
           "type": "vertical",
           "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "star"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "person",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "person"
-          },
           "wrapper": true
         },
         { 
@@ -60,23 +43,6 @@
           "type": "vertical",
           "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "star"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "person",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "person"
-          },
           "wrapper": true
         },
         { 
@@ -92,23 +58,6 @@
           "type": "vertical",
           "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "star"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "person",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
-            "disabled": false,
-            "icon": "person"
-          },
           "wrapper": true
         }
       ]
@@ -122,7 +71,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Negocios",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "red",
           "opacity": "multiply",
           "height": "84px",
@@ -138,7 +87,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Ingeniería",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "#FADB62",
           "opacity": "multiply",
           "height": "84px",
@@ -154,7 +103,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Ciencias Sociales",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "#7DF1ED",
           "opacity": "multiply",
           "height": "84px",
@@ -170,7 +119,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Comunicación y diseño",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "#7DF1ED",
           "opacity": "multiply",
           "height": "84px",
@@ -186,7 +135,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Ciencias de la salud",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "#7DF1ED",
           "opacity": "multiply",
           "height": "84px",
@@ -202,7 +151,7 @@
             "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
           },
           "text": "Humanidades",
-          "icon": "arrow_forward",
+          "icon": "",
           "color": "#7DF1ED",
           "opacity": "multiply",
           "height": "84px",
@@ -219,7 +168,7 @@
         "image": {
           "desktop": "https://drive.google.com/uc?export=view&id=1Y-NyCheOPilvlVa45pHQQ97mp-a-rQGy",
           "mobile": "https://drive.google.com/uc?export=view&id=1XFnp_Ufc-rAqZxZ2KM60ogWyuS2vdOOi",
-          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
+          "tablet": "https://drive.google.com/uc?export=view&id=1x00pvwXu6r5KQjR5-zEuV3rbhsaboDFl"
         },
         "title": "¿Aún no decides qué estudiar?",
         "subtitle": "Te ayudamos a decidir qué rumbo profesional tomar",
@@ -248,7 +197,7 @@
         "image": {
           "desktop": "https://drive.google.com/uc?export=view&id=1Yd2dBe60616xK-qlbYNNe6tehHrMsF6a",
           "mobile": "https://drive.google.com/uc?export=view&id=1U6Bw6nBdz7aaCyjNrQ50wOMFiRJKQR-G",
-          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
+          "tablet": "https://drive.google.com/uc?export=view&id=1Y0vIIFhKwRhww3sQzCCjhesB2kFiwWMq"
         },
         "title": "Internacionalízate",
         "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos",
@@ -269,7 +218,7 @@
           "test": ""
         },
         "noAction": false,
-        "redirect": "/internacionalizacion"
+        "redirect": "/nosotros/internacionalizacion"
       }
     }
   }
