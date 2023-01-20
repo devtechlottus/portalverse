@@ -29,7 +29,7 @@ const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}:
       })}>
         <p className="icono material-icons pr-2">{data.icon}</p>
         <p className="font-Poppins text-10 font-bold leading-[125%] pr-2">{data.prefix}</p>
-        <CountUp start={0} end={data.maxNumber} delay={0} onEnd={() => console.log("acabe")} >
+        <CountUp start={0} end={data.maxNumber} delay={0} onEnd={() => setFinishedCount(true)} >
           {({ countUpRef, start }) => (
             <VisibilitySensor onChange={() => !finishedCount ? start : null} delayedCall>
               <span className="font-Poppins text-10 font-bold leading-[125%] pr-2" ref={countUpRef} />
