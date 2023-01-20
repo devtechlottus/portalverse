@@ -137,7 +137,7 @@
             }
           },
           {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
+            "label": "Modalidad Flex", "icons": { "primary": "", "duplicate": false}, "disabled": false,
             "content": {
               "cards": [
                 {
