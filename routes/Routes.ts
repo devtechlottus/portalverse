@@ -156,7 +156,7 @@ const Routes: any = {
         "level": "maestria",
         "levelRoute": "oferta-educativa/maestria",
         "config": {
-          title: "Maestrias",
+          title: "Maestrías",
           promo: {
             urlImage: {
               mobile: "https://drive.google.com/uc?export=view&id=1Y7pu9KD4hCZOM5MCQqYUf-cTkm6FjAxu",
@@ -278,7 +278,7 @@ const Routes: any = {
             alt: "alumnos"
           },
           description: {
-            title: "Educacion Continua",
+            title: "Educación Continua",
             subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
         },
