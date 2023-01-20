@@ -12,7 +12,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx', 'www.youtube.com']
+    domains: ['drive.google.com','shutterstock.com','https://test1--lawful-cover--w4fh88wqf8xc.code.run/uploads']
   },
   productionBrowserSourceMaps: true,
   async headers() {
@@ -23,7 +23,7 @@ const nextConfig = {
         headers: securityHeaders,
       },
     ]
-  },
+  }, 
   webpack: (config, { isServer }) => {
     // console.log(process.env.ANALYZE)
     // if (!!process.env.ANALYZE) {
