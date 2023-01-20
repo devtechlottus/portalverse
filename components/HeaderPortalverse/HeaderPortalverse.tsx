@@ -60,7 +60,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
               menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
                 <Link passHref href={item.route}>
                   <a className="flex">
-                    <p className="font-Nunito font-bold text-sm">{item.label}</p>
+                    <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
                   </a>
                 </Link>
                 <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
@@ -84,7 +84,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
         activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className={cn("py-1 px-6 z-20 border-solid border-SC/Actions/AC-300", { "border-r-2": activeOptionMenu.length > 1 })}>
             <Link href={item.route} passHref className="w-full">
               <a>
-                <p>{item.label}</p>
+                <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
               </a>
             </Link>
           </div>)
