@@ -117,9 +117,9 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                 </div>)
             }
           </div>
-          <div className="py-3 px-7 cursor-pointer border-solid border-SC/Actions/AC-300 border-x-2">
+          {/* <div className="py-3 px-7 cursor-pointer border-solid border-SC/Actions/AC-300 border-x-2">
             <Icon name="search" className="w-6 h-6" />
-          </div>
+          </div> */}
           <div className="px-6">
             <Button dark data={{ ...ButtonInit, title: "Pedir informes" }} onClick={onClickCTA} />
           </div>
@@ -149,9 +149,9 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       <div className="flex justify-center items-center flex-grow" onClick={onClickLogo}>
         <Image src={logotype.src} alt={logotype.alt} classNames="w-[90px] h-6" classNamesImg="w-[90px] h-6" />
       </div>
-      <div className="p-3 border-solid border-SC/Actions/AC-300 border-l-2">
+      {/* <div className="p-3 border-solid border-SC/Actions/AC-300 border-l-2">
         <Icon name="search" className="w-6 h-6" />
-      </div>
+      </div> */}
     </section>
     <div className={cn("w-d:hidden w-full static left-0 top-0 bottom-0 h-screen bg-white flex flex-col p-2", { "hidden z-10": menuInvisible })}>
       <div className="h-screen overflow-auto">
