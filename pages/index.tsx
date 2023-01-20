@@ -63,6 +63,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
              <CardWebsite data={item}/>
             </section>)
+            
           }
         </section>
       </ContentLayout>

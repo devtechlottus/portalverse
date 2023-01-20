@@ -99,12 +99,12 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta, token }: any) => {
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2">
-          <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
+          <Cintillo classNames="h-[200px]" image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden mb-12 w-t:mb-6 w-p:mb-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 border-solid border-2 mt-12">
-          <Cintillo image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
+          <Cintillo classNames="h-[200px]" image={sections.contacto.banner.image} title={sections.contacto.banner.title} subtitle={sections.contacto.banner.subtitle} phone={sections.contacto.banner.phone} email={sections.contacto.banner.email}/>
         </div>
       </ContentFullLayout>
     </HeaderFooterLayout>

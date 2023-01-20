@@ -161,7 +161,7 @@
         "test": ""
       },
       "noAction": false,
-      "redirect": "/internacionalizacion"
+      "redirect": "/nosotros/internacionalizacion"
     },
     "numbers":[
       {"maxNumber": 8, "icon": "apartment", "prefix": "", "suffix": "", "title": "Campus en el país", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
@@ -306,7 +306,7 @@
         "test": ""
       },
       "noAction": false,
-      "redirect": "/podcast"
+      "redirect": "/voz-uane/podcast"
     },
     "descubre": {
       "title": "Descubre más de la vida UANE",

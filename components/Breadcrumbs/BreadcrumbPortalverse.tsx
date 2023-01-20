@@ -18,7 +18,14 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
   const Crumb = (text: string, position: number, router: Array<string>, last = false) => {
 
     const url = router.slice(0, position+1).join("/");
-    const label = !!BreadcrumbsLabels[text] ? BreadcrumbsLabels[text] : text
+    let cleanText = text;
+    if(text.includes("?") && last){
+      cleanText = text.split("?")[0]
+    }
+    if(text.includes("#") && last){
+      cleanText = text.split("#")[0]
+    }
+    const label = !!BreadcrumbsLabels[cleanText] ? BreadcrumbsLabels[cleanText] : cleanText
 
     return text === ''
       ? last
