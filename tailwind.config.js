@@ -73,7 +73,7 @@ module.exports = {
       },
       fontFamily: {
         "Nunito": ["Nunito"],
-        "Nunito-Sans": ["Nunito", 'Sans Serif'],
+        "Nunito-Sans": ["Nunito Sans"],
         "Poppins": ["Poppins"],
       },
       gridTemplateColumns: {
