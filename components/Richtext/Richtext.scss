@@ -6,6 +6,10 @@ div {
           color: white;
           @apply font-Nunito-Sans font-normal;
         }
+
+        p {
+          margin-bottom: .5rem;
+        }
       }
     }
   }
@@ -16,6 +20,10 @@ div {
           color: black;
           @apply font-Nunito-Sans font-normal;
         }
+
+        p {
+          margin-bottom: .5rem;
+        }
       }
     }
   }
@@ -25,6 +33,10 @@ div {
         * {
           color: black;
           @apply font-Nunito-Sans font-normal;
+        }
+
+        p {
+          margin-bottom: .5rem;
         }
       }
     }

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Head from "next/head"
+import cn from "classnames"
 import IconComponent from "@/components/Icon"
 import Image from "@/components/Image"
 import Map from "@/components/Map"
@@ -83,22 +84,22 @@ const Campus = ({ sections, meta }: any) => {
                 <SliderPortalverse data={{ items }} classNames="col-span-4 w-p:hidden" classNameSlide="aspect-2/1" />
                 <Image classNames="w-d:hidden w-t:hidden col-span-4 w-t:col-span-4 w-p:col-span-4 w-p:aspect-2/1" alt={items[0].alt} src={items[0].src} />
                 <div className="col-span-4 border w-t:col-span-4 w-p:col-span-4 border-gray-300 rounded pl-3">
-                  <p className="font-Nunito font-normal text-base leading-5 my-2">{ description.state }</p>
+                  <p className="font-Nunito-Sans font-normal text-base leading-5 my-2">{ description.state }</p>
                   <p className="font-Poppins font-semibold text-4.5 leading-5.625 my-2">{ description.name }</p>
                   <ContentInsideLayout>
                     <IconComponent name="marker" className="col-span-1 w-t:col-span-1 w-p:col-span-1" />
-                    <p className="col-span-11 w-t:col-span-7 w-p:col-span-3">{ description.address }</p>
+                    <p className="col-span-11 w-t:col-span-7 w-p:col-span-3 font-Nunito-Sans font-normal">{ description.address }</p>
                   </ContentInsideLayout>
                   <ContentInsideLayout>
-                    <IconComponent name="phone" className="col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2" />
+                    <IconComponent name="phone" className={cn("col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2", { "hidden": !description.phone })} />
                     <LinkContactTarget type="phone" info={description.phone} classNames="col-span-11 w-t:col-span-7 w-p:col-span-3"/>
                   </ContentInsideLayout>
                   <ContentInsideLayout>
-                    <IconComponent name="email" className="col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2" />
+                    <IconComponent name="email" className={cn("col-span-1 w-t:col-span-1 w-p:col-span-1 w-4 mt-2", { "hidden": !description.email })} />
                     <LinkContactTarget type="email" info={description.email} classNames="col-span-11 w-t:col-span-7 w-p:col-span-3" />
                   </ContentInsideLayout>
                   <div className="flex justify-end pr-3" onClick={() => handleOpenModal(coords, title)}>
-                    <p>Ver mapa</p>
+                    <p className="font-Nunito-Sans font-normal">Ver mapa</p>
                     <IconComponent name="eye" className="ml-1 w-4" />
                   </div>
                 </div>

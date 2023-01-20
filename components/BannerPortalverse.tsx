@@ -30,7 +30,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
           >
           <div className="p-10">
             <h1 className={cn("font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-6.5 w-t:text-6 w-p:text-6", classNames, {"text-white": data.overlayDak || data.font === "light" })}>{ data.title }</h1>
-            <h3 className={cn("font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5", classNames, {"text-white": data.overlayDak || data.font === "light"})}>{ data.subtitle }</h3>
+            <h3 className={cn("font-Nunito-Sans font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5", classNames, {"text-white": data.overlayDak || data.font === "light"})}>{ data.subtitle }</h3>
             {
               !data.noAction && data.overlayDak
               ? <div className={cn("mt-2 flex", classNames, {
@@ -102,7 +102,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
           >
           <div className="p-10">
             <h1 className={cn("font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-6.5 w-t:text-6 w-p:text-6", classNames, {"text-white": data.overlayDak || data.font === "light"})}>{ data.title }</h1>
-            <h3 className={cn("font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5", classNames, {"text-white": data.overlayDak || data.font === "light" })}>{ data.subtitle }</h3>
+            <h3 className={cn("font-Nunito-Sans font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5", classNames, {"text-white": data.overlayDak || data.font === "light" })}>{ data.subtitle }</h3>
           </div>
         </div>
       </div>

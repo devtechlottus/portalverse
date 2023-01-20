@@ -11,7 +11,7 @@ const Cintillo: FC<CintilloData> = ({ image, title, subtitle, email, phone, clas
     <Image classNames="w-full h-full w-d:hidden w-t:hidden aspect-2/1" src={image?.mobile!} alt="image" />
     <div className="absolute p-10">
       <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-6.5 w-t:text-6 w-p:text-6 text-black w-p:text-white">{ title }</h1>
-      <h3 className="font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5 text-black w-p:text-white">{ subtitle }</h3>
+      <h3 className="font-Nunito-Sans font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5 text-black w-p:text-white">{ subtitle }</h3>
       {
         !!email
           ? <div className="flex my-4">

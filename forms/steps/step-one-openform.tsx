@@ -114,13 +114,13 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
     <div className="flex gap-6">
       <div className="flex flex-col gap-6">
         <h1 className="font-Nunito-Sans font-bold text-5 leading-6">{ config.title }</h1>
-        <p className="font-Nunito font-normal text-[14px] leading-4">{ config.subtitle }</p>
+        <p className="font-Nunito-Sans font-normal text-[14px] leading-4">{ config.subtitle }</p>
       </div>
       <div className={"aspect-1/1 w-p:hidden"} >
         <Image classNamesImg="rounded-full" classNames="w-[112px] h-[112px]" src={image.src} alt={image.alt} />
       </div>
     </div>
-    <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828]">{  config.conditions }</p>
+    <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828] font-Nunito-Sans font-normal">{  config.conditions }</p>
     <div className="mb-6">
       <ProgressBar data={{ progress }} />
     </div>
@@ -140,7 +140,7 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
         <Input errorMessage={configControls.errorMessagesStepOneOpenForm.email} hasError={errorControls.email} eventFocus={() => handleTouchedControl("email")} data={ configControls.inputEmailOpenFormStepOne } eventKeyPress={(e: CustomEvent) => handleKeyPress(e, "email")} />
       </div>
       <div className="mt-6">
-        <p className="font-Nunito font-normal text-[14px] leading-5">{ config.modality }</p>
+        <p className="font-Nunito-Sans font-normal text-[14px] leading-5">{ config.modality }</p>
         <Select onClick={(option: CustomEvent) => handleOptionSelected(option)} options={[...dataModalities]} data={{ ...SelectInit, textDefault: !!infoControls.modality ? " " : "Elige una modalidad", icon: "school" }}  />
         <p className={cn("text-[#e57565] text-xs px-3 mt-4", { "hidden": !errorControls.modality })}>{ configControls.errorMessagesStepOneOpenForm.modality }</p>
       </div>

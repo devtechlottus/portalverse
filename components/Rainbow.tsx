@@ -35,7 +35,7 @@ const Rainbow: FC<RainbowComponentConfig> = ({ sections, title, classNamesTitle 
 
   return <section className="relative w-full">
     <h1 className={cn("mb-6 ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h2-bold-solid-poppins-mobile w-p:ac-type-h3-bold-solid-poppins-tabmob", classNamesTitle)}>{ title }</h1>
-    <div className="absolute w-4 w-t:w-5 w-p:w-2 bg-[#CDCDCD] h-[93%] w-t:h-[95%] w-p:h-[95%] ml-2 w-t:ml-6 w-p:ml-[2px] rounded-[20px] my-[80px]"></div>
+    <div className="hidden absolute w-4 w-t:w-5 w-p:w-2 bg-[#CDCDCD] h-[93%] w-t:h-[95%] w-p:h-[95%] ml-2 w-t:ml-6 w-p:ml-[2px] rounded-[20px] my-[80px]"></div>
     {
       sections.map(( { sections }: RainbowSectionComponentConfig, i: number ) => <section key={`section-container${i}`}>
         {

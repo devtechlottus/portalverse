@@ -13,8 +13,8 @@ const CardProgram: FC<CardProgramData> = memo(({ title, link, image, classNames 
           ? <Image classNames={cn("w-full", aspectImg)} alt="contact-image" src={image} />
           : <div className="bg-[gray] rounded w-22 h-22" />
       }
-      <p className="font-Poppins font-bold text-4.5 mt-3 mb-2 mx-3">{title}</p>
-      <div className="flex justify-end pb-2 items-center">
+      <p className="font-Nunito-Sans font-normal text-4.5 mt-3 mb-2 mx-3">{title}</p>
+      <div className="flex justify-end pb-2 items-center font-Nunito font-bold">
         <LinkIcons data={link} onClick={onClick}/>
         <span className="material-icons icon">chevron_right</span>
       </div>
