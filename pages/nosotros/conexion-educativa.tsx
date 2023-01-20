@@ -75,10 +75,10 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-12">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-12 hidden">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.alliances.title}</p>
           {/* carrousel */}
-          <div className="flex justify-center">
+          <div className=" justify-center hidden">
           <Button data={sections.alliances.button} />
           </div>
         </div>
@@ -108,14 +108,14 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
                     src={src}
                     classNames={cn("aspect-4/3 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
                   />
-                  <DescriptionSection
+                  {/* <DescriptionSection
                   action={<Link href={download.link}><a className="flex items-center" target={"_blank"}>{download.title} <span className="material-icons">download</span></a></Link>}
                   mode="transparent"
                   title={titleProcess}
                   description={descripcionProcess}
                   classNames={cn("col-span-12 grid grid-cols-12 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
                   titleStyles="col-start-2 col-end-12 w-t:col-end-8"
-                  descriptionStyles="col-start-2 col-end-12 w-t:col-end-8" />
+                  descriptionStyles="col-start-2 col-end-12 w-t:col-end-8" /> */}
                 </Fragment>)
             }
           </ContentInsideLayout>
