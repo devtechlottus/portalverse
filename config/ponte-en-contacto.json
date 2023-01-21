@@ -40,20 +40,20 @@
     },
     "sociales": [
       {
-        "icon": "person",
+        "icon": "instagram",
         "link": "https://www.instagram.com/uaneoficial/?hl=es"
       },
       {
-        "icon": "person",
+        "icon": "facebook",
         "link": "https://es-la.facebook.com/UANEOficial/"
       },
       {
-        "icon": "person",
+        "icon": "youtube",
         "link": "https://www.youtube.com/channel/UCir4jyZ8CBUQ-MhUUxdUiHQ"
       },
       {
-        "icon": "person",
-        "link": "https://www.youtube.com/channel/UCir4jyZ8CBUQ-MhUUxdUiHQ"
+        "icon": "twitter",
+        "link": "https://mobile.twitter.com/uaneoficial"
       }
     ],
     "banner": {
