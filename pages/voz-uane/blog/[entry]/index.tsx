@@ -26,7 +26,6 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
     "disabled": false,
     "icon": "person"
   }
-  
 
   return <>
     <Head>
@@ -35,7 +34,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-1 w-d:col-end-8">
-          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-[125%]">{blog_post.title}</p>
+          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-[125%]">{blog_post?.title}</p>
         </div>
         <div className="col-span-8 w-t:col-span-0 w-p:col-span-4">
           <Image
@@ -47,7 +46,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
             <Editor readOnly holder="editor" value={blog_post.body} />
           </div>
           {
-            !!blog_post.related_posts.length && <>
+            !!blog_post?.related_posts.length && <>
               <div className="mt-[72px] w-t:mt-12 w-p:mt-12 mb-6">
                 <p className="font-Poppins font-bold text-7.5 leading-[125%]">{related_post_title}</p>
               </div>
@@ -82,6 +81,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
     </HeaderFooterLayout>
   </>
 }
+
 export async function getStaticPaths() {
 
   const rawblogpost = await fetchStrapi('blog-posts',['populate=*'])
@@ -90,12 +90,12 @@ export async function getStaticPaths() {
 
   let slugs = fullblogposts.data.map((post: any) => {
     const { attributes: { slug } } = post
-    return {params: { entry: slug }}
+    return { params: { entry: slug } }
   })
   
   return {
     paths: slugs,
-    fallback: true,
+    fallback: 'blocking'
   }
 }
 
@@ -105,7 +105,7 @@ export async function getStaticProps(context: any) {
   const rawblogpost = await fetchStrapi(`blog-posts`,['[populate][seo]=*','[populate][featured_image]=*','[populate][related_posts][populate][featured_image]=*',`filters[slug][$eq]=${entry}`])
     const blogposts = await rawblogpost.json()
     const pre_blog_post = blogposts.data[0].attributes
-    const  related_posts = pre_blog_post.related_posts.data.map((post: any) => {
+    const related_posts = pre_blog_post.related_posts.data.map((post: any) => {
       const url = post.attributes.featured_image?.data.attributes.formats.thumbnail.url || post.attributes.featured_image.data.attributes.url;
       const urlImage = `${env.NEXT_PUBLIC_STRAPI_URL}${url}`
       return { ...post.attributes, urlImage }
@@ -117,7 +117,9 @@ export async function getStaticProps(context: any) {
     const blog_post = { ...pre_blog_post, featured_image, related_posts}
 
     const { banners, related_post_title, blog_section } = await getDataPageFromJSON(`/blog/blog-entry.json`);
-    return { props:{ blog_post, banners, related_post_title, blog_section}}
+    return {
+      props:{ blog_post, banners, related_post_title, blog_section},
+    }
 }
 
 export default EntryBlogDetail
