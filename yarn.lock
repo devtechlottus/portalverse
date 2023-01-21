@@ -1009,10 +1009,112 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@codexteam/icons@0.1.0":
+  version "0.1.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@codexteam/icons/-/icons-0.1.0.tgz#a02885fe8699f69902d05b077b5f1cd48a2ca6b9"
+  integrity sha1-oCiF/oaZ9pkC0FsHe18c1Iosprk=
+
+"@codexteam/icons@^0.0.4":
+  version "0.0.4"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@codexteam/icons/-/icons-0.0.4.tgz#8b72dcd3f3a1b0d880bdceb2abebd74b46d3ae13"
+  integrity sha1-i3Lc0/OhsNiAvc6yq+vXS0bTrhM=
+
+"@codexteam/icons@^0.0.5":
+  version "0.0.5"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@codexteam/icons/-/icons-0.0.5.tgz#d17f39b6a0497c6439f57dd42711817a3dd3679c"
+  integrity sha1-0X85tqBJfGQ59X3UJxGBej3TZ5w=
+
+"@codexteam/icons@^0.0.6":
+  version "0.0.6"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@codexteam/icons/-/icons-0.0.6.tgz#5553ada48dddf5940851ccc142cfe17835c36ad3"
+  integrity sha1-VVOtpI3d9ZQIUczBQs/heDXDatM=
+
 "@corex/deepmerge@^4.0.29":
   version "4.0.29"
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@corex/deepmerge/-/deepmerge-4.0.29.tgz#af9debf07d7f6b0d2a9d04a266abf2c1418ed2f6"
   integrity sha1-r53r8H1/aw0qnQSiZqvywUGO0vY=
+
+"@editorjs/checklist@^1.4.0":
+  version "1.4.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/checklist/-/checklist-1.4.0.tgz#64a558efc7a3d4dbd18b3c85c938996e3c8c1870"
+  integrity sha1-ZKVY78ej1NvRizyFyTiZbjyMGHA=
+  dependencies:
+    "@codexteam/icons" "^0.0.4"
+
+"@editorjs/delimiter@^1.3.0":
+  version "1.3.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/delimiter/-/delimiter-1.3.0.tgz#abc4c5b1e512c09ec6cd0c57f41e36434fbd4da4"
+  integrity sha1-q8TFseUSwJ7GzQxX9B42Q0+9TaQ=
+  dependencies:
+    "@codexteam/icons" "^0.0.5"
+
+"@editorjs/editorjs@^2.26.4":
+  version "2.26.4"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/editorjs/-/editorjs-2.26.4.tgz#097e29341501d81cd1721604a74da1530f5ff74f"
+  integrity sha1-CX4pNBUB2BzRchYEp02hUw9f908=
+  dependencies:
+    "@codexteam/icons" "0.1.0"
+    codex-notifier "^1.1.2"
+    codex-tooltip "^1.0.5"
+    html-janitor "^2.0.4"
+    nanoid "^3.1.22"
+
+"@editorjs/header@^2.7.0":
+  version "2.7.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/header/-/header-2.7.0.tgz#755d104a9210a8e2d9ccf22b175b2a93bdbb2330"
+  integrity sha1-dV0QSpIQqOLZzPIrF1sqk727IzA=
+  dependencies:
+    "@codexteam/icons" "^0.0.5"
+
+"@editorjs/image@^2.8.1":
+  version "2.8.1"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/image/-/image-2.8.1.tgz#f78dd5ba52356d9fb2f61ff7498ea6c1510a80e4"
+  integrity sha1-943VulI1bZ+y9h/3SY6mwVEKgOQ=
+  dependencies:
+    "@codexteam/icons" "^0.0.6"
+
+"@editorjs/link@^2.5.0":
+  version "2.5.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/link/-/link-2.5.0.tgz#f2eff28030d858cd4d719cc07c4888c7840106d0"
+  integrity sha1-8u/ygDDYWM1NcZzAfEiIx4QBBtA=
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    "@codexteam/icons" "^0.0.4"
+
+"@editorjs/list@^1.8.0":
+  version "1.8.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/list/-/list-1.8.0.tgz#c64b88679f23c0129ffac589004300832c345d3b"
+  integrity sha1-xkuIZ58jwBKf+sWJAEMAgyw0XTs=
+  dependencies:
+    "@codexteam/icons" "^0.0.4"
+
+"@editorjs/paragraph@^2.9.0":
+  version "2.9.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/paragraph/-/paragraph-2.9.0.tgz#22f508b3771a4f98650e8bb37d628e230f0a378c"
+  integrity sha1-IvUIs3caT5hlDouzfWKOIw8KN4w=
+  dependencies:
+    "@codexteam/icons" "^0.0.4"
+
+"@editorjs/quote@^2.5.0":
+  version "2.5.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/quote/-/quote-2.5.0.tgz#a4a4e7513b8194db405825bb9b3ea02757a12a5a"
+  integrity sha1-pKTnUTuBlNtAWCW7mz6gJ1ehKlo=
+  dependencies:
+    "@codexteam/icons" "^0.0.5"
+
+"@editorjs/table@^2.2.0":
+  version "2.2.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/table/-/table-2.2.0.tgz#8303aab2ed39da8815857f2f7295a3ebe4c1e6a1"
+  integrity sha1-gwOqsu052ogVhX8vcpWj6+TB5qE=
+  dependencies:
+    "@codexteam/icons" "^0.0.6"
+
+"@editorjs/warning@^1.3.0":
+  version "1.3.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@editorjs/warning/-/warning-1.3.0.tgz#3dad5bd48bca878c2fbd6fcc8d46d72ed7324027"
+  integrity sha1-Pa1b1IvKh4wvvW/MjUbXLtcyQCc=
+  dependencies:
+    "@codexteam/icons" "^0.0.4"
 
 "@eslint/eslintrc@^1.3.2":
   version "1.3.2"
@@ -1382,6 +1484,11 @@
   version "0.2.0"
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha1-zMqrdYr1Z2Hre/N69vA/Mm3XmK0=
+
+"@types/editorjs__header@^2.6.0":
+  version "2.6.0"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/@types/editorjs__header/-/editorjs__header-2.6.0.tgz#994aa7f2891954187908190105132ad5faa18a5a"
+  integrity sha1-mUqn8okZVBh5CBkBBRMq1fqhilo=
 
 "@types/estree@^1.0.0":
   version "1.0.0"
@@ -1796,6 +1903,16 @@ classnames@^2.3.2:
   version "2.3.2"
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
   integrity sha1-NR2BO/ATf8xqdqFriCCNJWCg2SQ=
+
+codex-notifier@^1.1.2:
+  version "1.1.2"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/codex-notifier/-/codex-notifier-1.1.2.tgz#a733079185f4c927fa296f1d71eb8753fe080895"
+  integrity sha1-pzMHkYX0ySf6KW8dceuHU/4ICJU=
+
+codex-tooltip@^1.0.5:
+  version "1.0.5"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/codex-tooltip/-/codex-tooltip-1.0.5.tgz#ba25fd5b3a58ba2f73fd667c2b46987ffd1edef2"
+  integrity sha1-uiX9WzpYui9z/WZ8K0aYf/0e3vI=
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -2613,6 +2730,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+html-janitor@^2.0.4:
+  version "2.0.4"
+  resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/html-janitor/-/html-janitor-2.0.4.tgz#ae5a115cdf3331cd5501edd7b5471b18ea44cdbb"
+  integrity sha1-rloRXN8zMc1VAe3XtUcbGOpEzbs=
+
 ignore@^5.2.0:
   version "5.2.0"
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
@@ -2995,7 +3117,7 @@ ms@^2.1.1:
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=
 
-nanoid@^3.3.4:
+nanoid@^3.1.22, nanoid@^3.3.4:
   version "3.3.4"
   resolved "https://pkgs.dev.azure.com/lottusAdmin/CampusVirtual/_packaging/npm-lottus/npm/registry/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks=

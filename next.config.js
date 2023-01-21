@@ -1,18 +1,21 @@
 /** @type {import('next').NextConfig} */
 // const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
 
+const { env } = require('process');
+
 const securityHeaders = [
   {
     key: 'X-XSS-Protection',
     value: '1; mode=block'
   }
 ];
+const strapiUrl = env.NEXT_PUBLIC_STRAPI_URL
 
 const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized: true,
-    domains: ['drive.google.com','shutterstock.com','www.uane.edu.mx', 'www.youtube.com']
+    domains: ['drive.google.com','shutterstock.com',`${strapiUrl}/uploads/`]
   },
   productionBrowserSourceMaps: true,
   async headers() {
@@ -23,7 +26,7 @@ const nextConfig = {
         headers: securityHeaders,
       },
     ]
-  },
+  }, 
   webpack: (config, { isServer }) => {
     // console.log(process.env.ANALYZE)
     // if (!!process.env.ANALYZE) {

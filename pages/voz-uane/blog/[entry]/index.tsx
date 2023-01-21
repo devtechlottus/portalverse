@@ -3,65 +3,78 @@ import { useRouter } from "next/router"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Routes from "@/routes/Routes"
+import  { fetchStrapi }  from "@/utils/getStrapi"
 import ContentLayout from "@/layouts/Content.layout"
 import Image from "@/components/Image"
-import RichtText from "@/components/Richtext/Richtext"
 import CardWebsite from "@/components/CardWebsite"
 import Button from "@/components/Button/Button"
 import Banner from "@/components/Banner"
 import BannerWrapper from "@/components/BannerWrapper"
+import Editor from "@/components/Editor"
+import { env } from "process"
 
 
-const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
+const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_title, blog_section }: any) => {
   const handleRedirect = (redirect:string) => router.push(redirect)
-
+  
   const router = useRouter()
+  const linkIcon = {
+    "text": "Ver más",
+    "iconSecond": "person",
+    "isBold": true,
+    "size": "large",
+    "isUnderline": false,
+    "disabled": false,
+    "icon": "person"
+  }
+  
 
   return <>
     <Head>
-      <title>{ meta.title }</title>
+    <title>{ blog_post?.seo.title }</title>
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:col-start-1 w-d:col-end-8">
-          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-[125%]">{sections.head.title}</p>
+          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-6 leading-[125%]">{blog_post.title}</p>
         </div>
         <div className="col-span-8 w-t:col-span-0 w-p:col-span-4">
           <Image
-            alt={ sections.post.image.desk.alt }
-            src={ sections.post.image.desk.src }
+            alt={ blog_post.featured_image.alt }
+            src={ blog_post.featured_image.src }
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
           />
           <div className="mt-6">
-            <RichtText data={{
-              content: sections.post.description
-            }} />
+            <Editor readOnly holder="editor" value={blog_post.body} />
           </div>
-          <div className="mt-[72px] w-t:mt-12 w-p:mt-12 mb-6">
-            <p className="font-Poppins font-bold text-7.5 leading-[125%]">{sections.relatedPost.title}</p>
-          </div>
-          <section className="col-span-8 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
-            {
-             sections.relatedPost.posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite data={item}/>
-             </section>)
-            }
-          </section>
+          {
+            !!blog_post.related_posts.length && <>
+              <div className="mt-[72px] w-t:mt-12 w-p:mt-12 mb-6">
+                <p className="font-Poppins font-bold text-7.5 leading-[125%]">{related_post_title}</p>
+              </div>
+              <section className="col-span-8 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
+                {
+                blog_post.related_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+                  <CardWebsite onClick={() => router.push(item.slug)} data={{...item, linkIcon, linkText:linkIcon, wrapper:true}}/>
+                </section>)
+                }
+              </section>
+            </>
+          }
           <div className="my-6 flex justify-center">
-            <Button dark data={sections.relatedPost.button} onClick={()=>{router.push(sections.relatedPost.redirect)}}/>
+            <Button dark data={blog_section} onClick={()=>{router.push(blog_section.redirect)}}/>
           </div>
         </div>
         <div className="col-span-4 w-t:hidden w-p:hidden w-d:grid-cols-1">
           {
-           sections.banners.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
+           banners.map((item:any, i:number) => <section className="mb-6" key={`section-blog-${i}`}>
             <BannerWrapper data={item} typeBanner={item.type} banner={item} font={item.font} onBtn={() => router.push(item.redirect)}/>
            </section>)
           }
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:hidden">
           {
-           sections.banners.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+           banners.map((item:any, i:number) => <section key={`section-blog-${i}`}>
             <Banner data={item} onBtn={() => router.push(item.redirect)}/>
            </section>)
           }
@@ -71,21 +84,41 @@ const EntryBlogDetail: NextPageWithLayout = ({ sections, meta }: any) => {
   </>
 }
 export async function getStaticPaths() {
-  const data = Routes["blog"].filter(({params:{ level }}:any) => level === 'entrada')[0]
-  const { params:{ entries } } = data
+
+  const rawblogpost = await fetchStrapi('blog-posts',['populate=*'])
+  
+  const fullblogposts = await rawblogpost.json()
+
+  let slugs = fullblogposts.data.map((post: any) => {
+    const { attributes: { slug } } = post
+    return {params: { entry: slug }}
+  })
+  
   return {
-    paths: [...entries],
-    fallback: false,
+    paths: slugs,
+    fallback: true,
   }
 }
-// `getStaticPaths` requires using `getStaticProps`
-export async function getStaticProps(context: any) {
-  const { params: { entry } } = context
-  const { sections, meta } = await getDataPageFromJSON(`/blog/${entry}.json`);
 
-  return {
-    props: { sections, meta }
-  }
+export async function getStaticProps(context: any) {
+
+  const { params: { entry } } = context
+  const rawblogpost = await fetchStrapi(`blog-posts`,['[populate][seo]=*','[populate][featured_image]=*','[populate][related_posts][populate][featured_image]=*',`filters[slug][$eq]=${entry}`])
+    const blogposts = await rawblogpost.json()
+    const pre_blog_post = blogposts.data[0].attributes
+    const  related_posts = pre_blog_post.related_posts.data.map((post: any) => {
+      const url = post.attributes.featured_image?.data.attributes.formats.thumbnail.url || post.attributes.featured_image.data.attributes.url;
+      const urlImage = `${env.NEXT_PUBLIC_STRAPI_URL}${url}`
+      return { ...post.attributes, urlImage }
+    })
+    const featured_image = {
+      alt: pre_blog_post.featured_image.data.attributes.alternativeText || pre_blog_post.featured_image.data.attributes.url ,
+      src: `${env.NEXT_PUBLIC_STRAPI_URL}${pre_blog_post.featured_image.data.attributes.url}` 
+    }
+    const blog_post = { ...pre_blog_post, featured_image, related_posts}
+
+    const { banners, related_post_title, blog_section } = await getDataPageFromJSON(`/blog/blog-entry.json`);
+    return { props:{ blog_post, banners, related_post_title, blog_section}}
 }
 
 export default EntryBlogDetail
