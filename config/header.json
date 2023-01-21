@@ -78,9 +78,10 @@
       ]
     },
     {
-      "label": "Comunidad UANE", "principal": true, "route": "", "external": false,
+      "label": "Voz UANE", "principal": true, "route": "", "external": false,
       "children":[
-        { "label": "Voz UANE", "principal": false, "route": "/voz-uane", "external": false }
+        { "label": "Blog", "principal": false, "route": "/voz-uane/podcast", "external": false },
+        { "label": "Podcast", "principal": false, "route": "/voz-uane/blog", "external": false }
       ]
     }
   ]

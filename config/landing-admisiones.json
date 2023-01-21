@@ -50,7 +50,7 @@
               },
               "content": {
                 "title": "",
-                "description": "\n- Acta de nacimiento reciente\n- Certificado de secundaria legalizado\n- Certificado de preparatoria legalizado\n- CURP copia.\n\n<b>Estudiantes que tramitan equivalencia:</b>\n- Certificado parcial de estudios legalizado\n- 4 fotografías tamaño infantil y 4 tamaño credencial, B/N, no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
+                "description": "\n- Acta de nacimiento reciente\n- Certificado de secundaria legalizado\n- Certificado de preparatoria legalizado\n- CURP copia.\n\n<b>Estudiantes que tramitan equivalencia:</b>\n- Certificado parcial de estudios legalizado\n- Cuatro fotografías tamaño infantil y cuatro tamaño credencial, B/N, no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                 "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/bachillerato"}
               },
               "cards": [
@@ -111,7 +111,7 @@
               },
               "content": {
                 "title": "",
-                "description": "- Acta de nacimiento reciente, original del cajero y 2 copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n- 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
+                "description": "- Acta de nacimiento reciente, original del cajero y dos copias.\n- Certificado de secundaria legalizado original y dos copias.\n- Certificado de preparatoria legalizado original y dos copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n- CURP copia.\nEn caso de equivalencia\n- Certificado parcial de estudios legalizado original con dos copias y carta de autenticidad.\n- Cuatro fotografías tamaño infantil y cuatro tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n- Carta de buena salud expedida por institución pública o privada.",
                 "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/licenciatura"}
               },
               "cards": [
@@ -172,7 +172,7 @@
               },
               "content": {
                 "title": "",
-                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "description": "- Acta de nacimiento original del cajero reciente y dos copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
                 "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/maestria"}
               },
               "cards": [
@@ -233,7 +233,7 @@
               },
               "content": {
                 "title": "",
-                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "description": "- Acta de nacimiento original del cajero reciente y dos copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Cédula: original y copia\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
                 "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/especialidad"}
               },
               "cards": [
@@ -294,7 +294,7 @@
               },
               "content": {
                 "title": "",
-                "description": "- Acta de nacimiento original del cajero reciente y 2 copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
+                "description": "- Acta de nacimiento original del cajero reciente y dos copias\n- Copia fiel del título (Constancia de trámite en caso de aún no tener el título)\n- Copia de cédula (traer original para copia)\n- Impresión de CURP directo de intenet sin ampliación\n- CV y Constancia laboral\n- Fotografías (Preguntar por especificaciones)\n- Solicitud de Admisión",
                 "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "/oferta-educativa/doctorado"}
               },
               "cards": [

@@ -506,7 +506,7 @@
       "title": "¿Qué me ofrece UANE para estudiar?",
       "levels": [
         {
-          "level": "bachillerato",
+          "level": "/oferta-educativa/bachillerato/bachillerato",
           "title": "Bachillerato",
           "promo": {
             "urlImage": {
@@ -523,7 +523,7 @@
           }
         },
         {
-          "level": "licenciatura",
+          "level": "/oferta-educativa/licenciatura",
           "title": "Licenciaturas",
           "promo": {
             "urlImage": {
@@ -540,7 +540,7 @@
           }
         },
         {
-          "level": "especialidad",
+          "level": "/oferta-educativa/especialidad",
           "title": "Especialidades",
           "promo": {
             "urlImage": {
@@ -557,7 +557,7 @@
           }
         },
         {
-          "level": "maestria",
+          "level": "/oferta-educativa/maestria",
           "title": "Maestrias",
           "promo": {
             "urlImage": {
@@ -574,7 +574,7 @@
           }
         },
         {
-          "level": "doctorado",
+          "level": "/oferta-educativa/doctorado",
           "title": "Doctorado",
           "promo": {
             "urlImage": {

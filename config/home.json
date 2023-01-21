@@ -33,7 +33,7 @@
       "title": "¿Qué me ofrece UANE para estudiar?",
       "levels": [
         {
-          "level": "oferta-educativa/bachillerato",
+          "level": "oferta-educativa/bachillerato/bachillerato",
           "title": "Bachillerato",
           "promo": {
             "urlImage": {
@@ -91,7 +91,7 @@
               "mobile": "https://drive.google.com/uc?export=view&id=19uxxBiFgKArr8tsf-RB69Wy9NS5ztzf8",
               "desktop": "https://drive.google.com/uc?export=view&id=1_9yjRHPOyA1AFwuKylmiIrd7Z2qaiIzw"
             },
-            "text": "Maestrias",
+            "text": "Maestrías",
             "icon": "arrow_forward",
             "color": "#E94537",
             "opacity": "multiply",
@@ -143,7 +143,7 @@
         "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
       },
       "title": "UANE Internacional",
-      "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
+      "subtitle": "¡Internacionalízate! Agrega experiencias internacionales a tu educación",
       "position": "left-bottom",
       "height": "300px",
       "overlayWhite":false,
@@ -165,9 +165,9 @@
     },
     "numbers":[
       {"maxNumber": 8, "icon": "apartment", "prefix": "", "suffix": "", "title": "Campus en el país", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-      {"maxNumber": 49, "icon": "manage_history", "prefix": "", "suffix": "", "title": "Años de experiencia", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "red-pastel-right", "boxShadow": false},
-      {"maxNumber": 12500, "icon": "group", "prefix": "", "suffix": "", "title": "Alumnos Inscritos", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "gray-pastel-right", "boxShadow": false},
-      {"maxNumber": 48000, "icon": "history_edu", "prefix": "", "suffix": "", "title": "Egresados", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "yellow-pastel-right", "boxShadow": false}
+      {"maxNumber": 49, "icon": "manage_history", "prefix": "+", "suffix": "", "title": "Años de experiencia", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "red-pastel-right", "boxShadow": false},
+      {"maxNumber": 12500, "icon": "group", "prefix": "+", "suffix": "", "title": "Alumnos Inscritos", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "gray-pastel-right", "boxShadow": false},
+      {"maxNumber": 48000, "icon": "history_edu", "prefix": "+", "suffix": "", "title": "Egresados", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "yellow-pastel-right", "boxShadow": false}
     ],
     "vozUane": {
       "title": "Voz UANE blog",
@@ -317,6 +317,183 @@
       },
       "dimensions": {
         "height": "500px"
+      }
+    },
+    "campus": {
+      "items": [
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1-H0lWSF74-m7I27Ajimfv-3MklsQ0nZ_",
+          "subtitle": "",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "iconSecond": "chevron_right"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "chevron_right",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "chevron_right"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1_HDZ0yzh3bmGey33AoUhO4oOMKDTW4ON",
+          "subtitle": "",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "iconSecond": "chevron_right"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "chevron_right",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "chevron_right"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1Xlshz6sWTpWQhjCH5ZtF6PLZNHVFl0jF",
+          "subtitle": "",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "iconFirst": "chevron_right"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "chevron_right",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "chevron_right"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1Xlshz6sWTpWQhjCH5ZtF6PLZNHVFl0jF",
+          "subtitle": "",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "iconFirst": "chevron_right"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "chevron_right",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "chevron_right"
+          },
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1Xlshz6sWTpWQhjCH5ZtF6PLZNHVFl0jF",
+          "subtitle": "",
+          "title": "Coursera y UANE se unen para ti",
+          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "linkText": {
+            "text": "Conocer más",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "iconFirst": "chevron_right"
+          },
+          "linkIcon": {
+            "text": "Ver más",
+            "iconSecond": "chevron_right",
+            "isBold": true,
+            "size": "large",
+            "isUnderline": false,
+            "disabled": false,
+            "icon": "chevron_right"
+          },
+          "wrapper": true
+        }
+      ],
+      "button": {
+        "id": "",
+        "type": "",
+        "title": "Campus",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": "",
+        "redirect": "/nosotros/campus"
       }
     }
   }

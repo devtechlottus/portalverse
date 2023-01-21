@@ -8,7 +8,7 @@
     "temas": [
       {
         "title": "Generales",
-        "icon": "question_mark",
+        "icon": "border_color",
         "questions": [
           {
             "title": "¿Qué requisitos solicitan para ingresar?",
