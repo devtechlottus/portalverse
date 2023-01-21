@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+import { env } from "process"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
@@ -8,7 +9,6 @@ import ContentLayout from "@/layouts/Content.layout"
 import CardWebsite from "@/components/CardWebsite"
 import Slider from "@/components/SliderPortalverse"
 import { fetchStrapi } from "@/utils/getStrapi"
-import { env } from "process"
 
 const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
   const router = useRouter()
@@ -41,8 +41,7 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
 				<section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
            blog_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite onClick={() => router.push(`${router.pathname}/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, wrapper:true}}/>
-
+              <CardWebsite onClick={() => router.push(`${router.pathname}/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
            </section>)
           }
         </section>
@@ -54,7 +53,7 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {	
   const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
-  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*',])
+  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','sort[0]=publication_date'])
   const fullblogposts = await rawblogpost.json()
   let blog_posts = fullblogposts.data.map((post: any) => {
     const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
@@ -71,7 +70,7 @@ export async function getStaticProps(context: any) {
   })
 
   return {
-    props: {data: {  level:'blog' }, sections, meta, blog_posts }
+    props: { data: {  level:'blog' }, sections, meta, blog_posts }
   }
 }
 

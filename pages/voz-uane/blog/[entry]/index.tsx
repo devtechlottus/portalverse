@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+import { env } from "process"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
@@ -11,11 +12,9 @@ import Button from "@/components/Button/Button"
 import Banner from "@/components/Banner"
 import BannerWrapper from "@/components/BannerWrapper"
 import Editor from "@/components/Editor"
-import { env } from "process"
 
 
 const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_title, blog_section }: any) => {
-  const handleRedirect = (redirect:string) => router.push(redirect)
   
   const router = useRouter()
   const linkIcon = {
@@ -55,7 +54,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
               <section className="col-span-8 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
                 {
                 blog_post.related_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-                  <CardWebsite onClick={() => router.push(item.slug)} data={{...item, linkIcon, linkText:linkIcon, wrapper:true}}/>
+                  <CardWebsite onClick={() => router.push(item.slug)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
                 </section>)
                 }
               </section>
