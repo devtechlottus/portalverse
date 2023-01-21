@@ -7,10 +7,20 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentLayout from "@/layouts/Content.layout"
 import CardWebsite from "@/components/CardWebsite"
 import Slider from "@/components/SliderPortalverse"
+import { fetchStrapi } from "@/utils/getStrapi"
+import { env } from "process"
 
-const Blog: NextPageWithLayout = ({ sections, meta }: any) => {
+const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
   const router = useRouter()
-
+  const linkIcon = {
+    "text": "Ver más",
+    "iconSecond": "person",
+    "isBold": true,
+    "size": "large",
+    "isUnderline": false,
+    "disabled": false,
+    "icon": "person"
+  }
   return <>
     <Head>
       <title>{ meta.title }</title>
@@ -30,8 +40,9 @@ const Blog: NextPageWithLayout = ({ sections, meta }: any) => {
 				</div>
 				<section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
-           sections.blogNotices.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-            <CardWebsite data={item} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
+           blog_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+              <CardWebsite onClick={() => router.push(`${router.pathname}/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, wrapper:true}}/>
+
            </section>)
           }
         </section>
@@ -42,11 +53,25 @@ const Blog: NextPageWithLayout = ({ sections, meta }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {	
-
   const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
+  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*',])
+  const fullblogposts = await rawblogpost.json()
+  let blog_posts = fullblogposts.data.map((post: any) => {
+    const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
+    const strapiUrl = env.NEXT_PUBLIC_STRAPI_URL
+
+    const urlImage = strapiUrl + featured_image.data.attributes.formats.thumbnail.url || strapiUrl + featured_image.data.attributes.url;
+    return {
+      abstract,
+      title,
+      slug,
+      urlImage,
+      publication_date
+    }
+  })
 
   return {
-    props: {data: {  level:'blog' }, sections, meta }
+    props: {data: {  level:'blog' }, sections, meta, blog_posts }
   }
 }
 
