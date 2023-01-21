@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+import { env } from "process"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
@@ -10,9 +11,20 @@ import Button from "@/components/Button/Button"
 import Spotify from "@/components/Spotify"
 import BannerWrapper from "@/components/BannerWrapper"
 import BannerPortalverse from "@/components/BannerPortalverse"
+import { fetchStrapi } from "@/utils/getStrapi"
 
-const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
+const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
   const router = useRouter()
+
+  const linkIcon = {
+    "text": "Ver más",
+    "iconSecond": "person",
+    "isBold": true,
+    "size": "large",
+    "isUnderline": false,
+    "disabled": false,
+    "icon": "person"
+  }
 
   return <>
     <Head>
@@ -34,9 +46,9 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
           </div>
           <section className="col-span-8 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-6">
             {
-              sections.articles.articles.map((item:any, i:number) => <section key={`section-articles-${i}`}>
-               <CardWebsite data={item} onClick={()=> router.push(`blog/${item.redirect}`)}/>
-              </section>)
+            blog_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+              <CardWebsite onClick={() => router.push(`${router.pathname}/blog/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
+            </section>)
             }
           </section>
           <div className="col-span-8 w-t:col-span-8 w-p:col-span-4 flex justify-center">
@@ -77,8 +89,24 @@ export async function getStaticProps(context: any) {
     }
   }
 
+  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','sort[0]=publication_date:asc','pagination[pageSize]=10'])
+  const fullblogposts = await rawblogpost.json()
+  let blog_posts = fullblogposts.data.map((post: any) => {
+    const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
+    const strapiUrl = env.NEXT_PUBLIC_STRAPI_URL
+
+    const urlImage = strapiUrl + featured_image.data.attributes.formats.thumbnail.url || strapiUrl + featured_image.data.attributes.url;
+    return {
+      abstract,
+      title,
+      slug,
+      urlImage,
+      publication_date
+    }
+  })
+
   return {
-    props: { sections, meta }
+    props: { sections, meta, blog_posts }
   }
 }
 
