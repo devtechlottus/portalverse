@@ -87,7 +87,7 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
            </section>)
           }
         </section>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-6">
+        {/*<div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.articles.title}</p>
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
@@ -96,7 +96,7 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
             <CardWebsite data={item} onClick={()=> router.push(`/voz-uane/blog/${item.redirect}`)}/>
            </section>)
           }
-        </section>
+        </section> */}
       </ContentLayout>
     </HeaderFooterLayout>
   </>

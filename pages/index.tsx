@@ -69,8 +69,8 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
           </section>
         </section>
       </ContentFullLayout> */}
-      <ContentLayout>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
+      {/* <ContentLayout>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8 mt-[72px]">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-6 w-p:mb-6">
@@ -80,7 +80,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             </section>)
           }
         </section>
-      </ContentLayout>
+      </ContentLayout> */}
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="w-t:col-span-8 w-p:col-span-4">

@@ -1,16 +1,13 @@
 import { FC, Fragment, useEffect, useState } from "react"
 import Link from "next/link"
-import { useRouter } from "next/router"
 import cn from "classnames"
 import Image from "@/components/Image"
 import Icon from "@/components/Icon"
 import LinkContactTarget from "@/components/LinkContactTarget"
-import LinkIcons from "@/components/LinkLottus"
 import FooterPortalverseComponentData from "@/types/FooterPortalverse.types"
 
 const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certifications, logotype, social, phone, directorio, sections, onClickLogo }: FooterPortalverseComponentData) => {
 
-  const router = useRouter();
   const [ year, setYear ] = useState<string>("0");
 
   useEffect(() => {
@@ -73,6 +70,22 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
             }
           </div>)
       }
+    </div>
+    <div className="flex justify-between">
+      <div className="p-6 flex flex-wrap gap-9 items-center w-d:hidden w-t:hidden">
+        {
+          social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref>
+              <a target={"_blank"}>
+                <Icon name={item.name} className="w-8 h-8 text-balck" />
+              </a>
+            </Link>)
+        }
+        <div className="flex items-center gap-1">
+          <Icon name="phone" className="w-3 h-3" />
+          <LinkContactTarget type="tel" info={phone}/>
+        </div>
+      </div>
+      {/* <LinkIcons data={directorio} onClick={() => router.push(directorio.link)} /> */}
     </div>
     <div className="p-6 flex flex-col border-b-[1px] border-solid border-[#CDCDCD]">
       <p className="mb-5">{ certifications.title }</p>
