@@ -89,12 +89,12 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
           <span className="font-normal">Accesos para:</span>
           <Link href="/alumnos" passHref>
             <a>
-              <p className="font-bold">Alumnos</p>
+              <p className="font-bold text-[#B0003C]">Alumnos</p>
             </a>
           </Link>
           <Link href="/egresados" passHref>
             <a>
-              <p className="font-bold">Egresados</p>
+              <p className="font-bold text-[#B0003C]">Egresados</p>
             </a>
           </Link>
         </div>
@@ -106,10 +106,10 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                   !!item.route
                     ? <Link passHref href={item.route}>
                         <a className="flex">
-                          <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
+                          <p className="font-Nunito-Sans font-bold text-sm">{item.label}</p>
                         </a>
                       </Link>
-                    : <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
+                    : <p className="font-Nunito-Sans font-bold text-sm">{item.label}</p>
                 }
                 <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
                   <span className={cn("material-icons ml-2")}>expand_more</span>
@@ -163,11 +163,11 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
                   !!item.route
                     ? <Link href={item.route} passHref className="w-full">
                         <a className={cn("p-1 grow", { "border-r": levelActive === 1 })} target={item.external ? "_blank" : "_self"} onClick={handleMenuMobile}>
-                          <p className="font-Nunito font-normal text-sm">{item.label}</p>
+                          <p className="font-Nunito font-bold text-sm">{item.label}</p>
                         </a>
                       </Link>
                     : <div onClick={() => handleEventNavigate(!item.route, item.label, "single", !!item.back)} className="p-1 grow">
-                        <p className="font-Nunito font-normal text-sm">{ item.label }</p>
+                        <p className="font-Nunito font-bold text-sm">{ item.label }</p>
                       </div>
                 }
                 <div className={cn("p-3", { "cursor-pointer": !!item.route })} onClick={() => handleEventNavigate(!!item.route, item.label, "arrow", !!item.back)}>

@@ -13,9 +13,14 @@ import SliderPortalverse from "@/components/SliderPortalverse"
 import Video from "@/components/Video"
 import NumbersPortalverse from "@/components/NumbersPortalverse/NumbersPortalverse"
 import BannerPortalverse from "@/components/BannerPortalverse"
+import CarouselCards from "@/components/CarouselCards/CarouselCards"
+import Button from "@/components/Button/Button"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
+
+  const handleRedirectCampus = (redirect: string) => router.push(redirect)
+
   return <>
     <Head>
       <title>{meta.title}</title>
@@ -55,6 +60,16 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             </section>)
           }
         </div>
+      </ContentLayout>
+      {/* <ContentFullLayout>
+        <section className="w-d:grid-cols-12 w-t:grid-cols-8 w-p:grid-cols-4 bg-[#F4F4F4] px-[84px] w-p:pl-6 w-p:pr-0 pt-12">
+          <CarouselCards data={sections.campus} />
+          <section className="flex justify-center mt-6 pb-8">
+            <Button dark data={{...sections.campus.button}} onClick={() => handleRedirectCampus(sections.campus.button.redirect) }/> 
+          </section>
+        </section>
+      </ContentFullLayout> */}
+      <ContentLayout>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
         </section>
@@ -63,7 +78,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
             sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
              <CardWebsite data={item}/>
             </section>)
-            
           }
         </section>
       </ContentLayout>

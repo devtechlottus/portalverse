@@ -2,13 +2,13 @@ import { FC, memo } from "react"
 import cn from "classnames"
 import BannerPortalverseComponentData from "@/types/BannerPortalverse.types"
 import Image from "@/components/Image"
-import Button from "./Button/Button"
+import Button from "@/components/Button/Button"
 
 
 const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, classNames, onClick }: BannerPortalverseComponentData) => {
 
   return<>
-      <div style={{"height": data?.height}} className={cn(`relative flex border-solid border-2 border-dark w-p:hidden`, classNames)} >
+      <div style={{"height": data?.height}} className={cn(`relative flex w-p:hidden`, classNames)} >
         <Image classNames="w-full h-full w-t:hidden w-p:hidden aspect-7/2" src={data.image?.desktop!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-7/2" src={data.image?.tablet!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-t:hidden aspect-4/3" src={data.image?.mobile!} alt="image" />
@@ -80,7 +80,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
     </div>
     {/**Mobile banner */}
     <div className="w-d:hidden w-t:hidden">
-      <div className={cn(`relative flex h-[${data.height}] border-solid border-2 border-dark`, classNames)} >
+      <div className={cn(`relative flex h-[${data.height}]`, classNames)} >
         <Image classNames="w-full h-full w-t:hidden w-p:hidden aspect-7/2" src={data.image?.desktop!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-7/2" src={data.image?.tablet!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-t:hidden aspect-4/3" src={data.image?.mobile!} alt="image" />
