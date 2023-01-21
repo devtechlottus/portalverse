@@ -1,6 +1,7 @@
 import React from "react";
 import type EditorJS from "@editorjs/editorjs";
 import type { EditorConfig, API } from "@editorjs/editorjs";
+import { env } from "process";
 
 const Table = require('@editorjs/table')
 const List = require('@editorjs/list')
@@ -32,8 +33,9 @@ const Editor: React.FC<IEditor> = (props) => {
     ...restProps
   } = props;
   const editorJs = React.useRef<EditorJS | null>(null);
+  const strapiUrl = env.NEXT_PUBLIC_STRAPI_URL
   
-  const data =  JSON.parse((value as string).replaceAll(':"/uploads',`:"https://test1--lawful-cover--w4fh88wqf8xc.code.run/uploads`)) 
+  const data =  JSON.parse((value as string).replaceAll(':"/uploads',`:"${strapiUrl}/uploads`)) 
 
   // This will run only once
   React.useEffect(() => {
