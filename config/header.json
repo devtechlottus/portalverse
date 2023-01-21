@@ -17,8 +17,9 @@
       { "label": "Internacionalización", "route": "/nosotros/internacionalizacion" }
       ]
     },
-    { "label": "Comunidad UANE", "route": "", "items": [
-      { "label": "Noticias", "route": "/voz-uane/blog" }
+    { "label": "Voz UANE", "route": "/voz-uane", "items": [
+      { "label": "Blog", "principal": false, "route": "/voz-uane/blog" },
+        { "label": "Podcast", "principal": false, "route": "/voz-uane/podcast" }
       ]
     }
   ],
@@ -80,8 +81,8 @@
     {
       "label": "Voz UANE", "principal": true, "route": "", "external": false,
       "children":[
-        { "label": "Blog", "principal": false, "route": "/voz-uane/podcast", "external": false },
-        { "label": "Podcast", "principal": false, "route": "/voz-uane/blog", "external": false }
+        { "label": "Blog", "principal": false, "route": "/voz-uane/blog", "external": false },
+        { "label": "Podcast", "principal": false, "route": "/voz-uane/podcast", "external": false }
       ]
     }
   ]
