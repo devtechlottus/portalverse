@@ -31,7 +31,7 @@ const Footer: FC<FooterPortalverseComponentData> = ({ privacyLink, certification
           {
             social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref>
                 <a target={"_blank"}>
-                  <Icon name={item.name} className="w-5 h-5" />
+                  <Icon name={item.name} className="w-8 h-8 text-balck" />
                 </a>
               </Link>)
           }
