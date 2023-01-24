@@ -11,11 +11,11 @@
     "medios": [
       {
         "icon": "phone",
-        "text": "8004433667700"
+        "text": "8008228263"
       },
       {
         "icon": "mail",
-        "text": "info@uane.edu.mx"
+        "text": "hola@uane.edu.mx"
       },
       {
         "icon": "schedule",
@@ -58,25 +58,30 @@
     ],
     "banner": {
       "image": {
-        "desktop": "https://drive.google.com/uc?export=view&id=1qKEti8x1H6resY7WIX1FFLzXKfAEbtx6",
-        "mobile": "https://drive.google.com/uc?export=view&id=1WQq8u6Z3ukOgXSUFK3WRfznd5JmtVHD3"
+        "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+        "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
+        "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
       },
-      "title": "Consulta el directorio de la universidad",
-      "text": "",
-      "contentCenter": false,
-      "contentLeft": false,
-      "action": {
+      "title": "UANE Internacional",
+      "subtitle": "¡Internacionalízate! Agrega experiencias internacionales a tu educación",
+      "position": "left-bottom",
+      "height": "300px",
+      "overlayWhite":false,
+      "overlayDak": true,
+      "button":{
         "id": "",
-        "type": "primary",
+        "type": "outlined",
+        "title": "Conocer más",
         "size": "small",
         "icon": "",
         "lyIcon": false,
         "disabled": false,
         "isExpand": false,
-        "tagOnClick": "testOnClick",
-        "title": "Ver directorio"
+        "tagOnClick": "",
+        "test": ""
       },
-      "wrapper": true
+      "noAction": false,
+      "redirect": "/nosotros/internacionalizacion"
     }
   }
 }
