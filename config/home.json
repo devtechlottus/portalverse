@@ -20,12 +20,25 @@
               "tablet": "https://drive.google.com/uc?export=view&id=1KxWpSABvb_fgr0jvxp9GMQZyVFNSA_vu",
               "desktop": "https://drive.google.com/uc?export=view&id=1-UAAELA36dp-rxWdiSnZcJu-uKGurf-L"
             },
-            "center": true,
+            "position": "right",
+            "center": false,
             "left": false,
-            "middle": true,
-            "bottom": false
+            "middle": false,
+            "bottom": true
           }
-        ]
+        ],
+        "action":{
+          "id": "",
+          "type": "outlined",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        }
       },
       "button": {}
     },
