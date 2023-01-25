@@ -96,13 +96,13 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
                     src={src}
                     classNames={cn("aspect-4/3 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
                   />
-                  <DescriptionSection
+                  {/* <DescriptionSection
                   mode="transparent"
                   title="hola proceso"
                   description="jejeje"
                   classNames={cn("col-span-12 grid grid-cols-12 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6 hidden", { "hidden w-p:hidden": tabActive !== i })}
                   titleStyles="col-start-2 col-end-12 w-t:col-end-8"
-                  descriptionStyles="col-start-2 col-end-12 w-t:col-end-8" />
+                  descriptionStyles="col-start-2 col-end-12 w-t:col-end-8" /> */}
                 </Fragment>)
             }
           </ContentInsideLayout>

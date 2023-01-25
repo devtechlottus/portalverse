@@ -61,12 +61,12 @@
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron"
           },
           "wrapper": true,
           "redirect": "/convocatoria-investigacion-1"
@@ -94,12 +94,12 @@
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron"
           },
           "wrapper": true,
           "redirect": "/convocatoria-investigacion-2"
@@ -127,12 +127,12 @@
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron"
           },
           "wrapper": true,
           "redirect": "/convocatoria-investigacion-3"
@@ -160,12 +160,12 @@
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron"
           },
           "wrapper": true,
           "redirect": "/convocatoria-investigacion-4"
@@ -193,12 +193,12 @@
           },
           "linkIcon": {
             "text": "Ver más",
-            "iconSecond": "person",
+            "iconSecond": "chevron",
             "isBold": true,
             "size": "large",
             "isUnderline": false,
             "disabled": false,
-            "icon": "person"
+            "icon": "chevron"
           },
           "wrapper": true,
           "redirect": "/convocatoria-investigacion-5"
@@ -519,8 +519,8 @@
           "tagOnClick": "testClick", "test": ""
         },
         "wrapper": true,
-        "extern": true,
-        "redirect": "https://open.spotify.com/"
+        "extern": false,
+        "redirect": "voz-uane/podcast"
       }
       ]
     }

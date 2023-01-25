@@ -96,7 +96,7 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
             /> 
         </div>
       </ContentFullLayout>
-      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-t:bg-SC/Actions/AC-300 w-p:bg-SC/Actions/AC-300 mt-12">
+      {/* <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY w-t:bg-SC/Actions/AC-300 w-p:bg-SC/Actions/AC-300 mt-12">
         <ContentLayout>
           <div className="col-span-12 pt-6 pb-[53px]">
             <p className="font-Poppins font-bold leading-[125%] text-10 w-t:text-6 w-p:text-6 mb-6">{ sections.noticias.title }</p>
@@ -111,7 +111,7 @@ const Egresados: NextPageWithLayout = ({ sections, meta }: any) => {
             }
           </div>
         </ContentLayout>
-      </ContentFullLayout>
+      </ContentFullLayout> */}
       <ContentLayout classNames="mt-[72px] w-t:my-6 w-p:my-6">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <Cintillo classNames="h-[200px]" image={sections.dudas.banner.image} title={sections.dudas.banner.title} subtitle={sections.dudas.banner.subtitle} phone={sections.dudas.banner.phone} email={sections.dudas.banner.email}/>
