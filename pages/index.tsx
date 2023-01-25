@@ -32,9 +32,9 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         </div>
       </ContentFullLayout>
       <ContentLayout>
-        <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-3">
+        {/* <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-3">
           <SliderPortalverse data={{ ...sections.head.banner, height: "600px" }} />
-        </div>
+        </div> */}
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
         </div>
