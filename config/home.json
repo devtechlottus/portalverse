@@ -27,18 +27,7 @@
             "bottom": true
           }
         ],
-        "action":{
-          "id": "",
-          "type": "outlined",
-          "title": "Conocer más",
-          "size": "small",
-          "icon": "",
-          "lyIcon": false,
-          "disabled": false,
-          "isExpand": false,
-          "tagOnClick": "",
-          "test": ""
-        }
+        "button":{}
       },
       "button": {}
     },
