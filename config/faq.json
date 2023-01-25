@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "Preguntas Frecuentes",
+    "description": "",
+    "keywords": ""
+  },
+  "sections": {
+    "temas": [
+      {
+        "title": "Generales",
+        "icon": "border_color",
+        "questions": [
+          {
+            "title": "¿Qué requisitos solicitan para ingresar?",
+            "answer": "Tendrá la calidad de alumno de licenciatura en la Universidad, la persona que:\n- Presente y apruebe el examen de admisión.\n- Entregue la totalidad de la documentación requerida en la solicitud de admisión.\n- Sea admitido por la Subdirección de Documentación y Control Escolar del Campus correspondiente."
+          },
+          {
+            "title": "¿Cuentan con revalidaciones y equivalencias?",
+            "answer": "La Universidad podrá hacer equivalencias de los estudios cursados en otras instituciones que formen parte del Sistema Educativo Nacional así como de la propia universidad. La revalidación de los estudios hechos en planteles oficiales o privados de otros países, deberá tramitarse ante la Dirección de Incorporación y Revalidación de la Secretaría de Educación Pública en México. Acude a tu campus más cercano para analizar tu caso."
+          },
+          {
+            "title": "¿Tienen becas?",
+            "answer": "Los distintos tipos de beca que otorga la Universidad se orientan a satisfacer dos grandes propósitos: el primero, cuyo fin es apoyar económicamente a los alumnos que así lo requieran, y el segundo, para estimular a los alumnos que por su alto nivel de aprovechamiento o por sus actividades académicas o extra-académicas prestigien a la Universidad. Te sugerimos revisar directamente en campus las opciones correspondientes y los pasos a seguir para solicitarlas."
+          },
+          {
+            "title": "¿Cuentan con Bolsa de Trabajo?",
+            "answer": "Contamos con más de 790 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las practicas profesionales, bolsa de empleo y seminarios y conferencias con grandes ponencias de negocios e industria."
+          },
+          {
+            "title": "¿Hay opciones para irme de intercambio?",
+            "answer": "A través de UANE INTERNACIONAL puedes compartir tu desarrollo académico y profesional con maestros y compañeros de otros países del mundo.\nLas experiencias internacionales son clave para potencializar tus conocimientos y habilidades, además amplían tu visión personal y profesional; es por ello que UANE apuesta por una formación global, brindando la oportunidad de tener clases espejo, webinars internacionales, intercambios de materias y movilidad al extranjero, así como distintos proyectos en conjunto con las mejores universidades de Latinoamérica y Europa."
+          }
+        ],
+        "id": "general"
+      }
+    ],
+    "head":{
+      "title": "Preguntas frecuentes",
+      "subtitle": "Elige una seccion:"
+    },
+    "banner": {
+      "title": "UANE Internacional",
+      "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
+      "state": "black",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": false,
+      "urlImage": {
+        "mobile": "https://drive.google.com/uc?export=view&id=18yIHL-H5UazsvIqib9qLInFgda41Eaqz",
+        "desktop": "https://drive.google.com/uc?export=view&id=1-oMRKt_jawT7t2F8zEybhaEIdlz0d89W"
+      },
+      "overlay": "black",
+      "height": "212px",
+      "action": {
+        "id": "",
+        "type": "outlined",
+        "title": "Conocer más",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": ""
+      },
+      "wrapper": true,
+      "redirect": "/nosotros/internacionalizacion"
+    }
+  }
+}

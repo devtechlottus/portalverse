@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "title": "Oferta Educativa",
+    "description": "",
+    "keywords": ""
+  },
+  "sections":{
+    "head": {
+      "title": "Oferta Educativa",
+      "description": "Encuentra en UANE la licenciatura, ingeniería o posgrado que estás buscando y estudia con el respaldo y prestigio de una de las mejores universidades del país."
+    },
+    "offers": {
+      "title": "Busca tu nivel educativo"
+    },
+    "modalities": {
+      "title": "Estudia en la modalidad que más te convenga",
+      "modalities": [
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1LQ5gMlzjBHJRt_LD24p8rHzHxMb_bYzP",
+          "subtitle": "Presencial",
+          "title": "Presencial",
+          "text": "Asiste a clases y relaciónate en persona con profesores y alumnos en cualquiera de nuestros campus",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1s_95yEEf8AtHRcvciNowBl5nIBwQZ7Ui",
+          "subtitle": "Semipresencial",
+          "title": "Semipresencial",
+          "text": "Estudia en una modalidad híbrida, con clases remotas y presenciales",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        },
+        { 
+          "urlImage": "https://drive.google.com/uc?export=view&id=1_m_d-VlFYnVRS9wgVpi3d_tZY15ZOwK4",
+          "subtitle": "En línea",
+          "title": "En línea",
+          "text": "Aprovecha tu tiempo al máximo y obtn tu título estudiando desde nuestra plataforma",
+          "border": true,
+          "allContent": true,
+          "height": "",
+          "isShowCardWebsiteContent": true,
+          "id": "",
+          "type": "vertical",
+          "link": true,
+          "background": false,
+          "wrapper": true
+        }
+      ]
+    },
+    "knowledges":{
+      "title": "Elige un área de conocimiento",
+      "knowledges": [
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Negocios",
+          "icon": "",
+          "color": "red",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ingeniería",
+          "icon": "",
+          "color": "#FADB62",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ciencias Sociales",
+          "icon": "",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Comunicación y diseño",
+          "icon": "",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Ciencias de la salud",
+          "icon": "",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        },
+        {
+          "urlImage": {
+            "mobile": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms=",
+            "desktop": "https://media.istockphoto.com/id/105344728/es/v%C3%ADdeo/tirando-tapas-de-graduaci%C3%B3n-en-el-aire.jpg?s=640x640&k=20&c=apAf3-4NZLFD-Yzp6zFZAe4G0LlGwHl_FtD1_caV2ms="
+          },
+          "text": "Humanidades",
+          "icon": "",
+          "color": "#7DF1ED",
+          "opacity": "multiply",
+          "height": "84px",
+          "enable": true,
+          "nobackground": true,
+          "redirect": "",
+          "isShadowColor": true,
+          "shadowColor": "blue-left"
+        } 
+      ]
+    },
+    "bannerTest":{
+      "banner": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1Y-NyCheOPilvlVa45pHQQ97mp-a-rQGy",
+          "mobile": "https://drive.google.com/uc?export=view&id=1XFnp_Ufc-rAqZxZ2KM60ogWyuS2vdOOi",
+          "tablet": "https://drive.google.com/uc?export=view&id=1x00pvwXu6r5KQjR5-zEuV3rbhsaboDFl"
+        },
+        "title": "¿Aún no decides qué estudiar?",
+        "subtitle": "Te ayudamos a decidir qué rumbo profesional tomar",
+        "position": "",
+        "height": "350px",
+        "overlayWhite":false,
+        "overlayDak": true,
+        "button":{
+          "id": "",
+          "type": "primary",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": false,
+        "redirect": "https://www.uane.edu.mx/"
+      }
+    },
+    "bannerInternacionalizacion": {
+      "banner": {
+        "image": {
+          "desktop": "https://drive.google.com/uc?export=view&id=1Yd2dBe60616xK-qlbYNNe6tehHrMsF6a",
+          "mobile": "https://drive.google.com/uc?export=view&id=1U6Bw6nBdz7aaCyjNrQ50wOMFiRJKQR-G",
+          "tablet": "https://drive.google.com/uc?export=view&id=1Y0vIIFhKwRhww3sQzCCjhesB2kFiwWMq"
+        },
+        "title": "Internacionalízate",
+        "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos",
+        "position": "",
+        "height": "350px",
+        "overlayWhite":false,
+        "overlayDak": true,
+        "button":{
+          "id": "",
+          "type": "primary",
+          "title": "Conocer más",
+          "size": "small",
+          "icon": "",
+          "lyIcon": false,
+          "disabled": false,
+          "isExpand": false,
+          "tagOnClick": "",
+          "test": ""
+        },
+        "noAction": false,
+        "redirect": "/nosotros/internacionalizacion"
+      }
+    }
+  }
+}

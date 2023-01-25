@@ -1,0 +1,44 @@
+div {
+  &.dark {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: white;
+          @apply font-Nunito-Sans font-normal;
+        }
+
+        p {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+  }
+  &.light {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: black;
+          @apply font-Nunito-Sans font-normal;
+        }
+
+        p {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+  }
+  &.transparent {
+    > lottus-rich-text {
+      > markdown{
+        * {
+          color: black;
+          @apply font-Nunito-Sans font-normal;
+        }
+
+        p {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+  }
+}

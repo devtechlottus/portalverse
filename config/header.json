@@ -1,0 +1,89 @@
+{
+  "menus": [
+    { "label": "Admisiones", "route": "/admisiones", "items": [] },
+    { "label": "Oferta Educativa", "route": "/oferta-educativa", "items": [
+      { "label": "Bachillerato", "route": "/oferta-educativa/bachillerato" },
+      { "label": "Licenciaturas", "route": "/oferta-educativa/licenciatura" },
+      { "label": "Especialidades", "route": "/oferta-educativa/especialidad" },
+      { "label": "Maestria", "route": "/oferta-educativa/maestria" },
+      { "label": "Doctorados", "route": "/oferta-educativa/doctorado" },
+      { "label": "Educación Continua", "route": "/educacion-continua" }
+      ]
+    },
+    { "label": "Nosotros", "route": "", "items": [
+      { "label": "Somos UANE", "route": "/nosotros/somos-UANE" },
+      { "label": "Campus", "route": "/nosotros/campus" },
+      { "label": "Modelo Educativo", "route": "/nosotros/modelo-educativo" },
+      { "label": "Internacionalización", "route": "/nosotros/internacionalizacion" }
+      ]
+    },
+    { "label": "Voz UANE", "route": "/voz-uane", "items": [
+      { "label": "Blog", "principal": false, "route": "/voz-uane/blog" },
+        { "label": "Podcast", "principal": false, "route": "/voz-uane/podcast" }
+      ]
+    }
+  ],
+  "logotype": { "src":"/images/logotipo.png", "alt":"logotipo-uane" },
+  "menuMobile": [
+    {
+      "label": "Estudiantes", "principal": true, "route": "", "external": false,
+      "children": [
+        { "label": "SIUANE", "principal": false, "route": "https://sistema.uane.edu.mx/", "external": true },
+        { "label": "Aula virtual", "principal": false, "route": "https://aula.uane.mx/login/index.php", "external": true },
+        { "label": "Biblioteca digital", "principal": false, "route": "https://biblioteca.uane.edu.mx/", "external": true }
+      ]
+    },
+    {
+      "label": "Exalumnos", "principal": true, "route": "", "external": false,
+      "children": [
+        { "label": "Beneficios ExaUANE", "principal": false, "route": "/egresados", "external": false },
+        { "label": "SIUANE para egresados", "principal": false, "route": "https://sistema.uane.edu.mx/", "external": true }
+      ]
+    },
+    {
+      "label": "Admisiones", "principal": true, "route": "/admisiones",
+      "children": [
+        { "label": "Solicita informes", "principal": false, "route": "/admisiones/pedir-informacion", "external": false },
+        { "label": "Becas para el estudiante", "principal": false, "route": "/admisiones/becas", "external": false }
+      ]
+    },
+    {
+      "label": "Oferta educativa", "principal": true, "route": "/oferta-educativa", "external": false,
+      "children": [
+        { "label": "Bachillerato", "principal": false, "route": "/oferta-educativa/bachillerato", "external": false },
+        { "label": "Licenciaturas", "principal": false, "route": "/oferta-educativa/licenciatura", "external": false },
+        { "label": "Maestrías", "principal": false, "route": "/oferta-educativa/maestria", "external": false },
+        { "label": "Especialidades", "principal": false, "route": "/oferta-educativa/especialidad", "external": false },
+        { "label": "Doctorados", "principal": false, "route": "/oferta-educativa/doctorado", "external": false },
+        { "label": "Educación Contínua", "principal": false, "route": "/educacion-continua", "external": false }
+      ]
+    },
+    {
+      "label": "Nosotros", "principal": true, "route": "",
+      "children": [
+        { "label": "Internacionalización", "principal": false, "route": "/nosotros/internacionalizacion", "external": false },
+        { "label": "Somos UANE", "principal": false, "route": "/nosotros/somos-UANE", "external": false },
+        { "label": "Campus", "principal": false, "route": "/nosotros/campus", "external": false },
+        { "label": "Certificaciones", "principal": false, "route": "/nosotros/somos-UANE#certificaciones", "external": false },
+        { "label": "Modelo educativo", "principal": false, "route": "/nosotros/modelo-educativo", "external": false },
+        { "label": "Empleabilidad", "principal": false, "route": "/nosotros/empleabilidad", "external": false },
+        { "label": "Prácticas profesionales", "principal": false, "route": "/nosotros/conexion-educativa?type=practicas-profesionales", "external": false }
+      ]
+    },
+    {
+      "label": "Contacto", "principal": true, "route": "", "external": false,
+      "children": [
+        { "label": "Línea segura", "principal": false, "route": "https://lineasegura.uane.edu.mx/", "external": true },
+        { "label": "Preguntas frecuentes", "principal": false, "route": "/contactanos/faq/general", "external": false },
+        { "label": "Envíanos un mensaje", "principal": false, "route": "/contactanos", "external": false }
+      ]
+    },
+    {
+      "label": "Voz UANE", "principal": true, "route": "", "external": false,
+      "children":[
+        { "label": "Blog", "principal": false, "route": "/voz-uane/blog", "external": false },
+        { "label": "Podcast", "principal": false, "route": "/voz-uane/podcast", "external": false }
+      ]
+    }
+  ]
+}
