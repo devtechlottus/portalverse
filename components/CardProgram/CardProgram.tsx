@@ -10,7 +10,7 @@ const CardProgram: FC<CardProgramData> = memo(({ title, link, image, classNames 
   return <div className={cn("cardProgram bg-white border-1 border-solid border rounded-md", classNames)}> 
       {
         !!image
-          ? <Image classNames={cn("w-full", aspectImg)} alt="contact-image" src={image} />
+          ? <Image classNames={cn("w-full", aspectImg)} alt="contact-image"  src={image.src} />
           : <div className="bg-[gray] rounded w-22 h-22" />
       }
       <p className="font-Nunito-Sans font-normal text-4.5 mt-3 mb-2 mx-3">{title}</p>
