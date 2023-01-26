@@ -18,12 +18,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) =
 
   const linkIcon = {
     "text": "Ver más",
-    "iconSecond": "person",
+    "iconSecond": "",
     "isBold": true,
     "size": "large",
     "isUnderline": false,
     "disabled": false,
-    "icon": "person"
+    "icon": ""
   }
 
   return <>
