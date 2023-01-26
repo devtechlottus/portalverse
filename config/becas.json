@@ -21,10 +21,10 @@
       }
     },
     "estadisticas": [
-      {"maxNumber": 30, "icon": "group", "prefix": "", "suffix": "%", "title": "De los alumnos tienen la beca servicio.", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-      {"maxNumber": 10, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca Excelencia", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-      {"maxNumber": 40, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca Convenio", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-      {"maxNumber": 2, "icon": "group", "prefix": "", "suffix": "%", "title": "Alumnos con Beca al Mérito Académico", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
+      {"maxNumber": 30, "icon": "group", "prefix": "", "suffix": "%", "title": "De los alumnos tienen la beca servicio", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 10, "icon": "group", "prefix": "", "suffix": "%", "title": "De nuestros estudiantes cuantan con beca de excelencia", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 40, "icon": "group", "prefix": "", "suffix": "%", "title": "De la matrícula tiene beca de convenio", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+      {"maxNumber": 2, "icon": "group", "prefix": "", "suffix": "%", "title": "De los estudiantes tienen beca al mérito académico", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
     ],
     "becas": {
       "tabs": {
