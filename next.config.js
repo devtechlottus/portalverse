@@ -31,8 +31,8 @@ const nextConfig = {
     return {
       fallback: [
         {
-          source: '/admin',
-          destination: `https://uane-admin.vercel.app/`,
+          source: '/admin/:path*',
+          destination: `https://uane-admin.vercel.app/:path*`,
         }
       ],
     }
