@@ -121,7 +121,7 @@
         },
         {
           "level": "/educacion-continua",
-          "title": "Educación Continua",
+          "title": "Educación Contínua",
           "promo": {
             "urlImage": {
               "mobile": "https://drive.google.com/uc?export=view&id=1dAQU2RUTKLrYXFmQ7jfmMC56bj6FCbF3",
@@ -167,7 +167,7 @@
     },
     "numbers":[
       {"maxNumber": 8, "icon": "apartment", "prefix": "", "suffix": "", "title": "Campus en el país", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-      {"maxNumber": 49, "icon": "manage_history", "prefix": "+", "suffix": "", "title": "Años de experiencia", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "red-pastel-right", "boxShadow": false},
+      {"maxNumber": 48, "icon": "manage_history", "prefix": "+", "suffix": "", "title": "Años de experiencia", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "red-pastel-right", "boxShadow": false},
       {"maxNumber": 12500, "icon": "group", "prefix": "+", "suffix": "", "title": "Alumnos Inscritos", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "gray-pastel-right", "boxShadow": false},
       {"maxNumber": 48000, "icon": "history_edu", "prefix": "+", "suffix": "", "title": "Egresados", "body": "", "container": false, "isShadowColor": true, "bordered": true, "typeShadowColor": "yellow-pastel-right", "boxShadow": false}
     ],

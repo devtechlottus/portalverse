@@ -258,7 +258,7 @@ const Routes: any = {
     params: {
       "level": "educacion-continua",
       "config": {
-        title: "Educacion continua",
+        title: "Educacion contínua",
         promo: {
           urlImage: {
             mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",

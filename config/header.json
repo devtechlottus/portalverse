@@ -2,7 +2,7 @@
   "menus": [
     { "label": "Admisiones", "route": "/admisiones", "items": [] },
     { "label": "Oferta Educativa", "route": "/oferta-educativa", "items": [
-      { "label": "Bachillerato", "route": "/oferta-educativa/bachillerato" },
+      { "label": "Bachillerato", "route": "/oferta-educativa/bachillerato/bachillerato" },
       { "label": "Licenciaturas", "route": "/oferta-educativa/licenciatura" },
       { "label": "Especialidades", "route": "/oferta-educativa/especialidad" },
       { "label": "Maestria", "route": "/oferta-educativa/maestria" },

@@ -53,17 +53,17 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
             </section>)
           }
         </div>
-        <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-p:mt-10 w-t:hidden">
+        {/* <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-p:mt-10 w-t:hidden">
           <BannerPortalverse data={sections.bannerTest.banner} onClick={()=>{window.open(sections.bannerTest.banner.redirect)}} />
-        </section>
-        <section className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-t:hidden">
+        </section> */}
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] w-t:hidden">
           <BannerPortalverse data={sections.bannerInternacionalizacion.banner} onClick={()=>router.push(sections.bannerInternacionalizacion.banner.redirect)}/>
         </section>
       </ContentLayout>
       <ContentFullLayout classNames="gap-6 w-d:hidden w-p:hidden">
-        <section className="mt-6">
+        {/* <section className="mt-6">
           <BannerPortalverse data={sections.bannerTest.banner} onClick={()=>{window.open(sections.bannerTest.banner.redirect)}} />
-        </section>
+        </section> */}
         <section className="my-6">
           <BannerPortalverse data={sections.bannerInternacionalizacion.banner} onClick={()=>router.push(sections.bannerInternacionalizacion.banner.redirect)} />
         </section>

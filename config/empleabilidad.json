@@ -7,7 +7,7 @@
   "sections": {
     "head": {
       "banner":{
-        "title": "Bolsa de empleo", 
+        "title": "Bolsa de talento", 
         "subtitle": "Estadísticas", 
         "image": {
           "desktop": "https://drive.google.com/uc?export=view&id=1tJlnnloEliErrTKQ1vyOuIDWRwzE8OKA",
@@ -23,7 +23,7 @@
       }
     },
     "descripcion": {
-      "title": "Conoce nuestra bolsa de empleo para una rápida inserción al mercado laboral",
+      "title": "Conoce nuestra bolsa de talento para una rápida inserción al mercado laboral",
       "text": { 
         "content": "La Universidad Americana del Noreste forma profesionistas competentes mediante la impartición de programas de calidad académica, con enfoque práctico y tecnología de vanguardia. Por el conocimiento de estas características, tenemos convenio con diversas empresas para elevar la empleabilidad de nuestros estudiantes y alumnos egresados del plantel."
       }
@@ -45,7 +45,7 @@
     "historiasExito": {
       "title": "Casos de éxito",
       "description": {
-        "content": "Completa tu perfil Confirma tu cuenta con el email de validación que te hemos enviado y completa tu perfil para que las empresas te encuentren."
+        "content": "Nuestros alumnos y egresados nos cuentan cómo fue su experiencia en la búsqueda de empleo a través de nuestra bolsa de talento."
       },
       "video": {
         "options": {
@@ -61,7 +61,7 @@
     "comoFunciona": {
       "title": "¿Cómo funciona la plataforma?",
       "description": {
-        "content": "Te proporcionaremos un excelente nivel de servicio en todas las áreas de la Universidad, incluyendo el de <b>bolsa de trabajo</b>, que en este caso se hace en colaboración con <b>beWanted</b>, la mejor plataforma de conexión con <b>más de 2,000 empresas buscando talento joven.\n\n¿Quieres hacerte visible a todas esas empresas?\n\n¡Fácil!</b> regístrate y completa al máximo tu perfil."
+        "content": "Te proporcionaremos un excelente nivel de servicio en todas las áreas de la Universidad, incluyendo el de <b>bolsa de talento</b>, que en este caso se hace en colaboración con <b>beWanted</b>, la mejor plataforma de conexión con <b>más de 2,000 empresas buscando talento joven.\n\n¿Quieres hacerte visible a todas esas empresas?\n\n¡Fácil!</b> regístrate y completa al máximo tu perfil."
       },
       "video": {
         "options": {
@@ -154,8 +154,8 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1nwxt4q7ZFg35IWuZUbZbAjXXI6z46KyH"
         },
         "title": "¿Tienes dudas? Contáctanos",
-        "email": "hola@uane.edu.mx",
-        "phone": "8008228263"
+        "email": "empleabilidad@uane.edu.mx ",
+        "phone": ""
       }
     }
   }

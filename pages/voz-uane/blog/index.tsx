@@ -14,12 +14,12 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
   const router = useRouter()
   const linkIcon = {
     "text": "Ver más",
-    "iconSecond": "person",
+    "iconSecond": "",
     "isBold": true,
     "size": "large",
     "isUnderline": false,
     "disabled": false,
-    "icon": "person"
+    "icon": ""
   }
   return <>
     <Head>
