@@ -121,7 +121,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => handleSetActiveTab(active)} />
         </section>
       </ContentFullLayout>
-      <ContentLayout> 
+      <ContentLayout>
         <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
         {
           level === 'bachillerato'
