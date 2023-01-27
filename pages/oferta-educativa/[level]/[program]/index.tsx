@@ -121,7 +121,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           <TabsFeatured tabs={sections.modalities.tabs.items} onActive={(active: number) => handleSetActiveTab(active)} />
         </section>
       </ContentFullLayout>
-      <ContentLayout>
+      <ContentLayout> 
         <ContentInsideLayout classNames="gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
         {
           level === 'bachillerato'
@@ -178,7 +178,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
-                    <div>ver mensaje</div>
+                    <p></p>
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
                   </div>
                   <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
