@@ -100,7 +100,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
             classNamesImg="aspect-2/1"
           />
         </div>
-      </ContentLayout>
+      </ContentLayout>  
       <ContentFullLayout classNames="w-d:hidden w-t:hidden mb-10 mt-6">
         <Image
           alt={sections.head.image.alt}
