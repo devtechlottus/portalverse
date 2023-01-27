@@ -26,7 +26,17 @@ const nextConfig = {
         headers: securityHeaders,
       },
     ]
-  }, 
+  },
+  rewrites: () => {
+    return {
+      fallback: [
+        {
+          source: '/admin/:path*',
+          destination: `https://uane-admin.vercel.app/:path*`,
+        }
+      ],
+    }
+  },
   webpack: (config, { isServer }) => {
     // console.log(process.env.ANALYZE)
     // if (!!process.env.ANALYZE) {
