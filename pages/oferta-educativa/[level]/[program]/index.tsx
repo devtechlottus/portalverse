@@ -107,7 +107,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           src={sections.head.image.src}
           classNames="aspect-2/1"
           classNamesImg="aspect-2/1"/>
-      </ContentFullLayout>
+      </ContentFullLayout>  
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-6">
           <p className="text-6.5 font-Poppins font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{sections.modalities.title}</p>
