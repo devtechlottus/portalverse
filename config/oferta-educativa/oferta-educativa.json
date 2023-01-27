@@ -17,7 +17,7 @@
       "modalities": [
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1LQ5gMlzjBHJRt_LD24p8rHzHxMb_bYzP",
-          "subtitle": "Presencial",
+          "subtitle": "",
           "title": "Presencial",
           "text": "Asiste a clases y relaciónate en persona con profesores y alumnos en cualquiera de nuestros campus",
           "border": true,
@@ -32,8 +32,8 @@
         },
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1s_95yEEf8AtHRcvciNowBl5nIBwQZ7Ui",
-          "subtitle": "Semipresencial",
-          "title": "Semipresencial",
+          "subtitle": "",
+          "title": "Flex",
           "text": "Estudia en una modalidad híbrida, con clases remotas y presenciales",
           "border": true,
           "allContent": true,
@@ -47,9 +47,9 @@
         },
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1_m_d-VlFYnVRS9wgVpi3d_tZY15ZOwK4",
-          "subtitle": "En línea",
+          "subtitle": "",
           "title": "En línea",
-          "text": "Aprovecha tu tiempo al máximo y obtn tu título estudiando desde nuestra plataforma",
+          "text": "Aprovecha tu tiempo al máximo y obtén tu título estudiando desde nuestra plataforma",
           "border": true,
           "allContent": true,
           "height": "",
@@ -63,7 +63,7 @@
       ]
     },
     "knowledges":{
-      "title": "Elige un área de conocimiento",
+      "title": "Áreas de conocimiento",
       "knowledges": [
         {
           "urlImage": {
@@ -220,6 +220,26 @@
         "noAction": false,
         "redirect": "/nosotros/internacionalizacion"
       }
-    }
+    },
+    "areasConocimiento": [
+      {
+        "title": "Económico - Administrativo"
+      },
+      {
+        "title": "Humanidades"
+      },
+      {
+        "title": "Ciencias Sociales"
+      },
+      {
+        "title": "Ciencias Exactas"
+      },
+      {
+        "title": "Ciencias Biológicas"
+      },
+      {
+        "title": "Ciencias de la Salud"
+      }
+    ]
   }
 }

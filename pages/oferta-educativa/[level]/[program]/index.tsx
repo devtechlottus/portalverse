@@ -155,7 +155,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
                     <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Consulta tu plan de estudios en esta modalidad</h1>
                     <div className="my-6">
-                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus", icon: "apartment"}} options={selectData} />
+                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus", icon: "apartment" }} options={selectData} />
                     </div>
                     <div className="flex justify-center">
                       <Button dark data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />
@@ -178,6 +178,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
+                    <div>ver mensaje</div>
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
                   </div>
                   <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
