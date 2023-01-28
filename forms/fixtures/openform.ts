@@ -44,7 +44,7 @@ const OpenFormInit = {
     programs: "Curso seleccionado"
   },
   steponebewanted: {
-    title: "Postúlate, y encuentra una oportunidad en nuestra bolsa de trabajo",
+    title: "Postúlate, y encuentra una oportunidad en nuestra bolsa de talento",
     description: "Registra tus datos para consultar las vacantes"
   }
 }
