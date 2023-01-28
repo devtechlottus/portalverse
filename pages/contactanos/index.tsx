@@ -40,11 +40,11 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
               <p className="col-span-5 col-start-2 col-end-11 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1  text-4.5 font-bold font-Poppins w-d:mt-12 w-t:mt-18 w-p:mt-16 w-p:ml-6 leading-[125%]">Síguenos en redes sociales</p>
               <section className="grid w-d:grid-cols-4 w-t:grid-cols- w-p:grid-cols-4 col-start-2 col-end-5 w-t:col-start-2 w-t:col-end-6 w-p:col-start-1 w-p:col-end-4 w-d:mt-[38px] w-t:mt-[38px] w-p:my-[20px] w-p:ml-6 w-d:mb-6 w-t:mb-[6.5rem] w-p:mb-13">
               {
-                sections.sociales.map((social: any, i:number) => <Link key={`span-icons-${i}`} href={social.link} passHref>
-                    <a target={"_blank"}>
-                      <Icon name={social.icon} className="w-8 h-8 text-white" />
-                    </a>
-                  </Link>)
+                sections.sociales.map((social: any, i:number) => <Link key={`span-icons-${i}`} href={social.link} passHref target={"_blank"}>
+
+                  <Icon name={social.icon} className="w-8 h-8 text-white" />
+
+                </Link>)
               }
               </section>
             </ContentInsideLayout>
@@ -69,7 +69,7 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
         </ContentFullLayout>
       </ContentFullLayout>
     </HeaderFooterLayout>
-  </>
+  </>;
 }
 
 // `getStaticPaths` requires using `getStaticProps`

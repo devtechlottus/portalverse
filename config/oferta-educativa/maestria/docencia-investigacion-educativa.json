@@ -66,7 +66,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Docencia e Investigación Educativa de UANE podrá trabajar en:\nInstituciones educativas en las áreas de capacitación docente, desarrollo de material educativo, planeación y evaluación educativa Diseñando programas de capacitación para empresas públicas y privadas\nAdministrador de instituciones educativas\nDirector académico\nCentros de investigación educativa\nOrganizaciones no gubernamentales\nDocente de nivel medio y superior",
+                  "text": "El egresado de la Maestría en Docencia e Investigación Educativa de UANE podrá trabajar en:\n\n• Instituciones educativas en las áreas de capacitación docente, desarrollo de material educativo, planeación y evaluación educativa Diseñando programas de capacitación para empresas públicas y privadas\n\n• Administrador de instituciones educativas\n\n• Director académico\n\n• Centros de investigación educativa\n\n• Organizaciones no gubernamentales\n\n• Docente de nivel medio y superior",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -152,7 +152,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

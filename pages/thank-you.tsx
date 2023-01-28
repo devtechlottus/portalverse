@@ -50,11 +50,11 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
               <p className="col-span-12 col-start-3 col-end-11 w-t:col-start-2 w-t:col-end-8 w-p:col-start-1  text-4.5 font-bold font-Poppins w-d:mt-12 w-t:mt-6 w-p:mt-6 w-p:ml-6 leading-[125%]">{ sections.agradecimiento.title }</p>
               <section className="grid w-d:grid-cols-4 w-t:grid-cols-4 w-p:grid-cols-4 col-start-3 col-end-11 w-t:col-start-2 w-t:col-end-6 w-p:col-start-1 w-p:col-end-4 w-d:mt-[38px] w-t:mt-[38px] w-p:my-[20px] w-p:ml-6">
                 {
-                  sections.agradecimiento.social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref>
-                      <a target={"_blank"}>
-                        <Icon name={item.name} className="w-14 h-14 text-white" />
-                      </a>
-                    </Link>)
+                  sections.agradecimiento.social.map((item: any, i: number) => <Link key={`social-${i}`} href={item.link} passHref target={"_blank"}>
+
+                    <Icon name={item.name} className="w-14 h-14 text-white" />
+
+                  </Link>)
                 }
               </section>
             </ContentInsideLayout>
@@ -65,7 +65,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         </ContentInsideLayout>
       </ContentFullLayout>
     </HeaderFooterLayout>
-  </>
+  </>;
 }
 
 // `getStaticPaths` requires using `getStaticProps`

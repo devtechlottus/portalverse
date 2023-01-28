@@ -153,9 +153,10 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
               <ContentLayout>
                 <ContentInsideLayout classNames="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
                   <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-                    <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Consulta tu plan de estudios en esta modalidad</h1>
+                    <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Selecciona un campus para descargar tu plan de estudios en esta modalidad</h1>
                     <div className="my-6">
-                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus", icon: "apartment"}} options={selectData} />
+                      <p className="font-Nunito-Sans font-normal text-xs mb-0">Los planes de estudio pueden variar por campus*</p>
+                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elije el campus de tu interés", icon: "apartment"}} options={selectData} />
                     </div>
                     <div className="flex justify-center">
                       <Button dark data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />
@@ -173,12 +174,13 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           level === 'bachillerato'
             ? <>
                 <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
-                  <h4 className="text-6.5 font-Nunito font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
+                  <h4 className="text-6.5 font-Nunito-Sans font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
-                    <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elija un Campus"}} options={selectData} />
+                  <p className="font-Nunito-Sans font-normal text-xs mb-0">Los planes de estudio pueden variar por campus*</p>
+                    <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elije el campus de tu interés"}} options={selectData} />
                   </div>
                   <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
                 </div>
