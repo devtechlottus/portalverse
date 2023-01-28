@@ -16,6 +16,7 @@ import { getDataPageFromJSON } from "utils/getDataPage"
 import TabsFeatured from "@/components/TabsFeatured"
 import Video from "@/components/Video"
 import BannerPortalverse from "@/components/BannerPortalverse"
+import RichtText from "@/components/Richtext/Richtext"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -132,11 +133,12 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentLayout classNames="mt-[72px]">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins text-10 font-bold leading-[125%] w-t:text-6 w-p:text-6">{sections.egresados.title}</p>
-          <p className="font-Poppins text-4.5 font-bold leading-[125%] mt-6">{sections.egresados.description}</p>
+          <RichtText data={{
+            content: sections.egresados.description
+          }} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
           <Video dimensions={["330px", "400px", "200px"]} data={sections.egresados.video}/>
-          <p>hola</p>
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <section className="grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">

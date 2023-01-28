@@ -39,7 +39,7 @@ const FAQ: NextPageWithLayout<any> = ({ info, meta, sections }: any) => {
           <h2 className="col-span-12 w-t:col-span-8 w-p:col-span-4 font-semibold font-Poppins leading-7.5 text-6 w-t:text-4.5 w-p:leading-5.625 mt-1 mb-10 w-t:mb-6 w-p:mb-6">{sections.head.subtitle}</h2>
           <div className="col-span-3 w-t:col-span-8 w-p:col-span-4">
             {
-              info.map((section: any, i:number) => <Link key={`section-item${i}`} href={`/faq/${section.route}`}>
+              info.map((section: any, i:number) => <Link key={`section-item${i}`} href={`${section.route}`}>
 
                 <li className={cn("font-Poppins font-bold flex py-2 w-t:py-4 w-p:py-4 w-t:px-6 w-p:px-6 w-t:border-solid w-t:border-[1px] w-p:border-solid w-p:border-[1px] items-center", { "text-Brands/UANE/Primary/UANE-P-00": section.status, "text-black": !section.status })}>
                   <span className="material-icons icon pr-3">{section.icon}</span>
