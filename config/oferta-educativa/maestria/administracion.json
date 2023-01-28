@@ -31,7 +31,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta maestría:",
       "tabs": {
         "items": [
           {
@@ -44,7 +44,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "El aspirante a ingresar a la Maestría en Administración deberá contar con los siguientes conocimientos:\nLa expresión oral y escrita.\nLa investigación y redacción de documentos.\nManejo de relaciones interpersonales.\nEl análisis de problemas públicos.\nDiseñar estrategias.\nTransferencia de información al contexto empresarial.\nRealizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\nInterpretar cifras y resolver problemas cuantificables.",
+                  "text": "El aspirante a ingresar a la Maestría en Administración deberá contar con los siguientes conocimientos:\n\n• La expresión oral y escrita.\n\n• La investigación y redacción de documentos.\n\n• Manejo de relaciones interpersonales.\n\n• El análisis de problemas públicos.\n\n• Diseñar estrategias.\n\n• Transferencia de información al contexto empresarial.\n\n• Realizar operaciones numéricas y saber estimar cantidades y lectura de las mismas en aspectos contables.\n\n• Interpretar cifras y resolver problemas cuantificables.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -104,7 +104,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

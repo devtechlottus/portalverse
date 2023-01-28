@@ -35,7 +35,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta maestría:",
       "tabs": {
         "items": [
           {
@@ -57,7 +57,7 @@
                   "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "La Maestría en Efectividad Organizacional formará profesionistas capaces de detectar, analizar y evaluar problemas organizacionales en las áreas de planeación, administración y desarrollo del recurso humano para el mejoramiento de la efectividad organizacional. Asimismo, se incrementarán sus competencias con un perfil de consultor y especialista en desarrollo humano y organizacional, que le permita destacar en la dirección de equipos de trabajo en el logro de los resultados organizacionales y productivos, dentro de un ambiente de trabajo de satisfacción.",
+                  "text": "La Maestría en Efectividad Organizacional formará profesionistas capaces de detectar, analizar y evaluar problemas organizacionales en las áreas de planeación, administración y desarrollo del recurso humano para el mejoramiento de la efectividad organizacional. Así mismo, se incrementarán sus competencias con un perfil de consultor y especialista en desarrollo humano y organizacional, que le permita destacar en la dirección de equipos de trabajo en el logro de los resultados organizacionales y productivos, dentro de un ambiente de trabajo de satisfacción.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -66,7 +66,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Efectividad Organizacional de UANE podrá ejercer en:\nInstituciones públicas y privadas\nManufactura y servicios\nCreación, desarrollo, análisis de estrategias y proyectos\nConsultoría independiente",
+                  "text": "El egresado de la Maestría en Efectividad Organizacional de UANE podrá ejercer en\n\n• Instituciones públicas y privadas\n\n• Manufactura y servicios\n\n• Creación, desarrollo, análisis de estrategias y proyectos\n\n• Consultoría independiente",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -108,7 +108,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

@@ -16,6 +16,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
+import Button from "@/components/Button/Button"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter()
@@ -83,13 +84,20 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           <ContentInsideLayout classNames="gap-6">
             {
-              contentTabs.map(({ image: { src, alt }, content: { title, description } }: any, i: number) => <Fragment key={`description-beca-${i}`}>
+              contentTabs.map(({ image: { src, alt }, content: { title, description, action=null } }: any, i: number) => <Fragment key={`description-beca-${i}`}>
                   <DescriptionSection
                     title={title}
                     description={description}
                     classNames={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
                     titleStyles="col-start-2 col-end-7 w-t:col-end-8"
                     descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
+                    action={
+                      !!action 
+                        ? <div slot="actionDescription" className="mt-4">
+                          <Button data={action} darkOutlined onClick={() => window.open(`${action.route}`)}/>
+                          </div>
+                        : null
+                    }
                   />
                   <Image
                     alt={alt}

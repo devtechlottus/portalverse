@@ -17,7 +17,7 @@
       "modalities": [
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1LQ5gMlzjBHJRt_LD24p8rHzHxMb_bYzP",
-          "subtitle": "Presencial",
+          "subtitle": "",
           "title": "Presencial",
           "text": "Asiste a clases y relaciónate en persona con profesores y alumnos en cualquiera de nuestros campus",
           "border": true,
@@ -32,8 +32,8 @@
         },
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1s_95yEEf8AtHRcvciNowBl5nIBwQZ7Ui",
-          "subtitle": "Semipresencial",
-          "title": "Semipresencial",
+          "subtitle": "",
+          "title": "Flex",
           "text": "Estudia en una modalidad híbrida, con clases remotas y presenciales",
           "border": true,
           "allContent": true,
@@ -47,9 +47,9 @@
         },
         { 
           "urlImage": "https://drive.google.com/uc?export=view&id=1_m_d-VlFYnVRS9wgVpi3d_tZY15ZOwK4",
-          "subtitle": "En línea",
+          "subtitle": "",
           "title": "En línea",
-          "text": "Aprovecha tu tiempo al máximo y obtn tu título estudiando desde nuestra plataforma",
+          "text": "Aprovecha tu tiempo al máximo y obtén tu título estudiando desde nuestra plataforma",
           "border": true,
           "allContent": true,
           "height": "",
@@ -63,7 +63,7 @@
       ]
     },
     "knowledges":{
-      "title": "Elige un área de conocimiento",
+      "title": "Áreas de conocimiento",
       "knowledges": [
         {
           "urlImage": {
@@ -195,20 +195,20 @@
     "bannerInternacionalizacion": {
       "banner": {
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1Yd2dBe60616xK-qlbYNNe6tehHrMsF6a",
-          "mobile": "https://drive.google.com/uc?export=view&id=1U6Bw6nBdz7aaCyjNrQ50wOMFiRJKQR-G",
-          "tablet": "https://drive.google.com/uc?export=view&id=1Y0vIIFhKwRhww3sQzCCjhesB2kFiwWMq"
+          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+          "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
+          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
         },
-        "title": "Internacionalízate",
-        "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos",
-        "position": "",
+        "title": "UANE  Internacional",
+        "subtitle": "Agrega experiencias internacionales a tus estudios",
+        "position": "left-bottom",
         "height": "350px",
         "overlayWhite":false,
-        "overlayDak": true,
+        "overlayDak": false,
         "button":{
           "id": "",
-          "type": "primary",
-          "title": "Conocer más",
+          "type": "outlined",
+          "title": "Continuar",
           "size": "small",
           "icon": "",
           "lyIcon": false,
@@ -217,9 +217,29 @@
           "tagOnClick": "",
           "test": ""
         },
-        "noAction": false,
-        "redirect": "/nosotros/internacionalizacion"
+        "wrapper": true,
+        "redirect": "nosotros/internacionalizacion"
       }
-    }
+    },
+    "areasConocimiento": [
+      {
+        "title": "Económico - Administrativo"
+      },
+      {
+        "title": "Humanidades"
+      },
+      {
+        "title": "Ciencias Sociales"
+      },
+      {
+        "title": "Ciencias Exactas"
+      },
+      {
+        "title": "Ciencias Biológicas"
+      },
+      {
+        "title": "Ciencias de la Salud"
+      }
+    ]
   }
 }

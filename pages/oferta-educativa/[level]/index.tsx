@@ -54,10 +54,8 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
     }
     const newVisiblePrograms = Array.from(new Set(filtersExists.reduce((p: any, c: any, i: number) => {
       const programs = filters[c].reduce((prev: any, curr: any) => {
-        return [ ...prev, ...i === 0
-          ? initialPrograms.filter((item: any) => item.config[c].includes(curr))
-          : p.filter((item: any) => item.config[c].includes(curr))
-        ]
+        return [ ...prev, ...(i === 0 ? initialPrograms.filter((item: any) => item.config[c].includes(curr)) : p.filter((item: any) => item.config[c].includes(curr)))
+        ];
       }, []);
       return [ ...programs ]
     } , [])));
@@ -78,10 +76,10 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
           <BannerPortalverse  data={sections.head.banner1} />
         </div>
-        {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col">
           <h1 className="font-Poppins font-bold w-d:leading-15 w-t:leading-7.5 w-p:leading-7.5 w-d:text-13 w-t:text-6 w-p:text-6">{ sections.introduction.title }</h1>
           <h3 className="font-Nunito font-normal w-d:leading-5 w-t:leading-[17.5px] w-p:leading-[17.5px] w-d:text-base w-t:text-3.5 w-p:text-3.5">{ sections.introduction.description }</h3>
-        </div> */}
+        </div>
         <div className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col", { "hidden": !filtro })}>
           <Filter color={"#B0003C"} data={filterConfig} onSelectionItems={(filters: any) => setNewSelecton(filters)} onChangeView={(status: boolean) => setMosaicActive(status) } />
         </div>
@@ -91,11 +89,13 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
               <Image src={src} alt={alt} classNames={cn({ "aspect-4/3": mosaicActive, "w-[80px] h-full": !mosaicActive })} />
               <div className={cn("p-3 flex flex-col bg-white gap-2", { "w-full": !mosaicActive })}>
                 <p className="font-Poppins font-normal">{title}</p>
-                <Link href={`${level}/${route}`}>
-                  <a className="flex items-center justify-end font-Nunito font-bold">
-                    <span className="mr-1 w-t:hidden w-p:hidden">Ver más</span>
-                    <span className="material-icons icon">chevron_right</span>
-                  </a>
+                <Link
+                  href={`${level}/${route}`}
+                  className="flex items-center justify-end font-Nunito font-bold">
+
+                  <span className="mr-1 w-t:hidden w-p:hidden">Ver más</span>
+                  <span className="material-icons icon">chevron_right</span>
+
                 </Link>
               </div>
             </div>)
@@ -103,7 +103,7 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         </ContentInsideLayout>
       </ContentLayout>
     </HeaderFooterLayout>
-  </>
+  </>;
 }
 
 export async function getStaticPaths() {

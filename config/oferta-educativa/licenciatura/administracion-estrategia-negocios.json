@@ -33,7 +33,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta licenciatura:",
       "tabs": {
         "items": [
           {
@@ -46,7 +46,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "Para asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes cualidades personales:\nHabilidades:\n- Trabajar en equipo.\n- Reconocer la información relevante de un texto.\n- Establecer relaciones entre las ideas.\n- Facilidad para las matemáticas.\nConocimientos:\n- Cultura general.\n- Tecnologías de la información.\n- Matemáticas básicas.\nActitudes y valores\n- Respeto\n- Responsabilidad",
+                  "text": "Para asegurar un desempeño exitoso en su formación profesional, los aspirantes deben reunir las siguientes cualidades personales:\n\nHabilidades:\n\n • Trabajar en equipo.\n\n • Reconocer la información relevante de un texto.\n\n • Establecer relaciones entre las ideas.\n\n • Facilidad para las matemáticas.\n\n • Conocimientos:\n\n • Cultura general.\n\n • Tecnologías de la información.\n\n • Matemáticas básicas.\n\n • Actitudes y valores\n\n • Respeto\n\n • Responsabilidad",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -64,7 +64,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El Licenciado en Administración Estratégica de Negocios egresado de UANE podrá trabajar en:\nDiversos sectores de la economía como el industrial, comercial y de servicios en áreas funcionales como compras, ventas, finanzas, planeación, recursos humanos y mercadotecnia, entre otros.\nAdemás, el egresado podrá usar sus conocimientos en:\nnegocios familiares, empresas bursátiles y bancos",
+                  "text": "El Licenciado en Administración Estratégica de Negocios egresado de UANE podrá trabajar en: \n\n • Diversos sectores de la economía como el industrial, comercial y de servicios en áreas funcionales como compras, ventas, finanzas, planeación, recursos humanos y mercadotecnia, entre otros.\n\n Además, el egresado podrá usar sus conocimientos en:\n\n • negocios familiares, empresas bursátiles y bancos",
                   "backgroundColor": "#E84537"
                 },
                 {

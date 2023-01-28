@@ -13,7 +13,7 @@ import Cintillo from "@/components/Cintillo"
 import Video from "@/components/Video"
 import OpenFormInit from "@/forms/fixtures/openform"
 
-const Empleabilidad: NextPageWithLayout = ({ sections, meta, token }: any) => {
+const Empleabilidad: NextPageWithLayout = ({ sections, meta }: any) => {
 
   return <>
     <Head>
@@ -34,7 +34,7 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta, token }: any) => {
           <RichtText font="ligth" data={{content: sections.descripcion.text.content}} />
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-p:order-1 relative">
-          <BeWanted pathBeWanted="https://www.bewanted.com/acceso/candidatos" token={token} copies={{ ...OpenFormInit.steponebewanted }} pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
+          <BeWanted pathBeWanted="https://www.bewanted.com/acceso/candidatos" copies={{ ...OpenFormInit.steponebewanted }} pathThankyou={`/thank-you?type=egresados`} classNames="w-d:absolute w-full h-auto bg-white bottom-0 rounded-lg" />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
           <p className="font-Poppins font-bold leading-[125%] text-10"> { sections.vacantes.title }</p>
@@ -115,8 +115,6 @@ const Empleabilidad: NextPageWithLayout = ({ sections, meta, token }: any) => {
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('empleabilidad.json');
 
-  let token = ''
-
   // redirect not avaliable page
   if (!!meta.hidden) {
     return {
@@ -125,7 +123,7 @@ export async function getStaticProps(context: any) {
   }
 
   return {
-    props: { sections, meta, token }
+    props: { sections, meta }
   }
 }
 

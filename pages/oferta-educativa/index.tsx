@@ -47,9 +47,14 @@ const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sec
           <p className="text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">{sections.knowledges.title }</p>
         </section>
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
-          {
+          {/* {
             sections.knowledges.knowledges.map((item:any, i:number) => <section key={`section-schoolarships-${i}`}>
               <PromoLink data={item} onClick={()=> router.push(item.redirect)} typeShadowColor={item.shadowColor}/>
+            </section>)
+          } */}
+          {
+            sections.areasConocimiento.map((item:any, i:number) => <section className="border-[1px] border-gray-400 shadow-blueShadowLeft rounded-md" key={`section-schoolarships-${i}`}>
+              <p className="pt-4 pb-10 px-6">{item.title}</p>
             </section>)
           }
         </div>

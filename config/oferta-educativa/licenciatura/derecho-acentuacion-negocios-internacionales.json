@@ -35,7 +35,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta licenciatura:",
       "tabs": {
         "items": [
           {
@@ -57,7 +57,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "La Licenciatura en Derecho con aentuación en Negocios Internacionales te dará la capacidad de dirigir, asesorar y participar directamente en todas las fases del litigio incluyendo los juicios orales como abogado litigante. Podrás desempeñarte en las funciones jurídicas de los Poderes Legislativo, Ejecutivo y Judicial e intervenir en el diseño y dirección de estrategias legales corporativas tanto en el ámbito mercantil como administrativo, fiscal y laboral.",
+                  "text": "La Licenciatura en Derecho con acentuación en Negocios Internacionales te dará la capacidad de dirigir, asesorar y participar directamente en todas las fases del litigio incluyendo los juicios orales como abogado litigante. Podrás desempeñarte en las funciones jurídicas de los Poderes Legislativo, Ejecutivo y Judicial e intervenir en el diseño y dirección de estrategias legales corporativas tanto en el ámbito mercantil como administrativo, fiscal y laboral.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -108,7 +108,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

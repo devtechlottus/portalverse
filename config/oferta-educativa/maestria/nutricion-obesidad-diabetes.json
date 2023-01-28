@@ -33,7 +33,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta maestría:",
       "tabs": {
         "items": [
           {
@@ -55,7 +55,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
                   },
                   "title": "Perfil de egreso",
-                  "text": "Este programa forma profesionales capaces de elaborar estrategias e investigaciones dirigidas a la prevención y tratamiento en obesidad, diabetes y nutrición de la población, así como evaluar el estado nutricio para ofrecer un tratamiento integral para mejorar su estado de salud físico, nutricional y psicológico.",
+                  "text": "Este programa forma profesionales capaces de elaborar estrategias e investigaciones dirigidas a la prevención y tratamiento en obesidad, diabetes y nutrición de la población, así como evaluar el estado nutricional para ofrecer un tratamiento integral para mejorar su estado de salud físico, nutricional y psicológico.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -64,7 +64,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Nutrición en Obesidad y Diabetes de UANE podrá ejercer en:\nHospitales, clínicas y consultorios\nInstituciones educativas Guarderías y/o casas hogar Instituciones de geriatría\nCentros de capacidades especiales Centros deportivos\nIndustria alimentaria",
+                  "text": "El egresado de la Maestría en Nutrición en Obesidad y Diabetes de UANE podrá ejercer en:\n\n • Hospitales, clínicas y consultorios\n\n • Instituciones educativas Guarderías y/o casas hogar Instituciones de geriatría\n\n • Centros de capacidades especiales Centros deportivos\n\n • Industria alimentaria",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -106,7 +106,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

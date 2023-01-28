@@ -1,11 +1,11 @@
 import { FC, SyntheticEvent, useEffect, useState } from "react"
+import { useRouter } from "next/router";
 import cn from "classnames"
 import Button from "@/components/Button/Button"
-import LinkIcons from "@/components/LinkLottus";
-import { LinkIconsInit } from "@/components/fixture";
 import Image from "@/components/Image"
 
 const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
+  const router = useRouter()
 
   const stylesBaseControls = "w-p:hidden select-none absolute top-[45%] p-1 rounded-lg text-[12px]";
 
@@ -82,18 +82,18 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
         slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col grow aspect-2/1")}>
           <Image classNames="w-t:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.desktop} alt="image" />
           <Image classNames="w-d:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.tablet} alt="image" />
-          <div className="absolute z-10 w-d:mt-12 w-t:mt-20 w-d:px-[200px] w-t:px-[160px]">
+          <div className="absolute z-10 w-full h-full pt-10 px-40">
             <h2 className="font-Poppins font-bold text-center w-d:text-[65px] w-d:leading-[80px] w-t:text-[30px]">{ item.title }</h2>
             <p className="font-Poppins font-semibold text-center w-d:text-[24px] w-d:leading-[30px] w-t:text-base">{ item.text }</p>
             {
-              !!data.action
-                ? <Button data={{...data.action}} onClick={onBtnSlider}/>
+              !!item.action
+                ? <div className="flex justify-center"><Button data={{...item.action}} onClick={()=> router.push(`${item.action.redirect}`)}/></div>
                 : null
             }
           </div>
           <div className={cn("absolute w-full h-full", classNames, {
-          "bg-[#ffffff80]": data.overlayWhite,
-          "bg-[#00000080]": data.overlayDak
+          "bg-[#ffffff80]": item.overlayWhite,
+          "bg-[#00000080]": item.overlayDak
           })}></div>
         </div>)
       }
@@ -119,8 +119,8 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
             <h2 className="font-Poppins font-normal text-[32px] leading-10">{ item.title }</h2>
             <p className="font-Nunito-Sans font-normal text-base leading-5">{ item.text }</p>
             {
-              !!data.action
-                ? <LinkIcons data={{ ...LinkIconsInit, text: data.action.title }} onClick={onBtnSlider} />
+              !!item.action
+                ? <div className="flex justify-center"><Button data={{...item.action, isExpand: true}} onClick={()=> router.push(`${item.action.redirect}`)}/></div>
                 : null
             }
           </div>

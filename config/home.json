@@ -13,21 +13,62 @@
         "iconright": "arrow_forward_ios",
         "slides": [
           {
-            "title": "UANE estrena sitio web", 
-            "text": "Nos estamos renovando para darte la mejor oferta educativa",
+            "title": "It´s a match!", 
+            "text": "¡Enamórate de nuestra nueva página web!",
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1b0QvKwyMmV8DuvGH4zszrXgoLvRVj0Rx",
-              "tablet": "https://drive.google.com/uc?export=view&id=1KxWpSABvb_fgr0jvxp9GMQZyVFNSA_vu",
-              "desktop": "https://drive.google.com/uc?export=view&id=1-UAAELA36dp-rxWdiSnZcJu-uKGurf-L"
+              "mobile": "https://drive.google.com/uc?export=view&id=1wFK6Femg-40TKITbTrdDYgW3eeAbej4D",
+              "tablet": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg",
+              "desktop": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg"
             },
-            "position": "right",
-            "center": false,
+            "center": true,
             "left": false,
-            "middle": false,
-            "bottom": true
+            "middle": true,
+            "bottom": false,
+            "overlayWhite": false,
+            "overlayDak": false,
+            "action":{
+              "id": "",
+              "type": "primary",
+              "title": "¡Conócenos!",
+              "size": "small",
+              "icon": "",
+              "lyIcon": false,
+              "disabled": false,
+              "isExpand": false,
+              "tagOnClick": "",
+              "test": "",
+              "redirect":"nosotros/somos-UANE"
+            }
+          },
+          {
+            "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
+            "text": "Carreras sabatinas con sesiones de 4 horas.",
+            "urlImage": {
+              "mobile": "https://drive.google.com/uc?export=view&id=1sbsXvmOyKDNpFoVq4MpLUbMdq8dHmRzk",
+              "tablet": "https://drive.google.com/uc?export=view&id=1wsAv6xU6W7XmtPohh7W43XMClSns-Ui0",
+              "desktop": "https://drive.google.com/uc?export=view&id=1DJEJ4lIYY8HJg_mvIWPtUpNz0YLmITIT"
+            },
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false,
+            "overlayWhite": true,
+            "overlayDak": false,
+            "action": {
+              "id": "",
+              "type": "primary",
+              "title": "Conocer más",
+              "size": "small",
+              "icon": "",
+              "lyIcon": false,
+              "disabled": false,
+              "isExpand": false,
+              "tagOnClick": "",
+              "test": "",
+              "redirect":"/nosotros/internacionalizacion"
+            }
           }
-        ],
-        "button":{}
+        ]
       },
       "button": {}
     },

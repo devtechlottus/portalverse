@@ -41,7 +41,7 @@ const NumbersPortalverse: FC<NumbersPortalverseData> = memo(({data, classNames}:
       <div className= {cn("p-4 wrapperNumbers", classNames, {
         "pt-0" : data.isShadowColor === false && data.container === false && data.bordered === false && data.boxShadow === false
     })}>
-        <p className="font-Poppins font-semibold text-lg mb-2">{data.title}</p>
+        <p className="font-Poppins font-semibold text-lg mb-2 w-p:text-center w-t:text-center">{data.title}</p>
         <p className="sub font-Poppins font-normal text-lg">{data.body}</p>
       </div>
     </div>

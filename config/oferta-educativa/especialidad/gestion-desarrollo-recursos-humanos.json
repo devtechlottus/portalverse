@@ -34,7 +34,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta especialidad:",
       "tabs": {
         "items": [
           {
@@ -65,7 +65,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Especialidad de Gestión de Recursos Humanos será capaz de:\n- Analizar los factores nacionales e internacionales en las decisiones de capital humano para aplicar las estrategias adecuadas a la organización buscando que se transformen en una ventaja competitiva.\n-Evaluar en el proceso de planeación de personal, diseñando estrategias, creando escenarios, planeando los requerimientos y los sistemas de seguimiento de acuerdo a los objetivos de negocio.\n- Generar estrategias que promuevan la competitividad del personal para enfrentar los retos que se le presenten a la organización, basadas en la competencia del recurso humano.\n- Implementar planes y acciones en materia de recursos humanos para lograr la permanencia del personal y asegurar el desarrollo del mismo.\n- Negociar y resolver conflictos interpersonales y grupales que afectan el desarrollo de las organizaciones para lograr un ambiente de trabajo sano.",
+                  "text": "El egresado de la Especialidad de Gestión de Recursos Humanos será capaz de:\n\n• Analizar los factores nacionales e internacionales en las decisiones de capital humano para aplicar las estrategias adecuadas a la organización buscando que se transformen en una ventaja competitiva.\n\n• Evaluar en el proceso de planeación de personal, diseñando estrategias, creando escenarios, planeando los requerimientos y los sistemas de seguimiento de acuerdo a los objetivos de negocio.\n\n• Generar estrategias que promuevan la competitividad del personal para enfrentar los retos que se le presenten a la organización, basadas en la competencia del recurso humano.\n\n• Implementar planes y acciones en materia de recursos humanos para lograr la permanencia del personal y asegurar el desarrollo del mismo.\n\n• Negociar y resolver conflictos interpersonales y grupales que afectan el desarrollo de las organizaciones para lograr un ambiente de trabajo sano.",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -107,7 +107,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

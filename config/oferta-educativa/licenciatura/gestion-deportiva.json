@@ -38,7 +38,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta licenciatura:",
       "tabs": {
         "items": [
           {
@@ -51,7 +51,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "El aspirante a ingresar a la Licenciatura en Gestión Deportiva deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.\n- Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n- Desarrollar un pensamiento crítico y constructivo.\n- Aplicar el razonamiento lógico.\n- Manejar equipos de cómputo y electrónicos.\n- Tener la capacidad para liderar grupos de trabajo",
+                  "text": "El aspirante a ingresar a la Licenciatura en Gestión Deportiva deberá contar con los siguientes conocimientos:\n\n • Desarrollar procesos lógicos.\n\n • Resolver problemas con base en principios, leyes y conceptos.\n\n • Emplear las nuevas tecnologías de la información y la comunicación.\n\n • Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n\n • Desarrollar un pensamiento crítico y constructivo.\n\n • Aplicar el razonamiento lógico.\n\n • Manejar equipos de cómputo y electrónicos.\n\n • Tener la capacidad para liderar grupos de trabajo",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -69,7 +69,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "Los profesionales egresados de la carrera de gestión deportiva cuentan con un extenso campo laboral. Esto se debe a que, esta es una carrera que se caracteriza por contar con una gran variedad de salidas, entre las cuales se pueden mencionar las que veremos a continuación:\nCentros deportivos\nAdministración pública\nFederaciones, ligas, clubes, gimnasios y asociaciones\nIndustria de material deportivo\nConsultoría deportiva\nOrganización de eventos deportivos\nDirección en empresas de servicios deportivos\nFormación y enseñanza",
+                  "text": "Los profesionales egresados de la carrera de gestión deportiva cuentan con un extenso campo laboral. Esto se debe a que, esta es una carrera que se caracteriza por contar con una gran variedad de salidas, entre las cuales se pueden mencionar las que veremos a continuación:\n\n • Centros deportivos\n\n • Administración pública\n\n • Federaciones, ligas, clubes, gimnasios y asociaciones\n\n • Industria de material deportivo\n\n • Consultoría deportiva\n\n • Organización de eventos deportivos\n\n • Dirección en empresas de servicios deportivos\n\n • Formación y enseñanza",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -95,7 +95,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "El aspirante a ingresar a la Licenciatura en Gestión Deportiva deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.\n- Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n- Desarrollar un pensamiento crítico y constructivo.\n- Aplicar el razonamiento lógico.\n- Manejar equipos de cómputo y electrónicos.\n- Tener la capacidad para liderar grupos de trabajo",
+                  "text": "El aspirante a ingresar a la Licenciatura en Gestión Deportiva deberá contar con los siguientes conocimientos:\n\n • Desarrollar procesos lógicos.\n\n • Resolver problemas con base en principios, leyes y conceptos.\n\n • Emplear las nuevas tecnologías de la información y la comunicación.\n\n • Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n\n • Desarrollar un pensamiento crítico y constructivo.\n\n • Aplicar el razonamiento lógico.\n\n • Manejar equipos de cómputo y electrónicos.\n\n • Tener la capacidad para liderar grupos de trabajo",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -113,7 +113,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "Los profesionales egresados de la carrera de gestión deportiva cuentan con un extenso campo laboral. Esto se debe a que, esta es una carrera que se caracteriza por contar con una gran variedad de salidas, entre las cuales se pueden mencionar las que veremos a continuación:\nCentros deportivos\nAdministración pública\nFederaciones, ligas, clubes, gimnasios y asociaciones\nIndustria de material deportivo\nConsultoría deportiva\nOrganización de eventos deportivos\nDirección en empresas de servicios deportivos\nFormación y enseñanza",
+                  "text": "Los profesionales egresados de la carrera de gestión deportiva cuentan con un extenso campo laboral. Esto se debe a que, esta es una carrera que se caracteriza por contar con una gran variedad de salidas, entre las cuales se pueden mencionar las que veremos a continuación:\n\n • Centros deportivos\n\n • Administración pública\n\n • Federaciones, ligas, clubes, gimnasios y asociaciones\n\n • Industria de material deportivo\n\n • Consultoría deportiva\n\n • Organización de eventos deportivos\n\n • Dirección en empresas de servicios deportivos\n\n • Formación y enseñanza",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -155,7 +155,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

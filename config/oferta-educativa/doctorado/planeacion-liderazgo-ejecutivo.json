@@ -35,7 +35,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Doctorado:",
+      "title": "Modalidades disponibles en esta doctorado:",
       "tabs": {
         "items": [
           {
@@ -66,7 +66,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado del Doctorado en Planeación y Liderazgo Educativo de UANE podrá ejercer como:\n- Directivo\n- Emprendedor de proyectos académicos Docente calificado\n- Asesor educativo\n- Evaluador académico\n- Investigador educativo\n- Consultor\n- Planeador educativo\n- Administrador educativo",
+                  "text": "El egresado del Doctorado en Planeación y Liderazgo Educativo de UANE podrá ejercer como:\n\n •  Directivo\n\n • Emprendedor de proyectos académicos Docente calificado\n\n • Asesor educativo\n\n • Evaluador académico\n\n • Investigador educativo\n\n • Consultor\n\n • Planeador educativo\n\n •  Administrador educativo",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -108,7 +108,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

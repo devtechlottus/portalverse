@@ -8,32 +8,40 @@ import { ButtonInit } from "@/components/fixture"
 import { RegisterBeWantedAccount } from "@/utils/registerBeWantedAccount"
 import { getTokenBeWanted } from "@/utils/getTokenBeWanted"
 
-const BeWanted: FC<any> = ({ classNames, copies, token, pathThankyou, pathBeWanted }: any) => {
+const BeWanted: FC<any> = ({ classNames, copies, pathThankyou, pathBeWanted }: any) => {
 
   const router = useRouter();
 
   const [ activeLoader, setActiveLoader ] = useState<boolean>(false);
   const [ errorLoader, setErrorLoader ] = useState<boolean>(false);
-  const [ infoForm, setInfoForm ] = useState<any>({});
+  const [ _, setInfoForm ] = useState<any>({});
   const [ tokenActive, setTokenActive ] = useState<string>("");
 
-  const { isLoading: isLoadingWanted, isError: isErrorWanted, isLogoutSuccess, logoutToken } = getTokenBeWanted();
-  const { isLoading, isError, data, userCreated, registerAccount } = RegisterBeWantedAccount();
+  const { isLoading: isLoadingWanted, isError: isErrorWanted, data, userCreated, registerAccount } = RegisterBeWantedAccount();
+  const { isLoading, isError, isLogoutSuccess, logoutToken, token } = getTokenBeWanted();
 
   useEffect(() => {
-    setTokenActive(token);
+    setTokenActive(`${token.token_type} ${token.access_token}`);
   }, [token]);
 
   useEffect(() => {
     setActiveLoader(isLoading || isLoadingWanted)
   }, [isLoading, isLoadingWanted])
   
-  // useEffect(() => {
-  //   setErrorLoader(isError || isErrorWanted || userCreated === false)
-  //   if (isError || isErrorWanted) {
-  //     logoutToken(tokenActive);
-  //   }
-  // }, [isError, isErrorWanted, userCreated])
+  useEffect(() => {
+    setErrorLoader(isError || isErrorWanted || userCreated === false)
+    if (!isError && !isLoading && userCreated && !!Object.keys(data).length) {
+      logoutToken(tokenActive);
+    }
+  }, [isError, isErrorWanted, userCreated, data])
+  
+  useEffect(() => {
+    if (!isError && !isLoading && userCreated && !!Object.keys(data).length && isLogoutSuccess) {
+      router.push(pathThankyou)
+    }
+  }, [isError, isErrorWanted, userCreated, data, isLogoutSuccess])
+
+
 
   const handleNext = (info: any) => {
     const { name: first_name, surname: last_name, email, password } = info;
@@ -41,18 +49,6 @@ const BeWanted: FC<any> = ({ classNames, copies, token, pathThankyou, pathBeWant
     setInfoForm({ ...data });
     registerAccount(data, tokenActive);
   }
-
-  // useEffect(() => {
-  //   if (!isLoading && !isError && !!Object.keys(data).length) {
-  //     logoutToken(tokenActive);
-  //   }
-  // }, [isLoading, isError, data]);
-
-  useEffect(() => {
-    if (isLogoutSuccess && !!Object.keys(data).length && !!userCreated) {
-      router.push(pathThankyou)
-    }
-  }, [isLogoutSuccess, data, userCreated])
 
   return <section className={cn("p-6 shadow-15 bg-white relative w-d:max-w-[588px] w-t:max-w-[588px] w-t:mx-auto w-p:w-auto", classNames)}>
     <div className={cn("absolute w-full h-full z-10 flex justify-center items-center left-0 top-0", { "hidden": !activeLoader, "block": activeLoader })}>

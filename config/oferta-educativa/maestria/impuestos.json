@@ -33,7 +33,7 @@
       }
     },
     "modalities": {
-      "title": "Modalidades disponibles en esta Especialidad:",
+      "title": "Modalidades disponibles en esta maestría:",
       "tabs": {
         "items": [
           {
@@ -64,7 +64,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Impuestos de UANE podrá ejercer como:\n\nDesarrollador\nTomador de decisiones integrales\nContribuyente\nGestor de cambio\nAuditor\nAdministrador\nPlaneador\nOperador\nAsesor independiente",
+                  "text": "El egresado de la Maestría en Impuestos de UANE podrá ejercer como:\n\n• Desarrollador\n\n• Tomador de decisiones integrales\n\n• Contribuyente\n\n• Gestor de cambio\n\n• Auditor\n\n• Administrador\n\n• Planeador\n\n• Operador\n\n• Asesor independiente",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -106,7 +106,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }
