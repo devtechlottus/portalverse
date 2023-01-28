@@ -55,12 +55,13 @@ const BeWanted: FC<any> = ({ classNames, copies, pathThankyou, pathBeWanted }: a
       <Image src="/images/loader.gif" alt="loader" classNames={cn("w-10 h-10 top-0 left-0")} />
     </div>
     <div className={cn("bg-white absolute w-full h-full z-10 flex flex-col aspect-2/1 justify-center items-center left-0 top-0  p-6", { "hidden": !errorLoader, "block": errorLoader })}>
-      <h1>Ya te registraste en la Bolsa de trabajo</h1>
-      <h1>Este correo ya está registrado en la bolsa de trabajo, si no recuerdas tu contraseña puedes reestablecerla en la bolsa de trabajo de Bewanted y pulsar en la opción que dice: ¿Olvidaste tu contraseña?</h1>
+      <h1>Ya te registraste en la Bolsa de talento</h1>
+      <h1>Este correo ya está registrado en la bolsa de talento, si no recuerdas tu contraseña puedes reestablecerla en la bolsa de talento de Bewanted y pulsar en la opción que dice: ¿Olvidaste tu contraseña?</h1>
       <Image src="/images/404.png" alt="error" classNames={cn("w-[347px] h-[270px]")} />
+    
       <div className="w-full flex justify-between">
         <Button onClick={() => location.reload()} data={{...ButtonInit, title: "Reintentar" }} />
-        <Button onClick={() => window.open(pathBeWanted)} data={{...ButtonInit, title: "Visitar Bolsa de trabajo" }} />
+        <Button onClick={() => window.open(pathBeWanted)} data={{...ButtonInit, title: "Visitar Bolsa de talento" }} />
       </div>
     </div>
     <StepOne onNext={(info: any) => handleNext(info)} copies={copies} />
