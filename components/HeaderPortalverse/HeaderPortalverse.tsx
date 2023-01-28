@@ -88,14 +88,14 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
         <div className="flex justify-end pr-6 gap-6 font-Nunito text-gray-500 text-sm">
           <span className="font-normal">Accesos para:</span>
           <Link href="/alumnos" passHref>
-            <a>
-              <p className="font-bold text-[#B0003C]">Alumnos</p>
-            </a>
+
+            <p className="font-bold text-[#B0003C]">Alumnos</p>
+
           </Link>
           <Link href="/egresados" passHref>
-            <a>
-              <p className="font-bold text-[#B0003C]">Egresados</p>
-            </a>
+
+            <p className="font-bold text-[#B0003C]">Egresados</p>
+
           </Link>
         </div>
         <div className="flex flex-grow p-1 border-solid border-SC/Actions/AC-300 border-t-2">
@@ -104,11 +104,11 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
               menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
                 {
                   !!item.route
-                    ? <Link passHref href={item.route}>
-                        <a className="flex">
-                          <p className="font-Nunito-Sans font-bold text-sm">{item.label}</p>
-                        </a>
-                      </Link>
+                    ? <Link passHref href={item.route} className="flex">
+
+                    <p className="font-Nunito-Sans font-bold text-sm">{item.label}</p>
+
+                  </Link>
                     : <p className="font-Nunito-Sans font-bold text-sm">{item.label}</p>
                 }
                 <p className={cn("flex items-center justify-center", { "hidden": !item.items.length })} onClick={() => !activeMenu ? handleHoverOption(item.label): handleHoverOutOption()}>
@@ -131,9 +131,9 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       {
         activeOptionMenu.map((item: any, i: number) => <div key={`submenu-${i}`} className={cn("py-1 px-6 z-20 border-solid border-SC/Actions/AC-300", { "border-r-2": activeOptionMenu.length > 1 })}>
             <Link href={item.route} passHref className="w-full">
-              <a>
-                <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
-              </a>
+
+              <p className="font-Nunito-Sans font-normal text-sm">{item.label}</p>
+
             </Link>
           </div>)
       }
@@ -161,11 +161,16 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
               <div className={cn("flex justify-between items-center p-1 border-b", { "cursor-pointer": !item.route, "flex-row-reverse": item.back })}>
                 {
                   !!item.route
-                    ? <Link href={item.route} passHref className="w-full">
-                        <a className={cn("p-1 grow", { "border-r": levelActive === 1 })} target={item.external ? "_blank" : "_self"} onClick={handleMenuMobile}>
-                          <p className="font-Nunito font-bold text-sm">{item.label}</p>
-                        </a>
-                      </Link>
+                    ? <Link
+                    href={item.route}
+                    passHref
+                    className="w-full"
+                    target={item.external ? "_blank" : "_self"}
+                    onClick={handleMenuMobile}>
+
+                    <p className="font-Nunito font-bold text-sm">{item.label}</p>
+
+                  </Link>
                     : <div onClick={() => handleEventNavigate(!item.route, item.label, "single", !!item.back)} className="p-1 grow">
                         <p className="font-Nunito font-bold text-sm">{ item.label }</p>
                       </div>
@@ -180,7 +185,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
       </div>
     </div>
     {/* desktop tablet */}
-  </> 
+  </>; 
 }
 
 export default Header

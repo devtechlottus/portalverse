@@ -66,7 +66,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El egresado de la Maestría en Gestión Ambiental de UANE podrá ejercer en:\nDependencias encargadas de la protección del medio ambiente\nConsultorías y auditorías ambientales\nCentros de investigación de energía, salud y materiales avanzados\nConsultor independiente",
+                  "text": "El egresado de la Maestría en Gestión Ambiental de UANE podrá ejercer en:\n\n• Dependencias encargadas de la protección del medio ambiente\n\n• Consultorías y auditorías ambientales\n\n• Centros de investigación de energía, salud y materiales avanzados\n\n• Consultor independiente",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -152,7 +152,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

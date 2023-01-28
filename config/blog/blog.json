@@ -26,7 +26,9 @@
               "center": true,
               "left": false,
               "middle": true,
-              "bottom": false
+              "bottom": false,
+              "overlayWhite": true,
+              "overlayDak": false
             },
             {
               "title": "Conecta con el mundo", 
@@ -39,7 +41,9 @@
               "center": true,
               "left": false,
               "middle": true,
-              "bottom": false
+              "bottom": false,
+              "overlayWhite": true,
+              "overlayDak": false
             },
             {
               "title": "¡Tenemos vacantes nuevas!", 
@@ -52,7 +56,9 @@
               "center": true,
               "left": false,
               "middle": true,
-              "bottom": false
+              "bottom": false,
+              "overlayWhite": true,
+              "overlayDak": false
             }
           ]
         }

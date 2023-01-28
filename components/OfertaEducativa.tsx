@@ -36,19 +36,21 @@ const OfertaEducativa: FC<any> = memo(({ data, classNames } : any) => {
     setAllPromos([ ...newAllPromosConf ]);
   }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
     
-  return <section className={cn("col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2", classNames)}>
-    {
-      allPromos.map((content: any, i: number) => <section key={`section-oferta-${i}`}>
-          <Link href={`${content.level}`}>
-            <a>
+  return (
+    <section className={cn("col-span-12 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2", classNames)}>
+      {
+        allPromos.map((content: any, i: number) => <section key={`section-oferta-${i}`}>
+            <Link href={`${content.level}`}>
+
               <PromoLink data={{
                 ...content.promo
               }} />
-            </a>
-          </Link>
-        </section>)
-    }
-  </section>
+
+            </Link>
+          </section>)
+      }
+    </section>
+  );
 })
 
 export default OfertaEducativa
