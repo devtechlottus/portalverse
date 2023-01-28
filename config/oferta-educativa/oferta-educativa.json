@@ -195,20 +195,20 @@
     "bannerInternacionalizacion": {
       "banner": {
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1Yd2dBe60616xK-qlbYNNe6tehHrMsF6a",
-          "mobile": "https://drive.google.com/uc?export=view&id=1U6Bw6nBdz7aaCyjNrQ50wOMFiRJKQR-G",
-          "tablet": "https://drive.google.com/uc?export=view&id=1Y0vIIFhKwRhww3sQzCCjhesB2kFiwWMq"
+          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
+          "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
+          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
         },
-        "title": "Internacionalízate",
-        "subtitle": "UANE tiene convenios con universidades de prestigio en Europa y América, descubre cómo puedes beneficiarte de ellos",
-        "position": "",
+        "title": "UANE  Internacional",
+        "subtitle": "Agrega experiencias internacionales a tus estudios",
+        "position": "left-bottom",
         "height": "350px",
         "overlayWhite":false,
-        "overlayDak": true,
+        "overlayDak": false,
         "button":{
           "id": "",
-          "type": "primary",
-          "title": "Conocer más",
+          "type": "outlined",
+          "title": "Continuar",
           "size": "small",
           "icon": "",
           "lyIcon": false,
@@ -217,8 +217,8 @@
           "tagOnClick": "",
           "test": ""
         },
-        "noAction": false,
-        "redirect": "/nosotros/internacionalizacion"
+        "wrapper": true,
+        "redirect": "nosotros/internacionalizacion"
       }
     },
     "areasConocimiento": [

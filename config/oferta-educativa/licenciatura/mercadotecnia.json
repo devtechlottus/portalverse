@@ -47,7 +47,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "El aspirante a ingresar a la Licenciatura en Mercadotecnia, deberá contar con los siguientes conocimientos:\n- Desarrollar procesos lógicos.\n- Resolver problemas con base en principios, leyes y conceptos.\n- Emplear las nuevas tecnologías de la información y la comunicación.\n- Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n- Desarrollar un pensamiento crítico y constructivo.",
+                  "text": "El aspirante a ingresar a la Licenciatura en Mercadotecnia, deberá contar con los siguientes conocimientos:\n\n• Desarrollar procesos lógicos.\n\n• Resolver problemas con base en principios, leyes y conceptos.\n\n• Emplear las nuevas tecnologías de la información y la comunicación.\n\n• Ser capaz para evaluar fortalezas y debilidades de los equipos de trabajo.\n\n• Desarrollar un pensamiento crítico y constructivo.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -65,7 +65,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El Licenciado en Mercadotecnia egresado de UANE podrá trabajar en:\nEntidades gubernamentales\nInstituciones educativas\nSector industrial\nÁmbito privado\nEmprendimiento",
+                  "text": "El Licenciado en Mercadotecnia egresado de UANE podrá trabajar en:\n\n• Entidades gubernamentales\n\n• Instituciones educativas\n\n• Sector industrial\n\n• Ámbito privado\n\n• Emprendimiento",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -151,7 +151,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

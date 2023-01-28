@@ -47,7 +47,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "El aspirante a la Licenciatura en Administración de Empresas Turísticas debe tener un perfil con gusto por viajar y aprender idiomas. Debe estar interesado en manejar los recursos de la organización aplicada al sector túristico, en la toma de decisiones, la integración y manejo de equipos, así como una gran facilidad para las relaciones interpersonales.",
+                  "text": "El aspirante a la Licenciatura en Administración de Empresas Turísticas debe tener un perfil con gusto por viajar y aprender idiomas. Debe estar interesado en manejar los recursos de la organización aplicada al sector turístico, en la toma de decisiones, la integración y manejo de equipos, así como una gran facilidad para las relaciones interpersonales.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
@@ -57,50 +57,6 @@
                   },
                   "title": "Perfil de egreso",                  
                   "text": "Al estudiar la Licenciatura en Administración de Empresas Turísticas serás un profesionista capaz de participar en el desarrollo de empresas y organismos turísticos, así como en la operación y promoción de servicios con calidad, respeto a la cultura y a los recursos del medio ambiente.",
-                  "backgroundColor": "#B0003C"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
-                  },
-                  "title": "Campo Laboral",
-                  "text": "El egresado de la Licenciatura en Administración de Empresas Turísticas podrá desempeñarse en empresas del sector turístico, en donde puede desarrollarse como director y/o ejecutivo en diversas empresas del sector turístico como: agencias de viajes, líneas aéreas, restaurantes, hoteles, franquicias, cruceros de viaje, desarrollos turísticos, centros de diversión y otros servicios. También puede ejercer de manera independiente con su propia agencia de viajes o con instalaciones de hospedaje.",
-                  "backgroundColor": "#E84537"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1YVLI0R1gSPoN4p5IH8dAi6JGsemsGUgQ"
-                  },
-                  "title": "Requisitos de admisión",
-                  "text": "Acta de nacimiento reciente, original del cajero y 2 copias.\n\nCertificado de secundaria legalizado original y dos copias.\n\nCertificado de preparatoria legalizado original y 2 copias con su carta de autenticidad. (En caso de no contar con original, presentar constancia de que está en trámite).\n\n CURP copia.\nEn caso de equivalencia\n\nCertificado parcial de estudios legalizado original con 2 copias y carta de autenticidad.\n\n 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n\n Carta de buena salud expedida por institución pública o privada.",
-                  "backgroundColor": "#00BEB4"
-                }
-              ],
-              "wrapper": false
-            }
-          },
-          {
-            "label": "Modalidad Online", "icons": { "primary": "", "duplicate": false}, "disabled": false,
-            "content": {
-              "cards": [
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5",
-                    "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
-                  },
-                  "title": "Perfil de ingreso",
-                  "text": "Los aspirantes a ingresar a la Licenciatura de Turismo deberán poseer:\n\nConocimientos básicos en geografía, cultura general, historia, lengua extranjera, preferentemente inglés, informática y matemáticas.\nDisponibilidad para trabajar en equipo, facilidad para expresarse y relacionarse con otras personas y habilidad para búsqueda de información.\nCapacidad de interactuar con el medio que lo rodea.",
-                  "backgroundColor": "#8B9BA3"
-                },
-                {
-                  "image": {
-                    "desktop": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8",
-                    "mobile": "https://drive.google.com/uc?export=view&id=1NzKYhz_dKLooxzrSgMf73YcBJK4Uq1e8"
-                  },
-                  "title": "Perfil de egreso",
-                  "text": "Licenciatura en Administración de Empresas Turísticas serás un profesionista capaz de participar en el desarrollo de empresas y organismos turísticos, así como en la operación y promoción de servicios con calidad, respeto a la cultura y a los recursos del medio ambiente.",
                   "backgroundColor": "#B0003C"
                 },
                 {
@@ -151,7 +107,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

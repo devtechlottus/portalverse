@@ -68,7 +68,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",
-                  "text": "El Licenciado en Comunicación egresado de UANE podrá trabajar en:\nEmpresas de medios de comunicación\nEmpresas en el área de comunicación organizacional Elaboración de mensajes y pautas para agencias de publicidad\nBuffet de asesoría a empresas",
+                  "text": "El Licenciado en Comunicación egresado de UANE podrá trabajar en:\n\n• Empresas de medios de comunicación\n\n• Empresas en el área de comunicación organizacional \n\n• Elaboración de mensajes y pautas para agencias de publicidad\n\n• Buffet de asesoría a empresas",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -154,7 +154,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }

@@ -247,7 +247,7 @@
       "route": "administracion-recursos-humanos"
     },
     {
-      "title": "Licenciatura en Arquitectura",
+      "title": "Arquitectura",
       "config": {
         "nombre": "Licenciatura en Arquitectura",
         "modalidad": ["Presencial"],
@@ -442,7 +442,7 @@
       "route": "mecanica-procesos-inyeccion"
     },
     {
-      "title": "Licenciatura en negocios digitales",
+      "title": "Licenciatura en Negocios Digitales",
       "config": {
         "nombre": "Licenciatura en negocios digitales",
         "modalidad": ["Online"],

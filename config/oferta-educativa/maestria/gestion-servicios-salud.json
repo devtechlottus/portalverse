@@ -65,7 +65,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=1L4dV8lbYcFwuDr7vm45rriq9K2HfcVyC"
                   },
                   "title": "Campo Laboral",                  
-                  "text": "El egresado de la Maestría en Gestión de Servicios de Salud de UANE podrá ejercer en:\n\nDirección administrativa\nRecursos humanos\nDepartamento jurídico\nMantenimiento\nPrevención de la salud\nAtención médica\nPlaneación\nFomento sanitario\nVinculación y enlaces\nTransparencia y acceso a la información\nProcesos de evaluación y acreditación",
+                  "text": "El egresado de la Maestría en Gestión de Servicios de Salud de UANE podrá ejercer en:\n\n• Dirección administrativa\n\n• Recursos humanos\n\n• Departamento jurídico\n\n• Mantenimiento\n\n• Prevención de la salud\n\n• Atención médica\n\n• Planeación\n\n• Fomento sanitario\n\n• Vinculación y enlaces\n\n• Transparencia y acceso a la información\n\n• Procesos de evaluación y acreditación",
                   "backgroundColor": "#E84537"
                 },
                 {
@@ -107,7 +107,7 @@
     },
     "copies": {
       "stepone": {
-        "title": "Obten informes sobre tu programa",
+        "title": "Obtén informes sobre tu programa",
         "subtitle": "Resuelve todas tus dudas, comparte tus datos para que un asesor de admisiones te oriente y puedas estar seguro de tu elección."
       }
     }
