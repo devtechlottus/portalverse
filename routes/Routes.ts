@@ -209,7 +209,7 @@ const Routes: any = {
           { params: { "program": "derecho", "nameProgram": "Maestría en Derecho" } },
           { params: { "program": "desarrollo-organizacional-talento-humano", "nameProgram": "Maestría en Desarrollo Organizacional y Talento Humano" } },
           { params: { "program": "mercadotecnia-digital", "nameProgram": "Maestría en Mercadotecnia Digital" } },
-            
+          { params: { "program": "gobierno-estrategia-publica", "nameProgram": "Maestría en Gobierno y Estrategia Pública" } },
         ] 
       }
     },
@@ -258,7 +258,7 @@ const Routes: any = {
     params: {
       "level": "educacion-continua",
       "config": {
-        title: "Educación contínua",
+        title: "Educación continua",
         promo: {
           urlImage: {
             mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",

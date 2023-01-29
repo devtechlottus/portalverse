@@ -380,6 +380,21 @@
         }
       },
       "route": "mercadotecnia-digital"
+    },
+    {
+      "title": "Maestría en Gobierno y Estrategia Pública",
+      "config": {
+        "nombre": "Maestría en Gobierno y Estrategia Pública",
+        "modalidad": ["Online"],
+        "areaConocimiento": ["Economico - Aministrativas"],
+        "campus": [],
+        "nivel": ["Posgrado"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=1_LiLi5YzQaX0feWRvKFOW5wpwKjI8e3l",
+          "alt": "maestria"
+        }
+      },
+      "route": "gobierno-estrategia-publica"
     }
   ]
 }
