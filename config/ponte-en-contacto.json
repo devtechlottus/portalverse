@@ -63,11 +63,11 @@
         "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
       },
       "title": "UANE Internacional",
-      "subtitle": "¡Internacionalízate! Agrega experiencias internacionales a tu educación",
+      "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
       "position": "left-bottom",
       "height": "300px",
       "overlayWhite":false,
-      "overlayDak": true,
+      "overlayDak": false,
       "button":{
         "id": "",
         "type": "outlined",

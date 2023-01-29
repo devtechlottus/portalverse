@@ -89,7 +89,7 @@
             "test": ""
           },
           "noAction": false,
-          "redirect": "/voz-UANE"
+          "redirect": "/voz-uane"
         }
       }
     }
