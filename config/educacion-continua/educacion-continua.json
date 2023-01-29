@@ -6,7 +6,7 @@
   },
   "sections": {
     "head": {
-      "title": "Educación Contínua",
+      "title": "Educación Continua",
       "subtitle": "En UANE sabemos que los profesionistas requieren de actualizarse y reforzar sus habilidades y conocimientos. ",
       "description": "Por eso tenemos a tu disposición diversos programas que te permitirán enriquecer tu currículum, habilidades y destrezas para satisfacer a las necesidades cambiantes del ambiente laboral.\n\n ¡Ponte a la vanguardia dentro de tu campo de trabajo de manera constante y actualízate para ser el mejor candidato de las organizaciones!",
       "image": {
@@ -71,7 +71,7 @@
         },
         {
           "id": "123",
-          "title": "Análisis de datos",
+          "title": "Análisis de Datos",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -163,7 +163,7 @@
         },
         {
           "id": "123",
-          "title": "Estrategias de tiendas en línea",
+          "title": "Estrategias de Tiendas en Línea",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -186,7 +186,7 @@
         },
         {
           "id": "123",
-          "title": "Estructura de datos",
+          "title": "Estructura de Datos",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -232,7 +232,7 @@
         },
         {
           "id": "123",
-          "title": "Higiene y seguridad en el trabajo",
+          "title": "Higiene y Seguridad en el Trabajo",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -278,7 +278,7 @@
         },
         {
           "id": "123",
-          "title": "Mega tendencias Globales",
+          "title": "Mega Tendencias Globales",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -393,7 +393,7 @@
         },
         {
           "id": "123",
-          "title": "Psicología del consumidor",
+          "title": "Psicología del Consumidor",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -452,7 +452,7 @@
         },
         {
           "id": "123",
-          "title": "Politicas publicas en gobernanza",
+          "title": "Politicas Publicas en Gobernanza",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -475,7 +475,7 @@
         },
         {
           "id": "123",
-          "title": "Análisis de datos",
+          "title": "Análisis de Datos",
           "link":{
             "text": "Ver más",
             "size": "large",
@@ -499,7 +499,7 @@
       ]
     },
     "WebinarsAndConferences": {
-      "title": "Webinars y conferencias",
+      "title": "Webinars y Conferencias",
       "carrousel": {}
     },
     "oferta": {
