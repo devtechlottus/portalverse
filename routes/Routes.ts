@@ -249,7 +249,7 @@ const Routes: any = {
         },
         "programs": [
           { params: { "program": "derecho", "nameProgram": "Doctorado en Derecho" } },
-          { params: { "program": "planeacion-liderazgo-ejecutivo", "nameProgram": "Doctorado en Planeación y Liderazgo Ejecutivo" } },
+          { params: { "program": "planeacion-liderazgo-educativo", "nameProgram": "Doctorado en Planeación y Liderazgo Educativo" } },
         ] 
       }
     }
