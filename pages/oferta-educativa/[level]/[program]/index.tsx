@@ -182,7 +182,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   <p className="font-Nunito-Sans font-normal text-xs mb-0">Los planes de estudio pueden variar por campus*</p>
                     <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elije el campus de tu interés"}} options={selectData} />
                   </div>
-                  <Button dark data={{...sections.benefits.action}} onClick={downloadFileProgram} />
+                  <Button dark data={{...sections.benefits.action , disabled: !fileSelected}} onClick={downloadFileProgram} />
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:mb-12 w-d:order-1 w-t:order-2">
                   <Video dimensions={["450px", "400px", "200px"]} data={{ options: { id: sections.benefits.video, type: 'single', controls: true}, dimensions: { height: '330px', width: '100%'} }} />
