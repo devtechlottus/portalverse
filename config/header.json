@@ -55,7 +55,7 @@
         { "label": "Maestrías", "principal": false, "route": "/oferta-educativa/maestria", "external": false },
         { "label": "Especialidades", "principal": false, "route": "/oferta-educativa/especialidad", "external": false },
         { "label": "Doctorados", "principal": false, "route": "/oferta-educativa/doctorado", "external": false },
-        { "label": "Educación Contínua", "principal": false, "route": "/educacion-continua", "external": false }
+        { "label": "Educación Continua", "principal": false, "route": "/educacion-continua", "external": false }
       ]
     },
     {

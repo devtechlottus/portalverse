@@ -519,8 +519,8 @@
           "tagOnClick": "testClick", "test": ""
         },
         "wrapper": true,
-        "extern": false,
-        "redirect": "voz-uane/podcast"
+        "extern": true,
+        "redirect": "https://open.spotify.com/show/3SFBU6jloBsm14qKrz0asZ"
       }
       ]
     }
