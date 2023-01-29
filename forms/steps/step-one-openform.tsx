@@ -8,6 +8,7 @@ import configControls from "@/forms/fixtures/controls"
 import Select from "@/components/Select"
 import Button from "@/components/Button/Button"
 import { SelectInit } from "@/components/fixture"
+import Link from "next/link"
 
 const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
 
@@ -120,7 +121,12 @@ const StepOne: FC<any> = ({ classNames, data, image, onNext, step }: any) => {
         <Image classNamesImg="rounded-full" classNames="w-[112px] h-[112px]" src={image.src} alt={image.alt} />
       </div>
     </div>
-    <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828] font-Nunito-Sans font-normal">{  config.conditions }</p>
+    <div className="flex align-middle items-center">
+      <p className="mt-8 mb-6 text-[14px] leading-5 text-[#282828] font-Nunito-Sans font-normal">{  config.conditions }</p>
+      <Link href={config.privacyLink.link} passHref target={"_blank"}>
+        <p className="mt-8 mb-6 text-[14px] font-Nunito font-normal text-sm text-[#282828]">{config.privacyLink.label}</p>
+      </Link>
+    </div>
     <div className="mb-6">
       <ProgressBar data={{ progress }} />
     </div>

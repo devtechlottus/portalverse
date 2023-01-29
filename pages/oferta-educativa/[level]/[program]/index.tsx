@@ -174,7 +174,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
           level === 'bachillerato'
             ? <>
                 <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
-                  <h4 className="text-6.5 font-Nunito-Sans font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
+                  <h4 className="text-6.5 font-Poppins font-semibold leading-[125%] w-t:leading-[125%] w-p:leading-[125%] w-t:text-6 w-p:text-6">{ sections.benefits.title }</h4>
                 </div>
                 <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 leading-[125%] w-d:order-1 w-t:order-1">
                   <RichtText font="light" data={{ content: sections.benefits.description }} />

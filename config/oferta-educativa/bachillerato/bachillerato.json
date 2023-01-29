@@ -103,7 +103,7 @@
               },
               {
                 "title": "Requisitos de admisión",
-                "description": "\n\n• Acta de nacimiento reciente, original del cajero y 2 copias\n\n• Certificado de secundaria original y 2 copias. En caso de equivalencia presentar certificado parcial original legalizado con carta de autenticidad. (Si aún no cuenta traer constancia de trámite)\n\n• CURP copia4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n\n• Constancia de calificaciones si aún no gradúan de secundaria.\n\n• Carta de buena salud expedida por institución pública o privada",
+                "description": "\n\n• Acta de nacimiento reciente, original del cajero y 2 copias\n\n• Certificado de secundaria original y 2 copias. En caso de equivalencia presentar certificado parcial original legalizado con carta de autenticidad. (Si aún no cuenta traer constancia de trámite)\n\n• CURP copia\n\n• 4 fotografías tamaño infantil y 4 tamaño credencial, ambas blanco y negro, papel mate no instantáneas.\n\n• Constancia de calificaciones si aún no gradúan de secundaria.\n\n• Carta de buena salud expedida por institución pública o privada",
                 "image": {
                   "src": "https://drive.google.com/uc?export=view&id=12-EqzbiQqGjOPDXhotUWig6FfN-PiKyy",
                   "alt": "bachillerato-online-requisitos"
@@ -117,7 +117,7 @@
     },
     "benefits": {
       "video": "DxJpI7jdB9Q",
-      "title": "Plan de estudios",
+      "title": "Modelo educativo",
       "description": "En UANE contamos con un sistema educativo modular para llevar a cabo tu programa de bachillerato, el cual te permitirá desarrollar mejor tus habilidades, talentos y concentración por materia, sin descuidar el aprendizaje adquirido que busca la integración de contenidos de acuerdo a una lógica que responda a un campo de conocimiento. El alumno obtiene retroalimentación de su aprendizaje en forma inmediata, ya que a las pocas semanas de haber iniciado sus estudios puede constatar sus logros y comprobar si la preparación corresponde con sus intereses y capacidades. Los exámenes se programan al finalizar cada bloque; esto acostumbra al estudiante al logro de resultados bajo presión.",
       "action": {
         "id": "program_bachillerato",

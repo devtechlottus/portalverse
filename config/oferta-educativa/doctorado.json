@@ -52,9 +52,9 @@
   },
   "programs": [
     {
-      "title": "Doctorado en Planeación y Liderazgo Ejecutivo",
+      "title": "Doctorado en Planeación y Liderazgo Educativo",
       "config": {
-        "nombre": "Doctorado en Planeación y Liderazgo Ejecutivo",
+        "nombre": "Doctorado en Planeación y Liderazgo Educativo",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Monclova", "Piedras negras", "Saltillo"],
@@ -64,7 +64,7 @@
           "alt": "doctorado"
         }
       },
-      "route": "planeacion-liderazgo-ejecutivo"
+      "route": "planeacion-liderazgo-educativo"
     }
   ]
 }

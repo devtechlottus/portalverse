@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Ingenería en Sistemas y Productividad Industrial",
+    "title": "Ingeniería en Sistemas y Productividad Industrial",
     "description": "",
     "keywords": ""
   },
   "config": {
-    "title": "Ingenería en Sistemas y Productividad Industrial",
+    "title": "Ingeniería en Sistemas y Productividad Industrial",
     "config": {
-      "nombre": "Ingenería en Sistemas y Productividad Industrial",
+      "nombre": "Ingeniería en Sistemas y Productividad Industrial",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Exactas"],
       "campus": [ "Saltillo", "Reynosa" ],
@@ -26,7 +26,7 @@
   },
   "sections": {
     "head": {
-      "title": "Ingenería en Sistemas y Productividad Industrial",
+      "title": "Ingeniería en Sistemas y Productividad Industrial",
       "description": "Gestiona estrategias en la producción de manufactura en las organizaciones y aplica métodos para lograr eficiencia y sustentabilidad. Resuelve las necesidades más complejas.",
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1jrSKoxIrrf9MyJZNnwJX8hGVaX7oozfP",
