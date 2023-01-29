@@ -6,8 +6,9 @@ const OpenFormInit = {
   stepone: {
     title: "¿Quieres conocer más de UANE?",
     subtitle: "Elegir una universidad es una gran decisión y queremos orientarte en cada paso, comparte tus datos para que un asesor de admisiones te oriente a resolver todas tus dudas y puedas estar seguro de tu elección.",
-    conditions: "Al llenar tus datos aceptas nuestro Aviso de privacidad",
+    conditions: "Al llenar tus datos aceptas nuestro ",
     modality: "¿Qué modalidad te interesa?",
+    privacyLink: { "link": "/docs/Aviso_Privacidad.pdf", "label": "Aviso de privacidad" },
   },
   steptwo: {
     title: "Cuéntanos ¿Qué programa te interesa?",

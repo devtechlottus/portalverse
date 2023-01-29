@@ -11,6 +11,7 @@ import Breadcrumbs from "@/components/Breadcrumbs/BreadcrumbPortalverse"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Icon from "@/components/Icon"
 import BannerPortalverse from "@/components/BannerPortalverse"
+import ContentLayout from "@/layouts/Content.layout"
 
 const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter();
@@ -59,7 +60,7 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
             </ContentInsideLayout>
           </div>
         </ContentInsideLayout>
-        <ContentFullLayout>
+        <ContentFullLayout classNames="w-d:hidden">
           <BannerPortalverse
             data={sections.banner } 
             onClick={ () =>{
@@ -68,6 +69,16 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
             } />
         </ContentFullLayout>
       </ContentFullLayout>
+      <ContentLayout classNames="w-t:hidden w-p:hidden">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+        <BannerPortalverse
+            data={sections.banner } 
+            onClick={ () =>{
+              router.push(`${sections.banner.redirect}`)
+              } 
+            } />
+        </div>
+      </ContentLayout>
     </HeaderFooterLayout>
   </>;
 }
