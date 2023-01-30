@@ -10,8 +10,8 @@
       { "label": "Educación Continua", "route": "/educacion-continua" }
       ]
     },
-    { "label": "Nosotros", "route": "", "items": [
-      { "label": "Somos UANE", "route": "/nosotros/somos-UANE" },
+    { "label": "Nosotros", "route": "/nosotros", "items": [
+      { "label": "Somos UANE", "route": "/nosotros" },
       { "label": "Campus", "route": "/nosotros/campus" },
       { "label": "Modelo Educativo", "route": "/nosotros/modelo-educativo" },
       { "label": "Internacionalización", "route": "/nosotros/internacionalizacion" }
@@ -59,10 +59,10 @@
       ]
     },
     {
-      "label": "Nosotros", "principal": true, "route": "",
+      "label": "Nosotros", "principal": true, "route": "/nosotros", "external": false,
       "children": [
         { "label": "Internacionalización", "principal": false, "route": "/nosotros/internacionalizacion", "external": false },
-        { "label": "Somos UANE", "principal": false, "route": "/nosotros/somos-UANE", "external": false },
+        { "label": "Somos UANE", "principal": false, "route": "/nosotros", "external": false },
         { "label": "Campus", "principal": false, "route": "/nosotros/campus", "external": false },
         { "label": "Certificaciones", "principal": false, "route": "/nosotros/somos-UANE#certificaciones", "external": false },
         { "label": "Modelo educativo", "principal": false, "route": "/nosotros/modelo-educativo", "external": false },
