@@ -49,12 +49,12 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.slider }} />
+          <Slider data={{ ...sections.head.slider }} mobile = {true}/>
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.slider, height: "600px" }} />
+          <Slider data={{ ...sections.head.slider, height: "600px" }} mobile = {false}/>
         </div>
       </ContentLayout>
       <ContentLayout classNames="w-d:mt-18 w-t:mt-6 w-p:mt-12">

@@ -1,10 +1,11 @@
-import { FC, SyntheticEvent, useEffect, useState } from "react"
+import { createRef, FC, SyntheticEvent, useEffect, useState } from "react"
 import { useRouter } from "next/router";
 import cn from "classnames"
 import Button from "@/components/Button/Button"
 import Image from "@/components/Image"
+import React from "react";
 
-const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
+const SliderPortalverse: FC<any> = ({ data, onBtn, classNames, mobile = false }: any) => {
   const router = useRouter()
 
   const stylesBaseControls = "w-p:hidden select-none absolute top-[45%] p-1 rounded-lg text-[12px]";
@@ -14,15 +15,79 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
   const [ slides, setSlides ] = useState<Array<any>>([]);
   const [ changeDetect, setChangeDetect ] = useState<number>(0);
   const [ wMob, setWMob ] = useState<string>("0px");
+  const [ dir, setDir ] = useState<any>({xDown: null, yDown: null})
+  const [ typeDir, setTypeDir] = useState<any>(null)
+  const [ flag, setFlag ] = useState<any>(false)
 
   const detectResize = () => {
     setChangeDetect((prevState: number) => prevState + 1);
   }
 
+  const getTouches = (evt: any) => {
+    return evt.touches ||             // browser API
+           evt.originalEvent.touches; // jQuery
+  }    
+
+  const handleTouchMove = (evt: any) => {
+    setDir((val: any) => {
+      if ( ! val?.xDown || ! val?.yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = val?.xDown - xUp;
+    var yDiff = val?.yDown - yUp;
+                                                                         
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+          console.log("right")
+          setTypeDir("left")
+            /* right swipe */ 
+        } else {
+          console.log("left")
+          setTypeDir("right")
+            /* left swipe */
+        }                       
+    } else {
+        if ( yDiff > 0 ) {
+            /* down swipe */ 
+        } else { 
+            /* up swipe */
+        }                                                                 
+    }
+    /* reset values */
+    return {xDown: null, yDown: null}
+    })
+                                             
+};     
+
+
+const handleTouchStart = (evt: any) => {
+  const firstTouch = getTouches(evt)[0];   
+   setDir({xDown: firstTouch.clientX, yDown: firstTouch.clientY})                                                                     
+}
+
   useEffect(() => {
+    let ignore = false
+    console.log("data", data)
+    console.log("usseEffectInit", mobile)
+    if(mobile) {
+      ignore = true
+      document.querySelector("#sectionRef")?.addEventListener('touchstart', handleTouchStart, false);
+      document.querySelector("#sectionRef")?.addEventListener('touchmove', handleTouchMove, false)
+    }
+    setFlag(true)
     detectResize();
     window.addEventListener('resize', detectResize);
-    return () => window.removeEventListener('resize', detectResize);
+    return () => {
+      ignore = true
+      window.removeEventListener('resize', detectResize);
+      document.querySelector("#sectionRef")?.removeEventListener("touchstart", handleTouchStart)
+      document.querySelector("#sectionRef")?.removeEventListener("touchmove", handleTouchMove)
+
+    }
   }, []);
 
   useEffect(() => {
@@ -37,16 +102,31 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
     setSlides([ ...data.slides ]);
   }, [data])
 
+  useEffect(() => {
+    if(typeDir !== null ) {
+      handlerClickControl({target: {ariaLabel: null}})
+      setTypeDir(null)
+    }
+  }, [typeDir])
+
+  useEffect(() => {
+    if(slides.length > 0 && !flag){
+      setFlag(true)
+    }
+
+  },[slides, flag])
+
   const onBtnSlider = () => {
     if (!!onBtn) {
       onBtn();
     }
   }
 
-  const handlerClickControl = ({ target }: SyntheticEvent) => {
-    const { ariaLabel } = (target as HTMLElement)
+  const handlerClickControl = ({ target }: any) => {
+    const { ariaLabel } = target 
+    console.log("aL", ariaLabel)
     if ( countItems > 1) {
-      if ( ariaLabel === "next" ) {
+      if ( ariaLabel === "next" || typeDir === "left" ) {
         if ( active === countItems - 1 ) {
           setActive(0);
           return
@@ -57,7 +137,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
         }
       }
   
-      if ( ariaLabel === "prev" ) {
+      if ( ariaLabel === "prev" || typeDir === "right" ) {
         if ( active === 0 ) {
           setActive(countItems - 1);
           return
@@ -109,7 +189,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames }: any) => {
     {/* desktop */}
 
     {/* mobile */}
-    <section className={cn("w-full h-auto flex overflow-hidden w-d:hidden w-t:hidden")}>
+    <section id="sectionRef" className={cn("w-full h-auto flex overflow-hidden w-d:hidden w-t:hidden")}>
       {
         slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-auto relative flex flex-col grow")}>
           <div style={{"width": wMob}} className={cn("aspect-1/1")}>
