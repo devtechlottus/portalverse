@@ -309,8 +309,7 @@ const Routes: any = {
     }
   },
   "faq": [
-    { params: { "section": "general" } },
-    { params: { "section": "modalidad-presencial" } },
+    { params: { "section": "general" } }
   ],
   "blog": [
     { params:
