@@ -56,7 +56,7 @@
       "config": {
         "nombre": "Maestría en Derecho Fiscal",
         "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias de la Salud"],
+        "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
@@ -386,7 +386,7 @@
       "config": {
         "nombre": "Maestría en Gobierno y Estrategia Pública",
         "modalidad": ["Online"],
-        "areaConocimiento": ["Económico - Administrativo"],
+        "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
