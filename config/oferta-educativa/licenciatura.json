@@ -461,7 +461,7 @@
       "config": {
         "nombre": "Ingenieria en Ciencias de Datos",
         "modalidad": ["Online"],
-        "areaConocimiento": ["Económico - Adminstrativo"],
+        "areaConocimiento": ["Económico - Administrativo"],
         "campus": [ "Online" ],
         "nivel": ["Licenciatura"],
         "image": {
