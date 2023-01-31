@@ -56,7 +56,7 @@
       "config": {
         "nombre": "Maestría en Derecho Fiscal",
         "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias de la Salud"],
+        "areaConocimiento": ["Ciencias Sociales"],
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
@@ -311,7 +311,7 @@
       "config": {
         "nombre": "Maestría en Administración",
         "modalidad": ["Online"],
-        "areaConocimiento": ["Económico - Administrativas"],
+        "areaConocimiento": ["Económico - Administrativo"],
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
@@ -371,7 +371,7 @@
       "config": {
         "nombre": "Maestría en Mercadotecnia Digital",
         "modalidad": ["Online", "Flex"],
-        "areaConocimiento": ["Economico - Aministrativas"],
+        "areaConocimiento": ["Económico - Administrativo"],
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
@@ -386,7 +386,7 @@
       "config": {
         "nombre": "Maestría en Gobierno y Estrategia Pública",
         "modalidad": ["Online"],
-        "areaConocimiento": ["Economico - Aministrativas"],
+        "areaConocimiento": ["Ciencias Sociales"],
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
