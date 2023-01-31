@@ -50,7 +50,7 @@ export const action = [
   },
   {
     id: "educacion-continua",
-    name: "Educación Contínua",
+    name: "Educación Continua",
     shortcut: ["e", "Ed", "edu", "Edu"],
     keywords: "educación",
     perform: () => (window.location.pathname = "educacion-continua")

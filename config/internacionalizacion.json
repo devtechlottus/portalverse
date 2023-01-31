@@ -70,7 +70,7 @@
       "rainbow": {}
     },
     "alliances": {
-      "title": "Alianzas al rededor del mundo",
+      "title": "Alianzas alrededor del mundo",
       "alliances": [
         {
           "urlImage": {
@@ -546,8 +546,8 @@
       "sections": [
         {
           "color": "#E84537", "sections": [
-            { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, de temáticas incluidas en los planes de estudio, por carrera, impartidas por profesores de las Universidades con convenio.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fwHcsFIBNdKFZt0Xl5fvIUVg-ObCYsYu", "alt": "imagen-item" } },
-            { "title": "Intercambio de materias (virtual)", "description": "Posibilidad de cursar una materia completa, en formato online, en alguna universidad extranjera con convenio. Créditos revalidados por UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fjPHVnTGD9JYk3G4tHuDDSezns3vK3jE", "alt": "imagen-item" } },
+            { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fwHcsFIBNdKFZt0Xl5fvIUVg-ObCYsYu", "alt": "imagen-item" } },
+            { "title": "Intercambio de Materias (virtual)", "description": "Posibilidad de cursar una materia completa en línea, en alguna universidad extranjera asociada. Créditos revalidados por UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fjPHVnTGD9JYk3G4tHuDDSezns3vK3jE", "alt": "imagen-item" } },
             { "title": "Semestre | Año Study Abroad", "description": "En esta modalidad podrás cursar, de forma presencial, un semestre o año completo en alguna universidad en el extranjero. Deberás revisar los planes de estudios y consultar con Academia para saber cuáles son las materias que se revalidan.", "image": { "src": "https://drive.google.com/uc?export=view&id=1uupVvb87v9z0z64KFmYwJiAav9sHGfRy", "alt": "imagen-item" } }
           ]
         },
@@ -555,19 +555,19 @@
           "color": "#B0003C", "sections": [
             { "title": "Webinar | Profesores internacionales", "description": "Masterclasses impartidas por profesores o especialistas internacionales, de temáticas de interés para cada carrera. Con certificado internacional de participación.", "image": { "src": "https://drive.google.com/uc?export=view&id=1UJRoPYWP8iiQ33IXC74zNJIhTSLZj8If", "alt": "imagen-item" } },
             { "title": "Campus de Verano", "description": "Se trata de una actividad internacional a través de la cual alumnos de UANE podrán tener una experiencia en un campus de verano, con nuestros aliados internacionales, y podrán revalidar algunas de las materias al tiempo que tiene una experiencia internacional inolvidable.", "image": { "src": "https://drive.google.com/uc?export=view&id=1c2l1wYsR1w3uaISM1XGdxCAOdSFNxvIP", "alt": "imagen-item" } },
-            { "title": "Twin Projects", "description": "Sesiones virtuales de 45 a 60 minutos, de temáticas incluidas en los planes de estudio, por carrera, impartidas por profesores de las Universidades con convenio.", "image": { "src": "https://drive.google.com/uc?export=view&id=1kcG8szhq6JYNiNcqkEz0mEf4KMookVIg", "alt": "imagen-item" } }
+            { "title": "Twin Projects", "description": "Sesiones virtuales de 45 a 60 minutos con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://drive.google.com/uc?export=view&id=1kcG8szhq6JYNiNcqkEz0mEf4KMookVIg", "alt": "imagen-item" } }
           ]
         },
         {
           "color": "#00BEB4", "sections": [
             { "title": "Prácticas Internacionales", "description": "A través de diversos programas, los alumnos de UANE podrán tener acceso al desarrollo de prácticas profesionales internacionales en sus áreas de conocimiento.", "image": { "src": "https://drive.google.com/uc?export=view&id=1c3k_sxtmrpHPi-eSSFizMZNwdk1-EKZR", "alt": "imagen-item" } },
-            { "title": "Dobles títulos", "description": "Dentro de los esfuerzos de internacionalización de UANE se encuentra esta modalidad, por la que podrás cursar un semestre de tu carrera en alguna de las universidades internacionales de convenio y obtener, además del título de UANE, el título extranjero de la carrera que estés cursando.", "image": { "src": "https://drive.google.com/uc?export=view&id=1LdRAeeA-iPHT_lbWEWB2nxFM38tQoHbg", "alt": "imagen-item" } },
-            { "title": "Materias de contenidos internacionales", "description": "La UANE cuenta, a través de sus convenios, con materias elaboradas juntamente con las mejores Universidades internacionales. De esta forma podrás tener una experiencia internacional en el marco de su propio itinerario académico y contar con diversos certificados internacionales.", "image": { "src": "https://drive.google.com/uc?export=view&id=1XGXWXBTRCiE0VQ9UUSn_FNEkyMRIDeCC", "alt": "imagen-item" } }
+            { "title": "Dobles Títulos", "description": "Dentro de los esfuerzos de internacionalización de UANE se encuentra esta modalidad, por la que podrás cursar un semestre de tu carrera en alguna de las universidades internacionales de convenio y obtener, además del título de UANE, el título extranjero de la carrera que estés cursando.", "image": { "src": "https://drive.google.com/uc?export=view&id=1LdRAeeA-iPHT_lbWEWB2nxFM38tQoHbg", "alt": "imagen-item" } },
+            { "title": "Materias de Contenidos Internacionales", "description": "La UANE cuenta, a través de sus convenios, con materias elaboradas junto con las mejores universidades internacionales. De esta forma podrás tener una experiencia internacional en el marco de su propio itinerario académico y contar con diversos certificados internacionales.", "image": { "src": "https://drive.google.com/uc?export=view&id=1XGXWXBTRCiE0VQ9UUSn_FNEkyMRIDeCC", "alt": "imagen-item" } }
           ]
         },
         {
           "color": "#8B9BA3", "sections": [
-            { "title": "Seminarios Internacionales de Titulación", "description": "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu Licenciatura en UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=14YULi4_jvgbWZxba1G3vBY5iy4WNDNNc", "alt": "imagen-item" } }
+            { "title": "Seminarios Internacionales de Titulación", "description": "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu licenciatura en UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=14YULi4_jvgbWZxba1G3vBY5iy4WNDNNc", "alt": "imagen-item" } }
           ]
         }
       ]
