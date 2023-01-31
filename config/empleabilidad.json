@@ -16,7 +16,7 @@
         },
         "statics": [
           {"maxNumber": 108, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas en 2022", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 29, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Invitaciones a nuestros alumnado", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 29, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Invitaciones a nuestro alumnado", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
           {"maxNumber": 355, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Convenios con empresas", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
           {"maxNumber": 3291, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
         ]

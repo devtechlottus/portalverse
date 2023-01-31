@@ -39,7 +39,7 @@
               "content": {
                 "title": "Características",
                 "description": "La Beca Servicio se otorga en pesos y el monto autorizado aplica exclusivamente al costo de la colegiatura.\n\n Se concede a estudiantes de escasos recursos económicos con promedio de aprovechamiento académico de 80 y buena conducta. \n\nEs retribuida mediante actividades de servicio, ya sea en beneficio de la universidad o de la comunidad.\n\nAplica para: bachillerato, licenciatura y posgrado",
-                "action": {"title": "Explora los programas", "type": "primary", "icon": "", "isExpand": false, "route": "http://sistema.uane.edu.mx/BecasUANE/"}
+                "action": {"title": "Solicita tu beca servicio", "type": "primary", "icon": "", "isExpand": false, "route": "http://sistema.uane.edu.mx/BecasUANE/"}
               }
             }
           },
