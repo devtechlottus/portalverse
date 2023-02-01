@@ -8,7 +8,7 @@
     "head":{
       "title": "Somos UANE",
       "subtitle": "48 años transformando vidas",
-      "description": "UANE es una universidad con más de 14,500 estudiantes, más de 50,000 egresados en los niveles de bachillerato, licenciatura y posgrado, además de 8 campus en 3 estados de la república mexicana.",
+      "description": "UANE es una Universidad con más de 14,500 estudiantes, más de 50,000 egresados en los niveles de bachillerato, licenciatura y posgrado, además de 8 campus en 3 estados de la República Mexicana.",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -35,8 +35,8 @@
       }
     },
     "missionAndVission": {
-      "title": "Misión y visión",
-      "description": "MISIÓN \n\n Generar oportunidades para desarrollar personas ejemplares, comprometidas con su futuro.\n\n VISIÓN\n\n Estar entre las 10 mejores universidades particulares de México y lograr un crecimiento anual de alumnos de al menos un 30%",
+      "title": "Misión y Visión",
+      "description": "<b>MISIÓN</b>\n\n Generar oportunidades para desarrollar personas ejemplares, comprometidas con su futuro.\n\n<b>VISIÓN</b>\n\n Estar entre las 10 mejores universidades particulares de México y lograr un crecimiento anual de alumnos de al menos un 30%",
       "image": {
         "desk": {
           "alt": "imagen",
@@ -182,7 +182,7 @@
         }
       ],
       "numbers":[
-        {"maxNumber": 14000, "icon": "groups", "prefix": "", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": true},
+        {"maxNumber": 14500, "icon": "groups", "prefix": "", "suffix": "", "title": "ESTUDIANTES", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": true},
         {"maxNumber": 70, "icon": "groups", "prefix": "", "suffix": "", "title": "PROGRAMAS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "red-pastel-right", "boxShadow": true},
         {"maxNumber": 8, "icon": "groups", "prefix": "", "suffix": "", "title": "CAMPUS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "gray-pastel-right", "boxShadow": true},
         {"maxNumber": 760, "icon": "groups", "prefix": "", "suffix": "", "title": "CONVENIOS", "body": "", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "yellow-pastel-right", "boxShadow": true}
@@ -239,7 +239,7 @@
       "images": {"images": [{"id": "1", "image": "https://drive.google.com/uc?export=view&id=12v7l9rn64PETJYeeTMhYg7JoGFREX7-p", "icon": "zoom_out_map" }, {"id": "2", "image": "https://drive.google.com/uc?export=view&id=1C1Xiqumw-kRaSbbNiCGk1ZWnyHJ6uXgN", "icon": "zoom_out_map" }, {"id": "3", "image": "https://drive.google.com/uc?export=view&id=16KtXgv4zuJ4423dSrBmO3I5cD1qXg3mi", "icon": "zoom_out_map"}, {"id": "4", "image": "https://drive.google.com/uc?export=view&id=1rRSzBHWT2PwvFMqggNpTJjmLz04HUnit", "icon": "zoom_out_map"},{"id": "5", "image": "https://drive.google.com/uc?export=view&id=10TOGohJ27oqsXsNy2rzDJzzNvlKOC3IM", "icon": "zoom_out_map"}, {"id": "6", "image": "https://drive.google.com/uc?export=view&id=13S2GtDhvgNd4tt7o6wV7e9dlGwGXjDyn", "icon": "zoom_out_map" }, {"id": "7", "image": "https://drive.google.com/uc?export=view&id=1Oq5BTSdHGuw9U2P4Yxi1CZ_zeEZGoeFr", "icon": "zoom_out_map"}, {"id": "8", "image": "https://drive.google.com/uc?export=view&id=1X4ej9Fm8gVQHVZXOFNPEptGAFkjhdVTs", "icon": "zoom_out_map"},{"id": "9", "image": "https://drive.google.com/uc?export=view&id=13KdROPNSn_ActM4uz1cDXXAHmQwrGxRn", "icon": "zoom_out_map"}, {"id": "10", "image": "https://drive.google.com/uc?export=view&id=1Eg1G56AZCzE_ewKQ-zGrY2HCO2ziFeKT", "icon": "zoom_out_map"},{"id": "11", "image": "https://drive.google.com/uc?export=view&id=1xN4Tuo5Yl5QZmcTdiayRZYeeqLjAcrf6", "icon": "zoom_out_map"}, {"id": "12", "image": "https://drive.google.com/uc?export=view&id=1-Fskro3alFbg5A2hZOFipGG7nZ9qZxgU", "icon": "zoom_out_map"}]}
     },
     "ourScholarships": {
-      "title": "El 90% de nuestros alumnos están becados",
+      "title": "Contamos con becas para apoyar a nuestros estudiantes",
       "scholarships": [
         {
           "urlImage": {
