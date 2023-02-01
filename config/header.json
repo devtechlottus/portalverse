@@ -79,7 +79,7 @@
       ]
     },
     {
-      "label": "Voz UANE", "principal": true, "route": "", "external": false,
+      "label": "Voz UANE", "principal": true, "route": "/voz-uane/", "external": false,
       "children":[
         { "label": "Blog", "principal": false, "route": "/voz-uane/blog", "external": false },
         { "label": "Podcast", "principal": false, "route": "/voz-uane/podcast", "external": false }
