@@ -44,7 +44,7 @@
                 "src": "https://drive.google.com/uc?export=view&id=1yWwscqHR-_XtxVu6tB87BXwojRnl9jho"
               },
               "content": {
-                "title": "¿Porque hacer el servicio social?",
+                "title": "¿Porqué hacer servicio social?",
                 "description": "El servicio social es un requisito indispensable que <b> ayuda a formar en los estudiantes habilidades nuevas </b> y es un espacio ideal para que puedan poner en práctica los conocimientos adquiridos a lo largo de la licenciatura."
               },
               "process": {
@@ -58,15 +58,15 @@
             }
           },
           {
-            "label": "Practicas profesionales", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "practicas-profesionales",
+            "label": "Prácticas profesionales", "icons": { "primary": "", "duplicate": true }, "disabled": false, "id": "practicas-profesionales",
             "content": {
               "image": {
                 "alt": "imagen",
                 "src": "https://drive.google.com/uc?export=view&id=1M0m_XSG1KGSJLEZlgzKS-VwerD5uy5He"
               },
               "content": {
-                "title": "¿Porque hacer practicas profesionales?",
-                "description": "Contamos con más de 790 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las practicas profesionales, bolsa de empleo y seminarios y conferencias con grandes ponencias de negocios e industria."
+                "title": "¿Porqué hacer prácticas profesionales?",
+                "description": "Contamos con más de 790 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las prácticas profesionales, bolsa de empleo, seminarios y conferencias con grandes ponencias de industria y negocios."
               },
               "process": {
                 "title": "Proceso practicas profesionales",
