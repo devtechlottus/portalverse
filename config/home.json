@@ -37,12 +37,12 @@
               "isExpand": false,
               "tagOnClick": "",
               "test": "",
-              "redirect":"nosotros/somos-UANE"
+              "redirect":"/nosotros"
             }
           },
           {
-            "title": "¡Aprende en UANE, aprende en todo el mundo!", 
-            "text": "Generamos alianzas con las mejores universidades del mundo para tu beneficio.",
+            "title": "¡Internacionalízate!", 
+            "text": "Tenemos alianzas con las mejores universidades del mundo.",
             "urlImage": {
               "mobile": "https://drive.google.com/uc?export=view&id=1ebzGfUX6NE01erMkexlqWXEmbxX_x-Ts",
               "tablet": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16",
@@ -52,7 +52,7 @@
             "left": false,
             "middle": true,
             "bottom": false,
-            "overlayWhite": true,
+            "overlayWhite": false,
             "overlayDak": false,
             "action":{
               "id": "",
@@ -93,7 +93,7 @@
               "isExpand": false,
               "tagOnClick": "",
               "test": "",
-              "redirect":"/nosotros/podcast"
+              "redirect":"/voz-uane/podcast"
             }
           }
         ]
