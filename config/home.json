@@ -41,12 +41,12 @@
             }
           },
           {
-            "title": "Estudia una carrera a tu ritmo ¡y aprovecha tu fin de semana!", 
-            "text": "Carreras sabatinas con sesiones de 4 horas.",
+            "title": "¡Aprende en UANE, aprende en todo el mundo!", 
+            "text": "Generamos alianzas con las mejores universidades del mundo para tu beneficio.",
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1sbsXvmOyKDNpFoVq4MpLUbMdq8dHmRzk",
-              "tablet": "https://drive.google.com/uc?export=view&id=1wsAv6xU6W7XmtPohh7W43XMClSns-Ui0",
-              "desktop": "https://drive.google.com/uc?export=view&id=1DJEJ4lIYY8HJg_mvIWPtUpNz0YLmITIT"
+              "mobile": "https://drive.google.com/uc?export=view&id=1ebzGfUX6NE01erMkexlqWXEmbxX_x-Ts",
+              "tablet": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16",
+              "desktop": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16"
             },
             "center": true,
             "left": false,
@@ -54,10 +54,10 @@
             "bottom": false,
             "overlayWhite": true,
             "overlayDak": false,
-            "action": {
+            "action":{
               "id": "",
               "type": "primary",
-              "title": "Conocer más",
+              "title": "¡Conoce más!",
               "size": "small",
               "icon": "",
               "lyIcon": false,
@@ -66,6 +66,34 @@
               "tagOnClick": "",
               "test": "",
               "redirect":"/nosotros/internacionalizacion"
+            }
+          },
+          {
+            "title": "Tu voz hace comunidad", 
+            "text": "Escúchanos cada jueves a las 4:00 pm",
+            "urlImage": {
+              "mobile": "https://drive.google.com/uc?export=view&id=1dLdDc3jhHthAm3AmfSppaSCZYhRUOf5h",
+              "tablet": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx",
+              "desktop": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx"
+            },
+            "center": true,
+            "left": false,
+            "middle": true,
+            "bottom": false,
+            "overlayWhite": false,
+            "overlayDak": false,
+            "action":{
+              "id": "",
+              "type": "primary",
+              "title": "¡Acompáñanos!",
+              "size": "small",
+              "icon": "",
+              "lyIcon": false,
+              "disabled": false,
+              "isExpand": false,
+              "tagOnClick": "",
+              "test": "",
+              "redirect":"/nosotros/podcast"
             }
           }
         ]
