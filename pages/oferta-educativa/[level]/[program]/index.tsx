@@ -191,11 +191,11 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
             : null
         }
         <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
-          {
+          {/* {
             level === 'bachillerato'
               ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
               : <OpenFormSuperior levelDefault={config.config.nivel[0]} programDefault={config.config.nombre} copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
-          }
+          } */}
           
         </div>
       </ContentLayout>
