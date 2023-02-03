@@ -11,7 +11,7 @@ import Button from "@/components/Button/Button"
 import Spotify from "@/components/Spotify"
 import BannerWrapper from "@/components/BannerWrapper"
 import BannerPortalverse from "@/components/BannerPortalverse"
-import { fetchStrapi } from "@/utils/getStrapi"
+import { fetchStrapi, replaceURL } from "@/utils/getStrapi"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
   const router = useRouter()
@@ -93,9 +93,8 @@ export async function getStaticProps(context: any) {
   const fullblogposts = await rawblogpost.json()
   let blog_posts = fullblogposts.data.map((post: any) => {
     const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
-    const strapiUrl = env.NEXT_PUBLIC_STRAPI_URL
-
-    const urlImage = strapiUrl + featured_image.data.attributes.formats.thumbnail.url || strapiUrl + featured_image.data.attributes.url;
+    let urlImage = replaceURL(featured_image, "small")
+    
     return {
       abstract,
       title,
