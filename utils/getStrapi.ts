@@ -11,4 +11,10 @@ export const fetchStrapi = async (model: string, params: string[] ) => {
     })
   }
 
-
+export const replaceURL = (image: any, format?: string) => {
+  let urlImage = format 
+    ? image.data.attributes.formats[format].url
+    : image.data.attributes.url
+  urlImage.replace(env.NEXT_PUBLIC_IMAGE_URL, env.NEXT_PUBLIC_ASSETS_URL)
+  return urlImage
+}

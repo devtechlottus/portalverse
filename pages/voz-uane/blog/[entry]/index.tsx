@@ -4,7 +4,7 @@ import { env } from "process"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import  { fetchStrapi }  from "@/utils/getStrapi"
+import  { fetchStrapi, replaceURL }  from "@/utils/getStrapi"
 import ContentLayout from "@/layouts/Content.layout"
 import Image from "@/components/Image"
 import CardWebsite from "@/components/CardWebsite"
@@ -112,7 +112,7 @@ export async function getStaticProps(context: any) {
     })
     const featured_image = {
       alt: pre_blog_post.featured_image.data.attributes.alternativeText || pre_blog_post.featured_image.data.attributes.url ,
-      src: `${env.NEXT_PUBLIC_STRAPI_URL}${pre_blog_post.featured_image.data.attributes.url}` 
+      src: replaceURL(pre_blog_post.featured_image)
     }
     const blog_post = { ...pre_blog_post, featured_image, related_posts}
 
