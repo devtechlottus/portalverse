@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Comercio Internacional",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": [ "Sabinas", "Saltillo", "Monterrey",  "Matamoros", "Torreon", "Piedras Negras", "Reynosa", "Monclova" ],
+      "campus": [ "Saltillo", "Monterrey",  "Matamoros", "Torreon", "Piedras Negras", "Reynosa", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1xUP530czgRK1R7uJwtNHmdwUjvUs2eIg",
@@ -18,7 +18,6 @@
       },
       "curriculum": {
         "Presencial": {
-          "Sabinas": "",
           "Saltillo": "1kPFv9mPIWJ6qnD1URFcsiMPVsazCpMBT",
           "Monterrey": "1RBc1RgqPUn8BZiPrrIYXAMfsBKlrCfFB",
           "Matamoros": "1RwLQyNclxjjADOhT_yusZMymLbdatb1L",

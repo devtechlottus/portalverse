@@ -16,7 +16,7 @@
         "coords": ["25.4551028", "-100.9690094"],
         "description": {
           "state": "Coahuila",
-          "name": "Campus Campus Saltillo",
+          "name": "Campus Saltillo",
           "address": "Blvd. José Musa de León #944, Col. Los Pinos, Saltillo, Coahuila, C.P. 25204",
           "phone": "",
           "email": ""
@@ -143,7 +143,7 @@
           "tablet": "https://drive.google.com/uc?export=view&id=1aIRuW4hEKrgtfPwM01N2PJQRP2sn5KhE"
         },
         "title": "Nuestros Campus",
-        "subtitle": "Agrega experiencias internacionales a tus estudiosn",
+        "subtitle": "Agrega experiencias internacionales a tus estudios",
         "position": "middle-center",
         "height": "350px",
         "overlayWhite":true,
