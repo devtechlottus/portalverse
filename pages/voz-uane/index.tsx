@@ -89,7 +89,7 @@ export async function getStaticProps(context: any) {
     }
   }
 
-  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','sort[0]=publication_date:asc','pagination[pageSize]=10'])
+  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc','pagination[pageSize]=10'])
   const fullblogposts = await rawblogpost.json()
   let blog_posts = fullblogposts.data.map((post: any) => {
     const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
