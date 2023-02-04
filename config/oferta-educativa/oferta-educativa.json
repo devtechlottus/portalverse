@@ -240,6 +240,33 @@
       {
         "title": "Ciencias de la Salud"
       }
-    ]
+    ],
+    "bannerParche": {
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1lmzq0OxTZmK_Ukzq0s0dDsyvUGKwrvFX",
+        "mobile": "https://drive.google.com/uc?export=view&id=1lmzq0OxTZmK_Ukzq0s0dDsyvUGKwrvFX",
+        "tablet": "https://drive.google.com/uc?export=view&id=1lmzq0OxTZmK_Ukzq0s0dDsyvUGKwrvFX"
+      },
+      "title": " ¡La experiencia educativa que transforma!",
+      "subtitle": "",
+      "position": "middle",
+      "height": "350px",
+      "overlayWhite":false,
+      "overlayDak": false,
+      "button":{
+        "id": "",
+        "type": "outlined",
+        "title": "Contacta a un asesor",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": ""
+      },
+      "wrapper": true,
+      "redirect": "admisiones/pedir-informacion"
+    }
   }
 }
