@@ -53,7 +53,7 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {	
   const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
-  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','sort[0]=publication_date'])
+  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc'])
   const fullblogposts = await rawblogpost.json()
   let blog_posts = fullblogposts.data.map((post: any) => {
     const { attributes: { abstract, title, slug, featured_image, publication_date } } = post

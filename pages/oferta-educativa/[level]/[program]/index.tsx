@@ -19,8 +19,9 @@ import OutstandingContainer from "@/components/OutstandingContainerPortalverse"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Video from "@/components/Video"
+import BannerPortalverse from "@/components/BannerPortalverse"
 
-const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form }: any) => {
+const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, config, sections, form, bannerParche }: any) => {
 
   const [ tabActive, setTabActive ] = useState<number>(0);
   const [ contentTabs, setContentTabs ] = useState<any>([]);
@@ -190,13 +191,17 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
               </>
             : null
         }
-        <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
-          {/* {
+        {/* <div className="order-last col-span-12 col-start-3 col-end-11 w-t:col-span-8 w-p:col-span-4">
+          {
             level === 'bachillerato'
               ? <OpenFormBachillerato copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
               : <OpenFormSuperior levelDefault={config.config.nivel[0]} programDefault={config.config.nombre} copies={{ ...form.copies }} image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThankyou={`/thank-you`} controls={{ ...form.config }} />
-          } */}
-          
+          }
+        </div> */}
+        <div className="order-last col-span-12 w-t:col-span-8 w-p:col-span-4">
+          <BannerPortalverse data={bannerParche.sections.bannerParche } onClick={() => {
+            window.location.pathname = bannerParche.sections.bannerParche.redirect
+          }}/>
         </div>
       </ContentLayout>
     </HeaderFooterLayout>
@@ -221,10 +226,10 @@ export async function getStaticPaths(props: any) {
 export async function getStaticProps(context: any) {
   const { params: { level, program } } = context;
   const { meta, config, sections, form } = await getDataPageFromJSON(`/oferta-educativa/${level}/${program}.json`);
-
+  const bannerParche  = await getDataPageFromJSON("oferta-educativa/oferta-educativa.json")
   return {
     props: {
-      level, program, meta, config, sections, form
+      level, program, meta, config, sections, form, bannerParche
     },
   }
 }
