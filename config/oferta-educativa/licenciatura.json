@@ -235,7 +235,7 @@
       "title": "Licenciatura en Administración de Recursos Humanos",
       "config": {
         "nombre": "Licenciatura en Administración de Recursos Humanos",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
@@ -340,7 +340,7 @@
       "title": "Ingeniería en Desarrollo de Software",
       "config": {
         "nombre": "Ingeniería en Desarrollo de Software",
-        "modalidad": ["Online"],
+        "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [],
         "nivel": ["Licenciatura"],
@@ -430,7 +430,7 @@
       "title": "Ingeniería Mecánica en Procesos de Inyección",
       "config": {
         "nombre": "Ingeniería Mecánica en Procesos de Inyección",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [ "Saltillo", "Monterrey" ],
         "nivel": ["Licenciatura"],
