@@ -145,7 +145,7 @@
       "title": "Licenciatura en Psicología",
       "config": {
         "nombre": "Licenciatura en Psicología",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
@@ -455,6 +455,21 @@
         }
       },
       "route": "negocios-digitales"
+    },
+    {
+      "title": "Licenciatura en Negocios Internacionales",
+      "config": {
+        "nombre": "Licenciatura en negocios internacionales",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Online", "Flex" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=1bY5_8INHrJMAVRNWVxO7jr9kXlO23Fz-",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "negocios-internacionales"
     },
     {
       "title": "Ingeniería en Ciencias de Datos",
