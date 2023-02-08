@@ -17,13 +17,7 @@
         "alt": "licenciatura"
       },
       "curriculum": {
-        "Flex": {
-          "Saltillo": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh",
-          "Monterrey": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh",
-          "Piedras Negras": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh",
-          "Torreon": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh",
-          "Matamoros": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh"
-        },
+        "Flex": "1mI_m4IFk0ZoQODu-mrqeDymHvhyhKXNh",
         "Online": "1PZxlQJGsCJmUrixQIOKXLsuAcXFNM82q"
       }
     }

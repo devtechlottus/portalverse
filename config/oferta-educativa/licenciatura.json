@@ -85,8 +85,8 @@
       "title": "Licenciatura en Diseño Gráfico",
       "config": {
         "nombre": "Diseño Gráfico",
-        "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias Sociales"],
+        "modalidad": ["Presencial", "Flex"],
+        "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
         "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
@@ -265,7 +265,7 @@
       "title": "Licenciatura en Contador Público",
       "config": {
         "nombre": "Licenciatura en Contador Público",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
         "nivel": ["Licenciatura"],

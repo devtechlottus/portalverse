@@ -10,7 +10,7 @@
       "nombre": "Maestría en Docencia",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": ["Saltillo", "Piedras Negras"],
+      "campus": ["Saltillo", "Piedras Negras", "Torreon"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1qd2xPLTXKkhCPofxw3o1h1Fg1pCVViuq",
@@ -19,7 +19,8 @@
       "curriculum": {
         "Presencial": {
           "Piedras Negras": "1Z5Q__hqpeHGsBI4ZcbMnGH1FDEClKjIO",
-          "Saltillo": "1OfYnyuM_Ikpa0HolEEpm0LPll4zl47p1"
+          "Saltillo": "1OfYnyuM_Ikpa0HolEEpm0LPll4zl47p1",
+          "Torreon": "1pHEKkZWB1vfLIxUmbA94u3TO1cG90ETv"
         }
       }
     }
@@ -47,7 +48,7 @@
                     "mobile": "https://drive.google.com/uc?export=view&id=171bigOFmz4UxGVCQwYvz8El9znvXaQs5"
                   },
                   "title": "Perfil de ingreso",
-                  "text": "Este programa está dirigido a cualquier profesional que se dedique a la Docencia. Requisitos de ingreso: \n\n• Los aspirantes a cursar la Maestría deberán cubrir los siguientes requisitos:\n\n• Tener experiencia mínima de dos años en Docencia.\n\n• Título profesional, carta de pasante o documento afín.\n\n• Aprobar la entrevista en el departamento de postgrado.\n\n• Acreditar la documentación y pagos correspondientes.",
+                  "text": "Este programa está dirigido a cualquier profesional que se dedique a la Docencia.\n\nRequisitos de ingreso: \n\n• Los aspirantes a cursar la Maestría deberán cubrir los siguientes requisitos:\n\n• Tener experiencia mínima de dos años en Docencia.\n\n• Título profesional, carta de pasante o documento afín.\n\n• Aprobar la entrevista en el departamento de postgrado.\n\n• Acreditar la documentación y pagos correspondientes.",
                   "backgroundColor": "#8B9BA3"
                 },
                 {
