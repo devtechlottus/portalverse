@@ -35,6 +35,9 @@ module.exports = {
         "683": "170.75rem",
         "grid-gap": "1.5rem"
       },
+      width: {
+        "85" : "21.25rem"
+      },
       fontSize: {
         "3.5": "0.875rem",
         "4.5": "1.125rem",
@@ -108,6 +111,10 @@ module.exports = {
         "pastelRedShadowRight": '5px 5px 0px 0px #ED6A5F',
         "pastelGrayShadowRight": '5px 5px 0px 0px #A2AFB5',
         "blueShadowRight": "5px 5px 0px 0px #00BEB4"
+      },
+      height: {
+        "42" : "10.5rem",
+        "43" : "10.75rem",
       }
     },
   },
