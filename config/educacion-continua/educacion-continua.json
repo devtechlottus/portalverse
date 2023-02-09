@@ -24,6 +24,7 @@
       "title": "Cursos",
       "courses": [
         {
+          "hidden": true,
           "id": "123",
           "title": "Certificación Oficial Adobe After Effects",
           "link":{
