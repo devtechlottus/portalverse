@@ -10,6 +10,9 @@ import RichtText from "@/components/Richtext/Richtext"
 import Ofertas from "@/components/OfertaEducativa"
 import CardProgram from "@/components/CardProgram/CardProgram"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
+import cn from "classnames"
+import classNames from "classnames"
+
 
 
 const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sections, meta }: any) => {
@@ -40,7 +43,7 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
         </div>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
           {
-           sections.courses.courses.map((item:any, i:number) => <section className="w-p:col-span-2" key={`section-courses-${i}`}>
+           sections.courses.courses.map((item:any, i:number) => <section className={cn("w-p:col-span-2", {"hidden": item.hidden})} key={`section-courses-${i}`}>
             <CardProgram classNames="hover:shadow-15 h-full" image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
            </section>)
           }
