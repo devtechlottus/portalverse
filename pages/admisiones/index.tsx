@@ -48,9 +48,9 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
               </div>
             )
           }
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
+          {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
             <Button dark data={ sections.head.button }/>
-          </div>
+          </div> */}
         </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
         <Image
