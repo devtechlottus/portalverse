@@ -288,6 +288,13 @@ const Routes: any = {
         },
       },
       "programs": [
+        { params: { "program": "ingles-pearson-a1", "nameProgram": "Cursos Inglés Pearson Nivel A1"} },
+        { params: { "program": "ingles-pearson-a2", "nameProgram": "Cursos Inglés Pearson Nivel A2"} },
+        { params: { "program": "ingles-pearson-b1", "nameProgram": "Cursos Inglés Pearson Nivel B1"} },
+        { params: { "program": "ingles-pearson-b2", "nameProgram": "Cursos Inglés Pearson Nivel B2"} },
+        { params: { "program": "ingles-pearson-c1", "nameProgram": "Cursos Inglés Pearson Nivel C1"} },
+        { params: { "program": "ingles-pearson-c1+", "nameProgram": "Cursos Inglés Pearson Nivel C1+"} },
+        { params: { "program": "examen-diagnostico-ingles", "nameProgram": "Examenes diagnóstico Inglés"} },
         { params: { "program": "adobe-after-effects", "nameProgram": "Certificación Oficial Adobe After Effects" } },
         { params: { "program": "adobe-photoshop", "nameProgram": "Certificación Oficial Adobe Photoshop" } },
         { params: { "program": "analisis-de-datos", "nameProgram": "Análisis de datos" } },
