@@ -10,7 +10,7 @@
       "nombre": "Maestría en Efectividad Organizacional",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Saltillo", "Torreon", "Piedras Negras"],
+      "campus": ["Saltillo", "Torreon", "Piedras Negras", "Monclova"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1G3XHRKVQaH1Xzep9vdwFgpLbXAKedh3k",
@@ -20,7 +20,8 @@
         "Presencial": {
           "Saltillo": "1EoTCw-7Wt0_wBygRRDbg4RxXZ8uL-NN7",
           "Torreon": "1PbbV8iNAGgF_rU55oP9VJv6IIclL28ZM",
-          "Piedras Negras": "1UemJlQoNeBJJiHxw38CfudcULcPDIbz2"
+          "Piedras Negras": "1UemJlQoNeBJJiHxw38CfudcULcPDIbz2",
+          "Monclova": "1A-7twoxHce2jaKs12lWq2NOhpQ1PZThY"
         }
       }
     }

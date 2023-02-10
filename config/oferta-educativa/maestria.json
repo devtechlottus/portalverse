@@ -385,8 +385,8 @@
       "title": "Maestría en Gobierno y Estrategia Pública",
       "config": {
         "nombre": "Maestría en Gobierno y Estrategia Pública",
-        "modalidad": ["Online"],
-        "areaConocimiento": ["Ciencias Sociales"],
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Ciencias Sociales", "Económico - Administrativo"],
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {

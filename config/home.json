@@ -189,14 +189,14 @@
           }
         },
         {
-          "level": "/educacion-continua",
-          "title": "Educación Continua",
+          "level": "/extension-universitaria",
+          "title": "Extensión Universitaria",
           "promo": {
             "urlImage": {
               "mobile": "https://drive.google.com/uc?export=view&id=1dAQU2RUTKLrYXFmQ7jfmMC56bj6FCbF3",
               "desktop": "https://drive.google.com/uc?export=view&id=1Ffy99QaEA-GzOD8plfJgTyZ1QyPKii9U"
             },
-            "text": "Educación Continua",
+            "text": "Extensión Universitaria",
             "icon": "arrow_forward",
             "color": "#6F7C83",
             "opacity": "multiply",

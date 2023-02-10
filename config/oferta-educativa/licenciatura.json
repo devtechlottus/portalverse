@@ -85,8 +85,8 @@
       "title": "Licenciatura en Diseño Gráfico",
       "config": {
         "nombre": "Diseño Gráfico",
-        "modalidad": ["Presencial"],
-        "areaConocimiento": ["Ciencias Sociales"],
+        "modalidad": ["Presencial", "Flex"],
+        "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
         "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
@@ -145,7 +145,7 @@
       "title": "Licenciatura en Psicología",
       "config": {
         "nombre": "Licenciatura en Psicología",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias de la Salud"],
         "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
@@ -235,7 +235,7 @@
       "title": "Licenciatura en Administración de Recursos Humanos",
       "config": {
         "nombre": "Licenciatura en Administración de Recursos Humanos",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales"],
         "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
@@ -265,7 +265,7 @@
       "title": "Licenciatura en Contador Público",
       "config": {
         "nombre": "Licenciatura en Contador Público",
-        "modalidad": ["Presencial", "Online"],
+        "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
         "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
         "nivel": ["Licenciatura"],
@@ -340,7 +340,7 @@
       "title": "Ingeniería en Desarrollo de Software",
       "config": {
         "nombre": "Ingeniería en Desarrollo de Software",
-        "modalidad": ["Online"],
+        "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [],
         "nivel": ["Licenciatura"],
@@ -354,6 +354,7 @@
     {
       "title": "Ingeniería en Sistemas",
       "config": {
+        "hidden": true,
         "nombre": "Ingeniería en Sistemas",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
@@ -399,6 +400,7 @@
     {
       "title": "Licenciatura en Contaduría",
       "config": {
+        "hidden": true,
         "nombre": "Licenciatura en Contaduría",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
@@ -430,7 +432,7 @@
       "title": "Ingeniería Mecánica en Procesos de Inyección",
       "config": {
         "nombre": "Ingeniería Mecánica en Procesos de Inyección",
-        "modalidad": ["Presencial"],
+        "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
         "campus": [ "Saltillo", "Monterrey" ],
         "nivel": ["Licenciatura"],
@@ -455,6 +457,21 @@
         }
       },
       "route": "negocios-digitales"
+    },
+    {
+      "title": "Licenciatura en Negocios Internacionales",
+      "config": {
+        "nombre": "Licenciatura en negocios internacionales",
+        "modalidad": ["Online", "Flex"],
+        "areaConocimiento": ["Económico - Administrativo"],
+        "campus": [ "Online", "Flex" ],
+        "nivel": ["Licenciatura"],
+        "image": {
+          "src": "https://drive.google.com/uc?export=view&id=1bY5_8INHrJMAVRNWVxO7jr9kXlO23Fz-",
+          "alt": "licenciatura"
+        }
+      },
+      "route": "negocios-internacionales"
     },
     {
       "title": "Ingeniería en Ciencias de Datos",
