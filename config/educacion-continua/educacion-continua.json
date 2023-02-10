@@ -456,6 +456,78 @@
           "redirect": "certificacion-internacional-c2"
         },
         {
+          "hidden": false,
+          "id": "123",
+          "title": "BEDU Curso en emprendimiento",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "bedu-emprendimiento"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "BEDU Curso en diseño de productos digitales",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "bedu-productos-digitales"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "BEDU Diplomado en Ciencia de Datos",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "bedu-ciencia-de-datos"
+        },
+        {
           "hidden": true,
           "id": "123",
           "title": "Certificación Oficial Adobe After Effects",
