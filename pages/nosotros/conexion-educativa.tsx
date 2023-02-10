@@ -49,7 +49,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
       const {type} = router.query
       setTabByQueryParam(type, allTabsId)
     }
-  }, [router.query, allTabsId])
+  }, [])
 
   return <>
     <Head>
