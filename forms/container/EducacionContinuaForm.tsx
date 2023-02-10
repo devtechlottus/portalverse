@@ -14,7 +14,7 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
   const router = useRouter();
 
   const [ tokenActive, setTokenActive ] = useState<string>("");
-  const [ levelDefault ] = useState<string>("Educación Continua");
+  const [ levelDefault ] = useState<string>("Extensión Universitaria");
   const [ lineaNegocio ] = useState<string>("UANE");
   const [ activeLoader, setActiveLoader ] = useState<boolean>(false);
   const [ errorLoader, setErrorLoader ] = useState<boolean>(false);

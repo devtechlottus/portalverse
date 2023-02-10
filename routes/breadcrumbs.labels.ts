@@ -7,7 +7,7 @@ const BreadcrumbsLabels: any = {
   "maestria": "Maestrías",
   "especialidad": "Especialidades",
   "doctorado": "Doctorados",
-  "educacion-continua": "Educación Continua",
+  "extension-universitaria": "Extensión Universitaria",
   "contactanos": "Contactanos",
   "admisiones": "Admisiones",
   "becas": "Becas",
@@ -35,7 +35,7 @@ const BreadcrumbsLabels: any = {
     return {...prev, ...programList}
   }, {}),
 
-  ...Routes["educacion-continua"]["params"]["programs"].reduce((prev:any, curr: any) => {
+  ...Routes["extension-universitaria"]["params"]["programs"].reduce((prev:any, curr: any) => {
     const {params: {program, nameProgram}} = curr
     return {...prev, [program]: nameProgram}
   }, {})

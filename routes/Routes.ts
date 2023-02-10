@@ -254,11 +254,11 @@ const Routes: any = {
       }
     }
   ],
-  "educacion-continua": { 
+  "extension-universitaria": { 
     params: {
-      "level": "educacion-continua",
+      "level": "extension-universitaria",
       "config": {
-        title: "Educación continua",
+        title: "Extensión Universitaria",
         promo: {
           urlImage: {
             mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",
@@ -278,7 +278,7 @@ const Routes: any = {
             alt: "alumnos"
           },
           description: {
-            title: "Educación Continua",
+            title: "Extensión Universitaria",
             subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
         },
@@ -288,6 +288,31 @@ const Routes: any = {
         },
       },
       "programs": [
+        { params: { "program": "ingles-pearson-a1", "nameProgram": "Cursos Inglés Pearson Nivel A1"} },
+        { params: { "program": "ingles-pearson-a2", "nameProgram": "Cursos Inglés Pearson Nivel A2"} },
+        { params: { "program": "ingles-pearson-b1", "nameProgram": "Cursos Inglés Pearson Nivel B1"} },
+        { params: { "program": "ingles-pearson-b2", "nameProgram": "Cursos Inglés Pearson Nivel B2"} },
+        { params: { "program": "ingles-pearson-c1", "nameProgram": "Cursos Inglés Pearson Nivel C1"} },
+        { params: { "program": "ingles-pearson-c1+", "nameProgram": "Cursos Inglés Pearson Nivel C1+"} },
+        { params: { "program": "certificacion-internacional-1", "nameProgram": "Certificacion Internacional (Nivel 1) Papel"} },
+        { params: { "program": "certificacion-internacional-2", "nameProgram": "Certificacion Internacional (Nivel 2) Papel"} },
+        { params: { "program": "certificacion-internacional-3", "nameProgram": "Certificacion Internacional (Nivel 3) Papel"} },
+        { params: { "program": "certificacion-internacional-4", "nameProgram": "Certificacion Internacional (Nivel 4) Papel"} },
+        { params: { "program": "certificacion-internacional-5", "nameProgram": "Certificacion Internacional (Nivel 5) Papel"} },
+        { params: { "program": "certificacion-internacional-a1", "nameProgram": "Certificacion Internacional (Nivel A1) Online"} },
+        { params: { "program": "certificacion-internacional-a2", "nameProgram": "Certificacion Internacional (Nivel A2) Online"} },
+        { params: { "program": "certificacion-internacional-b1", "nameProgram": "Certificacion Internacional (Nivel B1) Online"} },
+        { params: { "program": "certificacion-internacional-b2", "nameProgram": "Certificacion Internacional (Nivel B2) Online"} },
+        { params: { "program": "certificacion-internacional-c1", "nameProgram": "Certificacion Internacional (Nivel C1) Online"} },
+        { params: { "program": "certificacion-internacional-c2", "nameProgram": "Certificacion Internacional (Nivel C2) Online"} },
+        { params: { "program": "bedu-emprendimiento", "nameProgram": "BEDU Curso en emprendimiento"} },
+        { params: { "program": "bedu-productos-digitales", "nameProgram": "BEDU Curso en diseño de productos digitales"} },
+        { params: { "program": "bedu-ciencia-de-datos", "nameProgram": "BEDU Diplomado en Ciencia de Datos"} },
+        { params: { "program": "diplomado-innovacion-y-control", "nameProgram": "Diplomado en Innovación y control de calidad"} },
+        { params: { "program": "examen-diagnostico-ingles", "nameProgram": "Examenes diagnóstico Inglés"} },
+        { params: { "program": "diplomado-docencia-online", "nameProgram": "Diplomado en docencia en linea"} },
+        { params: { "program": "diplomado-globalizacion", "nameProgram": "Diplomado en globalización"} },
+        { params: { "program": "diplomado-desarrollo-talento", "nameProgram": "Diplomado en desarrollo del talento humano"} },
         { params: { "program": "adobe-after-effects", "nameProgram": "Certificación Oficial Adobe After Effects" } },
         { params: { "program": "adobe-photoshop", "nameProgram": "Certificación Oficial Adobe Photoshop" } },
         { params: { "program": "analisis-de-datos", "nameProgram": "Análisis de datos" } },
@@ -318,7 +343,7 @@ const Routes: any = {
     { params:
       {
         "level": "entrada",
-        "levelRoute": "educacion-continua/",
+        "levelRoute": "extension-universitaria/",
         "config": {
           title: "entradas de blog",
           head: {
