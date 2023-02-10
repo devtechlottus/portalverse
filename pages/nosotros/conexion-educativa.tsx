@@ -137,7 +137,8 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
       </ContentFullLayout>
       <ContentLayout>
       <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col p-2 my-6">
-           <Feedback data={sections.head.feedback} children={<div>
+           <Feedback data={sections.head.feedback} children={
+           <div slot="areaFeedbackContent">
             <RichtText data={{
               content:sections.head.feedback.text
             }} />
@@ -145,7 +146,8 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
               <span className="material-icons text-SC/Blackandgrey/B-60">mail</span>
               <LinkContactTarget type={"email"} info={sections.head.feedback.contact} />
             </div>
-           </div>}/>
+           </div>
+          }/>
           </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.descriptionSection.title}</p>
