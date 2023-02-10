@@ -37,6 +37,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   }, [router])
 
   return <>
+    <script dangerouslySetInnerHTML={{ __html : `fbq('track', 'CompleteRegistration');`}}></script>
     <Head>
       <title>{ meta.title }</title>
     </Head>
