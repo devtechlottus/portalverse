@@ -83,7 +83,7 @@ export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('/oferta-educativa/oferta-educativa.json');
   
   // Educación continua promolink
-  const { level, config: { title, promo } } = Routes["educacion-continua"].params;
+  const { level, config: { title, promo } } = Routes["extension-universitaria"].params;
 
   return {
     props: {  data: { oferta: [ ...oferta, { level, title, promo: { ...promo, text: title } } ], level:'oferta-educativa/' }, sections, meta }

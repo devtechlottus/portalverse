@@ -49,11 +49,11 @@ export const action = [
     perform: () => (window.location.pathname = "contactanos/directorio")
   },
   {
-    id: "educacion-continua",
+    id: "extension-universitaria",
     name: "Educación Continua",
     shortcut: ["e", "Ed", "edu", "Edu"],
     keywords: "educación",
-    perform: () => (window.location.pathname = "educacion-continua")
+    perform: () => (window.location.pathname = "extension-universitaria")
   },  
   {
     id: "campus",

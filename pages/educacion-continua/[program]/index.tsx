@@ -69,7 +69,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
   </>
 }
 export async function getStaticPaths() {
-  const { params:{ programs } } = Routes["educacion-continua"]
+  const { params:{ programs } } = Routes["extension-universitaria"]
   return {
     paths: [...programs],
     fallback: false,
@@ -78,7 +78,7 @@ export async function getStaticPaths() {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
   const { params:{ program }} = context
-  const { sections, meta } = await getDataPageFromJSON(`educacion-continua/${program}.json`);
+  const { sections, meta } = await getDataPageFromJSON(`extension-universitaria/${program}.json`);
 
   return {
     props: { sections, meta }

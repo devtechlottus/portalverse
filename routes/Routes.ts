@@ -254,9 +254,9 @@ const Routes: any = {
       }
     }
   ],
-  "educacion-continua": { 
+  "extension-universitaria": { 
     params: {
-      "level": "educacion-continua",
+      "level": "extension-universitaria",
       "config": {
         title: "Educación continua",
         promo: {
@@ -343,7 +343,7 @@ const Routes: any = {
     { params:
       {
         "level": "entrada",
-        "levelRoute": "educacion-continua/",
+        "levelRoute": "extension-universitaria/",
         "config": {
           title: "entradas de blog",
           head: {

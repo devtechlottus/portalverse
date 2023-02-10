@@ -7,7 +7,7 @@
       { "label": "Especialidades", "route": "/oferta-educativa/especialidad" },
       { "label": "Maestria", "route": "/oferta-educativa/maestria" },
       { "label": "Doctorados", "route": "/oferta-educativa/doctorado" },
-      { "label": "Educación Continua", "route": "/educacion-continua" }
+      { "label": "Extensión Universitaria", "route": "/extension-universitaria" }
       ]
     },
     { "label": "Nosotros", "route": "/nosotros", "items": [
@@ -55,7 +55,7 @@
         { "label": "Maestrías", "principal": false, "route": "/oferta-educativa/maestria", "external": false },
         { "label": "Especialidades", "principal": false, "route": "/oferta-educativa/especialidad", "external": false },
         { "label": "Doctorados", "principal": false, "route": "/oferta-educativa/doctorado", "external": false },
-        { "label": "Educación Continua", "principal": false, "route": "/educacion-continua", "external": false }
+        { "label": "Extensión Universitaria", "principal": false, "route": "/extension-universitaria", "external": false }
       ]
     },
     {
