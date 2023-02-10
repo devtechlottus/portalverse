@@ -36,7 +36,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
             />
           <div className="flex flex-col p-2 border rounded-lg mb-6">
             <p className="font-Nunito-Sans font-normal text-base leading-5 text-[#818181]">Precio:</p>
-            <h1 className="font-Poppins font-semibold text-[32px] leading-10">{ sections.head.price }</h1>
+            <h1 className="font-Poppins font-semibold text-[32px] leading-10" dangerouslySetInnerHTML={{__html: sections.head.price}}/>
           </div>
           <EducacionContinuaForm pathThankyou="/thank-you" image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} copies={OpenFormInit.steponecontinuos} defaultProgram={sections.head.title} />
         </div>

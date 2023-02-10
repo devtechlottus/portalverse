@@ -528,6 +528,102 @@
           "redirect": "bedu-ciencia-de-datos"
         },
         {
+          "hidden": false,
+          "id": "123",
+          "title": "Diplomado en Innovación y control de calidad",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1HwrrbnGAECa0mN_0Yqhj_S6HoEILT6wA"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1HwrrbnGAECa0mN_0Yqhj_S6HoEILT6wA"
+            }
+          },
+          "redirect": "diplomado-innovacion-y-control"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Diplomado en docencia en linea",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1kmEZ_bmJeNKvNp08W3oc0nEno71vqqfK"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1kmEZ_bmJeNKvNp08W3oc0nEno71vqqfK"
+            }
+          },
+          "redirect": "diplomado-docencia-online"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Diplomado en globalización",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=15mY-Fn6p86EMFx2bMecCY2QZ5JSun5DE"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=15mY-Fn6p86EMFx2bMecCY2QZ5JSun5DE"
+            }
+          },
+          "redirect": "diplomado-globalizacion"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Diplomado en desarrollo del talento humano",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1sPLyzrm6c17l8dBf7daMbh4xa54ZvpQp"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1sPLyzrm6c17l8dBf7daMbh4xa54ZvpQp"
+            }
+          },
+          "redirect": "diplomado-desarrollo-talento"
+        },
+        {
           "hidden": true,
           "id": "123",
           "title": "Certificación Oficial Adobe After Effects",
