@@ -192,6 +192,270 @@
           "redirect": "examen-diagnostico-ingles"
         },
         {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel 1) Papel",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-1"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel 2) Papel",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-2"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel 3) Papel",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-3"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel 4) Papel",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-4"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel 5) Papel",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-5"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel A1) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-a1"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel A2) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-a2"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel B1) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-b1"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel B2) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-b2"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel C1) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-c1"
+        },
+        {
+          "hidden": false,
+          "id": "123",
+          "title": "Certificacion Internacional (Nivel C2) Online",
+          "link":{
+            "text": "Ver más",
+            "size": "large",
+            "isBold": false,
+            "disabled": false,
+            "id":"",
+            "icon":"arrow_forward"
+          },
+          "image": {
+            "desk": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            },
+            "mobile": {
+              "alt": "imagen",
+              "src": "https://drive.google.com/uc?export=view&id=1QKW-gxED_KheL352ZjiiW7XgFKMHkpVv"
+            }
+          },
+          "redirect": "certificacion-internacional-c2"
+        },
+        {
           "hidden": true,
           "id": "123",
           "title": "Certificación Oficial Adobe After Effects",
