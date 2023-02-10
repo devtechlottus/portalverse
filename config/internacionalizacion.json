@@ -28,21 +28,6 @@
             "bottom": false,
             "overlayWhite": false,
             "overlayDak": false
-          },
-          {
-            "title": "¡Participa en más de 10 tipos de experiencias sin salir de casa!", 
-            "text": "",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1gLfKQDGUCr6ooW-4U8Vi4Aa5Yy4eajYl",
-              "tablet": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M",
-              "desktop": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M"
-            },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false
           }
         ]
       },

@@ -8,7 +8,7 @@
     "title": "Licenciatura en Contador Público",
     "config": {
       "nombre": "Licenciatura en Contador Público",
-      "modalidad": ["Presencial", "Online"],
+      "modalidad": ["Presencial", "Online", "Flex"],
       "areaConocimiento": ["Económico - Administrativo"],
       "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
       "nivel": ["Licenciatura"],
@@ -24,8 +24,8 @@
           "Saltillo": "1dpRmwgGolcPoAFJDNNO6AIyzgkytsqJ_",
           "Torreon": "1ERXVMEdpsRrsY8C2IpJ5Ux-311KgZheU"
         },
-        "Online": "10677MclrG_XAbT0MXCcgDisc_GqFgx47",
-        "Flex": ""
+        "Flex": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
+        "Online": "10677MclrG_XAbT0MXCcgDisc_GqFgx47"
       }
     }
   },

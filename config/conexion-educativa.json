@@ -21,11 +21,51 @@
           "alt": "imagen",
           "src": "https://drive.google.com/uc?export=view&id=1yVLpuzyMTlGRWa-uT_AikXPW_mCtv03f"
         }
+      },
+      "feedback": {
+        "left": {
+          "name": "info",
+          "status": "normal"
+        },
+        "right": {
+          "name": ""
+        },
+        "type": "alert",
+        "isTextEvent": false,
+        "textEvent": "Dismiss",
+        "tagOnRight": "testOnRight",
+        "text": "<b>Convenio</b>\n\nA través del convenio, podrás ofrecer a tus colaboradores y a su familia directa (esposo o esposa e hijos) becas para estudiar programas presenciales o en la modalidad online. Si deseas más información envía un correo a:",
+        "contact": "vinculación@uane.edu.mx"
       }
     },
     "alliances": {
       "title": "Nuestras alianzas",
-      "carrousel": {},
+      "carrousel": [
+        {
+          "desk": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=13DgmchmaNtN9njb12U5lnREzfLazm-Jl"
+          }
+        },
+        {
+          "desk": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1j91hsQpLxTpD1owVhX1A6my729-Gx1SO"
+          }
+        },
+        {
+          "desk": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1FArwjQx-NX1rtPdlf-EKZ0ywT2T3cmHb"
+          }
+        },
+        {
+          "desk": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1gutk5QA3RX6l482uQWuzdawaF14xm7p5"
+          }
+        }
+      ],
       "button": {
           "title": "Ver todos los convenios",
           "type": "outlined",
@@ -85,6 +125,42 @@
     "experiences": {
       "title": "Experiencias UANE",
       "images": {"images": [{"id": "1", "image": "https://drive.google.com/uc?export=view&id=1NaTkEjWZN2O-ufdoiMic1mYs6KFtDdAX", "icon": "zoom_out_map" }, {"id": "2", "image": "https://drive.google.com/uc?export=view&id=1y4dwIkZ8xf5I93OOISJbDYIzY0E3z85F", "icon": "zoom_out_map" }, {"id": "3", "image": "https://drive.google.com/uc?export=view&id=1fun0SHwAzQpi9iGvmSpLsi-umB-yjPbe", "icon": "zoom_out_map"}, {"id": "4", "image": "https://drive.google.com/uc?export=view&id=1Ssn--66KYAAthWRMTHryb0rRuoXPL6ni", "icon": "zoom_out_map"},{"id": "5", "image": "https://drive.google.com/uc?export=view&id=1E1uOwF3RADySl8H_WO_N8nyBsk_TQ_aj", "icon": "zoom_out_map"}, {"id": "6", "image": "https://drive.google.com/uc?export=view&id=1CyTXqPEg90UD5JGBDxfwW-sy6R_Mw9wf", "icon": "zoom_out_map" }, {"id": "7", "image": "https://drive.google.com/uc?export=view&id=1De_PlYAJA4y82HKOV2Udph2V0VgkriHL", "icon": "zoom_out_map"}, {"id": "8", "image": "https://drive.google.com/uc?export=view&id=19_C3X2-86268UQCZY6aZouyKNIQFW8Ev", "icon": "zoom_out_map"}, {"id": "9", "image": "https://drive.google.com/uc?export=view&id=1PuCzna70a8TDiWIaPH3POL2w3rhz37ay", "icon": "zoom_out_map"}, {"id": "10", "image": "https://drive.google.com/uc?export=view&id=1cGsfKZo4C5YOWaROBP2t8j9HEg0Mn3fH", "icon": "zoom_out_map"}, {"id": "11", "image": "https://drive.google.com/uc?export=view&id=1PBNWit8K484E-HFvaWGGeXiTViCKwEPV", "icon": "zoom_out_map"}, {"id": "12", "image": "https://drive.google.com/uc?export=view&id=1CulfV4b9BwrzgmqFSmwbExYDT_pmsZ6F", "icon": "zoom_out_map"}]}
+    },
+    "descriptionSection": {
+      "title":"Ventajas de realizar prácticas profesionales",
+      "textIcons":[
+        {
+          "icon": "https://drive.google.com/uc?export=view&id=1T0zh7_wWn_U7vC8Ghb1OnvK9Vf_iw8RI",
+          "text": "<b>Adquieres nuevas competencias:</b>\n\nEn la universidad conoces la teoría, pero en el mundo laboral adquieres conocimientos prácticos, destrezas y habilidades."
+        },
+        {
+          "icon": "https://drive.google.com/uc?export=view&id=1zMwTLnS12WxMDnzO7oUt1MhUZYKtaqIv",
+          "text": "<b>Aprendes a buscar trabajo:</b>\n\nBuscar prácticas profesionales sirve de entrenamiento para buscar empleo. Redactar un cv atractivo será una tarea más sencilla para ti."
+        },
+        {
+          "icon": "https://drive.google.com/uc?export=view&id=1oxx9Lwrg7_C5nnNGnqYIsU7Y4QmDbTgM",
+          "text": "<b>Hacer contactos:</b>\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
+        },
+        {
+          "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
+          "text": "<b>Posibilidad de conseguir un empleo:</b>\\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
+        },
+        {
+          "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
+          "text": "<b>Mejorar  el currículum:</b>\\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
+        }
+      ],
+      "button": {"id":"123","title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "size":"small"},
+      "image": {
+        "desk": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1zUHr9b2_nXj94EcxJStO0PM5djT3HnjW"
+        },
+        "mobile": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1CUn9n-9_pAb964N6v1YuG0xaHLLeieRZ"
+        }
+      }
     }
   }
 }

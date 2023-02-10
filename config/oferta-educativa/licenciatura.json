@@ -354,6 +354,7 @@
     {
       "title": "Ingeniería en Sistemas",
       "config": {
+        "hidden": true,
         "nombre": "Ingeniería en Sistemas",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
@@ -399,6 +400,7 @@
     {
       "title": "Licenciatura en Contaduría",
       "config": {
+        "hidden": true,
         "nombre": "Licenciatura en Contaduría",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],

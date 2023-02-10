@@ -16,6 +16,7 @@ import DescriptionSection from "@/components/DescriptionSection"
 import Mosaic from "@/components/Mosaic"
 import Button from "@/components/Button/Button"
 import TabsFeatured from "@/components/TabsFeatured"
+import Feedback from "@/components/Feedback"
 
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -75,12 +76,23 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-12 hidden">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.alliances.title}</p>
-          {/* carrousel */}
-          <div className=" justify-center hidden">
+
+          {/* <div className=" justify-center hidden">
           <Button data={sections.alliances.button} />
-          </div>
+          </div> */}
+        </div>
+        <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-6">
+          {
+            sections.alliances.carrousel.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
+              <Image
+            alt={ item.desk.alt }
+            src={ item.desk.src }
+            classNames="aspect-1/1 w-t:aspect-2/1 w-p:aspect-2/1"
+          />
+            </section>)
+          }
         </div>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-d:mb-2">
           <TabsFeatured active={tabActive} tabs={sections.socialService.tabs.items} onActive={(active: number) => setTabActive(active)} />
@@ -121,7 +133,43 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
           </ContentInsideLayout>
         </div>
         </ContentLayout>
+
       </ContentFullLayout>
+      <ContentLayout>
+      <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col p-2 my-6">
+           <Feedback data={sections.head.feedback} children={<div>
+            <RichtText data={{
+              content:sections.head.feedback.text
+            }} />
+            <div className="flex align-middle items-center">
+              <span className="material-icons text-SC/Blackandgrey/B-60">mail</span>
+              <LinkContactTarget type={"email"} info={sections.head.feedback.contact} />
+            </div>
+           </div>}/>
+          </div>
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
+          <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.descriptionSection.title}</p>
+          {
+            sections.descriptionSection.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
+                <Image classNames="h-[100%]" src={item.icon} alt={item.icon} />
+                <RichtText data={{
+                content: item.text
+              }} />
+              </div>
+            )
+          }
+          {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
+            <Button dark data={ sections.head.button }/>
+          </div> */}
+        </div>
+        <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
+        <Image
+            alt={ sections.descriptionSection.image.desk.alt }
+            src={ sections.descriptionSection.image.desk.src }
+            classNames="aspect-1/1 w-t:aspect-2/1 w-p:aspect-2/1"
+          />
+        </div>
+        </ContentLayout>
       <ContentLayout>
       <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{ sections.experiences.title}</p>
