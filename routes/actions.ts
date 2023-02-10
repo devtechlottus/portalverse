@@ -50,9 +50,9 @@ export const action = [
   },
   {
     id: "extension-universitaria",
-    name: "Educación Continua",
-    shortcut: ["e", "Ed", "edu", "Edu"],
-    keywords: "educación",
+    name: "Extensión Universitaria",
+    shortcut: ["e", "Ex", "ext", "Ext"],
+    keywords: "extensión",
     perform: () => (window.location.pathname = "extension-universitaria")
   },  
   {

@@ -258,7 +258,7 @@ const Routes: any = {
     params: {
       "level": "extension-universitaria",
       "config": {
-        title: "Educación continua",
+        title: "Extensión Universitaria",
         promo: {
           urlImage: {
             mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",
@@ -278,7 +278,7 @@ const Routes: any = {
             alt: "alumnos"
           },
           description: {
-            title: "Educación Continua",
+            title: "Extensión Universitaria",
             subtitle: "Elige una lorem ipsum sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           }
         },
