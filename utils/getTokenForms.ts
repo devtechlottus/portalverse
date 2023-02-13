@@ -14,12 +14,14 @@ export const getTokenForms = () => {
     setIsError(false);
     await axios.post(`${process.env.NEXT_PUBLIC_TOKEN!}?${params}`)
       .then( (res: any) => {
+        console.log("res", res)
         const { data: { access_token, token_type } } = res;
         setToken({ access_token, token_type });
         setIsError(false);
         setIsLoading(false);
       })
       .catch( (err: any) => {
+        console.log("error", err)
         setToken({});
         setIsError(true)
         setIsLoading(false);

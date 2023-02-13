@@ -39,6 +39,7 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
   }, [defaultProgram])
 
   useEffect(() => {
+    console.log("TOKEN",token)
     if (!isLoading && !isError && !!Object.keys(token).length) {
       setTokenActive(`${token.token_type} ${token.access_token}`);
     }
@@ -59,6 +60,7 @@ const EducacionContinuaForm: FC<any> = ({ classNames, copies, image, pathThankyo
   }, [tokenActive]);
 
   useEffect(() => {
+    console.log("data", dataEO)
     if (!isLoadingEO && !isErrorEO) {
       if (!!Object.entries(dataEO).filter(([ _, level ]: any) => level.search === levelDefault).length) {
         const filterPrograms = filterByLevel(levelDefault);
