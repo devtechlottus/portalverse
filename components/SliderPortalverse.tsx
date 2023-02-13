@@ -42,11 +42,9 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames, mobile = false }:
                                                                          
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
-          console.log("right")
           setTypeDir("left")
             /* right swipe */ 
         } else {
-          console.log("left")
           setTypeDir("right")
             /* left swipe */
         }                       
@@ -71,8 +69,6 @@ const handleTouchStart = (evt: any) => {
 
   useEffect(() => {
     let ignore = false
-    console.log("data", data)
-    console.log("usseEffectInit", mobile)
     if(mobile) {
       ignore = true
       document.querySelector("#sectionRef")?.addEventListener('touchstart', handleTouchStart, false);
@@ -124,7 +120,6 @@ const handleTouchStart = (evt: any) => {
 
   const handlerClickControl = ({ target }: any) => {
     const { ariaLabel } = target 
-    console.log("aL", ariaLabel)
     if ( countItems > 1) {
       if ( ariaLabel === "next" || typeDir === "left" ) {
         if ( active === countItems - 1 ) {
