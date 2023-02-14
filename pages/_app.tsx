@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   useEffect( () => {
     // we need import elements with commonJS
     if (typeof window !== 'undefined') {
-      require("@lottus23/lottus-elements-uane/elements")
+      require("lottus-elements-uane/elements")
     }
   }, [])
 
