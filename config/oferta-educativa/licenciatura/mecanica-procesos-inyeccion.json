@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Ingeniería Mecánica en Procesos de Inyección",
       "modalidad": ["Presencial", "Online"],
-      "areaConocimiento": ["Ciencias Exactas"],
+      "areaConocimiento": ["Ciencias Exactas", "Ciencias Sociales"],
       "campus": [ "Saltillo", "Monterrey" ],
       "nivel": ["Licenciatura"],
       "image": {

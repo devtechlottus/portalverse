@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Licenciatura en Gestión Deportiva",
       "modalidad": ["Online", "Flex"],
-      "areaConocimiento": ["Administrativas"],
+      "areaConocimiento": ["Ciencias Sociales y Administrativas"],
       "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
       "nivel": ["Licenciatura"],
       "image": {

@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Administración y Liderazgo Empresarial",
       "modalidad": ["Online", "Flex"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1Vfggr0cSQrPuBIm2ioIbZO5YSjfysnZR",

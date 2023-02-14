@@ -8,8 +8,8 @@
     "title": "Licenciatura en Psicología",
     "config": {
       "nombre": "Licenciatura en Psicología",
-      "modalidad": ["Presencial", "Flex"],
-      "areaConocimiento": ["Ciencias Sociales"],
+      "modalidad": ["Presencial", "Online", "Flex"],
+      "areaConocimiento": ["Ciencias de la Salud", "Ciencias Sociales"],
       "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {

@@ -9,8 +9,8 @@
       "config": {
         "nombre": "Maestría en Gobierno y Estrategia Pública",
         "modalidad": ["Online", "Flex"],
-        "areaConocimiento": ["Económico - Administrativas"],
-        "campus": [],
+        "areaConocimiento": ["Ciencias Sociales y Humanidades"],
+        "campus": ["Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=14chO5pAdtfKlf-gRHHJ8Q3WHkSMc8Ywx",
