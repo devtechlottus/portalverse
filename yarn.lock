@@ -1195,7 +1195,7 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@lottus23/lottus-elements-uane@4.3.11":
+"@lottus23/lottus-elements-uane@3.8.6":
   version "3.8.6"
   resolved "https://registry.yarnpkg.com/@lottus23/lottus-elements-uane/-/lottus-elements-uane-3.8.6.tgz#fb977950df093c479367900c70ac797aae6b15fd"
   integrity sha512-s+PUJnsjyB/ltzAkzOKzIWqzj6mKplR2xtwTlLgp05QZ73J7cbJQQ/bGkLRcXHD5EBC3plmG8VtvuLxn78Z4Eg==
