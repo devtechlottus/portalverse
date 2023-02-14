@@ -136,17 +136,15 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
 
       </ContentFullLayout>
       <ContentLayout>
-      {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col p-2 border rounded-lg my-6">
-           <Feedback data={sections.head.feedback} children={<div>
-            <RichtText data={{
-              content: "<b>Convenio</b>\n\nA través del convenio, podrás ofrecer a tus colaboradores y a su familia directa (esposo o esposa e hijos) becas para estudiar programas presenciales o en la modalidad online. Si deseas más información envía un correo a:"
-            }} />
-            <div className="flex align-middle items-center">
-              <span className="material-icons text-SC/Blackandgrey/B-60">mail</span>
-              <LinkContactTarget type={"email"} info={"vinculación@uane.edu.mx"} />
-            </div>
-           </div>}/>
-          </div> */}
+      <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col my-6">
+        <Feedback data={sections.head.feedback} children={<div>
+        <RichtText data={{ content: sections.head.feedback.text }} />
+          <div className="flex align-middle items-center">
+            <span className="material-icons text-SC/Blackandgrey/B-60">mail</span>
+            <LinkContactTarget type={"email"} info={sections.head.feedback.contact} />
+          </div>
+        </div>}/>
+      </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.descriptionSection.title}</p>
           {
