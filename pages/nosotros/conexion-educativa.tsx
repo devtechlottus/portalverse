@@ -137,7 +137,8 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
       </ContentFullLayout>
       <ContentLayout>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col my-6">
-          <Feedback data={sections.head.feedback} children={<div>
+          <Feedback data={sections.head.feedback} children={
+          <div>
             <p className="font-normal font-Nunito text-base mb-6">{sections.head.feedback.title}</p>
             <p className="font-normal font-Nunito text-base mb-2">{sections.head.feedback.text}</p>
             <div className="flex align-middle items-center">
