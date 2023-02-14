@@ -10,7 +10,7 @@
       "nombre": "Especialidad en Manufactura Esbelta",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias Exactas"],
-      "campus": ["Piedras negras", "Matamoros"],
+      "campus": ["Piedras negras"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1B8WiOGEFTEOYy4A2hMsjKaEtExWuEx2V",
@@ -18,8 +18,7 @@
       },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": "1JF-q5RQ19zJtkNGBE4d8Zjt1mPGlMJAI",
-          "Matamoros": "1QnmCXncSRirbrGY8TdcDnd4soMoN0T1G"
+          "Piedras Negras": "1JF-q5RQ19zJtkNGBE4d8Zjt1mPGlMJAI"
         },
         "Online": "1ybu06W2PzuaIuBO3PjwJru0uPVIAmFw_"
       }

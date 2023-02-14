@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Licenciatura en Derecho",
       "modalidad": ["Presencial", "Online", "Flex"],
-      "areaConocimiento": ["Ciencias Sociales"],
+      "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
       "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
       "nivel": ["Licenciatura"],
       "image": {

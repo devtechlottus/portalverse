@@ -10,7 +10,7 @@
         "nombre": "Licenciatura en Negocios Internacionales",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Económico - Adminstrativo"],
-        "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
+        "campus": [ "Saltillo", "Piedras Negras", "Monterrey", "Matamoros", "Torreón" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=10LllvEL2GU4OeedbAnYx5ZFpI_E6pljm",

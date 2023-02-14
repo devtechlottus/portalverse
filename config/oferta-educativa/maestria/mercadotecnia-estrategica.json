@@ -9,16 +9,14 @@
     "config": {
       "nombre": "Maestría en Mercadotecnia Estrátegica",
       "modalidad": ["Online"],
-      "areaConocimiento": ["Económico - Administrativas"],
+      "areaConocimiento": ["Económico - Administrativo"],
       "campus": [],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://picsum.photos/428/321",
         "alt": "maestria"
       },
-      "curriculum": {
-        "Online": ""
-      }
+      "curriculum": {}
     }
   },
   "sections": {
