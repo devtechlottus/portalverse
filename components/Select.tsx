@@ -1,7 +1,7 @@
 import { createRef, FC, useEffect } from "react"
 import SelectComponentData from "@/types/Select.types"
 
-const Select: FC<SelectComponentData> = ({ data, options, onClick, flagHeight }: SelectComponentData) => {
+const Select: FC<SelectComponentData> = ({ data, options, onClick }: SelectComponentData) => {
   const selectRef = createRef();
 
   useEffect(() => {
@@ -16,8 +16,7 @@ const Select: FC<SelectComponentData> = ({ data, options, onClick, flagHeight }:
       tagOnClickOption: data.tagOnClickOption || 'testOnClickOption',
     };
     (selectRef.current as any).options = [...options];
-    (selectRef.current as any).flagHeight = [flagHeight];
-  }, [data, options, flagHeight]);// eslint-disable-line react-hooks/exhaustive-deps
+  }, [data, options]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     let observerRef: any = null;

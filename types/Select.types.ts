@@ -50,7 +50,6 @@ export type SelectOptionConfig = {
 type SelectComponentData = {
   options: Array<SelectOptionConfig>;
   data: SelectConfig;
-  flagHeight: boolean;
   onClick: (value: CustomEvent) => void
 }
 
