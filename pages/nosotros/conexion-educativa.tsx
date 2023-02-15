@@ -154,7 +154,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.descriptionSection.title}</p>
           {
             sections.descriptionSection.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
-                <Image classNames="h-[100%]" src={item.icon} alt={item.icon} />
+                <Image classNames="aspect-1/1 w-[80px] w-p:w-[32px]" src={item.icon} alt={item.icon} />
                 <RichtText data={{
                 content: item.text
               }} />
@@ -169,7 +169,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         <Image
             alt={ sections.descriptionSection.image.desk.alt }
             src={ sections.descriptionSection.image.desk.src }
-            classNames="aspect-1/1 w-t:aspect-2/1 w-p:aspect-2/1"
+            classNames="aspect-3/4 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
         </ContentLayout>

@@ -144,11 +144,11 @@
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
-          "text": "<b>Posibilidad de conseguir un empleo:</b>\\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
+          "text": "<b>Posibilidad de conseguir un empleo:</b>\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
-          "text": "<b>Mejorar  el currículum:</b>\\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
+          "text": "<b>Mejorar  el currículum:</b>\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
         }
       ],
       "button": {"id":"123","title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "size":"small"},
