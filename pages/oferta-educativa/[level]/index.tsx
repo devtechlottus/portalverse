@@ -86,9 +86,12 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
         <ContentInsideLayout classNames="mt-12 gap-6 col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
             visiblePrograms.map(({ route, title, config: { image: { src, alt }, hidden } }: any, i: number) => <div key={`program-${i}`} className={cn("flex hover:shadow-30 h-full border", { "flex-col w-d:col-span-3 w-t:col-span-4 w-p:col-span-4": mosaicActive, "w-d:col-span-12 w-t:col-span-8 w-p:col-span-4": !mosaicActive, "hidden": hidden })}>
+              <div>
               <Image src={src} alt={alt} classNames={cn({ "aspect-4/3": mosaicActive, "w-[80px] h-full": !mosaicActive })} />
-              <div className={cn("p-3 flex flex-col bg-white gap-2", { "w-full": !mosaicActive })}>
-                <p className="font-Poppins font-normal">{title}</p>
+              </div>
+              <div className="flex flex-col h-full">
+                <p className="font-Nunito-Sans font-normal text-4.5 mt-3 mx-3">{title}</p>
+                <div className="w-full h-full flex justify-end pb-2 font-Nunito font-bold items-end">
                 <Link
                   href={`${level}/${route}`}
                   className="flex items-center justify-end font-Nunito font-bold">
@@ -97,7 +100,9 @@ const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, leve
                   <span className="material-icons icon">chevron_right</span>
 
                 </Link>
+                </div>
               </div>
+              {/* S */}
             </div>)
           }
         </ContentInsideLayout>
