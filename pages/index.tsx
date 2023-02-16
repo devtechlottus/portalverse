@@ -16,6 +16,7 @@ import BannerPortalverse from "@/components/BannerPortalverse"
 import CarouselCards from "@/components/CarouselCards/CarouselCards"
 import Button from "@/components/Button/Button"
 import Carousel from "@/components/Carousel/Carousel"
+import { CarouselType } from "@/types/Carousel.types"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
@@ -89,13 +90,13 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
-      <ContentFullLayout>
+      {/*<ContentFullLayout>
         <ContentLayout>
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-3 flex">
-            <Carousel data={sections.campus} type={'CARD'}/>
+            <Carousel data={sections.campus} type={CarouselType.IMAGE}/>
           </div> 
         </ContentLayout>
-      </ContentFullLayout>
+    </ContentFullLayout>*/}
       <ContentLayout classNames="w-t:hidden my-6">
         <div className="col-span-12 w-p:col-span-4">
           <BannerPortalverse data={sections.bannerPodcast} onClick={() => router.push(`${sections.bannerPodcast.redirect}`)}/>
