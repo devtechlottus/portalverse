@@ -83,7 +83,8 @@
       ],
       [
         { "label": "Comunidad UANE", "principal": true, "link": "", "external": false },
-        { "label": "Voz UANE", "principal": false, "link": "/voz-uane", "external": false }
+        { "label": "Voz UANE", "principal": false, "link": "/voz-uane", "external": false },
+        { "label": "Egresados Talento", "principal": false, "link": "/egresados/talento", "external": false }
       ]
     ]
   ]
