@@ -34,7 +34,8 @@
         "isTextEvent": false,
         "textEvent": "Dismiss",
         "tagOnRight": "testOnRight",
-        "text": "<b>Convenio</b>\n\nA través del convenio, podrás ofrecer a tus colaboradores y a su familia directa (esposo o esposa e hijos) becas para estudiar programas presenciales o en la modalidad online. Si deseas más información envía un correo a:",
+        "title": "Convenio",
+        "text": "A través del convenio, podrás ofrecer a tus colaboradores y a su familia directa (esposo o esposa e hijos) becas para estudiar programas presenciales o en la modalidad online.\n\nSi deseas más información envía un correo a:",
         "contact": "vinculación@uane.edu.mx"
       }
     },
@@ -143,11 +144,11 @@
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
-          "text": "<b>Posibilidad de conseguir un empleo:</b>\\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
+          "text": "<b>Posibilidad de conseguir un empleo:</b>\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
-          "text": "<b>Mejorar  el currículum:</b>\\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
+          "text": "<b>Mejorar  el currículum:</b>\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
         }
       ],
       "button": {"id":"123","title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "size":"small"},
