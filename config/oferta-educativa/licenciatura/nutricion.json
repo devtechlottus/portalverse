@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Nutrición",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Biologicas"],
-      "campus": [ "Saltillo", "Monterrey", "Torreon", "Monclova" ],
+      "campus": [ "Saltillo", "Monterrey", "Torreón", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1jPhoRe9clsE3sP9r0HI3sMrIr07kWVJA",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1_uWoSH422agx3GSCkxCh6HViPoi5vL0K",
           "Monterrey": "1I68GMgn6mEdqu7mO5KNmneqKOGmKXJAf",
-          "Torreon": "1ol0B23zRozhMfRlXMrv_C_nc3WzJI9Mx",
+          "Torreón": "1ol0B23zRozhMfRlXMrv_C_nc3WzJI9Mx",
           "Monclova": "1bPmCGK4gEDTjQ_lmZoR9P0kNqHy_xzrn"
         }
       }

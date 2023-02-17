@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Administración de Empresas",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
+      "campus": ["Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1N5gpbQOpNGdD6JTmhO0_oUywJRJ_f4XY",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1TfSGoGuDa0lrs6UR8PTRd2LiYgu7jdRm",
           "Matamoros": "1l570i7G6MAp_OuXyxiSgO3EqZvgplD3E",
-          "Torreon": "1FY5pEXAKppX34v-AqOhL4s0vthdw6x9C",
+          "Torreón": "1FY5pEXAKppX34v-AqOhL4s0vthdw6x9C",
           "Piedras Negras": "19tbOmYYPEE53SzSW2KinhAKBcrpUvUqH",
           "Sabinas": "1A4Lr5cY2aehIg-eE0jT9dP8G0PrFxa8b",
           "Reynosa": "1ftDqsSEnsbYpqdO5ocRI3E5x-OlOJfL-",

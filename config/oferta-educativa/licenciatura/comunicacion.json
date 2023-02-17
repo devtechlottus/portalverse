@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Comunicación",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": [ "Saltillo", "Torreon", "Monclova", "Piedras Negras" ],
+      "campus": [ "Saltillo", "Torreón", "Monclova", "Piedras Negras" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=12Acux0yVXinZEeEkCV2uBY7VsOxeEQG8",
@@ -19,7 +19,7 @@
       "curriculum": {
         "Presencial": {
           "Saltillo": "1phjJZkT0ldvDYe5Qix4ARKh-1f-6eShq",
-          "Torreon": "18RCEV3p3QKn9_Sqe1ek5P93NSrcuWwOC",
+          "Torreón": "18RCEV3p3QKn9_Sqe1ek5P93NSrcuWwOC",
           "Monclova": "1nv4kqrgZIj5PEKebgI_kBB03uvyW0-zU",
           "Piedras Negras": "1jLghHD49TBWeZhRDTtFm_CsbvIhNRpxf"
         },

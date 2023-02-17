@@ -87,7 +87,7 @@
         "nombre": "Maestría en Efectividad Organizacional",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": ["Saltillo", "Torreon", "Piedras Negras", "Matamoros"],
+        "campus": ["Saltillo", "Torreón", "Piedras Negras", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1G0CnmnAy8oSPWcKl27h0FzPfNWS0Tntf",
@@ -132,7 +132,7 @@
         "nombre": "Maestría en Salud Ocupacional",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias de la Salud"],
-        "campus": [ "Saltillo", "Matamoros", "Torreon", "Reynosa", "Monclova", "Monterrey" ],
+        "campus": [ "Saltillo", "Matamoros", "Torreón", "Reynosa", "Monclova", "Monterrey" ],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1YcP7k3VRmpi2NK1axLt_1kGT8c7fLzdo",
@@ -207,7 +207,7 @@
         "nombre": "Maestría en Gestión Ambiental",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Ambientales"],
-        "campus": ["Saltillo", "Monterrey", "Torreon"],
+        "campus": ["Saltillo", "Monterrey", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1AIIslAK7PmWqgk7PdBD4pU12vmkOv6wr",
@@ -252,7 +252,7 @@
         "nombre": "Maestría en Gestión de Negocios de Manufactura",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Exactas"],
-        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon"],
+        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=14mLsXKb_F6Wx0rLVlMQcupo8o5DspKoo",
@@ -267,7 +267,7 @@
         "nombre": "Maestría en Administración y Liderazgo",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon", "Reynosa", "Monterrey"],
+        "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón", "Reynosa", "Monterrey"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1HN0jnBUCOpDKQYhjAJdm48lrwRzBOXcK",
