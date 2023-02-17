@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Gastronomía",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales y Administrativas"],
-      "campus": ["Saltillo", "Torreon"],
+      "campus": ["Saltillo", "Torreón"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1xxGeJ91CNxd5ypYaQjNGmKaCZo7Y41Ti",
@@ -19,7 +19,7 @@
       "curriculum": {
         "Presencial": {
           "Saltillo": "1yz2cY0NtmibR0HpH79fuqszcAvg2iv4K",
-          "Torreon": "1IVbMceHysAYxj5XvNQdlM0wGcbUbMnsp"
+          "Torreón": "1IVbMceHysAYxj5XvNQdlM0wGcbUbMnsp"
         }
       }
     }

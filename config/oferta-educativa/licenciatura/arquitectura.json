@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Arquitectura",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreon" ],
+      "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreón" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1XsYl_oQybO6fUDX5Agi8bfUalpwPsOhv",
@@ -21,7 +21,7 @@
           "Saltillo": "1TQWzkTHuINFqqY9WVegaHDFxjaxJPpZU",
           "Monclova": "1nLspEW0ALDqFcbz1X7CpedhA519g_KbF",
           "Monterrey": "1lAunMk54QbmzdnhIpQgcgQaYmc-INCIo",
-          "Torreon": "1gZ_F0OxyR9NRarQ3DebrWMwTnSuXL6XL"
+          "Torreón": "1gZ_F0OxyR9NRarQ3DebrWMwTnSuXL6XL"
         }
       }
     }

@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Contaduría",
       "modalidad": ["Online", "Flex"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://picsum.photos/428/321",
@@ -21,7 +21,7 @@
           "Saltillo": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
           "Monterrey": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
           "Piedras Negras": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
-          "Torreon": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
+          "Torreón": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
           "Matamoros": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz"
         },
         "Online": "10677MclrG_XAbT0MXCcgDisc_GqFgx47"

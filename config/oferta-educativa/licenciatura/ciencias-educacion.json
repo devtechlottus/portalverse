@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Ciencias de la Educación",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": [ "Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
+      "campus": [ "Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1IkBl8TsOSMs_gQLrilTON0MYjRPLSAzD",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1aM0j8Orzyb_Ylt9PoeOMxZIZulXURn36",
           "Matamoros": "1UK7W4iU9CameAvJIwyXDZNV_KnNpk8-6",
-          "Torreon": "11TKCRtmfqsB-ZHkFooLU7UtU275S_8t2",
+          "Torreón": "11TKCRtmfqsB-ZHkFooLU7UtU275S_8t2",
           "Piedras Negras": "1mhtyaGhtGkejdx1YXedq-hf8hHS_pu7s",
           "Sabinas": "1C3YTFUiOesbVE-DZ2PSTChcGKvOF9xs7",
           "Reynosa": "1WxT32XYLAQQKElSozxesTrPk8PtfpgY4",

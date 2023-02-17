@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Idiomas",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Humanidades"],
-      "campus": ["Saltillo", "Torreon", "Piedras Negras"],
+      "campus": ["Saltillo", "Torreón", "Piedras Negras"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1KSqTOf5CrxTdPNQfjcbyN79r4ZiS0DTp",
@@ -19,7 +19,7 @@
       "curriculum": {
         "Presencial": {
           "Saltillo": "1L8zKHhATSyd5kpDJq1YNWqizbdlUdjbm",
-          "Torreon": "1p7phZfTlsvR4vVFpcJiLQjqgjq6k7No3",
+          "Torreón": "1p7phZfTlsvR4vVFpcJiLQjqgjq6k7No3",
           "Piedras Negras": "1OB6TttNjzwn7Ub-f7sBw8SvbwCU7l8Ea"
         }
       }

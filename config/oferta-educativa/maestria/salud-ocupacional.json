@@ -10,7 +10,7 @@
       "nombre": "Maestría en Salud Ocupacional",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias de la Salud"],
-      "campus": [ "Saltillo", "Matamoros", "Torreon", "Reynosa", "Monclova", "Monterrey" ],
+      "campus": [ "Saltillo", "Matamoros", "Torreón", "Reynosa", "Monclova", "Monterrey" ],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=104fz2OwuCPfLLduIeOaMpOLKqAH-LBoq",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1tk9u4Pmf8NjQDtPrdmBGwYqQmk9aFWvH",
           "Matamoros": "1vpgPUVLJEYgTLTu1FptVf7cVTXJcpxSj",
-          "Torreon": "1Gt5YV8F8dMQ97dOUCvoKgSmtkflXFJwW",
+          "Torreón": "1Gt5YV8F8dMQ97dOUCvoKgSmtkflXFJwW",
           "Reynosa": "1mv9Qa6OWoriVZ_u9K9suSiMAXriYRtfP",
           "Monclova": "1_Zj1AeUM8bPZqis8rLVL02A1TJmMAuxo"
         },

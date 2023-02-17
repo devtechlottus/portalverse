@@ -10,7 +10,7 @@
       "nombre": "Maestría en Administración y Liderazgo",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon", "Reynosa", "Monterrey"],
+      "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón", "Reynosa", "Monterrey"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1wk1UejwIW5_GtNXkFoL-T15kUreb1hmK",
@@ -22,7 +22,7 @@
           "Monclova": "13lrXF4-03kQb65FzOVq5LX2PeeDgl7eD",
           "Piedras Negras": "1Y-W34zfLqdcK6sGdynktzuv_OZn66fGZ",
           "Saltillo": "1u87YQoSwMtfgdqbpNSdMFmCIm48iko--",
-          "Torreon": "1XKxyegc3WfPDl_wEPZMbEuGs7OrPIqDP",
+          "Torreón": "1XKxyegc3WfPDl_wEPZMbEuGs7OrPIqDP",
           "Reynosa": "1WJGBsEnaaHQfdLFbjDAcZlYdna5WsFrI",
           "Monterrey": "1O26Egl1byl8JTgIh8j_ITJnEC9NOXMYu"
         },
