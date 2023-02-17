@@ -57,7 +57,7 @@
         "nombre": "Licenciatura en Administración de Empresas",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": ["Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
+        "campus": ["Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1Sb3r92gDYkX9h3ZVXXdw04itRVmUg7sH",
@@ -72,7 +72,7 @@
         "nombre": "Licenciatura en Idiomas",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Humanidades"],
-        "campus": ["Saltillo", "Torreon", "Piedras Negras"],
+        "campus": ["Saltillo", "Torreón", "Piedras Negras"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=19wr68tsR7OEsvbnzWY5xXpYgpYQqkYdS",
@@ -87,7 +87,7 @@
         "nombre": "Diseño Gráfico",
         "modalidad": ["Presencial", "Flex"],
         "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
-        "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova", "Monterrey", "Piedras Negras"],
+        "campus": ["Saltillo", "Matamoros", "Torreón", "Monclova", "Monterrey", "Piedras Negras"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1pcSuQipeNpn8hQT2axqtZ9OuMineeoC9",
@@ -102,7 +102,7 @@
         "nombre": "Licenciatura en Gastronomía",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales y Administrativas"],
-        "campus": ["Saltillo", "Torreon"],
+        "campus": ["Saltillo", "Torreón"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1Yr8Kk57j3iGB8yrgbEBWOh7LGWwxBoRT",
@@ -147,7 +147,7 @@
         "nombre": "Licenciatura en Psicología",
         "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias de la Salud", "Ciencias Sociales"],
-        "campus": ["Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
+        "campus": ["Saltillo", "Monterrey" , "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1YxjRkrGXP14MaiZRSy9CNqVd-ltFVMCJ",
@@ -162,7 +162,7 @@
         "nombre": "Licenciatura en Administración de Empresas Turísticas",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": [ "Saltillo", "Torreon" ],
+        "campus": [ "Saltillo", "Torreón" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1y6BzlxIr6Zi_sV9uNgq3PeCxtqZhLIeu",
@@ -177,7 +177,7 @@
         "nombre": "Ingeniería Industrial y de Sistemas",
         "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
-        "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreon", "Piedras Negras", "Monclova" ],
+        "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreón", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1txiRradR7dgMBlxeIJVCRhNoDA5DV_jR",
@@ -192,7 +192,7 @@
         "nombre": "Licenciatura en Ciencias de la Educación",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [ "Saltillo", "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
+        "campus": [ "Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1jrKgLYJoy9oX14IF6vqsEX_R-zX9cOaY",
@@ -207,7 +207,7 @@
         "nombre": "Licenciatura en Nutrición",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Biologicas"],
-        "campus": [ "Saltillo", "Monterrey", "Torreon", "Monclova" ],
+        "campus": [ "Saltillo", "Monterrey", "Torreón", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1kyJT49LV6EcSA65HNK7IJKw3IKj4V7PJ",
@@ -222,7 +222,7 @@
         "nombre": "Licenciatura en Derecho",
         "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
-        "campus": [ "Saltillo", "Torreon", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
+        "campus": [ "Saltillo", "Torreón", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1fkHschHQn87_ISClxQ3JrxbTSYmFMjCH",
@@ -237,7 +237,7 @@
         "nombre": "Licenciatura en Administración de Recursos Humanos",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
+        "campus": [ "Saltillo", "Sabinas", "Torreón", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1947RsnMuQbrbSemz26C_eA93kabKyP8a",
@@ -252,7 +252,7 @@
         "nombre": "Licenciatura en Arquitectura",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreon" ],
+        "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreón" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=140DMD5weJlXIItPXz9OndgRL3AvyLsGi",
@@ -267,7 +267,7 @@
         "nombre": "Licenciatura en Contador Público",
         "modalidad": ["Presencial", "Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": [ "Matamoros", "Monterrey", "Reynosa", "Sabinas", "Saltillo", "Torreon", "Piedras Negras" ],
+        "campus": [ "Matamoros", "Monterrey", "Reynosa", "Sabinas", "Saltillo", "Torreón", "Piedras Negras" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
@@ -282,7 +282,7 @@
         "nombre": "Licenciatura en Comunicación",
         "modalidad": ["Presencial", "Online"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": [ "Saltillo", "Torreon", "Monclova", "Piedras Negras" ],
+        "campus": [ "Saltillo", "Torreón", "Monclova", "Piedras Negras" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1Stw3--PtA0_0qK13VxwxPwrweM4IlfLZ",
@@ -358,7 +358,7 @@
         "nombre": "Ingeniería en Sistemas",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Exactas"],
-        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1bBv99_xuMk_M2DhAwzDc0WxaQtGKs9WW",
@@ -388,7 +388,7 @@
         "nombre": "Licenciatura en Administración y Liderazgo Empresarial",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1SoA5ssMvmxkcxky4xmh_k08qGMxcguIT",
@@ -404,7 +404,7 @@
         "nombre": "Licenciatura en Contaduría",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Económico - Administrativo"],
-        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
@@ -419,7 +419,7 @@
         "nombre": "Licenciatura en Gestión Deportiva",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales y Administrativas"],
-        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros"],
+        "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1iWJf1IJ_ew8fwl7Ibr2j7gTjKGZoqAx8",
