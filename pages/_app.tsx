@@ -33,10 +33,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-      </Head>
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-1ZX45TXRD5" />
       <Script id='google-analytics'
         strategy="afterInteractive"

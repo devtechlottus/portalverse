@@ -1,8 +1,12 @@
-import { Html, Main, NextScript } from "next/document"
+import { Html, Head, Main, NextScript } from "next/document"
 
 export default function Document() {
   return (
     <Html lang="es">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      </Head>
       <body>
         {/* // // Meta Pixel Code (noscript) */}
         <noscript><img height="1" width="1" style={{"display":"none","visibility":"hidden"}} src="https://www.facebook.com/tr?id=487461332128996&amp;ev=PageView&amp;noscript=1"/></noscript>
