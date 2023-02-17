@@ -15,6 +15,7 @@ import NumbersPortalverse from "@/components/NumbersPortalverse/NumbersPortalver
 import BannerPortalverse from "@/components/BannerPortalverse"
 import CarouselCards from "@/components/CarouselCards/CarouselCards"
 import Button from "@/components/Button/Button"
+import CardWebsitePortalverse from "@/components/CardWebsitePortalverse"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
   const router = useRouter();
@@ -76,7 +77,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-6 w-p:mb-6">
           {
             sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-             <CardWebsite data={item}/>
+             <CardWebsitePortalverse classNames="w-d:h-[250px] w-t:h-[250px] w-p:[250px]" data={item}/>
             </section>)
           }
         </section>
@@ -103,7 +104,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
               <Video dimensions={["330px","400px","200px"]} data={ sections.descubre } />
             }
           </div>
-          
       </ContentLayout>
     </HeaderFooterLayout>
   </>
