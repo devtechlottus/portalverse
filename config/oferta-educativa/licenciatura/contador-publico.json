@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Contador Público",
       "modalidad": ["Presencial", "Online", "Flex"],
       "areaConocimiento": ["Económico - Administrativo"],
-      "campus": [ "Matamoros", "Reynosa", "Sabinas", "Saltillo", "Torreon" ],
+      "campus": [ "Matamoros", "Monterrey", "Reynosa", "Sabinas", "Saltillo", "Torreón", "Piedras Negras" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1UiKEMtX_af1TFKeEKX4cwBomaM3wEjVf",
@@ -22,7 +22,7 @@
           "Reynosa": "1A1wlnFAbL1FZpbk4MccKlLx81C7q2_57",
           "Sabinas": "19uhSjtgWC1EdS_thdGJAWb8RKY5htxdr",
           "Saltillo": "1dpRmwgGolcPoAFJDNNO6AIyzgkytsqJ_",
-          "Torreon": "1ERXVMEdpsRrsY8C2IpJ5Ux-311KgZheU"
+          "Torreón": "1ERXVMEdpsRrsY8C2IpJ5Ux-311KgZheU"
         },
         "Flex": "1aUCG4dx8wq0atZWhaH20TP2bkPu7hGcz",
         "Online": "10677MclrG_XAbT0MXCcgDisc_GqFgx47"

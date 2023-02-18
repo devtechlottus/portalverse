@@ -10,7 +10,7 @@
       "nombre": "Licenciatura en Administración de Recursos Humanos",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": [ "Saltillo", "Sabinas", "Torreon", "Piedras Negras", "Monclova" ],
+      "campus": [ "Saltillo", "Sabinas", "Torreón", "Piedras Negras", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1Q6IzEe1kUTpX0dX-SfABk4GGlbwb5yek",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1xQy97-Ld4afqiIDwaLjwtT6XSsHDiKyV",
           "Sabinas": "1rkV5jB6Kf34VrGisyFrGNy0pWxRfBPVL",
-          "Torreon": "1FbHPvkRrnQfXjOJOgmmw8Rbn7kN_D2CK",
+          "Torreón": "1FbHPvkRrnQfXjOJOgmmw8Rbn7kN_D2CK",
           "Piedras Negras": "1_dZf746WglxJyTUHz-PT8tp5bf1kk6U7",
           "Monclova": "1bJrNjDH5IMxpVE-2NCgbdHaPOACylkys"
         }

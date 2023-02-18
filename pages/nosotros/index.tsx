@@ -55,28 +55,31 @@ const SomosUane: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="bg-darkBlue text-white mt-18 w-t:mt-3 w-p:mt-3">
-        <ContentLayout classNames="my-6">
-          <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 my-6">
+        <ContentLayout classNames="w-d:my-6">
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:mt-6 w-p:mt-6 w-d:my-auto">
             <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.missionAndVission.title}</p>
-          </div>
-          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden my-6">
-            <Image
-              alt={ sections.missionAndVission.image.desk.alt }
-              src={ sections.missionAndVission.image.desk.src }
-              classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
-            />
-          </div>
-          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
-            <RichtText font="dark" data={{
+            <RichtText font="dark" classNames="w-t:hidden w-p:hidden" data={{
             content: sections.missionAndVission.description
           }} />
           </div>
-          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden mb-6">
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden">
             <Image
               alt={ sections.missionAndVission.image.desk.alt }
               src={ sections.missionAndVission.image.desk.src }
               classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
             />
+          </div>
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden w-d:my-20">
+            <Image
+              alt={ sections.missionAndVission.image.desk.alt }
+              src={ sections.missionAndVission.image.desk.src }
+              classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
+            />
+          </div>
+          <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:mb-6 w-p:mb-6">
+            <RichtText font="dark" data={{
+            content: sections.missionAndVission.description
+          }} />
           </div>
         </ContentLayout>
       </ContentFullLayout>

@@ -10,7 +10,7 @@
       "nombre": "Ingeniería en Sistemas",
       "modalidad": ["Online", "Flex"],
       "areaConocimiento": ["Ciencias Exactas"],
-      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreon", "Matamoros" ],
+      "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=151LIVLLW4gJb99mVmQ-V7CVwXSM3UhpG",
@@ -21,7 +21,7 @@
           "Saltillo": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
           "Monterrey": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
           "Piedras Negras": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
-          "Torreon": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
+          "Torreón": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX",
           "Matamoros": "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX"
         },
         "Online": "1tsfsZVpUre1enEsH9H2TMrEbUFJp_vBf"

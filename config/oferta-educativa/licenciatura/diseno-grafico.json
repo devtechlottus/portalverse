@@ -10,7 +10,7 @@
       "nombre": "Diseño Gráfico",
       "modalidad": ["Presencial", "Flex"],
       "areaConocimiento": ["Ciencias Sociales", "Humanidades"],
-      "campus": ["Saltillo", "Matamoros", "Torreon", "Monclova"],
+      "campus": ["Saltillo", "Matamoros", "Torreón", "Monclova", "Monterrey", "Piedras Negras"],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1FZpT3gqKOkWmxbzIPp-e8n_1jxfP-ugm",
@@ -20,7 +20,7 @@
         "Presencial": {
           "Saltillo": "1UXcJqdtiQ6wj2oNL6tO2HY8zBgGYeBIZ",
           "Matamoros": "1rcl0LY1VYPnswP71u0MK3UezWbF9MlAm",
-          "Torreon": "1S3HeFlly9snhSc2XkxWA98vYgo6R3r7D",
+          "Torreón": "1S3HeFlly9snhSc2XkxWA98vYgo6R3r7D",
           "Monclova": "1GXTfFtc9SWu3buUHyO8OwWDPS6qxP_wi"
         },
         "Flex": "1LAJderNYz2mPNrQhh4AHCnFfm4o8zPtw"

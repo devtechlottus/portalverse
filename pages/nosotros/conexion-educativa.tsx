@@ -17,6 +17,7 @@ import Mosaic from "@/components/Mosaic"
 import Button from "@/components/Button/Button"
 import TabsFeatured from "@/components/TabsFeatured"
 import Feedback from "@/components/Feedback"
+import Icon from "@/components/Icon"
 
 
 const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -136,26 +137,35 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
 
       </ContentFullLayout>
       <ContentLayout>
-      {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col p-2 border rounded-lg my-6">
-           <Feedback data={sections.head.feedback} children={<div>
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex flex-col my-6">
+          <Feedback data={sections.head.feedback}>
+            <div slot="areaFeedbackContent">
+            <p className="font-normal font-Nunito text-base mb-6">{sections.head.feedback.title}</p>
             <RichtText data={{
-              content: "<b>Convenio</b>\n\nA través del convenio, podrás ofrecer a tus colaboradores y a su familia directa (esposo o esposa e hijos) becas para estudiar programas presenciales o en la modalidad online. Si deseas más información envía un correo a:"
-            }} />
+                content: sections.head.feedback.text
+              }} />
             <div className="flex align-middle items-center">
               <span className="material-icons text-SC/Blackandgrey/B-60">mail</span>
-              <LinkContactTarget type={"email"} info={"vinculación@uane.edu.mx"} />
+              <LinkContactTarget type={"email"} info={sections.head.feedback.contact} />
             </div>
-           </div>}/>
-          </div> */}
+          </div>
+          </Feedback>
+        </div>
         <div className="col-span-6 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.descriptionSection.title}</p>
           {
             sections.descriptionSection.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
-                <Image classNames="h-[100%]" src={item.icon} alt={item.icon} />
-                <RichtText data={{
+                <ContentLayout classNames="gap-6">
+                  <div className="col-span-2 w-t:col-span-1 w-p:col-span-1">
+                    <Icon name={item.name} className="w-14 h-14 text-red-500"/>
+                  </div>
+                  <div className="col-span-10 w-t:col-span-7 w-p:col-span-3">
+                    <RichtText data={{
                 content: item.text
               }} />
-              </div>
+                  </div>
+                </ContentLayout>
+              </div> 
             )
           }
           {/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center mt-9">
@@ -166,7 +176,7 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         <Image
             alt={ sections.descriptionSection.image.desk.alt }
             src={ sections.descriptionSection.image.desk.src }
-            classNames="aspect-1/1 w-t:aspect-2/1 w-p:aspect-2/1"
+            classNames="aspect-3/4 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
         </ContentLayout>

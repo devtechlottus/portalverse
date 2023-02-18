@@ -9,7 +9,7 @@
     "config": {
       "nombre": "Maestría en Administración",
       "modalidad": ["Online"],
-      "areaConocimiento": ["Económico - Administrativas"],
+      "areaConocimiento": ["Económico - Administrativo"],
       "campus": [],
       "nivel": ["Posgrado"],
       "image": {

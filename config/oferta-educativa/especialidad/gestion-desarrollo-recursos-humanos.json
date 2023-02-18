@@ -10,7 +10,7 @@
       "nombre": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
       "modalidad": ["Presencial"],
       "areaConocimiento": ["Ciencias Sociales"],
-      "campus": ["Piedras Negras", "Monclova", "Matamoros"],
+      "campus": ["Piedras Negras"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1J5StMMqCobA-6ozD0XfX2Di5oMWdX1sN",
@@ -18,9 +18,7 @@
       },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": "11hEtwJ5oE1vBuC_3w1QkLcbzIFd9ZepI",
-          "Monclova": "16cMXXm2LgeVYUmox8Pjq31JOWv9NLETA",
-          "Matamoros": "1qfFMlFyzZkNO6MgJgiTppPtMPlLYncw5"
+          "Piedras Negras": "11hEtwJ5oE1vBuC_3w1QkLcbzIFd9ZepI"
         }
       }
     }

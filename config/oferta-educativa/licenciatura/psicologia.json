@@ -8,9 +8,9 @@
     "title": "Licenciatura en Psicología",
     "config": {
       "nombre": "Licenciatura en Psicología",
-      "modalidad": ["Presencial", "Flex"],
-      "areaConocimiento": ["Ciencias Sociales"],
-      "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreon", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
+      "modalidad": ["Presencial", "Online", "Flex"],
+      "areaConocimiento": ["Ciencias de la Salud", "Ciencias Sociales"],
+      "campus": [ "Saltillo", "Monterrey" , "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
       "nivel": ["Licenciatura"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1mcSvxgwuT1q2IZU_ZNbQFUKeF_s-W9iJ",
@@ -21,7 +21,7 @@
           "Saltillo": "1IyRB9sRFHBn1JbEAdxCQ0Vc-w3NHv1JA",
           "Monterrey": "1DIbnCHKGLYBtHVdWLogiUc2rRba4WJ8r",
           "Matamoros": "1QQD1i_1EEOEl0kIYc4gRWQQpQ7qPHlYX",
-          "Torreon": "1QITOLsbvcmI8PkA-iRofCLDZjTZJ-5XJ",
+          "Torreón": "1QITOLsbvcmI8PkA-iRofCLDZjTZJ-5XJ",
           "Piedras Negras": "1f75-kxsLPi2_GVMDBUQPpN0cz2mofCyN",
           "Sabinas": "1cP3064cAw3OVyN-ZO_VFMkkdK9ygBqww",
           "Reynosa": "1E8wpoKqSbNTW-MsYB4Sae8fRwpdMb20Q",

@@ -532,7 +532,7 @@
         {
           "color": "#E84537", "sections": [
             { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fwHcsFIBNdKFZt0Xl5fvIUVg-ObCYsYu", "alt": "imagen-item" } },
-            { "title": "Intercambio de Materias (virtual)", "description": "Posibilidad de cursar una materia completa en línea, en alguna universidad extranjera asociada. Créditos revalidados por UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fjPHVnTGD9JYk3G4tHuDDSezns3vK3jE", "alt": "imagen-item" } },
+            { "title": "Intercambio de Materias Virtual", "description": "Posibilidad de cursar una materia completa en línea, en alguna universidad extranjera asociada. Créditos revalidados por UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fjPHVnTGD9JYk3G4tHuDDSezns3vK3jE", "alt": "imagen-item" } },
             { "title": "Semestre | Año Study Abroad", "description": "En esta modalidad podrás cursar, de forma presencial, un semestre o año completo en alguna universidad en el extranjero. Deberás revisar los planes de estudios y consultar con Academia para saber cuáles son las materias que se revalidan.", "image": { "src": "https://drive.google.com/uc?export=view&id=1uupVvb87v9z0z64KFmYwJiAav9sHGfRy", "alt": "imagen-item" } }
           ]
         },

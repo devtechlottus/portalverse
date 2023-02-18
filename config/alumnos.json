@@ -11,7 +11,7 @@
     },
     "accesos": [
       { 
-        "urlImage": "https://drive.google.com/uc?export=view&id=17IHKUeFZlozxvkt1GRKKU9CHkO_QBYJQ",
+        "image": "https://drive.google.com/uc?export=view&id=17IHKUeFZlozxvkt1GRKKU9CHkO_QBYJQ",
         "subtitle": "",
         "title": "SIUANE",
         "text": "Portal para estudiantes: Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
@@ -21,30 +21,21 @@
         "isShowCardWebsiteContent": true,
         "id": "",
         "type": "vertical",
-        "link": true,
+        "isLink": true,
         "background": false,
-        "linkText": {
+        "link": {
           "text": "Ver más",
-          "isBold": true,
-          "size": "large",
-          "isUnderline": false,
-          "disabled": false,
-          "icon": "visibility"
-        },
-        "linkIcon": {
-          "text": "Ver más",
-          "iconSecond": "play_circle",
+          "iconSecond": "chevron_right",
           "isBold": true,
           "size": "large",
           "isUnderline": false,
           "disabled": false,
           "icon": ""
         },
-        "wrapper": true,
         "redirect": "http://sistema.uane.edu.mx/siuane/login.aspx"
       },
       { 
-        "urlImage": "https://drive.google.com/uc?export=view&id=1vN8A17tA73ECHhlapbvLgJVIo5ZW0sEa",
+        "image": "https://drive.google.com/uc?export=view&id=1vN8A17tA73ECHhlapbvLgJVIo5ZW0sEa",
         "subtitle": "",
         "title": "AULA VIRTUAL MOODLE",
         "text": "Hemos diseñado una plataforma de aprendizaje seguro para que aproveches tus clases virtuales al máximo.",
@@ -54,30 +45,22 @@
         "isShowCardWebsiteContent": true,
         "id": "",
         "type": "vertical",
-        "link": true,
+        "isLink": true,
         "background": false,
-        "linkText": {
-          "text": "Conocer más",
-          "isBold": true,
-          "size": "large",
-          "isUnderline": false,
-          "disabled": false,
-          "icon": "star"
-        },
-        "linkIcon": {
+        "link": {
           "text": "Ver más",
-          "iconSecond": "",
+          "iconSecond": "chevron_right",
           "isBold": true,
           "size": "large",
           "isUnderline": false,
           "disabled": false,
-          "icon": ""
+          "icon": "chevron_right"
         },
         "wrapper": true,
         "redirect": "https://aula.uane.mx/my/"
       },
       { 
-        "urlImage": "https://drive.google.com/uc?export=view&id=1D2BUw7hrBN6M_fVDEIO7lbYB25a_sQiT",
+        "image": "https://drive.google.com/uc?export=view&id=1D2BUw7hrBN6M_fVDEIO7lbYB25a_sQiT",
         "subtitle": "",
         "title": "ESPACIO DIGITAL CANVAS ",
         "text": "Herramientas digitales que facilitan la enseñanza y aprendizaje. Accede a la información de manera simple.",
@@ -87,19 +70,11 @@
         "isShowCardWebsiteContent": true,
         "id": "",
         "type": "vertical",
-        "link": true,
+        "isLink": true,
         "background": false,
-        "linkText": {
-          "text": "Conocer más",
-          "isBold": true,
-          "size": "large",
-          "isUnderline": false,
-          "disabled": false,
-          "icon": "star"
-        },
-        "linkIcon": {
+        "link": {
           "text": "Ver más",
-          "iconSecond": "arrow_right",
+          "iconSecond": "chevron_right",
           "isBold": true,
           "size": "large",
           "isUnderline": false,

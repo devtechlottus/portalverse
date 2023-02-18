@@ -10,7 +10,7 @@
       "nombre": "Maestría en Gestión de Negocios de Manufactura",
       "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias Exactas"],
-      "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreon"],
+      "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón"],
       "nivel": ["Posgrado"],
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1V6_FNN0Rt7VFKtIP_70sEDIgveGlotje",
@@ -22,7 +22,7 @@
           "Monclova": "1l6O8RFJJY4aC4yA_hjXSXwFbHSl-t6R4",
           "Piedras Negras": "153PC3QIS0Xs3BYbRldM6ZQft-gS2i3qW",
           "Saltillo": "1ijXFhjsH5BddAIZEtUEn7Zv2VwO7carE",
-          "Torreon": "1il_A08geq8j8zwkhcR2jPjLfV0tgjoKo"
+          "Torreón": "1il_A08geq8j8zwkhcR2jPjLfV0tgjoKo"
         },
         "Online": "1m9ajhCifASkvhDBMb9MzNOrr8xVqhcBw"
       }

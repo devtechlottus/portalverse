@@ -17,6 +17,7 @@ import RichtText from "@/components/Richtext/Richtext"
 import TabsFeatured from "@/components/TabsFeatured"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import Button from "@/components/Button/Button"
+import CardWebsitePortalverse from "@/components/CardWebsitePortalverse"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   const router = useRouter()
@@ -67,7 +68,7 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
           <Image
             alt={ sections.head.image.desk.alt }
             src={ sections.head.image.desk.src }
-            classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-4/3"
+            classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:col-start-2 w-t:col-end-8 mb-12 w-t:mb-6 w-p:mb-6">
@@ -134,7 +135,7 @@ const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
         </div>
         <div className="col-span-5 w-t:col-span-8 w-p:col-span-4">
           <p className="font-Poppins font-bold leading-[130%] text-5.5 mb-[30px]">{ sections.llamanos.title }</p>
-          <CardWebsite data={ sections.llamanos.card }/>
+          <CardWebsitePortalverse data={ sections.llamanos.card }/>
         </div>
       </ContentLayout> 
     </HeaderFooterLayout>

@@ -92,19 +92,22 @@
     "llamanos": {
       "title": "¿Tienes dudas? llámanos",
       "card": { 
-        "urlImage": "https://drive.google.com/uc?export=view&id=1S1dJyvzulBkHkDD-I0pDIL7yXoe75N7J",
+        "image": "https://drive.google.com/uc?export=view&id=1S1dJyvzulBkHkDD-I0pDIL7yXoe75N7J",
         "subtitle": "",
         "title": "Oficinas de servicios estudiantiles y Centros de admisión",
-        "text": "Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.\n  8008228263\n Correo: hola@uane.edu.mx",
+        "text": "Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.\n\n8008228263\n\nCorreo: hola@uane.edu.mx",
         "border": true,
-        "allContent": true,
-        "height": "",
-        "isShowCardWebsiteContent": true,
-        "id": "",
         "type": "vertical",
-        "link": true,
         "background": false,
-        "wrapper": true
+        "link": {
+          "text": "",
+          "size": "",
+          "disabled": false,
+          "isUnderline": false,
+          "isBold": false,
+          "iconFirst": "person",
+          "iconSecond": "person"
+        }
       }
     }
   }
