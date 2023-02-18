@@ -461,9 +461,11 @@
         {
         "font": "light",
         "type": "sm",
+        "overlayWhite": false,
+        "overlayDark": true,
         "title": "Escucha más capítulos de nuestro Podcast",
         "subtitle": "Un episodio cada semana\nDisponible en spotify y youtube",
-        "state": "",
+        "state": "black",
         "size": "medium",
         "middle": false,
         "center": false,
@@ -473,7 +475,7 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1PxpL4iD-k-bD2qehvHN2mPhrij84Id8D",
           "desktop": "https://drive.google.com/uc?export=view&id=1Z8gYEfM1fKAaMm1YZozLLO1ix87fEXq-"
         },
-        "overlay": "",
+        "overlay": "black",
         "height": "342px",
         "action": {
           "id": "",
@@ -495,17 +497,19 @@
         "type": "sm",
         "title": "Voz UANE ayuda a difundir tus ideas",
         "subtitle": "Si eres parte de la comunidad contacta al equipo",
-        "state": "",
+        "state": "black",
         "size": "medium",
         "middle": false,
         "center": false,
         "bottom": false,
         "left": false,
+        "overlayWhite": false,
+        "overlayDark": true,
         "urlImage": {
           "mobile": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
           "desktop": "https://drive.google.com/uc?export=view&id=1rfwqaFTjoYOWhiUeqaoFbcV58yIRJLHD"
         },
-        "overlay": "",
+        "overlay": "black",
         "height": "342px",
         "action": {
           "id": "",

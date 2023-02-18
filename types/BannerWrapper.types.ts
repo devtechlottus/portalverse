@@ -38,11 +38,12 @@ type BannerWrapperConfig = {
   /**
    * Url image banner
    */
-  urlImage?: Image;
+  urlImage: Image;
   /**
    * Overlay background black | white
    */
-  overlay?: string;
+  overlayWhite: boolean;
+  overlayDark: boolean;
   /**
    * Height banner
    */

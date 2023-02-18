@@ -132,22 +132,27 @@
       "textIcons":[
         {
           "icon": "https://drive.google.com/uc?export=view&id=1T0zh7_wWn_U7vC8Ghb1OnvK9Vf_iw8RI",
+          "name": "nuevascompetencias", 
           "text": "<b>Adquieres nuevas competencias:</b>\n\nEn la universidad conoces la teoría, pero en el mundo laboral adquieres conocimientos prácticos, destrezas y habilidades."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1zMwTLnS12WxMDnzO7oUt1MhUZYKtaqIv",
+          "name": "buscarempleo", 
           "text": "<b>Aprendes a buscar trabajo:</b>\n\nBuscar prácticas profesionales sirve de entrenamiento para buscar empleo. Redactar un cv atractivo será una tarea más sencilla para ti."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1oxx9Lwrg7_C5nnNGnqYIsU7Y4QmDbTgM",
+          "name": "hacercontactos", 
           "text": "<b>Hacer contactos:</b>\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
+          "name": "conseguirempleto", 
           "text": "<b>Posibilidad de conseguir un empleo:</b>\n\nLas prácticas te permitirán establecer contactos con profesionales del sector y pueden ser una excelente carta de recomendación."
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
+          "name": "mejorarcurriculim", 
           "text": "<b>Mejorar  el currículum:</b>\n\nLa realización de prácticas permite ampliar tu CV y demuestra tu interés por incorporarte al mundo laboral."
         }
       ],

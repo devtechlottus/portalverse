@@ -17,6 +17,11 @@ import InstagramIcon from "@/icons/Instagram.svg"
 import TikTokIcon from "@/icons/TikTok.svg"
 import YoutubeIcon from "@/icons/Youtube.svg"
 import SortIcon from "@/icons/sort.svg"
+import buscarTrabajo from "@/icons/buscarTrabajo.svg"
+import conseguirEmpleo from "@/icons/conseguirEmpleo.svg"
+import hacerContactos from "@/icons/hacerContactos.svg"
+import mejorarCurriculum from "@/icons/mejorarCurriculum.svg"
+import nuevasCompetencias from "@/icons/nuevasCompetencias.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -36,7 +41,13 @@ const iconTypes: any = {
   graduatecap: GraduateCap,
   trophy: Trophy,
   triangledown: TriangleDown,
-  sort: SortIcon
+  sort: SortIcon,
+  buscarempleo: buscarTrabajo,
+  conseguirempleto: conseguirEmpleo,
+  mejorarcurriculim: mejorarCurriculum,
+  hacercontactos: hacerContactos,
+  nuevascompetencias: nuevasCompetencias
+  
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
