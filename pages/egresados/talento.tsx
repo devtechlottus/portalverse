@@ -11,6 +11,7 @@ import { YoutubeOptions } from "@/types/Youtube.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import RichtText from "@/components/Richtext/Richtext"
 import Cintillo from "@/components/Cintillo"
+import CardWebsitePortalverse from "@/components/CardWebsitePortalverse"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -53,7 +54,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
            sections.experiencias.cards.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite data={item} onClick={() => handleClickTalent(item.video)} />
+              <CardWebsitePortalverse classNames="h-[230px]" data={item} onClick={() => handleClickTalent(item.video)} />
             </section>)
           }
         </section>

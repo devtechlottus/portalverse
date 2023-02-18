@@ -244,100 +244,58 @@
       "title": "Voz UANE blog",
       "notas": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1-H0lWSF74-m7I27Ajimfv-3MklsQ0nZ_",
+          "image": "https://pixlr.com/images/index/remove-bg.webp",
           "subtitle": "",
           "title": "Coursera y UANE se unen para ti",
-          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium a repellendus reiciendis repellat, libero corrupti similique error doloremque cupiditate eveniet cumque, quaerat tempore voluptatibus culpa? Similique alias delectus nostrum voluptatem. Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
           "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
           "type": "vertical",
-          "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
+          "link": {
+            "text": "hola",
+            "size": "",
             "disabled": false,
-            "iconSecond": "chevron_right"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "chevron_right",
-            "isBold": true,
-            "size": "large",
             "isUnderline": false,
-            "disabled": false,
-            "icon": "chevron_right"
-          },
-          "wrapper": true
+            "isBold": false,
+            "iconFirst": "person",
+            "iconSecond": "person"
+          }
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1_HDZ0yzh3bmGey33AoUhO4oOMKDTW4ON",
+          "image": "https://pixlr.com/images/index/remove-bg.webp",
           "subtitle": "",
           "title": "Coursera y UANE se unen para ti",
-          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium a repellendus reiciendis repellat, libero corrupti similique error doloremque cupiditate eveniet cumque, quaerat tempore voluptatibus culpa? Similique alias delectus nostrum voluptatem. Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
           "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
           "type": "vertical",
-          "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
+          "link": {
+            "text": "hola",
+            "size": "",
             "disabled": false,
-            "iconSecond": "chevron_right"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "chevron_right",
-            "isBold": true,
-            "size": "large",
             "isUnderline": false,
-            "disabled": false,
-            "icon": "chevron_right"
-          },
-          "wrapper": true
+            "isBold": false,
+            "iconFirst": "person",
+            "iconSecond": "person"
+          }
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1Xlshz6sWTpWQhjCH5ZtF6PLZNHVFl0jF",
+          "image": "https://pixlr.com/images/index/remove-bg.webp",
           "subtitle": "",
           "title": "Coursera y UANE se unen para ti",
-          "text": "Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
+          "text": " voluptatibus culpa? Similique alias delectus nostrum voluptatem. Se firma una alianza con Coursera para acceder a contenidos que complementen la formación profesional de su comunidad educativa",
           "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
           "type": "vertical",
-          "link": true,
           "background": false,
-          "linkText": {
-            "text": "Conocer más",
-            "isBold": true,
-            "size": "large",
-            "isUnderline": false,
+          "link": {
+            "text": "hola",
+            "size": "",
             "disabled": false,
-            "iconFirst": "chevron_right"
-          },
-          "linkIcon": {
-            "text": "Ver más",
-            "iconSecond": "chevron_right",
-            "isBold": true,
-            "size": "large",
             "isUnderline": false,
-            "disabled": false,
-            "icon": "chevron_right"
-          },
-          "wrapper": true
+            "isBold": false,
+            "iconFirst": "person",
+            "iconSecond": "person"
+          }
         }
       ]
     },

@@ -442,34 +442,24 @@
       "description": "En UANE dejamos huella de oso en cada paso que damos, piensa y estudia en grande.",
       "cards": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1dUsNbdPsO41DxKvGxCixRy3Kh4SxEgiu",    
+          "image": "https://drive.google.com/uc?export=view&id=1dUsNbdPsO41DxKvGxCixRy3Kh4SxEgiu",    
           "subtitle": "Alumna, en Psicología",
           "title": "María Torres",
           "text": "\"Estudiar en UANE hace que me sienta como en casa, soy parte de una familia.\"",
           "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
           "type": "vertical",
-          "link": true,
-          "background": false,
-          "wrapper": true
+          "islink": false,
+          "background": true
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1zS4Yaux64foY96PUFyFulCV8c50Brbbb",
+          "image": "https://drive.google.com/uc?export=view&id=1zS4Yaux64foY96PUFyFulCV8c50Brbbb",
           "subtitle": "Egresado, Lic. en Mercadotecnia Internacional",
           "title": "Erick Santoyo",
           "text": "\"UANE ha transformado mis experiencias laborales permitiendo crecer con todas las herramientas y conocimientos que adquirí durante mi carrera profesional\"",
           "border": true,
-          "allContent": true,
-          "height": "",
-          "isShowCardWebsiteContent": true,
-          "id": "",
           "type": "vertical",
-          "link": true,
-          "background": false,
-          "wrapper": true
+          "islink": false,
+          "background": true
         }
       ],
       "button":{"title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "redirect": "egresados/talento"},

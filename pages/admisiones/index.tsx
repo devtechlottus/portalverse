@@ -17,6 +17,7 @@ import TabsFeatured from "@/components/TabsFeatured"
 import Video from "@/components/Video"
 import BannerPortalverse from "@/components/BannerPortalverse"
 import RichtText from "@/components/Richtext/Richtext"
+import CardWebsitePortalverse from "@/components/CardWebsitePortalverse"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -80,7 +81,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
                     mode="light"
                     title={title}
                     description={description}
-                    classNames={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 py-[40px] w-t:py-[94px] w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
+                    classNames={cn("col-span-7 grid grid-cols-7 gap-6 w-t:col-span-8 w-t:grid-cols-8 w-p:col-span-4 w-p:flex w-p:flex-col w-p:p-6", { "hidden w-p:hidden": tabActive !== i })}
                     titleStyles="col-start-2 col-end-7 w-t:col-end-8"
                     descriptionStyles="col-start-2 col-end-7 w-t:col-end-8"
                     action={
@@ -92,7 +93,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
                   <Image
                     alt={alt}
                     src={src}
-                    classNames={cn("aspect-4/3 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
+                    classNames={cn("aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1 col-span-5 w-t:col-start-2 w-t:col-end-8 w-p:col-span-4", { "hidden": tabActive !== i })}
                   />
                   <section className={cn("col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1", { "hidden w-p:hidden": tabActive !== i })}>
                     {
@@ -144,7 +145,7 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           <section className="grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
             sections.egresados.cards.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-            <CardWebsite data={item}/>
+            <CardWebsitePortalverse  data={item}/>
            </section>)
           }
           </section>
