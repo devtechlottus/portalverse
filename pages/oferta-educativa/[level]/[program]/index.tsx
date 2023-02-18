@@ -157,7 +157,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                     <h1 className="ac-type-h5-bold-solid-poppins-desktop w-t:ac-type-h5-bold-solid-poppins-tabmob w-p:ac-type-h5-bold-solid-poppins-tabmob">Selecciona un campus para descargar tu plan de estudios en esta modalidad</h1>
                     <div className="my-6">
                       <p className="font-Nunito-Sans font-normal text-xs mb-0">Los planes de estudio pueden variar por campus*</p>
-                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elige el campus de tu interés", icon: "apartment"}} options={selectData}/>
+                      <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elige el campus de tu interés", icon: "apartment"}} options={selectData} flagHeight={true}/>
                     </div>
                     <div className="flex justify-center">
                       <Button dark data={{...sections.descarga, disabled: !fileSelected}} onClick={downloadFileProgram} />

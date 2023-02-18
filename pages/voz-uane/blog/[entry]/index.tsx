@@ -107,7 +107,7 @@ export async function getStaticProps(context: any) {
     const pre_blog_post = blogposts.data[0].attributes
     const related_posts = pre_blog_post.related_posts.data.map((post: any) => {
       const url = post.attributes.featured_image?.data.attributes.formats.thumbnail.url || post.attributes.featured_image.data.attributes.url;
-      const urlImage = `${env.NEXT_PUBLIC_STRAPI_URL}${url}`
+      const urlImage = replaceURL(url, "thumbnail")
       return { ...post.attributes, urlImage }
     })
     const featured_image = {

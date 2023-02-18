@@ -53,7 +53,7 @@
       ],
       [
         { "label": "Oferta educativa", "principal": true, "link": "/oferta-educativa", "external": false },
-        { "label": "Bachillerato", "principal": false, "link": "/oferta-educativa/bachillerato", "external": false },
+        { "label": "Bachillerato", "principal": false, "link": "/oferta-educativa/bachillerato/bachillerato", "external": false },
         { "label": "Licenciaturas", "principal": false, "link": "/oferta-educativa/licenciatura", "external": false },
         { "label": "Maestrías", "principal": false, "link": "/oferta-educativa/maestria", "external": false },
         { "label": "Especialidades", "principal": false, "link": "/oferta-educativa/especialidad", "external": false },
