@@ -117,7 +117,7 @@
           "title": "FIDENCIO GONZÁLEZ",
           "text": "Ganador de la medalla de oro de los Juegos Panamericanos de Lima en 2019, Fidencio es Atleta de la Selección Mexicana de Tiro Deportivo y nos cuenta su paso por UANE Monterrey.",
           "border": true,
-          "type": "horizontal",
+          "type": "vertical",
           "background": false,
           "isLink": true,
           "link": {

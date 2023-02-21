@@ -222,7 +222,7 @@
         "nombre": "Maestría en Docencia",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": ["Saltillo", "Piedras Negras"],
+        "campus": ["Saltillo", "Piedras Negras", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=17iBk3MfmsjMRKepExJsfD6TOXCclplkw",
