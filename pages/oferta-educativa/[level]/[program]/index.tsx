@@ -181,7 +181,7 @@ const EducativeOfferProgram: NextPageWithLayout<any> = ({ level, program, meta, 
                   <RichtText font="light" data={{ content: sections.benefits.description }} />
                   <div className="my-6">
                   <p className="font-Nunito-Sans font-normal text-xs mb-0">Los planes de estudio pueden variar por campus*</p>
-                    <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elige el campus de tu interés"}} options={selectData}/>
+                    <Select onClick={(option: CustomEvent) => handleSelectOption(option)} data={{...SelectInit, textDefault: "Elige el campus de tu interés"}} options={selectData} flagHeight={true}/>
                   </div>
                   <Button dark data={{...sections.benefits.action , disabled: !fileSelected}} onClick={downloadFileProgram} />
                 </div>
