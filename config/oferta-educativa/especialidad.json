@@ -102,7 +102,7 @@
         "nombre": "Especialidad en Gestión y Desarrollo de Recursos Humanos",
         "modalidad": ["Presencial"],
         "areaConocimiento": ["Ciencias Sociales"],
-        "campus": ["Piedras negras"],
+        "campus": ["Piedras negras", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
           "src": "https://drive.google.com/uc?export=view&id=1WlapNthEipDJRj84WdS53OiqYlYbyJQP",
