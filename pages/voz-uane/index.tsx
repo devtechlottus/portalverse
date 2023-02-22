@@ -12,8 +12,11 @@ import Spotify from "@/components/Spotify"
 import BannerWrapper from "@/components/BannerWrapper"
 import BannerPortalverse from "@/components/BannerPortalverse"
 import { fetchStrapi, replaceURL } from "@/utils/getStrapi"
+import fetcher from "@/utils/fetcher"
+import getBlogPageData from "@/utils/getBlogPageData"
 
-const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
+const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts, data }: any) => {
+  console.log(data)
   const router = useRouter()
 
   const linkIcon = {
@@ -88,6 +91,7 @@ export async function getStaticProps(context: any) {
       notFound: true,
     }
   }
+  const data = await getBlogPageData()
 
   const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc','pagination[pageSize]=10'])
   const fullblogposts = await rawblogpost.json()
@@ -105,7 +109,7 @@ export async function getStaticProps(context: any) {
   })
 
   return {
-    props: { sections, meta, blog_posts }
+    props: { sections, meta, blog_posts, data }
   }
 }
 
