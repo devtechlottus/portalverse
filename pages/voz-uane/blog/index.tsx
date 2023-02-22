@@ -9,8 +9,14 @@ import ContentLayout from "@/layouts/Content.layout"
 import CardWebsite from "@/components/CardWebsite"
 import Slider from "@/components/SliderPortalverse"
 import { fetchStrapi, replaceURL } from "@/utils/getStrapi"
+import getBlogPageData from "@/utils/getBlogPageData"
 
-const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
+const Blog: NextPageWithLayout = ({ data }: any) => {
+  console.log("Data", data)
+  const {blogPageData, blogPostsData} = data
+  const blogPageAttributes = blogPageData?.blogPage?.data?.attributes
+  const metaTitle = blogPageAttributes?.seo?.metaTitle
+  const blogSliderData = blogPageAttributes?.sections?.[0]
   const router = useRouter()
   const linkIcon = {
     "text": "Ver más",
@@ -21,21 +27,23 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
     "disabled": false,
     "icon": ""
   }
+  console.log("slider", blogSliderData)
+
   return <>
     <Head>
-      <title>{ meta.title }</title>
+      <title>{ metaTitle }</title>
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
 			<ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <Slider data={{ ...sections.head.banner }} />
+          <Slider data={{ items: blogSliderData?.slide }} />
         </div>
       </ContentFullLayout>
 			<ContentLayout classNames="">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden w-p:hidden">
-          <Slider data={{ ...sections.head.banner, height: "600px" }} />
+          <Slider data={{ items: blogSliderData?.slide, height: "600px" }} />
         </div>
-				<div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:mt-6 w-p:mt-6">
+				{/* <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:mt-6 w-p:mt-6">
 					<p className="font-Poppins font-bold text-8.5 w-t:text-6 w-p:text-6 leading-[111%] w-t:leading-[125%] w-p:leading-[125%]">{sections.blogNotices.title}</p>
 				</div>
 				<section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
@@ -44,7 +52,7 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
               <CardWebsite onClick={() => router.push(`${router.pathname}/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
            </section>)
           }
-        </section>
+        </section> */}
 			</ContentLayout>
     </HeaderFooterLayout>
   </>
@@ -52,27 +60,30 @@ const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
 
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {	
-  const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
-  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc'])
-  const fullblogposts = await rawblogpost.json()
-  let blog_posts = fullblogposts.data.map((post: any) => {
-    const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
+  const data = await getBlogPageData()
+  return {props: {data}, revalidate: 10 }
 
-    let urlImage = replaceURL(featured_image, "small")
+  // const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
+  // const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc'])
+  // const fullblogposts = await rawblogpost.json()
+  // let blog_posts = fullblogposts.data.map((post: any) => {
+  //   const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
 
-    return {
-      abstract,
-      title,
-      slug,
-      urlImage,
-      publication_date
-    }
-  })
+  //   let urlImage = replaceURL(featured_image, "small")
 
-  return {
-    props: { data: {  level:'blog' }, sections, meta, blog_posts },
-    revalidate: 10
-  }
+  //   return {
+  //     abstract,
+  //     title,
+  //     slug,
+  //     urlImage,
+  //     publication_date
+  //   }
+  // })
+
+  // return {
+  //   props: { data: {  level:'blog' }, sections, meta, blog_posts },
+  //   revalidate: 10
+  // }
 }
 
 export default Blog

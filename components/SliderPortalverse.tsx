@@ -7,7 +7,7 @@ import React from "react";
 
 const SliderPortalverse: FC<any> = ({ data, onBtn, classNames, mobile = false }: any) => {
   const router = useRouter()
-
+ 
   const stylesBaseControls = "w-p:hidden select-none absolute top-[45%] p-1 rounded-lg text-[12px]";
 
   const [ active, setActive ] = useState<number>(0);
@@ -18,7 +18,7 @@ const SliderPortalverse: FC<any> = ({ data, onBtn, classNames, mobile = false }:
   const [ dir, setDir ] = useState<any>({xDown: null, yDown: null})
   const [ typeDir, setTypeDir] = useState<any>(null)
   const [ flag, setFlag ] = useState<any>(false)
-
+  console.log(slides)
   const detectResize = () => {
     setChangeDetect((prevState: number) => prevState + 1);
   }
@@ -94,8 +94,8 @@ const handleTouchStart = (evt: any) => {
   }, [changeDetect]);// eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    setCountItems(data.slides.length);
-    setSlides([ ...data.slides ]);
+    setCountItems(data.items.length);
+    setSlides([ ...data.items ]);
   }, [data])
 
   useEffect(() => {
@@ -146,7 +146,7 @@ const handleTouchStart = (evt: any) => {
   }
 
   const activeBulletSlide = (position: number) => setActive(position)
-
+  return null
   return <section className="relative z-1">
     {/* desktop */}
     <div className={cn("z-20 left-0", { "bg-white cursor-pointer": countItems > 1 }, stylesBaseControls)}>
@@ -154,7 +154,11 @@ const handleTouchStart = (evt: any) => {
     </div>
     <section style={{ "height": data.height }} className={cn("w-full flex overflow-hidden w-p:hidden")}>
       {
-        slides.map((item: any, i: number) => <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col grow aspect-2/1")}>
+        slides.map((item: any, i: number) => {
+          const desktopImage = item?.desktopImage?.data?.attributes?.url
+          const tabletImage = item?.tabletImage?.data?.attributes?.url
+          const mobileImage = item?.mobileImage?.data?.attributes?.url
+          return <div key={`slide-item-${i}`} style={{ "transition": "left 0.5s ease-out", "left": `${active === 0 ? 0 : `-${active*100}%`}` }} className={cn("w-full h-full relative flex flex-col grow aspect-2/1")}>
           <Image classNames="w-t:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.desktop} alt="image" />
           <Image classNames="w-d:hidden w-full h-full absolute z-1 aspect-2/1" src={item.urlImage.tablet} alt="image" />
           <div className="absolute z-10 w-full h-full pt-10 px-40">
@@ -170,7 +174,9 @@ const handleTouchStart = (evt: any) => {
           "bg-[#ffffff80]": item.overlayWhite,
           "bg-[#00000080]": item.overlayDak
           })}></div>
-        </div>)
+        </div>
+        }
+        )
       }
       <div className={cn("w-full flex justify-center absolute bottom-10 gap-2 z-20")}>
         {

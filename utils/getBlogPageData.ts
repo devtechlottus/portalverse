@@ -15,53 +15,56 @@ const getBlogPageData = async  () => {
 }
 
 const query = `query BlogPage {
-    blogPage {
-      data {
-        attributes {
-          title
-          slug
-          sections {
-            ...on ComponentSectionsHeroSlider {
-              slide {
-                title
-                subtitle
-                desktopImage {
-                  data {
-                    attributes {
-                      url
-                    }
-                  }
-                }
-                tabletImage {
-                  data {
-                    attributes {
-                      url
-                    }
-                  }
-                }
-                mobileImage {
-                  data {
-                    attributes {
-                      url
-                    }
-                  }
-                }
-                ctaUrl
-                ctaText
-                contentVariant
-                overlay
-              }
-            }
-            ...on ComponentSectionsListconfig {
+  blogPage {
+		data {
+      attributes {
+        title
+        slug
+        seo {
+          metaTitle
+        }
+        sections {
+          ...on ComponentSectionsHeroSlider {
+            slide {
               title
-              maxentries
-              relatesto
-              sortdate
+              subtitle
+              desktopImage {
+                data {
+                  attributes {
+                    url
+                  }
+                }
+              }
+              tabletImage {
+                data {
+                  attributes {
+                    url
+                  }
+                }
+              }
+              mobileImage {
+                data {
+                  attributes {
+                    url
+                  }
+                }
+              }
+              ctaUrl
+              ctaText
+              contentVariant
+              overlay
             }
+          }
+          ...on ComponentSectionsListconfig {
+            title
+            maxentries
+            relatesto
+            sortdate
           }
         }
       }
     }
-  }`
+  }
+}`
 
 export default getBlogPageData
