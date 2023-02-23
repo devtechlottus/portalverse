@@ -6,7 +6,7 @@ const getBlogPageData = async () => {
     //@ts-ignore
     process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API,
     query,
-    process.env.NEXT_PUBLIC_STRAPI_TOKEN
+    process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_TOKEN
   );
 
   const listConfigData = blogPageData?.blogPage?.data?.attributes?.sections?.[1];

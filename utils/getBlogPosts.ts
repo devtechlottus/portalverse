@@ -7,9 +7,8 @@ const getBlogPosts = async  (variables: any) => {
     maxentries,
     sortdate: querySortDate
   }
-  console.log(queryVariables)
   //@ts-ignore
-  const data = await fetcher<any>(process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API, query, process.env.NEXT_PUBLIC_STRAPI_TOKEN, queryVariables)
+  const data = await fetcher<any>(process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API, query, process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_TOKEN, queryVariables)
   
   return data
 }
