@@ -72,7 +72,45 @@
       "noAction": false,
       "redirect": "/nosotros/empleabilidad"
     },
-    "bannerOfertaEducativa": {
+    "bannerOfertaEducativa" :{
+      "image": {
+        "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
+        "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
+        "tablet": "https://drive.google.com/uc?export=view&id=1jFU-_03HH8rVc3D723BUAyEzwjTOhYPp"
+      },
+      "font": "light",
+      "title": "Podcast Voz UANE",
+      "subtitle": "Un episodio nuevo cada semana en Spotify y Youtube",
+      "state": "black",
+      "size": "medium",
+      "middle": false,
+      "center": false,
+      "bottom": false,
+      "left": false,
+      "urlImage": {
+        "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
+        "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq"
+      },
+      "overlay": "",
+      "height": "300px",
+      "overlayWhite":false,
+      "overlayDak": true,
+      "button":{
+        "id": "",
+        "type": "outlined",
+        "title": "Conocer más",
+        "size": "small",
+        "icon": "",
+        "lyIcon": false,
+        "disabled": false,
+        "isExpand": false,
+        "tagOnClick": "",
+        "test": ""
+      },
+      "noAction": false,
+      "redirect": "/voz-uane/podcast"
+    },
+    "bannerOfertaEducativa1": {
       "image": {
         "desktop": "https://drive.google.com/uc?export=view&id=1ublCyobsLlz7uKehh34mAfdpQ1or4eYv",
         "mobile": "https://drive.google.com/uc?export=view&id=190CNvADpywpMXK_QVM6udMb2GsV4HsMt",

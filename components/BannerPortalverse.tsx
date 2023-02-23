@@ -8,9 +8,9 @@ import Button from "@/components/Button/Button"
 const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, classNames, onClick }: BannerPortalverseComponentData) => {
 
   return<>
-      <div style={{"height": data?.height}} className={cn(`relative flex w-p:hidden`, classNames)} >
+      {/* <div style={{}} className={cn(`relative flex w-p:hidden`, classNames)} >
         <Image classNames="w-full h-full w-t:hidden w-p:hidden aspect-7/2" src={data.image?.desktop!} alt="image" />
-        <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-7/2" src={data.image?.tablet!} alt="image" />
+        <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-2/1" src={data.image?.tablet!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-t:hidden aspect-4/3" src={data.image?.mobile!} alt="image" />
         <div className={cn("absolute w-full h-full", classNames, {
           "bg-[#ffffff80]": data.overlayWhite,
@@ -77,9 +77,12 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
             }
           </div>
       </div>
+    </div> */}
+    <div className={cn(`aspect-2/1  border-2 border-solid bg-cover bg-no-repeat w-d:bg-[url("https://drive.google.com/uc?export=view&id=1ublCyobsLlz7uKehh34mAfdpQ1or4eYv")] w-t:bg-[url("https://pixlr.com/images/index/remove-bg.webp")]`, classNames, {})}>
+
     </div>
     {/**Mobile banner */}
-    <div className="w-d:hidden w-t:hidden">
+    {/* <div className="w-d:hidden w-t:hidden">
       <div className={cn(`relative flex h-[${data.height}]`, classNames)} >
         <Image classNames="w-full h-full w-t:hidden w-p:hidden aspect-7/2" src={data.image?.desktop!} alt="image" />
         <Image classNames="w-full h-full w-d:hidden w-p:hidden aspect-7/2" src={data.image?.tablet!} alt="image" />
@@ -113,7 +116,7 @@ const BannerPortalverse: FC<BannerPortalverseComponentData> = memo(({ data, clas
           : null
         }
       </div>
-    </div>
+    </div> */}
   </>
 })
 
