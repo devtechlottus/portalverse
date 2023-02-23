@@ -4,7 +4,7 @@ export type CardWebsiteConfig = {
   /**
    * id card
    */
-   id: string;
+   id?: string;
    /**
     * Url image
     */
@@ -12,31 +12,31 @@ export type CardWebsiteConfig = {
    /**
     * Text of subtitle
     */
-   subtitle: string;
+   subtitle?: string;
    /**
     * Text of title
     */
-   title: string;
+   title?: string;
    /**
     * Text of phagraph
     */
-   text: string;
+   text?: string;
    /**
     * border of content true | false
     */
-   border: boolean;
+   border?: boolean;
    /**
     * show all content card true | false
     */
-   allContent: boolean;
+   allContent?: boolean;
    /**
     * height of image card
     */
-   height: string;
+   height?: string;
    /**
     * Show ng content
     */
-   isShowCardWebsiteContent: boolean;
+   isShowCardWebsiteContent?: boolean;
    /**
     * Background active
     */
@@ -44,11 +44,11 @@ export type CardWebsiteConfig = {
    /**
     * Type card vertical | small
     */
-   type: string | 'vertical' | 'small';
+   type?: string | 'vertical' | 'small';
    /**
     * Show link true | false
     */
-   link: boolean;
+   link?: boolean;
  
    linkText: LinkConfig;
  
