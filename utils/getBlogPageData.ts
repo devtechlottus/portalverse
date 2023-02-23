@@ -1,20 +1,25 @@
 import fetcher from "@/utils/fetcher"
-import getBlogPosts from "./getBlogPosts"
+import getBlogPosts from "@/utils/getBlogPosts"
 
-const getBlogPageData = async  () => {
-  //@ts-ignore
-  const blogPageData = await fetcher<any>(process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API, query, process.env.NEXT_PUBLIC_STRAPI_TOKEN)
-  const listConfigData = blogPageData?.blogPage?.data?.attributes?.sections?.[1]
-  const { title,
-    maxentries,
-    relatesto,
-    sortdate,
-  } = listConfigData
-  const blogPostsData = await getBlogPosts({maxentries, sortdate})
-  return {blogPageData, blogPostsData}
-}
+const getBlogPageData = async () => {
+  const blogPageData = await fetcher<any>(
+    //@ts-ignore
+    process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API,
+    query,
+    process.env.NEXT_PUBLIC_STRAPI_TOKEN
+  );
 
-const query = `query BlogPage {
+  const listConfigData = blogPageData?.blogPage?.data?.attributes?.sections?.[1];
+  const { title, maxentries, relatesto, sortdate } = listConfigData;
+  const blogPosts = await getBlogPosts({ maxentries, sortdate });
+
+  const blogPostsData = { title, blogPosts };
+
+  return { blogPageData, blogPostsData };
+};
+
+const query = `
+query BlogPage {
   blogPage {
 		data {
       attributes {
@@ -65,6 +70,7 @@ const query = `query BlogPage {
       }
     }
   }
-}`
+}
+`
 
 export default getBlogPageData
