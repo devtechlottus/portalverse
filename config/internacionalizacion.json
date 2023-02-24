@@ -15,34 +15,53 @@
         "overlayDak": false,
         "slides": [
           {
-            "title": "¡Transforma tu experiencia!", 
-            "text": "Con actividades internacionales ve con todo hacia el mundo laboral",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1kQunkEQ9c-pj2f5T6Udk2a2nbvm32CX2",
-              "tablet": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT",
-              "desktop": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT"
+            "title": "¡Transforma tu experiencia!",
+            "subtitle": "Con actividades internacionales ve con todo hacia el mundo laboral",
+            "desktopImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT"
+                }
+              }
             },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false
+            "tabletImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT"
+                }
+              }
+            },
+            "mobileImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1kQunkEQ9c-pj2f5T6Udk2a2nbvm32CX2"
+                }
+              }
+            }
           },
           {
-            "title": "¡Participa en más de 10 tipos de experiencias sin salir de casa!", 
-            "text": "",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1gLfKQDGUCr6ooW-4U8Vi4Aa5Yy4eajYl",
-              "tablet": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M",
-              "desktop": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M"
+            "title": "¡Participa en más de 10 tipos de experiencias sin salir de casa!",
+            "desktopImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M"
+                }
+              }
             },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false
+            "tabletImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M"
+                }
+              }
+            },
+            "mobileImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1gLfKQDGUCr6ooW-4U8Vi4Aa5Yy4eajYl"
+                }
+              }
+            }
           }
         ]
       },
