@@ -7,8 +7,8 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Icon from "@/components/Icon"
-import Video from "@/components/Video"
+import Icon from "@/old-components/Icon"
+import Video from "@/old-components/Video"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 

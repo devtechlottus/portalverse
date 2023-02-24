@@ -5,8 +5,8 @@ import ContentLayout from "@/layouts/Content.layout"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import PedirInformacionPage from "@/types/PedirInformacion.types"
-import RichtText from "@/components/Richtext/Richtext"
-import Video from "@/components/Video"
+import RichtText from "@/old-components/Richtext/Richtext"
+import Video from "@/old-components/Video"
 
 const PedirInformacion: NextPageWithLayout<PedirInformacionPage> = ({ sections, meta }: PedirInformacionPage) => {
   return <>

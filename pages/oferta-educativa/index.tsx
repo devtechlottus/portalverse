@@ -4,13 +4,13 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Routes from "@/routes/Routes"
-import Ofertas from "@/components/OfertaEducativa"
+import Ofertas from "@/old-components/OfertaEducativa"
 import { getDataPageFromJSON } from "utils/getDataPage"
-import RichtText from "@/components/Richtext/Richtext"
-import CardWebsite from "@/components/CardWebsite"
+import RichtText from "@/old-components/Richtext/Richtext"
+import CardWebsite from "@/old-components/CardWebsite"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import PromoLink from "@/components/PromoLink"
-import BannerPortalverse from "@/components/BannerPortalverse"
+import PromoLink from "@/old-components/PromoLink"
+import BannerPortalverse from "@/old-components/BannerPortalverse"
 
 const OfertaEducativa: NextPageWithLayout<any> = ({ data: { oferta, level }, sections, meta }: any) => {
   const router = useRouter()
