@@ -67,7 +67,6 @@
         { "label": "Internacionalización", "principal": false, "link": "/nosotros/internacionalizacion", "external": false },
         { "label": "Somos UANE", "principal": false, "link": "/nosotros", "external": false },
         { "label": "Campus", "principal": false, "link": "/nosotros/campus", "external": false },
-        { "label": "Certificaciones", "principal": false, "link": "/nosotros/somos-UANE#certificaciones", "external": false },
         { "label": "Modelo educativo", "principal": false, "link": "/nosotros/modelo-educativo", "external": false },
         { "label": "Empleabilidad", "principal": false, "link": "/nosotros/empleabilidad", "external": false },
         { "label": "Conexión educativa", "principal": false, "link": "/nosotros/conexion-educativa", "external": false }
