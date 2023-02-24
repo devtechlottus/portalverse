@@ -160,11 +160,15 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1zUHr9b2_nXj94EcxJStO0PM5djT3HnjW"
+          "src": "https://drive.google.com/uc?export=view&id=1NquBLD5HwafKLfWpn8J8fYBcCLdxh9mH"
+        },
+        "tablet": {
+          "alt": "imagen",
+          "src": "https://drive.google.com/uc?export=view&id=1OhAFE6UMrVu7P-b1C6h59XODA31K4lcA"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1CUn9n-9_pAb964N6v1YuG0xaHLLeieRZ"
+          "src": "https://drive.google.com/uc?export=view&id=10fxtqvc-Dg0XvMAyFAzslPn0_rdVwGju"
         }
       }
     }
