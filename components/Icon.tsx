@@ -22,6 +22,10 @@ import conseguirEmpleo from "@/icons/conseguirEmpleo.svg"
 import hacerContactos from "@/icons/hacerContactos.svg"
 import mejorarCurriculum from "@/icons/mejorarCurriculum.svg"
 import nuevasCompetencias from "@/icons/nuevasCompetencias.svg"
+import graduate from "@/icons/graduate.svg"
+import student from "@/icons/student.svg"
+import trophy from "@/icons/trophy.svg"
+import work from "@/icons/work.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -46,8 +50,10 @@ const iconTypes: any = {
   conseguirempleto: conseguirEmpleo,
   mejorarcurriculim: mejorarCurriculum,
   hacercontactos: hacerContactos,
-  nuevascompetencias: nuevasCompetencias
-  
+  nuevascompetencias: nuevasCompetencias,
+  graduateIcon: graduate,
+  studentIcon: student,
+  workIcon: work
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {

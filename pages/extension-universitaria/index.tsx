@@ -38,34 +38,22 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
             classNames="aspect-2/1 w-t:aspect-2/1 w-p:aspect-2/1"
           />
         </div>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
-          <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.courses.title}</p>
-        </div>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4">
           {
-           sections.courses.courses.map((item:any, i:number) => <section className={cn("w-p:col-span-2", {"hidden": item.hidden})} key={`section-courses-${i}`}>
+            sections.extension.sections.map((item:any, i:number) => <>
+              <ContentLayout>
+                <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
+                <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{item.title}</p>
+                </div>
+                <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px]">
+          {
+           item.cursos.map((item:any, i:number) => <section className={cn("w-p:col-span-2", {"hidden": item.hidden})} key={`section-courses-${i}`}>
             <CardProgram classNames="hover:shadow-15 h-full" image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
            </section>)
           }
         </section>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
-          <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.graduates.title}</p>
-        </div>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px] hidden">
-          {
-           sections.graduates.graduates.map((item:any, i:number) => <section key={`section-graduates-${i}`}>
-            <CardProgram classNames="hover:shadow-15 h-full" image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
-           </section>)
-          }
-        </section>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
-          <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.certifications.title}</p>
-        </div>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-2 w-d:mb-[72px] w-t:mb-12 w-p:mb-6 hidden">
-          {
-           sections.certifications.certifications.map((item:any, i:number) => <section key={`section-certifications-${i}`}>
-            <CardProgram  classNames="hover:shadow-15 h-full"image={item.image.desk} title={item.title} link={item.link} onClick={()=> router.push(`${router.pathname}/${item.redirect}`)}/>
-           </section>)
+              </ContentLayout>
+            </>)
           }
         </section>
       </ContentLayout>
@@ -84,12 +72,6 @@ const EducacionContinua: NextPageWithLayout = ({ data: { oferta, level }, sectio
         </ContentLayout>
       </ContentFullLayout>
       <ContentLayout classNames="w-d:mt-[72px] w-t:mt-12 w-p:mt-6">
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
-          <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.WebinarsAndConferences.title}</p>
-        </div>
-        <div className="carrusel col-span-12 w-t:col-span-8 w-p:col-span-4 hidden">
-          
-        </div>
         <section className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 text-10 w-t:text-8.5 w-p:text-6 font-Poppins font-bold">
           <p>{sections.oferta.title}</p>
         </section>

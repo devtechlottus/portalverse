@@ -15,17 +15,17 @@
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1zMwTLnS12WxMDnzO7oUt1MhUZYKtaqIv",
-          "name": "person",
+          "name": "studentIcon",
           "text": "+13,500 alumnos en todas nuestras modalidades"
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1oxx9Lwrg7_C5nnNGnqYIsU7Y4QmDbTgM",
-          "name": "graduatecap",
+          "name": "graduateIcon",
           "text": "+50,000 egresados"
         },
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
-          "name": "agreement",
+          "name": "workIcon",
           "text": "+760 convenios empresariales para una acelerada inserción laboral"
         }
       ],

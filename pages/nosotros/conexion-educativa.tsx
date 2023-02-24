@@ -176,9 +176,20 @@ const ConexionEducativa: NextPageWithLayout = ({ sections, meta }: any) => {
         <Image
             alt={ sections.descriptionSection.image.desk.alt }
             src={ sections.descriptionSection.image.desk.src }
-            classNames="aspect-3/4 w-t:aspect-2/1 w-p:aspect-2/1"
+            classNames="aspect-3/4 w-t:hidden w-p:hidden"
+          />
+          <Image
+            alt={ sections.descriptionSection.image.tablet.alt }
+            src={ sections.descriptionSection.image.tablet.src }
+            classNames="aspect-3/4 w-d:hidden w-p:hidden"
+          />
+        <Image
+            alt={ sections.descriptionSection.image.mobile.alt }
+            src={ sections.descriptionSection.image.mobile.src }
+            classNames="aspect-2/1 w-d:hidden w-t:hidden"
           />
         </div>
+
         </ContentLayout>
       <ContentLayout>
       <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-12 w-t:mt-6 w-p:mt-6">
