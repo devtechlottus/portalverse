@@ -9,91 +9,86 @@
       "banner": {
         "width": "100%",
         "height": "600px",
-        "iconleft": "arrow_back_ios",
-        "iconright": "arrow_forward_ios",
         "slides": [
           {
-            "title": "It´s a match!", 
-            "text": "¡Enamórate de nuestra nueva página web!",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1wFK6Femg-40TKITbTrdDYgW3eeAbej4D",
-              "tablet": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg",
-              "desktop": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg"
+            "title": "It's a match!",
+            "subtitle": "¡Enamórate de nuestra nueva página web!",
+            "ctaText": "¡Conócenos!",
+            "ctaUrl": "/nosotros",
+            "desktopImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg"
+                }
+              }
             },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false,
-            "action":{
-              "id": "",
-              "type": "primary",
-              "title": "¡Conócenos!",
-              "size": "small",
-              "icon": "",
-              "lyIcon": false,
-              "disabled": false,
-              "isExpand": false,
-              "tagOnClick": "",
-              "test": "",
-              "redirect":"/nosotros"
+            "tabletImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1nbMV0cFQz7kh7hugzWMnTx4B3MV-Tebg"
+                }
+              }
+            },
+            "mobileImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1wFK6Femg-40TKITbTrdDYgW3eeAbej4D"
+                }
+              }
             }
           },
           {
-            "title": "¡Internacionalízate!", 
-            "text": "Tenemos alianzas con las mejores universidades del mundo.",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1ebzGfUX6NE01erMkexlqWXEmbxX_x-Ts",
-              "tablet": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16",
-              "desktop": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16"
+            "title": "¡Internacionalízate!",
+            "subtitle": "Tenemos alianzas con las mejores universidades del mundo.",
+            "ctaText": "¡Conoce más!",
+            "ctaUrl": "/nosotros/internacionalizacion",
+            "desktopImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16"
+                }
+              }
             },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false,
-            "action":{
-              "id": "",
-              "type": "primary",
-              "title": "¡Conoce más!",
-              "size": "small",
-              "icon": "",
-              "lyIcon": false,
-              "disabled": false,
-              "isExpand": false,
-              "tagOnClick": "",
-              "test": "",
-              "redirect":"/nosotros/internacionalizacion"
+            "tabletImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1HGxV256QSDb02K4QO-pZzCKzUSEowV16"
+                }
+              }
+            },
+            "mobileImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1ebzGfUX6NE01erMkexlqWXEmbxX_x-Ts"
+                }
+              }
             }
           },
           {
-            "title": "Tu voz hace comunidad", 
-            "text": "Escúchanos cada jueves a las 4:00 pm",
-            "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1dLdDc3jhHthAm3AmfSppaSCZYhRUOf5h",
-              "tablet": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx",
-              "desktop": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx"
+            "title": "Tu voz hace comunidad",
+            "subtitle": "Escúchanos cada jueves a las 4:00 pm",
+            "ctaText": "¡Acompáñanos!",
+            "ctaUrl": "/voz-uane/podcast",
+            "desktopImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx"
+                }
+              }
             },
-            "center": true,
-            "left": false,
-            "middle": true,
-            "bottom": false,
-            "overlayWhite": false,
-            "overlayDak": false,
-            "action":{
-              "id": "",
-              "type": "primary",
-              "title": "¡Acompáñanos!",
-              "size": "small",
-              "icon": "",
-              "lyIcon": false,
-              "disabled": false,
-              "isExpand": false,
-              "tagOnClick": "",
-              "test": "",
-              "redirect":"/voz-uane/podcast"
+            "tabletImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1hxaVISIeBBclgru9fzTpN5W57J_3kDRx"
+                }
+              }
+            },
+            "mobileImage": {
+              "data": {
+                "attributes": {
+                  "url": "https://drive.google.com/uc?export=view&id=1dLdDc3jhHthAm3AmfSppaSCZYhRUOf5h"
+                }
+              }
             }
           }
         ]
