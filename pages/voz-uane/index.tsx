@@ -105,7 +105,8 @@ export async function getStaticProps(context: any) {
   })
 
   return {
-    props: { sections, meta, blog_posts }
+    props: { sections, meta, blog_posts },
+    revalidate: 60
   }
 }
 
