@@ -59,7 +59,7 @@
               },
               "cards": [
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "image": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -68,13 +68,13 @@
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "",
+                  "type": "horizontal",
                   "link": true,
                   "background": false,
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "image": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -83,13 +83,13 @@
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "",
+                  "type": "horizontal",
                   "link": true,
                   "background": false,
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "image": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -98,7 +98,7 @@
                   "height": "",
                   "isShowCardWebsiteContent": true,
                   "id": "",
-                  "type": "",
+                  "type": "horizontal",
                   "link": true,
                   "background": false,
                   "wrapper": true

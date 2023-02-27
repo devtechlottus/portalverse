@@ -37,11 +37,14 @@
       },
       "lastPodcast":{
         "title": "Último Podcast",
-        "podcast": { "config": { "type": "episode", "format": "normal", "id": "18rjcSalPh5DvpXBjA3Iku"}}
+        "podcast": { "config": { "type": "episode", "format": "normal", "id": "6JLMgQXVdGRwBXaj31IWTA"}}
       },
       "allPodcast":{
         "title": "Todos los Podcast",
         "items": [
+          { "config": { "type": "episode", "format": "compact", "id": "6JLMgQXVdGRwBXaj31IWTA"}},
+          { "config": { "type": "episode", "format": "compact", "id": "3G2bj1XkFhIgYzM4ntSsk4"}},
+          { "config": { "type": "episode", "format": "compact", "id": "4WDCSeN6rq3kNFF1kBJbWS"}},
           { "config": { "type": "episode", "format": "compact", "id": "18rjcSalPh5DvpXBjA3Iku"}},
           { "config": { "type": "episode", "format": "compact", "id": "1F88VCcdwJvZuanJp6pekL"}},
           { "config": { "type": "episode", "format": "compact", "id": "6mOaHQjv6G3AglCYbKzWlG"}},
