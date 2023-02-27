@@ -1,6 +1,7 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Head from "next/head"
 import { useRouter } from "next/router"
+import Link from "next/link"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentLayout from "@/layouts/Content.layout"
@@ -13,6 +14,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Rainbow from "@/components/Rainbow"
 import Modal from "@/components/Modal/Modal"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
+
 
 const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -37,6 +39,11 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
       <ContentInsideLayout classNames="gap-6">
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 bg-[#2B2C34] p-6">
             <p className="text-white font-Poppins font-bold text-6 break-normal">{infoModal?.title?.title}</p>
+            {
+              !!infoModal?.redirect?.link  
+              ? <Link passHref legacyBehavior href={infoModal?.redirect?.link} ><a className="text-white font-Poppins font-normal" target="_blank">{infoModal?.redirect?.label}</a></Link>
+              : null
+            }
           </div>
           <div className="col-span-6 w-t:col-span-8 w-p:col-span-4 bg-white overflow-y-auto">
             <RichtText data={{

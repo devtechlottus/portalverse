@@ -7,6 +7,7 @@ export type CintilloData = {
   email: string;
   phone: string;
   classNames?: string;
+  whatsApp?: string;
 }
 
 export default CintilloData
