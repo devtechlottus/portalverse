@@ -213,6 +213,10 @@
         "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
         "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
       },
+      "aspect": {
+        "desktop": "w-d:aspect-7/2",
+        "tablet": "w-t:aspect-2/1"
+      },
       "title": "UANE Internacional",
       "subtitle": "¡Internacionalízate! Agrega experiencias internacionales a tu educación",
       "position": "left-bottom",
@@ -304,6 +308,10 @@
         "desktop": "https://drive.google.com/uc?export=view&id=1b-OtTX7U88I7l0R5GToS6At8mIMb93cq",
         "mobile": "https://drive.google.com/uc?export=view&id=17jNOgDoYsWMvzKtxQ6r8HdhGJIzyziFX",
         "tablet": "https://drive.google.com/uc?export=view&id=1jFU-_03HH8rVc3D723BUAyEzwjTOhYPp"
+      },
+      "aspect": {
+        "desktop": "w-d:aspect-7/2",
+        "tablet": "w-t:aspect-2/1"
       },
       "font": "light",
       "title": "Podcast Voz UANE",
