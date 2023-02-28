@@ -1,4 +1,4 @@
-import { SelectInit } from "@/components/fixture";
+import { SelectInit } from "@/old-components/fixture";
 
 const data: { [key: string]: any } = {
   "administracion-empresas": {

@@ -1,4 +1,4 @@
-import { ButtonInit, InputInit } from "@/components/fixture";
+import { ButtonInit, InputInit } from "@/old-components/fixture";
 
 const patternEmail =  /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z0-9]{2,4}$/i;
 

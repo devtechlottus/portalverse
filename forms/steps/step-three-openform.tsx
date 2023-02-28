@@ -1,12 +1,12 @@
 import { FC, useEffect, useState } from "react"
 import cn from "classnames"
 import OpenFormInit from "@/forms/fixtures/openform"
-import ProgressBar from "@/components/ProgressBar"
-import Button from "@/components/Button/Button"
+import ProgressBar from "@/old-components/ProgressBar"
+import Button from "@/old-components/Button/Button"
 import configControls from "@/forms/fixtures/controls"
-import Select from "@/components/Select"
-import { SelectInit } from "@/components/fixture"
-import OptionPill from "@/components/OptionPill"
+import Select from "@/old-components/Select"
+import { SelectInit } from "@/old-components/fixture"
+import OptionPill from "@/old-components/OptionPill"
 
 const StepThree: FC<any> = ({ classNames, step, data, contacts, schedulers, onNext, onReturnStep }: any) => {
 

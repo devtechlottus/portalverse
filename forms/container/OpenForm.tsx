@@ -8,9 +8,9 @@ import { FormConfig } from "@/forms/fixtures/openform"
 import { getTokenForms } from "@/utils/getTokenForms"
 import { getEducativeOffer } from "@/utils/getEducativeOffer"
 import { saveDataForms } from "@/utils/saveDataForms"
-import Image from "@/components/Image"
-import Button from "@/components/Button/Button"
-import { ButtonInit } from "@/components/fixture"
+import Image from "@/old-components/Image"
+import Button from "@/old-components/Button/Button"
+import { ButtonInit } from "@/old-components/fixture"
 
 const OpenForm: FC<any> = ({ classNames, image, pathThankyou, controls, data, currentStep }: any) => {
 

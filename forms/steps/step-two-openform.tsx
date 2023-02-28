@@ -1,12 +1,12 @@
 import { FC, useEffect, useState } from "react"
 import cn from "classnames"
 import OpenFormInit, { Modalities } from "@/forms/fixtures/openform"
-import Select from "@/components/Select"
-import { SelectInit } from "@/components/fixture"
-import Button from "@/components/Button/Button"
+import Select from "@/old-components/Select"
+import { SelectInit } from "@/old-components/fixture"
+import Button from "@/old-components/Button/Button"
 import configControls from "@/forms/fixtures/controls"
-import ProgressBar from "@/components/ProgressBar"
-import OptionPill from "@/components/OptionPill"
+import ProgressBar from "@/old-components/ProgressBar"
+import OptionPill from "@/old-components/OptionPill"
 import { OpenFormControls } from "@/types/OpenFormControls.types"
 
 const StepTwo: FC<any> = ({

@@ -8,6 +8,9 @@
 @tailwind utilities;
 @import './utils.scss';
 @import './fonts.scss';
+
+// TODO: Delete "old-components" import when components migration is completed
+@import '../old-components/index.scss';
 @import '../components/index.scss';
 
 .material-icons {

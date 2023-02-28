@@ -5,10 +5,10 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import Spotify from "@/components/Spotify"
+import Spotify from "@/old-components/Spotify"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import PaginatorPortalverse from "@/components/PaginatorPortalverse"
-import BannerPortalverse from "@/components/BannerPortalverse"
+import PaginatorPortalverse from "@/old-components/PaginatorPortalverse"
+import BannerPortalverse from "@/old-components/BannerPortalverse"
 
 
 const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {

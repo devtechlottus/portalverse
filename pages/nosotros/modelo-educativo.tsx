@@ -2,10 +2,10 @@ import Head from "next/head"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import ContentLayout from "@/layouts/Content.layout"
-import Image from "@/components/Image"
+import Image from "@/old-components/Image"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import RichtText from "@/components/Richtext/Richtext"
+import RichtText from "@/old-components/Richtext/Richtext"
 
 const ModeloEducativo: NextPageWithLayout = ({ sections, meta }: any) => {
   return <>
