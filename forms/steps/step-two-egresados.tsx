@@ -1,8 +1,8 @@
 import { FC, SyntheticEvent, useEffect, useState } from "react"
 import cn from "classnames"
 import BeWantedInit from "@/forms/fixtures/bewanted"
-import Input from "@/components/Input/Input"
-import Button from "@/components/Button/Button"
+import Input from "@/old-components/Input/Input"
+import Button from "@/old-components/Button/Button"
 import configControls from "@/forms/fixtures/controls"
 import EgresadosStepComponentData from "@/types/EgresadosStep.types"
 

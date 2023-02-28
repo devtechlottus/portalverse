@@ -1,12 +1,12 @@
 import { FC, useEffect, useState } from "react"
 import cn from "classnames"
 import OpenFormInit from "@/forms/fixtures/openform"
-import Image from "@/components/Image"
-import Input from "@/components/Input/Input"
+import Image from "@/old-components/Image"
+import Input from "@/old-components/Input/Input"
 import configControls from "@/forms/fixtures/controls"
-import Select from "@/components/Select"
-import Button from "@/components/Button/Button"
-import { SelectInit } from "@/components/fixture"
+import Select from "@/old-components/Select"
+import Button from "@/old-components/Button/Button"
+import { SelectInit } from "@/old-components/fixture"
 
 
 const StepOne: FC<any> = ({ classNames, data, image, onNext, programs }: any) => {

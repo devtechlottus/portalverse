@@ -1,9 +1,9 @@
 import { FC, useEffect, useState } from "react"
 import cn from "classnames"
 import BeWantedInit from "@/forms/fixtures/bewanted"
-import Input from "@/components/Input/Input"
-import RichtText from "@/components/Richtext/Richtext"
-import Button from "@/components/Button/Button"
+import Input from "@/old-components/Input/Input"
+import RichtText from "@/old-components/Richtext/Richtext"
+import Button from "@/old-components/Button/Button"
 import configControls from "@/forms/fixtures/controls"
 import EgresadosStepComponentData from "@/types/EgresadosStep.types"
 

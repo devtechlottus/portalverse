@@ -5,8 +5,8 @@ import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
 import NextPageWithLayout from "@/types/Layout.types"
-import ContactTarget from "@/components/ContactTarget"
-import RichtText from "@/components/Richtext/Richtext"
+import ContactTarget from "@/old-components/ContactTarget"
+import RichtText from "@/old-components/Richtext/Richtext"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 
 const Directory: NextPageWithLayout<DirectoryComponentData> = ({ areas, meta }: DirectoryComponentData) => {
