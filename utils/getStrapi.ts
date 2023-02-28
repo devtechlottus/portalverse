@@ -1,6 +1,5 @@
-
 import { env } from "process";
-import { useState } from "react";
+import fetcher from "@/utils/fetcher";
 
 export const fetchStrapi = async (model: string, params: string[] ) => {
 
@@ -10,6 +9,21 @@ export const fetchStrapi = async (model: string, params: string[] ) => {
       }
     })
   }
+
+export async function fetchStrapiGraphQL<DataType> (
+  query: string,
+  variables?: Record<string, any>
+) {
+  const data = await fetcher<DataType>(
+    //@ts-ignore
+    process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API,
+    query,
+    process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_TOKEN,
+    variables
+  );
+
+  return data;
+};
 
 export const replaceURL = (image: any, format?: string) => {
   let urlImage = format 
