@@ -26,6 +26,7 @@ import graduate from "@/icons/graduate.svg"
 import student from "@/icons/student.svg"
 import trophy from "@/icons/trophy.svg"
 import work from "@/icons/work.svg"
+import Whatsapp from "@/icons/Whatsapp.svg"
 
 const iconTypes: any = {
   search: SearchIcon,
@@ -53,7 +54,8 @@ const iconTypes: any = {
   nuevascompetencias: nuevasCompetencias,
   graduateIcon: graduate,
   studentIcon: student,
-  workIcon: work
+  workIcon: work,
+  whatsapp: Whatsapp
 };
 
 const IconComponent: FC<any> = memo(({ name, ...props }: any) => {
