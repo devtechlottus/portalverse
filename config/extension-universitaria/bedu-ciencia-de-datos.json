@@ -19,7 +19,7 @@
       "courses": [
         {
           "id": "123",
-          "title": "Análisis de datos",
+          "title": "Análisis de datos", 
           "link":{
             "text": "Ver más",
             "size": "large",
