@@ -71,7 +71,7 @@ export async function getStaticProps(context: any) {
 
   return {
     props: { data: {  level:'blog' }, sections, meta, blog_posts },
-    revalidate: 10
+    revalidate: 60
   }
 }
 
