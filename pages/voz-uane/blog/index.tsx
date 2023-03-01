@@ -6,8 +6,8 @@ import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentLayout from "@/layouts/Content.layout"
-import CardWebsite from "@/components/CardWebsite"
-import Slider from "@/components/SliderPortalverse"
+import CardWebsite from "@/old-components/CardWebsite"
+import Slider from "@/old-components/SliderPortalverse"
 import { fetchStrapi, replaceURL } from "@/utils/getStrapi"
 
 const Blog: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {

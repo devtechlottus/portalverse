@@ -6,12 +6,12 @@ import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import  { fetchStrapi, replaceURL }  from "@/utils/getStrapi"
 import ContentLayout from "@/layouts/Content.layout"
-import Image from "@/components/Image"
-import CardWebsite from "@/components/CardWebsite"
-import Button from "@/components/Button/Button"
-import Banner from "@/components/Banner"
-import BannerWrapper from "@/components/BannerWrapper"
-import Editor from "@/components/Editor"
+import Image from "@/old-components/Image"
+import CardWebsite from "@/old-components/CardWebsite"
+import Button from "@/old-components/Button/Button"
+import Banner from "@/old-components/Banner"
+import BannerWrapper from "@/old-components/BannerWrapper"
+import Editor from "@/old-components/Editor"
 
 
 const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_title, blog_section }: any) => {

@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./layouts/**/*.{js,ts,jsx,tsx}",
+    "./old-components/**/*.{js,ts,jsx,tsx}", // TODO: Delete when components migration is completed
     "./components/**/*.{js,ts,jsx,tsx}",
     "./forms/**/*.{js,ts,jsx,tsx}"
   ],

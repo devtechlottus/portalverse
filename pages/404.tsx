@@ -1,7 +1,7 @@
 import { ReactElement } from "react"
 import Head from "next/head"
 import Link from "next/link"
-import Image from "@/components/Image"
+import Image from "@/old-components/Image"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"

@@ -7,11 +7,11 @@ import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import Routes from "@/routes/Routes"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
-import Image from "@/components/Image"
+import Image from "@/old-components/Image"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import Filter from "@/components/Filter/Filter"
-import BannerPortalverse from "@/components/BannerPortalverse"
+import Filter from "@/old-components/Filter/Filter"
+import BannerPortalverse from "@/old-components/BannerPortalverse"
 
 
 const Level: NextPageWithLayout<any> = ({ meta, filtro, programs, sections, level }: any) => {
