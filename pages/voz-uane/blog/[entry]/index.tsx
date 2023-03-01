@@ -119,7 +119,7 @@ export async function getStaticProps(context: any) {
     const { banners, related_post_title, blog_section } = await getDataPageFromJSON(`/blog/blog-entry.json`);
     return {
       props:{ blog_post, banners, related_post_title, blog_section},
-      revalidate: 10
+      revalidate: 60
     }
 }
 
