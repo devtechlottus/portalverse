@@ -15,10 +15,10 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1lJ4sw-tmKdpTS3carQuLc-nLfEEXDOkk"
         },
         "statics": [
-          {"maxNumber": 108, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas en 2022", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 29, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Invitaciones a nuestro alumnado", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 383, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas en 2022", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 4624, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Invitaciones a nuestro alumnado", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
           {"maxNumber": 355, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Convenios con empresas", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 3291, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
+          {"maxNumber": 3400, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
         ]
       }
     },
@@ -49,7 +49,7 @@
       },
       "video": {
         "options": {
-          "id": "ztAfmiXj23s",
+          "id": "715hFNbPukw",
           "type": "single",
           "controls": true
         },
