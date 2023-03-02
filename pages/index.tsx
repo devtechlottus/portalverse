@@ -16,9 +16,49 @@ import BannerPortalverse from "@/old-components/BannerPortalverse"
 import CarouselCards from "@/old-components/CarouselCards/CarouselCards"
 import Button from "@/old-components/Button/Button"
 import CardWebsitePortalverse from "@/old-components/CardWebsitePortalverse"
+import { getHomePageData } from "@/utils/getHomePageData"
+import { ComponentSection } from "@/utils/strapi/queries";
+import { SeoData } from "@/utils/strapi/sections/SEO"
+import { OverlayCardListSection } from "@/utils/strapi/sections/OverlayCardList"
+import { BannerSection } from "@/utils/strapi/sections/Banner"
+import { HeroSliderSection } from "@/utils/strapi/sections/HeroSlider"
+import { StatisticsCardListSection } from "@/utils/strapi/sections/StatisticsCardList"
+import BannerPortalverseWrapper from "@/components/BannerPortalverseWrapper"
+import { ListconfigSection } from "@/utils/strapi/sections/Listconfig"
+import getBlogPosts, { BlogPostsData } from "@/utils/getBlogPosts"
+import { findSection, findSections } from "@/utils/strapi"
 
-const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
+const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
+
+  const strapiSections = strapi?.sections as Array<ComponentSection>;
+  const strapiSeo = strapi?.seo as SeoData;
+  const blogPosts = strapi?.blogPostsData as BlogPostsData;
+
+  console.log("strapiSections", strapiSections);
+
+  const slider = findSection<HeroSliderSection>(
+    strapiSections,
+    "ComponentSectionsHeroSlider"
+  );
+
+  const overlayCards = findSections<OverlayCardListSection>(
+    strapiSections,
+    "ComponentSectionsOverlayCardList"
+  );
+
+  const banners = findSections<BannerSection>(
+    strapiSections,
+    "ComponentSectionsBanner"
+  );
+  const internationalizationBanner = banners[0];
+  const podcastBanner = banners[1];
+
+  const statisticsCardsSection = findSection<StatisticsCardListSection>(
+    strapiSections,
+    "ComponentSectionsStatisticsCardList"
+  );
+  const statisticsCards = statisticsCardsSection?.cards;
 
   const handleRedirectCampus = (redirect: string) => router.push(redirect)
 
@@ -46,13 +86,13 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="col-span-8">
-          <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
+          <BannerPortalverseWrapper data={{...internationalizationBanner, height: "300px"}} onClick={ () => router.push(`${internationalizationBanner?.ctaUrl}`)}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
-          <BannerPortalverse data={sections.bannerInternacional} onClick={ () => router.push(`${sections.bannerInternacional.redirect}`)}/>
+          <BannerPortalverseWrapper data={{...internationalizationBanner, height: "300px"}} onClick={ () => router.push(`${podcastBanner?.ctaUrl}`)}/>
         </div>
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
@@ -112,11 +152,34 @@ const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('home.json');
 
+  const homePageData = await getHomePageData();
+  const attributes = homePageData?.homePage?.data?.attributes;
+
+  const strapiSections = attributes?.sections;
+  const strapiSeo = attributes?.seo;
+
+  const listConfig = findSection<ListconfigSection>(
+    strapiSections,
+    "ComponentSectionsListconfig"
+  );
+
+  const blogPostsData = await getBlogPosts({
+    pageSize: listConfig?.maxentries,
+    sort:
+      listConfig?.sortdate === "latest"
+        ? "publication_date:desc"
+        : "publication_date:asc",
+  });
+
   return {
-    props: { 
-      data: { sections, meta }
+    props: {
+      data: {
+        sections,
+        meta,
+        strapi: { sections: strapiSections, seo: strapiSeo, blogPostsData },
+      },
     },
-  }
+  };
 }
 
 export default Home
