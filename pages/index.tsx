@@ -123,13 +123,13 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="w-t:col-span-8 w-p:col-span-4">
-          <BannerPortalverse data={sections.bannerPodcast} onClick={() => router.push(`${sections.bannerPodcast.redirect}`)}/>
+          <BannerPortalverseWrapper data={{...podcastBanner, height: "300px"}} onClick={ () => router.push(`${podcastBanner?.ctaUrl}`)}/>
         </div>
         </ContentInsideLayout>
       </ContentFullLayout>
       <ContentLayout classNames="w-t:hidden my-6">
         <div className="col-span-12 w-p:col-span-4">
-          <BannerPortalverse data={sections.bannerPodcast} onClick={() => router.push(`${sections.bannerPodcast.redirect}`)}/>
+          <BannerPortalverseWrapper data={{...podcastBanner, height: "300px"}} onClick={ () => router.push(`${podcastBanner?.ctaUrl}`)}/>
         </div>
       </ContentLayout>
       <ContentLayout>
