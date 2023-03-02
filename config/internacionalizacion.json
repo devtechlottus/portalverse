@@ -226,6 +226,10 @@
             },
             "description": {
               "content": "El convenio deja la puerta abierta a otras colaboraciones que puedan surgir en el futuro a raíz de las experiencias compartidas, como la organización y promoción de programas culturales, conferencias, congresos, seminarios y programas de formación.\n\n El presente protocolo sirve de marco general y se desarrollará mediante convenios de colaboración específicos entre las partes firmantes. En dichos acuerdos específicos se concretarán los aspectos jurídicos, técnicos y económicos de la actuación que se pretenda llevar a cabo, así como las obligaciones que cada una de las partes asumirá para la consecución de lo pactado."
+            },
+            "redirect": {
+              "label": "Conoce más",
+              "link": "https://www.ucm.es/"
             }
           }
         },   
@@ -248,31 +252,13 @@
             },
             "description": {
               "content": "Conectar a las personas con el talento y el conocimiento. Esa es la base sobre la que se asienta un modelo que abarca todos los niveles para dar respuesta a las necesidades formativas en cada momento de la vida. Una conexión esencial que alimenta las sociedades y comunidades donde actuamos. Un compromiso de respeto y servicio hacia el individuo pero también hacia las empresas y organizaciones que reclaman de las instituciones educativas una mayor responsabilidad en la formación eficaz de los profesionales.\n\n Personas, cultura y transformación."
+            },
+            "redirect": {
+              "label": "Conoce más",
+              "link": "https://www.planetaformacion.com/"
             }
           }
         },   
-        {
-          "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1DFY9Q5uKNoLFntGfv2DrT2-Hjf5vq5T3",
-            "desktop": "https://drive.google.com/uc?export=view&id=1DFY9Q5uKNoLFntGfv2DrT2-Hjf5vq5T3"
-          },
-          "text": "Universidad de Valencia",
-          "icon": "arrow_forward",
-          "color": "#A2AFB5",
-          "opacity": "multiply",
-          "height": "282px",
-          "enable": true,
-          "nobackground": false,
-          "redirect": "https://conahec.org/es/",
-          "content": {
-            "title": {
-              "title": "Universidad de Valencia"
-            },
-            "description": {
-              "content": "Es una de las universidades más antiguas de España, universidad pública, orientada a la docencia e investigación en casi todas las áreas del conocimiento.\n\nUbicada en la Ciudad de Valencia, España, calificada como una de las mejores ciudades universitarias de Europa.\n\n Alcances del Convenio:\n\n En este convenio marco con la Universidad de Valencia se busca la colaboración en el ámbito de intercambios de estudiantes, profesores y la creación de cursos en conjunto que faciliten las experiencias internacionales de los alumnos ULA."
-            }
-          }
-        },
         {
           "urlImage": {
             "mobile": "https://drive.google.com/uc?export=view&id=1T1o0D1s8MQ2jDqolnhKTofE70wMnoPRl",
@@ -356,7 +342,7 @@
             "mobile": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez",
             "desktop": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez"
           },
-          "text": "Escuela de Gobierno y transformación pública",
+          "text": "Escuela de Gobierno y Transformación Pública",
           "icon": "arrow_forward",
           "color": "#A2AFB5",
           "opacity": "multiply",
@@ -370,6 +356,10 @@
             },
             "description": {
               "content": "La Escuela de Gobierno y Transformación Pública es un Centro de Innovación e Investigación en España, destinado a promover la excelencia en la Dirección Pública, la consolidación de los Valores Democráticos, del Estado de Derecho, los Derechos Humanos y el fortalecimiento, modernización y transformación de las Instituciones al servicio del ciudadano. Este innovador centro educativo nace de un ambicioso proyecto entre SKR y la Universidad Alfonso X el Sabio como resultado de su vocación compartida de ofrecer a los futuros líderes oportunidades de formación de calidad.\n\n Alcances del convenio:\n\n El convenio de colaboración se centra en la realización conjunta de programas académicos, proyectos de investigación, actividades culturales, programas de extensión, intercambios de talento y la posibilidad de realizar prácticas profesionales."
+            },
+            "redirect": {
+              "label": "Conoce más",
+              "link": "https://skr.es/"
             }
           }
         },

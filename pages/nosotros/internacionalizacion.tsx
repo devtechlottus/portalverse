@@ -41,7 +41,10 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
             <p className="text-white font-Poppins font-bold text-6 break-normal">{infoModal?.title?.title}</p>
             {
               !!infoModal?.redirect?.link  
-              ? <Link passHref legacyBehavior href={infoModal?.redirect?.link} ><a className="text-white font-Poppins font-normal" target="_blank">{infoModal?.redirect?.label}</a></Link>
+              ? <div className="flex items-center text-white mt-16">
+                <Link passHref legacyBehavior href={infoModal?.redirect?.link} ><a className="font-Poppins font-normal hover:underline hover:underline-offset-8" target="_blank">{infoModal?.redirect?.label}</a></Link> 
+                <span className="material-icons">chevron_right</span>
+              </div>
               : null
             }
           </div>
