@@ -18,7 +18,7 @@ export async function fetchStrapiGraphQL<DataType> (
     //@ts-ignore
     process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_API,
     query,
-    process.env.NEXT_PUBLIC_STRAPI_GRAPHQL_TOKEN,
+    process.env.NEXT_PUBLIC_STRAPI_TOKEN,
     variables
   );
 
