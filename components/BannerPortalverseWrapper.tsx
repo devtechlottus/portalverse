@@ -19,7 +19,6 @@ type BannerPortalverseTextPosition =
 const getTextPosition = (
   textPosition: BannerSection["textPosition"]
 ): BannerPortalverseTextPosition => {
-  console.log("textPosition", textPosition);
   switch (textPosition) {
     case "center":
       return "middle-center";

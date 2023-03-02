@@ -35,8 +35,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   const strapiSeo = strapi?.seo as SeoData;
   const blogPosts = strapi?.blogPostsData as BlogPostsData;
 
-  console.log("strapiSections", strapiSections);
-
   const slider = findSection<HeroSliderSection>(
     strapiSections,
     "ComponentSectionsHeroSlider"
