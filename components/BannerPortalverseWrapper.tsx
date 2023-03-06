@@ -1,6 +1,6 @@
 import BannerPortalverse from "@/old-components/BannerPortalverse";
 import BannerPortalverseComponentData, { BannerPortalverseConfig } from "@/types/BannerPortalverse.types";
-import { parseStrapiImage } from "@/utils/strapi";
+import { formatStrapiImage } from "@/utils/strapi";
 import { BannerSection } from "@/utils/strapi/sections/Banner";
 import { Replace } from "@/utils/typescript";
 
@@ -41,14 +41,14 @@ const getTextPosition = (
   }
 };
 
-const parseStrapiData = (props: BannerPortalverseWrapper): BannerPortalverseConfig => {
+const formatData = (props: BannerPortalverseWrapperProps): BannerPortalverseConfig => {
   const { data } = props;
 
-  const parsedData: BannerPortalverseConfig = {
+  const formattedData: BannerPortalverseConfig = {
     image: {
-      mobile: parseStrapiImage(data?.mobileImage),
-      tablet: parseStrapiImage(data?.tabletImage),
-      desktop: parseStrapiImage(data?.desktopImage)
+      mobile: formatStrapiImage(data?.mobileImage),
+      tablet: formatStrapiImage(data?.tabletImage),
+      desktop: formatStrapiImage(data?.desktopImage)
     },
     title: data?.title,
     subtitle: data?.subtitle,
@@ -73,19 +73,19 @@ const parseStrapiData = (props: BannerPortalverseWrapper): BannerPortalverseConf
     font: "",
   }
 
-  return parsedData;
+  return formattedData;
 };
 
-type BannerPortalverseWrapper = Replace<
+type BannerPortalverseWrapperProps = Replace<
   BannerPortalverseComponentData,
   "data",
   BannerSection & { height: string }
 >;
 
-const BannerPortalverseWrapper = (props: BannerPortalverseWrapper) => {
-  const parsedData = parseStrapiData(props);
+const BannerPortalverseWrapper = (props: BannerPortalverseWrapperProps) => {
+  const formattedData = formatData(props);
 
-  return <BannerPortalverse {...props} data={parsedData} />;
+  return <BannerPortalverse {...props} data={formattedData} />;
 };
 
 export default BannerPortalverseWrapper

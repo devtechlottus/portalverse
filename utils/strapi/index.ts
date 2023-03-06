@@ -11,6 +11,6 @@ export function findSections<T extends ComponentSection>(sections: Array<Compone
   return sections?.filter((section): section is T => section?.__typename === sectionTypename);
 }
 
-export const parseStrapiImage = (imageObj: StrapiImage): string => {
+export const formatStrapiImage = (imageObj: StrapiImage): string => {
   return imageObj?.data?.attributes?.url;
 };
