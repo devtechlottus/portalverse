@@ -28,6 +28,7 @@ import { ListconfigSection } from "@/utils/strapi/sections/Listconfig"
 import getBlogPosts, { BlogPostsData } from "@/utils/getBlogPosts"
 import { findSection, findSections } from "@/utils/strapi"
 import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
+import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -41,7 +42,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
     "ComponentSectionsHeroSlider"
   );
 
-  const overlayCards = findSections<OverlayCardListSection>(
+  const overlayCardsSection = findSection<OverlayCardListSection>(
     strapiSections,
     "ComponentSectionsOverlayCardList"
   );
@@ -76,10 +77,10 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
           <SliderPortalverseWrapper data={{ ...slider, height: "600px" }} mobile = {false}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
-          <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
+          <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ overlayCardsSection?.title }</p>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mb-12 w-t:mb-6 w-p:mb-6">
-          <OfertaEducativa data={sections.oferta.levels} classNames="opacity-80 w-d:mb-8"/>
+          <OfertaEducativaWrapper data={{...overlayCardsSection}} classNames="opacity-80 w-d:mb-8"/>
         </div>
       </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden my-6">

@@ -1,6 +1,6 @@
 import { StrapiImage } from "@/types/strapi/common";
 
-type OverlayCard = {
+export type OverlayCard = {
   title: string;
   url: string;
   overlayColor: string;
