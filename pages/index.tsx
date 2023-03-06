@@ -27,6 +27,7 @@ import BannerPortalverseWrapper from "@/components/BannerPortalverseWrapper"
 import { ListconfigSection } from "@/utils/strapi/sections/Listconfig"
 import getBlogPosts, { BlogPostsData } from "@/utils/getBlogPosts"
 import { findSection, findSections } from "@/utils/strapi"
+import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -67,12 +68,12 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
     <HeaderFooterLayout breadcrumbs={false}>
       <ContentFullLayout classNames="gap-6 w-d:hidden">
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-3">
-          <SliderPortalverse data={{ ...sections.head.banner }} mobile = {true}/>
+          <SliderPortalverseWrapper data={{ ...slider }} mobile = {true}/>
         </div>
       </ContentFullLayout>
       <ContentLayout>
         <div className="w-t:hidden w-p:hidden col-span-12 w-t:col-span-8 w-p:col-span-4 mt-3">
-          <SliderPortalverse data={{ ...sections.head.banner, height: "600px" }} mobile = {false}/>
+          <SliderPortalverseWrapper data={{ ...slider, height: "600px" }} mobile = {false}/>
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-12 w-t:mt-6 w-p:mt-6">
           <p className="ac-type-h3-bold-solid-poppins-desktop w-t:ac-type-h3-bold-solid-poppins-tablet w-p:ac-type-h3-bold-solid-poppins-tablet">{ sections.oferta.title }</p>
