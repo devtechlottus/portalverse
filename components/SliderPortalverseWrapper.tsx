@@ -72,7 +72,7 @@ const formatSlides = (slides: Array<Slide>): Array<SlideConfig> => {
   return formattedSlides
 }
 const formatData = (
-  props: SliderPortalverseWrapper
+  props: SliderPortalverseWrapperProps
 ): SliderConfig => {
   const { data } = props;
 
@@ -84,13 +84,13 @@ const formatData = (
   return formattedData
 };
 
-type SliderPortalverseWrapper = Replace<
+type SliderPortalverseWrapperProps = Replace<
   SliderPortalverseComponentData,
   "data",
   HeroSliderSection & { height?: string }
 >;
 
-const SliderPortalverseWrapper = (props: SliderPortalverseWrapper) => {
+const SliderPortalverseWrapper = (props: SliderPortalverseWrapperProps) => {
   const formattedData = formatData(props);
   return <SliderPortalverse {...props} data={formattedData} />;
 };
