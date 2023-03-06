@@ -5,7 +5,7 @@ import type {
   TextPosition,
 } from "@/types/strapi/common";
 
-type Slide = {
+export type Slide = {
   title: string;
   subtitle: string;
   ctaText: string;
