@@ -10,13 +10,14 @@ export type BoxShadowColor =
   | "gray_pastel_right"
   | "blue_right";
 
-type Card = {
+export type Card = {
   title: string;
   body: string;
   maxNumber: number;
   prefix: string;
   suffix: string;
   boxShadowColor: BoxShadowColor;
+  icon: string;
 };
 
 export type StatisticsCardListSection = {
