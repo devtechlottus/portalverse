@@ -19,20 +19,19 @@ const getBlogPosts = async (variables: BlogPostsVariables) => {
   return data;
 };
 
-type BlogPost = {
+export type BlogPost = {
   attributes: {
     title: string;
+    abstract: string;
     slug: string;
     publication_date: string;
-    feturedImage: StrapiImage;
+    featured_image: StrapiImage;
   }
 }
 
 export type BlogPostsData = {
-  data: {
-    blogPosts: {
-      data: Array<BlogPost>
-    }
+  blogPosts: {
+    data: Array<BlogPost>
   }
 }
 
@@ -42,6 +41,7 @@ query BlogPosts ($page: Int, $pageSize: Int, $sort: [String]) {
     data {
       attributes {
         title
+        abstract
         slug
         publication_date
         featured_image {
