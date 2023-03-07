@@ -3,19 +3,11 @@ import { useRouter } from "next/router"
 import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentLayout from "@/layouts/Content.layout"
-import OfertaEducativa from "@/old-components/OfertaEducativa"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
-import CardWebsite from "@/old-components/CardWebsite"
 import OpenForm from "@/forms/container/OpenForm"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import SliderPortalverse from "@/old-components/SliderPortalverse"
 import Video from "@/old-components/Video"
-import NumbersPortalverse from "@/old-components/NumbersPortalverse/NumbersPortalverse"
-import BannerPortalverse from "@/old-components/BannerPortalverse"
-import CarouselCards from "@/old-components/CarouselCards/CarouselCards"
-import Button from "@/old-components/Button/Button"
-import CardWebsitePortalverse from "@/old-components/CardWebsitePortalverse"
 import { getHomePageData } from "@/utils/getHomePageData"
 import { ComponentSection } from "@/utils/strapi/queries";
 import { SeoData } from "@/utils/strapi/sections/SEO"
@@ -29,6 +21,7 @@ import getBlogPosts, { BlogPostsData } from "@/utils/getBlogPosts"
 import { findSection, findSections } from "@/utils/strapi"
 import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
+import NumbersPortalverseWrapper from "@/components/NumbersPortalverseWrapper"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -58,7 +51,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
     strapiSections,
     "ComponentSectionsStatisticsCardList"
   );
-  const statisticsCards = statisticsCardsSection?.cards;
 
   const handleRedirectCampus = (redirect: string) => router.push(redirect)
 
@@ -96,8 +88,8 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
         </div>
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
-            sections.numbers.map((item:any, i:number) => <section key={`section-numbers-${i}`}>
-              <NumbersPortalverse data={item}/>
+            statisticsCardsSection?.cards?.map((item, i:number) => <section key={`section-numbers-${i}`}>
+              <NumbersPortalverseWrapper data={item}/>
             </section>)
           }
         </div>
