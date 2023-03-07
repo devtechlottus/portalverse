@@ -22,13 +22,17 @@ import { findSection, findSections } from "@/utils/strapi"
 import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 import NumbersPortalverseWrapper from "@/components/NumbersPortalverseWrapper"
+import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
 
   const strapiSections = strapi?.sections as Array<ComponentSection>;
   const strapiSeo = strapi?.seo as SeoData;
-  const blogPosts = strapi?.blogPostsData as BlogPostsData;
+
+  const blogListConfig = findSection<ListconfigSection>(strapiSections, "ComponentSectionsListconfig");
+  const blogPostsData = strapi?.blogPostsData as BlogPostsData;
+
 
   const slider = findSection<HeroSliderSection>(
     strapiSections,
@@ -51,8 +55,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
     strapiSections,
     "ComponentSectionsStatisticsCardList"
   );
-
-  const handleRedirectCampus = (redirect: string) => router.push(redirect)
 
   return <>
     <Head>
@@ -102,18 +104,18 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
           </section>
         </section>
       </ContentFullLayout> */}
-      {/* <ContentLayout>
-        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-8 mt-[72px]">
-          <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ sections.vozUane.title }</p>
+      <ContentLayout>
+        <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:mt-[72px] mt-[72px]">
+          <p className="ac-type-h3-bold-solid-poppins-desktop w-p:ac-type-h3-bold-solid-poppins-tabmob">{ blogListConfig?.title }</p>
         </section>
         <section className="col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-3 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-6 w-p:mb-6">
           {
-            sections.vozUane.notas.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-             <CardWebsitePortalverse classNames="w-d:h-[250px] w-t:h-[250px] w-p:[250px]" data={item}/>
+            blogPostsData?.blogPosts?.data.map((blogPost, i:number) => <section key={`section-blog-${i}`}>
+             <BlogPostCardWrapper data={blogPost} onClick={() => router.push(`voz-uane/blog/${blogPost?.attributes?.slug}`)}/>
             </section>)
           }
         </section>
-      </ContentLayout> */}
+      </ContentLayout>
       <ContentFullLayout classNames="w-d:hidden w-p:hidden gap-6 my-6">
         <ContentInsideLayout classNames="gap-6">
         <div className="w-t:col-span-8 w-p:col-span-4">

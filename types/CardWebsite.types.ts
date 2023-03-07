@@ -60,7 +60,7 @@ export type CardWebsiteConfig = {
    wrapper?: boolean;
 }
 
-type CardWebsiteComponentData = {
+export type CardWebsiteComponentData = {
     data: CardWebsiteConfig;
     onClick?: () => void;
 }
