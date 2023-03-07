@@ -1,9 +1,7 @@
 import { FC } from "react" 
 import cn from "classnames"
-import LinkContactTarget from "@/old-components/LinkContactTarget"
-import CintilloData from "@/types/Cintillo.types"
 import Image from "@/old-components/Image"
-import { CardWebsitePortalverseConfig, CardWebsitePortalverseData } from "@/types/CardWebsitePortalverse.types"
+import { CardWebsitePortalverseData } from "@/types/CardWebsitePortalverse.types"
 import RichtText from "./Richtext/Richtext"
 import LinkIcons from "./LinkLottus"
 

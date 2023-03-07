@@ -1,11 +1,9 @@
-import CardWebsite from "@/old-components/CardWebsite";
+import { useRouter } from "next/router";
 import CardWebsitePortalverse from "@/old-components/CardWebsitePortalverse";
-import CardWebsiteComponentData, { CardWebsiteConfig } from "@/types/CardWebsite.types";
 import { CardWebsitePortalverseConfig, CardWebsitePortalverseData } from "@/types/CardWebsitePortalverse.types";
 import { BlogPost } from "@/utils/getBlogPosts";
 import { formatStrapiImage } from "@/utils/strapi";
 import { Replace } from "@/utils/typescript";
-import { useRouter } from "next/router";
 
 const formatData = (props: BlogPostCardWrapperProps): CardWebsitePortalverseConfig  => {
   const { data: strapiData } = props;
