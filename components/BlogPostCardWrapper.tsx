@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import CardWebsitePortalverse from "@/old-components/CardWebsitePortalverse";
 import { CardWebsitePortalverseConfig, CardWebsitePortalverseData } from "@/types/CardWebsitePortalverse.types";
 import { BlogPost } from "@/utils/getBlogPosts";
@@ -40,9 +39,7 @@ type BlogPostCardWrapperProps = Replace<
 >
 
 const BlogPostCardWrapper = (props: BlogPostCardWrapperProps) => {
-
-  const router = useRouter();
-
+  
   const formattedData = formatData(props);
 
   return <CardWebsitePortalverse {...props} data={formattedData} />;
