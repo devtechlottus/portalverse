@@ -13,7 +13,9 @@ const CardWebsitePortalverse: FC<CardWebsitePortalverseData> = ({ data, classNam
   {
     data.type === "vertical"
     ? <div className={cn("rounded-b-lg hover:shadow-2xl flex flex-col h-full")}>
-    <Image classNames="w-full aspect-2/1 flex h-full" src={data.image} alt="image" />
+      <div>
+        <Image classNames="w-full aspect-2/1 flex h-full" src={data.image} alt="image" />
+      </div>
     <div className={cn("px-3 flex flex-col h-full", classNames, {"border-l-[1px] border-r-[1px] border-b-[1px] rounded-b-lg" : data.border, "bg-white": data.background})}>
       <h3 className="pt-3 mb-2 font-Nunito font-normal text-SC/Blackandgrey/B-60 text-[11px]">{ data.subtitle?.toLocaleUpperCase() }</h3>
       <h1 className="mb-2 font-Nunito font-bold text-base">{ data.title }</h1>
