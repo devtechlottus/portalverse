@@ -17,5 +17,5 @@ export default () =>
       fbq('init', '487461332128996');
       fbq('track', 'PageView');` }}/>
     <script dangerouslySetInnerHTML={{ __html: `fbq('track', 'CompleteRegistration');` }}/>
-    <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"/>` }}/>
+    <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"/>` }}/>
   </>
