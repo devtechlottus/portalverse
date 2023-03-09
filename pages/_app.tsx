@@ -80,7 +80,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           `,
       }}/>
       {/* // // Meta Pixel Code (noscript) */}
-      <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style={{"display":"none","visibility":"hidden"}}
+      <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=487461332128996&amp;ev=PageView&amp;noscript=1"/>` }}/>
       {/* // //End Meta Pixel Code (noscript) */}
       {/* // // Google Tag Manager (noscript) */}
