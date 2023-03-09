@@ -33,6 +33,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
+    <Head>
       <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-1ZX45TXRD5" />
       <Script id='google-analytics'
         strategy="afterInteractive"
@@ -80,15 +81,14 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           `,
       }}/>
       {/* // // Meta Pixel Code (noscript) */}
-      <noscript>
-        <img height="1" width="1" style={{"display":"none","visibility":"hidden"}} src="https://www.facebook.com/tr?id=487461332128996&amp;ev=PageView&amp;noscript=1"/>
-      </noscript>
+      <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style={{"display":"none","visibility":"hidden"}}
+        src="https://www.facebook.com/tr?id=487461332128996&amp;ev=PageView&amp;noscript=1"/>` }}/>
       {/* // //End Meta Pixel Code (noscript) */}
       {/* // // Google Tag Manager (noscript) */}
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGBCMHM" height="0" width="0" style={{"display":"none","visibility":"hidden"}}></iframe>
-      </noscript>
+      <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGBCMHM" height="0"
+        width="0" style={{"display":"none","visibility":"hidden"}}></iframe>` }}/>
       {/* // // End Google Tag Manager (noscript) */}
+    </Head>
 
       <Component {...pageProps} />
     </>)
