@@ -5,7 +5,6 @@ import Head from 'next/head'
 import "@/styles/globals.scss"
 import { AppPropsWithLayout } from "@/types/Layout.types"
 import * as gtag from "@/lib/gtag"
-import Pixel from '../components/Pixel'
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   const router = useRouter();
@@ -65,7 +64,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
             a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
       }}/>
-      <Pixel name='META_PIXEL_1' />
       
       <Component {...pageProps} />
     </>)
