@@ -23,7 +23,6 @@ import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 import NumbersPortalverseWrapper from "@/components/NumbersPortalverseWrapper"
 import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
-import Pixel from '../components/Pixel'
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -58,7 +57,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   );
 
   return <>
-    <Pixel name='META_PIXEL_1' />
     <Head>
 
       
