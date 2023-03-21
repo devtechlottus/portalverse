@@ -20,13 +20,11 @@ export default function Document() {
           s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
           fbq('init', '487461332128996');
           fbq('track', 'PageView');
-          fbq('track', 'CompleteRegistration');
         ` }}/>
       </Head>
 
       <body>
         <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"/>` }}/>
-        <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration&noscript=1"/>` }}/>
         <Main />
         <NextScript />
       </body>
