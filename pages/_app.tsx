@@ -33,9 +33,8 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-1ZX45TXRD5" />
+      <Script  src="https://www.googletagmanager.com/gtag/js?id=G-1ZX45TXRD5" />
       <Script id='google-analytics'
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -47,7 +46,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           `,
       }}/>
       <Script id='google-tag-manager'
-      strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -56,7 +54,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
         })(window,document,'script','dataLayer','GTM-NGBCMHM');`,
       }}/>
       <Script id='hot-jar'
-        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `(function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -67,29 +64,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
             a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
       }}/>
-      <Script id='meta-pixel'
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1ZX45TXRD5', {
-              page_path: window.location.pathname,
-            });
-          `,
-      }}/>
-      {/* // // Meta Pixel Code (noscript) */}
-      <noscript>
-        <img height="1" width="1" style={{"display":"none","visibility":"hidden"}} src="https://www.facebook.com/tr?id=487461332128996&amp;ev=PageView&amp;noscript=1"/>
-      </noscript>
-      {/* // //End Meta Pixel Code (noscript) */}
-      {/* // // Google Tag Manager (noscript) */}
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGBCMHM" height="0" width="0" style={{"display":"none","visibility":"hidden"}}></iframe>
-      </noscript>
-      {/* // // End Google Tag Manager (noscript) */}
-
+      
       <Component {...pageProps} />
     </>)
 }
