@@ -58,6 +58,9 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
 
   return <>
     <Head>
+
+      
+  
       <title>{meta.title}</title>
     </Head>
     <HeaderFooterLayout breadcrumbs={false}>
