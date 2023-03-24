@@ -26,7 +26,7 @@
         {
           "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
           "name": "workIcon",
-          "text": "+760 convenios empresariales para una acelerada inserción laboral"
+          "text": "+368 convenios empresariales para una acelerada inserción laboral"
         }
       ],
       "button": {"id":"123","title": "Quiero más información", "type": "primary", "icon": "", "isExpand": false, "size":"small"},
@@ -391,7 +391,7 @@
           "tablet": "https://drive.google.com/uc?export=view&id=1Pbqg2oRfuFjD4wnVYSRlYBWQK0cIu9qT"
         },
         "title": "Empleabilidad en UANE",
-        "subtitle": "Inscríbete en nuestra Bolsa de Trabajo y encuentra empleo",
+        "subtitle": "Inscríbete en nuestra Bolsa de Talento y encuentra empleo",
         "position": "right-bottom",
         "height": "350px",
         "overlayWhite":false,
@@ -485,8 +485,8 @@
           "answer": "Los distintos tipos de beca que otorga la Universidad se orientan a satisfacer dos grandes propósitos: el primero, cuyo fin es apoyar económicamente a los alumnos que así lo requieran, y el segundo, para estimular a los alumnos que por su alto nivel de aprovechamiento o por sus actividades académicas o extra-académicas prestigien a la Universidad. Te sugerimos revisar directamente en campus las opciones correspondientes y los pasos a seguir para solicitarlas."
         },
         {
-          "title": "¿Cuentan con Bolsa de Trabajo?",
-          "answer": "Contamos con más de 790 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las practicas profesionales, bolsa de empleo y seminarios y conferencias con grandes ponencias de negocios e industria."
+          "title": "¿Cuentan con Bolsa de Talento?",
+          "answer": "Contamos con más de 360 convenios con empresas a nivel nacional para una rápida inserción laboral, desde que se realizan las practicas profesionales, bolsa de empleo y seminarios y conferencias con grandes ponencias de negocios e industria."
         },
         {
           "title": "¿Hay opciones para irme de intercambio?",
