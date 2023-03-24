@@ -15,17 +15,17 @@
           "mobile": "https://drive.google.com/uc?export=view&id=1lJ4sw-tmKdpTS3carQuLc-nLfEEXDOkk"
         },
         "statics": [
-          {"maxNumber": 383, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas en 2022", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 4624, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Invitaciones a nuestro alumnado", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 355, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Convenios con empresas", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
-          {"maxNumber": 3400, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
+          {"maxNumber": 205, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas durante 2022-2023", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 44, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Empresas enviando invitaciones a nuestros alumnos y egresados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 368, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Convenios empresariales firmados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
+          {"maxNumber": 3316, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Alumnos y egresados registrados", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false}
         ]
       }
     },
     "descripcion": {
-      "title": "Conoce nuestra bolsa de talento para una rápida inserción al mercado laboral",
+      "title": "¡Únete a la bolsa de talento de UANE!",
       "text": { 
-        "content": "La Universidad Americana del Noreste forma profesionistas competentes mediante la impartición de programas de calidad académica, con enfoque práctico y tecnología de vanguardia. Por el conocimiento de estas características, tenemos convenio con diversas empresas para elevar la empleabilidad de nuestros estudiantes y alumnos egresados del plantel."
+        "content": "La Universidad Americana del Noreste forma profesionistas competentes mediante la impartición de programas de calidad académica, con enfoque práctico y tecnología de vanguardia. Por el conocimiento de estas características, tenemos convenio con diversas empresas para elevar <b>la empleabilidad de nuestros estudiantes y egresados de la Universidad.</b>"
       }
     },
     "vacantes": {
@@ -35,7 +35,7 @@
     "vinculacionEmpresas": {
       "title": "Vinculación empresarial",
       "description":{
-        "content": "UANE  y beWanted han llegado a un acuerdo pionero para que todos sus alumnos multipliquen sus opciones de acceder al mundo laboral. ¡Más de 3.000 empresas buscan talento junior en beWanted!\n\nPero eso no lo es todo, tenemos convenio con empresas importantes de diversos gremios que se ubican al noreste del país para facilitar tu acceso al mundo laboral. "
+        "content": "UANE cuenta con más de 300 convenios con las mejores empresas y organizaciones, estos convenios te permitirán realizar prácticas profesionales, vivir experiencias de formación, asistir a eventos y encontrar el trabajo de tus sueños."
       },
       "image": {
         "src": "https://drive.google.com/uc?export=view&id=1GGskkWqA-EP5yydh70Hqd76m4kpcYbZl",
@@ -45,7 +45,7 @@
     "historiasExito": {
       "title": "Casos de éxito",
       "description": {
-        "content": "Nuestros alumnos y egresados nos cuentan cómo fue su experiencia en la búsqueda de empleo a través de nuestra bolsa de talento."
+        "content": "Nuestros alumnos y egresados nos cuentan cómo fue su experiencia en la búsqueda de empleo a través de nuestra bolsa de talento.\n\n ¡Encontrar trabajo nunca fue tan fácil!"
       },
       "video": {
         "options": {
@@ -59,9 +59,9 @@
       }
     },
     "comoFunciona": {
-      "title": "¿Cómo funciona la plataforma?",
+      "title": "¡Encontrar trabajo nunca fue tan fácil!",
       "description": {
-        "content": "Te proporcionaremos un excelente nivel de servicio en todas las áreas de la Universidad, incluyendo el de <b>bolsa de talento</b>, que en este caso se hace en colaboración con <b>beWanted</b>, la mejor plataforma de conexión con <b>más de 2,000 empresas buscando talento joven.\n\n¿Quieres hacerte visible a todas esas empresas?\n\n¡Fácil!</b> regístrate y completa al máximo tu perfil."
+        "content": "Hoy queremos ser tus aliados en la búsqueda del trabajo de tus sueños. ¿Cómo lo vas a lograr? Registra tu perfil y lo que estás buscando, valida tu correo electrónico; recuerda que el registro ya es tu C.V. Completa todos tus datos y espera a que tu perfil haga match con la vacante de alguna empresa."
       },
       "video": {
         "options": {
