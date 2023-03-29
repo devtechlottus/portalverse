@@ -779,6 +779,126 @@
                 }
               },
               "redirect": "psicologia-consumidor"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Diseño Universal para el Aprendizaje y su Aplicación en el Aula (PRODIS)",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1Nt5zSI_W4PTJgpKBekQiWwGebjOqXIJi"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1Nt5zSI_W4PTJgpKBekQiWwGebjOqXIJi"
+                }
+              },
+              "redirect": "prodis-diseno-universal"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Estimulación Sensorial en Alumnado con Necesidades de Apoyo Educativo (PRODIS)",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=10LVQs6JZoOsT6rizTIDbV4Gedx3bHD38"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=10LVQs6JZoOsT6rizTIDbV4Gedx3bHD38"
+                }
+              },
+              "redirect": "prodis-estimulacion-sensorial"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Estrategias para Potenciar la Comunicación a través de los Sistemas Aumentativos y Alternativos de Comunicación (SAAC) (PRODIS)",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1yYiEG_pONdZ97pczTURw6HN5D-bMSKb7"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1yYiEG_pONdZ97pczTURw6HN5D-bMSKb7"
+                }
+              },
+              "redirect": "prodis-saac"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Creación de Recursos Adaptados a través de las TIC en el Aula (PRODIS)",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1V42tEXyPH4Q6fs7-xPQnwosrrTZr1WTB"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1V42tEXyPH4Q6fs7-xPQnwosrrTZr1WTB"
+                }
+              },
+              "redirect": "prodis-tic"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Metodología de la Investigación Aplicada a la Educación (PRODIS)",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1ER__RUmWrDL5M6xicZ6iMr4mG1mTku7U"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://drive.google.com/uc?export=view&id=1ER__RUmWrDL5M6xicZ6iMr4mG1mTku7U"
+                }
+              },
+              "redirect": "prodis-metodologia-investigacion-aplicada"
             }
           ]
         },
