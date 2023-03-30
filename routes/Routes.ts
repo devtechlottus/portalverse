@@ -330,6 +330,11 @@ const Routes: any = {
         { params: { "program": "obligaciones-contratos", "nameProgram": "Obligaciones y Contratos" } },
         { params: { "program": "psicologia-comunicacion", "nameProgram": "Psicología y Comunicación" } },
         { params: { "program": "politicas-publicas-gobernanza", "nameProgram": "Políticas Públicas en Gobernanza" } },
+        { params: { "program": "prodis-diseno-universal", "nameProgram": "Diseño Universal para el Aprendizaje y su Aplicación en el Aula (PRODIS)" } },
+        { params: { "program": "prodis-estimulacion-sensorial", "nameProgram": "Estimulación sensorial en alumnado con necesidades de apoyo educativo (PRODIS)" } },
+        { params: { "program": "prodis-saac", "nameProgram": "Estrategias para Potenciar la Comunicación a través de los Sistemas Aumentativos y Alternativos de Comunicación (SAAC) (PRODIS)" } },
+        { params: { "program": "prodis-tic", "nameProgram": "Creación de Recursos Adaptados a través de las TIC en el Aula (PRODIS)" } },
+        { params: { "program": "prodis-metodologia-investigacion-aplicada", "nameProgram": "Metodología de la investigación aplicada a la educación (PRODIS)" } },
       ] 
     }
   },
