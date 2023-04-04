@@ -69,7 +69,7 @@ const VidaEstudiantil: NextPageWithLayout = ({ sections, meta }: any) => {
           <Mosaic data={sections.lifeUANE.images}/>
         </div>
       </ContentLayout>
-      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY mt-18">
+      <ContentFullLayout classNames="bg-SC/Backgrounds/BG-GRAY mt-18 hidden">
         <ContentLayout classNames="my-6">
           <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 mt-6">
             <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%]">{sections.lifeUANEarticles.title}</p>
