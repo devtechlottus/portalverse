@@ -12,11 +12,11 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1hIOTP0dcbGsZFQmao7AsZ8TeD6iyBR7v"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Somos_UANE_desk_a1824465fc.jpg"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1uNn6aGeMZV1RydwpnKJ8zlPZCzk5Cloq"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Somos_UANE_movil_88c32a1c41.jpg"
         }
       }
     },
@@ -26,11 +26,11 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1xEZ3N3MXc8TiMaRSHuM5t_rg5XDg6mPs"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Nuestra_historia_desk_641f5f7d59.jpg"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1TsYMeaYWFw3oQLZYkrGxL_e2ryYKJUF0"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Nuestra_historia_movil_03b80a126c.jpg"
         }
       }
     },
@@ -40,11 +40,11 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1JLXy9081XIyfCWRinGu-OGnZ_4bsHa_P"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Mision_y_vision_desk_21354b5207.jpg"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1LzIXE18-Ig2LNXHo9ScLzPauuNxF0b5J"
+          "src": "https://assets.staging.bedu.org/UANE/nosotros_Mision_y_vision_movil_67c29e33bd.jpg"
         }
       }
     },
@@ -52,7 +52,7 @@
       "title": "Nuestros valores ",
       "values": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1xrgMHtJ4hqdWd_-ZqJKCauxsZDwejJmp",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_Honestidad_desk_4331c2eb13.jpg",
           "subtitle": "",
           "title": "HONESTIDAD",
           "text": "Actuamos con integridad, congruencia y rectitud en nuestro que hacer cotidiano y nos conducimos con apego a la verdad.",
@@ -84,7 +84,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1zYjSdNKfUIiOKpe5ueSv7LpSlA4YRONN",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_Responsabilidad_desk_5636738aec.jpg",
           "subtitle": "",
           "title": "RESPONSABILIDAD",
           "text": "Estamos comprometidos con la comunidad universitaria y con la sociedad, con esto desempeñamos nuestro trabajo con exigencia y profesionalismo.",
@@ -117,7 +117,7 @@
           "video": "8LDTk1DLg4M"
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1SE81Yt66JKuAESXZQ5wcrNaq8bCaHxmI",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_Desarrollo_humano_desk_64c51cd137.jpg",
           "subtitle": "",
           "title": "DESARROLLO HUMANO",
           "text": "Construimos un ambiente de oportunidades, respeto y confianza para motivar a la pasión por el aprendizaje y la superación permanentes.",
@@ -149,7 +149,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1T9gYMUSt1cni7mvCn6QPC7WBKZEAsNka",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_Servicio_desk_26a08a7789.jpg",
           "subtitle": "",
           "title": "SERVICIO",
           "text": "Nos vinculamos permanentemente con nuestro entorno para satisfacer sus necesidades con calidad, oportunidad y trato amable.",
@@ -193,8 +193,8 @@
       "links": [
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1Cb6y0bYBWk1bXOH-FDC-lDgWGPW4uA1A",
-            "desktop": "https://drive.google.com/uc?export=view&id=1x68sbJ--6tPrU_nK-oZOBSWTkS672rqw"
+            "mobile": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia7_movil_fcd78aeab2.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/nosotros_Voz_UANE_desk_e2d2197ad7.jpg"
           },
           "text": "Voz UANE",
           "icon": "arrow_forward",
@@ -207,8 +207,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1uEPDiRVHPmgivz9fOwta_AoBIAWdIrJh",
-            "desktop": "https://drive.google.com/uc?export=view&id=1C1FnVf3M17QQ9uu0go11g1EswRqQ5XEJ"
+            "mobile": "https://assets.staging.bedu.org/UANE/nosotros_Internacionalizacion_movil_9fd55f826a.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/nosotros_Internacionalizacion_desk_a1000fd2e4.jpg"
           },
           "text": "Internacionalización",
           "icon": "arrow_forward",
@@ -220,8 +220,8 @@
           "redirect": "internacionalizacion"
         },{
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1P_Bp9khNcHT3VTXsUi12JCVYjuRVJ6yL",
-            "desktop": "https://drive.google.com/uc?export=view&id=1O0u7VUmPSYAOa6XIVNVaAo3kuP2IceTh"
+            "mobile": "https://assets.staging.bedu.org/UANE/nosotros_Podcast_movil_2c37459a3b.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/nosotros_Podcast_desk_da04ea3798.jpg"
           },
           "text": "Podcast",
           "icon": "arrow_forward",
@@ -236,7 +236,7 @@
     },
     "experiences": {
       "title": "Experiencias UANE",
-      "images": {"images": [{"id": "1", "image": "https://drive.google.com/uc?export=view&id=12v7l9rn64PETJYeeTMhYg7JoGFREX7-p", "icon": "zoom_out_map" }, {"id": "2", "image": "https://drive.google.com/uc?export=view&id=1C1Xiqumw-kRaSbbNiCGk1ZWnyHJ6uXgN", "icon": "zoom_out_map" }, {"id": "3", "image": "https://drive.google.com/uc?export=view&id=16KtXgv4zuJ4423dSrBmO3I5cD1qXg3mi", "icon": "zoom_out_map"}, {"id": "4", "image": "https://drive.google.com/uc?export=view&id=1rRSzBHWT2PwvFMqggNpTJjmLz04HUnit", "icon": "zoom_out_map"},{"id": "5", "image": "https://drive.google.com/uc?export=view&id=10TOGohJ27oqsXsNy2rzDJzzNvlKOC3IM", "icon": "zoom_out_map"}, {"id": "6", "image": "https://drive.google.com/uc?export=view&id=13S2GtDhvgNd4tt7o6wV7e9dlGwGXjDyn", "icon": "zoom_out_map" }, {"id": "7", "image": "https://drive.google.com/uc?export=view&id=1Oq5BTSdHGuw9U2P4Yxi1CZ_zeEZGoeFr", "icon": "zoom_out_map"}, {"id": "8", "image": "https://drive.google.com/uc?export=view&id=1X4ej9Fm8gVQHVZXOFNPEptGAFkjhdVTs", "icon": "zoom_out_map"},{"id": "9", "image": "https://drive.google.com/uc?export=view&id=13KdROPNSn_ActM4uz1cDXXAHmQwrGxRn", "icon": "zoom_out_map"}, {"id": "10", "image": "https://drive.google.com/uc?export=view&id=1Eg1G56AZCzE_ewKQ-zGrY2HCO2ziFeKT", "icon": "zoom_out_map"},{"id": "11", "image": "https://drive.google.com/uc?export=view&id=1xN4Tuo5Yl5QZmcTdiayRZYeeqLjAcrf6", "icon": "zoom_out_map"}, {"id": "12", "image": "https://drive.google.com/uc?export=view&id=1-Fskro3alFbg5A2hZOFipGG7nZ9qZxgU", "icon": "zoom_out_map"}]}
+      "images": {"images": [{"id": "1", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia1_desk_046b6fdcc8.jpg", "icon": "zoom_out_map" }, {"id": "2", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia2_desk_1a0cfb9895.jpg", "icon": "zoom_out_map" }, {"id": "3", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia3_desk_f43d4dae1f.jpg", "icon": "zoom_out_map"}, {"id": "4", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia4_desk_516fe09272.jpg", "icon": "zoom_out_map"},{"id": "5", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia5_desk_2bb7a40a1f.jpg", "icon": "zoom_out_map"}, {"id": "6", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia6_desk_deec3d8eec.jpg", "icon": "zoom_out_map" }, {"id": "7", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia7_desk_0dad5bed3e.jpg", "icon": "zoom_out_map"}, {"id": "8", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia8_desk_2c5684bc28.jpg", "icon": "zoom_out_map"},{"id": "9", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia9_desk_699be7e56f.jpg", "icon": "zoom_out_map"}, {"id": "10", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia10_desk_294afdbbbc.jpg", "icon": "zoom_out_map"},{"id": "11", "image": "https://assets.staging.bedu.org/UANE/nosotros_Expriencia11_desk_3a804fc7dc.jpg", "icon": "zoom_out_map"}, {"id": "12", "image": "https://assets.staging.bedu.org/UANE/nosotros_Experiencia12_desk_ef60b0fc14.jpg", "icon": "zoom_out_map"}]}
     },
     "ourScholarships": {
       "title": "Contamos con becas para apoyar a nuestros estudiantes",
@@ -432,7 +432,7 @@
       "id": "certificaciones",
       "certifications": [
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=1j0ZjWKgDoRBr06ZmhzV286dqdioFzSFp",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_Fimpes_desk_59a49ea7cf.jpg",
           "subtitle": "",
           "title": "FIMPES",
           "text": "<p></p>Federación de Instituciones Mexicanas Particulares<p></p>",
@@ -447,7 +447,7 @@
           "wrapper": true
         },
         { 
-          "urlImage": "https://drive.google.com/uc?export=view&id=125U6n0Zdk556KYbA1xxDSKl8q39pSY-M",
+          "urlImage": "https://assets.staging.bedu.org/UANE/nosotros_QM_desk_128e86e49f.jpg",
           "subtitle": "",
           "title": "Quality Matters Higher Education",
           "text": "Organización global líder en garantía de calidad en la enseñanza y el aprendizaje digitales innovadores y en línea",
