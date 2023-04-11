@@ -9,7 +9,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1yiUtT-a8G6MK8lgNi7-Zx4bx9kG4OUS0",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Saltillo_6c15d6d22c.jpg",
             "alt": "image-1"
           }
         ],
@@ -25,7 +25,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1GhO4avVMRLf6T9YIYm9vjnFp-ICQ8_Lh",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Torreon_69c35855c9.jpg",
             "alt": "image-1"
           }
         ],
@@ -41,7 +41,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1VIXRq0R8DSqGLSTkIoLjXWfDGVKzhFgX",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Monclova_002b4efd14.jpg",
             "alt": "image-1"
           }
         ],
@@ -57,7 +57,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1Z2Avqg7iUdk6SVvHMNv4DYDQTt4uaf_6",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Sabinas_7075930e10.jpg",
             "alt": "image-1"
           }
         ],
@@ -73,7 +73,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1MiD841KwsZduQgnqrzeptukHp-ifk_6I",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Piedras_Negras_71c78fd1fc.jpg",
             "alt": "image-1"
           }
         ],
@@ -89,7 +89,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1qD8W1RchHgbSdQWGP3aVUWPODWr8cj6u",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Monterrey_6d32f0f9f0.jpg",
             "alt": "image-1"
           }
         ],
@@ -105,7 +105,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1cAhBj2gFpePtlId5yrSmXVhcLi45RYse",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Reynosa_f1085c9ed8.jpg",
             "alt": "image-1"
           }
         ],
@@ -121,7 +121,7 @@
       {
         "images": [
           {
-            "src": "https://drive.google.com/uc?export=view&id=1TMcVkF-gZrNf-UDzY9ZWPRCLn5tLGCzq",
+            "src": "https://assets.staging.bedu.org/UANE/nosotros_campus_Matamoros_5ff47593d3.jpg",
             "alt": "image-1"
           }
         ],
@@ -138,9 +138,9 @@
     "head": {
       "banner": {
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1DivAOO2be095H1sknR5NPaO-FveClU9C",
-          "mobile": "https://drive.google.com/uc?export=view&id=1xGozyNf783hDUdWKMl-YYAVfCCYucLXJ",
-          "tablet": "https://drive.google.com/uc?export=view&id=1aIRuW4hEKrgtfPwM01N2PJQRP2sn5KhE"
+          "desktop": "https://assets.staging.bedu.org/UANE/nosotros_campus_01_a879154b62.jpg",
+          "mobile": "https://assets.staging.bedu.org/UANE/nosotros_Campus_movil_f12d8509de.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/nosotros_campus_Campus_01_tablet_7da4c34bc2.jpg"
         },
         "title": "Nuestros Campus",
         "subtitle": "Agrega experiencias internacionales a tus estudios",
@@ -168,9 +168,9 @@
       "title": "Agenda una visita",
       "subtitle": "internacionalízate agrega experiencias internacionales a tu educación",
       "image": {
-        "desktop":  "https://drive.google.com/uc?export=view&id=1nthjOTHZE1eFY0WLGgV7uhP8sguiWmgn",
-        "tablet":  "https://drive.google.com/uc?export=view&id=1gFcEfNPgIYgUHsnb356rgEm029xAbTEG",
-        "mobile":  "https://drive.google.com/uc?export=view&id=1wiAtu6gzutmc1iccoJPD_LOoh5keaWH4"
+        "desktop":  "https://assets.staging.bedu.org/UANE/nosotros_campus_agenda_una_visita_66e8411d9d.jpg",
+        "tablet":  "https://assets.staging.bedu.org/UANE/nosotros_campus_Contactanos_tablet_be150767e7.jpg",
+        "mobile":  "https://assets.staging.bedu.org/UANE/nosotros_campus_Agenda_una_visita_movil_eb6195297e.jpg"
       },
       "email": "hola@uane.edu.mx",
       "phone": "8008228263"
