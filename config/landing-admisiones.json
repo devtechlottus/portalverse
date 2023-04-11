@@ -9,22 +9,22 @@
       "title":"Inscríbete en UANE",
       "textIcons":[
         {
-          "icon": "https://drive.google.com/uc?export=view&id=1T0zh7_wWn_U7vC8Ghb1OnvK9Vf_iw8RI",
+          "icon": "https://assets.staging.bedu.org/UANE/admisiones_trophy_742ca1d363.png",
           "name": "trophy", 
           "text": "48 años nos respaldan"
         },
         {
-          "icon": "https://drive.google.com/uc?export=view&id=1zMwTLnS12WxMDnzO7oUt1MhUZYKtaqIv",
+          "icon": "https://assets.staging.bedu.org/UANE/admisiones_schoolboy_at_a_desk_a4f2a3393a.png",
           "name": "studentIcon",
           "text": "+13,500 alumnos en todas nuestras modalidades"
         },
         {
-          "icon": "https://drive.google.com/uc?export=view&id=1oxx9Lwrg7_C5nnNGnqYIsU7Y4QmDbTgM",
+          "icon": "https://assets.staging.bedu.org/UANE/admisiones_graduation_cap_4920a7788f.png",
           "name": "graduateIcon",
           "text": "+50,000 egresados"
         },
         {
-          "icon": "https://drive.google.com/uc?export=view&id=1rJEHj6oYdFn3DI0k8-AJyKJEwPZ8vlxk",
+          "icon": "https://assets.staging.bedu.org/UANE/admisiones_crowd_6a442c00ee.png",
           "name": "workIcon",
           "text": "+368 convenios empresariales para una acelerada inserción laboral"
         }
@@ -33,11 +33,11 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1zUHr9b2_nXj94EcxJStO0PM5djT3HnjW"
+          "src": "https://assets.staging.bedu.org/UANE/admisiones_inscribete_desk_b1312e4e14.jpg"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1CUn9n-9_pAb964N6v1YuG0xaHLLeieRZ"
+          "src": "https://assets.staging.bedu.org/UANE/admisiones_inscribete_movil_c117d52174.jpg"
         }
       }
     },
@@ -50,7 +50,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1PET9mqMDMaVdRgT45CA-aGxRTTJwIsGO"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_requisitos_de_admision_desk_51544cf7ce.jpg"
               },
               "content": {
                 "title": "",
@@ -59,7 +59,7 @@
               },
               "cards": [
                 { 
-                  "image": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "image": "https://assets.staging.bedu.org/UANE/admisiones_presencial_desk_35aa408d0e.jpg",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -74,7 +74,7 @@
                   "wrapper": true
                 },
                 { 
-                  "image": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "image": "https://assets.staging.bedu.org/UANE/admisiones_en_linea_desk_f17469e249.jpg",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -89,7 +89,7 @@
                   "wrapper": true
                 },
                 { 
-                  "image": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "image": "https://assets.staging.bedu.org/UANE/admisiones_flex_desk_9ef823fb2d.jpg",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -111,7 +111,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1PET9mqMDMaVdRgT45CA-aGxRTTJwIsGO"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_requisitos_de_admision_desk_51544cf7ce.jpg"
               },
               "content": {
                 "title": "",
@@ -120,7 +120,7 @@
               },
               "cards": [
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_presencial_desk_35aa408d0e.jpg",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -135,7 +135,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_en_linea_desk_f17469e249.jpg",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -150,7 +150,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_flex_desk_9ef823fb2d.jpg",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -172,7 +172,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1PET9mqMDMaVdRgT45CA-aGxRTTJwIsGO"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_requisitos_de_admision_desk_51544cf7ce.jpg"
               },
               "content": {
                 "title": "",
@@ -181,7 +181,7 @@
               },
               "cards": [
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_presencial_desk_35aa408d0e.jpg",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -196,7 +196,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_en_linea_desk_f17469e249.jpg",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -211,7 +211,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_flex_desk_9ef823fb2d.jpg",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -233,7 +233,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1PET9mqMDMaVdRgT45CA-aGxRTTJwIsGO"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_requisitos_de_admision_desk_51544cf7ce.jpg"
               },
               "content": {
                 "title": "",
@@ -242,7 +242,7 @@
               },
               "cards": [
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_presencial_desk_35aa408d0e.jpg",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -257,7 +257,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_en_linea_desk_f17469e249.jpg",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -272,7 +272,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_flex_desk_9ef823fb2d.jpg",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -294,7 +294,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1PET9mqMDMaVdRgT45CA-aGxRTTJwIsGO"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_requisitos_de_admision_desk_51544cf7ce.jpg"
               },
               "content": {
                 "title": "",
@@ -303,7 +303,7 @@
               },
               "cards": [
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1E3aYNZfcCA4rH3VFUwpxo79NiyTdS66L",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_presencial_desk_35aa408d0e.jpg",
                   "subtitle": "",
                   "title": "Presencial",
                   "text": "¡Vive la experiencia educativa en el campus! Asiste de manera tradicional a clases con el mejor ambiente estudiantil",
@@ -318,7 +318,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1FpIUYqbMOhqQL3r_lPftk7SEmjjM0UiE",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_en_linea_desk_f17469e249.jpg",
                   "subtitle": "",
                   "title": "UANE Online",
                   "text": "Si buscas estudiar desde cualquier lugar, sin descuidar tu trabajo o estilo de vida, este sistema es para ti, gracias a nuestra plataforma virtual.",
@@ -333,7 +333,7 @@
                   "wrapper": true
                 },
                 { 
-                  "urlImage": "https://drive.google.com/uc?export=view&id=1qqftwM5Pp54WBR56-jo6ecctiK-tH3-D",
+                  "urlImage": "https://assets.staging.bedu.org/UANE/admisiones_flex_desk_9ef823fb2d.jpg",
                   "subtitle": "",
                   "title": "UANE Flex (Híbrido)",
                   "text": "¡Combina lo mejor de dos mundos! Asiste todos los sábados al campus con tus maestros y el resto de la semana lleva tus materias de manera virtual.",
@@ -357,9 +357,9 @@
     "internacionalizacion": {
       "banner": {
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1Y_edCTwyeAXRGkcjqf5V2S8QEyVYaENW",
-          "mobile": "https://drive.google.com/uc?export=view&id=1PZURny8POJsMYHamJycNKgM3LmxoMUiK",
-          "tablet": "https://drive.google.com/uc?export=view&id=1TpgDT_hQIJ0hew0WPp40M21oURKnD9B_"
+          "desktop": "https://assets.staging.bedu.org/UANE/admisiones_internacional_desk_01a44424b3.jpg",
+          "mobile": "https://assets.staging.bedu.org/UANE/admisiones_Internacional_movil_6dbe0793b5.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_Internacional_tablet_40f0dc67bc.jpg"
         },
         "title": "UANE Internacional",
         "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
@@ -386,9 +386,9 @@
     "empleabilidad": {
       "banner":{
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1EFLlkdIgmmhEjT9MhRsMV95VOLJWiGLd",
-          "mobile": "https://drive.google.com/uc?export=view&id=1ZUOdTVdzIjtW5zxjAt0P1plB4wEeexl4",
-          "tablet": "https://drive.google.com/uc?export=view&id=1Pbqg2oRfuFjD4wnVYSRlYBWQK0cIu9qT"
+          "desktop": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_desk_4aa94867fa.jpg",
+          "mobile": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_movil_4d5700aa60.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_tablet_5da4590112.jpg"
         },
         "title": "Empleabilidad en UANE",
         "subtitle": "Inscríbete en nuestra Bolsa de Talento y encuentra empleo",
@@ -415,9 +415,9 @@
     "becas": {
       "banner":{
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1I81w0SvSs7u-tr-qC_GMLXtS6rrh9G6I",
-          "mobile": "https://drive.google.com/uc?export=view&id=1eNqySRZqOi0naAcqYMRGw0Jq2h6ZGNfW",
-          "tablet": "https://drive.google.com/uc?export=view&id=1I81w0SvSs7u-tr-qC_GMLXtS6rrh9G6I"
+          "desktop": "https://assets.staging.bedu.org/UANE/admisiones_banner_desk_a629cfa874.png",
+          "mobile": "https://assets.staging.bedu.org/UANE/admisiones_banner_movil_f7755deb01.png",
+          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_banner_desk_a629cfa874.png"
         },
         "title": "Conoce las becas que tenemos para ti",
         "subtitle": "Mira sus experiencias.",
@@ -446,7 +446,7 @@
       "description": "En UANE dejamos huella de oso en cada paso que damos, piensa y estudia en grande.",
       "cards": [
         { 
-          "image": "https://drive.google.com/uc?export=view&id=1dUsNbdPsO41DxKvGxCixRy3Kh4SxEgiu",    
+          "image": "https://assets.staging.bedu.org/UANE/admisiones_nombre_02_desk_b4b9da04fd.jpg",    
           "subtitle": "Alumna, en Psicología",
           "title": "María Torres",
           "text": "\"Estudiar en UANE hace que me sienta como en casa, soy parte de una familia.\"",
@@ -456,7 +456,7 @@
           "background": true
         },
         { 
-          "image": "https://drive.google.com/uc?export=view&id=1zS4Yaux64foY96PUFyFulCV8c50Brbbb",
+          "image": "https://assets.staging.bedu.org/UANE/admisiones_nombre_01_desk_dda9c27be0.jpg",
           "subtitle": "Egresado, Lic. en Mercadotecnia Internacional",
           "title": "Erick Santoyo",
           "text": "\"UANE ha transformado mis experiencias laborales permitiendo crecer con todas las herramientas y conocimientos que adquirí durante mi carrera profesional\"",
