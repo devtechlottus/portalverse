@@ -18,9 +18,9 @@
             "title": "¡Transforma tu experiencia!", 
             "text": "Con actividades internacionales ve con todo hacia el mundo laboral",
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1kQunkEQ9c-pj2f5T6Udk2a2nbvm32CX2",
-              "tablet": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT",
-              "desktop": "https://drive.google.com/uc?export=view&id=159EansB3GxH1YuKEWo7MKaoRdJJeDPKT"
+              "mobile": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_slider_1_desk_c51a000f49.jpg",
+              "tablet": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_desk_7fb46e23e8.jpg",
+              "desktop": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_desk_7fb46e23e8.jpg"
             },
             "center": true,
             "left": false,
@@ -33,9 +33,9 @@
             "title": "¡Participa en más de 10 tipos de experiencias sin salir de casa!", 
             "text": "",
             "urlImage": {
-              "mobile": "https://drive.google.com/uc?export=view&id=1gLfKQDGUCr6ooW-4U8Vi4Aa5Yy4eajYl",
-              "tablet": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M",
-              "desktop": "https://drive.google.com/uc?export=view&id=1W2p35FQwow7Mb-17jk1qfCuj6NomVW-M"
+              "mobile": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_slider_movil_1_0bdae63687.jpg",
+              "tablet": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_slider_1_desk_c51a000f49.jpg",
+              "desktop": "https://assets.staging.bedu.org/UANE/nosotros_internacional_banner_slider_1_desk_c51a000f49.jpg"
             },
             "center": true,
             "left": false,
@@ -59,8 +59,8 @@
       "alliances": [
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1XWvFYPU9rFoqxbEOUHktH4BGoLXWg3Sy",
-            "desktop": "https://drive.google.com/uc?export=view&id=1XWvFYPU9rFoqxbEOUHktH4BGoLXWg3Sy"
+            "mobile": "https://assets.staging.bedu.org/UANE/isep_cf0348514b.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/isep_cf0348514b.jpg"
           },
           "text": "Universidad ISEP",
           "icon": "arrow_forward",
@@ -84,8 +84,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1m-J6yixFZlbGoQ7MNiazPzAGSPpdkEhW",
-            "desktop": "https://drive.google.com/uc?export=view&id=1m-J6yixFZlbGoQ7MNiazPzAGSPpdkEhW"
+            "mobile": "https://assets.staging.bedu.org/UANE/politecnico_grancolombiano_e8fe77f6a6.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/politecnico_grancolombiano_e8fe77f6a6.jpg"
           },
           "text": "Politécnico Gran Colombiano",
           "icon": "arrow_forward",
@@ -109,8 +109,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1PI2Y6G40m6qBrmySKkX81rSfw0FCdQTS",
-            "desktop": "https://drive.google.com/uc?export=view&id=1PI2Y6G40m6qBrmySKkX81rSfw0FCdQTS"
+            "mobile": "https://assets.staging.bedu.org/UANE/ibero_de_colombia_5568e8c5d6.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/ibero_de_colombia_5568e8c5d6.jpg"
           },
           "text": "Ibero de Colombia",
           "icon": "arrow_forward",
@@ -134,8 +134,8 @@
         },               
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1EPzQyhdU2VhxpNcEO-RWPvOw71MJOlsz",
-            "desktop": "https://drive.google.com/uc?export=view&id=1EPzQyhdU2VhxpNcEO-RWPvOw71MJOlsz"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_de_sevilla_59b65810e9.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_de_sevilla_59b65810e9.jpg"
           },
           "text": "Universidad De Sevilla",
           "icon": "arrow_forward",
@@ -160,8 +160,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1Mr0bpirsN1luZPC4cHvTIM6Av1po8JhL",
-            "desktop": "https://drive.google.com/uc?export=view&id=1Mr0bpirsN1luZPC4cHvTIM6Av1po8JhL"
+            "mobile": "https://assets.staging.bedu.org/UANE/ucam_6f1f6b8300.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/ucam_6f1f6b8300.jpg"
           },
           "text": "Universidad Católica San Antonio de Murcia",
           "icon": "arrow_forward",
@@ -185,8 +185,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1o3eQ4V_-xhwkkn9-XiqiY-hFJ9Ddmbtp",
-            "desktop": "https://drive.google.com/uc?export=view&id=1o3eQ4V_-xhwkkn9-XiqiY-hFJ9Ddmbtp"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_europea_del_atlantico_41726b80f6.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_europea_del_atlantico_41726b80f6.jpg"
           },
           "text": "Universidad Europea del Atlántico",
           "icon": "arrow_forward",
@@ -210,8 +210,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1qe2l8dUbMixVZAL6UpL-jwbfhfHHwR-f",
-            "desktop": "https://drive.google.com/uc?export=view&id=1qe2l8dUbMixVZAL6UpL-jwbfhfHHwR-f"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_complutense_de_sevilla_6fc75515dc.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_complutense_de_sevilla_6fc75515dc.jpg"
           },
           "text": "Universidad Complutense Madrid",
           "icon": "arrow_forward",
@@ -235,8 +235,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1TsKiNc4OJ-orBPGBxL-pAuz1jJhS8TwI",
-            "desktop": "https://drive.google.com/uc?export=view&id=1TsKiNc4OJ-orBPGBxL-pAuz1jJhS8TwI"
+            "mobile": "https://assets.staging.bedu.org/UANE/planeta_formacion_y_universidades_0c215306e1.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/planeta_formacion_y_universidades_0c215306e1.jpg"
           },
           "text": "Grupo Planeta Formación y Universidades",
           "icon": "arrow_forward",
@@ -261,8 +261,8 @@
         },   
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1T1o0D1s8MQ2jDqolnhKTofE70wMnoPRl",
-            "desktop": "https://drive.google.com/uc?export=view&id=1T1o0D1s8MQ2jDqolnhKTofE70wMnoPRl"
+            "mobile": "https://assets.staging.bedu.org/UANE/uax_328f7bec54.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/uax_328f7bec54.jpg"
           },
           "text": "Universidad Alfonso X el Sabio",
           "icon": "arrow_forward",
@@ -287,8 +287,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1ig0gNvU1CMW-Pa80rLyOdQP9xrI9Wsfv",
-            "desktop": "https://drive.google.com/uc?export=view&id=1ig0gNvU1CMW-Pa80rLyOdQP9xrI9Wsfv"
+            "mobile": "https://assets.staging.bedu.org/UANE/uc3m_79f28af714.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/uc3m_79f28af714.jpg"
           },
           "text": "Universidad Carlos III de Madrid",
           "icon": "arrow_forward",
@@ -313,8 +313,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1B5otH-3aVwgPGSi7MGD-GD6q6wXa2_p3",
-            "desktop": "https://drive.google.com/uc?export=view&id=1B5otH-3aVwgPGSi7MGD-GD6q6wXa2_p3"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_internacional_de_valencia_6642456fe7.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_internacional_de_valencia_6642456fe7.jpg"
           },
           "text": "Universidad Internacional de Valencia",
           "icon": "arrow_forward",
@@ -339,8 +339,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez",
-            "desktop": "https://drive.google.com/uc?export=view&id=1ecxNFnzJ_AKClE3qP1RO-0X2EgXwr5Ez"
+            "mobile": "https://assets.staging.bedu.org/UANE/skr_uax_logo_af61d7ed6a.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/skr_uax_logo_af61d7ed6a.jpg"
           },
           "text": "Escuela de Gobierno y Transformación Pública",
           "icon": "arrow_forward",
@@ -365,8 +365,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1KECHLYBujZ8FV_FaAjfRq95XTbb2y5P1",
-            "desktop": "https://drive.google.com/uc?export=view&id=1KECHLYBujZ8FV_FaAjfRq95XTbb2y5P1"
+            "mobile": "https://assets.staging.bedu.org/UANE/unicoc_198715ffc7.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/unicoc_198715ffc7.jpg"
           },
           "text": "UNICOC Institución Universitaria Colegios de Colombia ",
           "icon": "arrow_forward",
@@ -391,8 +391,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1J0wVLKhMgQcGY_GS68mK-IrI9yxUe5KP",
-            "desktop": "https://drive.google.com/uc?export=view&id=1J0wVLKhMgQcGY_GS68mK-IrI9yxUe5KP"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_el_bosque_d8db5feed9.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_el_bosque_d8db5feed9.jpg"
           },
           "text": "Universidad El Bosque",
           "icon": "arrow_forward",
@@ -417,8 +417,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=112i71-eqdE_EWzOKNE49bCMoTghktt7s",
-            "desktop": "https://drive.google.com/uc?export=view&id=112i71-eqdE_EWzOKNE49bCMoTghktt7s"
+            "mobile": "https://assets.staging.bedu.org/UANE/delistmo_8fc349690d.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/delistmo_8fc349690d.jpg"
           },
           "text": "Universidad del Itsmo",
           "icon": "arrow_forward",
@@ -443,8 +443,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1_yFT_avyc70fBfxtySpQBCIE7zXW6e_w",
-            "desktop": "https://drive.google.com/uc?export=view&id=1_yFT_avyc70fBfxtySpQBCIE7zXW6e_w"
+            "mobile": "https://assets.staging.bedu.org/UANE/san_marcos_e072adb541.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/san_marcos_e072adb541.jpg"
           },
           "text": "Universidad de San Marcos",
           "icon": "arrow_forward",
@@ -469,8 +469,8 @@
         },
         {
           "urlImage": {
-            "mobile": "https://drive.google.com/uc?export=view&id=1uTwMd43E347cgBgWa-bQAVzEoa6FAaim",
-            "desktop": "https://drive.google.com/uc?export=view&id=1uTwMd43E347cgBgWa-bQAVzEoa6FAaim"
+            "mobile": "https://assets.staging.bedu.org/UANE/universidad_isabel_2a6b56a0e4.jpg",
+            "desktop": "https://assets.staging.bedu.org/UANE/universidad_isabel_2a6b56a0e4.jpg"
           },
           "text": "Universidad Isabel I",
           "icon": "arrow_forward",
@@ -571,28 +571,28 @@
       "sections": [
         {
           "color": "#E84537", "sections": [
-            { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fwHcsFIBNdKFZt0Xl5fvIUVg-ObCYsYu", "alt": "imagen-item" } },
-            { "title": "Intercambio de Materias Virtual", "description": "Posibilidad de cursar una materia completa en línea, en alguna universidad extranjera asociada. Créditos revalidados por UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=1fjPHVnTGD9JYk3G4tHuDDSezns3vK3jE", "alt": "imagen-item" } },
-            { "title": "Semestre | Año Study Abroad", "description": "En esta modalidad podrás cursar, de forma presencial, un semestre o año completo en alguna universidad en el extranjero. Deberás revisar los planes de estudios y consultar con Academia para saber cuáles son las materias que se revalidan.", "image": { "src": "https://drive.google.com/uc?export=view&id=1uupVvb87v9z0z64KFmYwJiAav9sHGfRy", "alt": "imagen-item" } }
+            { "title": "Clases Espejo | Global Classroom", "description": "Sesiones virtuales de 45 a 60 minutos, con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_clases_espejo_a046d293db.png", "alt": "imagen-item" } },
+            { "title": "Intercambio de Materias Virtual", "description": "Posibilidad de cursar una materia completa en línea, en alguna universidad extranjera asociada. Créditos revalidados por UANE.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_intercambio_de_materias_829d1c5491.png", "alt": "imagen-item" } },
+            { "title": "Semestre | Año Study Abroad", "description": "En esta modalidad podrás cursar, de forma presencial, un semestre o año completo en alguna universidad en el extranjero. Deberás revisar los planes de estudios y consultar con Academia para saber cuáles son las materias que se revalidan.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_semestre_4c202780a2.png", "alt": "imagen-item" } }
           ]
         },
         {
           "color": "#B0003C", "sections": [
-            { "title": "Webinar | Profesores internacionales", "description": "Masterclasses impartidas por profesores o especialistas internacionales, de temáticas de interés para cada carrera. Con certificado internacional de participación.", "image": { "src": "https://drive.google.com/uc?export=view&id=1UJRoPYWP8iiQ33IXC74zNJIhTSLZj8If", "alt": "imagen-item" } },
-            { "title": "Campus de Verano", "description": "Se trata de una actividad internacional a través de la cual alumnos de UANE podrán tener una experiencia en un campus de verano, con nuestros aliados internacionales, y podrán revalidar algunas de las materias al tiempo que tiene una experiencia internacional inolvidable.", "image": { "src": "https://drive.google.com/uc?export=view&id=1c2l1wYsR1w3uaISM1XGdxCAOdSFNxvIP", "alt": "imagen-item" } },
-            { "title": "Twin Projects", "description": "Sesiones virtuales de 45 a 60 minutos con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://drive.google.com/uc?export=view&id=1kcG8szhq6JYNiNcqkEz0mEf4KMookVIg", "alt": "imagen-item" } }
+            { "title": "Webinar | Profesores internacionales", "description": "Masterclasses impartidas por profesores o especialistas internacionales, de temáticas de interés para cada carrera. Con certificado internacional de participación.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_webinar_profesor_internacional_050be1d15d.png", "alt": "imagen-item" } },
+            { "title": "Campus de Verano", "description": "Se trata de una actividad internacional a través de la cual alumnos de UANE podrán tener una experiencia en un campus de verano, con nuestros aliados internacionales, y podrán revalidar algunas de las materias al tiempo que tiene una experiencia internacional inolvidable.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_campus_de_verano_17c6783427.png", "alt": "imagen-item" } },
+            { "title": "Twin Projects", "description": "Sesiones virtuales de 45 a 60 minutos con temáticas incluidas en los planes de estudio por carrera, impartidas por profesores de las universidades asociadas.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_twin_projects_a673250f47.png", "alt": "imagen-item" } }
           ]
         },
         {
           "color": "#00BEB4", "sections": [
-            { "title": "Prácticas Internacionales", "description": "A través de diversos programas, los alumnos de UANE podrán tener acceso al desarrollo de prácticas profesionales internacionales en sus áreas de conocimiento.", "image": { "src": "https://drive.google.com/uc?export=view&id=1c3k_sxtmrpHPi-eSSFizMZNwdk1-EKZR", "alt": "imagen-item" } },
-            { "title": "Dobles Títulos", "description": "Dentro de los esfuerzos de internacionalización de UANE se encuentra esta modalidad, por la que podrás cursar un semestre de tu carrera en alguna de las universidades internacionales de convenio y obtener, además del título de UANE, el título extranjero de la carrera que estés cursando.", "image": { "src": "https://drive.google.com/uc?export=view&id=1LdRAeeA-iPHT_lbWEWB2nxFM38tQoHbg", "alt": "imagen-item" } },
-            { "title": "Materias de Contenidos Internacionales", "description": "La UANE cuenta, a través de sus convenios, con materias elaboradas junto con las mejores universidades internacionales. De esta forma podrás tener una experiencia internacional en el marco de su propio itinerario académico y contar con diversos certificados internacionales.", "image": { "src": "https://drive.google.com/uc?export=view&id=1XGXWXBTRCiE0VQ9UUSn_FNEkyMRIDeCC", "alt": "imagen-item" } }
+            { "title": "Prácticas Internacionales", "description": "A través de diversos programas, los alumnos de UANE podrán tener acceso al desarrollo de prácticas profesionales internacionales en sus áreas de conocimiento.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_practicas_internacionales_b190cd4704.png", "alt": "imagen-item" } },
+            { "title": "Dobles Títulos", "description": "Dentro de los esfuerzos de internacionalización de UANE se encuentra esta modalidad, por la que podrás cursar un semestre de tu carrera en alguna de las universidades internacionales de convenio y obtener, además del título de UANE, el título extranjero de la carrera que estés cursando.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_dobles_titulos_0874609b7f.png", "alt": "imagen-item" } },
+            { "title": "Materias de Contenidos Internacionales", "description": "La UANE cuenta, a través de sus convenios, con materias elaboradas junto con las mejores universidades internacionales. De esta forma podrás tener una experiencia internacional en el marco de su propio itinerario académico y contar con diversos certificados internacionales.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_materias_contenidos_internacionales_748d7d9626.png", "alt": "imagen-item" } }
           ]
         },
         {
           "color": "#8B9BA3", "sections": [
-            { "title": "Seminarios Internacionales de Titulación", "description": "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu licenciatura en UANE.", "image": { "src": "https://drive.google.com/uc?export=view&id=14YULi4_jvgbWZxba1G3vBY5iy4WNDNNc", "alt": "imagen-item" } }
+            { "title": "Seminarios Internacionales de Titulación", "description": "Esta novedosa experiencia internacional te permitirá cursar un programa académico y cultural en España. Durante una semana tendrás un completo itinerario en el Campus Lottus Internacional, de acuerdo con tu carrera, con masterclasses en sitios emblemáticos de Madrid y, además, al cursar este programa, podrás cubrir el requisito de seminario de titulación para culminar tu licenciatura en UANE.", "image": { "src": "https://assets.staging.bedu.org/UANE/nosotros_internacional_seminario_internacional_titulacion_10e6f5f97c.png", "alt": "imagen-item" } }
           ]
         }
       ]
