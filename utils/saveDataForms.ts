@@ -6,8 +6,6 @@ export const stepsEndpoints: any = {
   step3: process.env.NEXT_PUBLIC_DATOS_COMPLEMENTARIOS
 };
 
-const businessUnit = process.env.NEXT_PUBLIC_BUSINESS_UNIT!;
-
 export const saveDataForms = () => {
   const [ isLoading, setIsLoading ] = useState<boolean>(false);
   const [ isError, setIsError ] = useState<boolean>(false);
@@ -26,77 +24,15 @@ export const saveDataForms = () => {
    return lead;
   }
 
-  const UTM_MEDIUMS: Array<string> = ["Google", "Facebook"];
-  const UTM_CAMPAIGNS: Array<string> = []; // list of possible values pending
-
-  type Modality = "Presencial" | "Online" | "Flex";
-
-  const formatUANEWebToLeadCampus = (modality: Modality) => {
-    switch (modality) {
-      case "Presencial":
-        return null;
-      case "Flex":
-        return "UANE FLEX";
-      case "Online":
-        return "VIRTUALIDAD";
-      default:
-        return null;
-    }
-  };
-
-  const formatUTEGWebToLeadCampus = (modality: Modality) => {
-    switch (modality) {
-      case "Presencial":
-        return null;
-      case "Flex":
-        return "UTEG FLEX";
-      case "Online":
-        return "UTEG ONLINE";
-      default:
-        return null;
-    }
-  };
-
-  const formatWebToLeadCampus = (businessUnit: string, modality: Modality) => {
-    switch (businessUnit) {
-      case "UANE":
-        return formatUANEWebToLeadCampus(modality);
-      case "UTEG":
-        return formatUTEGWebToLeadCampus(modality);
-      default:
-        return null;
-    }
-  };
-
-  const saveData = async(step: string, data: any, Authorization: string, linea?: string, queryParams?: Record<string, any>) => {
-
+  const saveData = async(step: string, data: any, Authorization: string, linea?: string) => {
     const bot = setRegisterBot();
-
-    // Values for Marketing team
-    const utmMedium = queryParams?.utm_medium;
-    const utmCampaign = queryParams?.utm_campaign;
-    const medio = UTM_MEDIUMS.includes(utmMedium) ? utmMedium : null;
-    const campana = UTM_CAMPAIGNS.includes(utmCampaign) ? utmCampaign : null;
-
-    const nombre = data.name;
-    const apellidos = data.surname;
-    const telefono = data.phone;
-    const email = data.email;
-    const source = `portal${process.env.NEXT_PUBLIC_LINEA}`
-    const canal = process.env.NEXT_PUBLIC_CANAL;
-    const webtoleadcampus = formatWebToLeadCampus(businessUnit, data?.modality);
-
-    const modality = data?.modality === "Presencial" ? "Presencial" : "Online";
-    const modalidad = data?.modalidad === "Presencial" ? "Presencial" : "Online";
-
     const params = step === 'step1'
-      ? `nombre=${nombre}&apellidos=${apellidos}&telefono=${telefono}&email=${email}&lineaNegocio=${linea}&modalidad=${modality}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=${source}&canal=${canal}${webtoleadcampus ? `&webtoleadcampus=${webtoleadcampus}` : ""}${medio ? `&medio=${medio}` : ""}${campana ? `&campana=${campana}` : ""}`
-      : `id=${data.id}&nivel=${data.nivel}&campus=${data.campus}&programa=${data.programa}&modalidad=${modalidad}&lineaNegocio=${data.lineaNegocio}&medioContacto=${data.medioContacto}&horarioContacto=${data.horarioContacto}`
+      ? `nombre=${data.name}&apellidos=${data.surname}&telefono=${data.phone}&email=${data.email}&lineaNegocio=${linea}&modalidad=${data.modality}&avisoPrivacidad=true&leadSource=Digital&validaRegistroBoot=${bot}&source=portalUANE&canal=${process.env.NEXT_PUBLIC_CANAL!}`
+      : `id=${data.id}&nivel=${data.nivel}&campus=${data.campus}&programa=${data.programa}&modalidad=${data.modalidad}&lineaNegocio=${data.lineaNegocio}&medioContacto=${data.medioContacto}&horarioContacto=${data.horarioContacto}`
 
     setIsLoading(true);
     setIsError(false);
     setData({});
-    
     await axios.post(`${stepsEndpoints[step]}?${params}`,{},{
       headers: {
         Authorization,
