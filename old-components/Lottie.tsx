@@ -5,6 +5,7 @@ const Lottie: FC<LottieComponentData> = memo(({ data }: LottieComponentData) => 
   const lottieRef = createRef();
 
   useEffect(() => {
+    //test
     const { data: options } = data;
     (lottieRef.current as any).data = { ...options };
     if(data.hasOwnProperty('dimensions')) {
