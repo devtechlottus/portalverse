@@ -8,8 +8,8 @@ const Routes: any = {
           title: "Bachillerato",
           promo: {
             urlImage: {
-              mobile: "https://drive.google.com/uc?export=view&id=1IZB-O4PNo9wwRDtweld_gpoRxzmv6WhX",
-              desktop: "https://drive.google.com/uc?export=view&id=1ooMLjk3zU7_8_A9W-NOdTOvjbGEw8qQW"
+              mobile: "https://assets.staging.bedu.org/UANE/oferta_bachillerato_movil_1f0d5cd934.jpg",
+              desktop: "https://assets.staging.bedu.org/UANE/oferta_bachillerato_desk_654176bdbd.jpg"
             },
             text: "",
             icon: "arrow_forward",
@@ -47,8 +47,8 @@ const Routes: any = {
           title: "Licenciaturas",
           promo: {
             urlImage: {
-              mobile: "https://drive.google.com/uc?export=view&id=1zl9VvR13Y1Tk0f-EfvkOzkHUZjQ2gPH_",
-              desktop: "https://drive.google.com/uc?export=view&id=1qB-SaPTknHUetoHA_e0CmcNQZxj2RZ2t"
+              mobile: "https://assets.staging.bedu.org/UANE/oferta_carreras_movil_b12eb60e44.jpg",
+              desktop: "https://assets.staging.bedu.org/UANE/oferta_carreras_desk_4ef261dd15.jpg"
             },
             text: "",
             icon: "arrow_forward",
@@ -115,8 +115,8 @@ const Routes: any = {
           title: "Especialidades",
           promo: {
             urlImage: {
-              mobile: "https://drive.google.com/uc?export=view&id=1jqW4m0V-UYJdCp2Ax0dqLxf04ansooLB",
-              desktop: "https://drive.google.com/uc?export=view&id=1lksUFh99fwx12CS5NDhSzzOwqjE2nBCQ"
+              mobile: "https://assets.staging.bedu.org/UANE/oferta_especialidades_movil_732aee5340.jpg",
+              desktop: "https://assets.staging.bedu.org/UANE/oferta_especialidades_desk_b96619eea0.jpg"
             },
             text: "",
             icon: "arrow_forward",
@@ -159,8 +159,8 @@ const Routes: any = {
           title: "Maestrías",
           promo: {
             urlImage: {
-              mobile: "https://drive.google.com/uc?export=view&id=1Y7pu9KD4hCZOM5MCQqYUf-cTkm6FjAxu",
-              desktop: "https://drive.google.com/uc?export=view&id=19gyvlX5gfDtt2QeQ5pnc66BAgtV9X5ng"
+              mobile: "https://assets.staging.bedu.org/UANE/oferta_maestrias_movil_1b1ed5735a.jpg",
+              desktop: "https://assets.staging.bedu.org/UANE/oferta_maestrias_desk_fd2e5b8460.jpg"
             },
             text: "",
             icon: "arrow_forward",
@@ -221,8 +221,8 @@ const Routes: any = {
           title: "Doctorado",
           promo: {
             urlImage: {
-              mobile: "https://drive.google.com/uc?export=view&id=1Hkdd9ScYfqlaS3D0wXntZ87PKJyFRXMG",
-              desktop: "https://drive.google.com/uc?export=view&id=1A-V4fwz_65l2Jrt20GxUOb22qshS7hqu"
+              mobile: "https://assets.staging.bedu.org/UANE/oferta_doctorados_movil_247423d2d0.jpg",
+              desktop: "https://assets.staging.bedu.org/UANE/oferta_doctorados_desk_e6f5d1e1ac.jpg"
             },
             text: "",
             icon: "arrow_forward",
@@ -261,8 +261,8 @@ const Routes: any = {
         title: "Extensión Universitaria",
         promo: {
           urlImage: {
-            mobile: "https://drive.google.com/uc?export=view&id=1A4Xz8N7VdVR7qOFR5TtzerX1Qek2qgMu",
-            desktop: "https://drive.google.com/uc?export=view&id=19Oe9R_hCPk8oY2t37VFiIHeZvWwUw3HL"
+            mobile: "https://assets.staging.bedu.org/UANE/oferta_educacion_continua_movil_1c7642bed7.jpg",
+            desktop: "https://assets.staging.bedu.org/UANE/oferta_educacion_continua_desk_a06f62f5fa.jpg"
           },
           text: "",
           icon: "arrow_forward",
