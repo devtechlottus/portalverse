@@ -12,11 +12,11 @@
       "image": {
         "desk": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1KUZbjSo1b_7q5U6UZoain-QVcS1H_Pt-"
+          "src": "https://assets.staging.bedu.org/UANE/admisiones_becas_01_mesa_de_trabajo_1_desk_9ca3054d83.jpg"
         },
         "mobile": {
           "alt": "imagen",
-          "src": "https://drive.google.com/uc?export=view&id=1I4ku9VpOema24_j8rcbJ90A2ji77oMKE"
+          "src": "https://assets.staging.bedu.org/UANE/admisiones_becas_01_movil_171cb0678f.jpg"
         }
       }
     },
@@ -34,7 +34,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1sofLFjS7NfKQCrlDJosrTWZIxQpMcGQ5"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_becas_servicio_313d65bc0b.png"
               },
               "content": {
                 "title": "Características",
@@ -48,7 +48,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1Y7yOYWrd_BeYmX7lrfE0_JmfLiPIL13j"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_becas_convenio_035a70d156.png"
               },
               "content": {
                 "title": "Características",
@@ -61,7 +61,7 @@
             "content": {
               "image": {
                 "alt": "imagen",
-                "src": "https://drive.google.com/uc?export=view&id=1a55b-aq6S5ViPQJxnbz8GJoQWVwXn0w2"
+                "src": "https://assets.staging.bedu.org/UANE/admisiones_becas_excelencia_6c004272d0.png"
               },
               "content": {
                 "title": "Características",
@@ -92,7 +92,7 @@
     "llamanos": {
       "title": "¿Tienes dudas? llámanos",
       "card": { 
-        "image": "https://drive.google.com/uc?export=view&id=1S1dJyvzulBkHkDD-I0pDIL7yXoe75N7J",
+        "image": "https://assets.staging.bedu.org/UANE/admisiones_becas_llamanos_e04e0c47bf.jpg",
         "subtitle": "",
         "title": "Oficinas de servicios estudiantiles y Centros de admisión",
         "text": "Nuestros asesores expertos te brindarán apoyo de lunes a viernes de 7:00 a 20:00 horas y sábados de 9:00 a 14:00 horas.\n\n8008228263\n\nCorreo: hola@uane.edu.mx",
