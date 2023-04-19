@@ -10,9 +10,9 @@
         "title": "Bolsa de talento", 
         "subtitle": "Estadísticas", 
         "image": {
-          "desktop": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_mesa_de_trabajo_1_desk_9683a84f14.jpg",
-          "tablet": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_02_tablet_4952a41235.jpg",
-          "mobile": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_03_movil_8e79c66ff9.jpg"
+          "desktop": "https://drive.google.com/uc?export=view&id=1tJlnnloEliErrTKQ1vyOuIDWRwzE8OKA",
+          "tablet": "https://drive.google.com/uc?export=view&id=1rMe3GSofFPVTorN9VI9Bvn9CUdtoygMc",
+          "mobile": "https://drive.google.com/uc?export=view&id=1lJ4sw-tmKdpTS3carQuLc-nLfEEXDOkk"
         },
         "statics": [
           {"maxNumber": 205, "icon": "", "prefix": "", "suffix": "", "title": "", "body": "Vacantes enviadas en 2022-2023", "container": false, "isShadowColor": false, "bordered": false, "typeShadowColor": "blue-pastel-right", "boxShadow": false},
@@ -38,7 +38,7 @@
         "content": "UANE cuenta con más de 300 convenios con las mejores empresas y organizaciones, estos convenios te permitirán realizar prácticas profesionales, vivir experiencias de formación, asistir a eventos y encontrar el trabajo de tus sueños."
       },
       "image": {
-        "src": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_banner_empresas_desk_bf8ed56885.png",
+        "src": "https://drive.google.com/uc?export=view&id=1GGskkWqA-EP5yydh70Hqd76m4kpcYbZl",
         "alt": "vinculación-empresarial"
       }
     },
@@ -150,8 +150,8 @@
     "contacto": {
       "banner": {
         "image": {
-          "desktop": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_tienes_dudas_desk_eba07ac311.jpg",
-          "mobile": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_tienes_dudas_movil_2bc7aacf54.jpg"
+          "desktop": "https://drive.google.com/uc?export=view&id=1CMGn_OTqeDX7L2tY33AK0lblyU5BQKuE",
+          "mobile": "https://drive.google.com/uc?export=view&id=1nwxt4q7ZFg35IWuZUbZbAjXXI6z46KyH"
         },
         "title": "¿Tienes dudas? Contáctanos",
         "email": "empleabilidad@uane.edu.mx ",
