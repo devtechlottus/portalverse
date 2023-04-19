@@ -11,7 +11,7 @@
     },
     "accesos": [
       { 
-        "image": "https://assets.staging.bedu.org/UANE/alumnos_espacio_universitario_desk_cb0b827893.jpg",
+        "image": "https://drive.google.com/uc?export=view&id=17IHKUeFZlozxvkt1GRKKU9CHkO_QBYJQ",
         "subtitle": "",
         "title": "SIUANE",
         "text": "Portal para estudiantes: Aquí encontrarás información sobre tus materias, horarios, pagos, avisos y más.",
@@ -35,7 +35,7 @@
         "redirect": "https://sistema.uane.edu.mx/"
       },
       { 
-        "image": "https://assets.staging.bedu.org/UANE/alumnos_aula_virtual_desk_404ad4a43b.jpg",
+        "image": "https://drive.google.com/uc?export=view&id=1vN8A17tA73ECHhlapbvLgJVIo5ZW0sEa",
         "subtitle": "",
         "title": "AULA VIRTUAL MOODLE",
         "text": "Hemos diseñado una plataforma de aprendizaje seguro para que aproveches tus clases virtuales al máximo.",
@@ -60,7 +60,7 @@
         "redirect": "https://aula.uane.mx/my/"
       },
       { 
-        "image": "https://assets.staging.bedu.org/UANE/alumnos_biblioteca_virtual_desk_2e1d06e004.jpg",
+        "image": "https://drive.google.com/uc?export=view&id=1D2BUw7hrBN6M_fVDEIO7lbYB25a_sQiT",
         "subtitle": "",
         "title": "ESPACIO DIGITAL CANVAS ",
         "text": "Herramientas digitales que facilitan la enseñanza y aprendizaje. Accede a la información de manera simple.",
@@ -88,9 +88,9 @@
     "calendario": {
       "banner": {
         "image": {
-          "desktop": "https://assets.staging.bedu.org/UANE/alumnos_calendario_escolar_10_desk_271a669bf3.jpg",
-          "mobile": "https://assets.staging.bedu.org/UANE/alumnos_calendario_escolar_30_movil_c954dc83d6.jpg",
-          "tablet": "https://assets.staging.bedu.org/UANE/alumnos_calendario_escolar_20_tablet_a5bff8c058.jpg"
+          "desktop": "https://drive.google.com/uc?export=view&id=1T-W52yh4F3iGkl1u8sQrhM1ij-ctSnuw",
+          "mobile": "https://drive.google.com/uc?export=view&id=1oYRLmnAXdRUZ3i88SOblPkbWBdP78NIv",
+          "tablet": "https://drive.google.com/uc?export=view&id=1aEm5uY89FbvNcWOvJ1ayjLV0WZRuSZyF"
         },
         "font": "",
         "title": "UANE Internacional",
@@ -122,7 +122,7 @@
         "description": "Todos los que integramos la universidad estamos para atenderte y escucharte, contacta a cualquier área de la universidad",
         "contacts": [
           {
-            "image": "https://assets.staging.bedu.org/UANE/alumnos_servicios_escolares_desk_6f0c991f80.jpg",
+            "image": "https://drive.google.com/uc?export=view&id=1e5UpQ17ZAUGw_0bb3I9tRz_dJmq8LNIn",
             "name": "Contacto Central",
             "email": "hola@uane.edu.mx",
             "phone": "8008228263"
