@@ -205,10 +205,10 @@ const SliderPortalverse: FC<SliderPortalverseProps> = (
                   ["justify-center items-end"]: item?.textPosition === "center_bottom",
                   ["justify-end items-end"]: item?.textPosition === "right_bottom"
                 })}>
-                  <div className="flex flex-col z-10 w-full h-full space-y-2">
+                  <div className="flex flex-col z-10 w-d:w-[500px] w-t:w-[392px] space-y-4">
                     <h2
                       className={cn(
-                        "font-Poppins font-bold text-center w-d:text-[65px] w-d:leading-[80px] w-t:text-[30px]",
+                        "font-Poppins font-bold w-d:text-10 w-d:leading-[50px] w-t:text-[30px] w-t:leading-9",
                         textPositionClasses
                       )}
                     >
@@ -216,7 +216,7 @@ const SliderPortalverse: FC<SliderPortalverseProps> = (
                     </h2>
                     <p
                       className={cn(
-                        "font-Poppins font-semibold text-center w-d:text-[24px] w-d:leading-[30px] w-t:text-base",
+                        "font-Poppins font-semibold w-d:text-4.5 w-d:leading-6 w-t:text-base w-t:leading-5",
                         textPositionClasses
                       )}
                     >
@@ -225,14 +225,18 @@ const SliderPortalverse: FC<SliderPortalverseProps> = (
                     {
                       !!item?.action?.title
                         ? 
-                        <div className="flex justify-center">
-                          <Button
-                          darkOutlined={item?.contentVariant === "light"}
-                          dark={item?.contentVariant === "dark"}
-                          data={{ ...item.action }}
-                          onClick={() => router.push(`${item.action.redirect}`)}
-                          />
-                        </div>
+                          <div className={cn("w-full flex", {
+                            ["justify-center"]: item?.textPosition === "center_top" || item?.textPosition === "center" || item?.textPosition === "center_bottom",
+                            ["justify-start"]: item?.textPosition === "left_top" || item?.textPosition === "left_bottom",
+                            ["justify-end"]: item?.textPosition === "right_top" || item?.textPosition === "right_bottom",
+                          })}>
+                            <Button
+                              darkOutlined={item?.contentVariant === "light"}
+                              dark={item?.contentVariant === "dark"}
+                              data={{ ...item.action }}
+                              onClick={() => router.push(`${item.action.redirect}`)}
+                            />
+                          </div>                    
                         : null
                     }
                   </div>
@@ -276,7 +280,7 @@ const SliderPortalverse: FC<SliderPortalverseProps> = (
           <Aspect ratio="1/1">
             <Image classNames="w-full h-full" src={item.urlImage.mobile} alt="image" />
           </Aspect>
-          <div className="p-4 flex flex-col space-y-4">
+          <div className="p-4 flex flex-col space-y-6">
             <h2
               className="font-Poppins font-bold w-t:font-normal text-6 w-t:text-[32px] leading-8 w-t:leading-10"
             >
