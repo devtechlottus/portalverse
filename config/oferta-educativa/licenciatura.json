@@ -19,9 +19,9 @@
       },
       "banner1" :{
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1kVvyHmdlUY2Tugvlu2Jywkhpz2lQGJj5",
-          "mobile": "https://drive.google.com/uc?export=view&id=1yd6VKxdKPQTAyRJT0YegLihHyzbESFIL",
-          "tablet": "https://drive.google.com/uc?export=view&id=1IlM4lTIJJHL25xtsHkMalPKiJ8C3dUz1"
+          "desktop": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_desk_950b6b5b74.png",
+          "mobile": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_movil_4c3f2e361d.png",
+          "tablet": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_tablet_48eeecd7c0.png"
         },
         "title": "",
         "subtitle": "",
@@ -60,7 +60,7 @@
         "campus": ["Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1Sb3r92gDYkX9h3ZVXXdw04itRVmUg7sH",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_administracion_de_empresas_d8f5eb6baf.jpg",
           "alt": "especilidad"
         }
       },
@@ -75,7 +75,7 @@
         "campus": ["Saltillo", "Torreón", "Piedras Negras"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=19wr68tsR7OEsvbnzWY5xXpYgpYQqkYdS",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_idiomas_7d2b0754e7.jpg",
           "alt": "licenciatura"
         }
       },
@@ -90,7 +90,7 @@
         "campus": ["Saltillo", "Matamoros", "Torreón", "Monclova", "Monterrey", "Piedras Negras"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1pcSuQipeNpn8hQT2axqtZ9OuMineeoC9",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_diseno_grafico_de0f03ddbc.jpg",
           "alt": "licenciatura"
         }
       },
@@ -105,7 +105,7 @@
         "campus": ["Saltillo", "Torreón"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1Yr8Kk57j3iGB8yrgbEBWOh7LGWwxBoRT",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_gastronomia_e0bd89edbf.jpg",
           "alt": "licenciatura"
         }
       },
@@ -120,7 +120,7 @@
         "campus": [ "Saltillo", "Monterrey",  "Matamoros", "Torreón", "Piedras Negras", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1QjAGs7uqe1J88h2dA3weRoNOMAg5ZGhb",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_comercio_internacional_d103fdb973.jpg",
           "alt": "licenciatura"
         }
       },
@@ -135,7 +135,7 @@
         "campus": [ "Monterrey", "Matamoros", "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1fxU5qQvmvjtXd3M4ggcoGFH7a_tEBHFC",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_derecho_con_acentuacion_en_negocios_internacionales_42d2dfd7cc.jpg",
           "alt": "licenciatura"
         }
       },
@@ -150,7 +150,7 @@
         "campus": ["Saltillo", "Monterrey" , "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1YxjRkrGXP14MaiZRSy9CNqVd-ltFVMCJ",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_psicologia_a658983351.jpg",
           "alt": "licenciatura"
         }
       },
@@ -165,7 +165,7 @@
         "campus": [ "Saltillo", "Torreón" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1y6BzlxIr6Zi_sV9uNgq3PeCxtqZhLIeu",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_empresas_turisticas_5d91d309b1.jpg",
           "alt": "licenciatura"
         }
       },
@@ -180,7 +180,7 @@
         "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreón", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1txiRradR7dgMBlxeIJVCRhNoDA5DV_jR",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_industrial_y_de_sistemas_9bb53ebe5c.jpg",
           "alt": "licenciatura"
         }
       },
@@ -195,7 +195,7 @@
         "campus": [ "Saltillo", "Matamoros", "Torreón", "Piedras Negras", "Sabinas", "Reynosa", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1jrKgLYJoy9oX14IF6vqsEX_R-zX9cOaY",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_ciencias_de_la_educacion_80e741fd4f.jpg",
           "alt": "licenciatura"
         }
       },
@@ -210,7 +210,7 @@
         "campus": [ "Saltillo", "Monterrey", "Torreón", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1kyJT49LV6EcSA65HNK7IJKw3IKj4V7PJ",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_nutricion_cc4a475c0f.jpg",
           "alt": "licenciatura"
         }
       },
@@ -225,7 +225,7 @@
         "campus": [ "Saltillo", "Torreón", "Piedras Negras", "Sabinas", "Monclova", "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1fkHschHQn87_ISClxQ3JrxbTSYmFMjCH",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_derecho_7312ba681e.jpg",
           "alt": "licenciatura"
         }
       },
@@ -240,7 +240,7 @@
         "campus": [ "Saltillo", "Sabinas", "Torreón", "Piedras Negras", "Monclova" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1947RsnMuQbrbSemz26C_eA93kabKyP8a",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_recursos_humanos_f677641b15.jpg",
           "alt": "licenciatura"
         }
       },
@@ -255,7 +255,7 @@
         "campus": [ "Saltillo", "Monclova", "Monterrey", "Torreón" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=140DMD5weJlXIItPXz9OndgRL3AvyLsGi",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_arquitectura_98332f55bd.jpg",
           "alt": "licenciatura"
         }
       },
@@ -270,7 +270,7 @@
         "campus": [ "Matamoros", "Monterrey", "Reynosa", "Sabinas", "Saltillo", "Torreón", "Piedras Negras" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_contador_publico_43730ee389.jpg",
           "alt": "licenciatura"
         }
       },
@@ -285,7 +285,7 @@
         "campus": [ "Saltillo", "Torreón", "Monclova", "Piedras Negras" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1Stw3--PtA0_0qK13VxwxPwrweM4IlfLZ",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_comunicacion_2e00e4487d.jpg",
           "alt": "licenciatura"
         }
       },
@@ -300,7 +300,7 @@
         "campus": [ "Saltillo", "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1LWTwinSoVElzup0ONvuV_YMioVNzUmfL",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_sistemas_y_productividad_industrial_5a0310e357.jpg",
           "alt": "licenciatura"
         }
       },
@@ -315,7 +315,7 @@
         "campus": [ "Reynosa" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1SlyD0RBk6qwgjGE8FLl3w9p4LTLrG3GE",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_mercadotecnia_dbd411b93a.jpg",
           "alt": "licenciatura"
         }
       },
@@ -330,7 +330,7 @@
         "campus": [ "Monterrey" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=19vFuL48Tc5YTDXAIBvonJ-XL23DcIUSK",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_administracion_estrategica_de_negocios_e43ff52bb0.jpg",
           "alt": "licenciatura"
         }
       },
@@ -345,7 +345,7 @@
         "campus": ["Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1hPGAnoL1QoExyzS6aOGkRBYXSk351GM1",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_desarrollo_de_software_18bc04f182.jpg",
           "alt": "licenciatura"
         }
       },
@@ -361,7 +361,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1bBv99_xuMk_M2DhAwzDc0WxaQtGKs9WW",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_desarrollo_de_software_18bc04f182.jpg",
           "alt": "licenciatura"
         }
       },
@@ -376,7 +376,7 @@
         "campus": [],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1NMLlLwRog1Dvaoc4gCZG6neGsJFIlc57",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_ingenieria_industrial_en_produccion_7a0978eb34.png",
           "alt": "licenciatura"
         }
       },
@@ -391,7 +391,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1SoA5ssMvmxkcxky4xmh_k08qGMxcguIT",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_administracion_y_liderazgo_empresarial_6bce740ea8.jpg",
           "alt": "licenciatura"
         }
       },
@@ -407,7 +407,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros" ],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=15AwG8zlwoiekeC8ZiBjUSom7SGgIHqTH",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_contador_publico_43730ee389.jpg",
           "alt": "licenciatura"
         }
       },
@@ -422,7 +422,7 @@
         "campus": [ "Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1iWJf1IJ_ew8fwl7Ibr2j7gTjKGZoqAx8",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_gestion_deportiva_804e017c77.jpg",
           "alt": "licenciatura"
         }
       },
@@ -437,7 +437,7 @@
         "campus": [ "Saltillo", "Monterrey"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1w0UVDGgpcJ9-LPVD2x99zfIupjeqyoJJ",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_mecanica_en_procesos_de_inyeccion_cba5e151b5.jpg",
           "alt": "licenciatura"
         }
       },
@@ -452,7 +452,7 @@
         "campus": [],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1u5C7cOsjHiY96xDGAtmL80MdONHTJRhP",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_negocios_digitales_c687eb0b8a.jpg",
           "alt": "licenciatura"
         }
       },
@@ -467,7 +467,7 @@
         "campus": [ "Saltillo", "Piedras Negras", "Monterrey", "Matamoros", "Torreón"],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1bY5_8INHrJMAVRNWVxO7jr9kXlO23Fz-",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_negocios_internacionales_824efcaaf1.jpg",
           "alt": "licenciatura"
         }
       },
@@ -482,7 +482,7 @@
         "campus": [],
         "nivel": ["Licenciatura"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=17KoWteVG1PLUT3BSJai2wSN-KUtBS-Il",
+          "src": "https://assets.staging.bedu.org/UANE/licenciatura_ciencia_de_datos_a5c1e912cd.jpg",
           "alt": "licenciatura"
         }
       },

@@ -19,9 +19,9 @@
       },
       "banner1" :{
         "image": {
-          "desktop": "https://drive.google.com/uc?export=view&id=1kVvyHmdlUY2Tugvlu2Jywkhpz2lQGJj5",
-          "mobile": "https://drive.google.com/uc?export=view&id=1yd6VKxdKPQTAyRJT0YegLihHyzbESFIL",
-          "tablet": "https://drive.google.com/uc?export=view&id=1IlM4lTIJJHL25xtsHkMalPKiJ8C3dUz1"
+          "desktop": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_desk_950b6b5b74.png",
+          "mobile": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_movil_4c3f2e361d.png",
+          "tablet": "https://assets.staging.bedu.org/UANE/oferta_banner_filtrolicenciatura_tablet_48eeecd7c0.png"
         },
         "title": "",
         "subtitle": "",
@@ -60,7 +60,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1OLGWiraNe-S7Y1SLkxWz92Z1pk1rPgXF",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_derecho_fiscal_09258a7393.jpg",
           "alt": "maestria"
         }
       },
@@ -75,7 +75,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1TESppmtT-b70p1OAubCSv2PbBfb_bKq1",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_nutricion_en_obesidad_y_diabetes_3841e2b39f.jpg",
           "alt": "maestria"
         }
       },
@@ -90,7 +90,7 @@
         "campus": ["Saltillo", "Torreón", "Piedras Negras", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1G0CnmnAy8oSPWcKl27h0FzPfNWS0Tntf",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_efectividad_organizacional_194da2ccf5.jpg",
           "alt": "maestria"
         }
       },
@@ -105,7 +105,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1WIYm7cjRESVj0MX1YST3DPJCCbloIaB_",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_impuestos_7fc6c01d5e.jpg",
           "alt": "maestria"
         }
       },
@@ -120,7 +120,7 @@
         "campus": ["Piedras Negras", "Monterrey"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1DTTMqitE7qMQfus4Jsau8m2IEmHTSnuU",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_gestion_de_servicios_de_salud_78d4df9a7d.jpg",
           "alt": "maestria"
         }
       },
@@ -135,7 +135,7 @@
         "campus": [ "Saltillo", "Matamoros", "Torreón", "Reynosa", "Monclova", "Monterrey" ],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1YcP7k3VRmpi2NK1axLt_1kGT8c7fLzdo",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_salud_ocupacional_6f1d9b2ac5.jpg",
           "alt": "maestria"
         }
       },
@@ -150,7 +150,7 @@
         "campus": ["Monclova", "Saltillo", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1savY3UxaZs4eoAh3SmyE2bESVQ7e9vJb",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_derecho_laboral_38126b2da3.jpg",
           "alt": "maestria"
         }
       },
@@ -165,7 +165,7 @@
         "campus": ["Piedras Negras", "Monclova", "Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1Fq4iRm5p5cGATZNP0ED7Q2VFlNJRR9uN",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_terapia_familiar_b9403733cc.jpg",
           "alt": "maestria"
         }
       },
@@ -180,7 +180,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1jc8nWtGEQE6uYc3e4U-Vnou32FyPG163",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_justicia_administrativa_63067e2c5c.jpg",
           "alt": "maestria"
         }
       },
@@ -195,7 +195,7 @@
         "campus": ["Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1fKXu9Tz_CeXR-eMo41IHswMg1fqIm45i",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_derecho_mercantil_c11a60c4df.png",
           "alt": "maestria"
         }
       },
@@ -210,7 +210,7 @@
         "campus": ["Saltillo", "Monterrey", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1AIIslAK7PmWqgk7PdBD4pU12vmkOv6wr",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_egestion_ambiental_73128031ff.jpg",
           "alt": "maestria"
         }
       },
@@ -225,7 +225,7 @@
         "campus": ["Saltillo", "Piedras Negras", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=17iBk3MfmsjMRKepExJsfD6TOXCclplkw",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_docencia_f60ea2ac4d.jpg",
           "alt": "maestria"
         }
       },
@@ -240,7 +240,7 @@
         "campus": ["Torreón"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1HL06-lU2N3Tc4Tm95P3DjYbt-Yo-c8SH",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_educacion_a087a5e9db.jpg",
           "alt": "maestria"
         }
       },
@@ -255,7 +255,7 @@
         "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=14mLsXKb_F6Wx0rLVlMQcupo8o5DspKoo",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_gestion_de_negocios_de_manufactura_ebaf1d2523.jpg",
           "alt": "maestria"
         }
       },
@@ -270,7 +270,7 @@
         "campus": ["Matamoros", "Monclova", "Piedras Negras", "Saltillo", "Torreón", "Reynosa", "Monterrey"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1HN0jnBUCOpDKQYhjAJdm48lrwRzBOXcK",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_administracion_y_liderazgo_1b75a20bbd.jpg",
           "alt": "maestria"
         }
       },
@@ -285,7 +285,7 @@
         "campus": ["Monclova", "Piedras Negras"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=10E6tdS42AWfy4g0pMEU0BnEiuOQ9PCGk",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_docencia_e_investigacion_educativa_369ab9b9d5.jpg",
           "alt": "maestria"
         }
       },
@@ -300,7 +300,7 @@
         "campus": ["Monterrey", "Reynosa", "Piedras Negras", "Saltillo"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1fszVajOhcJiDgfY65K4IKz26tlGWgbiT",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_sistema_penal_acusatorio_323817f8c8.jpg",
           "alt": "maestria"
         }
       },
@@ -315,7 +315,7 @@
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1tPWI5UcIHGSlyeIQEA_nvB9TTb4EIQex",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_administracion_5db8b7cc15.jpg",
           "alt": "maestria"
         }
       },
@@ -330,7 +330,7 @@
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=151jq_21T4xijMV_EhDdk6LgCMW-eo6CI",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_comunicacion_empresarial_dbb6af5cea.jpg",
           "alt": "maestria"
         }
       },
@@ -345,7 +345,7 @@
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1ghsEWrSBP0c9gbwgQyh3K5OU1zR0x2Ga",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_en_derecho_f669b9c914.jpg",
           "alt": "maestria"
         }
       },
@@ -360,7 +360,7 @@
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1o-TRG1FJG-gsmdCYO0XOwDQ_SxgvFFa7",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_desarrollo_organizacional_y_talento_humano_5e1a5ce7cf.jpg",
           "alt": "maestria"
         }
       },
@@ -375,7 +375,7 @@
         "campus": [],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1ekFWQfYjnsxj7--o_C0Ntj5O3CpPzkG0",
+          "src": "https://assets.staging.bedu.org/UANE/maestria_mercadotecnia_digital_07a8e857c1.jpg",
           "alt": "maestria"
         }
       },
@@ -390,7 +390,7 @@
         "campus": ["Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
         "nivel": ["Posgrado"],
         "image": {
-          "src": "https://drive.google.com/uc?export=view&id=1_LiLi5YzQaX0feWRvKFOW5wpwKjI8e3l",
+          "src": "https://assets.staging.bedu.org/UANE/master_gobierno_y_estrategia_caef3e5580.jpg",
           "alt": "maestria"
         }
       },
