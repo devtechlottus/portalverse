@@ -187,8 +187,133 @@
     "extension": {
       "sections": [
         {
-          "title": "Bedu",
-          "cursos": [
+          "title": "Marketing y Comunicación",
+          "cursos":[
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Mercadotecnia Aplicada a Entornos Virtuales",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_mercadotecnia_aplicada_entornos_virtuales_699a1e5f5c.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_mercadotecnia_aplicada_entornos_virtuales_699a1e5f5c.png"
+                }
+              },
+              "redirect": "mercadotecnia-entornos-virtuales"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Estrategias de Tiendas en Línea",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_estrategias_tienda_en_linea_5e994661d2.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_estrategias_tienda_en_linea_5e994661d2.png"
+                }
+              },
+              "redirect": "estrategias-tiendas-en-linea"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Psicología y Comunicación",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_sin_nombre_c151dab5ec.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_sin_nombre_c151dab5ec.png"
+                }
+              },
+              "redirect": "psicologia-comunicacion"
+            }
+          ]
+        },
+        {
+          "title": "Gerencia y Negocios",
+          "cursos":[
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Gerencia y Gestión Deportiva",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_gerencia_y_gestion_deportiva_a0f7eae7d9.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_gerencia_y_gestion_deportiva_a0f7eae7d9.png"
+                }
+              },
+              "redirect": "gerencia-gestion-deportiva"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Liderazgo y Trabajo en Equipo",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_liderazgo_y_trabajo_en_equipo_d3bb89fbe1.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_liderazgo_y_trabajo_en_equipo_d3bb89fbe1.png"
+                }
+              },
+              "redirect": "liderazgo-trabajo-equipo"
+            },
             {
               "hidden": false,
               "id": "123",
@@ -216,7 +341,7 @@
             {
               "hidden": false,
               "id": "123",
-              "title": "BEDU Curso en Diseño de Productos Digitales",
+              "title": "Diplomado en Desarrollo del Talento Humano",
               "link":{
                 "text": "Ver más",
                 "size": "large",
@@ -228,19 +353,19 @@
               "image": {
                 "desk": {
                   "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_productos_digitales_7ffa0077c5.jpg"
+                  "src": "https://assets.staging.bedu.org/UANE/extension_talento_humano_021ce79758.png"
                 },
                 "mobile": {
                   "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_productos_digitales_7ffa0077c5.jpg"
+                  "src": "https://assets.staging.bedu.org/UANE/extension_talento_humano_021ce79758.png"
                 }
               },
-              "redirect": "bedu-productos-digitales"
+              "redirect": "diplomado-desarrollo-talento"
             },
             {
               "hidden": false,
               "id": "123",
-              "title": "BEDU Diplomado en Ciencia de Datos",
+              "title": "Diplomado en Globalización",
               "link":{
                 "text": "Ver más",
                 "size": "large",
@@ -252,20 +377,20 @@
               "image": {
                 "desk": {
                   "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_ciencia_de_datos_4884a0448e.jpg"
+                  "src": "https://assets.staging.bedu.org/UANE/extension_globalizacion_0e0af33357.png"
                 },
                 "mobile": {
                   "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_ciencia_de_datos_4884a0448e.jpg"
+                  "src": "https://assets.staging.bedu.org/UANE/extension_globalizacion_0e0af33357.png"
                 }
               },
-              "redirect": "bedu-ciencia-de-datos"
+              "redirect": "diplomado-globalizacion"
             }
           ]
         },
         {
-          "title": "Diplomados UANE",
-          "cursos": [
+          "title": "Ingeniería y tecnología",
+          "cursos":[
             {
               "hidden": false,
               "id": "123",
@@ -293,6 +418,59 @@
             {
               "hidden": false,
               "id": "123",
+              "title": "BEDU Diplomado en Ciencia de Datos",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_ciencia_de_datos_4884a0448e.jpg"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_ciencia_de_datos_4884a0448e.jpg"
+                }
+              },
+              "redirect": "bedu-ciencia-de-datos"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "BEDU Curso en Diseño de Productos Digitales",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_productos_digitales_7ffa0077c5.jpg"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_productos_digitales_7ffa0077c5.jpg"
+                }
+              },
+              "redirect": "bedu-productos-digitales"
+            }
+          ]
+        },
+        {
+          "title": "Educación y Pedagogía",
+          "cursos": [
+            {
+              "hidden": false,
+              "id": "123",
               "title": "Diplomado en Docencia en Linea",
               "link":{
                 "text": "Ver más",
@@ -313,472 +491,6 @@
                 }
               },
               "redirect": "diplomado-docencia-online"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Diplomado en Globalización",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_globalizacion_0e0af33357.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_globalizacion_0e0af33357.png"
-                }
-              },
-              "redirect": "diplomado-globalizacion"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Diplomado en Desarrollo del Talento Humano",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_talento_humano_021ce79758.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_talento_humano_021ce79758.png"
-                }
-              },
-              "redirect": "diplomado-desarrollo-talento"
-            }
-          ]
-        },
-        {
-          "title": "Diplomados Internacionales",
-          "cursos": [
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Comunicación Publica y Gestión de la Reputación",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_comunicacion_publica_aa97dda918.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_comunicacion_publica_aa97dda918.png"
-                }
-              },
-              "redirect": "comunicacion-publica-gestion-reputacion"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Derechos Humanos y Sostenibilidad",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_derechos_humanos_y_sostenibilidad_56192da28d.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_derechos_humanos_y_sostenibilidad_56192da28d.png"
-                }
-              },
-              "redirect": "derechos-humanos-sostenibilidad"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Políticas Públicas en Gobernanza",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_politicas_publicas_en_gobernanza_29439c5ea9.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_politicas_publicas_en_gobernanza_29439c5ea9.png"
-                }
-              },
-              "redirect": "politicas-publicas-gobernanza"
-            }
-          ]
-        },
-        {
-          "title": "Cursos Cortos",
-          "cursos": [
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Certificación Oficial Adobe After Effects",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1TRXplcP8ISBVtj1xGHY3a8e-Dp0ZuYUE"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1TRXplcP8ISBVtj1xGHY3a8e-Dp0ZuYUE"
-                }
-              },
-              "redirect": "adobe-after-effects"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Certificación Oficial Adobe Photoshop",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1cnEGJSkqGrixFE_LnEuAq_-Dh-_4k4Zc"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1cnEGJSkqGrixFE_LnEuAq_-Dh-_4k4Zc"
-                }
-              },
-              "redirect": "adobe-photoshop"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Análisis de Datos",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1G5cfpaPeUUL3xe4GKVp_AIYR9kfOVozF"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1G5cfpaPeUUL3xe4GKVp_AIYR9kfOVozF"
-                }
-              },
-              "redirect": "analisis-de-datos"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Derecho de Autor y Propiedad Intelectual",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1Ku6pYYkERDFRmUMDbZrihCrzNTCWfxtR"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1Ku6pYYkERDFRmUMDbZrihCrzNTCWfxtR"
-                }
-              },
-              "redirect": "derecho-autor-propiedad-intelectual"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Estrategias de Tiendas en Línea",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_estrategias_tienda_en_linea_5e994661d2.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_estrategias_tienda_en_linea_5e994661d2.png"
-                }
-              },
-              "redirect": "estrategias-tiendas-en-linea"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Estructura de Datos",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1qJ7-TOn5q7Qaq_se3hAipdtRYiqZUZZg"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1qJ7-TOn5q7Qaq_se3hAipdtRYiqZUZZg"
-                }
-              },
-              "redirect": "estructura-datos"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Gerencia y Gestión Deportiva",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_gerencia_y_gestion_deportiva_a0f7eae7d9.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_gerencia_y_gestion_deportiva_a0f7eae7d9.png"
-                }
-              },
-              "redirect": "gerencia-gestion-deportiva"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Higiene y Seguridad en el Trabajo",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1-oip47KlcHezczm8dcv6bZePkJtYkHYN"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1-oip47KlcHezczm8dcv6bZePkJtYkHYN"
-                }
-              },
-              "redirect": "higiene-seguridad-trabajo"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Liderazgo y Trabajo en Equipo",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_liderazgo_y_trabajo_en_equipo_d3bb89fbe1.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_liderazgo_y_trabajo_en_equipo_d3bb89fbe1.png"
-                }
-              },
-              "redirect": "liderazgo-trabajo-equipo"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Mega Tendencias Globales",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1V0_dLRrdEq4MgWYv50yDRpQ_2VUd_fIv"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1V0_dLRrdEq4MgWYv50yDRpQ_2VUd_fIv"
-                }
-              },
-              "redirect": "mega-tendencias-globales"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Mercadotecnia Aplicada a Entornos Virtuales",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_mercadotecnia_aplicada_entornos_virtuales_699a1e5f5c.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_mercadotecnia_aplicada_entornos_virtuales_699a1e5f5c.png"
-                }
-              },
-              "redirect": "mercadotecnia-entornos-virtuales"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Obligaciones y Contratos",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1QKS-W7fNxeHEEI4DZqzv8WUAK1cvqiQW"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1QKS-W7fNxeHEEI4DZqzv8WUAK1cvqiQW"
-                }
-              },
-              "redirect": "obligaciones-contratos"
-            },
-            {
-              "hidden": false,
-              "id": "123",
-              "title": "Psicología y Comunicación",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_sin_nombre_c151dab5ec.png"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/extension_sin_nombre_c151dab5ec.png"
-                }
-              },
-              "redirect": "psicologia-comunicacion"
-            },
-            {
-              "hidden": true,
-              "id": "123",
-              "title": "Psicología del Consumidor",
-              "link":{
-                "text": "Ver más",
-                "size": "large",
-                "isBold": false,
-                "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
-              },
-              "image": {
-                "desk": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1NViTgtihUNLX9h5TYfSxEFJNI4_yWS_3"
-                },
-                "mobile": {
-                  "alt": "imagen",
-                  "src": "https://assets.staging.bedu.org/UANE/uc?export=view&id=1NViTgtihUNLX9h5TYfSxEFJNI4_yWS_3"
-                }
-              },
-              "redirect": "psicologia-consumidor"
             },
             {
               "hidden": false,
@@ -899,6 +611,82 @@
                 }
               },
               "redirect": "prodis-metodologia-investigacion-aplicada"
+            }
+          ]
+        },
+        {
+          "title": "Política y Sociedad",
+          "cursos": [
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Derechos Humanos y Sostenibilidad",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_derechos_humanos_y_sostenibilidad_56192da28d.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_derechos_humanos_y_sostenibilidad_56192da28d.png"
+                }
+              },
+              "redirect": "derechos-humanos-sostenibilidad"
+            },
+            {
+              "id": "123",
+              "title": "Políticas Públicas en Gobernanza",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://img.freepik.com/premium-photo/group-happy-young-students-university_85574-4531.jpg?w=2000g"
+                }
+              },
+              "redirect": "politicas-publicas-gobernanza"
+            },
+            {
+              "hidden": false,
+              "id": "123",
+              "title": "Comunicación Pública y Gestión de la Reputación",
+              "link":{
+                "text": "Ver más",
+                "size": "large",
+                "isBold": false,
+                "disabled": false,
+                "id":"",
+                "icon":"arrow_forward"
+              },
+              "image": {
+                "desk": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_comunicacion_publica_aa97dda918.png"
+                },
+                "mobile": {
+                  "alt": "imagen",
+                  "src": "https://assets.staging.bedu.org/UANE/extension_comunicacion_publica_aa97dda918.png"
+                }
+              },
+              "redirect": "comunicacion-publica-gestion-reputacion"
             }
           ]
         },
