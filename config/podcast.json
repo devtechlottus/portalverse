@@ -8,9 +8,9 @@
       "head": {
         "banner": {
           "image": {
-            "desktop": "https://drive.google.com/uc?export=view&id=1We_A9VCsxSV9buE8TMHKqyqI5HyqPguN",
-            "mobile": "https://drive.google.com/uc?export=view&id=1MI62tyuUxu71bBCDfRUz1NHxUhmHeJF0",
-            "tablet": "https://drive.google.com/uc?export=view&id=1Mz2X9iO44qaoaabLE4ACYpLfNtkkFoIK"
+            "desktop": "https://assets.staging.bedu.org/UANE/Podcast_01_desk_79b51b3781.jpg",
+            "mobile": "https://assets.staging.bedu.org/UANE/Podcast_01_movil_f904c9c3b7.jpg",
+            "tablet": "https://assets.staging.bedu.org/UANE/Podcast_01_tablet_41f6935c03.jpg"
           },
           "title": "Voz UANE",
           "font": "light",
@@ -79,9 +79,9 @@
       "vozUane": {
         "banner": {
           "image": {
-            "desktop": "https://drive.google.com/uc?export=view&id=1_cUI-wPs5OJJucnW1w2OhXxVtAnyU90B",
-            "mobile": "https://drive.google.com/uc?export=view&id=1BBHm3qD0hUf27eIRfpw8t3NQQoWVyJED",
-            "tablet": "https://drive.google.com/uc?export=view&id=1lrPOMrka9L0994d6uZKYfNCSmaPF47-G"
+            "desktop": "https://assets.staging.bedu.org/UANE/Podcast_02_desk_f6d64e7396.jpg",
+            "mobile": "https://assets.staging.bedu.org/UANE/Podcast_02_movil_6324d7eb6c.jpg",
+            "tablet": "https://assets.staging.bedu.org/UANE/Podcast_02_tablet_74b6282460.jpg"
           },
           "title": "Voz UANE ayuda a difundir tus ideas.",
           "font": "light",
