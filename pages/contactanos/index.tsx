@@ -54,7 +54,7 @@ const PonteEnContacto: NextPageWithLayout = ({ sections, meta }: any) => {
             <ContentInsideLayout classNames="grid-cols-7 w-t:grid-cols-8">
               <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 col-start-3 col-end-11 w-t:col-start-1 w-t:col-end-8 w-p:col-start-1 w-p:col-end-5">
                 <div className="mt-18">
-                  <ReasonsToContact image={{ src: "https://drive.google.com/uc?export=view&id=1CxZzCcuuptzexZwBWNtktMbIT5Z9dB6B", alt:"image-person" }} pathThanyouOtherReason="/thank-you" pathThanyouOpenForm="/thank-you" />
+                  <ReasonsToContact image={{ src: "https://assets.staging.bedu.org/UANE/Quieres_que_te_contactemos_31d246dc16.jpg", alt:"image-person" }} pathThanyouOtherReason="/thank-you" pathThanyouOpenForm="/thank-you" />
                 </div>
               </div>
             </ContentInsideLayout>
