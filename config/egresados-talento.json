@@ -137,6 +137,7 @@
       "banner":{
         "image": {
           "desktop": "https://assets.staging.bedu.org/UANE/egresados_talento_Quieres_postularte_01_desk_afb87452f2.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/egresados_talento_Quieres_postularte_02_tablet_c217116c64.jpg",
           "mobile": "https://assets.staging.bedu.org/UANE/egresados_talento_Quieres_postularte_03_movil_35615e62c9.jpg"
         },
         "title": "¿Quieres postularte?",

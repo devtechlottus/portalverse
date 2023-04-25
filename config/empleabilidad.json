@@ -151,6 +151,7 @@
       "banner": {
         "image": {
           "desktop": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_tienes_dudas_desk_eba07ac311.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/egresados_contactanos_tablet_19984499f4.jpg",
           "mobile": "https://assets.staging.bedu.org/UANE/nosotros_empleabilidad_tienes_dudas_movil_2bc7aacf54.jpg"
         },
         "title": "¿Tienes dudas? Contáctanos",
