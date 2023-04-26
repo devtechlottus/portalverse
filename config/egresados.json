@@ -82,7 +82,8 @@
       "title": "Oferta educativa de egresados",
       "subtitle": "UANE te ofrece opciones preferenciales para continuar con tu opreparación profesional",
       "position": "right",
-      "height": "350px",
+      "height": "auto",
+      "desktopRatio": "2/1",
       "overlayWhite":false,
       "overlayDak": false,
       "button":{
@@ -139,9 +140,10 @@
       "title": "Trámites de egresados",
       "subtitle": "Entra al sistema de la universidad y revisa el estatus o solicita algún trámite nuevo",
       "position": "light",
-      "height": "350px",
+      "height": "auto",
       "overlayWhite":false,
       "overlayDak": false,
+      "desktopRatio": "2/1",
       "button":{
         "id": "",
         "type": "outlined",
