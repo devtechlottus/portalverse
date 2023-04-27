@@ -33,7 +33,8 @@ const formatData = (
   formattedCard.body = strapiData?.body;
   formattedCard.prefix = strapiData?.prefix;
   formattedCard.suffix = strapiData?.suffix;
-  formattedCard.typeShadowColor = strapiData?.boxShadowColor.replaceAll("_","-");
+  formattedCard.typeShadowColor = strapiData?.boxShadowColor?.replaceAll("_","-");
+  formattedCard.isShadowColor = !!strapiData?.boxShadowColor;
   formattedCard.icon = strapiData?.icon;
 
   return formattedCard;
