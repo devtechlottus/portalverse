@@ -18,20 +18,20 @@
       },
       "curriculum": {
         "Presencial": {
-          "Monclova": "12IvFc7gviVNj52MLSDLx09BqDBpNLyrN",
-          "Monterrey": "1Zehy4bO2JMxUTuWqKpIrp9ndRKSOPMBS",
-          "Piedras Negras": "1xNagUrIbiT_4MnBTsqUm7DNN-5g2cAnx",
-          "Sabinas": "1wo6yi2vtGwY6kMVefWLXkCMOs24YU1dh",
-          "Saltillo": "1t-LUH2iQBvnb8dROo4CzhYdoZUlHz262",
-          "Torreón": "1QwB8h0Vv1qzpIbqu0Q6e2BLylAhu4SvD"
+          "Monclova": "Bachillerato_General_Monclova_aca49cf93c.pdf",
+          "Monterrey": "Bachillerato_General_Monterrey_9b0e3e6e97.pdf",
+          "Piedras Negras": "Bachillerato_General_Piedras_Negras_85ff762b10.pdf",
+          "Sabinas": "Bachillerato_General_Sabinas_bfc0614036.pdf",
+          "Saltillo": "Bachillerato_General_Saltillo_2a2e0dbcfa.pdf",
+          "Torreón": "Bachillerato_General_Torreon_888472834d.pdf"
         },
         "Bilingue": {
-          "Matamoros": "1WR1QG48uUvy_VlwZIfXHgWtE285vvNWu",
-          "Torreón": "1nh8FglqVjK8gd4RfKq9FIEwjOOPt_wWo",
-          "Saltillo": "1YunpGNXQWeETYNpxwLAh05NJmxbSR2Dq",
-          "Reynosa": "1HpKX0JtpKTZa_nC6cv7CIq_Gt8iYA5jR"
+          "Matamoros": "Bachillerato_Modular_Bilinguee_Matamoros_52436890d0.pdf",
+          "Torreón": "Bachillerato_Modular_Bilinguee_Torreon_eeb5b3d073.pdf",
+          "Saltillo": "Bachillerato_Modular_Bilinguee_Saltillo_9d0a32d8ad.pdf",
+          "Reynosa": "Bachillerato_Modular_Bilinguee_Reynosa_332caa8ef8.pdf"
         },
-        "Online": "1FlO9M0QWafFoMKjaYj7zaC8j22DQrI3u"
+        "Online": "Bachillerato_General_Online_709e2cc8d9.pdf"
       }
     }
   },
