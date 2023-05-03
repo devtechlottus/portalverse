@@ -364,7 +364,7 @@
         "title": "UANE Internacional",
         "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
         "position": "left-bottom",
-        "height": "300px",
+        "height": "auto",
         "overlayWhite":false,
         "overlayDak": false,
         "button":{
@@ -393,7 +393,8 @@
         "title": "Empleabilidad en UANE",
         "subtitle": "Inscríbete en nuestra Bolsa de Talento y encuentra empleo",
         "position": "right-bottom",
-        "height": "350px",
+        "height": "auto",
+        "desktopRatio": "2/1",
         "overlayWhite":false,
         "overlayDak": true,
         "button":{
@@ -422,7 +423,8 @@
         "title": "Conoce las becas que tenemos para ti",
         "subtitle": "Mira sus experiencias.",
         "position": "",
-        "height": "350px",
+        "height": "auto",
+        "desktopRatio": "2/1",
         "overlayWhite":false,
         "overlayDak": true,
         "button":{
