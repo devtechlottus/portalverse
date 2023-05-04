@@ -1,21 +1,21 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
-import { env } from "process"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import ContentFullLayout from "@/layouts/ContentFull.layout"
 import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import ContentLayout from "@/layouts/Content.layout"
-import CardWebsite from "@/old-components/CardWebsite"
 import Button from "@/old-components/Button/Button"
 import Spotify from "@/old-components/Spotify"
 import BannerWrapper from "@/old-components/BannerWrapper"
 import BannerPortalverse from "@/old-components/BannerPortalverse"
-import { fetchStrapi, replaceURL } from "@/utils/getStrapi"
+import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
+import getBlogPosts from "@/utils/getBlogPosts"
+import type { BlogPostsData } from "@/utils/getBlogPosts"
 
-const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) => {
+const ThankYouPage: NextPageWithLayout = ({ sections, meta, strapi }: any) => {
   const router = useRouter()
-
+  const blogPostsData = strapi?.blogPostsData as BlogPostsData;
   const linkIcon = {
     "text": "Ver más",
     "iconSecond": "",
@@ -46,8 +46,8 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta, blog_posts }: any) =
           </div>
           <section className="col-span-8 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-2 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-6">
             {
-            blog_posts.map((item:any, i:number) => <section key={`section-blog-${i}`}>
-              <CardWebsite onClick={() => router.push(`${router.pathname}/blog/${item.slug}`)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
+            blogPostsData?.blogPosts?.data.map((item:any, i:number) => <section key={`section-blog-${i}`}>
+              <BlogPostCardWrapper onClick={() => router.push(`${router.pathname}/blog/${item.attributes.slug}`)} data={{...item, linkIcon, linkText:linkIcon, type: "vertical", wrapper:true}}/>
             </section>)
             }
           </section>
@@ -89,23 +89,13 @@ export async function getStaticProps(context: any) {
     }
   }
 
-  const rawblogpost = await fetchStrapi('blog-posts',['[populate][featured_image]=*','&sort=publication_date%3Adesc','pagination[pageSize]=10'])
-  const fullblogposts = await rawblogpost.json()
-  let blog_posts = fullblogposts.data.map((post: any) => {
-    const { attributes: { abstract, title, slug, featured_image, publication_date } } = post
-    let urlImage = replaceURL(featured_image, "small")
-    
-    return {
-      abstract,
-      title,
-      slug,
-      urlImage,
-      publication_date
-    }
-  })
+  const blogPostsData = await getBlogPosts({
+    pageSize: 100,
+    sort: "publication_date:desc"
+  });
 
   return {
-    props: { sections, meta, blog_posts },
+    props: { sections, meta, strapi: { blogPostsData } },
     revalidate: 60
   }
 }
