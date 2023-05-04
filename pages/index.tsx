@@ -94,7 +94,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
         <div className="w-d:col-span-12 w-t:col-span-8 w-p:col-span-4 grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 w-d:mt-8 ">
           {
             statisticsCardsSection?.cards?.map((item, i:number) => <section key={`section-numbers-${i}`}>
-              <NumbersPortalverseWrapper data={item}/>
+              <NumbersPortalverseWrapper data={item} classNames={"p-2 justify-center"}/>
             </section>)
           }
         </div>
