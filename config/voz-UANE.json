@@ -451,7 +451,7 @@
     "podcast": {
       "title": "Último podcast",
       "items": [
-        { "config": { "type": "episode", "format": "normal", "id": "3ZTQUh9jG3oeFv0XlbAabc"}},
+        { "config": { "type": "episode", "format": "normal", "id": "4pBx1FQsnnVVNDHjnCDkta"}},
         { "config": { "type": "playlist", "format": "normal", "id": "7ixqHB1S542eDrEFQH0oGV"}}
       ]
     },
