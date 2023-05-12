@@ -83,6 +83,31 @@
         },
         "wrapper": true,
         "redirect": "https://uane.instructure.com/login/canvas"
+      },
+      { 
+        "image": "https://assets.staging.bedu.org/UANE/bibliotega_digital_19c14afaa0.jpg",
+        "subtitle": "",
+        "title": "Biblioteca Virtual",
+        "text": "Encuentra + de 165 mil libros para enriquecer tu conocimiento.<br>Descubre el contenido de las colecciones especializadas en tu biblioteca digital UANE.",
+        "border": true,
+        "allContent": true,
+        "height": "",
+        "isShowCardWebsiteContent": true,
+        "id": "",
+        "type": "vertical",
+        "isLink": true,
+        "background": false,
+        "link": {
+          "text": "Ver más",
+          "iconSecond": "chevron_right",
+          "isBold": true,
+          "size": "large",
+          "isUnderline": false,
+          "disabled": false,
+          "icon": ""
+        },
+        "wrapper": true,
+        "redirect": "https://biblioteca.uane.edu.mx/"
       }
     ],
     "calendario": {
