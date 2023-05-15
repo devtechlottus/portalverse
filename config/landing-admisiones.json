@@ -358,13 +358,13 @@
       "banner": {
         "image": {
           "desktop": "https://assets.staging.bedu.org/UANE/admisiones_internacional_desk_01a44424b3.jpg",
-          "mobile": "https://assets.staging.bedu.org/UANE/admisiones_Internacional_movil_6dbe0793b5.jpg",
-          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_Internacional_tablet_40f0dc67bc.jpg"
+          "mobile": "https://assets.staging.bedu.org/UANE/admisiones_internaciona_movill_8307950bcc.jpg",
+          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_internacional_tablet_78fd9f38d0.jpg"
         },
         "title": "UANE Internacional",
         "subtitle": "Internacionalízate agrega experiencias internacionales a tu educación",
         "position": "left-bottom",
-        "height": "300px",
+        "height": "auto",
         "overlayWhite":false,
         "overlayDak": false,
         "button":{
@@ -388,12 +388,13 @@
         "image": {
           "desktop": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_desk_4aa94867fa.jpg",
           "mobile": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_movil_4d5700aa60.jpg",
-          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_tablet_5da4590112.jpg"
+          "tablet": "https://assets.staging.bedu.org/UANE/admisiones_empleabilidad_tablet_971665f2d7.jpg"
         },
         "title": "Empleabilidad en UANE",
         "subtitle": "Inscríbete en nuestra Bolsa de Talento y encuentra empleo",
         "position": "right-bottom",
-        "height": "350px",
+        "height": "auto",
+        "desktopRatio": "2/1",
         "overlayWhite":false,
         "overlayDak": true,
         "button":{
@@ -415,14 +416,15 @@
     "becas": {
       "banner":{
         "image": {
-          "desktop": "https://assets.staging.bedu.org/UANE/admisiones_banner_desk_a629cfa874.png",
+          "desktop": "https://assets.staging.bedu.org/UANE/admision_beca_desk_8080d2165f.jpg",
           "mobile": "https://assets.staging.bedu.org/UANE/admisiones_banner_movil_f7755deb01.png",
           "tablet": "https://assets.staging.bedu.org/UANE/admisiones_banner_desk_a629cfa874.png"
         },
         "title": "Conoce las becas que tenemos para ti",
         "subtitle": "Mira sus experiencias.",
         "position": "",
-        "height": "350px",
+        "height": "auto",
+        "desktopRatio": "2/1",
         "overlayWhite":false,
         "overlayDak": true,
         "button":{
