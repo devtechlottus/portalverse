@@ -108,11 +108,11 @@ export async function getStaticProps(context: any) {
     const related_posts = pre_blog_post?.related_posts?.data?.map((post: any) => {
       const url = post.attributes?.featured_image?.data?.attributes?.formats?.thumbnail?.url || post?.attributes?.featured_image?.data?.attributes?.url;
       const urlImage = replaceURL(url, "thumbnail")
-      return { ...post?.attributes, urlImage }
+      return { ...post?.attributes, urlImage: urlImage || "" }
     })
     const featured_image = {
-      alt: pre_blog_post?.featured_image?.data?.attributes?.alternativeText || pre_blog_post?.featured_image?.data?.attributes?.url ,
-      src: replaceURL(pre_blog_post?.featured_image)
+      alt: pre_blog_post?.featured_image?.data?.attributes?.alternativeText || pre_blog_post?.featured_image?.data?.attributes?.url || "",
+      src: replaceURL(pre_blog_post?.featured_image) || ""
     }
     const blog_post = { ...pre_blog_post, featured_image, related_posts}
 
