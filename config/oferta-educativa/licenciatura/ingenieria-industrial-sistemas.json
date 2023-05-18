@@ -18,15 +18,15 @@
       },
       "curriculum": {
         "Presencial": {
-          "Saltillo": "1kqKuIPcAHPI_gnaaHG7bIKRNyAA8VnHm",
-          "Monterrey": "1_lmJT4fXeFHih9KENvlTM6RTg9mmlHkU",
-          "Matamoros": "1GYgdApmuUABrtx60n01zTQQo8QZmzU7J",
-          "Torreón": "1NOBjWJv8gIezKIf1YmMmCnZIoXJLQkn1",
-          "Piedras Negras": "1NrzLgF9AylApH-E6ivaMqj533x8CjhZA",
-          "Monclova": "1olztu2_c5iPAByAtSJzM2chHzg973_PO"
+          "Saltillo": "Ingenieria_Industrial_y_de_Sistemas_Saltillo_534863ee53.pdf  ",
+          "Monterrey": "Ingenieria_Industrial_y_de_Sistemas_Monterrey_8908137159.pdf",
+          "Matamoros": "Ingenieria_Industrial_y_de_Sistemas_Matamoros_76e3b37671.pdf",
+          "Torreón": "Ingenieria_Industrial_y_de_Sistemas_Torreon_049253949d.pdf",
+          "Piedras Negras": "Ingenieria_Industrial_y_de_Sistemas_Piedras_Negras_7a394d6234.pdf",
+          "Monclova": "Ingenieria_Industrial_y_de_Sistemas_Monclova_7727e340e4.pdf"
         },
-        "Online": "1tsfsZVpUre1enEsH9H2TMrEbUFJp_vBf",
-        "Flex" : "1uKo4Si7rYCnpQRTss3gIM79EbUsZ8xIX"
+        "Online": "Ingenieria_en_Sistemas_Online_fe8550fdf8.pdf",
+        "Flex" : "Ingenieria_en_Sistemas_Flex_ba73f7a886.pdf"
       }
     }
   },
