@@ -29,7 +29,13 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
 
   return <>
     <Head>
-    <title>{ blog_post?.seo.title }</title>
+      <title>{ blog_post?.seo?.title }</title>
+      <meta property="og:title" content={ blog_post?.seo?.metaTitle }/>
+      <meta property="title" content={ blog_post?.seo?.metaTitle }/>
+      <meta property="og:description" content={ blog_post?.seo?.metaDescription }/>
+      <meta name="description" content={blog_post?.seo?.metaDescription} key="desc" />
+      <meta property="og:image" content={blog_post?.featured_image?.src}/>
+      <meta property="image" content={blog_post?.featured_image?.src}/>
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
@@ -88,11 +94,11 @@ export async function getStaticPaths() {
   
   const fullblogposts = await rawblogpost.json()
 
-  let slugs = fullblogposts.data.map((post: any) => {
+  let slugs = fullblogposts?.data?.map((post: any) => {
     const { attributes: { slug } } = post
     return { params: { entry: slug } }
   })
-  
+
   return {
     paths: slugs,
     fallback: 'blocking'
@@ -109,7 +115,7 @@ export async function getStaticProps(context: any) {
       const url = post.attributes?.featured_image?.data?.attributes?.formats?.thumbnail?.url || post?.attributes?.featured_image?.data?.attributes?.url;
       const urlImage = replaceURL(url, "thumbnail")
       return { ...post?.attributes, urlImage: urlImage || "" }
-    })
+    }) || []
     const featured_image = {
       alt: pre_blog_post?.featured_image?.data?.attributes?.alternativeText || pre_blog_post?.featured_image?.data?.attributes?.url || "",
       src: replaceURL(pre_blog_post?.featured_image) || ""
