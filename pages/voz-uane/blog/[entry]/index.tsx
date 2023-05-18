@@ -29,15 +29,13 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
 
   return <>
     <Head>
-    <Head>
       <title>{ blog_post?.seo?.title }</title>
-        <meta property="og:title" content={ blog_post?.seo?.metaTitle }/>
-        <meta property="title" content={ blog_post?.seo?.metaTitle }/>
-        <meta property="og:description" content={ blog_post?.seo?.metaDescription }/>
-        <meta name="description" content={blog_post?.seo?.metaDescription} key="desc" />
-        <meta property="og:image" content={blog_post?.featured_image?.src}/>
-        <meta property="image" content={blog_post?.featured_image?.src}/>
-    </Head>
+      <meta property="og:title" content={ blog_post?.seo?.metaTitle }/>
+      <meta property="title" content={ blog_post?.seo?.metaTitle }/>
+      <meta property="og:description" content={ blog_post?.seo?.metaDescription }/>
+      <meta name="description" content={blog_post?.seo?.metaDescription} key="desc" />
+      <meta property="og:image" content={blog_post?.featured_image?.src}/>
+      <meta property="image" content={blog_post?.featured_image?.src}/>
     </Head>
     <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout>
@@ -130,6 +128,5 @@ export async function getStaticProps(context: any) {
       revalidate: 60
     }
 }
-
 
 export default EntryBlogDetail
