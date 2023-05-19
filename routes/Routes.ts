@@ -209,7 +209,7 @@ const Routes: any = {
           { params: { "program": "m-derecho", "nameProgram": "Maestría en Derecho" } },
           { params: { "program": "desarrollo-organizacional-talento-humano", "nameProgram": "Maestría en Desarrollo Organizacional y Talento Humano" } },
           { params: { "program": "mercadotecnia-digital", "nameProgram": "Maestría en Mercadotecnia Digital" } },
-          { params: { "program": "gobierno-estrategia-publica", "nameProgram": "Maestría en Gobierno y Estrategia Pública" } },
+          { params: { "program": "gobierno-estrategia", "nameProgram": "Maestría en Gobierno y Estrategia" } },
         ] 
       }
     },
