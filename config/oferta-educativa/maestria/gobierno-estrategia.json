@@ -1,13 +1,13 @@
 {
     "meta": {
-      "title": "Maestría en Gobierno y Estrategia Pública",
+      "title": "Maestría en Gobierno y Estrategia",
       "description": "",
       "keywords": ""
     },
     "config": {
-      "title": "Maestría en Gobierno y Estrategia Pública",
+      "title": "Maestría en Gobierno y Estrategia",
       "config": {
-        "nombre": "Maestría en Gobierno y Estrategia Pública",
+        "nombre": "Maestría en Gobierno y Estrategia",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales y Humanidades"],
         "campus": ["Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
@@ -24,7 +24,7 @@
     },
     "sections": {
       "head": {
-        "title": "Maestría en Gobierno y Estrategia Pública",
+        "title": "Maestría en Gobierno y Estrategia",
         "description": "Diagnostica problemas y diseña e implementa las políticas públicas mediante la investigación y evaluación sistemática del proceso de toma de decisiones en entornos de máxima complejidad y en escenarios siempre cambiantes; donde la gobernanza y la participación de la ciudadanía, sirvan al objetivo global del bienestar de la sociedad civil.",
         "image": {
           "src": "https://assets.staging.bedu.org/UANE/master_gobierno_y_estrategia_188b0af7f7.jpg",
@@ -45,7 +45,7 @@
                       "mobile": "https://assets.staging.bedu.org/UANE/oferta_perfil_de_ingreso_0771f2afdd.png"
                     },
                     "title": "Perfil de ingreso",
-                    "text": "El Máster Internacional en Gobierno y Estrategia Pública está destinado a aquellas personas que, por su formación académica o experiencia profesional, desean obtener una visión actualizada y multidisciplinar sobre los elementos, estructura y recursos necesarios en la acción pública. Personas interesadas en gestionar acciones que redunden en el desarrollo integral de una sociedad, a través de la participación ciudadana que se genera con la cercanía y las plataformas adecuadas en todos los medios.",
+                    "text": "El Máster Internacional en Gobierno y Estrategia está destinado a aquellas personas que, por su formación académica o experiencia profesional, desean obtener una visión actualizada y multidisciplinar sobre los elementos, estructura y recursos necesarios en la acción pública. Personas interesadas en gestionar acciones que redunden en el desarrollo integral de una sociedad, a través de la participación ciudadana que se genera con la cercanía y las plataformas adecuadas en todos los medios.",
                     "backgroundColor": "#B0003C"
                   },
                   {
@@ -89,7 +89,7 @@
                       "mobile": "https://assets.staging.bedu.org/UANE/oferta_perfil_de_ingreso_0771f2afdd.png"
                     },
                     "title": "Perfil de ingreso",
-                    "text": "El Máster Internacional en Gobierno y Estrategia Pública está destinado a aquellas personas que, por su formación académica o experiencia profesional, desean obtener una visión actualizada y multidisciplinar sobre los elementos, estructura y recursos necesarios en la acción pública.\n\nPersonas interesadas en gestionar acciones que redunden en el desarrollo integral de una sociedad, a través de la participación ciudadana que se genera con la cercanía y las plataformas adecuadas en todos los medios.",
+                    "text": "El Máster Internacional en Gobierno y Estrategia está destinado a aquellas personas que, por su formación académica o experiencia profesional, desean obtener una visión actualizada y multidisciplinar sobre los elementos, estructura y recursos necesarios en la acción pública.\n\nPersonas interesadas en gestionar acciones que redunden en el desarrollo integral de una sociedad, a través de la participación ciudadana que se genera con la cercanía y las plataformas adecuadas en todos los medios.",
                     "backgroundColor": "#B0003C"
                   },
                   {
