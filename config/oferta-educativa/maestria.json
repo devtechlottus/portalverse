@@ -382,9 +382,9 @@
       "route": "mercadotecnia-digital"
     },
     {
-      "title": "Maestría en Gobierno y Estrategia Pública",
+      "title": "Maestría en Gobierno y Estrategia",
       "config": {
-        "nombre": "Maestría en Gobierno y Estrategia Pública",
+        "nombre": "Maestría en Gobierno y Estrategia",
         "modalidad": ["Online", "Flex"],
         "areaConocimiento": ["Ciencias Sociales y Humanidades"],
         "campus": ["Saltillo", "Monterrey", "Piedras Negras", "Torreón", "Matamoros"],
@@ -394,7 +394,7 @@
           "alt": "maestria"
         }
       },
-      "route": "gobierno-estrategia-publica"
+      "route": "gobierno-estrategia"
     }
   ]
 }
