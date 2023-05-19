@@ -8,7 +8,7 @@
     "title": "Maestría en Docencia e Investigación Educativa",
     "config": {
       "nombre": "Maestría en Docencia e Investigación Educativa",
-      "modalidad": ["Presencial"],
+      "modalidad": ["Presencial", "Online"],
       "areaConocimiento": ["Ciencias Sociales"],
       "campus": ["Monclova", "Piedras Negras"],
       "nivel": ["Posgrado"],
@@ -18,10 +18,10 @@
       },
       "curriculum": {
         "Presencial": {
-          "Piedras Negras": "196IM5Oko5m7h89InFdhqLu11qQHE4XL4",
-          "Monclova": "1oraZ91ttd5zFTg5Z7O7WISGOa8v8GOD3"
+          "Piedras Negras": "Maestria_en_Docencia_e_Investigacion_Educativa_Piedras_Negras_f7be3533d0.pdf",
+          "Monclova": "Maestria_en_Docencia_e_Investigacion_Educativa_Monclova_6b95ea057f.pdf"
         },
-        "Online": "1oScSPuKrpkrV4hkvrJggMcBiDMLHK5ZU"
+        "Online": "Maestria_en_Docencia_e_Investigacion_Educativa_Online_74759cf7a7.pdf"
       }
     }
   },
