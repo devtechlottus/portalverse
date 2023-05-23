@@ -58,7 +58,7 @@ const Podcast: NextPageWithLayout = ({ sections, meta }: any) => {
            </section>)
           }
         </section>
-        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center">
+        <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 flex justify-center w-p:hidden">
           <PaginatorPortalverse items={sections.allPodcast.items.length} currentPage={currentPage} pageSize={pageSize} onPageChange={onPageChange} iconNext={"chevron_right"} iconPrevious={"chevron_left"} /> 
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:hidden">
