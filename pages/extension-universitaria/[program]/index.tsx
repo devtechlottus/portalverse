@@ -39,7 +39,7 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
             <p className="font-Nunito-Sans font-normal text-base leading-5 text-[#818181]">Precio:</p>
             <h1 className="font-Poppins font-semibold text-[32px] leading-10" dangerouslySetInnerHTML={{__html: sections.head.price}}/>
             <p className="font-Nunito-Sans font-normal text-sm leading-5 text-black">Solicita información en el siguiente correo:</p>
-            <a href={`mailto:${sections.head.email}`} target="__blank" className="font-Nunito-Sans font-bold text-sm leading-5 text-black" dangerouslySetInnerHTML={{__html: `<b>${sections.head.email}</b>`}}></a>
+            <a href={`mailto:${sections.head.email}`} target="__blank" className="font-Nunito-Sans font-bold text-sm leading-5 text-black">{sections.head.email}</a>
           </div>
           {/*<EducacionContinuaForm pathThankyou="/thank-you" image={{ src: "https://assets.staging.bedu.org/UANE/Quieres_que_te_contactemos_31d246dc16.jpg", alt:"image-person" }} copies={OpenFormInit.steponecontinuos} defaultProgram={sections.head.title} />*/}
         </div>
