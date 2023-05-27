@@ -11,6 +11,7 @@ import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Routes from "@/routes/Routes"
 import EducacionContinuaForm from "@/forms/container/EducacionContinuaForm"
 import OpenFormInit from "@/forms/fixtures/openform"
+import Link from "next/link"
 
 const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -37,8 +38,12 @@ const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: a
           <div className="flex flex-col p-2 border rounded-lg mb-6">
             <p className="font-Nunito-Sans font-normal text-base leading-5 text-[#818181]">Precio:</p>
             <h1 className="font-Poppins font-semibold text-[32px] leading-10" dangerouslySetInnerHTML={{__html: sections.head.price}}/>
+            <p className="font-Nunito-Sans font-normal text-sm leading-5 text-black">Solicita información en el siguiente correo:</p>
+            <div className="flex">
+              <a href={`mailto:${sections.head.email}`} target="__blank" className="font-Nunito-Sans font-bold text-sm leading-5 text-black">{sections.head.email}</a>
+            </div>
           </div>
-          <EducacionContinuaForm pathThankyou="/thank-you" image={{ src: "https://assets.staging.bedu.org/UANE/Quieres_que_te_contactemos_31d246dc16.jpg", alt:"image-person" }} copies={OpenFormInit.steponecontinuos} defaultProgram={sections.head.title} />
+          {/*<EducacionContinuaForm pathThankyou="/thank-you" image={{ src: "https://assets.staging.bedu.org/UANE/Quieres_que_te_contactemos_31d246dc16.jpg", alt:"image-person" }} copies={OpenFormInit.steponecontinuos} defaultProgram={sections.head.title} />*/}
         </div>
         <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-d:hidden w-t:hidden hidden">
           <p className="font-Poppins font-bold text-10 pt-6 w-t:text-8.5 w-p:text-7.5 leading-[125%]">{sections.relatedCourses.title}</p>
