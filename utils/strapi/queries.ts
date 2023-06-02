@@ -15,7 +15,7 @@ export type ComponentSection =
   | LeaderboardSection
   | LinkListSection
   | RichTextImageSection
-  | TextContentSection 
+  | TextContentSection
 
 export const SECTIONS = `
   ${ALERT}
