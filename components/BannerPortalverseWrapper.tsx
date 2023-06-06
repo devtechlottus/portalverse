@@ -53,7 +53,7 @@ const formatData = (props: BannerPortalverseWrapperProps): BannerPortalverseConf
     title: data?.title,
     subtitle: data?.subtitle,
     position: getTextPosition(data?.textPosition),
-    height: data?.height,
+    height: data?.height || "auto",
     overlayWhite: data?.overlay === "white",
     overlayDak: data?.overlay === "black",
     button: {
@@ -70,7 +70,7 @@ const formatData = (props: BannerPortalverseWrapperProps): BannerPortalverseConf
     },
     noAction: false,
     dimensions: [],
-    font: "",
+    font: data?.contentVariant === "light" ? "light" : "dark",
   }
 
   return formattedData;
@@ -79,7 +79,7 @@ const formatData = (props: BannerPortalverseWrapperProps): BannerPortalverseConf
 type BannerPortalverseWrapperProps = Replace<
   BannerPortalverseComponentData,
   "data",
-  BannerSection & { height: string }
+  BannerSection & { height?: string }
 >;
 
 const BannerPortalverseWrapper = (props: BannerPortalverseWrapperProps) => {
@@ -88,4 +88,4 @@ const BannerPortalverseWrapper = (props: BannerPortalverseWrapperProps) => {
   return <BannerPortalverse {...props} data={formattedData} />;
 };
 
-export default BannerPortalverseWrapper
+export default BannerPortalverseWrapper;
