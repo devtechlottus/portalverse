@@ -149,15 +149,15 @@ export async function getStaticProps(context: any) {
   const strapiSections = attributes?.sections;
   const strapiSeo = attributes?.seo;
 
-  const listConfig = findSection<ListconfigSection>(
+  const listconfig = findSection<ListconfigSection>(
     strapiSections,
     "ComponentSectionsListconfig"
   );
 
   const blogPostsData = await getBlogPosts({
-    pageSize: listConfig?.maxentries,
+    pageSize: listconfig?.maxentries,
     sort:
-      listConfig?.sortdate === "latest"
+      listconfig?.sortdate === "latest"
         ? "publication_date:desc"
         : "publication_date:asc",
   });

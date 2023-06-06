@@ -25,3 +25,11 @@
     @apply font-bold text-[0.67em];
   }
 }
+
+.ce-block__content {
+  max-width: none;
+}
+
+.codex-editor__redactor {
+  padding-bottom: 0 !important;
+}
