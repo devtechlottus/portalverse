@@ -33,18 +33,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
-      <Script  src="https://www.googletagmanager.com/gtag/js?id=G-1ZX45TXRD5" />
-      <Script id='google-analytics'
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1ZX45TXRD5', {
-              page_path: window.location.pathname,
-            });
-          `,
-      }}/>
       <Script id='google-tag-manager'
       dangerouslySetInnerHTML={{
         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
