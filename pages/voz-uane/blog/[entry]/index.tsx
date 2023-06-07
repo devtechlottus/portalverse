@@ -15,7 +15,7 @@ import Editor from "@/old-components/Editor"
 
 
 const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_title, blog_section }: any) => {
-  
+
   const router = useRouter()
   const linkIcon = {
     "text": "Ver más",
@@ -91,7 +91,7 @@ const EntryBlogDetail: NextPageWithLayout = ({ blog_post, banners, related_post_
 export async function getStaticPaths() {
 
   const rawblogpost = await fetchStrapi('blog-posts',['populate=*'])
-  
+
   const fullblogposts = await rawblogpost.json()
 
   let slugs = fullblogposts?.data?.map((post: any) => {

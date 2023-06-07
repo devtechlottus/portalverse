@@ -59,7 +59,7 @@ export async function getStaticProps(context: any) {
     pageSize: 100,
     sort: "publication_date:desc"
   });
-  
+
   return {
     props: { data: {  level:'blog' }, sections, meta, strapi: { blogPostsData } },
     revalidate: 60

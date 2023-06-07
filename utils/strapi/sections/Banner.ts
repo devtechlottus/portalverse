@@ -5,8 +5,7 @@ import type {
   TextPosition,
 } from "@/types/strapi/common";
 
-export type BannerSection = {
-  __typename: "ComponentSectionsBanner";
+export type BannerData = {
   title: string;
   subtitle: string;
   ctaText: string;
@@ -17,11 +16,17 @@ export type BannerSection = {
   desktopImage: StrapiImage;
   tabletImage: StrapiImage;
   mobileImage: StrapiImage;
+  desktopRatio: string;
+  tabletRatio: string;
+  mobileRatio: string;
+};
+
+export type BannerSection = BannerData & {
+  type: "ComponentSectionsBanner";
 };
 
 export const BANNER = `
 ...on ComponentSectionsBanner {
-  __typename
   title
   subtitle
   ctaText
@@ -50,5 +55,8 @@ export const BANNER = `
       }
     }
   }
+  desktopRatio
+  tabletRatio
+  mobileRatio
 }
 `;

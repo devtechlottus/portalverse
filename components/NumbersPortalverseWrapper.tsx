@@ -11,7 +11,7 @@ const defaultCardNumberData = {
   title: "",
   body: "",
   container: false,
-  isShadowColor: true,
+  isShadowColor: false,
   bordered: true,
   typeShadowColor: "",
   boxShadow: false,
