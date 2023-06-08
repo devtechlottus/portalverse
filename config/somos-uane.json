@@ -217,7 +217,7 @@
           "height": "282px",
           "enable": true,
           "nobackground": false,
-          "redirect": "internacionalizacion"
+          "redirect": "/nosotros/internacionalizacion"
         },{
           "urlImage": {
             "mobile": "https://assets.staging.bedu.org/UANE/nosotros_Podcast_movil_2c37459a3b.jpg",
