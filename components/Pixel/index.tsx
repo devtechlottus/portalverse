@@ -8,7 +8,14 @@ export default ({script, pixel}: { script: string, pixel: string }) => {
     <Head>
       <>
         <script dangerouslySetInnerHTML={{ __html: script }}/>
-        <img height="1" width="1" src={pixel}/>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src={pixel}
+          />
+        </noscript>
       </>
     </Head>
   )
