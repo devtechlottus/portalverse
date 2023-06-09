@@ -21,7 +21,6 @@ import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
 import NumbersPortalverse from "@/old-components/NumbersPortalverse/NumbersPortalverse"
-import Pixel from "@/components/Pixel"
 import CustomScript from "@/components/CustomScript"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
@@ -96,7 +95,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   // );
 
   return <>
-    <Pixel {...pixelData}  />
     <CustomScript {...gtag} />
     <CustomScript {...hotjar} />
     <Head>
