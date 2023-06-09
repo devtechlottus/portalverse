@@ -67,7 +67,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
       fbq('init', '487461332128996');
       fbq('track', 'PageView');
     `,
-    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1'
+    pixel:''
   }
   
   const gtag: { script: string, ID: string } ={
