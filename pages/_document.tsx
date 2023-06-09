@@ -21,10 +21,10 @@ export default function Document() {
           fbq('init', '487461332128996');
           fbq('track', 'PageView');
         ` }}/>
+        <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"/>` }}/>
       </Head>
 
       <body>
-        <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"/>` }}/>
         <Main />
         <NextScript />
       </body>
