@@ -2,13 +2,14 @@
 import React from 'react'
 import Head  from 'next/head'
 
-import FACEBOOK_PIXEL_1 from './facebook/pixel-1'
-
-export default ({name}: any) => {
+export default ({script, pixel}: { script: string, pixel: string }) => {
 
   return(
     <Head>
-      {name === 'META_PIXEL_1' && <FACEBOOK_PIXEL_1 />}
+      <>
+        <script dangerouslySetInnerHTML={{ __html: script }}/>
+        <img height="1" width="1" src={pixel}/>
+      </>
     </Head>
   )
 }
