@@ -1,25 +1,25 @@
 import { useEffect, useState } from "react"
 import Script from "next/script"
 import { useRouter } from "next/router"
-import Head from 'next/head'
+// import Head from 'next/head'
 import "@/styles/globals.scss"
 import { AppPropsWithLayout } from "@/types/Layout.types"
-import * as gtag from "@/lib/gtag"
+// import * as gtag from "@/lib/gtag"
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
-  const router = useRouter();
+  // const router = useRouter();
 
-  useEffect(() => {
-    const handleRouteChange = (url: any) => {
-    gtag.pageview(url);
-  };
+  // useEffect(() => {
+  //   const handleRouteChange = (url: any) => {
+  //   gtag.pageview(url);
+  // };
 
-  router.events.on("routeChangeComplete", handleRouteChange);
+  // router.events.on("routeChangeComplete", handleRouteChange);
 
-  return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
+  // return () => {
+  //     router.events.off("routeChangeComplete", handleRouteChange);
+  //   };
+  // }, [router.events]);
 
   useEffect( () => {
     // we need import elements with commonJS
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
-      <Script id='google-tag-manager'
+      {/* <Script id='google-tag-manager'
       dangerouslySetInnerHTML={{
         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
-      }}/>
+      }}/> */}
       
       <Component {...pageProps} />
     </>)
