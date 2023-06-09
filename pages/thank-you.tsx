@@ -9,7 +9,7 @@ import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Icon from "@/old-components/Icon"
 import Video from "@/old-components/Video"
-import Pixel from "@/components/Pixel"
+import * as fbq from '../lib/fb-pixel'
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -29,6 +29,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   const [flow, setFlow] = useState<string>('gral')
 
   useEffect(() => {
+    fbq.event('CompleteRegistration')
     if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type')){
       const {type} = (router.query as any)
       setFlow(type)
@@ -42,8 +43,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
   }
   
-  return <>
-    <Pixel {...pixelData}  />
+  return <> */}
     <Head>
       <title>{ meta.title }</title>
     </Head>
