@@ -21,6 +21,8 @@ import SliderPortalverseWrapper from "@/components/SliderPortalverseWrapper"
 import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
 import NumbersPortalverse from "@/old-components/NumbersPortalverse/NumbersPortalverse"
+import Pixel from "@/components/Pixel"
+import CustomScript from "@/components/CustomScript"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -49,6 +51,45 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   const banner1 = banners[0];
   const banner2 = banners[1];
 
+  const pixelData: { script: string, pixel: string } ={
+    script: `
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);
+      t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '487461332128996');
+      fbq('track', 'PageView');
+      fbq('track', 'CompleteRegistration');
+    `,
+    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1'
+  }
+  
+  const gtag: { script: string, ID: string } ={
+    ID:'google-tag-manager',
+    script: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NGBCMHM');`,
+  }
+  const hotjar: { script: string, ID: string } ={
+    ID:'hot-jar',
+    script: `(function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3340067,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
+  }
   // TODO: Uncomment when Strapi support for custom statistics card color is added.
   // const statisticsCardsSection = findSection<StatisticsCardListSection>(
   //   strapiSections,
@@ -56,6 +97,9 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   // );
 
   return <>
+    <Pixel {...pixelData}  />
+    <CustomScript {...gtag} />
+    <CustomScript {...hotjar} />
     <Head>
       <title>{meta.title}</title>
     </Head>
