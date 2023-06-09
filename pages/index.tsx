@@ -66,7 +66,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
       s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '487461332128996');
       fbq('track', 'PageView');
-      fbq('track', 'CompleteRegistration');
     `,
     pixel:'https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1'
   }
