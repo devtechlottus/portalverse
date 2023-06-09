@@ -43,7 +43,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
   }
   
-  return <> */}
+  return <>
     <Head>
       <title>{ meta.title }</title>
     </Head>
