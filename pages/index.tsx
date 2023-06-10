@@ -23,7 +23,6 @@ import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
 import NumbersPortalverse from "@/old-components/NumbersPortalverse/NumbersPortalverse"
 import CustomScript from "@/components/CustomScript"
 import Pixel from "@/components/Pixel"
-import Script from "next/script"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
   const router = useRouter();
@@ -77,7 +76,6 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   // );
 
   return <>
-    <CustomScript {...gtag} />
     <Pixel
       script={`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
         if(!f._fbq)f._fbq=n;
@@ -93,7 +91,9 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
         fbq('init', '487461332128996');,
         fbq('track', 'PageView');`}
       pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+      ID="general-meta"
     />
+    <CustomScript {...gtag} />
     <CustomScript {...hotjar} />
     <Head>
       <title>{meta.title}</title>

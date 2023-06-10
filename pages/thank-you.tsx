@@ -57,6 +57,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         fbq('init', '487461332128996');,
         fbq('track', 'PageView');`}
       pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+      ID="meta-pageview"
     />
     <Pixel
       script={`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -74,6 +75,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         fbq('track', 'CompleteRegistration');
         `}
       pixel='https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
+      ID="meta-complete"
     />
     <Head>
       <title>{ meta.title }</title>

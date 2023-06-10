@@ -3,11 +3,11 @@ import React from 'react'
 import Head  from 'next/head'
 import Script from 'next/script'
 
-export default ({script, pixel}: { script?: string, pixel?: string }) => {
+export default ({script, pixel, ID}: { script?: string, pixel?: string, ID?: string }) => {
 
   return(
     <>
-      { !!script && <Script strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}
+      { !!script && <Script id={ID} strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}
       <Head>
         { !!pixel &&
           <noscript>
