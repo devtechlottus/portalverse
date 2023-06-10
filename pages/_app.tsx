@@ -59,6 +59,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', 487461332128996);
+            fbq('track', 'PageView');
           `,
         }}
       />
