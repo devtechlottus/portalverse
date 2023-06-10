@@ -22,6 +22,7 @@ import OfertaEducativaWrapper from "@/components/OfertaEducativaWrapper"
 import BlogPostCardWrapper from "@/components/BlogPostCardWrapper"
 import NumbersPortalverse from "@/old-components/NumbersPortalverse/NumbersPortalverse"
 import CustomScript from "@/components/CustomScript"
+import Pixel from "@/components/Pixel"
 import Script from "next/script"
 
 const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => {
@@ -95,6 +96,9 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
         }
       }/>
     <CustomScript {...gtag} />
+    <Pixel 
+      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+    />
     <CustomScript {...hotjar} />
     <Head>
       <title>{meta.title}</title>
