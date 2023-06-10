@@ -7,8 +7,8 @@ export default ({script, pixel}: { script?: string, pixel?: string }) => {
 
   return(
     <>
+      { !!script && <Script strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}
       <Head>
-        { !!script && <Script strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}
         { !!pixel &&
           <noscript>
             <img
