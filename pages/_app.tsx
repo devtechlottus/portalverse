@@ -2,11 +2,10 @@ import { useEffect } from "react"
 
 import "@/styles/globals.scss"
 import { AppPropsWithLayout } from "@/types/Layout.types"
-import { useRouter } from "next/router"
 import Pixel from "@/components/Pixel"
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
-  const router = useRouter()
+
 
   useEffect( () => {
     // we need import elements with commonJS
@@ -32,7 +31,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           t.src=v;
           s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`}
-        pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
       />
       <Component {...pageProps} />
     </>)

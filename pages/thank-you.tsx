@@ -43,7 +43,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
   
   return <>
-    <Pixel {...pixelData}  />
+    {/* <Pixel {...pixelData}  /> */}
     <Head>
       <title>{ meta.title }</title>
     </Head>
