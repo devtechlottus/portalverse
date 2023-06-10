@@ -19,6 +19,7 @@ import BannerPortalverse from "@/old-components/BannerPortalverse"
 import RichtText from "@/old-components/Richtext/Richtext"
 import CardWebsitePortalverse from "@/old-components/CardWebsitePortalverse"
 import Icon from "@/old-components/Icon"
+import Pixel from "@/components/Pixel"
 
 const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -36,6 +37,9 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
   const navigate = (route: string) => router.push(route)
 
   return <>
+    <Pixel 
+      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+    />
     <Head>
       <title>{ meta.title }</title>
     </Head>
