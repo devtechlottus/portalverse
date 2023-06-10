@@ -58,7 +58,13 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   }
   
   return <>
-    <Pixel {...pixelData}  />
+
+    <img
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={pixelData.pixel}
+              />
     <Head>
       <title>{ meta.title }</title>
     </Head>
