@@ -53,8 +53,8 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
         fbq('init', '487461332128996');
         fbq('track', 'PageView');`
       }
-      ID="meta-pageview"
-      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+      ID="meta-pageview-admisiones"
+      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"
     />
     <Head>
       <title>{ meta.title }</title>

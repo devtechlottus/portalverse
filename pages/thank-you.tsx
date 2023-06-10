@@ -56,8 +56,8 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '487461332128996');,
         fbq('track', 'PageView');`}
-      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
-      ID="meta-pageview"
+      pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"
+      ID="meta-pageview-thankyou"
     />
     <Pixel
       script={`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -74,7 +74,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         fbq('init', '487461332128996');,
         fbq('track', 'CompleteRegistration');
         `}
-      pixel='https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
+      pixel='https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration&noscript=1'
       ID="meta-complete"
     />
     <Head>
