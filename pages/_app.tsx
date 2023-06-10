@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           t.src=v;
           s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`}
-        pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
+        pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"
       />
       <Component {...pageProps} />
     </>)

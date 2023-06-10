@@ -51,7 +51,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     t.src=v;
     s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`,
-    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
+    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration&noscript=1'
   }
   // const pixelData: { script?: string, pixel?: string } = {
   //   pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
