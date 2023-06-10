@@ -55,11 +55,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
           t.src=v;
           s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '487461332128996');`,
+          fbq('init', '487461332128996');
+          fbq('track', 'PageView');
+          `,
         }
       }/>
     <Pixel pixel='https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'  />
-    <Pixel pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"/>
     <Head>
       <title>{ meta.title }</title>
     </Head>
