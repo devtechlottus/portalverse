@@ -4,10 +4,6 @@ import Head  from 'next/head'
 import Script from 'next/script'
 
 export default ({script, pixel, ID}: { script?: string, pixel?: string, ID?: string }) => {
-  console.log('pixel: ', pixel);
-  console.log('script: ', script);
-  console.log('ID: ', ID);
-  
   return(
     <>
       { !!script && <Script id={ID} strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}

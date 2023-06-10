@@ -88,7 +88,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
         t.src=v;
         s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '487461332128996');,
+        fbq('init', '487461332128996');
         fbq('track', 'PageView');`}
       pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"
       ID="general-meta"
