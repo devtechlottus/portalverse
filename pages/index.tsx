@@ -50,14 +50,14 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   );
   const banner1 = banners[0];
   const banner2 = banners[1];
-  // const gtag: { script: string, ID: string } ={
-  //   ID:'google-tag-manager',
-  //   script: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  //   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  //   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  //   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  //   })(window,document,'script','dataLayer','GTM-NGBCMHM');`,
-  // }
+  const gtag: { script: string, ID: string } ={
+    ID:'google-tag-manager',
+    script: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NGBCMHM');`,
+  }
   const hotjar: { script: string, ID: string } ={
     ID:'hot-jar',
     script: `(function(h,o,t,j,a,r){
@@ -76,7 +76,7 @@ const Home: NextPageWithLayout = ({ data: { sections, meta, strapi } }: any) => 
   // );
 
   return <>
-    {/* <CustomScript {...gtag} /> */}
+    <CustomScript {...gtag} />
     <Pixel 
       pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
     />
