@@ -5,21 +5,18 @@ import Head  from 'next/head'
 export default ({script, pixel}: { script?: string, pixel?: string }) => {
 
   return(
-    <Head>
-      <>
+    <>
+      <Head>
         { !!script && <script dangerouslySetInnerHTML={{ __html: script }}/>}
-
-        { !!pixel &&
-          <noscript>
-            <img
-              height="1"
-              width="1"
-              style={{ display: 'none' }}
-              src={pixel}
-              />
-          </noscript>
-        }
-      </>
-    </Head>
+      </Head>
+      { !!pixel &&
+        <img
+          height="1"
+          width="1"
+          style={{ display: 'none' }}
+          src={pixel}
+        />
+      }
+    </>
   )
 }
