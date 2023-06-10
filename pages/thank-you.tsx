@@ -38,12 +38,12 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   }, [router])
 
   const pixelData: { script?: string, pixel?: string } = {
-    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration&noscript=1'
+    pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'
   }
 
   
   return <>
-    {/* <Pixel {...pixelData}  /> */}
+    <Pixel {...pixelData}  />
     <Head>
       <title>{ meta.title }</title>
     </Head>
