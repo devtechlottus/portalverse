@@ -9,7 +9,6 @@ import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Icon from "@/old-components/Icon"
 import Video from "@/old-components/Video"
-import * as fbq from '../lib/fb-pixel'
 import Pixel from "@/components/Pixel"
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
@@ -30,7 +29,6 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
   const [flow, setFlow] = useState<string>('gral')
 
   useEffect(() => {
-    fbq.event('CompleteRegistration')
     if(!!Object.keys(router.query).length && router.query.hasOwnProperty('type')){
       const {type} = (router.query as any)
       setFlow(type)
@@ -39,18 +37,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     setFlow('gral')
   }, [router])
 
-  const pixelData: { script: string, pixel: string } = {
-    script: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;
-    n.push=n;
-    n.loaded=!0;
-    n.version='2.0';
-    n.queue=[];
-    t=b.createElement(e);
-    t.async=!0;
-    t.src=v;
-    s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`,
+  const pixelData: { script?: string, pixel?: string } = {
     pixel:'https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration&noscript=1'
   }
 
