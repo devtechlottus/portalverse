@@ -8,15 +8,17 @@ export default ({script, pixel}: { script?: string, pixel?: string }) => {
     <>
       <Head>
         { !!script && <script dangerouslySetInnerHTML={{ __html: script }}/>}
+        { !!pixel &&
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={pixel}
+            />
+          </noscript>
+        }
       </Head>
-      { !!pixel &&
-        <img
-          height="1"
-          width="1"
-          style={{ display: 'none' }}
-          src={pixel}
-        />
-      }
     </>
   )
 }
