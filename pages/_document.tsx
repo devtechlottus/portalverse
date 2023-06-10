@@ -19,7 +19,9 @@ export default function Document() {
           t.async=!0;
           t.src=v;
           s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`}
+          s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js'
+          fbq('init', '487461332128996');
+          fbq('track', 'PageView');`}
           pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView"
       />
       <body>
