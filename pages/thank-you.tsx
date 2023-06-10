@@ -61,6 +61,7 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
         }
       }/>
     <Pixel pixel='https://www.facebook.com/tr?id=487461332128996&ev=CompleteRegistration'  />
+    <Pixel pixel='https://www.facebook.com/tr?id=487461332128996&ev=PageView'  />
     <Head>
       <title>{ meta.title }</title>
     </Head>
