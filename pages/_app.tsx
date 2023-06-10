@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   useEffect(() => {
     // This pageview only triggers the first time (it's important for Pixel to have real information)
-    fbq.pageview()
+    // fbq.pageview()
 
     const handleRouteChange = () => {
       fbq.pageview()
@@ -47,6 +47,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
           t.src=v;
           s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');`}
+        pixel="https://www.facebook.com/tr?id=487461332128996&ev=PageView&noscript=1"
       />
       <Component {...pageProps} />
     </>)
