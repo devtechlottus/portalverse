@@ -23,7 +23,7 @@ export default function Document() {
           fbq('init', '487461332128996');
           fbq('track', 'PageView');
           fbq('track', 'CompleteRegistration');`}
-        ID="meta-pageview-thankyou"
+        ID="meta-pageview-document"
       />
 
       <body>
