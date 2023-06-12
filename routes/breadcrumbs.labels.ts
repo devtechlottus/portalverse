@@ -27,6 +27,7 @@ const BreadcrumbsLabels: any = {
   "voz-uane": "Voz UANE",
   "pedir-informacion": "Solicita Informes",
   "vida-estudiantil": "Vida estudiantil",
+  "aviso-de-privacidad-egresados-UANE": "Aviso de Privacidad Encuesta Egresados UANE",
   ...Routes["oferta-educativa"].reduce((prev: any, value: any) => {
     const {params: {programs}} = value
     const programList = programs.reduce((p:any, c:any) => {
