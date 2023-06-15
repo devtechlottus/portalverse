@@ -1,6 +1,7 @@
 import Alert from "@/components/sections/Alert";
 import Banner from "@/components/sections/Banner";
 import BlogPostsPodcast from "@/components/sections/BlogPostsPodcast";
+import CardList from "@/components/sections/CardList";
 import ContactTargetList from "@/components/sections/ContactTargetList";
 import FAQ from "@/components/sections/FAQ";
 import HeroSlider from "@/components/sections/HeroSlider";
@@ -9,9 +10,9 @@ import LinkList from "@/components/sections/LinkList";
 import Listconfig from "@/components/sections/Listconfig";
 import Paragraph from "@/components/Paragraph";
 import PodcastList from "@/components/sections/PodcastList";
+import PromoLinkList from "@/components/sections/PromoLinkList";
 import RichTextImage from "@/components/sections/RichTextImage";
 import TextContent from "@/components/sections/TextContent";
-import PromoLinkList from "@/components/sections/PromoLinkList";
 import type { FC } from "react";
 
 type Renderer = {
@@ -23,6 +24,7 @@ const defaultRenderers: Renderer = {
   ComponentSectionsAlert: Alert,
   ComponentSectionsBanner: Banner,
   ComponentSectionsBlogPostsPodcast: BlogPostsPodcast,
+  ComponentSectionsCardList: CardList,
   ComponentSectionsContactTargetList: ContactTargetList,
   ComponentSectionsFaqSection: FAQ,
   ComponentSectionsHeroSlider: HeroSlider,
