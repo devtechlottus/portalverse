@@ -13,6 +13,7 @@ import Paragraph from "@/components/Paragraph";
 import PodcastList from "@/components/sections/PodcastList";
 import PromoLinkList from "@/components/sections/PromoLinkList";
 import RichTextImage from "@/components/sections/RichTextImage";
+import StatisticsCardList from "@/components/sections/StatisticsCardList";
 import TextContent from "@/components/sections/TextContent";
 import type { FC } from "react";
 
@@ -36,6 +37,7 @@ const defaultRenderers: Renderer = {
   ComponentSectionsPodcastList: PodcastList,
   ComponentSectionsPromoLinkList: PromoLinkList,
   ComponentSectionsRichTextImage: RichTextImage,
+  ComponentSectionsStatisticsCardList: StatisticsCardList,
   ComponentSectionsTextContent: TextContent,
 };
 
