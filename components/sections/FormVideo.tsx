@@ -32,7 +32,7 @@ const FormVideo = (props: FormVideoSection) => {
               pathThankyou={`/thank-you`}
               image={{
                 src: formImage?.data?.attributes?.url,
-                alt: formImage?.data?.attributes?.alt || "image-person",
+                alt: formImage?.data?.attributes?.alternativeText || "image-person",
               }}
             />
           </div>

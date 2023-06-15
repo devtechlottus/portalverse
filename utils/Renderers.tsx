@@ -1,7 +1,6 @@
 import Alert from "@/components/sections/Alert";
 import Banner from "@/components/sections/Banner";
 import BlogPostsPodcast from "@/components/sections/BlogPostsPodcast";
-import CardList from "@/components/sections/CardList";
 import ContactTargetList from "@/components/sections/ContactTargetList";
 import FAQ from "@/components/sections/FAQ";
 import FormVideo from "@/components/sections/FormVideo";
@@ -12,7 +11,7 @@ import Listconfig from "@/components/sections/Listconfig";
 import OverlayCardList from "@/components/sections/OverlayCardList";
 import Paragraph from "@/components/Paragraph";
 import PodcastList from "@/components/sections/PodcastList";
-import PromoLinkList from "@/components/sections/PromoLinkList";
+import ProgramsFilter from "@/components/sections/ProgramsFilter";
 import RichTextImage from "@/components/sections/RichTextImage";
 import StatisticsCardList from "@/components/sections/StatisticsCardList";
 import TextContent from "@/components/sections/TextContent";
@@ -27,7 +26,6 @@ const defaultRenderers: Renderer = {
   ComponentSectionsAlert: Alert,
   ComponentSectionsBanner: Banner,
   ComponentSectionsBlogPostsPodcast: BlogPostsPodcast,
-  ComponentSectionsCardList: CardList,
   ComponentSectionsContactTargetList: ContactTargetList,
   ComponentSectionsFaqSection: FAQ,
   ComponentSectionsFormVideo: FormVideo,
@@ -37,7 +35,7 @@ const defaultRenderers: Renderer = {
   ComponentSectionsListconfig: Listconfig,
   ComponentSectionsOverlayCardList: OverlayCardList,
   ComponentSectionsPodcastList: PodcastList,
-  ComponentSectionsPromoLinkList: PromoLinkList,
+  ComponentSectionsProgramsFilter: ProgramsFilter,
   ComponentSectionsRichTextImage: RichTextImage,
   ComponentSectionsStatisticsCardList: StatisticsCardList,
   ComponentSectionsTextContent: TextContent,
