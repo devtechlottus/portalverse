@@ -8,6 +8,7 @@ import { HERO_SLIDER } from "@/utils/strapi/sections/HeroSlider";
 import { LEADERBOARD } from "@/utils/strapi/sections/Leaderboard";
 import { LINK_LIST } from "@/utils/strapi/sections/LinkList";
 import { LIST_CONFIG } from "@/utils/strapi/sections/Listconfig";
+import { OVERLAY_CARD_LIST } from "@/utils/strapi/sections/OverlayCardList";
 import { PODCAST_LIST } from "@/utils/strapi/sections/PodcastList";
 import { RICH_TEXT_IMAGE } from "@/utils/strapi/sections/RichTextImage";
 import { TEXT_CONTENT } from "@/utils/strapi/sections/TextContent";
@@ -30,17 +31,17 @@ import type { PromoLinkListSection } from "@/utils/strapi/sections/PromoLinkList
 export type ComponentSection =
   | AlertSection
   | BannerSection
+  | BlogPostsPodcastSection
   | CardListSection
   | ContactTargetListSection
   | FAQSection
+  | HeroSliderSection
   | LeaderboardSection
   | LinkListSection
-  | RichTextImageSection
   | TextContentSection
-  | BlogPostsPodcastSection
   | ListconfigSection
   | PodcastListSection
-  | HeroSliderSection
+  | RichTextImageSection
   | PromoLinkListSection
 
 export const SECTIONS = `
@@ -54,12 +55,9 @@ export const SECTIONS = `
   ${LINK_LIST}
   ${LIST_CONFIG}
   ${LEADERBOARD}
+  ${OVERLAY_CARD_LIST}
   ${PODCAST_LIST}
+  ${PROMO_LINK_LIST}
   ${RICH_TEXT_IMAGE}
   ${TEXT_CONTENT}
-  ${BLOG_POSTS_PODCAST}
-  ${LIST_CONFIG}
-  ${PODCAST_LIST}
-  ${HERO_SLIDER}
-  ${PROMO_LINK_LIST}
 `;
