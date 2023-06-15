@@ -1,6 +1,7 @@
 import { ALERT } from "@/utils/strapi/sections/Alert";
 import { BANNER } from "@/utils/strapi/sections/Banner";
 import { BLOG_POSTS_PODCAST } from "@/utils/strapi/sections/BlogPostsPodcast";
+import { CARD_LIST } from "@/utils/strapi/sections/CardList";
 import { CONTACT_TARGET_LIST } from "@/utils/strapi/sections/ContactTargetList";
 import { FAQ_SECTION } from "@/utils/strapi/sections/FAQ";
 import { HERO_SLIDER } from "@/utils/strapi/sections/HeroSlider";
@@ -14,6 +15,7 @@ import { PROMO_LINK_LIST } from "@/utils/strapi/sections/PromoLinkList";
 import type { AlertSection } from "@/utils/strapi/sections/Alert";
 import type { BannerSection } from "@/utils/strapi/sections/Banner";
 import type { BlogPostsPodcastSection } from "@/utils/strapi/sections/BlogPostsPodcast";
+import type { CardListSection } from "@/utils/strapi/sections/CardList";
 import type { ContactTargetListSection } from "@/utils/strapi/sections/ContactTargetList";
 import type { FAQSection } from "@/utils/strapi/sections/FAQ";
 import type { HeroSliderSection } from "@/utils/strapi/sections/HeroSlider";
@@ -28,6 +30,7 @@ import type { PromoLinkListSection } from "@/utils/strapi/sections/PromoLinkList
 export type ComponentSection =
   | AlertSection
   | BannerSection
+  | CardListSection
   | ContactTargetListSection
   | FAQSection
   | LeaderboardSection
@@ -44,6 +47,7 @@ export const SECTIONS = `
   ${ALERT}
   ${BANNER}
   ${BLOG_POSTS_PODCAST}
+  ${CARD_LIST} 
   ${CONTACT_TARGET_LIST}
   ${FAQ_SECTION}
   ${HERO_SLIDER}
