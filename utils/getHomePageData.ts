@@ -20,7 +20,6 @@ export type HomeComponentSection =
   | ListconfigSection
   | OverlayCardListSection
   | StatisticsCardListSection
-  | StatisticsCardListSection
   | FormVideoSection;
 
 type HomePageResponse = {
