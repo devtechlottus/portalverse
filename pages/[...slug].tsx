@@ -1,9 +1,8 @@
 import { Fragment } from "react";
-import HeaderFooterLayout from "@/layouts/HeaderFooter.layout";
-import BlogEntryPage from "@/components/BlogEntryPageContent";
 import DynamicPageLayout from "@/layouts/DynamicPageLayout.layout";
 import Container from "@/layouts/Container.layout";
 import Breadcrumbs from "@/old-components/Breadcrumbs/BreadcrumbPortalverse";
+import BlogEntryPage from "@/components/BlogEntryPageContent";
 import DynamicPageContent from "@/components/DynamicPageContent";
 import getBlogEntryPageData from "@/utils/getBlogEntryPageData";
 import getBlogEntryBySlug from "@/utils/getBlogEntryBySlug";
@@ -17,7 +16,7 @@ import type { PageEntity } from "@/utils/getPageData";
 
 const Page = (props: { data: PageEntity | BlogEntryPageEntity, breadcrumbs: Record<string, string> }) => {
   const { data, breadcrumbs } = props;
-  
+
   const renderContent = () => {
     switch (data?.type) {
       case "BlogEntryPageEntityResponse":
@@ -117,6 +116,7 @@ export async function getStaticProps(context: any) {
     };
   } else {
     const pageData = await getPageBySlug(slug?.join("/"));
+
     const pagesData = await getPagesData();
     const pagesBreadcrumbs = getDynamicPagesBreadcrumbs(pagesData);
 

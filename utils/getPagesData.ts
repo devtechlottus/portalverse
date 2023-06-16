@@ -11,22 +11,22 @@ export type DynamicPageData = {
 type DynamicPagesResponse = {
   pages: {
     data: Array<DynamicPageData>;
-  }
+  };
 };
 
 const getPagesData = async () => {
-  const pagesData = await fetchStrapiGraphQL<DynamicPagesResponse>(DYNAMIC_PAGES);;
+  const pagesData = await fetchStrapiGraphQL<DynamicPagesResponse>(DYNAMIC_PAGES);
   return pagesData?.pages?.data;
 };
 
 const DYNAMIC_PAGES = `
 query DynamicPages {
-query Pages {
   pages(pagination: {start: 0, limit: -1}) {
     data {
       id
       attributes {
         slug
+        breadcrumb
       }
     }
   }
