@@ -1,7 +1,7 @@
 import { fetchStrapiGraphQL } from "@/utils/getStrapi";
 import { BANNER } from "@/utils/strapi/sections/Banner";
-import { HERO_SLIDER } from "@/utils/strapi/sections/HeroSlider";
 import { FORM_VIDEO } from "@/utils/strapi/sections/FormVideo";
+import { HERO_SLIDER } from "@/utils/strapi/sections/HeroSlider";
 import { LIST_CONFIG, formatListconfigSection } from "@/utils/strapi/sections/Listconfig";
 import { OVERLAY_CARD_LIST } from "@/utils/strapi/sections/OverlayCardList";
 import { SEO } from "@/utils/strapi/sections/SEO";
