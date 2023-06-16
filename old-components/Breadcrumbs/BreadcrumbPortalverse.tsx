@@ -3,12 +3,14 @@ import Link from "next/link"
 import { useRouter } from "next/router"
 import cn from "classnames"
 import BreadcrumbsComponentData from "@/types/BreadcrumbsPortalverse.types"
-import BreadcrumbsLabels from "@/routes/breadcrumbs.labels"
+import StaticPagesBreadcrumbsLabels from "@/routes/breadcrumbs.labels"
 
-const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames }: BreadcrumbsComponentData) => {
+const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames, breadcrumbs = {} }: BreadcrumbsComponentData) => {
   const mainRoute = <span className="material-icons mr-1">home</span>;
   const { asPath } = useRouter();
   const [ allRoutes, setAllRoutes ] = useState<Array<string>>([]);
+
+  const breadcrumbsLabels = {...breadcrumbs, ...StaticPagesBreadcrumbsLabels};
 
   useEffect(() => {
     const routes = Array.from(asPath.split("/"));
@@ -25,7 +27,7 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
     if(text.includes("#") && last){
       cleanText = text.split("#")[0]
     }
-    const label = !!BreadcrumbsLabels[cleanText] ? BreadcrumbsLabels[cleanText] : cleanText
+    const label = !!breadcrumbsLabels[cleanText] ? breadcrumbsLabels[cleanText] : cleanText
 
     return text === ''
       ? last
@@ -33,7 +35,7 @@ const Breadcrumbs: FC<BreadcrumbsComponentData> = ({ visible = true, classNames 
         : <Link href={"/"} className="font-Nunito-Sans font-normal text-xs">{mainRoute}</Link>
       : !last
         ? <Link href={url} className="flex"><p className="font-Nunito-Sans font-normal text-xs mr-1 text-[#282828]">/</p><p className="mr-1 font-Nunito-Sans font-normal text-xs">{ label }</p></Link>
-        : <span className="flex"><p className="font-Nunito-Sans font-normal text-xs mr-1 text-[#282828]">/</p><p className="text-[#B0003C] font-Nunito-Sans font-normal text-xs">{ label }</p></span>;
+        : <span className="flex"><p className="font-Nunito-Sans font-normal text-xs mr-1 text-[#282828]">/</p><p className="text-[#282828] font-Nunito-Sans font-normal text-xs">{ label }</p></span>;
   }
 
   return <ul className={cn("breadcrumbs w-full flex my-6 font-Nunito font-bold text-xs text-[#686868]", classNames, { "hidden": !visible })} aria-label="breadcrumbs">
