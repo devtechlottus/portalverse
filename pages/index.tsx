@@ -2,38 +2,17 @@ import Head from "next/head"
 import NextPageWithLayout from "@/types/Layout.types"
 import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
-import { HomeComponentSection, getHomePageData } from "@/utils/getHomePageData"
+import { getHomePageData } from "@/utils/getHomePageData"
 import CustomScript from "@/components/CustomScript"
 import ContentGenerator from "@/utils/ContentGenerator"
-import { getHomePageData } from "@/utils/getHomePageData"
+import { useRouter } from "next/router"
+
 
 const Home: NextPageWithLayout = ({ data: { sections, meta } }: any) => {
 
   const router = useRouter();
 
-  const strapiSections = strapi?.sections as Array<HomeComponentSection>;
-  const strapiSeo = strapi?.seo as SeoData;
-
-  const blogListConfig = findSection<ListconfigSection>(strapiSections, "ComponentSectionsListconfig");
-  const blogPostsData = strapi?.blogPostsData as BlogPostsData;
-
-
-  const slider = findSection<HeroSliderSection>(
-    strapiSections,
-    "ComponentSectionsHeroSlider"
-  );
-
-  const overlayCardsSection = findSection<OverlayCardListSection>(
-    strapiSections,
-    "ComponentSectionsOverlayCardList"
-  );
-
-  const banners = findSections<BannerSection>(
-    strapiSections,
-    "ComponentSectionsBanner"
-  );
-  const banner1 = banners[0];
-  const banner2 = banners[1];
+ 
   const gtag: { script: string, ID: string } ={
     ID:'google-tag-manager',
     script: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
