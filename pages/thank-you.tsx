@@ -9,6 +9,8 @@ import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Icon from "@/old-components/Icon"
 import Video from "@/old-components/Video"
+import * as fbq from '../lib/fb-pixel'
+
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -36,8 +38,13 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     setFlow('gral')
   }, [router])
 
+  useEffect(() => {
+    fbq.event('CompleteRegistration')
+  }, [])
+
+
+
   return <>
-    <script dangerouslySetInnerHTML={{ __html : `fbq('track', 'CompleteRegistration');`}}></script>
     <Head>
       <title>{ meta.title }</title>
     </Head>

@@ -1,14 +1,24 @@
 
 import React from 'react'
 import Head  from 'next/head'
+import Script from 'next/script'
 
-import FACEBOOK_PIXEL_1 from './facebook/pixel-1'
-
-export default ({name}: any) => {
-
+export default ({script, pixel, ID}: { script?: string, pixel?: string, ID?: string }) => {
   return(
-    <Head>
-      {name === 'META_PIXEL_1' && <FACEBOOK_PIXEL_1 />}
-    </Head>
+    <>
+      { !!script && <Script id={ID} strategy='afterInteractive' dangerouslySetInnerHTML={{ __html: script }}/>}
+      <Head>
+        { !!pixel &&
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: 'none' }}
+              src={pixel}
+            />
+          </noscript>
+        }
+      </Head>
+    </>
   )
 }
