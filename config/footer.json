@@ -1,5 +1,5 @@
 {
-  "privacyLink": { "link": "/docs/Aviso_Privacidad.pdf", "label": "Aviso de privacidad" },
+  "privacyLink": { "link": "/aviso-de-privacidad", "label": "Aviso de privacidad" },
   "certifications": { "title": "Certificaciones", "certificaciones":[
       {
         "src": "https://assets.staging.bedu.org/UANE/fimpes_12bbc28e00.jpg",
