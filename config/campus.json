@@ -81,7 +81,7 @@
         "description": {
           "state": "Coahuila",
           "name": "Campus Piedras Negras",
-          "address": "Arq. Germán Robles Gil Maza #310 Fracc, S. Felipe, Sur, 26070 Piedras Negras, Coah.",
+          "address": "Río San Rodrigo N° 310, colonia San Felipe, Piedras Negras, Coahuila, C.P. 26070",
           "phone": "",
           "email": ""
         }
@@ -97,7 +97,7 @@
         "description": {
           "state": "Nuevo León",
           "name": "Campus Monterrey",
-          "address": "José Ma. Pino Suarez #506, Zona Centro, Monterrey, N.L., C.P. 64000",
+          "address": "José Ma. Pino Suárez #506, Zona Centro, Monterrey, N.L., C.P. 64000",
           "phone": "",
           "email": ""
         }
@@ -129,7 +129,7 @@
         "description": {
           "state": "Tamaulipas",
           "name": "Campus Matamoros",
-          "address": "PROLONGACIÓN CONSTITUYENTES NÚMERO 1002 COL. LAS RUSIAS CP 87560",
+          "address": "Prolongación Constituyentes N° 1002, colonia Las Rusias, Matamoros, Tamaulipas, C.P. 87324",
           "phone": "",
           "email": ""
         }
