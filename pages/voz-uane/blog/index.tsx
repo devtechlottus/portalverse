@@ -56,7 +56,7 @@ const Blog: NextPageWithLayout = ({ sections, meta, strapi }: any) => {
 export async function getStaticProps(context: any) {	
   const { sections, meta } = await getDataPageFromJSON('blog/blog.json');
   const blogPostsData = await getBlogPosts({
-    pageSize: 100,
+    limit: 100,
     sort: "publication_date:desc"
   });
 
