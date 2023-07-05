@@ -46,15 +46,13 @@ export const formatListconfigSection = async (
   switch (section?.relatesto) {
     case "blogentries": {
       const blogEntryPage = await getBlogEntryPageData();
-
       const blogPostsData = await getBlogPosts({
-        pageSize: section?.maxentries,
+        limit: section?.maxentries,
         sort:
           section?.sortdate === "latest"
             ? "publication_date:desc"
             : "publication_date:asc",
-      });
-
+      }); 
       const blogPageSlug = blogEntryPage?.data?.attributes?.slug;
       const blogPosts = blogPostsData?.blogPosts?.data;
 
@@ -64,12 +62,11 @@ export const formatListconfigSection = async (
           blogPosts,
         };
       }
-
       break;
     }
     case "podcasts": {
       const podcastEpisodes = await getPodcastEpisodes({
-        pageSize: section?.maxentries,
+        limit: section?.maxentries,
         sort:
           section?.sortdate === "latest"
             ? "publicationDate:desc"
