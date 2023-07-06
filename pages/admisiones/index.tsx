@@ -47,8 +47,8 @@ const LandindAdmissions: NextPageWithLayout = ({ sections, meta }: any) => {
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5">{sections.head.title}</p>
           {
             sections.head.textIcons.map((item:any, i:number) => <div key={`icon-${i}`} className="flex mt-4 gap-6">
-                <Icon name={item.name} className="w-14 h-14 text-red-500"/>
-                <p className="font-Nunito-Sans font-normal my-auto text-4.5 w-p:text-base grow">{item.text}</p>
+                <Icon name={item.name} className="w-14 h-14 "/>
+                <p className="font-Nunito-Sans font-normal my-auto text-4.5 w-p:text-base grow">{item.name}</p>
               </div>
             )
           }

@@ -10,7 +10,7 @@ import CloseIcon from "@/icons/close.svg"
 import TwitterIcon from "@/icons/twitter.svg"
 import Agreement from "@/icons/agreement.svg"
 import GraduateCap from "@/icons/graduatecap.svg"
-import Trophy from "@/icons/trophy.svg"
+import { TrophyIcon } from "@/icons/trophy.jsx"
 import TriangleDown from "@/icons/triangledown.svg"
 import FacebookIcon from "@/icons/Facebook.svg"
 import InstagramIcon from "@/icons/Instagram.svg"
@@ -22,10 +22,9 @@ import conseguirEmpleo from "@/icons/conseguirEmpleo.svg"
 import hacerContactos from "@/icons/hacerContactos.svg"
 import mejorarCurriculum from "@/icons/mejorarCurriculum.svg"
 import nuevasCompetencias from "@/icons/nuevasCompetencias.svg"
-import graduate from "@/icons/graduate.svg"
-import student from "@/icons/student.svg"
-import trophy from "@/icons/trophy.svg"
-import work from "@/icons/work.svg"
+import { GraduateIcon } from "@/icons/graduate.jsx"
+import { StudentIcon } from "@/icons/student.jsx"
+import { WorkIcon } from "@/icons/work.jsx"
 import Whatsapp from "@/icons/Whatsapp.svg"
 
 const iconTypes: any = {
@@ -44,7 +43,7 @@ const iconTypes: any = {
   instagram: InstagramIcon,
   agreement: Agreement,
   graduatecap: GraduateCap,
-  trophy: Trophy,
+  trophy: TrophyIcon,
   triangledown: TriangleDown,
   sort: SortIcon,
   buscarempleo: buscarTrabajo,
@@ -52,9 +51,9 @@ const iconTypes: any = {
   mejorarcurriculim: mejorarCurriculum,
   hacercontactos: hacerContactos,
   nuevascompetencias: nuevasCompetencias,
-  graduateIcon: graduate,
-  studentIcon: student,
-  workIcon: work,
+  graduateIcon: GraduateIcon,
+  studentIcon: StudentIcon,
+  workIcon: WorkIcon,
   whatsapp: Whatsapp
 };
 

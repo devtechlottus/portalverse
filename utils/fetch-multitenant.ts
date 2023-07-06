@@ -151,7 +151,8 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
     "./old-components/**/*.{js,ts,jsx,tsx}", // TODO: Delete when components migration is completed
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./forms/**/*.{js,ts,jsx,tsx}"
+    "./forms/**/*.{js,ts,jsx,tsx}",
+    "./public/icons/**/*.{svg,jsx}"
   ],
   theme: {
     screens: {      
