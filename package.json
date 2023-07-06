@@ -5,7 +5,7 @@
   "scripts": {
     "predev": "node ./utils/fetch-multitenant.ts",
     "dev": "next dev",
-    "prebuild": "node ./fetch-multitenant.ts",
+    "prebuild": "node ./utils/fetch-multitenant.ts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
