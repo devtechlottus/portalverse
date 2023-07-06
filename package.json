@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predev": "node ./fetch-multitenant.ts",
+    "predev": "node ./utils/fetch-multitenant.ts",
     "dev": "next dev",
     "prebuild": "node ./fetch-multitenant.ts",
     "build": "next build",
