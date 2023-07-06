@@ -22,13 +22,13 @@ const TabsFeatured: FC<TabsComponentConfig> = ({ tabs, onActive, active }: TabsC
     <ul className={cn("flex gap-1 w-d:justify-center items-baseline", { "w-p:justify-start": tabs.length > 1, "w-p:justify-center": tabs.length === 1 })}>
       {
         tabs.map(({ label }: any, i: number) => <li key={`tab-${i}`} className={cn("w-auto  flex flex-col justify-center")} onClick={() => activeTab(i)}>
-            <div className={cn("py-4 px-6 flex flex-col justify-center cursor-pointer border border-b-2", { "bg-primary-500 text-white ": tabActive === i, "border-b-[#B0003C]": tabActive !== i })}>
+            <div className={cn("py-4 px-6 flex flex-col justify-center cursor-pointer border border-b-2", { "bg-test-1-500 text-white ": tabActive === i, "border-b-[#B0003C]": tabActive !== i })}>
               <p className="text-center whitespace-nowrap">{ label }</p>
             </div>
             <div className={cn("flex justify-center relative", { "hidden": tabActive !== i })}>
               <Image src="/images/triangle_tabs.png" alt="triangle" classNames="w-[44px] h-[30px] absolute -top-1" /> 
               {/* TODO: Change image for html element to accept stylings */}
-              
+
             </div>
           </li>)
       }
