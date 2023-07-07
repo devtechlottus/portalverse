@@ -52,7 +52,8 @@ export const formatListconfigSection = async (
           section?.sortdate === "latest"
             ? "publication_date:desc"
             : "publication_date:asc",
-      }); 
+      });
+
       const blogPageSlug = blogEntryPage?.data?.attributes?.slug;
       const blogPosts = blogPostsData?.blogPosts?.data;
 
