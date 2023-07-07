@@ -46,6 +46,7 @@ export const formatListconfigSection = async (
   switch (section?.relatesto) {
     case "blogentries": {
       const blogEntryPage = await getBlogEntryPageData();
+
       const blogPostsData = await getBlogPosts({
         limit: section?.maxentries,
         sort:
@@ -63,6 +64,7 @@ export const formatListconfigSection = async (
           blogPosts,
         };
       }
+
       break;
     }
     case "podcasts": {
