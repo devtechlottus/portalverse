@@ -15,6 +15,7 @@ const getBlogPosts = async (variables: BlogPostsVariables) => {
     limit,
     sort,
   });
+
   return data;
 };
 
