@@ -23,17 +23,18 @@ const setcolors = (colors) => {
   }, {}) 
  
 }
-async function multitenantFetcher(){
 
-  const rawResponse = await
+async function fetchColors(){
+
+  const rawColors = await
   fetch("https://uane--strapi--mzkgzv7slhxf.code.run/api/pallete?populate[0]=primary,secondary,surface,complementary.colors,contextual.success,contextual.error,contextual.warning,contextual.info", {
     headers: {
       "Authorization": "Bearer b77a24aea271766e37fdef44667646cc0a02212e8c4c1114f8255d03dca1e45fb79bb54759874fac23758abc7e58a3a00591f40c79f747e1eb69f512f520ac3d2661243ee0b35592c8e8492687caf4c7ec87065b07abad637ceec0337cbe812fa4fa9d42b45c25e404e6e868f37d6b79038aa51e3d2925ff266ea38f8af85c48"
     }
   })
 
-  const response = await rawResponse.json() 
-  const { data : { attributes: { primary, secondary, surface, contextual:{id, ...restcontextual}, complementary } } } = response
+  const Colors = await rawColors.json() 
+  const { data : { attributes: { primary, secondary, surface, contextual:{id, ...restcontextual}, complementary } } } = Colors
 
   const complementaryColors = complementary.reduce((acc, {token, colors}) => {
     const { id, ...rest } = colors
@@ -43,11 +44,60 @@ async function multitenantFetcher(){
 
   return {primary, secondary, surface, ...restcontextual, ...complementaryColors}
 }
+
+const setFonts = (fonts) => {
+  return Object.keys(fonts) .reduce((acc, token) => {
+    const font = fonts[token]
+    
+    const { google_font_url, font_names } = font
+    acc.fonts = {
+      ...acc.fonts,
+      [token]: font_names.map((font)=> font.name)
+    }
+    acc.links = `${acc.links}\n@import url('${google_font_url}');`
+    
+    return acc
+  }, { links: '', fonts: {} }) 
+ 
+}
+
+async function fetchFonts(){
+
+  const rawFonts = await
+  fetch("https://uane--strapi--mzkgzv7slhxf.code.run/api/font?populate[0]=headings,texts,extra_fonts,headings.font_names,texts.font_names,extra_fonts.font,extra_fonts.font.font_names", {
+    headers: {
+      "Authorization": "Bearer b77a24aea271766e37fdef44667646cc0a02212e8c4c1114f8255d03dca1e45fb79bb54759874fac23758abc7e58a3a00591f40c79f747e1eb69f512f520ac3d2661243ee0b35592c8e8492687caf4c7ec87065b07abad637ceec0337cbe812fa4fa9d42b45c25e404e6e868f37d6b79038aa51e3d2925ff266ea38f8af85c48"
+    }
+  })
+
+  const Fonts = await rawFonts.json() 
+  const { data : { attributes: { headings, texts, extra_fonts } } } = Fonts
+
+  const extraFonts = extra_fonts.reduce((acc, {token, font}) => {
+    const { id, ...rest } = font
+    acc = {...acc, [token]: rest}
+    return acc
+  }, {})
+
+  return { headings, texts, ...extraFonts }
+}
+
 async function populateTailwind  () {
 
-  const tailwindColors = setcolors(await multitenantFetcher())
+  const tailwindColors = setcolors(await fetchColors())
+  const tailwindFonts = setFonts(await fetchFonts())
+  
   
   const tailwindExtend = {
+    screens: {      
+      "w-p": {"max": '599px'},
+      "w-t": {"min": '600px', "max": "1023px"},
+      "w-d": {"min": '1024px'},
+      "w-d-base": {"max": '1300px'}
+    },
+    maxWidth: {
+      "d-base": "1200px",
+    },
     spacing: {
       "12.5": "3.125rem",
       "8.5": "2.125rem",
@@ -104,10 +154,8 @@ async function populateTailwind  () {
       ...tailwindColors
     },
     fontFamily: {
-      "Nunito": ["Nunito"],
-      "Nunito-Sans": ["Nunito Sans"],
-      "Poppins": ["Poppins"],
-    }, // override font with multitenant fonts
+      ...tailwindFonts.fonts
+    },
     gridTemplateColumns: {
       "12-gap": 'repeat(12, minmax(0, 1fr))',
       "12-nogap": 'repeat(12, minmax(0, 1fr))',
@@ -145,6 +193,7 @@ async function populateTailwind  () {
   
   const tailwindConfig = `
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -155,24 +204,20 @@ module.exports = {
     "./public/icons/**/*.{svg,jsx}"
   ],
   theme: {
-    screens: {      
-      "w-p": {"max": '599px'},
-      "w-t": {"min": '600px', "max": "1023px"},
-      "w-d": {"min": '1024px'},
-      "w-d-base": {"max": '1300px'}
-    },
-    maxWidth: {
-      "d-base": "1200px",
-    },
     extend: ${JSON.stringify(tailwindExtend, null, 5)}
   },
   plugins: [],
 }
   `
-  console.group('Multitenant data:')
-  console.log('tailwindColors:', tailwindColors);
-  console.groupEnd
+  // console.group('Multitenant data:')
+  // console.log('tailwindConfig:', tailwindConfig);
+  // console.groupEnd
   fs.writeFile('./tailwind.config.js', tailwindConfig, 'utf-8', (err) => {
+    if (err) {
+      console.error(err);
+    }
+  });
+  fs.writeFile('./styles/fonts.css', tailwindFonts.links, 'utf-8', (err) => {
     if (err) {
       console.error(err);
     }
