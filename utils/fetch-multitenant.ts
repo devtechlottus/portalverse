@@ -191,8 +191,7 @@ async function populateTailwind  () {
     }
   }
   
-  const tailwindConfig = `
-/** @type {import('tailwindcss').Config} */
+  const tailwindConfig = `/** @type {import('tailwindcss').Config} */
 
 module.exports = {
   content: [
@@ -204,14 +203,10 @@ module.exports = {
     "./public/icons/**/*.{svg,jsx}"
   ],
   theme: {
-    extend: ${JSON.stringify(tailwindExtend, null, 5)}
+    extend: ${JSON.stringify(tailwindExtend, null, 3)}
   },
   plugins: [],
-}
-  `
-  // console.group('Multitenant data:')
-  // console.log('tailwindConfig:', tailwindConfig);
-  // console.groupEnd
+}`
   fs.writeFile('./tailwind.config.js', tailwindConfig, 'utf-8', (err) => {
     if (err) {
       console.error(err);
