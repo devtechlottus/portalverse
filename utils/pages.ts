@@ -123,7 +123,7 @@ export const getProgramDetailPageData = async (path: string): Promise<ProgramDet
   } else {
     const programData = await getProgramBySlug(programSlug);
     const programLevel = programData?.attributes?.level?.data?.attributes?.title;
-    const programDetailSuperior = await getProgramDetailSuperiorPageData()
+    const programDetailSuperior = await getProgramDetailSuperiorPageData();
     const programDetailBachillerato = await getProgramDetailBachillerato();
     return {
       // TODO
