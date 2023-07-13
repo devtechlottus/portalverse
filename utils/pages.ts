@@ -10,7 +10,6 @@ import getProgramDetailSuperiorPageData from "@/utils/getProgramDetailSuperior";
 import getProgramDetailBachillerato from "@/utils/getProgramDetailBachillerato";
 import { getDataPageFromJSON } from "@/utils/getDataPage";
 import { isValidPath, normalizePath } from "@/utils/misc";
-import type { PageEntityResponse } from "@/utils/getPageDataById";
 import type { ProgramData } from "@/utils/getProgramBySlug";
 import type {
   StaticContinuousEducationCategory,
@@ -52,11 +51,22 @@ export type DynamicProgramDetailData = {
 export type ProgramDetailPage =
   | {
       type: "StaticProgramDetail";
-      data: any; // TODO
+      data: {
+        level: any;
+        program: any;
+        meta: any;
+        config: any;
+        sections: any;
+        form: any;
+        bannerParche: any;
+      };
     }
   | {
       type: "StaticContinuousEducationProgramDetail";
-      data: any; // TODO
+      data: {
+        sections: any;
+        meta: any;
+      };
     }
   | {
       type: "DynamicProgramDetail";
@@ -246,19 +256,20 @@ export const getProgramDetailPagesPaths = async () => {
  * PAGES BREADCRUMBS
  */
 
-export const getPageBreadcrumb = (
-  page: PageEntityResponse
-): Record<string, string> => {
-  const breadcrumb: Record<string, string> = {};
+export const getDynamicPagesBreadcrumbs = async () => {
+  const breadcrumbs: Record<string, string> = {};
 
-  const pageAttributes = page?.data?.attributes;
+  const pagesInfo = await getPagesInfo();
 
-  const slug = normalizePath(pageAttributes?.slug);
-  const pathSegments = slug?.split("/");
-  const lastPathSegment = pathSegments?.[pathSegments?.length - 1];
-  const breadcrumbLabel = pageAttributes?.breadcrumb;
+  pagesInfo?.forEach((page) => {
+    const slug = normalizePath(page?.attributes?.slug);
+    const pathSegments = slug?.split("/");
+    const lastPathSegment = pathSegments?.[pathSegments?.length - 1];
 
-  breadcrumb[lastPathSegment] = breadcrumbLabel
+    const breadcrumbLabel = page?.attributes?.breadcrumb || "";
 
-  return breadcrumb;
+    breadcrumbs[lastPathSegment] = breadcrumbLabel;
+  });
+
+  return breadcrumbs;
 };
