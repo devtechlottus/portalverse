@@ -90,7 +90,7 @@ export async function getStaticProps(context: any) {
   }
 
   const blogPostsData = await getBlogPosts({
-    pageSize: 100,
+    limit: -1,
     sort: "publication_date:desc"
   });
 
