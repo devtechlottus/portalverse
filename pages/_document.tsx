@@ -1,4 +1,5 @@
 import Pixel from "@/components/Pixel"
+import { favicon } from "multitenant-images"
 import { Html, Head, Main, NextScript } from "next/document"
 import Script from "next/script"
 
@@ -8,6 +9,7 @@ export default function Document() {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link rel="icon" href={favicon} crossOrigin="true" />
         <noscript>
           <img
             height="1"
