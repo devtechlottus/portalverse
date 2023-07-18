@@ -81,12 +81,45 @@ async function fetchFonts(){
 
   return { headings, texts, ...extraFonts }
 }
+const setLogos = (logos) => {
+  return Object.keys(logos) .reduce((acc, token) => {
+    acc[token] = `url('${logos[token]}')`
+    return acc
+  }, { })
+}
+
+async function fetchLogos(){
+
+  const rawLogos = await
+  fetch("https://uane--strapi--mzkgzv7slhxf.code.run/api/logo?populate=logo,favicon,extra_logos,extra_logos.image", {
+    headers: {
+      "Authorization": "Bearer b77a24aea271766e37fdef44667646cc0a02212e8c4c1114f8255d03dca1e45fb79bb54759874fac23758abc7e58a3a00591f40c79f747e1eb69f512f520ac3d2661243ee0b35592c8e8492687caf4c7ec87065b07abad637ceec0337cbe812fa4fa9d42b45c25e404e6e868f37d6b79038aa51e3d2925ff266ea38f8af85c48"
+    }
+  })
+
+  const Logos = await rawLogos.json() 
+  const { data : { attributes: { logo, favicon, extra_logos} } } = Logos
+
+  
+  const extraLogos = extra_logos.reduce((acc, {logo_token, image}) => {    
+    const { data: { id, attributes: { url } } } = image
+    acc = {...acc, [logo_token]: url}
+    return acc
+  }, {})
+
+  return {
+    logo: logo.data.attributes.url,
+    favicon: favicon.data.attributes.url,
+    ...extraLogos
+  }
+}
 
 async function populateTailwind  () {
 
   const tailwindColors = setcolors(await fetchColors())
   const tailwindFonts = setFonts(await fetchFonts())
-  
+  const tailwindLogos = setLogos(await fetchLogos())
+  // console.log(tailwindLogos);
   
   const tailwindExtend = {
     screens: {      
@@ -188,7 +221,8 @@ async function populateTailwind  () {
       "pastelRedShadowRight": '5px 5px 0px 0px #ED6A5F',
       "pastelGrayShadowRight": '5px 5px 0px 0px #A2AFB5',
       "blueShadowRight": "5px 5px 0px 0px #00BEB4"
-    }
+    },
+    backgroundImage: tailwindLogos
   }
   
   const tailwindConfig = `/** @type {import('tailwindcss').Config} */
