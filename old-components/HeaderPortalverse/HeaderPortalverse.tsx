@@ -127,7 +127,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
               <p className="font-bold text-[#B0003C]">Egresados</p>
             </Link>
           </div>
-          <div className="flex flex-grow p-1 border-solid border-SC/Actions/AC-300 border-t-2">
+          <div className="flex flex-grow p-1 border-0 border-solid border-SC/Actions/AC-300 border-t-2">
             <div className="flex flex-grow space-x-6">
               {
                 menus.map((item: any, i: number) => <div key={`menu-${i}`} className="cursor-pointer p-1 z-20 flex items-center">
