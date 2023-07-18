@@ -113,7 +113,7 @@ const Header: FC<HeaderPortalverseComponentData> = ({ classNames, onClickLogo, l
     {/* desktop menu */}
     <section ref={navbarRef} className={cn("fixed w-t:hidden w-p:hidden w-full bg-white z-10 transition-transform", { "shadow-15": !activeMenu }, classNames)}>
       <div className="flex p-1">
-        <div className={cn("p-6 cursor-pointer border-solid border-SC/Actions/AC-300 border-r-2")} onClick={onClickLogo}>
+        <div className={cn("p-6 border-0 cursor-pointer border-solid border-SC/Actions/AC-300 border-r-2")} onClick={onClickLogo}>
           {/* <Image src={logotype.src} alt={logotype.alt} classNames="w-[143px] h-10" classNamesImg="w-[143px] h-[38px]" /> */}
           <div className="w-36 h-9 bg-logo bg-cover bg-center"> </div>
         </div>
