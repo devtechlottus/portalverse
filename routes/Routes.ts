@@ -3,7 +3,7 @@ const Routes = {
     { params:
       {
         "level": "bachillerato",
-        "levelRoute": "oferta-educativa/bachillerato/bachillerato",
+        "levelRoute": "oferta-educativa/bachillerato",
         "config": {
           title: "Bachillerato",
           promo: {
