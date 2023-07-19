@@ -48,6 +48,7 @@ async function fetchColors(){
 const setFonts = (fonts) => {
   return Object.keys(fonts) .reduce((acc, token) => {
     const font = fonts[token]
+    acc.tokens = [...acc.tokens, `font-${token}`]
     if (font.font) {
       acc.fonts = {
         ...acc.fonts,
@@ -64,7 +65,7 @@ const setFonts = (fonts) => {
     }
     
     return acc
-  }, { links: '', fonts: {} }) 
+  }, { links: '', fonts: {}, tokens: [''] }) 
  
 }
 
@@ -92,9 +93,10 @@ async function fetchFonts(){
 const setLogos = (logos) => {
   return Object.keys(logos) .reduce((acc, token) => {
     acc.css[token] = `url('${logos[token]}')`
+    acc.tokens = [...acc.tokens, `bg-${token}`]
     acc.img = `${acc.img}\n export const ${token} = "${logos[token]}"`
     return acc
-  }, { css: {}, img: '' })
+  }, { css: {}, img: '', tokens: [''] })
 }
 
 async function fetchLogos(){
@@ -123,7 +125,6 @@ async function fetchLogos(){
   }
 }
 const setConfig = ({ styles_safelist, environment_variables }) => {
-  console.log(styles_safelist);
   
   const safelist = styles_safelist.map(({ token }) => token)
   console.log(safelist);
@@ -223,8 +224,7 @@ async function populateTailwind  () {
       ...tailwindColors
     },
     fontFamily: {
-      ...tailwindFonts.fonts,
-      "Nunito-Sans": ["Bunday Sans"],
+      ...tailwindFonts.fonts
     },
     gridTemplateColumns: {
       "12-gap": 'repeat(12, minmax(0, 1fr))',
@@ -261,6 +261,10 @@ async function populateTailwind  () {
     },
     backgroundImage: tailwindLogos.css
   }
+  const [fóntfirst, ...fontrest] = tailwindFonts.tokens
+  const fonttokens = fontrest
+  const [logosfirst, ...logosrest] = tailwindLogos.tokens
+  const logostokens = logosrest
   
   const tailwindConfig = `/** @type {import('tailwindcss').Config} */
 
@@ -273,7 +277,7 @@ module.exports = {
     "./forms/**/*.{js,ts,jsx,tsx}",
     "./public/icons/**/*.{svg,jsx}"
   ],
-  safelist: ${JSON.stringify([...config.safelist, 'font-thin'])},
+  safelist: ${JSON.stringify([...config.safelist, ...fonttokens, ...logostokens])},
   theme: {
     extend: ${JSON.stringify(tailwindExtend, null, 3)}
   },
