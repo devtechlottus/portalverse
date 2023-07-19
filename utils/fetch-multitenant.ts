@@ -99,7 +99,7 @@ async function fetchLogos(){
   })
 
   const Logos = await rawLogos.json() 
-  const { data : { attributes: { logo, favicon, extra_logos} } } = Logos
+  const { data : { attributes: { logo, favicon, extra_logos } } } = Logos
 
   
   const extraLogos = extra_logos.reduce((acc, {logo_token, image}) => {    
@@ -115,7 +115,10 @@ async function fetchLogos(){
   }
 }
 const setConfig = ({ styles_safelist, environment_variables }) => {
-  const safelist = styles_safelist.map((acc, { token }) => token)
+  console.log(styles_safelist);
+  
+  const safelist = styles_safelist.map(({ token }) => token)
+  console.log(safelist);
   const variables = environment_variables.reduce((acc, { token, value }) => {
     acc = `${acc}${[token]}=${value}\n}`
     return acc
