@@ -48,13 +48,20 @@ async function fetchColors(){
 const setFonts = (fonts) => {
   return Object.keys(fonts) .reduce((acc, token) => {
     const font = fonts[token]
-    
-    const { google_font_url, font_names } = font
-    acc.fonts = {
-      ...acc.fonts,
-      [token]: font_names.map((font)=> font.name)
+    if (font.font) {
+      acc.fonts = {
+        ...acc.fonts,
+        [token]: [ font.font ]
+      }
+    } else {
+
+      const { google_font_url, font_names } = font
+      acc.fonts = {
+        ...acc.fonts,
+        [token]: font_names.map((font)=> font.name)
+      }
+      acc.links = `${acc.links}\n@import url('${google_font_url}');`
     }
-    acc.links = `${acc.links}\n@import url('${google_font_url}');`
     
     return acc
   }, { links: '', fonts: {} }) 
@@ -78,8 +85,10 @@ async function fetchFonts(){
     acc = {...acc, [token]: rest}
     return acc
   }, {})
-
-  return { headings, texts, ...extraFonts }
+  const fonts = { headings: headings[0], texts: texts[0], ...extraFonts }
+  console.log(fonts);
+  
+  return fonts
 }
 const setLogos = (logos) => {
   return Object.keys(logos) .reduce((acc, token) => {
@@ -215,7 +224,8 @@ async function populateTailwind  () {
       ...tailwindColors
     },
     fontFamily: {
-      ...tailwindFonts.fonts
+      ...tailwindFonts.fonts,
+      "Nunito-Sans": ["Bunday Sans"],
     },
     gridTemplateColumns: {
       "12-gap": 'repeat(12, minmax(0, 1fr))',
@@ -264,7 +274,7 @@ module.exports = {
     "./forms/**/*.{js,ts,jsx,tsx}",
     "./public/icons/**/*.{svg,jsx}"
   ],
-  safelist: ${JSON.stringify(config.safelist)},
+  safelist: ${JSON.stringify([...config.safelist, 'font-thin'])},
   theme: {
     extend: ${JSON.stringify(tailwindExtend, null, 3)}
   },
