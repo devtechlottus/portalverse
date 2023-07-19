@@ -86,7 +86,6 @@ async function fetchFonts(){
     return acc
   }, {})
   const fonts = { headings: headings[0], texts: texts[0], ...extraFonts }
-  console.log(fonts);
   
   return fonts
 }
