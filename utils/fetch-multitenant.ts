@@ -264,7 +264,7 @@ module.exports = {
     "./forms/**/*.{js,ts,jsx,tsx}",
     "./public/icons/**/*.{svg,jsx}"
   ],
-  safelist: ${config.safelist},
+  safelist: ${JSON.stringify(config.safelist)},
   theme: {
     extend: ${JSON.stringify(tailwindExtend, null, 3)}
   },
