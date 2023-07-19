@@ -83,9 +83,10 @@ async function fetchFonts(){
 }
 const setLogos = (logos) => {
   return Object.keys(logos) .reduce((acc, token) => {
-    acc[token] = `url('${logos[token]}')`
+    acc.css[token] = `url('${logos[token]}')`
+    acc.img = `${acc.img}\n export const ${token} = "${logos[token]}"`
     return acc
-  }, { })
+  }, { css: {}, img: '' })
 }
 
 async function fetchLogos(){
@@ -113,13 +114,37 @@ async function fetchLogos(){
     ...extraLogos
   }
 }
+const setConfig = ({ styles_safelist, environment_variables }) => {
+  const safelist = styles_safelist.map((acc, { token }) => token)
+  const variables = environment_variables.reduce((acc, { token, value }) => {
+    acc = `${acc}${[token]}=${value}\n}`
+    return acc
+  }, '')
+  return { safelist, variables }
+}
+
+async function fetchConfig(){
+
+  const rawConfig = await
+  fetch("https://uane--strapi--mzkgzv7slhxf.code.run/api/config?populate=styles_safelist,environment_variables", {
+    headers: {
+      "Authorization": "Bearer b77a24aea271766e37fdef44667646cc0a02212e8c4c1114f8255d03dca1e45fb79bb54759874fac23758abc7e58a3a00591f40c79f747e1eb69f512f520ac3d2661243ee0b35592c8e8492687caf4c7ec87065b07abad637ceec0337cbe812fa4fa9d42b45c25e404e6e868f37d6b79038aa51e3d2925ff266ea38f8af85c48"
+    }
+  })
+
+  const Config = await rawConfig.json() 
+  const { data : { attributes } } = Config
+
+  return attributes
+}
 
 async function populateTailwind  () {
 
   const tailwindColors = setcolors(await fetchColors())
   const tailwindFonts = setFonts(await fetchFonts())
   const tailwindLogos = setLogos(await fetchLogos())
-  // console.log(tailwindLogos);
+  const config = setConfig(await fetchConfig())
+  // console.log(config);
   
   const tailwindExtend = {
     screens: {      
@@ -222,7 +247,7 @@ async function populateTailwind  () {
       "pastelGrayShadowRight": '5px 5px 0px 0px #A2AFB5',
       "blueShadowRight": "5px 5px 0px 0px #00BEB4"
     },
-    backgroundImage: tailwindLogos
+    backgroundImage: tailwindLogos.css
   }
   
   const tailwindConfig = `/** @type {import('tailwindcss').Config} */
@@ -236,6 +261,7 @@ module.exports = {
     "./forms/**/*.{js,ts,jsx,tsx}",
     "./public/icons/**/*.{svg,jsx}"
   ],
+  safelist: ${config.safelist},
   theme: {
     extend: ${JSON.stringify(tailwindExtend, null, 3)}
   },
@@ -251,6 +277,25 @@ module.exports = {
       console.error(err);
     }
   });
+  fs.writeFile('./multitenant-images.ts', tailwindLogos.img, 'utf-8', (err) => {
+    if (err) {
+      console.error(err);
+    }
+  });
+
+  fs.readFile('./.env.local', 'utf8', function(err, data){
+      
+    // Display the file content
+    // console.log(data);
+    const env = `${data} \n${config.variables}`
+    // console.log(env);
+    fs.writeFile('./.env.local', env, 'utf-8', (err) => {
+      if (err) {
+        console.error(err);
+      }
+    });
+  });
+  
 }
 
 
