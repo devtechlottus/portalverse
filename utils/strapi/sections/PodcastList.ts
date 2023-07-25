@@ -3,7 +3,6 @@ type PodcastItem = {
   podcastItem: {
     data: {
       attributes: {
-        type: "playlist" | "episode" | "album" | "artist" | "track";
         providerId: string;
       };
     };
@@ -24,7 +23,6 @@ export const PODCAST_LIST = `
     podcastItem {
       data {
         attributes {
-          type
           providerId
         }
       }

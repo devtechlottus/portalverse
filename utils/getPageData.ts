@@ -14,18 +14,17 @@ export type PageData = {
   attributes: {
     title: string;
     slug: string;
-    breadcrumb: string;
     sections: Array<ComponentSection>;
   };
 };
 
-export type PageEntityResponse = {
+export type PageEntity = {
   type: "PageEntityResponse";
   data: PageData;
 };
 
 type PageResponse = {
-  page: PageEntityResponse;
+  page: PageEntity;
 };
 
 const formatPageData = async (data: PageResponse): Promise<PageResponse> => {
@@ -60,21 +59,20 @@ const formatPageData = async (data: PageResponse): Promise<PageResponse> => {
   return data;
 };
 
-const getDynamicPageDataById = async (variables: PageVariables) => {
+const getPageData = async (variables: PageVariables) => {
   const pageData = await fetchStrapiGraphQL<PageResponse>(PAGE, variables);
   const formattedData = await formatPageData(pageData);
   return formattedData;
 };
 
 const PAGE = `
-query PageById($id: ID) {
+query Page($id: ID) {
   page(id: $id) {
     type: __typename
     data {
       attributes {
         title
         slug
-        breadcrumb
         sections {
           type: __typename
           ${SECTIONS}
@@ -85,4 +83,4 @@ query PageById($id: ID) {
 }
 `;
 
-export default getDynamicPageDataById;
+export default getPageData;
