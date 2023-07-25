@@ -1,15 +1,15 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import ContentGenerator from "@/utils/ContentGenerator";
-import type { PageData } from "@/utils/getPageDataById";
+import type { PageEntity } from "@/utils/getPageData";
 
-const PageContent = (props: PageData) => {
-  const pageBlocks = props?.attributes?.sections;
+const DynamicPageContent = (props: PageEntity) => {
+  const pageBlocks = props?.data?.attributes?.sections;
 
   return (
     <Fragment>
       <Head>
-        <title>{props?.attributes?.title}</title>
+        <title>{props?.data?.attributes?.title}</title>
       </Head>
       <div className="flex flex-col w-p:space-y-12 w-t:space-y-12 w-d:space-y-18">
         {pageBlocks?.length > 0 ? (
@@ -20,4 +20,4 @@ const PageContent = (props: PageData) => {
   );
 };
 
-export default PageContent;
+export default DynamicPageContent;

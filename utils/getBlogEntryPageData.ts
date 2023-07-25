@@ -5,21 +5,19 @@ import type { BannerSection } from "@/utils/strapi/sections/Banner";
 
 type BlogEntryPageComponentSections = Array<BannerSection>;
 
-export type BlogEntryPageData = {
-  attributes: {
-    slug: string;
-    sections: BlogEntryPageComponentSections;
-    blogPost?: BlogPost;
+export type BlogEntryPageEntity = {
+  type: "BlogEntryPageEntityResponse";
+  data: {
+    attributes: {
+      slug: string;
+      sections: BlogEntryPageComponentSections;
+      blogPost?: BlogPost;
+    };
   };
 };
 
-export type BlogEntryPageEntityResponse = {
-  type: "BlogEntryPageEntityResponse";
-  data: BlogEntryPageData;
-};
-
 export type BlogEntryPageResponse = {
-  blogEntryPage: BlogEntryPageEntityResponse;
+  blogEntryPage: BlogEntryPageEntity;
 };
 
 const getBlogEntryPageData = async () => {

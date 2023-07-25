@@ -14,32 +14,21 @@ const PodcastList = (props: PodcastListSection) => {
           </p>
         ) : null}
         {podcastItems?.length > 0
-          ? <div className="flex flex-col space-y-6">
-              {
-                podcastItems?.map((item, i) => {
-                  const attributes = item?.podcastItem?.data?.attributes;
-                  const type = attributes?.type;
-                  const id = attributes?.providerId;
-                  const format = item?.format || "compact";
-
-                  return (
-                    <div key={`section-articles-${i}`}>
-                      <Spotify
-                        data={{
-                          config: {
-                            type,
-                            id,
-                            format,
-                          },
-                        }}
-                      />
-                    </div>
-                  );
-                })
-              }
-            </div>
-          : null
-        }
+          ? podcastItems?.map((podcastItem, i) => (
+              <div key={`section-articles-${i}`}>
+                <Spotify
+                  data={{
+                    config: {
+                      type: "episode",
+                      id: podcastItem?.podcastItem?.data?.attributes
+                        ?.providerId,
+                      format: podcastItem?.format,
+                    },
+                  }}
+                />
+              </div>
+            ))
+          : null}
       </Container>
     </section>
   );

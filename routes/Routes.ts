@@ -1,9 +1,9 @@
-const Routes = {
+const Routes: any = {
   "oferta-educativa": [
     { params:
       {
         "level": "bachillerato",
-        "levelRoute": "oferta-educativa/bachillerato",
+        "levelRoute": "oferta-educativa/bachillerato/bachillerato",
         "config": {
           title: "Bachillerato",
           promo: {

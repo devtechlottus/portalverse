@@ -7,12 +7,12 @@ import BannerPortalverseWrapper from "@/components/BannerPortalverseWrapper";
 import Button from "@/old-components/Button/Button";
 import Editor from "@/old-components/Editor";
 import Image from "@/old-components/Image";
-import type { BlogEntryPageData } from "@/utils/getBlogEntryPageData";
+import type { BlogEntryPageEntity } from "@/utils/getBlogEntryPageData";
 
-const BlogEntryPageContent = (props: BlogEntryPageData) => {
+const BlogEntryPageContent = (props: BlogEntryPageEntity) => {
   const router = useRouter();
 
-  const attributes = props?.attributes;
+  const attributes = props?.data?.attributes;
   const parentSlug = attributes?.slug;
 
   const blogPost = attributes?.blogPost?.attributes;

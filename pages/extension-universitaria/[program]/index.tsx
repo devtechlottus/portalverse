@@ -1,11 +1,19 @@
-import Head from "next/head";
-import { useRouter } from "next/router";
-import { Fragment } from "react";
-import ContentLayout from "@/layouts/Content.layout";
-import RichtText from "@/old-components/Richtext/Richtext";
-import Image from "@/old-components/Image";
+import Head from "next/head"
+import { useRouter } from "next/router"
+import HeaderFooterLayout from "@/layouts/HeaderFooter.layout"
+import ContentFullLayout from "@/layouts/ContentFull.layout"
+import NextPageWithLayout from "@/types/Layout.types"
+import ContentLayout from "@/layouts/Content.layout"
+import RichtText from "@/old-components/Richtext/Richtext"
+import Image from "@/old-components/Image"
+import CardProgram from "@/old-components/CardProgram/CardProgram"
+import { getDataPageFromJSON } from "@/utils/getDataPage"
+import Routes from "@/routes/Routes"
+import EducacionContinuaForm from "@/forms/container/EducacionContinuaForm"
+import OpenFormInit from "@/forms/fixtures/openform"
+import Link from "next/link"
 
-const DetalleCursoEducacionContinua = ({ sections, meta }: any) => {
+const DetalleCursoEducacionContinua: NextPageWithLayout = ({ sections, meta }: any) => {
 
   const router = useRouter()
 
@@ -13,7 +21,7 @@ const DetalleCursoEducacionContinua = ({ sections, meta }: any) => {
     <Head>
       <title>{ meta.title }</title>
     </Head>
-    <Fragment>
+    <HeaderFooterLayout breadcrumbs={true}>
       <ContentLayout classNames="gap-6">
         <div className="col-span-6 w-t:col-span-4 w-p:col-span-4">
           <p className="font-Poppins font-bold text-13 w-t:text-8.5 w-p:text-7.5 leading-13 w-t:leading-[111%] w-p:leading-[125%] mb-6">{sections.head.title}</p>
@@ -62,8 +70,24 @@ const DetalleCursoEducacionContinua = ({ sections, meta }: any) => {
           </section>
         </ContentLayout>
       </ContentFullLayout> */}
-    </Fragment>
+    </HeaderFooterLayout>
   </>
-};
+}
+export async function getStaticPaths() {
+  const { params:{ programs } } = Routes["extension-universitaria"]
+  return {
+    paths: [...programs],
+    fallback: false,
+  }
+}
+// `getStaticPaths` requires using `getStaticProps`
+export async function getStaticProps(context: any) {
+  const { params:{ program }} = context
+  const { sections, meta } = await getDataPageFromJSON(`extension-universitaria/${program}.json`);
 
-export default DetalleCursoEducacionContinua;
+  return {
+    props: { sections, meta }
+  }
+}
+
+export default DetalleCursoEducacionContinua
