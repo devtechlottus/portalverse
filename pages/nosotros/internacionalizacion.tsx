@@ -9,14 +9,16 @@ import NextPageWithLayout from "@/types/Layout.types"
 import Slider from "@/old-components/SliderPortalverse"
 import RichtText from "@/old-components/Richtext/Richtext"
 import PromoLink from "@/old-components/PromoLink"
-import CardWebsite from "@/old-components/CardWebsite"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Rainbow from "@/old-components/Rainbow"
 import Modal from "@/old-components/Modal/Modal"
 import ContentInsideLayout from "@/layouts/ContentInside.layout"
+import BlogPosts from "@/components/sections/BlogPosts"
+import { formatBlogPostsSection } from "@/utils/strapi/sections/BlogPosts"
+import type { BlogPostsSection } from "@/utils/strapi/sections/BlogPosts"
 
 
-const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
+const Internacionalizacion = ({ sections, meta, blogPostsSection }: {sections: any, meta: any, blogPostsSection: BlogPostsSection}) => {
 
   const router = useRouter();
   // Modal functionality begin
@@ -110,6 +112,9 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
           }
         </section> */}
       </ContentLayout>
+      <div className="w-p:mt-12 w-t:mt-12 w-d:mt-18">
+        <BlogPosts {...blogPostsSection} />
+      </div>
     </HeaderFooterLayout>
   </>
 }
@@ -117,6 +122,29 @@ const Internacionalizacion: NextPageWithLayout = ({ sections, meta }: any) => {
 // `getStaticPaths` requires using `getStaticProps`
 export async function getStaticProps(context: any) {
   const { sections, meta } = await getDataPageFromJSON('internacionalizacion.json');
+
+  /**
+   * This is a representation of the section data that will come from Strapi once
+   * this page can be fully dynamically generated. This will show the 3 latest blog
+   * entries under the "Internacionalziación" category.
+   */
+  const blogPostsSection: BlogPostsSection = {
+    type: "ComponentSectionsBlogPosts",
+    title: "Artículos sobre UANE Internacional",
+    subtitle: "",
+    description: "",
+    maxEntries: 3,
+    sort: "latest",
+    category: {
+      data: {
+        attributes: {
+          title: "Internacionalización",
+        }
+      }
+    }
+  }
+
+  const formattedBlogPostsSection = await formatBlogPostsSection(blogPostsSection);
 
   // redirect not avaliable page
   if (!!meta.hidden) {
@@ -126,7 +154,7 @@ export async function getStaticProps(context: any) {
   }
 
   return {
-    props: { sections, meta }
+    props: { sections, meta, blogPostsSection: formattedBlogPostsSection }
   }
 }
 
