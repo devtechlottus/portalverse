@@ -91,16 +91,16 @@ const Internacionalizacion = ({ sections, meta, blogPostsSection }: {sections: a
       <ContentLayout classNames="mt-6 w-d:mt-18">
         <div className="col-span-12">
           <p className="font-Poppins font-bold text-10 w-t:text-6 w-p:text-6 leading-[125%] mb-6">{sections.alliances.title}</p>
-        </div>
-        <section className="grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1 mb-12 w-t:mb-12 w-p:mb-6">
+          <section className="grid w-d:grid-cols-4 gap-6 w-t:grid-cols-2 w-p:grid-cols-1">
           {
-           sections.alliances.alliances.map((item:any, i:number) => <section key={`section-alliances-${i}`}>
-            <PromoLink data={item} onClick={() => {
-              handleOpenModal(item.content)
-            }}/>
-           </section>)
-          }
-        </section>
+            sections.alliances.alliances.map((item:any, i:number) => <section key={`section-alliances-${i}`}>
+              <PromoLink data={item} onClick={() => {
+                handleOpenModal(item.content)
+              }}/>
+            </section>)
+            }
+          </section>
+        </div>
       </ContentLayout>
       <div className="w-p:mt-12 w-t:mt-12 w-d:mt-18">
         <BlogPosts {...blogPostsSection} />
