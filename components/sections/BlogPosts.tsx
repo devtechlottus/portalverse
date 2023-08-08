@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import Container from "@/layouts/Container.layout";
 import BlogPostCardWrapper from "@/components/BlogPostCardWrapper";
-import { BlogPostsSection } from "@/utils/strapi/sections/BlogPosts";
-
+import type { BlogPostsSection } from "@/utils/strapi/sections/BlogPosts";
 
 const BlogPosts = (props: BlogPostsSection) => {
 
