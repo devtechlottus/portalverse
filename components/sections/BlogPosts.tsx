@@ -19,7 +19,7 @@ const BlogPosts = (props: BlogPostsSection) => {
         <div className="flex flex-col space-y-6">
         {
             title
-              ? <div className="col-span-12 w-t:col-span-8 w-p:col-span-4 w-t:mt-6 w-p:mt-6">
+              ? <div className="col-span-12 w-t:col-span-8 w-p:col-span-4">
                   <p className="font-Poppins font-bold text-8.5 w-t:text-6 w-p:text-6 leading-[111%] w-t:leading-[125%] w-p:leading-[125%]">
                     {title}
                   </p>
