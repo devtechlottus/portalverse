@@ -15,7 +15,6 @@ const getBlogPosts = async (variables: BlogPostsVariables = {}) => {
   const sort = variables?.sort || "publication_date:desc";
   const category = variables?.category;
 
-
   const data = await fetchStrapiGraphQL<BlogPostsData>(BLOG_POSTS, {
     start,
     limit,
