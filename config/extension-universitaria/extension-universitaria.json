@@ -1,8 +1,8 @@
 {
-  "meta":{
-    "title":"Extensión universitaria",
+  "meta": {
+    "title": "Extensión universitaria",
     "description": "",
-    "keywords":""
+    "keywords": ""
   },
   "sections": {
     "head": {
@@ -20,19 +20,19 @@
         }
       }
     },
-    "nextCourses":{
+    "nextCourses": {
       "title": "Próximos cursos",
-      "nextCourses":[
+      "nextCourses": [
         {
           "id": "123",
           "title": "Adobe Photoshop",
-          "link":{
+          "link": {
             "text": "Ver más",
             "size": "large",
             "isBold": false,
             "disabled": false,
-            "id":"",
-            "icon":"arrow_forward"
+            "id": "",
+            "icon": "arrow_forward"
           },
           "image": {
             "desk": {
@@ -49,13 +49,13 @@
         {
           "id": "123",
           "title": "Politicas Publicas en Gobernanza",
-          "link":{
+          "link": {
             "text": "Ver más",
             "size": "large",
             "isBold": false,
             "disabled": false,
-            "id":"",
-            "icon":"arrow_forward"
+            "id": "",
+            "icon": "arrow_forward"
           },
           "image": {
             "desk": {
@@ -72,13 +72,13 @@
         {
           "id": "123",
           "title": "Análisis de Datos",
-          "link":{
+          "link": {
             "text": "Ver más",
             "size": "large",
             "isBold": false,
             "disabled": false,
-            "id":"",
-            "icon":"arrow_forward"
+            "id": "",
+            "icon": "arrow_forward"
           },
           "image": {
             "desk": {
@@ -188,18 +188,18 @@
       "sections": [
         {
           "title": "Marketing y Comunicación",
-          "cursos":[
+          "cursos": [
             {
               "hidden": false,
               "id": "123",
               "title": "Mercadotecnia Aplicada a Entornos Virtuales",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -217,13 +217,13 @@
               "hidden": false,
               "id": "123",
               "title": "Estrategias de Tiendas en Línea",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -241,13 +241,13 @@
               "hidden": false,
               "id": "123",
               "title": "Psicología y Comunicación",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -265,18 +265,18 @@
         },
         {
           "title": "Gerencia y Negocios",
-          "cursos":[
+          "cursos": [
             {
               "hidden": false,
               "id": "123",
               "title": "Gerencia y Gestión Deportiva",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -294,13 +294,13 @@
               "hidden": false,
               "id": "123",
               "title": "Liderazgo y Trabajo en Equipo",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -318,13 +318,13 @@
               "hidden": false,
               "id": "123",
               "title": "BEDU Curso en Emprendimiento",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -342,13 +342,13 @@
               "hidden": false,
               "id": "123",
               "title": "Diplomado en Desarrollo del Talento Humano",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -366,13 +366,13 @@
               "hidden": false,
               "id": "123",
               "title": "Diplomado en Globalización",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -390,18 +390,18 @@
         },
         {
           "title": "Ingeniería y tecnología",
-          "cursos":[
+          "cursos": [
             {
               "hidden": false,
               "id": "123",
               "title": "Diplomado en Innovación y Control de Calidad",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -419,13 +419,13 @@
               "hidden": false,
               "id": "123",
               "title": "BEDU Diplomado en Ciencia de Datos",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -443,13 +443,13 @@
               "hidden": false,
               "id": "123",
               "title": "BEDU Curso en Diseño de Productos Digitales",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -472,13 +472,13 @@
               "hidden": false,
               "id": "123",
               "title": "Diplomado en Docencia en Linea",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -496,13 +496,13 @@
               "hidden": false,
               "id": "123",
               "title": "Diseño Universal para el Aprendizaje y su Aplicación en el Aula (PRODIS)",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -520,13 +520,13 @@
               "hidden": false,
               "id": "123",
               "title": "Estimulación Sensorial en Alumnado con Necesidades de Apoyo Educativo (PRODIS)",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -544,13 +544,13 @@
               "hidden": false,
               "id": "123",
               "title": "Estrategias para Potenciar la Comunicación a través de los Sistemas Aumentativos y Alternativos de Comunicación (SAAC) (PRODIS)",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -568,13 +568,13 @@
               "hidden": false,
               "id": "123",
               "title": "Creación de Recursos Adaptados a través de las TIC en el Aula (PRODIS)",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -592,13 +592,13 @@
               "hidden": false,
               "id": "123",
               "title": "Metodología de la Investigación Aplicada a la Educación (PRODIS)",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -620,14 +620,14 @@
             {
               "hidden": false,
               "id": "123",
-              "title": "Derechos Humanos y Sostenibilidad",
-              "link":{
+              "title": "Diplomado internacional en Derechos Humanos y Sostenibilidad",
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -643,14 +643,14 @@
             },
             {
               "id": "123",
-              "title": "Políticas Públicas en Gobernanza",
-              "link":{
+              "title": "Diplomado internacional en Políticas Públicas en Gobernanza",
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -667,14 +667,14 @@
             {
               "hidden": false,
               "id": "123",
-              "title": "Comunicación Pública y Gestión de la Reputación",
-              "link":{
+              "title": "Diplomado internacional en Comunicación Pública y Gestión de la Reputación",
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -697,13 +697,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel A1",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -721,13 +721,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel A2",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -745,13 +745,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel B1",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -769,13 +769,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel B2",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -793,13 +793,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel C1",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -817,13 +817,13 @@
               "hidden": false,
               "id": "123",
               "title": "Cursos Inglés Pearson Nivel C1+",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -841,13 +841,13 @@
               "hidden": false,
               "id": "123",
               "title": "Examenes Diagnóstico Inglés",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -865,13 +865,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel 1) Papel",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -889,13 +889,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel 2) Papel",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -913,13 +913,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel 3) Papel",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -937,13 +937,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel 4) Papel",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -961,13 +961,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel 5) Papel",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -985,13 +985,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel A1) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1009,13 +1009,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel A2) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1033,13 +1033,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel B1) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1057,13 +1057,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel B2) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1081,13 +1081,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel C1) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1105,13 +1105,13 @@
               "hidden": false,
               "id": "123",
               "title": "Certificacion Internacional (Nivel C2) Online",
-              "link":{
+              "link": {
                 "text": "Ver más",
                 "size": "large",
                 "isBold": false,
                 "disabled": false,
-                "id":"",
-                "icon":"arrow_forward"
+                "id": "",
+                "icon": "arrow_forward"
               },
               "image": {
                 "desk": {
@@ -1129,6 +1129,5 @@
         }
       ]
     }
-
   }
 }
