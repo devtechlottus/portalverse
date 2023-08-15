@@ -1,11 +1,11 @@
 import { useRouter } from "next/router";
 import Container from "@/layouts/Container.layout";
 import CardProgram from "@/old-components/CardProgram/CardProgram";
-import cn from "classnames";
 import type { ContEdProgramsSection } from "@/utils/strapi/sections/ContEdPrograms";
 
 const ContEdPrograms = (props: ContEdProgramsSection) => {
-  const categories = props?.categories?.data;
+  const categories = props?.knowledgeAreas?.data;
+  const programParentPageSlug = props?.programParentPageSlug;
 
   const router = useRouter();
 
@@ -36,6 +36,7 @@ const ContEdPrograms = (props: ContEdProgramsSection) => {
                                 alt: program?.attributes?.image?.data?.attributes?.alternativeText || "",
                               }}
                               title={program?.attributes?.name}
+                              subtitle = {program?.attributes?.programCategory?.data?.attributes?.name}
                               link={{
                                 text: "Ver más",
                                 size: "large",
@@ -44,7 +45,7 @@ const ContEdPrograms = (props: ContEdProgramsSection) => {
                                 disabled: false,
                                 icon: "arrow_forward"
                               } as any}
-                              onClick={() => router.push(`/extension-universitaria/${program?.attributes?.slug}`)}
+                              onClick={() => router.push(`/${programParentPageSlug}/${program?.attributes?.slug}`)}
                             />
                           );
                         })
