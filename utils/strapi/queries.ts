@@ -60,7 +60,7 @@ export type ComponentSection =
   | TextContentSection
 
 export const SECTIONS = `
-${ACCORDION_SECTION}
+  ${ACCORDION_SECTION}
   ${ALERT}
   ${BANNER}
   ${BLOG_POSTS_PODCAST}
