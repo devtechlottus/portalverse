@@ -172,21 +172,6 @@
       "route": "administracion-empresas-turisticas"
     },
     {
-      "title": "Ingeniería Industrial y de Sistemas",
-      "config": {
-        "nombre": "Ingeniería Industrial y de Sistemas",
-        "modalidad": ["Presencial", "Online", "Flex"],
-        "areaConocimiento": ["Ciencias Exactas"],
-        "campus": [ "Saltillo", "Monterrey", "Matamoros", "Torreón", "Piedras Negras", "Monclova" ],
-        "nivel": ["Licenciatura"],
-        "image": {
-          "src": "https://assets.staging.bedu.org/UANE/licenciatura_industrial_y_de_sistemas_9bb53ebe5c.jpg",
-          "alt": "licenciatura"
-        }
-      },
-      "route": "ingenieria-industrial-sistemas"
-    },
-    {
       "title": "Licenciatura en Ciencias de la Educación",
       "config": {
         "nombre": "Licenciatura en Ciencias de la Educación",
