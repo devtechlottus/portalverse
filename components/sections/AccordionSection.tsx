@@ -5,10 +5,10 @@ import parseEditorRawData from "@/utils/parseEditorRawData";
 import type { AccordionSection } from "@/utils/strapi/sections/Accordion";
 
 const AccordionComponent = (props: AccordionSection) => {
-  
+
   const { title, subtitle, description, accordionItems } = props;
 
-  const formatedDescription = parseEditorRawData(description);
+  const formatedDescription = parseEditorRawData(description)
 
   const items = accordionItems?.map((item) => {
     const richTextMarkup = parseEditorRawData(item?.content);
@@ -20,8 +20,8 @@ const AccordionComponent = (props: AccordionSection) => {
       content: "<p>content</p>",
       //@ts-ignore
       answer: richTextMarkup,
-      id: "",
-    };
+      id: ""
+    }
     return formattedItem;
   });
 
@@ -29,24 +29,24 @@ const AccordionComponent = (props: AccordionSection) => {
     <section>
       <Container>
         <div className="flex flex-col space-y-6">
-          {title ? (
-            <h3 className="font-Poppins font-bold leading-[125%] w-p:text-6 w-t:text-8.5 text-10">
-              {title}
-            </h3>
-          ) : null}
-          {subtitle ? (
-            <p className="font-Poppins font-semibold leading-[130%] w-p:text-4 w-t:text-4.5 text-5.5">
-              {subtitle}
-            </p>
-          ) : null}
-          {description ? (
-            <div>
-              <RichtText
-                data={{ content: formatedDescription }}
-                classNames="text-xl"
-              />
-            </div>
-          ) : null}
+          {
+            title
+              ? <h3 className="font-Poppins font-bold leading-[125%] w-p:text-6 w-t:text-8.5 text-10">
+                {title}
+              </h3>
+              : null}
+          {
+            subtitle
+              ? <p className="font-Poppins font-semibold leading-[130%] w-p:text-4 w-t:text-4.5 text-5.5">
+                {subtitle}
+              </p>
+              : null
+          }
+          {
+            description
+              ? <div><RichtText data={{ content: formatedDescription }} classNames="text-xl" /></div>
+              : null
+          }
           <div>
             <Accordion data={{ items: items }} />
           </div>
@@ -54,6 +54,6 @@ const AccordionComponent = (props: AccordionSection) => {
       </Container>
     </section>
   );
-};
+}
 
-export default AccordionComponent;
+export default AccordionComponent
