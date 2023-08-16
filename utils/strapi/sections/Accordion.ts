@@ -12,13 +12,13 @@ export type AccordionSection = {
 };
 
 export const ACCORDION_SECTION = `
-  ...on ComponentSectionsAccordion {
+...on ComponentSectionsAccordion {
+  title
+  subtitle
+  description
+  accordionItems {
     title
-    subtitle
-    description
-    accordionItems {
-      title
-      content
-    }
+    content
   }
-  `;
+}
+`;
