@@ -90,7 +90,6 @@ const Routes = {
           { params: { "program": "psicologia", "nameProgram": "Licenciatura en Psicología" } },
           { params: { "program": "administracion-empresas-turisticas", "nameProgram": "Licenciatura en Administración de Empresas Turísticas" } },
           { params: { "program": "mecanica-procesos-inyeccion", "nameProgram": "Ingeniería Mecánica en Procesos de Inyección" } },
-          { params: { "program": "ingenieria-industrial-sistemas", "nameProgram": "Ingeniería Industrial y de Sistemas" } },
           { params: { "program": "ciencias-educacion", "nameProgram": "Licenciatura en Ciencias de la Educación" } },
           { params: { "program": "nutricion", "nameProgram": "Licenciatura en Nutrición" } },
           { params: { "program": "l-derecho", "nameProgram": "Licenciatura en Derecho" } },
