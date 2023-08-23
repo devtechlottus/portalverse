@@ -175,6 +175,7 @@ export const formatContEdProgramsSection = async (
   section: ContEdProgramsSection
 ) => {
   let staticCategories: Array<StaticContinuousEducationCategory> = [];
+
   try {
     const continuousEducationStaticPageData = await getDataPageFromJSON(
       "extension-universitaria/extension-universitaria.json"
