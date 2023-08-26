@@ -12,9 +12,9 @@ type ContinuousEducationProgram = {
       data: {
         attributes: {
           name: string;
-        }
-      }
-    }
+        };
+      };
+    };
     image: StrapiImage;
     level: {
       data: {
@@ -133,9 +133,9 @@ const formatStaticProgramCategory = (
               level: {
                 data: {
                   attributes: {
-                    title: "Educación Continua"
-                  }
-                }
+                    title: "Educación Continua",
+                  },
+                },
               },
               programCategory: {
                 data: {
@@ -174,11 +174,18 @@ const hasAtLeastOneProgram = (category: StaticContinuousEducationCategory) => {
 export const formatContEdProgramsSection = async (
   section: ContEdProgramsSection
 ) => {
-  const continuousEducationStaticPageData = await getDataPageFromJSON(
-    "extension-universitaria/extension-universitaria.json"
-  );
-  const staticCategories = continuousEducationStaticPageData?.sections
-    ?.extension?.sections as Array<StaticContinuousEducationCategory>;
+  let staticCategories: Array<StaticContinuousEducationCategory> = [];
+
+  try {
+    const continuousEducationStaticPageData = await getDataPageFromJSON(
+      "extension-universitaria/extension-universitaria.json"
+    );
+    staticCategories = continuousEducationStaticPageData?.sections?.extension
+      ?.sections as Array<StaticContinuousEducationCategory>;
+  } catch (error) {
+    // staticCategories remains empty
+  }
+
   const formattedStaticCategories = staticCategories
     ?.map(excludeHiddenPrograms)
     ?.filter(hasAtLeastOneProgram)
@@ -192,7 +199,7 @@ export const formatContEdProgramsSection = async (
         program?.attributes?.level?.data?.attributes?.title ===
         "Educación Continua"
     );
-    const newObj = {...knowledgeArea}
+    const newObj = { ...knowledgeArea };
     newObj.attributes.programs.data = filteredPrograms;
     return newObj;
   });
