@@ -12,7 +12,7 @@
     "export": "next build && next-sitemap && next export",
     "postbuild": "next-sitemap",
     "analyze": "ANALYZE=true next build",
-    "cleanStaticPrograms":"rm -rf routes/*.ts && rm -rf config/*/*/**.json"
+    "cleanStaticPrograms":"rm -rf routes && rm -rf config"
   },
   "dependencies": {
     "@editorjs/checklist": "^1.4.0",
