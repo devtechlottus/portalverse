@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
   return getLayout(
     <>
-      <Script
+      {/* <Script
         id="fb-pixel"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
             fbq('track', 'PageView');
           `,
         }}
-      />
+      /> */}
       <Component {...pageProps} />
     </>)
 }
