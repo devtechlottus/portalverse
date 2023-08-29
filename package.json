@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node ./utils/fetchStaticContent.js",
     "dev": "next dev",
+    "prebuild": "node ./utils/fetchStaticContent.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -50,6 +52,7 @@
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.12",
+    "dotenv": "^16.3.1",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "next-sitemap": "^3.1.30",
@@ -63,6 +66,6 @@
     "path": false
   },
   "engines": {
-    "node": ">=14.0.0 <= 18.16.1"
+    "node": ">=14.0.0 <= 18.17.1"
   }
 }

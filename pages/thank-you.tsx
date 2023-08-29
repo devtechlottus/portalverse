@@ -9,8 +9,7 @@ import NextPageWithLayout from "@/types/Layout.types"
 import { getDataPageFromJSON } from "@/utils/getDataPage"
 import Icon from "@/old-components/Icon"
 import Video from "@/old-components/Video"
-import * as fbq from '../lib/fb-pixel'
-
+// import * as fbq from '../lib/fb-pixel'
 
 const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
 
@@ -38,11 +37,9 @@ const ThankYouPage: NextPageWithLayout = ({ sections, meta }: any) => {
     setFlow('gral')
   }, [router])
 
-  useEffect(() => {
-    fbq.event('CompleteRegistration')
-  }, [])
-
-
+  // useEffect(() => {
+  //   fbq.event('CompleteRegistration')
+  // }, []);
 
   return <>
     <Head>
