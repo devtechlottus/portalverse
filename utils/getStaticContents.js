@@ -39,6 +39,7 @@ async function fetchStrapiGraphQL(query) {
 
 async function getStaticContents() {
   const response = await fetchStrapiGraphQL(STATIC_CONTENTS);
+  console.log("fetchStaticContents: GET STATIC CONTENTS", response)
 
   return response?.staticContents?.data;
 };
