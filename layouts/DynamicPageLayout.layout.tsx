@@ -4,8 +4,8 @@ import Header from "@/old-components/HeaderPortalverse/HeaderPortalverse"
 import HeaderFooterLayoutProps from "@/types/HeaderFooterLayout.types"
 import Breadcrumbs from "@/old-components/Breadcrumbs/BreadcrumbPortalverse"
 import ContentLayout from "@/layouts/Content.layout"
-import HeaderConf from "@/config/header.json"
-import FooterConf from "@/config/footer.json"
+import HeaderConf from "../config/header.json"
+import FooterConf from "../config/footer.json"
 
 export default function DynamicPageLayout({ children, breadcrumbs = true }: HeaderFooterLayoutProps) {
 
