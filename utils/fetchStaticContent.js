@@ -3,9 +3,7 @@ const { mkdir } = require('fs/promises')
 const { getStaticContents } = require("./getStaticContents")
 
 async function fetchStaticContents() {
-  console.log("fetchStaticContents: FETCHING")
   const staticContents = await getStaticContents();
-  console.log("FETCHED: ", staticContents);
   staticContents?.forEach((staticContent) => {
     populateStaticContent(staticContent);
   });
